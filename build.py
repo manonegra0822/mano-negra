@@ -28,8 +28,8 @@ ROOT = Path(__file__).resolve().parent
 TZ = ZoneInfo("America/Argentina/Cordoba")
 UA = "Mozilla/5.0 (compatible; ManoNegraBot/1.0; resumen de titulares con enlace a la fuente)"
 
-MAX_NOTAS = 30               # cuántas notas muestra la página
-MAX_HORAS = 36               # antigüedad máxima de una nota
+MAX_NOTAS = 40               # cuántas notas muestra la página
+MAX_HORAS = 48               # antigüedad máxima de una nota (y cuánto se conserva)
 MAX_PALABRAS = 65            # largo del extracto (medios abiertos)
 MAX_PALABRAS_SUSCRIPCION = 40  # largo del extracto (medios con suscripción)
 
@@ -360,7 +360,9 @@ def main():
         notas.append({
             "id": hashlib.sha1(rep["url"].encode()).hexdigest()[:10],
             "seccion": rep["seccion"],
+            "rel": round(rel, 1),
             "relevancia": round(rel, 1),
+            "fecha": (rep["fecha"] or ahora).astimezone(TZ).isoformat(timespec="seconds"),
             "hora": hora,
             "titulo": rep["titulo"],
             "fuente": rep["fuente"],
@@ -373,6 +375,34 @@ def main():
             "otros": [{"fuente": x["fuente"], "titulo": x["titulo"], "url": x["url"]} for x in g if x is not rep],
         })
 
+    # Notas de la corrida anterior que siguen dentro de la ventana de 48 horas
+    previo = leer_json(args.json, {})
+    vistas_url = {u for n in notas for u in [n["url"]] + [o["url"] for o in n["otros"]]}
+    vistos_tit = {normalizar(n["titulo"]) for n in notas}
+    arrastradas = 0
+    for v in previo.get("notas", []):
+        try:
+            f = dt.datetime.fromisoformat(v.get("fecha") or previo.get("actualizado"))
+        except Exception:
+            continue
+        if (ahora - f.astimezone(TZ)).total_seconds() / 3600 > MAX_HORAS:
+            continue
+        if v.get("url") in vistas_url or normalizar(v.get("titulo", "")) in vistos_tit:
+            continue
+        if any(o and (o in normalizar(v.get("url", "")) or o in normalizar(v.get("titulo", ""))) for o in ocultar):
+            continue
+        v["fecha"] = f.astimezone(TZ).isoformat(timespec="seconds")
+        v["rel"] = v.get("rel", v.get("relevancia", 0))
+        notas.append(v)
+        arrastradas += 1
+    print(f"[ok] {arrastradas} notas conservadas de la corrida anterior (ventana de {MAX_HORAS} h)")
+
+    # Hoy primero: lo de ayer queda debajo de lo de hoy y la nota del día siempre es reciente
+    for n in notas:
+        f = dt.datetime.fromisoformat(n["fecha"]).astimezone(TZ)
+        n["dia"] = max(0, (ahora.date() - f.date()).days)
+        viejo = (ahora - f).total_seconds() / 3600 > 24
+        n["relevancia"] = round(n["rel"] - (500 if viejo else 0), 1)
     notas.sort(key=lambda n: -n["relevancia"])
     notas = notas[:MAX_NOTAS]
     if not notas:
@@ -396,9 +426,15 @@ def main():
             if img:
                 n["imagen"], n["imagen_credito"] = img, n["fuente"]
     print(f"[ok] {sum(1 for n in notas if n['imagen'])} de {len(notas)} notas con imagen")
+    cache_rostros = {v["imagen"]: v.get("rostros") for v in previo.get("notas", []) if v.get("imagen") and "rostros" in v}
     # Encuadre: si hay rostros, la página centra la foto en ellos para no cortarlos
     for n in notas:
-        n["rostros"] = detectar_rostros(n["imagen"]) if n["imagen"] else None
+        if not n["imagen"]:
+            n["rostros"] = None
+        elif n["imagen"] in cache_rostros:
+            n["rostros"] = cache_rostros[n["imagen"]]
+        else:
+            n["rostros"] = cache_rostros[n["imagen"]] = detectar_rostros(n["imagen"])
     print(f"[ok] {sum(1 for n in notas if n['rostros'])} fotos con rostros detectados" + ("" if _DETECTOR else " (detector no instalado)"))
 
     datos = {"actualizado": ahora.isoformat(timespec="seconds"), "notas": notas}
