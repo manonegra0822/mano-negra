@@ -1,0 +1,46 @@
+name: Actualizar notas
+
+on:
+  # Todos los días a las 08:00 de Argentina (11:00 UTC)
+  schedule:
+    - cron: "0 11 * * *"
+  # Cada vez que se cambia la lista de medios, las palabras o la curaduría
+  push:
+    paths:
+      - sources.json
+      - keywords.json
+      - curaduria.json
+  # Botón "Run workflow" en la pestaña Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Armar las notas del día
+        run: python build.py
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "mano-negra-bot"
+          git config user.email "mano-negra-bot@users.noreply.github.com"
+          git add index.html news.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Actualizar notas"
+            git push
+          fi

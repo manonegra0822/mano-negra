@@ -1,0 +1,5 @@
+{
+  "ayuda": "Para tu revisión diaria. 'ocultar': lista de frases o partes de un enlace; las notas que las contengan no se muestran. 'fijar': enlace completo de la nota que querés como nota del día (tiene que estar en el feed de hoy).",
+  "ocultar": [],
+  "fijar": ""
+}
