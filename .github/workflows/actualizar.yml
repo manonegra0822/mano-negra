@@ -10,6 +10,7 @@ on:
       - sources.json
       - keywords.json
       - curaduria.json
+      - build.py
   # Botón "Run workflow" en la pestaña Actions
   workflow_dispatch:
 

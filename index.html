@@ -164,12 +164,19 @@
 
   .headline, .note-title, .quick p { overflow-wrap: break-word; }
 
+  /* Foto de la nota: solo en computadora */
+  .foto { margin: 28px 0 0; max-width: 760px; }
+  .foto img { display: block; width: 100%; height: clamp(200px, 26vh, 320px); object-fit: cover; background: var(--paper-2); }
+  .foto figcaption { margin-top: 6px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
+  .foto a { color: var(--ink); text-underline-offset: 3px; }
+
   @media (max-width: 880px) {
     .shell { grid-template-columns: minmax(0, 1fr); grid-template-areas: "mast" "lead" "list"; grid-template-rows: auto; }
     .mast, .list { padding-inline-end: 0; border-inline-end: 0; }
     .list { border-top: 2px solid var(--ink); margin-top: 16px; }
     .lead { position: static; max-height: none; overflow: visible; padding-block: 24px 8px; padding-inline-start: 0; }
     .headline { max-width: none; }
+    .foto { display: none; }
     .brand-name { font-size: 2.7rem; }
     .shell { padding-block: 16px 32px; }
     .filters button { padding: 10px 0; }
@@ -618,6 +625,11 @@
     try { var x = new URL(u); return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null; }
     catch (e) { return null; }
   }
+  function safeImg(u) {
+    try { var x = new URL(u); return x.protocol === 'https:' ? x.href : null; }
+    catch (e) { return null; }
+  }
+  var desktop = window.matchMedia('(min-width: 881px)');
   function byId(id) { return notes.filter(function (n) { return n.id === id; })[0]; }
 
   // Fecha
@@ -752,9 +764,31 @@
     }
     box.appendChild(act);
     box.appendChild(el('p', 'legal', 'Extracto publicado por el medio. Para la nota completa, usar el enlace de arriba.'));
+
+    // La foto se pide solo en computadora; en el celular no se descarga
+    var src = n.imagen && desktop.matches ? safeImg(n.imagen) : null;
+    if (src) {
+      var fig = el('figure', 'foto');
+      var img = el('img');
+      img.alt = 'Imagen de la nota';
+      img.loading = 'lazy';
+      img.referrerPolicy = 'no-referrer';
+      img.addEventListener('error', function () { fig.remove(); });
+      img.src = src;
+      fig.appendChild(img);
+      var cap = el('figcaption', null, 'Imagen: ' + (n.imagen_credito || n.fuente) + '. ');
+      if (href) {
+        var ver = el('a', null, 'Ver la nota original');
+        ver.href = href; ver.target = '_blank'; ver.rel = 'noopener noreferrer';
+        cap.appendChild(ver);
+      }
+      fig.appendChild(cap);
+      box.appendChild(fig);
+    }
   }
 
   renderFilters(); renderList(); renderLead();
+  if (desktop.addEventListener) desktop.addEventListener('change', renderLead);
 })();
 </script>
 </body>

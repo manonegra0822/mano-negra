@@ -18,6 +18,7 @@ import re
 import sys
 import unicodedata
 import urllib.request
+from urllib.parse import urljoin, urlparse
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -104,6 +105,58 @@ def texto_hijo(el, nombres):
     return ""
 
 
+IMG_NO = re.compile(r"logo|favicon|avatar|gravatar|sprite|1x1|pixel|spacer|blank|placeholder", re.I)
+
+
+def imagen_valida(url):
+    """Solo se aceptan imágenes https que no parezcan íconos o logos."""
+    if not url:
+        return None
+    url = url.strip()
+    if url.startswith("http://"):
+        url = "https://" + url[len("http://"):]
+    p = urlparse(url)
+    if p.scheme != "https" or not p.netloc or len(url) > 600 or IMG_NO.search(p.path):
+        return None
+    return url
+
+
+def buscar_imagen(it):
+    """Imagen que el medio publica en el feed: media:content, media:thumbnail,
+    enclosure o la primera etiqueta img del contenido."""
+    for h in it.iter():
+        if etiqueta(h) in ("content", "thumbnail", "enclosure") and h.get("url"):
+            tipo = (h.get("type") or "").lower()
+            medio = (h.get("medium") or "").lower()
+            u = h.get("url")
+            if tipo.startswith("image/") or medio == "image" or etiqueta(h) == "thumbnail" \
+                    or re.search(r"\.(jpe?g|png|webp)(\?|$)", u, re.I):
+                if imagen_valida(u):
+                    return imagen_valida(u)
+    for nombre in ("encoded", "content", "description", "summary"):
+        for m in re.finditer(r"<img[^>]+src=[\"']([^\"']+)", texto_hijo(it, (nombre,)), re.I):
+            if imagen_valida(m.group(1)):
+                return imagen_valida(m.group(1))
+    return None
+
+
+def imagen_de_la_pagina(url):
+    """Plan B: la imagen de vista previa (og:image) que la propia nota declara."""
+    try:
+        pagina = descargar(url, limite=400_000, espera=12).decode("utf-8", "ignore")
+    except Exception:
+        return None
+    patrones = (
+        r"<meta[^>]+(?:property|name)=[\"'](?:og:image(?::secure_url)?|twitter:image)[\"'][^>]*?content=[\"']([^\"']+)",
+        r"<meta[^>]+content=[\"']([^\"']+)[\"'][^>]*?(?:property|name)=[\"'](?:og:image|twitter:image)[\"']",
+    )
+    for pat in patrones:
+        m = re.search(pat, pagina, re.I)
+        if m:
+            return imagen_valida(urljoin(url, html.unescape(m.group(1))))
+    return None
+
+
 def parsear(datos):
     raiz = ET.fromstring(datos.lstrip())
     salida = []
@@ -131,11 +184,12 @@ def parsear(datos):
         if fecha is not None and fecha.tzinfo is None:
             fecha = fecha.replace(tzinfo=dt.timezone.utc)
         if titulo and link:
-            salida.append({"titulo": titulo, "url": link.strip(), "desc": limpiar(desc), "fecha": fecha})
+            salida.append({"titulo": titulo, "url": link.strip(), "desc": limpiar(desc), "fecha": fecha,
+                           "imagen": buscar_imagen(it)})
     return salida
 
 
-def descargar(url):
+def descargar(url, limite=None, espera=25):
     req = urllib.request.Request(
         url,
         headers={
@@ -143,8 +197,8 @@ def descargar(url):
             "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
         },
     )
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return r.read()
+    with urllib.request.urlopen(req, timeout=espera) as r:
+        return r.read(limite) if limite else r.read()
 
 
 def tokens(titulo):
@@ -229,6 +283,7 @@ def main():
                 "fuente": m["nombre"], "acceso": m.get("acceso", "abierto"),
                 "titulo": it["titulo"], "url": it["url"], "desc": it["desc"],
                 "fecha": it["fecha"], "seccion": seccion, "base": base, "tok": tokens(it["titulo"]),
+                "imagen": it["imagen"],
             })
             guardadas += 1
         print(f"[ok] {m['nombre']}: {len(items)} notas en el feed, {guardadas} de política/economía")
@@ -246,6 +301,12 @@ def main():
         limite = MAX_PALABRAS if rep["acceso"] == "abierto" else MAX_PALABRAS_SUSCRIPCION
         resumen = recortar(rep["desc"], limite) or "El medio no publica un extracto de esta nota. Se puede leer completa en el enlace."
         hora = rep["fecha"].astimezone(TZ).strftime("%H:%M") if rep["fecha"] else ""
+        imagen, credito = rep.get("imagen"), rep["fuente"]
+        if not imagen:
+            for x in g:
+                if x.get("imagen"):
+                    imagen, credito = x["imagen"], x["fuente"]
+                    break
         notas.append({
             "id": hashlib.sha1(rep["url"].encode()).hexdigest()[:10],
             "seccion": rep["seccion"],
@@ -257,6 +318,8 @@ def main():
             "acceso": rep["acceso"],
             "resumen": resumen,
             "impacto": None,
+            "imagen": imagen,
+            "imagen_credito": credito if imagen else None,
             "otros": [{"fuente": x["fuente"], "titulo": x["titulo"], "url": x["url"]} for x in g if x is not rep],
         })
 
@@ -265,6 +328,14 @@ def main():
     if not notas:
         print("[error] No quedó ninguna nota. No se modifica la página.", file=sys.stderr)
         sys.exit(1)
+
+    # Las notas más importantes que no traen imagen en el feed: se busca la de la propia página
+    for n in notas[:12]:
+        if not n["imagen"]:
+            img = imagen_de_la_pagina(n["url"])
+            if img:
+                n["imagen"], n["imagen_credito"] = img, n["fuente"]
+    print(f"[ok] {sum(1 for n in notas if n['imagen'])} de {len(notas)} notas con imagen")
 
     datos = {"actualizado": ahora.isoformat(timespec="seconds"), "notas": notas}
     Path(args.json).write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
