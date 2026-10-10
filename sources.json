@@ -15,7 +15,7 @@
       "acceso": "suscripcion",
       "local": false,
       "activo": true,
-      "filtrar_argentina": false
+      "filtrar_argentina": true
     },
     {
       "nombre": "La tinta",

@@ -237,6 +237,7 @@ def main():
     pol_p, eco_p = compilar(kw.get("politica", [])), compilar(kw.get("economia", []))
     cor_p, exc_p = compilar(kw.get("cordoba", [])), compilar(kw.get("excluir", []))
     arg_p = compilar(kw.get("argentina", []))
+    ext_p = compilar(kw.get("extranjero", []))
     ocultar = [normalizar(o) for o in cur.get("ocultar", []) if o]
     fijar = (cur.get("fijar") or "").strip()
 
@@ -265,6 +266,9 @@ def main():
                 continue
             # La nota tiene que nombrar algo argentino (evita política de otros países)
             if m.get("filtrar_argentina", True) and arg + cor < 1:
+                continue
+            # Notas sobre otros países: se descartan salvo que el titular nombre algo argentino
+            if puntaje(ext_p, t_norm) and puntaje(arg_p, t_norm) + puntaje(cor_p, t_norm) < 1:
                 continue
             if puntaje(exc_p, t_norm + " " + d_norm) and (pol + eco) < 3:
                 continue
