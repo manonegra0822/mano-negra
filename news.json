@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-10T17:09:52-03:00",
+  "actualizado": "2026-10-10T17:12:42-03:00",
   "notas": [
     {
       "id": "7521940f2a",
@@ -31,10 +31,13 @@
       "acceso": "abierto",
       "resumen": "Miles de mujeres se reúnen desde este sábado en la ciudad argentina de Córdoba para alzar su voz contra las políticas del Gobierno del presidente argentino, el ultraliberal Javier Milei, y el avance de la extrema derecha en diversas partes del mundo.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "fotos/encuentro-mujeres.jpg",
+      "imagen_credito": "Enfoque Rojo",
       "otros": [],
-      "rostros": null
+      "rostros": {
+        "y0": 0.431,
+        "y1": 0.641
+      }
     },
     {
       "id": "0115ab5437",
@@ -138,7 +141,7 @@
     {
       "id": "843f88cb59",
       "seccion": "economia",
-      "relevancia": 17.2,
+      "relevancia": 17.1,
       "hora": "12:05",
       "titulo": "Inocencia Fiscal II: promulgan modificaciones",
       "fuente": "Comercio y Justicia",
@@ -170,7 +173,7 @@
     {
       "id": "969b664724",
       "seccion": "cordoba",
-      "relevancia": 17.1,
+      "relevancia": 17.0,
       "hora": "11:29",
       "titulo": "Vacantes y lentitud en la Justicia: un especialista propone cuatro ejes para modernizar el sistema de selección y gestión judicial",
       "fuente": "Comercio y Justicia",
