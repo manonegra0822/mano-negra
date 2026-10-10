@@ -200,6 +200,47 @@ def descargar(url, limite=None, espera=25):
     with urllib.request.urlopen(req, timeout=espera) as r:
         return r.read(limite) if limite else r.read()
 
+try:  # opcional: si no está instalado, las fotos se muestran con encuadre por defecto
+    import io
+    import numpy as np
+    from PIL import Image
+    from skimage import data as _skdata
+    from skimage.feature import Cascade
+    _DETECTOR = Cascade(_skdata.lbp_frontal_face_cascade_filename())
+except Exception:  # pragma: no cover
+    _DETECTOR = None
+
+
+def detectar_rostros(url):
+    """Devuelve {"y0":…, "y1":…} (fracción de la altura de la foto que ocupan los rostros) o None.
+    Solo se baja la imagen para medirla; no se guarda ni se publica copia."""
+    if _DETECTOR is None:
+        return None
+    try:
+        datos = descargar(url, limite=3_000_000, espera=12)
+        im = Image.open(io.BytesIO(datos)).convert("L")
+        ancho0, alto0 = im.size
+        if ancho0 > 700:
+            im = im.resize((700, max(1, int(alto0 * 700 / ancho0))))
+        arr = np.asarray(im)
+        alto, ancho = arr.shape
+        minimo = max(24, ancho // 20)
+        cajas = _DETECTOR.detect_multi_scale(img=arr, scale_factor=1.2, step_ratio=1,
+                                             min_size=(minimo, minimo),
+                                             max_size=(ancho, ancho))
+        if len(cajas) == 0:
+            return None
+        # se descartan detecciones chicas frente a la mayor (suelen ser falsos positivos)
+        mayor = max(c["height"] * c["width"] for c in cajas)
+        cajas = [c for c in cajas if c["height"] * c["width"] >= 0.45 * mayor]
+        y0 = min(c["r"] for c in cajas) / alto
+        y1 = max(c["r"] + c["height"] for c in cajas) / alto
+        # margen: frente arriba y cuello/mentón abajo
+        return {"y0": round(max(0.0, y0 - 0.06), 3), "y1": round(min(1.0, y1 + 0.06), 3)}
+    except Exception as e:
+        print(f"[aviso] no se pudo analizar la imagen {url[:60]} ({e})", file=sys.stderr)
+        return None
+
 
 def tokens(titulo):
     return {t for t in normalizar(titulo).split() if len(t) >= 4 and t not in STOP}
@@ -340,6 +381,10 @@ def main():
             if img:
                 n["imagen"], n["imagen_credito"] = img, n["fuente"]
     print(f"[ok] {sum(1 for n in notas if n['imagen'])} de {len(notas)} notas con imagen")
+    # Encuadre: si hay rostros, la página centra la foto en ellos para no cortarlos
+    for n in notas:
+        n["rostros"] = detectar_rostros(n["imagen"]) if n["imagen"] else None
+    print(f"[ok] {sum(1 for n in notas if n['rostros'])} fotos con rostros detectados" + ("" if _DETECTOR else " (detector no instalado)"))
 
     datos = {"actualizado": ahora.isoformat(timespec="seconds"), "notas": notas}
     Path(args.json).write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")

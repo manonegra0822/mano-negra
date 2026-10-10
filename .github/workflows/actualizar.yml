@@ -31,6 +31,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Instalar detector de rostros (para encuadrar las fotos)
+        run: pip install numpy pillow scikit-image
+
       - name: Armar las notas del día
         run: python build.py
 

@@ -166,7 +166,7 @@
 
   /* Foto de la nota: solo en computadora */
   .foto { margin: 28px 0 0; max-width: 760px; }
-  .foto img { display: block; width: 100%; height: clamp(200px, 26vh, 320px); object-fit: cover; background: var(--paper-2); }
+  .foto img { display: block; width: 100%; height: clamp(200px, 26vh, 320px); object-fit: cover; object-position: center 22%; background: var(--paper-2); }
   .foto figcaption { margin-top: 6px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
   .foto a { color: var(--ink); text-underline-offset: 3px; }
 
@@ -685,6 +685,19 @@
     try { var x = new URL(u); return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null; }
     catch (e) { return null; }
   }
+  function encuadrar(img, ro) {
+    var nw = img.naturalWidth, nh = img.naturalHeight, bw = img.clientWidth, bh = img.clientHeight;
+    if (!nw || !nh || !bw || !bh) return;
+    var hs = nh * bw / nw;                 // alto de la foto ya escalada al ancho de la caja
+    var libre = hs - bh;                   // cuánto sobra para desplazar
+    if (libre <= 0) return;
+    var y0 = ro.y0 * hs, y1 = ro.y1 * hs, top;
+    if (y1 - y0 <= bh) top = (y0 + y1) / 2 - bh / 2;  // el rostro entra: centrarlo
+    else top = y0;                                    // no entra: priorizar la cara desde la frente
+    top = Math.max(0, Math.min(libre, top));
+    img.style.objectPosition = 'center ' + (top / libre * 100).toFixed(1) + '%';
+  }
+
   function safeImg(u) {
     try { var x = new URL(u); return x.protocol === 'https:' ? x.href : null; }
     catch (e) { return null; }
@@ -834,6 +847,12 @@
       img.loading = 'lazy';
       img.referrerPolicy = 'no-referrer';
       img.addEventListener('error', function () { fig.remove(); });
+      // Si se detectaron rostros, se encuadra para que se vean enteros
+      var ro = n.rostros;
+      if (ro && typeof ro.y0 === 'number' && typeof ro.y1 === 'number') {
+        img.addEventListener('load', function () { encuadrar(img, ro); });
+        window.addEventListener('resize', function () { if (img.complete) encuadrar(img, ro); });
+      }
       img.src = src;
       fig.appendChild(img);
       var cap = el('figcaption', null, 'Imagen: ' + (n.imagen_credito || n.fuente) + '. ');
