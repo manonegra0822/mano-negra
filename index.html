@@ -116,9 +116,9 @@
   }
   .back:hover { background: var(--ink); color: var(--paper); }
   .headline {
-    margin: 0 0 18px; max-width: 22ch;
+    margin: 0 0 18px; max-width: 30ch;
     font-family: var(--f-display); font-weight: 700;
-    font-size: clamp(1.6rem, 1rem + 2.3vw, 2.9rem);
+    font-size: clamp(1.5rem, 0.9rem + 1.6vw, 2.2rem);
     line-height: 1.15; letter-spacing: -0.01em; text-wrap: balance;
   }
   .meta { display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: center; margin-bottom: 28px; font-family: var(--f-ui); font-size: .92rem; color: var(--ink-2); }
@@ -166,7 +166,7 @@
 
   /* Foto de la nota: solo en computadora */
   .foto { margin: 28px 0 0; max-width: 760px; }
-  .foto img { display: block; width: 100%; height: clamp(200px, 26vh, 320px); object-fit: cover; object-position: center 22%; background: var(--paper-2); }
+  .foto img { display: block; width: 100%; height: clamp(240px, 38vh, 440px); object-fit: cover; object-position: center 22%; background: var(--paper-2); }
   .foto figcaption { margin-top: 6px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
   .foto a { color: var(--ink); text-underline-offset: 3px; }
 
@@ -1004,8 +1004,11 @@
   var data = JSON.parse(document.getElementById('news-data').textContent);
   var SECTIONS = { cordoba: 'Córdoba', argentina: 'Argentina', economia: 'Economía y finanzas' };
   var FILTERS = [['todas', 'Todas'], ['cordoba', 'Córdoba'], ['argentina', 'Argentina'], ['economia', 'Economía']];
-  var notes = data.notas.slice().sort(function (a, b) { return b.relevancia - a.relevancia; });
-  var leadId = notes[0] && notes[0].id;
+  function ts(n) { var t = Date.parse(n.fecha); return isNaN(t) ? 0 : t; }
+  // Listado en orden cronológico (lo más nuevo arriba); la nota del día es la más relevante de las últimas 24 h
+  var notes = data.notas.slice().sort(function (a, b) { return ts(b) - ts(a) || b.relevancia - a.relevancia; });
+  var masRelevante = data.notas.slice().sort(function (a, b) { return b.relevancia - a.relevancia; })[0];
+  var leadId = masRelevante && masRelevante.id;
   var state = { filter: 'todas', selected: leadId };
 
   function el(tag, cls, text) {
@@ -1022,12 +1025,23 @@
   function diaTxt(n) { return n.dia === 1 ? 'Ayer ' : (n.dia >= 2 ? 'Anteayer ' : ''); }
 
   function encuadrar(img, ro) {
-    var nw = img.naturalWidth, nh = img.naturalHeight, bw = img.clientWidth, bh = img.clientHeight;
-    if (!nw || !nh || !bw || !bh) return;
+    var nw = img.naturalWidth, nh = img.naturalHeight, bw = img.clientWidth;
+    if (!nw || !nh || !bw) return;
+    // La foto ocupa lo que queda de pantalla debajo del texto, para verse completa sin scrollear
+    var lead = document.getElementById('lead');
+    var yTop = img.getBoundingClientRect().top + (lead ? lead.scrollTop : 0) - (lead ? lead.getBoundingClientRect().top : 0);
+    var libreVista = window.innerHeight - yTop - 64;
+    img.style.height = Math.max(230, Math.min(480, libreVista)) + 'px';
+    var bh = img.clientHeight;
+    if (!bh) return;
     var hs = nh * bw / nw;                 // alto de la foto ya escalada al ancho de la caja
-    var libre = hs - bh;                   // cuánto sobra para desplazar
-    if (libre <= 0) return;
     var y0 = ro.y0 * hs, y1 = ro.y1 * hs, top;
+    if (y1 - y0 > bh) {                    // los rostros no entran: se agranda la caja (hasta 480 px)
+      bh = Math.min(y1 - y0, hs, 480);
+      img.style.height = bh + 'px';
+    }
+    var libre = hs - bh;                   // cuánto sobra para desplazar
+    if (libre <= 0) { img.style.objectPosition = 'center top'; return; }
     if (y1 - y0 <= bh) top = (y0 + y1) / 2 - bh / 2;  // el rostro entra: centrarlo
     else top = y0;                                    // no entra: priorizar la cara desde la frente
     top = Math.max(0, Math.min(libre, top));
@@ -1186,7 +1200,8 @@
       img.addEventListener('error', function () { fig.remove(); });
       // Si se detectaron rostros, se encuadra para que se vean enteros
       var ro = n.rostros;
-      if (ro && typeof ro.y0 === 'number' && typeof ro.y1 === 'number') {
+      if (!(ro && typeof ro.y0 === 'number' && typeof ro.y1 === 'number')) ro = { y0: 0.05, y1: 0.35 };  // sin rostros: favorecer la parte de arriba
+      if (ro) {
         img.addEventListener('load', function () { encuadrar(img, ro); });
         window.addEventListener('resize', function () { if (img.complete) encuadrar(img, ro); });
       }

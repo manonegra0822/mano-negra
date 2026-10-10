@@ -387,6 +387,9 @@ def main():
             continue
         if (ahora - f.astimezone(TZ)).total_seconds() / 3600 > MAX_HORAS:
             continue
+        tv = normalizar(v.get("titulo", ""))
+        if puntaje(ext_p, tv) and puntaje(arg_p, tv) + puntaje(cor_p, tv) < 1:
+            continue  # la regla de otros países también rige para lo ya guardado
         if v.get("url") in vistas_url or normalizar(v.get("titulo", "")) in vistos_tit:
             continue
         if any(o and (o in normalizar(v.get("url", "")) or o in normalizar(v.get("titulo", ""))) for o in ocultar):
