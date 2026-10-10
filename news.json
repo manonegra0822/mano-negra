@@ -1,6 +1,25 @@
 {
-  "actualizado": "2026-10-10T16:58:00-03:00",
+  "actualizado": "2026-10-10T17:09:52-03:00",
   "notas": [
+    {
+      "id": "7521940f2a",
+      "seccion": "argentina",
+      "relevancia": 22.0,
+      "hora": "17:04",
+      "titulo": "Se activa la carrera por la gobernación de la provincia de Buenos Aires: Katopodis y Nardini se postularon para suceder a Kicillof",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/katopodis-se-postulo-como-sucesor-de-kicillof-en-la-provincia-de-buenos-aires-quiero-darle-nid09102026/",
+      "acceso": "suscripcion",
+      "resumen": "El ministro de Infraestructura dijo que se siente con “confianza” y el intendente de Malvinas Argentinas aseguró estar con “ganas”; la danza de nombres en el peronismo bonaerense",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/4YUEHQSZW5BJJAZY5EZJZQSBAY.jpg?auth=0f8bf8f0d1910cae6b2eb6cea7f059728148d600b4d1edeff298325644d6ec1b&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "rostros": {
+        "y0": 0.058,
+        "y1": 0.498
+      }
+    },
     {
       "id": "9bfd4be655",
       "seccion": "cordoba",
@@ -10,7 +29,7 @@
       "fuente": "Infobae",
       "url": "https://www.infobae.com/america/agencias/2026/10/10/encuentro-de-mujeres-en-argentina-alza-su-voz-contra-milei-y-la-extrema-derecha/",
       "acceso": "abierto",
-      "resumen": "Buenos Aires, 10 oct (EFE).- Miles de mujeres se reúnen desde este sábado en la ciudad argentina de Córdoba para alzar su voz contra las políticas del Gobierno del presidente argentino, el ultraliberal Javier Milei, y el avance de la extrema derecha en diversas partes del mundo.",
+      "resumen": "Miles de mujeres se reúnen desde este sábado en la ciudad argentina de Córdoba para alzar su voz contra las políticas del Gobierno del presidente argentino, el ultraliberal Javier Milei, y el avance de la extrema derecha en diversas partes del mundo.",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
@@ -20,7 +39,7 @@
     {
       "id": "0115ab5437",
       "seccion": "argentina",
-      "relevancia": 21.7,
+      "relevancia": 21.6,
       "hora": "15:00",
       "titulo": "Martín Menem se refirió a las tensiones en el Gobierno y llamó a no armar alianzas “con cuanto gobernante se cruza”",
       "fuente": "La Nación",
@@ -53,25 +72,9 @@
       "rostros": null
     },
     {
-      "id": "5c1b465630",
-      "seccion": "argentina",
-      "relevancia": 21.0,
-      "hora": "10:45",
-      "titulo": "Habrá que pedir el voto a las víctimas del modelo",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/opinion/habra-que-pedir-el-voto-a-las-victimas-del-modelo-nid10102026/",
-      "acceso": "suscripcion",
-      "resumen": "“No es un presidente, es un profeta”, escribió Eduardo Bolsonaro sobre Javier Milei , celebrando su última clarividencia: el León había pronosticado el triunfo electoral de su hermano sobre Lula da Silva .",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RWYZD5JMO5EAJEKFATBZS5LW5E.jpg?auth=07556c7bb991b64aa8de4d076e129f2eaeabe5c520311d826d007e8b92e39322&smart=true&width=4549&height=3032",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "rostros": null
-    },
-    {
       "id": "799efbcfb6",
       "seccion": "economia",
-      "relevancia": 19.2,
+      "relevancia": 19.1,
       "hora": "23:58",
       "titulo": "Precios en dólares: la Argentina sigue siendo el país más caro de la región en indumentaria y gastronomía",
       "fuente": "Comercio y Justicia",
@@ -103,7 +106,7 @@
     {
       "id": "349fb2d455",
       "seccion": "economia",
-      "relevancia": 17.4,
+      "relevancia": 17.3,
       "hora": "13:14",
       "titulo": "El Banco Central volvió a acelerar la compra de reservas",
       "fuente": "La Nación",
@@ -151,7 +154,7 @@
     {
       "id": "6ab1cdd334",
       "seccion": "economia",
-      "relevancia": 17.2,
+      "relevancia": 17.1,
       "hora": "00:01",
       "titulo": "Caputo se hunde con la economía de los dos dígitos (de caída)",
       "fuente": "Página/12",
@@ -181,25 +184,9 @@
       "rostros": null
     },
     {
-      "id": "50aedf0df3",
-      "seccion": "economia",
-      "relevancia": 17.0,
-      "hora": "10:49",
-      "titulo": "La Argentina se abarató en dólares pero lidera el ranking de indumentaria y restaurantes más caros",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/la-argentina-se-abarato-en-dolares-pero-lidera-el-ranking-de-indumentaria-y-restaurantes-mas-caros-nid10102026/",
-      "acceso": "suscripcion",
-      "resumen": "Un informe de Fundar reveló que el país dejó de figurar entre los más costosos de la región en términos generales, tras dos meses consecutivos en los que el dólar avanzó por encima de la inflación",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/P2UFZGFLU5FATPSP4C4BXDZYWI.jpg?auth=30ad9b15e7dde54bce41c57bdea4b098dbea026e8b1f124ad3e59ddbbf09af72&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "rostros": null
-    },
-    {
       "id": "18107e6e0c",
       "seccion": "economia",
-      "relevancia": 16.8,
+      "relevancia": 16.7,
       "hora": "09:37",
       "titulo": "Presupuesto 2027: Martín Menem pone en marcha la discusión en Diputados",
       "fuente": "Comercio y Justicia",
@@ -207,15 +194,15 @@
       "acceso": "abierto",
       "resumen": "El miércoles 14, la comisión que preside Alberto Benegas Lynch recibirá al secretario de Hacienda, Carlos Guberman. Caputo no irá a responder preguntas de los diputados.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/06/foto-NA.webp",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "rostros": null
     },
     {
       "id": "262b5cfffe",
       "seccion": "cordoba",
-      "relevancia": 16.8,
+      "relevancia": 16.7,
       "hora": "09:34",
       "titulo": "El Ersep convocó a audiencia pública para revisión tarifaria de las prestadoras de los servicios de agua potable y desagües cloacales de la Provincia de Córdoba",
       "fuente": "Comercio y Justicia",
@@ -247,7 +234,7 @@
     {
       "id": "4217415af8",
       "seccion": "cordoba",
-      "relevancia": 16.2,
+      "relevancia": 16.1,
       "hora": "06:00",
       "titulo": "Llaryora ajusta pero busca no resignar la obra pública que sostiene 40% del empleo total en la construcción",
       "fuente": "Comercio y Justicia",
@@ -312,6 +299,22 @@
       }
     },
     {
+      "id": "5b613209ac",
+      "seccion": "cordoba",
+      "relevancia": 14.0,
+      "hora": "09:19",
+      "titulo": "Córdoba será, por tercera vez, sede del Encuentro Plurinacional",
+      "fuente": "La tinta",
+      "url": "https://latinta.com.ar/2026/10/07/cordoba-sera-por-tercera-vez-sede-encuentro-plurinacional/",
+      "acceso": "abierto",
+      "resumen": "Empezó la cuenta regresiva. En tres días, la ciudad de Córdoba recibirá a miles de feministas de todo el país. ¿Cómo se cuenta este evento único en el mundo? El primer Encuentro Nacional de Mujeres se hizo del 24 al 25 de mayo en la Ciudad Autónoma de Buenos Aires, ahí empezó esta historia que, este año, cumple sus cuatro décadas en Córdoba, que también…",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "rostros": null
+    },
+    {
       "id": "d7eb8d880d",
       "seccion": "economia",
       "relevancia": 14.0,
@@ -346,7 +349,7 @@
     {
       "id": "7a98a3fadc",
       "seccion": "argentina",
-      "relevancia": 13.2,
+      "relevancia": 13.1,
       "hora": "00:01",
       "titulo": "Timberos",
       "fuente": "Página/12",
@@ -361,6 +364,22 @@
         "y0": 0.022,
         "y1": 0.354
       }
+    },
+    {
+      "id": "f723d77fb2",
+      "seccion": "cordoba",
+      "relevancia": 12.0,
+      "hora": "05:13",
+      "titulo": "Sin abogadas feministas, no hay justicia",
+      "fuente": "La tinta",
+      "url": "https://latinta.com.ar/2026/10/09/sin-abogadas-feministas-no-hay-justicia/",
+      "acceso": "abierto",
+      "resumen": "Como consigna del 39° Encuentro Plurinacional de Mujeres, Lesbianas, Travestis, Trans, Bisexuales, Intersexuales y No Binaries, hay cuatro historias atravesadas por sentencias injustas, desproporcionadas, disciplinadoras y sin perspectiva de género por parte del Poder Judicial de Córdoba. Se levanta la voz para que Delicia Mamani Mamani, Flavia Saganías, Paola Ortiz y Max y Lulén estén en el encuentro.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "rostros": null
     },
     {
       "id": "64ca0cce87",
@@ -382,7 +401,7 @@
       "id": "ab9b06ddf5",
       "seccion": "argentina",
       "relevancia": 12.0,
-      "hora": "16:55",
+      "hora": "17:04",
       "titulo": "Octubre sin sol: qué es el bloqueo atmosférico detrás de tantos días nublados y con lluvia",
       "fuente": "Infobae",
       "url": "https://www.infobae.com/america/medio-ambiente/2026/10/10/octubre-sin-sol-que-es-el-bloqueo-atmosferico-detras-de-tantos-dias-nublados-y-con-lluvia/",
@@ -397,7 +416,7 @@
     {
       "id": "124eb9fa84",
       "seccion": "cordoba",
-      "relevancia": 12.0,
+      "relevancia": 11.9,
       "hora": "16:45",
       "titulo": "El Rey visita el espacio de ARMMO en INDUDEF 2026 y conoce su interceptor autónomo de drones",
       "fuente": "Infobae",
@@ -416,7 +435,7 @@
     {
       "id": "f3120ff5f0",
       "seccion": "economia",
-      "relevancia": 11.3,
+      "relevancia": 11.2,
       "hora": "12:36",
       "titulo": "Belgrano vs. River en el Kempes: precios, ubicaciones y cómo comprar las entradas",
       "fuente": "Cba24n",
@@ -430,9 +449,25 @@
       "rostros": null
     },
     {
+      "id": "e436761e90",
+      "seccion": "economia",
+      "relevancia": 11.1,
+      "hora": "00:01",
+      "titulo": "El costo del ajuste en cuestión",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/09/el-costo-del-ajuste-en-cuestion/",
+      "acceso": "suscripcion",
+      "resumen": "Un informe de UBS señaló que la caída del empleo y los ingresos reales condiciona el futuro electoral oficialista, porque la sociedad ya no está preocupada por la inflación, sino por la economía real.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GQ2TEZJUMM2DAMBYHEYGGNZQGI.jpg?auth=24ff170a001f84ae5a5d90994dbd19873305a2bbef466a6483852c5fd6028afc&smart=true&width=640&height=427",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "rostros": null
+    },
+    {
       "id": "aa68b3e236",
       "seccion": "argentina",
-      "relevancia": 11.2,
+      "relevancia": 11.1,
       "hora": "00:01",
       "titulo": "La maniobra que dejó al desnudo a la Corte: los entretelones, la interna y las claves del fallo sobre la Ley de Tierras",
       "fuente": "Página/12",
@@ -451,7 +486,7 @@
     {
       "id": "b03e950a9f",
       "seccion": "economia",
-      "relevancia": 11.2,
+      "relevancia": 11.1,
       "hora": "12:00",
       "titulo": "Jorge Tartaglione, médico: “Más de la mitad de los argentinos no tiene peso normal y eso trae diabetes, hipertensión y muerte pronta”",
       "fuente": "La Nación",
@@ -461,38 +496,6 @@
       "impacto": null,
       "imagen": "https://resizer.glanacion.com/resizer/v2/B5MYODBZ2RBM3IV22EUS2YXYZY.png?auth=11fa86b1d53d0d041f69138608facd605d8ec9fe6b003402ab4d544aa99359b7&smart=true&width=750&height=451",
       "imagen_credito": "La Nación",
-      "otros": [],
-      "rostros": null
-    },
-    {
-      "id": "a5054ea2d7",
-      "seccion": "cordoba",
-      "relevancia": 11.1,
-      "hora": "11:21",
-      "titulo": "Medidas cautelares, cuota 85, cuota extraordinaria: una bomba de tiempo",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/factor/medidas-cautelares-cuota-85-cuota-extraordinaria-una-bomba-de-tiempo/",
-      "acceso": "abierto",
-      "resumen": "Se trata de un problema actual que afecta a miles de ahorristas. Sus causas, sus consecuencias y qué hacer al respecto Por Darío Di Noto Abogado. Miembro fundador de Abogados Consumeristas. Asesor y patrocinante de asociaciones de consumidores (Adcoin y UCU) Consumidores suscriptores de planes de ahorro automotor de la provincia de Córdoba vienen advirtiendo […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "rostros": null
-    },
-    {
-      "id": "7f407ed3e6",
-      "seccion": "economia",
-      "relevancia": 10.8,
-      "hora": "09:34",
-      "titulo": "La AGN dice que Bausili especuló con el precio del oro y perdió más de mil millones de dólares",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/la-agn-dice-que-bausili-especulo-con-el-precio-del-oro-y-perdio-mas-de-mil-millones-de-dolares/",
-      "acceso": "abierto",
-      "resumen": "La Auditoría General de la Nación reveló que el Banco Central tuvo grandes pérdidas de dinero debido a operaciones fallidas con el oro como respaldo. El presidente del organismo, Juan Manuel Olmos, afirmó que “nunca se había registrado una pérdida de esta magnitud”. La entidad ya se había pronunciado sobre las inconsistencias en el envío de reservas del metal al exterior.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
       "otros": [],
       "rostros": null
     }
