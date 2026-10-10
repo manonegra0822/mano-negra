@@ -182,6 +182,7 @@ def main():
     cur = leer_json(args.curaduria, {})
     pol_p, eco_p = compilar(kw.get("politica", [])), compilar(kw.get("economia", []))
     cor_p, exc_p = compilar(kw.get("cordoba", [])), compilar(kw.get("excluir", []))
+    arg_p = compilar(kw.get("argentina", []))
     ocultar = [normalizar(o) for o in cur.get("ocultar", []) if o]
     fijar = (cur.get("fijar") or "").strip()
 
@@ -198,15 +199,18 @@ def main():
             horas = None
             if it["fecha"] is not None:
                 horas = (ahora - it["fecha"].astimezone(TZ)).total_seconds() / 3600
-                if horas > MAX_HORAS:
+                if horas > m.get("max_horas", MAX_HORAS):
                     continue
             t_norm, d_norm = normalizar(it["titulo"]), normalizar(it["desc"])
 
             def pt(pats):
                 return 2 * puntaje(pats, t_norm) + puntaje(pats, d_norm)
 
-            pol, eco, cor = pt(pol_p), pt(eco_p), pt(cor_p)
+            pol, eco, cor, arg = pt(pol_p), pt(eco_p), pt(cor_p), pt(arg_p)
             if not (pol + eco >= 1 or (cor >= 1 and m.get("local"))):
+                continue
+            # La nota tiene que nombrar algo argentino (evita política de otros países)
+            if m.get("filtrar_argentina", True) and arg + cor < 1:
                 continue
             if puntaje(exc_p, t_norm + " " + d_norm) and (pol + eco) < 3:
                 continue
@@ -216,7 +220,7 @@ def main():
                 seccion = "economia"
             else:
                 seccion = "argentina"
-            base = min(pol + eco + cor, 8) * 2
+            base = min(pol + eco + cor + arg, 8) * 2
             if horas is not None:
                 base += max(0.0, 6 - max(horas, 0) / 6)
             candidatas.append({

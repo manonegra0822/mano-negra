@@ -1,33 +1,37 @@
 {
-  "ayuda": "Para sumar un medio, copiar un bloque, cambiar nombre y feed, y guardar. La página se actualiza sola en uno o dos minutos. 'acceso' es 'abierto' o 'suscripcion'. 'local' en true hace que cuenten las notas de Córdoba aunque no tengan palabras de política. 'activo' en false pausa un medio sin borrarlo.",
+  "ayuda": "Para sumar un medio, copiar un bloque, cambiar nombre y feed, y guardar. La página se actualiza sola en uno o dos minutos. 'acceso' es 'abierto' o 'suscripcion'. 'local' en true hace que cuenten las notas de Córdoba aunque no tengan palabras de política. 'activo' en false pausa un medio sin borrarlo. 'max_horas' cambia cuánto tiempo atrás se aceptan notas (por defecto 36); conviene subirlo en medios que publican poco. 'filtrar_argentina' en false desactiva el filtro de notas argentinas para ese medio.",
   "medios": [
     {
       "nombre": "Infobae",
       "feed": "https://www.infobae.com/arc/outboundfeeds/rss/",
       "acceso": "abierto",
       "local": false,
-      "activo": true
+      "activo": true,
+      "filtrar_argentina": true
     },
     {
       "nombre": "La Nación",
       "feed": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml",
       "acceso": "suscripcion",
       "local": false,
-      "activo": true
+      "activo": true,
+      "filtrar_argentina": false
     },
     {
       "nombre": "La tinta",
       "feed": "https://latinta.com.ar/feed/",
       "acceso": "abierto",
       "local": true,
-      "activo": true
+      "activo": true,
+      "max_horas": 96
     },
     {
       "nombre": "Página/12",
       "feed": "https://www.pagina12.com.ar/arc/outboundfeeds/rss/portada?outputType=xml",
       "acceso": "suscripcion",
       "local": false,
-      "activo": true
+      "activo": true,
+      "filtrar_argentina": false
     },
     {
       "nombre": "Clarín",
