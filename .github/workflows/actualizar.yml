@@ -11,6 +11,7 @@ on:
       - keywords.json
       - curaduria.json
       - build.py
+      - fotos/**
   # Botón "Run workflow" en la pestaña Actions
   workflow_dispatch:
 

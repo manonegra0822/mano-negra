@@ -747,6 +747,7 @@
   }
 
   function safeImg(u) {
+    if (/^fotos\/[\w.\-]+$/.test(u)) return u;  // foto propia del sitio
     try { var x = new URL(u); return x.protocol === 'https:' ? x.href : null; }
     catch (e) { return null; }
   }

@@ -219,7 +219,10 @@ def detectar_rostros(url):
     if _DETECTOR is None:
         return None
     try:
-        datos = descargar(url, limite=3_000_000, espera=12)
+        if url.startswith("fotos/"):  # foto propia subida al repositorio
+            datos = (ROOT / url).read_bytes()
+        else:
+            datos = descargar(url, limite=3_000_000, espera=12)
         im = Image.open(io.BytesIO(datos)).convert("L")
         ancho0, alto0 = im.size
         if ancho0 > 700:
@@ -375,6 +378,16 @@ def main():
     if not notas:
         print("[error] No quedó ninguna nota. No se modifica la página.", file=sys.stderr)
         sys.exit(1)
+
+    # Fotos puestas a mano en curaduria.json: mandan sobre las del medio
+    for f in cur.get("fotos", []):
+        buscar, archivo = normalizar(f.get("buscar", "")), f.get("archivo", "")
+        if not buscar or not re.fullmatch(r"fotos/[\w.\-]+", archivo) or not (ROOT / archivo).is_file():
+            print(f"[aviso] foto manual ignorada: {f}", file=sys.stderr)
+            continue
+        for n in notas:
+            if buscar in normalizar(n["titulo"]) or buscar in n["url"].lower():
+                n["imagen"], n["imagen_credito"] = archivo, f.get("credito") or "Foto propia"
 
     # Las notas más importantes que no traen imagen en el feed: se busca la de la propia página
     for n in notas[:12]:
