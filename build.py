@@ -72,6 +72,18 @@ def puntaje(patrones, texto):
     return sum(1 for p in patrones if p.search(texto))
 
 
+def evaluar_pais(titulo, desc, url, pats):
+    """Devuelve (es_extranjera, puntos_argentinos). Una nota es internacional si su sección lo dice
+    o si nombra más cosas de otros países que de Argentina (el titular pesa el doble)."""
+    ext_p, arg_p, cor_p, url_ex = pats
+    t, d = normalizar(titulo), normalizar(desc)
+    arg_t = puntaje(arg_p, t) + puntaje(cor_p, t)   # el titular nombra algo argentino: la nota se queda
+    arg = 2 * arg_t + puntaje(arg_p, d) + puntaje(cor_p, d)
+    ext = 2 * puntaje(ext_p, t) + puntaje(ext_p, d)
+    por_url = any(u in (url or "").lower() for u in url_ex)
+    return (arg_t == 0 and ((por_url and arg < 4) or (ext > 0 and arg < ext))), arg
+
+
 def limpiar(s):
     s = re.sub(r"<!\[CDATA\[|\]\]>", "", s or "")
     s = re.sub(r"(?is)<(script|style).*?</\1>", " ", s)
@@ -284,6 +296,7 @@ def main():
     cor_p, exc_p = compilar(kw.get("cordoba", [])), compilar(kw.get("excluir", []))
     arg_p = compilar(kw.get("argentina", []))
     ext_p = compilar(kw.get("extranjero", []))
+    pats_pais = (ext_p, arg_p, cor_p, [u.lower() for u in kw.get("url_excluir", [])])
     ocultar = [normalizar(o) for o in cur.get("ocultar", []) if o]
     fijar = (cur.get("fijar") or "").strip()
 
@@ -310,11 +323,11 @@ def main():
             pol, eco, cor, arg = pt(pol_p), pt(eco_p), pt(cor_p), pt(arg_p)
             if not (pol + eco >= 1 or (cor >= 1 and m.get("local"))):
                 continue
-            # La nota tiene que nombrar algo argentino (evita política de otros países)
-            if m.get("filtrar_argentina", True) and arg + cor < 1:
+            # Nada de notas internacionales: la nota tiene que ser sobre Argentina
+            extranjera, arg_pts = evaluar_pais(it["titulo"], it["desc"], it["url"], pats_pais)
+            if extranjera:
                 continue
-            # Notas sobre otros países: se descartan salvo que el titular nombre algo argentino
-            if puntaje(ext_p, t_norm) and puntaje(arg_p, t_norm) + puntaje(cor_p, t_norm) < 1:
+            if m.get("filtrar_argentina", True) and arg_pts < 1:
                 continue
             if puntaje(exc_p, t_norm + " " + d_norm) and (pol + eco) < 3:
                 continue
@@ -387,8 +400,8 @@ def main():
             continue
         if (ahora - f.astimezone(TZ)).total_seconds() / 3600 > MAX_HORAS:
             continue
-        tv = normalizar(v.get("titulo", ""))
-        if puntaje(ext_p, tv) and puntaje(arg_p, tv) + puntaje(cor_p, tv) < 1:
+        extranjera, _ = evaluar_pais(v.get("titulo", ""), v.get("resumen", ""), v.get("url", ""), pats_pais)
+        if extranjera:
             continue  # la regla de otros países también rige para lo ya guardado
         if v.get("url") in vistas_url or normalizar(v.get("titulo", "")) in vistos_tit:
             continue
