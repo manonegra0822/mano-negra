@@ -78,6 +78,8 @@ def limpiar(s):
     s = re.sub(r"(?s)<[^>]+>", " ", s)
     s = html.unescape(s)
     s = re.sub(r"\s+", " ", s).strip()
+    # Datelines de agencia ("Buenos Aires, 10 oct (EFE).-"): confunden sobre dónde ocurre la nota
+    s = re.sub(r"^[A-ZÁÉÍÓÚÑ][^,.()]{1,40},\s*\d{1,2}\s+(?:de\s+)?\w{3,10}\.?\s*\((?:EFE|AFP|AP|Reuters|DPA|Europa Press|Télam|NA|Noticias Argentinas|[A-Z]{2,12})\)\.?\s*[-–—]*\s*", "", s)
     s = re.sub(r"\s*La entrada .{0,300}? se publicó primero en .*$", "", s)
     s = re.sub(r"\s*The post .{0,300}? appeared first on .*$", "", s)
     return s.strip()
