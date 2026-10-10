@@ -1,5 +1,5 @@
 {
-  "ayuda": "Para sumar un medio, copiar un bloque, cambiar nombre y feed, y guardar. La página se actualiza sola en uno o dos minutos. 'acceso' es 'abierto' o 'suscripcion'. 'local' en true hace que cuenten las notas de Córdoba aunque no tengan palabras de política. 'activo' en false pausa un medio sin borrarlo. 'max_horas' cambia cuánto tiempo atrás se aceptan notas (por defecto 36); conviene subirlo en medios que publican poco. 'filtrar_argentina' en false desactiva el filtro de notas argentinas para ese medio.",
+  "ayuda": "Para sumar un medio, copiar un bloque, cambiar nombre y feed, y guardar. La página se actualiza sola en uno o dos minutos. 'acceso' es 'abierto' o 'suscripcion'. 'local' en true hace que cuenten las notas de Córdoba aunque no tengan palabras de política. 'activo' en false pausa un medio sin borrarlo. 'max_horas' cambia cuánto tiempo atrás se aceptan notas (por defecto 36); conviene subirlo en medios que publican poco. 'filtrar_argentina' en false desactiva el filtro de notas argentinas para ese medio. 'region': 'cordoba' marca a un medio cordobés: sus notas de política que no nombran a Córdoba igual van a esa sección.",
   "medios": [
     {
       "nombre": "Infobae",
@@ -23,7 +23,8 @@
       "acceso": "abierto",
       "local": true,
       "activo": true,
-      "max_horas": 96
+      "max_horas": 96,
+      "region": "cordoba"
     },
     {
       "nombre": "Página/12",
@@ -43,11 +44,40 @@
     },
     {
       "nombre": "La Voz",
-      "feed": "",
+      "feed": "https://www.lavoz.com.ar/arc/outboundfeeds/feeds/rss/?outputType=xml",
       "acceso": "suscripcion",
-      "local": true,
-      "activo": false,
-      "nota": "Falta confirmar la dirección del feed RSS y sus condiciones de uso."
+      "activo": true,
+      "nota": "Dirección tomada de un listado de feeds; no se pudo comprobar. Si falla, quedará un aviso en Actions.",
+      "region": "cordoba",
+      "filtrar_argentina": false
+    },
+    {
+      "nombre": "Hoy Día Córdoba",
+      "feed": "https://hoydia.com.ar/feed/",
+      "acceso": "abierto",
+      "region": "cordoba",
+      "filtrar_argentina": false,
+      "max_horas": 48,
+      "activo": true
+    },
+    {
+      "nombre": "Comercio y Justicia",
+      "feed": "https://comercioyjusticia.info/feed/",
+      "acceso": "abierto",
+      "region": "cordoba",
+      "filtrar_argentina": false,
+      "max_horas": 48,
+      "activo": true,
+      "nota": "Revisar si algunas notas requieren suscripción y cambiar 'acceso' en ese caso."
+    },
+    {
+      "nombre": "Cba24n",
+      "feed": "https://www.cba24n.com.ar/rss.xml",
+      "acceso": "abierto",
+      "region": "cordoba",
+      "filtrar_argentina": false,
+      "max_horas": 48,
+      "activo": true
     }
   ]
 }

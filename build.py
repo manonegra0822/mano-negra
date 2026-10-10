@@ -218,6 +218,8 @@ def main():
                 seccion = "cordoba"
             elif eco >= pol and eco > 0:
                 seccion = "economia"
+            elif m.get("region") == "cordoba":
+                seccion = "cordoba"  # política de un medio cordobés, aunque no nombre a Córdoba
             else:
                 seccion = "argentina"
             base = min(pol + eco + cor + arg, 8) * 2
