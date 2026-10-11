@@ -1,5 +1,5 @@
 {
-  "ayuda": "Para tu revisión diaria. 'ocultar': lista de frases o partes de un enlace; las notas que las contengan no se muestran. 'fijar': enlace completo de la nota que querés como nota del día (tiene que estar en el feed de hoy). 'fotos': para ponerle a mano una foto a una nota. 'buscar' es una frase del titular o parte del enlace; 'archivo' es la foto subida a la carpeta fotos; 'credito' es lo que se lee debajo de la foto. 'opinion': notas de opinión que se muestran en el margen derecho. Cada una puede ser el enlace de la nota (se toma el título y el extracto de la propia página), una frase del titular de una nota ya publicada, o un bloque con url, titulo, autor, medio y resumen escritos a mano. Para sacar una, borrarla de la lista.",
+  "ayuda": "Para tu revisión diaria. 'ocultar': lista de frases o partes de un enlace; las notas que las contengan no se muestran. 'fijar': enlace completo de la nota que querés como nota del día (tiene que estar en el feed de hoy). 'fotos': para ponerle a mano una foto a una nota. 'buscar' es una frase del titular o parte del enlace; 'archivo' es la foto subida a la carpeta fotos; 'credito' es lo que se lee debajo de la foto. 'opinion': notas de opinión que se muestran en el margen derecho. Cada una puede ser el enlace de la nota (se toma el título y el extracto de la propia página), una frase del titular de una nota ya publicada, o un bloque con url, titulo, autor, medio y resumen escritos a mano. Para sacar una, borrarla de la lista. 'manuales': notas cargadas a mano para medios que no se pueden leer solos. Cada una lleva url, titulo, resumen, medio, fecha (ISO con -03:00), seccion (cordoba, argentina o economia), imagen y credito (opcionales) y hasta (cuándo dejar de mostrarla).",
   "ocultar": [],
   "fijar": "",
   "fotos": [
@@ -9,5 +9,43 @@
       "credito": "Enfoque Rojo"
     }
   ],
-  "opinion": []
+  "opinion": [],
+  "manuales": [
+    {
+      "url": "https://bunkermedia.com.ar/contenido/1358/la-novela-del-transito-esconde-el-hartazgo-de-llaryora-con-passerini-y-la-vieja",
+      "titulo": "La novela del tránsito esconde el hartazgo de Llaryora con Passerini y la vieja receta: enfrentar al Suoem",
+      "resumen": "Con el traspaso de parte del control del tránsito a la Policía, el gobernador Llaryora toma la llave de la gestión municipal. La nota lo vincula con su fastidio con el intendente Passerini, la vieja estrategia de enfrentar al Suoem y la intención de mejorar su posición en la capital.",
+      "medio": "Bunker Media",
+      "fecha": "2026-10-10T20:00:00-03:00",
+      "seccion": "cordoba",
+      "imagen": "https://bunkermedia.com.ar/download/multimedia.grande.a069cf4fd62e2b7f.Z3JhbmRlLndlYnA%3D.webp",
+      "credito": "Bunker Media",
+      "analizar_rostros": false,
+      "hasta": "2026-10-13T23:59:00-03:00"
+    },
+    {
+      "url": "https://bunkermedia.com.ar/contenido/1352/bugliotti-aviles-y-llaryora-el-triangulo-politico-en-disputa-detras-de-las-94-he",
+      "titulo": "Bugliotti, Avilés y Llaryora: el triángulo político en disputa detrás de las 94 hectáreas protegidas de Carlos Paz",
+      "resumen": "La clausura de un predio protegido en Villa Carlos Paz expone una pulseada política entre el empresario Tati Bugliotti, el intendente Esteban Avilés y el Gobierno provincial, con las elecciones en el horizonte.",
+      "medio": "Bunker Media",
+      "fecha": "2026-10-08T22:36:00-03:00",
+      "seccion": "cordoba",
+      "imagen": "https://bunkermedia.com.ar/download/multimedia.normal.997d49d6656e6770.bm9ybWFsLndlYnA%3D.webp",
+      "credito": "Bunker Media",
+      "analizar_rostros": false,
+      "hasta": "2026-10-13T23:59:00-03:00"
+    },
+    {
+      "url": "https://bunkermedia.com.ar/contenido/1347/con-aval-de-llaryora-quinteros-y-passerini-confirmaron-transito-a-la-provincia",
+      "titulo": "Con aval de Llaryora, Quinteros y Passerini confirmaron tránsito a la Provincia para la venida del papa León XIV",
+      "resumen": "El intendente Passerini y el ministro de Seguridad Quinteros acordaron que la Provincia se haga cargo del tránsito por la visita del papa León XIV. Dicen que las medidas serán temporales; el Suoem y el juecismo las rechazan y Llaryora las respalda con firmeza.",
+      "medio": "Bunker Media",
+      "fecha": "2026-10-08T19:49:00-03:00",
+      "seccion": "cordoba",
+      "imagen": "https://bunkermedia.com.ar/download/multimedia.grande.9d09d005bacbd25f.Z3JhbmRlLndlYnA%3D.webp",
+      "credito": "Bunker Media",
+      "analizar_rostros": false,
+      "hasta": "2026-10-13T23:59:00-03:00"
+    }
+  ]
 }

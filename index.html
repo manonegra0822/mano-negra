@@ -967,7 +967,7 @@
     try { var x = new URL(u); return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null; }
     catch (e) { return null; }
   }
-  function diaTxt(n) { return n.dia === 1 ? 'Ayer ' : (n.dia >= 2 ? 'Anteayer ' : ''); }
+  function diaTxt(n) { return n.dia === 1 ? 'Ayer ' : (n.dia === 2 ? 'Anteayer ' : (n.dia >= 3 ? 'Hace ' + n.dia + ' días ' : '')); }
 
   function encuadrar(img, ro) {
     var nw = img.naturalWidth, nh = img.naturalHeight, bw = img.clientWidth;

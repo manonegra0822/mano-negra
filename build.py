@@ -381,6 +381,35 @@ def leer_sitemap(m):
 
 
 
+def notas_manuales(entradas, ahora):
+    """Notas que se cargan a mano en curaduria.json ('manuales'), para medios que no se pueden leer solos."""
+    salida = []
+    for e in entradas:
+        try:
+            titulo, url, resumen = e["titulo"].strip(), e["url"].strip(), e["resumen"].strip()
+            fecha = dt.datetime.fromisoformat(e["fecha"]).astimezone(TZ)
+        except Exception:
+            print(f"[aviso] nota manual ignorada (faltan datos o la fecha no es válida): {str(e)[:80]}", file=sys.stderr)
+            continue
+        hasta = e.get("hasta")
+        if hasta and ahora > dt.datetime.fromisoformat(hasta).astimezone(TZ):
+            continue  # vencida
+        if not hasta and (ahora - fecha).total_seconds() / 3600 > MAX_HORAS:
+            continue
+        seccion = e.get("seccion") if e.get("seccion") in ("cordoba", "argentina", "economia") else "argentina"
+        imagen = imagen_valida(e.get("imagen")) if e.get("imagen") else None
+        salida.append({
+            "id": hashlib.sha1(url.encode()).hexdigest()[:10], "seccion": seccion, "rel": float(e.get("relevancia", 14)),
+            "relevancia": float(e.get("relevancia", 14)), "fecha": fecha.isoformat(timespec="seconds"),
+            "hora": fecha.strftime("%H:%M"), "titulo": titulo, "fuente": e.get("medio", "Nota cargada a mano"),
+            "url": url, "acceso": e.get("acceso", "abierto"), "resumen": recortar(resumen, MAX_PALABRAS), "impacto": None,
+            "imagen": imagen, "imagen_credito": (e.get("credito") or e.get("medio")) if imagen else None, "otros": [],
+            "_sin_analisis": e.get("analizar_rostros") is False,
+        })
+    return salida
+
+
+
 def tokens(titulo):
     return {t for t in normalizar(titulo).split() if len(t) >= 4 and t not in STOP}
 
@@ -589,6 +618,12 @@ def main():
     notas = deduplicar(notas)
     print(f"[ok] {arrastradas} notas conservadas de la corrida anterior (ventana de {MAX_HORAS} h); {antes - len(notas)} repetidas unidas")
 
+    urls_actuales = {n["url"] for n in notas}
+    manuales = [n for n in notas_manuales(cur.get("manuales", []), ahora) if n["url"] not in urls_actuales]
+    notas = [n for n in notas if n["url"] not in {m_["url"] for m_ in manuales}] + manuales
+    print(f"[ok] {len(manuales)} notas cargadas a mano")
+    sin_analisis = {n["imagen"] for n in manuales if n.pop("_sin_analisis", False) and n["imagen"]}
+
     opinion = procesar_opinion(cur.get("opinion", []), notas, previo, ahora)
     print(f"[ok] {len(opinion)} notas de opinión")
 
@@ -622,6 +657,8 @@ def main():
                 n["imagen"], n["imagen_credito"] = img, n["fuente"]
     print(f"[ok] {sum(1 for n in notas if n['imagen'])} de {len(notas)} notas con imagen")
     cache_rostros = {v["imagen"]: v.get("rostros") for v in previo.get("notas", []) if v.get("imagen") and "rostros" in v}
+    for img in sin_analisis:  # medios que bloquean lecturas automáticas: no se descarga su imagen
+        cache_rostros[img] = None
     # Encuadre: si hay rostros, la página centra la foto en ellos para no cortarlos
     for n in notas:
         if not n["imagen"]:
