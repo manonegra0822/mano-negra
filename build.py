@@ -330,21 +330,42 @@ def tokens(titulo):
     return {t for t in normalizar(titulo).split() if len(t) >= 4 and t not in STOP}
 
 
+def similares(a, b):
+    """Dos titulares hablan de lo mismo si comparten varias palabras clave (al menos 3, y buena parte de las del más corto)."""
+    inter = len(a & b)
+    if inter < 3:
+        return False
+    return inter / len(a | b) >= 0.4 or inter / min(len(a), len(b)) >= 0.5
+
+
 def agrupar(notas):
-    """Junta las notas de distintos medios que hablan de lo mismo."""
+    """Junta las notas que hablan de lo mismo (de distintos medios, o actualizaciones de la misma nota del mismo medio)."""
     grupos = []
     for n in sorted(notas, key=lambda x: -x["base"]):
         for g in grupos:
-            if any(m["fuente"] == n["fuente"] for m in g):
-                continue
-            inter = len(n["tok"] & g[0]["tok"])
-            union = len(n["tok"] | g[0]["tok"])
-            if inter >= 3 and union and inter / union >= 0.4:
+            if any(similares(n["tok"], m["tok"]) for m in g):
                 g.append(n)
                 break
         else:
             grupos.append([n])
     return grupos
+
+
+def deduplicar(notas):
+    """Deja una sola nota por tema: la más reciente. Si la cubrieron otros medios, quedan como 'otros'."""
+    conservadas = []
+    for n in sorted(notas, key=lambda x: x["fecha"], reverse=True):
+        tn = tokens(n["titulo"])
+        for k in conservadas:
+            if similares(tn, tokens(k["titulo"])):
+                if n["fuente"] != k["fuente"] and n["url"] not in [o["url"] for o in k["otros"]]:
+                    k["otros"].append({"fuente": n["fuente"], "titulo": n["titulo"], "url": n["url"]})
+                k["rel"] = max(k.get("rel", 0), n.get("rel", 0))
+                break
+        else:
+            n.setdefault("otros", [])
+            conservadas.append(n)
+    return conservadas
 
 
 def main():
@@ -426,6 +447,13 @@ def main():
 
     notas = []
     for g in agrupar(candidatas):
+        # misma nota actualizada varias veces por un medio: se queda la más reciente de cada medio
+        ultima = {}
+        for x in g:
+            f = x["fecha"].timestamp() if x["fecha"] else 0
+            if x["fuente"] not in ultima or f > (ultima[x["fuente"]]["fecha"].timestamp() if ultima[x["fuente"]]["fecha"] else 0):
+                ultima[x["fuente"]] = x
+        g = list(ultima.values())
         rep = max(g, key=lambda x: (x["acceso"] == "abierto", len(x["desc"])))
         urls = " ".join(x["url"] for x in g)
         texto_g = normalizar(" ".join(x["titulo"] for x in g))
@@ -488,7 +516,9 @@ def main():
         v["rel"] = v.get("rel", v.get("relevancia", 0))
         notas.append(v)
         arrastradas += 1
-    print(f"[ok] {arrastradas} notas conservadas de la corrida anterior (ventana de {MAX_HORAS} h)")
+    antes = len(notas)
+    notas = deduplicar(notas)
+    print(f"[ok] {arrastradas} notas conservadas de la corrida anterior (ventana de {MAX_HORAS} h); {antes - len(notas)} repetidas unidas")
 
     opinion = procesar_opinion(cur.get("opinion", []), notas, previo, ahora)
     print(f"[ok] {len(opinion)} notas de opinión")
