@@ -1,5 +1,5 @@
 {
-  "ayuda": "Para tu revisión diaria. 'ocultar': lista de frases o partes de un enlace; las notas que las contengan no se muestran. 'fijar': enlace completo de la nota que querés como nota del día (tiene que estar en el feed de hoy). 'fotos': para ponerle a mano una foto a una nota. 'buscar' es una frase del titular o parte del enlace; 'archivo' es la foto subida a la carpeta fotos; 'credito' es lo que se lee debajo de la foto.",
+  "ayuda": "Para tu revisión diaria. 'ocultar': lista de frases o partes de un enlace; las notas que las contengan no se muestran. 'fijar': enlace completo de la nota que querés como nota del día (tiene que estar en el feed de hoy). 'fotos': para ponerle a mano una foto a una nota. 'buscar' es una frase del titular o parte del enlace; 'archivo' es la foto subida a la carpeta fotos; 'credito' es lo que se lee debajo de la foto. 'opinion': notas de opinión que se muestran en el margen derecho. Cada una puede ser el enlace de la nota (se toma el título y el extracto de la propia página), una frase del titular de una nota ya publicada, o un bloque con url, titulo, autor, medio y resumen escritos a mano. Para sacar una, borrarla de la lista.",
   "ocultar": [],
   "fijar": "",
   "fotos": [
@@ -8,5 +8,6 @@
       "archivo": "fotos/encuentro-mujeres.jpg",
       "credito": "Enfoque Rojo"
     }
-  ]
+  ],
+  "opinion": []
 }

@@ -49,3 +49,13 @@ Al guardar el archivo la página se actualiza sola.
 - La sección de cada nota y su relevancia se calculan con reglas simples. Por eso conviene la revisión diaria.
 - GitHub puede demorar unos minutos la ejecución programada.
 - Antes de sumar un medio, revisar sus condiciones de uso.
+
+## Notas de opinión
+
+El margen derecho de la página muestra solo las notas que vos marques. Se cargan en `curaduria.json`, dentro de `"opinion"`:
+
+- Con el enlace de la nota: `"opinion": ["https://sitio.com/columna"]`. El script toma el título y el extracto de la propia página.
+- Con una frase del titular de una nota que ya está publicada: esa nota pasa de la lista a la columna de opinión.
+- Con los datos escritos a mano: `{"url": "...", "titulo": "...", "autor": "...", "medio": "...", "resumen": "..."}`.
+
+Para sacar una, borrarla de la lista. Se muestran hasta 10.

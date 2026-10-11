@@ -171,6 +171,73 @@ def imagen_de_la_pagina(url):
     return None
 
 
+def meta_de_la_pagina(url):
+    """Título, extracto, autor y medio que la propia nota declara (og:title, og:description…)."""
+    try:
+        pagina = descargar(url, limite=400_000, espera=12).decode("utf-8", "ignore")
+    except Exception as e:
+        print(f"[aviso] no se pudo leer la nota de opinión {url[:70]} ({e})", file=sys.stderr)
+        return {}
+
+    def meta(*nombres):
+        for nom in nombres:
+            for pat in (rf"<meta[^>]+(?:property|name)=[\"']{nom}[\"'][^>]*?content=[\"']([^\"']*)",
+                        rf"<meta[^>]+content=[\"']([^\"']*)[\"'][^>]*?(?:property|name)=[\"']{nom}[\"']"):
+                m = re.search(pat, pagina, re.I)
+                if m and m.group(1).strip():
+                    return limpiar(html.unescape(m.group(1)))
+        return None
+
+    titulo = meta("og:title", "twitter:title")
+    if not titulo:
+        m = re.search(r"<title[^>]*>(.*?)</title>", pagina, re.I | re.S)
+        titulo = limpiar(m.group(1)) if m else None
+    return {"titulo": titulo, "resumen": meta("og:description", "description", "twitter:description"),
+            "autor": meta("author", "article:author", "twitter:creator"), "medio": meta("og:site_name")}
+
+
+def procesar_opinion(entradas, notas, previo, ahora):
+    """Notas de opinión: solo las que se marcan en curaduria.json. Si la nota ya está entre las del día,
+    se saca de ahí y pasa a esta columna; si no, se toma el título y el extracto de la propia página."""
+    cache = {o.get("url"): o for o in previo.get("opinion", [])}
+    salida = []
+    for e in entradas:
+        if isinstance(e, str):
+            e = {"url": e} if e.strip().startswith("http") else {"buscar": e}
+        clave = (e.get("url") or e.get("buscar") or "").strip()
+        if not clave:
+            continue
+        es_url = clave.startswith("http")
+        hallada = next((n for n in notas if (es_url and clave == n["url"]) or
+                        (not es_url and normalizar(clave) in normalizar(n["titulo"]))), None)
+        if hallada:
+            notas.remove(hallada)
+            o = {"titulo": hallada["titulo"], "url": hallada["url"], "medio": hallada["fuente"],
+                 "resumen": hallada["resumen"], "autor": None, "fecha": hallada.get("fecha")}
+        elif es_url:
+            o = dict(cache.get(clave) or {})
+            o.setdefault("url", clave)
+            if not (o.get("titulo") and o.get("resumen")):
+                meta = meta_de_la_pagina(clave)
+                for campo in ("titulo", "resumen", "autor", "medio"):
+                    o[campo] = o.get(campo) or meta.get(campo)
+                if o.get("resumen"):
+                    o["resumen"] = recortar(o["resumen"], 40)
+            if not o.get("medio"):
+                o["medio"] = urlparse(clave).netloc.removeprefix("www.")
+            o.setdefault("fecha", ahora.isoformat(timespec="seconds"))
+        else:
+            print(f"[aviso] nota de opinión no encontrada: {clave}", file=sys.stderr)
+            continue
+        for campo in ("titulo", "autor", "medio", "resumen"):  # lo escrito a mano manda
+            if e.get(campo):
+                o[campo] = e[campo]
+        o["resumen"] = recortar(o.get("resumen") or "", 40)
+        if o.get("titulo") and o.get("url"):
+            salida.append({c: o.get(c) for c in ("titulo", "url", "medio", "autor", "resumen", "fecha")})
+    return salida[:10]
+
+
 def parsear(datos):
     raiz = ET.fromstring(datos.lstrip())
     salida = []
@@ -321,15 +388,18 @@ def main():
                 return 2 * puntaje(pats, t_norm) + puntaje(pats, d_norm)
 
             pol, eco, cor, arg = pt(pol_p), pt(eco_p), pt(cor_p), pt(arg_p)
-            if not (pol + eco >= 1 or (cor >= 1 and m.get("local"))):
+            # Solo política y economía/finanzas: el titular tiene que nombrar al menos un tema de esas áreas
+            tpe = puntaje(pol_p, t_norm) + puntaje(eco_p, t_norm)
+            if tpe < 1:
+                continue
+            # Nada de deportes, policiales, clima ni espectáculos (salvo que el titular sea claramente político o económico)
+            if (puntaje(exc_p, t_norm) or puntaje(exc_p, d_norm) >= 2) and tpe < 2:
                 continue
             # Nada de notas internacionales: la nota tiene que ser sobre Argentina
             extranjera, arg_pts = evaluar_pais(it["titulo"], it["desc"], it["url"], pats_pais)
             if extranjera:
                 continue
             if m.get("filtrar_argentina", True) and arg_pts < 1:
-                continue
-            if puntaje(exc_p, t_norm + " " + d_norm) and (pol + eco) < 3:
                 continue
             if cor >= 1:
                 seccion = "cordoba"
@@ -400,6 +470,10 @@ def main():
             continue
         if (ahora - f.astimezone(TZ)).total_seconds() / 3600 > MAX_HORAS:
             continue
+        tv, rv = normalizar(v.get("titulo", "")), normalizar(v.get("resumen", ""))
+        tpe_v = puntaje(pol_p, tv) + puntaje(eco_p, tv)
+        if tpe_v < 1 or ((puntaje(exc_p, tv) or puntaje(exc_p, rv) >= 2) and tpe_v < 2):
+            continue  # los filtros de tema también rigen para lo ya guardado
         extranjera, _ = evaluar_pais(v.get("titulo", ""), v.get("resumen", ""), v.get("url", ""), pats_pais)
         if extranjera:
             continue  # la regla de otros países también rige para lo ya guardado
@@ -412,6 +486,9 @@ def main():
         notas.append(v)
         arrastradas += 1
     print(f"[ok] {arrastradas} notas conservadas de la corrida anterior (ventana de {MAX_HORAS} h)")
+
+    opinion = procesar_opinion(cur.get("opinion", []), notas, previo, ahora)
+    print(f"[ok] {len(opinion)} notas de opinión")
 
     # Hoy primero: lo de ayer queda debajo de lo de hoy y la nota del día siempre es reciente
     for n in notas:
@@ -453,7 +530,7 @@ def main():
             n["rostros"] = cache_rostros[n["imagen"]] = detectar_rostros(n["imagen"])
     print(f"[ok] {sum(1 for n in notas if n['rostros'])} fotos con rostros detectados" + ("" if _DETECTOR else " (detector no instalado)"))
 
-    datos = {"actualizado": ahora.isoformat(timespec="seconds"), "notas": notas}
+    datos = {"actualizado": ahora.isoformat(timespec="seconds"), "notas": notas, "opinion": opinion}
     Path(args.json).write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
 
     pagina = Path(args.html).read_text(encoding="utf-8")

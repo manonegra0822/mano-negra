@@ -46,8 +46,8 @@
 
   .shell {
     display: grid;
-    grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
-    grid-template-areas: "mast lead" "list lead";
+    grid-template-columns: minmax(300px, 380px) minmax(0, 1fr) minmax(240px, 300px);
+    grid-template-areas: "mast lead opinion" "list lead opinion";
     grid-template-rows: auto 1fr;
     column-gap: 0;
     padding-inline: clamp(16px, 3vw, 40px);
@@ -170,8 +170,32 @@
   .foto figcaption { margin-top: 6px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
   .foto a { color: var(--ink); text-underline-offset: 3px; }
 
+  /* Notas de opinión (margen derecho) */
+  .opinion { grid-area: opinion; min-width: 0; align-self: start; position: sticky; top: env(safe-area-inset-top, 0px); max-height: 100dvh; overflow: auto; padding: 8px 0 24px clamp(18px, 2.4vw, 32px); border-inline-start: 2px solid var(--ink); }
+  .opinion h2 { margin: 0 0 4px; font-family: var(--f-display); font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; }
+  .opinion .sub { margin: 0 0 14px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
+  .opinion ol { list-style: none; margin: 0; padding: 0; }
+  .op { padding: 14px 0; border-top: 1px solid var(--line, #d4d4d4); }
+  .op:first-child { border-top: 2px solid var(--ink); }
+  .op-medio { font-family: var(--f-ui); font-size: .78rem; color: var(--ink-2); }
+  .op-titulo { display: block; margin: 4px 0 6px; font-family: var(--f-display); font-weight: 700; font-size: .95rem; line-height: 1.25; overflow-wrap: break-word; }
+  .op-autor { font-family: var(--f-ui); font-size: .82rem; font-weight: 600; margin: 0 0 4px; }
+  .op-texto { margin: 0 0 8px; font-family: var(--f-ui); font-size: .88rem; line-height: 1.45; color: var(--ink-2); }
+  .op a { color: var(--ink); text-underline-offset: 3px; font-family: var(--f-ui); font-size: .85rem; font-weight: 600; }
+  .op a.op-titulo { text-decoration: none; font-size: .95rem; font-weight: 700; }
+  .op a.op-titulo:hover { text-decoration: underline; }
+  .opinion .vacio { font-family: var(--f-ui); font-size: .88rem; color: var(--ink-2); margin: 0; border-top: 2px solid var(--ink); padding-top: 14px; }
+
+  @media (max-width: 1199px) and (min-width: 881px) {
+    .shell { grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); grid-template-areas: "mast lead" "list lead" ". opinion"; }
+    .opinion { position: static; max-height: none; overflow: visible; border-inline-start: 0; padding: 20px 0 0 clamp(24px, 4vw, 56px); }
+    .opinion ol { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0 28px; }
+    .op:first-child { border-top: 1px solid var(--line, #d4d4d4); }
+  }
+
   @media (max-width: 880px) {
-    .shell { grid-template-columns: minmax(0, 1fr); grid-template-areas: "mast" "lead" "list"; grid-template-rows: auto; }
+    .shell { grid-template-columns: minmax(0, 1fr); grid-template-areas: "mast" "lead" "opinion" "list"; grid-template-rows: auto; }
+    .opinion { position: static; max-height: none; overflow: visible; border-inline-start: 0; border-top: 2px solid var(--ink); margin-top: 20px; padding: 18px 0 8px; }
     .mast, .list { padding-inline-end: 0; border-inline-end: 0; }
     .list { border-top: 2px solid var(--ink); margin-top: 16px; }
     .lead { position: static; max-height: none; overflow: visible; padding-block: 24px 8px; padding-inline-start: 0; }
@@ -205,6 +229,12 @@
   </section>
 
   <article class="lead" id="lead" aria-live="polite"></article>
+
+  <aside class="opinion" id="opinion" aria-labelledby="op-titulo">
+    <h2 id="op-titulo">Notas de opinión</h2>
+    <p class="sub">Selección de columnas y análisis.</p>
+    <ol id="op-lista"></ol>
+  </aside>
 </div>
 
 <script type="application/json" id="news-data">
@@ -1245,7 +1275,35 @@
     }
   }
 
-  renderFilters(); renderList(); renderLead();
+  function renderOpinion() {
+    var ol = document.getElementById('op-lista');
+    var box = document.getElementById('opinion');
+    ol.textContent = '';
+    var lista = Array.isArray(data.opinion) ? data.opinion : [];
+    var viejo = box.querySelector('.vacio'); if (viejo) viejo.remove();
+    if (!lista.length) {
+      var p = el('p', 'vacio', 'Todavía no hay notas de opinión marcadas.');
+      box.appendChild(p);
+      return;
+    }
+    lista.forEach(function (o) {
+      var href = safeUrl(o.url);
+      if (!href) return;
+      var li = el('li', 'op');
+      li.appendChild(el('div', 'op-medio', 'Opinión · ' + (o.medio || '')));
+      var t = el('a', 'op-titulo', o.titulo);
+      t.href = href; t.target = '_blank'; t.rel = 'noopener noreferrer';
+      li.appendChild(t);
+      if (o.autor) li.appendChild(el('p', 'op-autor', 'Por ' + o.autor));
+      if (o.resumen) li.appendChild(el('p', 'op-texto', o.resumen));
+      var a = el('a', null, 'Leer en ' + (o.medio || 'el medio') + ' →');
+      a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      li.appendChild(a);
+      ol.appendChild(li);
+    });
+  }
+
+  renderFilters(); renderList(); renderLead(); renderOpinion();
   if (desktop.addEventListener) desktop.addEventListener('change', renderLead);
 })();
 </script>
