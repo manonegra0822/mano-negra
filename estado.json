@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-11T14:09:38-03:00",
+  "actualizado": "2026-10-11T14:18:03-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,9 +9,9 @@
         "sección no permitida": {
           "cantidad": 96,
           "ejemplos": [
-            "El sexto destructor estadounidense llegará a Rota (Cádiz) el próximo 15 de octub",
-            "El 64 % de los chilenos desaprueba la gestión del Gobierno de Kast, según encues",
-            "Ministra del Trabajo cuestionó a juez que le impuso tres días de arresto por pre"
+            "Tesla en modo Halloween: parpadean las luces del auto y emite sonidos de terror ",
+            "América de Cali vs. Independiente Medellín - en vivo HOY: siga aquí el partido d",
+            "Diez aeropuertos cubanos seguirán sin combustible Jet A-1 hasta el 1 de noviembr"
           ]
         },
         "titular sin tema de política/economía": {
@@ -32,8 +32,8 @@
           "cantidad": 67,
           "ejemplos": [
             "Lionel Scaloni participó del Gran Fondo Buenos Aires y pedaleó 129 kilómetros po",
-            "La reacción de Gustavo Yankelevich al fuerte relato de su nieto Valentín sobre l",
-            "Solo 14 provincias y la ciudad tienen pediatras en una especialidad clave para e"
+            "Agustín Tapia y Arturo Coello se impusieron en Alemania y sumaron el título 11° ",
+            "La reacción de Gustavo Yankelevich al fuerte relato de su nieto Valentín sobre l"
           ]
         },
         "titular sin tema de política/economía": {
@@ -87,28 +87,24 @@
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
+            "“Toto” está en problemas",
             "Las botas avanzan: los militares ya hablan de cambio de época",
-            "El papa León XIV será operado de un nódulo en un pulmón",
-            "¿Es China el nuevo centro del mundo?"
+            "El papa León XIV será operado de un nódulo en un pulmón"
           ]
         }
       }
     },
     {
-      "medio": "La Voz",
-      "error": "no se pudo leer el feed (HTTP Error 530: <none>)"
-    },
-    {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 18,
           "ejemplos": [
+            "Un buque chileno viajará a Malvinas a través de aguas argentinas",
             "Naufragio: registraron al menos 109 muertos y más de 116 desaparecidos",
-            "Trump anunció una tregua energética entre Rusia y Ucrania para frenar los ataque",
-            "Fútbol sin pausa: los partidos imperdibles de este domingo"
+            "Trump anunció una tregua energética entre Rusia y Ucrania para frenar los ataque"
           ]
         }
       }
