@@ -28,6 +28,7 @@ ROOT = Path(__file__).resolve().parent
 TZ = ZoneInfo("America/Argentina/Cordoba")
 UA = "Mozilla/5.0 (compatible; ManoNegraBot/1.0; resumen de titulares con enlace a la fuente)"
 
+ESTADO = []                  # resumen de qué pasó con cada medio (se guarda en estado.json)
 MAX_NOTAS = 40               # cuántas notas muestra la página
 MAX_HORAS = 48               # antigüedad máxima de una nota (y cuánto se conserva)
 MAX_PALABRAS = 65            # largo del extracto (medios abiertos)
@@ -330,6 +331,7 @@ def leer_sitemap(m):
     """Medios sin RSS: se toman las notas más nuevas del sitemap y, de cada página, el título, el extracto,
     la imagen y la fecha que la propia nota declara (og:title, og:description, og:image, article:published_time)."""
     xml = descargar(m["feed"], limite=2_000_000)
+    ESTADO.append({"medio": m["nombre"], "sitemap_bytes": len(xml)})
     urls = re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", xml.decode("utf-8", "ignore"))
     permitir = m.get("url_permitir") or []
     urls = [u for u in urls if not permitir or any(p in u for p in permitir)]
@@ -345,6 +347,7 @@ def leer_sitemap(m):
             pagina = descargar(u, limite=500_000, espera=15).decode("utf-8", "ignore")
         except Exception as e:
             print(f"[aviso] {m['nombre']}: no se pudo leer {u[-60:]} ({e})", file=sys.stderr)
+            ESTADO.append({"medio": m["nombre"], "error": f"no se pudo leer {u[-60:]} ({e})"})
             continue
 
         def meta(*nombres):
@@ -447,13 +450,19 @@ def main():
             items = leer_sitemap(m) if m.get("tipo") == "sitemap" else parsear(descargar(m["feed"]))
         except Exception as e:  # un medio caído no frena a los demás
             print(f"[aviso] {m['nombre']}: no se pudo leer el feed ({e})", file=sys.stderr)
+            ESTADO.append({"medio": m["nombre"], "error": f"no se pudo leer el feed ({e})"})
             continue
         guardadas = 0
+        descartes = {}
+
+        def descartar(motivo, it):
+            descartes.setdefault(motivo, []).append(it["titulo"][:80])
         for it in items:
             horas = None
             if it["fecha"] is not None:
                 horas = (ahora - it["fecha"].astimezone(TZ)).total_seconds() / 3600
                 if horas > m.get("max_horas", MAX_HORAS):
+                    descartar("muy vieja", it)
                     continue
             t_norm, d_norm = normalizar(it["titulo"]), normalizar(it["desc"])
 
@@ -463,20 +472,25 @@ def main():
             pol, eco, cor, arg = pt(pol_p), pt(eco_p), pt(cor_p), pt(arg_p)
             # Si el medio indica secciones permitidas, solo se aceptan notas de esas secciones
             if m.get("url_permitir") and not any(u in it["url"].lower() for u in m["url_permitir"]):
+                descartar("sección no permitida", it)
                 continue
             # Solo política y economía/finanzas: el titular tiene que nombrar al menos un tema de esas áreas
             tpe = puntaje(pol_p, t_norm) + puntaje(eco_p, t_norm)
             de_politica = normalizar(it.get("seccion") or "") in [normalizar(x) for x in m.get("secciones_politica", [])]
             if tpe < 1 and not de_politica:  # una sección que el medio marca como política cuenta aunque el titular use solo nombres propios
+                descartar("titular sin tema de política/economía", it)
                 continue
             # Nada de deportes, policiales, clima ni espectáculos (salvo que el titular sea claramente político o económico)
             if (puntaje(exc_p, t_norm) or puntaje(exc_p, d_norm) >= 2) and tpe < 2:
+                descartar("deportes/policiales/clima/espectáculos", it)
                 continue
             # Nada de notas internacionales: la nota tiene que ser sobre Argentina
             extranjera, arg_pts = evaluar_pais(it["titulo"], it["desc"], it["url"], pats_pais)
             if extranjera:
+                descartar("otro país", it)
                 continue
             if m.get("filtrar_argentina", True) and arg_pts < 1:
+                descartar("sin ancla argentina", it)
                 continue
             if cor >= 1:
                 seccion = "cordoba"
@@ -497,6 +511,8 @@ def main():
             })
             guardadas += 1
         print(f"[ok] {m['nombre']}: {len(items)} notas en el feed, {guardadas} de política/economía")
+        ESTADO.append({"medio": m["nombre"], "leidas": len(items), "aceptadas": guardadas,
+                       "descartadas": {k: {"cantidad": len(v), "ejemplos": v[:3]} for k, v in descartes.items()}})
 
     notas = []
     for g in agrupar(candidatas):
@@ -616,6 +632,8 @@ def main():
             n["rostros"] = cache_rostros[n["imagen"]] = detectar_rostros(n["imagen"])
     print(f"[ok] {sum(1 for n in notas if n['rostros'])} fotos con rostros detectados" + ("" if _DETECTOR else " (detector no instalado)"))
 
+    Path(args.json).with_name("estado.json").write_text(
+        json.dumps({"actualizado": ahora.isoformat(timespec="seconds"), "medios": ESTADO}, ensure_ascii=False, indent=2), encoding="utf-8")
     datos = {"actualizado": ahora.isoformat(timespec="seconds"), "notas": notas, "opinion": opinion}
     Path(args.json).write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
 
