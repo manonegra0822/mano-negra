@@ -1,6 +1,28 @@
 {
-  "actualizado": "2026-10-11T12:15:04-03:00",
+  "actualizado": "2026-10-11T14:02:08-03:00",
   "notas": [
+    {
+      "id": "69df657a11",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-11T13:50:44-03:00",
+      "hora": "13:50",
+      "titulo": "Milei viaja a Washington para profundizar su alianza estratégica con Trump y ratificar su condena al antisemitismo",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/11/milei-viaja-a-washington-para-profundizar-su-alianza-estrategica-con-trump-y-ratificar-su-condena-al-antisemitismo/",
+      "acceso": "abierto",
+      "resumen": "El Presidente se encontrará con el secretario de Energía de EE.UU, participará de un acto de la Alianza Internacional para el Recuerdo del Holocausto y será premiado en la Gala de la Herencia Hispana",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/4Y55N2IGUNDOVPIFC36AOVRVEM.jpg?auth=390f5128e80f0bdb39e9e50b613b6b9cc220af654cdce0bcc754f6af789c8a20&smart=true&width=1920&height=1280",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.144,
+        "y1": 0.429
+      }
+    },
     {
       "id": "7521940f2a",
       "seccion": "argentina",
@@ -21,47 +43,6 @@
       "rostros": {
         "y0": 0.058,
         "y1": 0.498
-      }
-    },
-    {
-      "id": "140485572d",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-11T10:29:40-03:00",
-      "hora": "10:29",
-      "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
-      "acceso": "suscripcion",
-      "resumen": "Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "1c62cfc9d7",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-11T10:27:53-03:00",
-      "hora": "10:27",
-      "titulo": "Calendario de jubilaciones de la Anses: cuándo se cobran en octubre 2026 con el bono oficial y el aumento confirmado",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/calendario-de-jubilaciones-de-la-anses-cuando-se-cobran-en-octubre-2026-con-el-bono-oficial-y-el-nid01102026/",
-      "acceso": "suscripcion",
-      "resumen": "Los haberes previsionales ya tienen establecido el cronograma de pagos para el décimo mes del año, cómo es la entrega diaria según el DNI",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/F2ZVVBH6LJBQPN7MMPDERZSRKE.jpg?auth=4d4298ff75b5f4bc0b47251cbf2419d49d3f06ae917b70932bab1d98ddbe6ccb&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.125,
-        "y1": 0.356
       }
     },
     {
@@ -87,6 +68,28 @@
       }
     },
     {
+      "id": "160ef865c4",
+      "seccion": "argentina",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-11T12:26:28-03:00",
+      "hora": "12:26",
+      "titulo": "El economista Alberto Ades explicó por qué participó de la reunión de Gabinete",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/el-economista-alberto-ades-explico-por-que-participo-de-la-reunion-de-gabinete-nid11102026/",
+      "acceso": "suscripcion",
+      "resumen": "El especialista contó que el presidente lo invitó a exponer ante los ministros tras una charla en Olivos; además negó cualquier vínculo de su presencia con la ausencia de Luis Caputo",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/YHN4KX7JQJCENI2RZODBKP5EVU.jpg?auth=190a439f856511d861639b89851728cb87b2be8f983000b97cd4d8cb28c06815&smart=true&width=694&height=484",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.347,
+        "y1": 0.895
+      }
+    },
+    {
       "id": "f5fe6f878d",
       "seccion": "economia",
       "rel": 21.7,
@@ -109,26 +112,23 @@
       }
     },
     {
-      "id": "978e907cf4",
-      "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-11T10:04:50-03:00",
-      "hora": "10:04",
-      "titulo": "Llaryora suma victorias políticas, pero las encuestas mantienen la incertidumbre electoral",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-suma-victorias-politicas-pero-las-encuestas-mantienen-la-incertidumbre-electoral/",
-      "acceso": "abierto",
-      "resumen": "El gobernador de Córdoba celebra el avance del acuerdo que habilita a la Policía provincial a intervenir en el control del tránsito en la Capital y considera que el conflicto también expuso diferencias entre el juecismo y el radicalismo.",
+      "id": "140485572d",
+      "seccion": "argentina",
+      "rel": 21.4,
+      "relevancia": 21.4,
+      "fecha": "2026-10-11T10:29:40-03:00",
+      "hora": "10:29",
+      "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
+      "acceso": "suscripcion",
+      "resumen": "Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-10.02.54-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "y0": 0.264,
-        "y1": 0.588
-      }
+      "rostros": null
     },
     {
       "id": "dd93e612b6",
@@ -150,6 +150,28 @@
       "rostros": {
         "y0": 0.133,
         "y1": 0.566
+      }
+    },
+    {
+      "id": "978e907cf4",
+      "seccion": "cordoba",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-10-11T10:04:50-03:00",
+      "hora": "10:04",
+      "titulo": "Llaryora suma victorias políticas, pero las encuestas mantienen la incertidumbre electoral",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-suma-victorias-politicas-pero-las-encuestas-mantienen-la-incertidumbre-electoral/",
+      "acceso": "abierto",
+      "resumen": "El gobernador de Córdoba celebra el avance del acuerdo que habilita a la Policía provincial a intervenir en el control del tránsito en la Capital y considera que el conflicto también expuso diferencias entre el juecismo y el radicalismo.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-10.02.54-optimized.jpeg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.264,
+        "y1": 0.588
       }
     },
     {
@@ -241,47 +263,25 @@
       }
     },
     {
-      "id": "4dbabd6c8f",
-      "seccion": "economia",
+      "id": "06b9ddc8aa",
+      "seccion": "argentina",
       "rel": 20.0,
       "relevancia": 20.0,
-      "fecha": "2026-10-11T00:01:16-03:00",
-      "hora": "00:01",
-      "titulo": "La crisis económica del “Menem trucho”",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/10/la-crisis-economica-del-menem-trucho/",
-      "acceso": "suscripcion",
-      "resumen": "Más allá de las presiones internas, Caputo dice que el “uno a uno” virtual evita corridas y, tras liquidar AYSA, prepara el remate de otras firmas para conseguir 1500 millones dólares.",
+      "fecha": "2026-10-11T13:47:42-03:00",
+      "hora": "13:47",
+      "titulo": "Tras volver de la gira por París con Milei, los gobernadores Frigerio y Torres ratificaron su respaldo a la eliminación de las PASO",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/11/tras-volver-de-la-gira-por-paris-con-milei-el-gobernador-frigerio-ratifico-su-respaldo-a-la-eliminacion-de-las-paso/",
+      "acceso": "abierto",
+      "resumen": "El mandatario entrerriano cuestionó que la ciudadanía deba acudir hasta cinco veces a las urnas en 2027. Su par de Chubut señaló que ya derogó las primarias a nivel provincial: “Tenemos que ser consecuentes”",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HEZDQNZZMNRTEYJUGY2DEMLFGI.jpg?auth=c7c9dd3f7441581682f90ab37eb5521407593870b54df4fca8c081c4dca8e1cc&smart=true&width=3253&height=2169",
-      "imagen_credito": "Página/12",
+      "imagen": "https://www.infobae.com/resizer/v2/KTP5R45XQBDSHAXGVHNWHJFKDU.jpg?auth=d42a76f2eb4a3ddfdb3c819acdf692554af52bf5a850639c3a19abfbb79a1914&smart=true&width=940&height=529",
+      "imagen_credito": "Infobae",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.099,
-        "y1": 0.541
-      }
-    },
-    {
-      "id": "65de5932e7",
-      "seccion": "economia",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-11T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "El Banco Central también timbeó con el oro que quedó en sus bóvedas",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/10/el-banco-central-tambien-timbeo-con-el-oro-que-quedo-en-sus-bovedas/",
-      "acceso": "suscripcion",
-      "resumen": "De las 1.900.000 onzas que tiene la Argentina, no sólo apostaron con las que están en Londres: también pusieron en la operación casi todas las que están en Buenos Aires.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UB5QJNSJUVGEJA4QX4UIFK7GFQ.jpg?auth=f6710824f104a739c95e7f9a8031a6526a212d5aeda3c8352a42c43fc5243003&smart=true&width=1209&height=806",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.18,
-        "y1": 0.539
+        "y0": 0.202,
+        "y1": 0.429
       }
     },
     {
@@ -307,25 +307,6 @@
       }
     },
     {
-      "id": "6a198ec8c4",
-      "seccion": "cordoba",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-10-11T11:00:37-03:00",
-      "hora": "11:00",
-      "titulo": "La disputa por la Ley de Tierras expuso las diferencias internas en la Corte Suprema",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/la-disputa-por-la-ley-de-tierras-expuso-las-diferencias-internas-en-la-corte-suprema/",
-      "acceso": "abierto",
-      "resumen": "Dos fallos contrapuestos sobre los límites a la compra de tierras rurales por parte de extranjeros dejaron al descubierto las tensiones entre los integrantes del máximo tribunal. Mientras una mayoría defiende que se trató de decisiones jurídicamente diferentes, el juez Carlos Rosenkrantz cuestionó la respuesta adoptada tras la reacción política y social.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "50c94a156e",
       "seccion": "economia",
       "rel": 19.8,
@@ -346,6 +327,69 @@
         "y0": 0.206,
         "y1": 0.564
       }
+    },
+    {
+      "id": "4dbabd6c8f",
+      "seccion": "economia",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-10-11T00:01:16-03:00",
+      "hora": "00:01",
+      "titulo": "La crisis económica del “Menem trucho”",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/10/la-crisis-economica-del-menem-trucho/",
+      "acceso": "suscripcion",
+      "resumen": "Más allá de las presiones internas, Caputo dice que el “uno a uno” virtual evita corridas y, tras liquidar AYSA, prepara el remate de otras firmas para conseguir 1500 millones dólares.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HEZDQNZZMNRTEYJUGY2DEMLFGI.jpg?auth=c7c9dd3f7441581682f90ab37eb5521407593870b54df4fca8c081c4dca8e1cc&smart=true&width=3253&height=2169",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.099,
+        "y1": 0.541
+      }
+    },
+    {
+      "id": "65de5932e7",
+      "seccion": "economia",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-10-11T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "El Banco Central también timbeó con el oro que quedó en sus bóvedas",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/10/el-banco-central-tambien-timbeo-con-el-oro-que-quedo-en-sus-bovedas/",
+      "acceso": "suscripcion",
+      "resumen": "De las 1.900.000 onzas que tiene la Argentina, no sólo apostaron con las que están en Londres: también pusieron en la operación casi todas las que están en Buenos Aires.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UB5QJNSJUVGEJA4QX4UIFK7GFQ.jpg?auth=f6710824f104a739c95e7f9a8031a6526a212d5aeda3c8352a42c43fc5243003&smart=true&width=1209&height=806",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.18,
+        "y1": 0.539
+      }
+    },
+    {
+      "id": "6a198ec8c4",
+      "seccion": "cordoba",
+      "rel": 19.5,
+      "relevancia": 19.5,
+      "fecha": "2026-10-11T11:00:37-03:00",
+      "hora": "11:00",
+      "titulo": "La disputa por la Ley de Tierras expuso las diferencias internas en la Corte Suprema",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/la-disputa-por-la-ley-de-tierras-expuso-las-diferencias-internas-en-la-corte-suprema/",
+      "acceso": "abierto",
+      "resumen": "Dos fallos contrapuestos sobre los límites a la compra de tierras rurales por parte de extranjeros dejaron al descubierto las tensiones entre los integrantes del máximo tribunal. Mientras una mayoría defiende que se trató de decisiones jurídicamente diferentes, el juez Carlos Rosenkrantz cuestionó la respuesta adoptada tras la reacción política y social.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "0115ab5437",
@@ -372,8 +416,8 @@
     {
       "id": "3aac53e0cc",
       "seccion": "cordoba",
-      "rel": 19.4,
-      "relevancia": 19.4,
+      "rel": 19.1,
+      "relevancia": 19.1,
       "fecha": "2026-10-11T08:54:00-03:00",
       "hora": "08:54",
       "titulo": "Gobierno argentino elimina tecnología china de las redes estatales",
@@ -477,23 +521,26 @@
       }
     },
     {
-      "id": "349fb2d455",
+      "id": "1c62cfc9d7",
       "seccion": "economia",
-      "rel": 17.2,
-      "relevancia": 17.2,
-      "fecha": "2026-10-10T13:14:39-03:00",
-      "hora": "13:14",
-      "titulo": "El Banco Central volvió a acelerar la compra de reservas",
+      "rel": 17.4,
+      "relevancia": 17.4,
+      "fecha": "2026-10-11T10:27:53-03:00",
+      "hora": "10:27",
+      "titulo": "Calendario de jubilaciones de la Anses: cuándo se cobran en octubre 2026 con el bono oficial y el aumento confirmado",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/el-banco-central-vuelve-a-acelerar-la-compra-de-reservas-nid09102026/",
+      "url": "https://www.lanacion.com.ar/economia/calendario-de-jubilaciones-de-la-anses-cuando-se-cobran-en-octubre-2026-con-el-bono-oficial-y-el-nid01102026/",
       "acceso": "suscripcion",
-      "resumen": "En las siete primeras ruedas de octubre, la entidad adquirió el triple que en igual lapso de septiembre",
+      "resumen": "Los haberes previsionales ya tienen establecido el cronograma de pagos para el décimo mes del año, cómo es la entrega diaria según el DNI",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/NLMFH6PJUZA3RGGXLU2Y6Y2C24.JPG?auth=5845c119b51c9d493abc5e936674c3b58e361247361901f8c8384fe5901f7865&smart=true&width=2000&height=1333",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/F2ZVVBH6LJBQPN7MMPDERZSRKE.jpg?auth=4d4298ff75b5f4bc0b47251cbf2419d49d3f06ae917b70932bab1d98ddbe6ccb&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
-      "rostros": null
+      "dia": 0,
+      "rostros": {
+        "y0": 0.125,
+        "y1": 0.356
+      }
     },
     {
       "id": "05aeff7643",
@@ -586,8 +633,8 @@
     {
       "id": "4748c3f500",
       "seccion": "economia",
-      "rel": 7.2,
-      "relevancia": 7.2,
+      "rel": 6.9,
+      "relevancia": 6.9,
       "fecha": "2026-10-10T19:30:00-03:00",
       "hora": "19:30",
       "titulo": "Abren postulaciones a las becas de alojamiento y apoyo económico para ingresantes 2027",
@@ -598,6 +645,25 @@
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "349fb2d455",
+      "seccion": "economia",
+      "rel": 17.2,
+      "relevancia": -482.8,
+      "fecha": "2026-10-10T13:14:39-03:00",
+      "hora": "13:14",
+      "titulo": "El Banco Central volvió a acelerar la compra de reservas",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/el-banco-central-vuelve-a-acelerar-la-compra-de-reservas-nid09102026/",
+      "acceso": "suscripcion",
+      "resumen": "En las siete primeras ruedas de octubre, la entidad adquirió el triple que en igual lapso de septiembre",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/NLMFH6PJUZA3RGGXLU2Y6Y2C24.JPG?auth=5845c119b51c9d493abc5e936674c3b58e361247361901f8c8384fe5901f7865&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 1,
       "rostros": null
