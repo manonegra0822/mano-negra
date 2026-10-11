@@ -326,6 +326,58 @@ def detectar_rostros(url):
         return None
 
 
+def leer_sitemap(m):
+    """Medios sin RSS: se toman las notas más nuevas del sitemap y, de cada página, el título, el extracto,
+    la imagen y la fecha que la propia nota declara (og:title, og:description, og:image, article:published_time)."""
+    xml = descargar(m["feed"], limite=2_000_000)
+    urls = re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", xml.decode("utf-8", "ignore"))
+    permitir = m.get("url_permitir") or []
+    urls = [u for u in urls if not permitir or any(p in u for p in permitir)]
+
+    def numero(u):
+        n = re.search(r"/(\d+)/", u)
+        return int(n.group(1)) if n else 0
+    urls = sorted(set(urls), key=numero, reverse=True)[: int(m.get("limite", 12))]
+    excluir = [normalizar(x) for x in m.get("secciones_excluir", [])]
+    salida = []
+    for u in urls:
+        try:
+            pagina = descargar(u, limite=500_000, espera=15).decode("utf-8", "ignore")
+        except Exception as e:
+            print(f"[aviso] {m['nombre']}: no se pudo leer {u[-60:]} ({e})", file=sys.stderr)
+            continue
+
+        def meta(*nombres):
+            for nom in nombres:
+                for pat in (rf"<meta[^>]+(?:property|name)=[\"'](?:meta-)?{nom}[\"'][^>]*?content=[\"']([^\"']*)",
+                            rf"<meta[^>]+content=[\"']([^\"']*)[\"'][^>]*?(?:property|name)=[\"'](?:meta-)?{nom}[\"']"):
+                    r = re.search(pat, pagina, re.I)
+                    if r and r.group(1).strip():
+                        return html.unescape(r.group(1)).strip()
+            return None
+        seccion = meta("article:section") or ""
+        if any(x and x in normalizar(seccion) for x in excluir):
+            continue
+        titulo = meta("og:title", "twitter:title")
+        if not titulo:
+            continue
+        fecha = None
+        ft = meta("article:published_time", "article:modified_time")
+        if ft:
+            ft = re.sub(r"([+-]\d{2})$", r"\1:00", ft.replace("Z", "+00:00"))
+            try:
+                fecha = dt.datetime.fromisoformat(ft)
+                if fecha.tzinfo is None:
+                    fecha = fecha.replace(tzinfo=TZ)
+            except Exception:
+                fecha = None
+        salida.append({"titulo": limpiar(titulo), "url": u, "desc": limpiar(meta("og:description", "description") or ""),
+                       "fecha": fecha, "seccion": seccion,
+                       "imagen": imagen_valida(urljoin(u, meta("og:image", "twitter:image") or ""))})
+    return salida
+
+
+
 def tokens(titulo):
     return {t for t in normalizar(titulo).split() if len(t) >= 4 and t not in STOP}
 
@@ -392,7 +444,7 @@ def main():
     candidatas = []
     for m in medios:
         try:
-            items = parsear(descargar(m["feed"]))
+            items = leer_sitemap(m) if m.get("tipo") == "sitemap" else parsear(descargar(m["feed"]))
         except Exception as e:  # un medio caído no frena a los demás
             print(f"[aviso] {m['nombre']}: no se pudo leer el feed ({e})", file=sys.stderr)
             continue
@@ -414,7 +466,8 @@ def main():
                 continue
             # Solo política y economía/finanzas: el titular tiene que nombrar al menos un tema de esas áreas
             tpe = puntaje(pol_p, t_norm) + puntaje(eco_p, t_norm)
-            if tpe < 1:
+            de_politica = normalizar(it.get("seccion") or "") in [normalizar(x) for x in m.get("secciones_politica", [])]
+            if tpe < 1 and not de_politica:  # una sección que el medio marca como política cuenta aunque el titular use solo nombres propios
                 continue
             # Nada de deportes, policiales, clima ni espectáculos (salvo que el titular sea claramente político o económico)
             if (puntaje(exc_p, t_norm) or puntaje(exc_p, d_norm) >= 2) and tpe < 2:

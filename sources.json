@@ -1,5 +1,5 @@
 {
-  "ayuda": "Para sumar un medio, copiar un bloque, cambiar nombre y feed, y guardar. La página se actualiza sola en uno o dos minutos. 'acceso' es 'abierto' o 'suscripcion'. 'local' en true hace que cuenten las notas de Córdoba aunque no tengan palabras de política. 'activo' en false pausa un medio sin borrarlo. 'max_horas' cambia cuánto tiempo atrás se aceptan notas (por defecto 36); conviene subirlo en medios que publican poco. 'filtrar_argentina' en false desactiva el filtro de notas argentinas para ese medio. 'region': 'cordoba' marca a un medio cordobés: sus notas de política que no nombran a Córdoba igual van a esa sección. 'url_permitir' (opcional): lista de partes de enlace; el medio solo aporta notas cuyo enlace contenga alguna (por ejemplo /politica/ o /economia/).",
+  "ayuda": "Para sumar un medio, copiar un bloque, cambiar nombre y feed, y guardar. La página se actualiza sola en uno o dos minutos. 'acceso' es 'abierto' o 'suscripcion'. 'local' en true hace que cuenten las notas de Córdoba aunque no tengan palabras de política. 'activo' en false pausa un medio sin borrarlo. 'max_horas' cambia cuánto tiempo atrás se aceptan notas (por defecto 36); conviene subirlo en medios que publican poco. 'filtrar_argentina' en false desactiva el filtro de notas argentinas para ese medio. 'region': 'cordoba' marca a un medio cordobés: sus notas de política que no nombran a Córdoba igual van a esa sección. 'url_permitir' (opcional): lista de partes de enlace; el medio solo aporta notas cuyo enlace contenga alguna (por ejemplo /politica/ o /economia/). 'tipo': 'sitemap' (opcional) sirve para medios sin RSS: 'feed' es la dirección del sitemap.xml, 'limite' cuántas notas recientes leer y 'secciones_excluir' qué secciones saltear. 'secciones_politica' (opcional, medios con 'tipo': 'sitemap'): secciones del medio que se aceptan como política aunque el titular no tenga palabras clave.",
   "medios": [
     {
       "nombre": "Infobae",
@@ -86,6 +86,27 @@
       "filtrar_argentina": false,
       "max_horas": 48,
       "activo": true
+    },
+    {
+      "nombre": "Bunker Media",
+      "acceso": "abierto",
+      "tipo": "sitemap",
+      "feed": "https://bunkermedia.com.ar/sitemap.xml",
+      "url_permitir": [
+        "/contenido/"
+      ],
+      "limite": 14,
+      "secciones_excluir": [
+        "futbol",
+        "deporte"
+      ],
+      "region": "cordoba",
+      "filtrar_argentina": false,
+      "max_horas": 72,
+      "nota": "Sin RSS: se lee el sitemap y los datos de cada nota. Cubre política; tiene una sección de fútbol que se excluye.",
+      "secciones_politica": [
+        "Política"
+      ]
     }
   ]
 }
