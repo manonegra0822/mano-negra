@@ -1,5 +1,5 @@
 {
-  "ayuda": "Para sumar un medio, copiar un bloque, cambiar nombre y feed, y guardar. La página se actualiza sola en uno o dos minutos. 'acceso' es 'abierto' o 'suscripcion'. 'local' en true hace que cuenten las notas de Córdoba aunque no tengan palabras de política. 'activo' en false pausa un medio sin borrarlo. 'max_horas' cambia cuánto tiempo atrás se aceptan notas (por defecto 36); conviene subirlo en medios que publican poco. 'filtrar_argentina' en false desactiva el filtro de notas argentinas para ese medio. 'region': 'cordoba' marca a un medio cordobés: sus notas de política que no nombran a Córdoba igual van a esa sección.",
+  "ayuda": "Para sumar un medio, copiar un bloque, cambiar nombre y feed, y guardar. La página se actualiza sola en uno o dos minutos. 'acceso' es 'abierto' o 'suscripcion'. 'local' en true hace que cuenten las notas de Córdoba aunque no tengan palabras de política. 'activo' en false pausa un medio sin borrarlo. 'max_horas' cambia cuánto tiempo atrás se aceptan notas (por defecto 36); conviene subirlo en medios que publican poco. 'filtrar_argentina' en false desactiva el filtro de notas argentinas para ese medio. 'region': 'cordoba' marca a un medio cordobés: sus notas de política que no nombran a Córdoba igual van a esa sección. 'url_permitir' (opcional): lista de partes de enlace; el medio solo aporta notas cuyo enlace contenga alguna (por ejemplo /politica/ o /economia/).",
   "medios": [
     {
       "nombre": "Infobae",
@@ -7,7 +7,11 @@
       "acceso": "abierto",
       "local": false,
       "activo": true,
-      "filtrar_argentina": true
+      "filtrar_argentina": true,
+      "url_permitir": [
+        "/politica/",
+        "/economia/"
+      ]
     },
     {
       "nombre": "La Nación",
@@ -15,7 +19,11 @@
       "acceso": "suscripcion",
       "local": false,
       "activo": true,
-      "filtrar_argentina": true
+      "filtrar_argentina": true,
+      "url_permitir": [
+        "/politica/",
+        "/economia/"
+      ]
     },
     {
       "nombre": "La tinta",

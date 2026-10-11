@@ -388,6 +388,9 @@ def main():
                 return 2 * puntaje(pats, t_norm) + puntaje(pats, d_norm)
 
             pol, eco, cor, arg = pt(pol_p), pt(eco_p), pt(cor_p), pt(arg_p)
+            # Si el medio indica secciones permitidas, solo se aceptan notas de esas secciones
+            if m.get("url_permitir") and not any(u in it["url"].lower() for u in m["url_permitir"]):
+                continue
             # Solo política y economía/finanzas: el titular tiene que nombrar al menos un tema de esas áreas
             tpe = puntaje(pol_p, t_norm) + puntaje(eco_p, t_norm)
             if tpe < 1:
