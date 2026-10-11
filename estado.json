@@ -1,0 +1,140 @@
+{
+  "actualizado": "2026-10-11T14:09:38-03:00",
+  "medios": [
+    {
+      "medio": "Infobae",
+      "leidas": 100,
+      "aceptadas": 2,
+      "descartadas": {
+        "sección no permitida": {
+          "cantidad": 96,
+          "ejemplos": [
+            "El sexto destructor estadounidense llegará a Rota (Cádiz) el próximo 15 de octub",
+            "El 64 % de los chilenos desaprueba la gestión del Gobierno de Kast, según encues",
+            "Ministra del Trabajo cuestionó a juez que le impuso tres días de arresto por pre"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Denuncian un bajo control de la pesca en el Mar Argentino, mientras Malvinas y C",
+            "Por qué los comercios enfrentan su Día de la Madre más desafiante en años"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "La Nación",
+      "leidas": 97,
+      "aceptadas": 11,
+      "descartadas": {
+        "sección no permitida": {
+          "cantidad": 67,
+          "ejemplos": [
+            "Lionel Scaloni participó del Gran Fondo Buenos Aires y pedaleó 129 kilómetros po",
+            "La reacción de Gustavo Yankelevich al fuerte relato de su nieto Valentín sobre l",
+            "Solo 14 provincias y la ciudad tienen pediatras en una especialidad clave para e"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 17,
+          "ejemplos": [
+            "Aterosclerosis y trombosis: alimentaron animales con remolacha forrajera y el re",
+            "La Iglesia argentina pidió rezar por la salud del papa León XIV ante la operació",
+            "Yesica Espínola, cabañera de 34 años: “Las vacas no tienen ni feriado ni fines d"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "La tinta",
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Sin abogadas feministas, no hay justicia"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 9,
+          "ejemplos": [
+            "“Big Maza”, jazz de dos orillas",
+            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional",
+            "Presentan amparo ambiental contra la Municipalidad de Córdoba por las torres del"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "Página/12",
+      "leidas": 6,
+      "aceptadas": 2,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "Las botas avanzan: los militares ya hablan de cambio de época",
+            "El papa León XIV será operado de un nódulo en un pulmón",
+            "¿Es China el nuevo centro del mundo?"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "La Voz",
+      "error": "no se pudo leer el feed (HTTP Error 530: <none>)"
+    },
+    {
+      "medio": "Hoy Día Córdoba",
+      "leidas": 20,
+      "aceptadas": 3,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 17,
+          "ejemplos": [
+            "Naufragio: registraron al menos 109 muertos y más de 116 desaparecidos",
+            "Trump anunció una tregua energética entre Rusia y Ucrania para frenar los ataque",
+            "Fútbol sin pausa: los partidos imperdibles de este domingo"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "Comercio y Justicia",
+      "error": "no se pudo leer el feed (HTTP Error 521: <none>)"
+    },
+    {
+      "medio": "Cba24n",
+      "leidas": 20,
+      "aceptadas": 1,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 19,
+          "ejemplos": [
+            "Trump anunció un alto el fuego energético entre Rusia y Ucrania",
+            "Habrá más lluvias esta semana en Córdoba",
+            "Belgrano visita a Racing con la misión de romper una vieja pesadilla en Avellane"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "Bunker Media",
+      "error": "no se pudo leer el feed (HTTP Error 403: Forbidden)"
+    }
+  ]
+}
