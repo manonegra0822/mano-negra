@@ -46,7 +46,7 @@
 
   .shell {
     display: grid;
-    grid-template-columns: minmax(300px, 380px) minmax(0, 1fr) minmax(240px, 300px);
+    grid-template-columns: minmax(280px, 380px) minmax(0, 1fr) minmax(210px, 300px);
     grid-template-areas: "mast lead opinion" "list lead opinion";
     grid-template-rows: auto 1fr;
     column-gap: 0;
@@ -170,12 +170,13 @@
   .foto figcaption { margin-top: 6px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
   .foto a { color: var(--ink); text-underline-offset: 3px; }
 
-  /* Notas de opinión (margen derecho) */
-  .opinion { grid-area: opinion; min-width: 0; align-self: start; position: sticky; top: env(safe-area-inset-top, 0px); max-height: 100dvh; overflow: auto; padding: 8px 0 24px clamp(18px, 2.4vw, 32px); border-inline-start: 2px solid var(--ink); }
-  .opinion h2 { margin: 0 0 4px; font-family: var(--f-display); font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; }
+  /* Notas de opinión (margen derecho): la columna llega hasta abajo, con su línea, como la de la izquierda */
+  .opinion { grid-area: opinion; min-width: 0; border-inline-start: 2px solid var(--ink); }
+  .opinion-in { position: sticky; top: env(safe-area-inset-top, 0px); max-height: 100dvh; overflow: auto; padding: 8px 0 24px clamp(18px, 2.4vw, 32px); }
+  .opinion h2 { display: inline-block; margin: 0 0 8px; padding: 5px 11px; background: var(--ink); color: var(--paper); font-family: var(--f-display); font-weight: 700; font-size: 1rem; letter-spacing: -0.01em; }
   .opinion .sub { margin: 0 0 14px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
   .opinion ol { list-style: none; margin: 0; padding: 0; }
-  .op { padding: 14px 0; border-top: 1px solid var(--line, #d4d4d4); }
+  .op { padding: 14px 0; border-top: 1px solid var(--line); }
   .op:first-child { border-top: 2px solid var(--ink); }
   .op-medio { font-family: var(--f-ui); font-size: .78rem; color: var(--ink-2); }
   .op-titulo { display: block; margin: 4px 0 6px; font-family: var(--f-display); font-weight: 700; font-size: .95rem; line-height: 1.25; overflow-wrap: break-word; }
@@ -185,17 +186,25 @@
   .op a.op-titulo { text-decoration: none; font-size: .95rem; font-weight: 700; }
   .op a.op-titulo:hover { text-decoration: underline; }
   .opinion .vacio { font-family: var(--f-ui); font-size: .88rem; color: var(--ink-2); margin: 0; border-top: 2px solid var(--ink); padding-top: 14px; }
+  .ir-opinion { display: none; }
 
-  @media (max-width: 1199px) and (min-width: 881px) {
-    .shell { grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); grid-template-areas: "mast lead" "list lead" ". opinion"; }
-    .opinion { position: static; max-height: none; overflow: visible; border-inline-start: 0; padding: 20px 0 0 clamp(24px, 4vw, 56px); }
-    .opinion ol { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0 28px; }
-    .op:first-child { border-top: 1px solid var(--line, #d4d4d4); }
+  /* Pantallas medianas: la columna pasa a una franja destacada arriba de todo, con tarjetas que se deslizan */
+  @media (max-width: 1023px) and (min-width: 881px) {
+    .shell { grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); grid-template-areas: "opinion opinion" "mast lead" "list lead"; grid-template-rows: auto auto 1fr; }
+    .opinion { border-inline-start: 0; border-bottom: 2px solid var(--ink); margin-bottom: 18px; padding-bottom: 14px; }
+    .opinion-in { position: static; max-height: none; overflow: visible; padding: 0; }
+    .opinion ol { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+    .op, .op:first-child { flex: 0 0 290px; scroll-snap-align: start; border-top: 2px solid var(--ink); }
   }
 
   @media (max-width: 880px) {
     .shell { grid-template-columns: minmax(0, 1fr); grid-template-areas: "mast" "lead" "opinion" "list"; grid-template-rows: auto; }
-    .opinion { position: static; max-height: none; overflow: visible; border-inline-start: 0; border-top: 2px solid var(--ink); margin-top: 20px; padding: 18px 0 8px; }
+    .opinion { border-inline-start: 0; border-block: 3px solid var(--ink); background: var(--paper-2); margin: 22px calc(-1 * clamp(16px, 3vw, 40px)) 0; padding: 16px clamp(16px, 3vw, 40px) 18px; }
+    .opinion-in { position: static; max-height: none; overflow: visible; padding: 0; }
+    .opinion ol { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; -webkit-overflow-scrolling: touch; }
+    .op, .op:first-child { flex: 0 0 min(82%, 320px); scroll-snap-align: start; background: var(--paper); border: 1px solid var(--ink); border-top: 3px solid var(--ink); padding: 12px; }
+    .opinion .vacio { border-top: 0; padding-top: 0; }
+    .ir-opinion:not([hidden]) { display: inline-block; justify-self: start; padding: 8px 12px; border: 2px solid var(--ink); background: var(--ink); color: var(--paper); font-family: var(--f-ui); font-size: .85rem; font-weight: 600; text-decoration: none; }
     .mast, .list { padding-inline-end: 0; border-inline-end: 0; }
     .list { border-top: 2px solid var(--ink); margin-top: 16px; }
     .lead { position: static; max-height: none; overflow: visible; padding-block: 24px 8px; padding-inline-start: 0; }
@@ -220,6 +229,7 @@
     </div>
     <p class="tagline">Lo que pasa ahora en Córdoba y Argentina</p>
     <p class="dateline" id="dateline"></p>
+    <a class="ir-opinion" id="ir-opinion" href="#opinion" hidden>Notas de opinión ↓</a>
   </header>
 
   <section class="list" aria-label="Todas las notas">
@@ -231,9 +241,11 @@
   <article class="lead" id="lead" aria-live="polite"></article>
 
   <aside class="opinion" id="opinion" aria-labelledby="op-titulo">
-    <h2 id="op-titulo">Notas de opinión</h2>
-    <p class="sub">Selección de columnas y análisis.</p>
-    <ol id="op-lista"></ol>
+    <div class="opinion-in">
+      <h2 id="op-titulo">Notas de opinión</h2>
+      <p class="sub">Selección de columnas y análisis.</p>
+      <ol id="op-lista"></ol>
+    </div>
   </aside>
 </div>
 
@@ -1091,9 +1103,11 @@
     ol.textContent = '';
     var lista = Array.isArray(data.opinion) ? data.opinion : [];
     var viejo = box.querySelector('.vacio'); if (viejo) viejo.remove();
+    var chip = document.getElementById('ir-opinion');
+    if (chip) { chip.hidden = !lista.length; if (lista.length) chip.textContent = 'Notas de opinión (' + lista.length + ') ↓'; }
     if (!lista.length) {
       var p = el('p', 'vacio', 'Todavía no hay notas de opinión marcadas.');
-      box.appendChild(p);
+      box.querySelector('.opinion-in').appendChild(p);
       return;
     }
     lista.forEach(function (o) {
