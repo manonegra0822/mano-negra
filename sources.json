@@ -54,8 +54,8 @@
       "nombre": "La Voz",
       "feed": "https://www.lavoz.com.ar/arc/outboundfeeds/feeds/rss/?outputType=xml",
       "acceso": "suscripcion",
-      "activo": true,
-      "nota": "Dirección tomada de un listado de feeds; no se pudo comprobar. Si falla, quedará un aviso en Actions.",
+      "activo": false,
+      "nota": "Pausado: la dirección del feed que teníamos no existe (error 1016 de Cloudflare, comprobado el 11/10/2026). Reactivar cuando se confirme un feed válido.",
       "region": "cordoba",
       "filtrar_argentina": false
     },
