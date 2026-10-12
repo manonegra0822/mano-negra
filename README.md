@@ -1,6 +1,6 @@
 # Mano Negra
 
-Portal de noticias políticas de Córdoba y Argentina. Se actualiza solo todos los días a las 8:00 y también cada vez que cambiás la lista de medios.
+Portal de noticias políticas de Córdoba y Argentina. Se actualiza solo todos los días a las 8:00, 13:00 y 20:00 (hora de Argentina) y también cada vez que cambiás la lista de medios.
 
 ## Cómo funciona
 

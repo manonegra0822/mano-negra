@@ -1,9 +1,9 @@
 name: Actualizar notas
 
 on:
-  # Todos los días a las 08:00 de Argentina (11:00 UTC)
+  # Todos los días a las 08:00, 13:00 y 20:00 de Argentina (11:00, 16:00 y 23:00 UTC)
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "0 11,16,23 * * *"
   # Cada vez que se cambia la lista de medios, las palabras o la curaduría
   push:
     paths:
