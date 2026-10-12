@@ -1,53 +1,47 @@
 {
-  "actualizado": "2026-10-11T14:23:35-03:00",
+  "actualizado": "2026-10-12T08:09:17-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 99,
           "ejemplos": [
-            "Procesión del Señor de los Milagros llegó a el Vaticano y fue saludada por el pa",
-            "Alessio Rigo de Righi recibe en Tabernas (Almería) el premio 'Spirit of the West",
-            "Irán dice que EEUU ha aceptado algunas de sus condiciones para poner fin a la gu"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Denuncian un bajo control de la pesca en el Mar Argentino, mientras Malvinas y C",
-            "Por qué los comercios enfrentan su Día de la Madre más desafiante en años"
+            "Más de 40 efectivos de Bombers buscan por octavo día al menor desaparecido en Gr",
+            "Desfile del 12 de octubre, en directo | Última hora de la Fiesta Nacional, que c",
+            "El otoño deja una semana estable con precipitaciones en Baleares, litoral este y"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 97,
-      "aceptadas": 11,
+      "leidas": 100,
+      "aceptadas": 13,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 67,
+          "cantidad": 70,
           "ejemplos": [
-            "Lionel Scaloni participó del Gran Fondo Buenos Aires y pedaleó 129 kilómetros po",
-            "Agustín Tapia y Arturo Coello se impusieron en Alemania y sumaron el título 11° ",
-            "La reacción de Gustavo Yankelevich al fuerte relato de su nieto Valentín sobre l"
+            "Las posiciones del torneo Clausura y una Tabla Anual al rojo vivo: cómo están Bo",
+            "Buscan intensamente a un hombre de 39 años que lleva más de 48 horas desaparecid",
+            "Donald Trump, sobre el bono de US$1000 para menores: “Es una oportunidad justa d"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 13,
           "ejemplos": [
-            "Aterosclerosis y trombosis: alimentaron animales con remolacha forrajera y el re",
-            "La Iglesia argentina pidió rezar por la salud del papa León XIV ante la operació",
-            "Yesica Espínola, cabañera de 34 años: “Las vacas no tienen ni feriado ni fines d"
+            "Calendario de pagos de Anses: cuándo se cobra la PUAM de octubre de 2026",
+            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de o",
+            "Calendario Anses: cuándo se cobra la AUH en octubre 2026"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
+            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2",
+            "El Nobel de Economía 2026 fue para Robert Hall y Michael Woodford por sus aporte"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -55,29 +49,18 @@
           "ejemplos": [
             "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
           ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Mike McCloskey, dueño de un tambo de 20.000 vacas Holando: el emprendedor serial"
+          ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Sin abogadas feministas, no hay justicia"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 9,
-          "ejemplos": [
-            "“Big Maza”, jazz de dos orillas",
-            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional",
-            "Presentan amparo ambiental contra la Municipalidad de Córdoba por las torres del"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
@@ -87,9 +70,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
-            "“Toto” está en problemas",
-            "Las botas avanzan: los militares ya hablan de cambio de época",
-            "El papa León XIV será operado de un nódulo en un pulmón"
+            "El Encuentro Plurinacional de Mujeres y Disidencias copó las calles de Córdoba",
+            "Toto está en problemas",
+            "Un rayo de furia en el cielo de la patria"
           ]
         }
       }
@@ -100,11 +83,23 @@
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 16,
           "ejemplos": [
-            "Un buque chileno viajará a Malvinas a través de aguas argentinas",
-            "Naufragio: registraron al menos 109 muertos y más de 116 desaparecidos",
-            "Trump anunció una tregua energética entre Rusia y Ucrania para frenar los ataque"
+            "Talleres empató con Independiente y sigue último en la Zona A",
+            "Belgrano rompió la racha negativa ante Racing y se impuso por 2-0",
+            "Estudiantes de la UNC desarrollan una prótesis de brazo de bajo costo"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Advierten que El Niño afectará las economías y agravará problemas en América Lat"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Buji Molas llega al Encuentro Plurinacional con música, performance y militancia"
           ]
         }
       }
@@ -116,14 +111,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 18,
           "ejemplos": [
-            "Trump anunció un alto el fuego energético entre Rusia y Ucrania",
-            "Habrá más lluvias esta semana en Córdoba",
-            "Belgrano visita a Racing con la misión de romper una vieja pesadilla en Avellane"
+            "Córdoba realizó la segunda gran marcha por el 39.º Encuentro Plurinacional de Mu",
+            "El Toyota Yaris actualizó su precio: cuánto hay que pagar por la versión automát",
+            "La Falda celebra la Fiesta Nacional del Alfajor 2026"
           ]
         }
       }
