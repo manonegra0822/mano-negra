@@ -1,17 +1,25 @@
 {
-  "actualizado": "2026-10-13T08:13:54-03:00",
+  "actualizado": "2026-10-13T13:14:46-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 95,
           "ejemplos": [
-            "Dónde está y cómo llegar al Callejón del Aguacate en Coyoacán, sitio con una de ",
-            "¿Qué está pasando en el Metro y Metrobús hoy 13 de octubre?",
-            "Visita de los reyes a Ceuta, en directo: Felipe VI y Letizia llegan a la ciudad "
+            "Guía para armar tu ofrenda de Día de Muertos 2026: que debe llevar y dónde compr",
+            "Qué esconden las alcantarillas de Nueva York y por qué grupos desconocidos las r",
+            "El ciclista mexicano Emilio Rodríguez sigue los pasos de Isaac del Toro y se une"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Viajó un año por Europa y sobrevivió al Titanic: la historia del Rolls-Royce que",
+            "El Reino Unido respaldó la explotación petrolera en Malvinas y anunció medidas l",
+            "Dos ganadores del Quini 6 cobraron más de $2.651 millones cada uno"
           ]
         }
       }
@@ -19,36 +27,35 @@
     {
       "medio": "La Nación",
       "leidas": 90,
-      "aceptadas": 6,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 72,
+          "cantidad": 73,
           "ejemplos": [
-            "Así hablaba Darío Giordano sobre sus hijos antes de ser acusado por Valentín Yan",
-            "Qué pasó con Valentín Yankelevich, el hijo de Romina Yan",
-            "Quién es Darío Giordano, el viudo de Romina Yan que fue acusado por su hijo Vale"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 8,
-          "ejemplos": [
-            "Fecha de cobro de Anses: el cronograma de pagos para este martes 13 de octubre",
-            "Cinco frases de dinero que todo inversor repite (y que muy pocos aplican)",
-            "Se conoce el IPC de septiembre y el mercado espera una leve aceleración"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El Gobierno promulgó la ley que modifica el régimen de zonas frías",
-            "El pedido de los diputados de Unión por la Patria por la ley de financiamiento",
-            "El agro en el Congreso, entre lo que se habla, se trata y, por ahora, no está en"
+            "Una camiseta de Michael Jordan de las Finales de la NBA de 1998 se subastó por u",
+            "Fecha de entrega del Balón de Oro 2026",
+            "Marta Sánchez, a los 60 años: “Tomo cucharadas de miel con unos granos de sal an"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Mike McCloskey, dueño de un tambo de 20.000 vacas Holando: el emprendedor serial"
+            "Crece la tensión por Malvinas: el gobierno británico anuncia que “protegerá” a l"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Ya produce en 18.650 metros cuadrados: una provincia vive una transformación his",
+            "Chiqui Tapia se reconcilió hace poco con el clan Moyano con una inédita foto de ",
+            "Polémica literaria: cuánto de inteligencia artificial hay en los libros más vend"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Discapacidad: Rodrigo Sbarra quedó a cargo de forma interina del área por el acc",
+            "El FMI hizo un fuerte recorte de la previsión de crecimiento de la Argentina par"
           ]
         }
       }
@@ -58,8 +65,14 @@
       "leidas": 10,
       "aceptadas": 0,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
+          ]
+        },
         "muy vieja": {
-          "cantidad": 10,
+          "cantidad": 9,
           "ejemplos": [
             "Sin abogadas feministas, no hay justicia",
             "“Big Maza”, jazz de dos orillas",
@@ -71,14 +84,12 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Los primeros trasladados del penal de Devoto fueron los presos que estudian: ya ",
-            "Todas las miradas apuntan a Roma",
-            "Delirios y peligros"
+            "Internaron al papa León XIV para extirparle un nódulo pulmonar"
           ]
         }
       }
@@ -86,46 +97,64 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 16,
           "ejemplos": [
-            "“Demencia” digital, los efectos del scrolling en el cerebro",
-            "Panamá reportó un sismo de magnitud 6,3 en el suroeste del país",
-            "El fin de semana largo movilizó $313.610 millones, pero cayó el gasto total"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El finde largo dejó un impacto económico superior a los $50 mil millones en Córd"
+            "El pronóstico de días nublados desató memes y bromas en las redes",
+            "Salvaron a un potrillo que cayó a un canal de riego",
+            "El papa León XIV ingresó al hospital Gemelli para ser operado"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "error": "no se pudo leer el feed (The read operation timed out)"
+      "leidas": 80,
+      "aceptadas": 10,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 18,
+          "ejemplos": [
+            "Iberostar eleva 7% sus ventas y refuerza portfolio con nuevas aperturas y renova",
+            "Tesoros ocultos de República Dominicana que transforman la experiencia de viajar",
+            "Artista Beatriz Milhazes se sumó al programa “Art in Unexpected Places” de Aspen"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Gobiernos y corporaciones criminales amenazan la soberanía y la paz de los puebl"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Imputaron a un hombre que se hizo pasar hacerse pasar por juez federal"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 50,
+          "ejemplos": [
+            "Paro del PAMI: médicos y odontólogos inician una huelga de cuatro días en reclam",
+            "Acuerdo con EE. UU. por US$ 14 millones: el Gobierno avanzará en el reemplazo de",
+            "GP de Singapur: Colapinto sufrió una complicada clasificación y largará decimoqu"
+          ]
+        }
+      }
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 16,
           "ejemplos": [
-            "Atenas ganó en casa: remontada épica ante Ferro desata la locura final",
-            "Cataratas del Iguazú: reabren el Parque Nacional tras la crecida del río por llu",
-            "Pelo corto, sin maquillaje y expulsiones: las estrictas medidas de Keiko Fujimor"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Dos economistas estadounidenses ganaron el Premio Nobel de Economía 2026",
-            "El papa León XIV será internado este martes para operarse de un nódulo pulmonar"
+            "La Noche de las Galerías y las Peatonales vuelve al centro de Córdoba",
+            "Caso Agostina Vega: Barrelier declaró por escrito y pidió un careo con Melisa He",
+            "Latin NCAP audita al Nissan Kicks fabricado en Brasil y confirma 5 estrellas de "
           ]
         }
       }
