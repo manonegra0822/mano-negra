@@ -107,42 +107,33 @@
       "secciones_politica": [
         "Política"
       ]
+    },
+    {
+      "nombre": "Punto a Punto",
+      "feed": "https://www.puntoapunto.com.ar/feed/",
+      "acceso": "abierto",
+      "region": "cordoba",
+      "filtrar_argentina": false,
+      "max_horas": 48,
+      "activo": true
+    },
+    {
+      "nombre": "Cadena 3",
+      "feed": "https://www.cadena3.com/rss",
+      "acceso": "abierto",
+      "region": "cordoba",
+      "filtrar_argentina": false,
+      "max_horas": 48,
+      "activo": true
+    },
+    {
+      "nombre": "Perfil",
+      "feed": "https://www.perfil.com/feed/cordoba",
+      "acceso": "abierto",
+      "region": "cordoba",
+      "filtrar_argentina": false,
+      "max_horas": 48,
+      "activo": true
     }
   ]
-},
-{
-  "nombre": "Punto a Punto",
-  "feed": "https://www.puntoapunto.com.ar/feed/",
-  "acceso": "abierto",
-  "region": "cordoba",
-  "filtrar_argentina": false,
-  "max_horas": 48,
-  "activo": true
-},
-{
-  "nombre": "Cadena 3",
-  "feed": "https://www.cadena3.com/rss",
-  "acceso": "abierto",
-  "region": "cordoba",
-  "filtrar_argentina": false,
-  "max_horas": 48,
-  "activo": true
-},
-{
-  "nombre": "Perfil",
-  "feed": "https://www.perfil.com/feed/cordoba",
-  "acceso": "abierto",
-  "region": "cordoba",
-  "filtrar_argentina": false,
-  "max_horas": 48,
-  "activo": true
-},
-{
-  "nombre": "Punto a Punto",
-  "feed": "https://www.puntoapunto.com.ar/feed/",
-  "acceso": "abierto",
-  "region": "cordoba",
-  "filtrar_argentina": false,
-  "max_horas": 48,
-  "activo": true
 }
