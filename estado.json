@@ -1,61 +1,60 @@
 {
-  "actualizado": "2026-10-13T13:14:46-03:00",
+  "actualizado": "2026-10-13T16:06:36-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 95,
           "ejemplos": [
-            "Guía para armar tu ofrenda de Día de Muertos 2026: que debe llevar y dónde compr",
-            "Qué esconden las alcantarillas de Nueva York y por qué grupos desconocidos las r",
-            "El ciclista mexicano Emilio Rodríguez sigue los pasos de Isaac del Toro y se une"
+            "“El Güero Gym” no tenía orden de aprehensión al momento de su arresto en Morelos",
+            "Isabella Ladera reveló que se someterá a una operación estética por los efectos ",
+            "Atlético de Madrid- Manchester United, en directo: previa y última hora del part"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La inflación en septiembre fue de 1,9% y acumuló 33,4% en los últimos doce meses"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "Viajó un año por Europa y sobrevivió al Titanic: la historia del Rolls-Royce que",
-            "El Reino Unido respaldó la explotación petrolera en Malvinas y anunció medidas l",
-            "Dos ganadores del Quini 6 cobraron más de $2.651 millones cada uno"
+            "Acto sindical sin bombos y un festival de rock, cumbia y rap: cómo será el feste"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 9,
+      "leidas": 92,
+      "aceptadas": 4,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 73,
+          "cantidad": 80,
           "ejemplos": [
-            "Una camiseta de Michael Jordan de las Finales de la NBA de 1998 se subastó por u",
-            "Fecha de entrega del Balón de Oro 2026",
-            "Marta Sánchez, a los 60 años: “Tomo cucharadas de miel con unos granos de sal an"
+            "Actualizaciones de las encuestas en Florida y quién gana las elecciones 2026 con",
+            "Champions League, en vivo: el minuto a minuto de los partidos",
+            "Parece un “pueblito italiano”: así es el megaproyecto inmobiliario que se levant"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "sin ancla argentina": {
+          "cantidad": 3,
           "ejemplos": [
-            "Crece la tensión por Malvinas: el gobierno británico anuncia que “protegerá” a l"
+            "El Gobierno designó a Diego Masaragian como nuevo secretario nacional de Discapa",
+            "El Gobierno envió a Guberman a Diputados para defender el Presupuesto, pero choc",
+            "Inflación de septiembre: cuál fue el IPC acumulado y qué proyectan las consultor"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 5,
           "ejemplos": [
             "Ya produce en 18.650 metros cuadrados: una provincia vive una transformación his",
-            "Chiqui Tapia se reconcilió hace poco con el clan Moyano con una inédita foto de ",
-            "Polémica literaria: cuánto de inteligencia artificial hay en los libros más vend"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Discapacidad: Rodrigo Sbarra quedó a cargo de forma interina del área por el acc",
-            "El FMI hizo un fuerte recorte de la previsión de crecimiento de la Argentina par"
+            "Jason Mraz y su otra pasión con paltas y café en casi siete hectáreas en San Die",
+            "Vacunos: comenzó la semana con subas en el Mercado Agroganadero de Cañuelas"
           ]
         }
       }
@@ -86,10 +85,10 @@
       "leidas": 6,
       "aceptadas": 5,
       "descartadas": {
-        "otro país": {
+        "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Internaron al papa León XIV para extirparle un nódulo pulmonar"
+            "Terminó “con éxito” la operación del papa León XIV"
           ]
         }
       }
@@ -97,14 +96,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 19,
           "ejemplos": [
-            "El pronóstico de días nublados desató memes y bromas en las redes",
-            "Salvaron a un potrillo que cayó a un canal de riego",
-            "El papa León XIV ingresó al hospital Gemelli para ser operado"
+            "Finalizó con éxito la operación al papa León XIV en el hospital Gemelli",
+            "Talleres cumplió 113 años, repasó su historia y abrió el debate entre los hincha",
+            "Las juveniles de Talleres pisan fuerte a nivel país"
           ]
         }
       }
@@ -112,14 +111,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 10,
+      "aceptadas": 13,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 21,
           "ejemplos": [
-            "Iberostar eleva 7% sus ventas y refuerza portfolio con nuevas aperturas y renova",
-            "Tesoros ocultos de República Dominicana que transforman la experiencia de viajar",
-            "Artista Beatriz Milhazes se sumó al programa “Art in Unexpected Places” de Aspen"
+            "Asociaciones civiles y fundaciones en Córdoba: nuevo régimen simplificado que ex",
+            "Prohíben la venta de una marca de agua lavandina por carecer de registros sanita",
+            "Argentina pidió al Tribunal del Mar impedir la explotación de hidrocarburos del "
           ]
         },
         "otro país": {
@@ -135,7 +134,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 50,
+          "cantidad": 44,
           "ejemplos": [
             "Paro del PAMI: médicos y odontólogos inician una huelga de cuatro días en reclam",
             "Acuerdo con EE. UU. por US$ 14 millones: el Gobierno avanzará en el reemplazo de",
@@ -147,14 +146,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 14,
           "ejemplos": [
-            "La Noche de las Galerías y las Peatonales vuelve al centro de Córdoba",
-            "Caso Agostina Vega: Barrelier declaró por escrito y pidió un careo con Melisa He",
-            "Latin NCAP audita al Nissan Kicks fabricado en Brasil y confirma 5 estrellas de "
+            "\"Chiqui“ Tapia bajo la lupa: piden investigar transferencias y un depósito millo",
+            "Comenzó la Feria de Empleo en la UNC: empresas, entrevistas laborales y exposici",
+            "La Noche de las Galerías y las Peatonales vuelve al centro de Córdoba"
           ]
         }
       }
@@ -162,6 +161,37 @@
     {
       "medio": "Bunker Media",
       "error": "no se pudo leer el feed (HTTP Error 403: Forbidden)"
+    },
+    {
+      "medio": "Punto a Punto",
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
+    },
+    {
+      "medio": "Cadena 3",
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 12, column 18)"
+    },
+    {
+      "medio": "Perfil",
+      "leidas": 70,
+      "aceptadas": 8,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 11,
+          "ejemplos": [
+            "Mariano Grimaldi: “El problema está en el poder adquisitivo de la gente”",
+            "La Calera busca ser la ciudad con el sistema anticorrupción \"más completo del pa",
+            "Cardenal Rossi sobre el papa León XIV: \"Mantenemos la ilusión y el deseo de que "
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 51,
+          "ejemplos": [
+            "Ranking de intendentes deja una señal para Llaryora: sube un cacique del PJ y ca",
+            "Con críticas a Milei y a Llaryora, arrancó el Encuentro en Córdoba y hoy marcha ",
+            "Karina Milei segmenta la estrategia electoral de LLA y hay vía libre para jugar "
+          ]
+        }
+      }
     }
   ]
 }
