@@ -1,76 +1,128 @@
 {
-  "actualizado": "2026-10-12T22:15:17-03:00",
+  "actualizado": "2026-10-13T08:13:54-03:00",
   "notas": [
     {
-      "id": "2ae46a8332",
+      "id": "a7eb19a665",
       "seccion": "economia",
       "rel": 33.6,
       "relevancia": 33.6,
-      "fecha": "2026-10-12T12:24:35-03:00",
-      "hora": "12:24",
-      "titulo": "Milei respaldó de manera contundente a Caputo y aseguró tener un respaldo de US$125.000 millones ante posibles turbulencias cambiarias",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/milei-respaldo-de-manera-contundente-a-caputo-y-aseguro-tener-un-respaldo-de-us125-000-millones-ante-posibles-turbulencias-cambiarias/",
+      "fecha": "2026-10-12T19:35:51-03:00",
+      "hora": "19:35",
+      "titulo": "Milei ratificó a Caputo y aseguró que tiene US$125.000 millones ante una corrida",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/milei-caputo-corrida-renuncia/",
       "acceso": "abierto",
-      "resumen": "El presidente Javier Milei confirmó enfáticamente la permanencia de Luis Caputo al frente del Ministerio de Economía, calificando de absurdas las versiones que daban por hecha su renuncia y la eventual llegada de Alberto Ades al cargo. El mandatario remarcó la estrecha sintonía de trabajo que mantiene con el ministro y atribuyó los rumores de […]",
+      "resumen": "El Presidente descartó cambios en Economía y afirmó que cuenta con recursos para enfrentar una eventual presión cambiaria durante el año electoral.",
       "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/05/Milei_Business_Forum_28646.webp",
-      "imagen_credito": "Comercio y Justicia",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/Milei-ratifico-a-Caputo-y-aseguro-que-tiene-US125.000-millones-ante-una-corrida-optimized.webp",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [
         {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Milei ratificó a Caputo y aseguró que tiene US$125.000 millones ante una corrida",
-          "url": "https://hoydia.com.ar/economia/milei-caputo-corrida-renuncia/"
+          "fuente": "Comercio y Justicia",
+          "titulo": "Milei respaldó de manera contundente a Caputo y aseguró tener un respaldo de US$125.000 millones ante posibles turbulencias cambiarias",
+          "url": "https://comercioyjusticia.info/economia/milei-respaldo-de-manera-contundente-a-caputo-y-aseguro-tener-un-respaldo-de-us125-000-millones-ante-posibles-turbulencias-cambiarias/"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.166,
+        "y1": 0.635
+      }
+    },
+    {
+      "id": "6cdd7297b2",
+      "seccion": "argentina",
+      "rel": 33.2,
+      "relevancia": 33.2,
+      "fecha": "2026-10-13T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Expulsan de la Argentina a un periodista brasileño que criticó a Milei",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/12/expulsan-de-la-argentina-a-un-periodista-brasileno-que-critico-a-milei/",
+      "acceso": "suscripcion",
+      "resumen": "Vinculado al PT, el periodista viajaba para entrevistar a dirigentes y especialistas para un libro sobre el presidente argentino. El Gobierno justificó la medida por incumplimientos migratorios.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/7DSNJYH5J5GKHHJC37TFDHPAQQ.jpg?auth=1a478cd7de19baa4eaaf23c2ea4e3ac6d634443823a6952eca50fa772da33f8b&smart=true&width=1012&height=675",
+      "imagen_credito": "Página/12",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "El Gobierno rechazó el ingreso al país de un periodista brasileño que había criticado a Milei",
+          "url": "https://www.lanacion.com.ar/politica/el-gobierno-rechazo-el-ingreso-al-pais-de-un-periodista-brasileno-que-habia-criticado-a-milei-nid12102026/"
+        },
+        {
+          "fuente": "La Nación",
+          "titulo": "Habló Rogerio Tomaz Jr, el periodista que criticó e insultó a Milei tras ser deportado en Aeroparque",
+          "url": "https://www.lanacion.com.ar/politica/hablo-rogerio-tomaz-jr-el-periodista-critico-de-milei-que-fue-deportado-en-aeroparque-es-un-orgullo-nid12102026/"
         }
       ],
       "dia": 0,
       "rostros": {
-        "y0": 0.198,
-        "y1": 0.693
+        "y0": 0.14,
+        "y1": 0.826
       }
     },
     {
-      "id": "14b629eeb8",
-      "seccion": "economia",
+      "id": "7446f96312",
+      "seccion": "argentina",
       "rel": 22.0,
       "relevancia": 22.0,
-      "fecha": "2026-10-12T07:59:39-03:00",
-      "hora": "07:59",
-      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este lunes 12 de octubre, minuto a minuto",
+      "fecha": "2026-10-13T08:00:06-03:00",
+      "hora": "08:00",
+      "titulo": "Javier Milei y sus medidas, EN VIVO: el Presidente dijo que el Gobierno estaría dispuesto a ajustar la fecha de la visita del Papa",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid12102026/",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-dijo-que-el-gobierno-estaria-dispuesto-a-ajustar-la-nid13102026/",
       "acceso": "suscripcion",
-      "resumen": "Por el feriado de hoy no hay actividad en el mercado financiero y, tanto para el dólar oficial como para el dólar blue se toman como referencia los valores de cierre del último día hábil de la semana",
+      "resumen": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y las declaraciones de los funcionarios",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/YNUF7YO3RRHAHN6K474UWY3S7M.jpg?auth=48f250872e9a2dc1b3c2f32ddbc279a8c240808639451d946519ec2357912a04&smart=true&width=2000&height=1333",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/W42BQW3CI5BP3MNGD3YPLVFUJ4.jpg?auth=d058216dee701ced985d0e3e3b82817f6f669eb0f16d57545ab14ee62ca401fc&smart=true&width=1321&height=991",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.176,
-        "y1": 0.399
+        "y0": 0.182,
+        "y1": 0.645
       }
     },
     {
-      "id": "81f786d174",
-      "seccion": "argentina",
+      "id": "dc3f0616b2",
+      "seccion": "economia",
       "rel": 22.0,
       "relevancia": 22.0,
-      "fecha": "2026-10-12T07:56:18-03:00",
-      "hora": "07:56",
-      "titulo": "Con Milei en el exterior, el Gobierno buscará acelerar los tiempos legislativos y avanzar en los acuerdos con los aliados",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/12/con-milei-en-el-exterior-el-gobierno-busca-acelerar-los-tiempos-legislativos-y-avanzar-en-los-acuerdos-con-los-aliados/",
-      "acceso": "abierto",
-      "resumen": "La mesa política retomará sus reuniones para ordenar la hoja de ruta en el Congreso y neutralizar los planes de la oposición. La complejidad del calendario y los debates en torno a los entendimientos con las provincias. La misión internacional del Presidente",
+      "fecha": "2026-10-13T07:42:25-03:00",
+      "hora": "07:42",
+      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 13 de octubre, minuto a minuto",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid13102026/",
+      "acceso": "suscripcion",
+      "resumen": "Por el feriado del lunes no hubo actividad en el mercado financiero y, tanto para el dólar oficial como para el dólar blue se toman como referencia los valores de cierre del último día hábil de la semana",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/73FGBWL3BBFNXO2IDYJT5D43EA.jpg?auth=89de5cc67acacab2bf281ec7d7766d10169346455c6c7da94ea6728ab71f7d87&smart=true&width=1280&height=854",
-      "imagen_credito": "Infobae",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IYEY5GXXZJFPRK5XWHSQY47HMA.jpg?auth=4ef2027c71a711410a369f8e88fddcf2c754735ea001c725cb7094bb89d09667&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "453d66159f",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-13T07:45:49-03:00",
+      "hora": "07:45",
+      "titulo": "El FMI cada vez la ve peor: recortó su previsión de crecimiento para la Argentina",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/13/el-fmi-cada-vez-la-ve-peor-recorto-su-prevision-de-crecimiento-para-la-argentina/",
+      "acceso": "suscripcion",
+      "resumen": "El Fondo redujo al 2,1% su pronóstico de suba para el PBI argentino este año, tras haber augurado un 3,5% en julio. El gobierno de Milei espera que el organismo apruebe una nueva revisión y un nuevo desembolso.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/EWATKFLOCJEJTCF6C6OKPXSXPU.jpg?auth=81bff8f7050aa6eeb38fd6a5fecb5728cc02526fd6313e6102602cc8d4e04a12&smart=true&width=4456&height=2919",
+      "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.353,
-        "y1": 0.642
+        "y0": 0.185,
+        "y1": 0.562
       }
     },
     {
@@ -89,7 +141,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/EXAHDAPPSRH6ZEPS7RTBX4NW5M.jpg?auth=39a4242690f7577533dca96562f7f64cd4dd350028e3ee433312b565451955bc&smart=true&width=1280&height=853",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -108,30 +160,33 @@
       "imagen": "https://www.infobae.com/resizer/v2/2L4HI2PKN5HVHKSKTZTEO3KLE4.jpg?auth=13f522e8c5948a8c3e918e04d961c0483e96495befca059b422c528dd2aeb1cf&smart=true&width=1920&height=1080",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.103,
         "y1": 0.577
       }
     },
     {
-      "id": "140485572d",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-12T07:38:49-03:00",
-      "hora": "07:38",
-      "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
-      "acceso": "suscripcion",
-      "resumen": "Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje",
+      "id": "8e66782b0f",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-13T07:19:03-03:00",
+      "hora": "07:19",
+      "titulo": "La mesa política vuelve a reunirse con la mira en la reforma electoral y Diputados",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/la-mesa-politica-vuelve-a-reunirse-con-la-mira-en-la-reforma-electoral-y-diputados/",
+      "acceso": "abierto",
+      "resumen": "El encuentro será este martes a las 13 y buscará definir la estrategia legislativa del Gobierno. El oficialismo apunta a avanzar con la eliminación de las PASO, el Presupuesto 2027 y los proyectos que se debatirán en la sesión especial del miércoles.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480",
-      "imagen_credito": "La Nación",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/mesa-politica-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.281,
+        "y1": 0.526
+      }
     },
     {
       "id": "84b5e81a6f",
@@ -149,32 +204,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/J6U3GFOYXJBCDFDKUUJTXVTJDY.JPG?auth=9259320a5b1d0905daa41fb3f378f1cfdcdbbfc95285a052b742a848ad4ea27e&smart=true&width=8192&height=5464",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.17,
         "y1": 0.79
-      }
-    },
-    {
-      "id": "743eedf84a",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-12T20:43:15-03:00",
-      "hora": "20:43",
-      "titulo": "Habló Rogerio Tomaz Jr, el periodista que criticó e insultó a Milei tras ser deportado en Aeroparque",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/hablo-rogerio-tomaz-jr-el-periodista-critico-de-milei-que-fue-deportado-en-aeroparque-es-un-orgullo-nid12102026/",
-      "acceso": "suscripcion",
-      "resumen": "Apuntó contra el Gobierno y respondió en redes al festejo del asesor Santiago Caputo; debió volver a Brasil; había insultado a Milei",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/U5PG36AZHJAA3BCUNFBSN6ZZWM.png?auth=b8f891775a89d85fda9a62be1ac107336506d99b10999077446d8999a9e088be&smart=true&width=351&height=293",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.216,
-        "y1": 0.893
       }
     },
     {
@@ -193,36 +226,96 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/XZWFXXIMF5B5DPX5N3L6FJAKWQ.jpg?auth=4996c691ccd96767a985ab637d75df598f96e94cdafd314f207c3c59e821c410&smart=true&width=998&height=665",
       "imagen_credito": "Página/12",
       "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "d9d311a7e9",
+      "seccion": "argentina",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-10-13T03:29:38-03:00",
+      "hora": "03:29",
+      "titulo": "Milei mantiene tres ventajas para 2027, a pesar de todo",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-mantiene-tres-ventajas-para-2027-a-pesar-de-todo-nid13102026/",
+      "acceso": "suscripcion",
+      "resumen": "Frente al kirchnerismo y al macrismo residual, el Presidente ofrece una rareza: claridad de modelo y vocación de poder; ¿hay riesgo de que en 2027 “Toto es Milei” corra la misma suerte que “Adorni es Milei”?",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/CFB7W6BO4FDHRA65W5A2S3CSOA.jpg?auth=f213387162cb5c38106b7641e96621da443789ebfa2e6ede58a15c520a4177bc&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.127,
+        "y1": 0.549
+      }
+    },
+    {
+      "id": "56c4d82089",
+      "seccion": "argentina",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-10-13T03:29:07-03:00",
+      "hora": "03:29",
+      "titulo": "La Corte y las fragilidades de Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/la-corte-y-las-fragilidades-de-milei-nid13102026/",
+      "acceso": "suscripcion",
+      "resumen": "El DNU 70 pende de un hilo; el Máximo tribunal salvó al Presidente del avance opositor en el Congreso; malestar económico, malestar con Caputo; Aysa y el misterio de una privatización; dificultades de Santilli con los gobernadores",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/H7HJNOD73NAZRPSLURN3TSWEPY.JPG?auth=06d3c7d28405fcfa2444173a07ea8bad109c47f7cc1fab3aaaf3f144d9e2be80&smart=true&width=1998&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.071,
+        "y1": 0.527
+      }
+    },
+    {
+      "id": "4307420787",
+      "seccion": "economia",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-10-13T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Milei admite una posible corrida cambiaria",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/12/milei-admite-una-posible-corrida-cambiaria/",
+      "acceso": "suscripcion",
+      "resumen": "Aseguró tener 125.000 millones de dólares para hacerle frente. Cifra muy distante de los fondos a los que efectivamente podría echar mano. Negó la inminente salida de Caputo del gobierno",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/6EVEQNZJDVAXRPY5NK55VPUBJI.jpg?auth=d43a1b987e2df51f73faac9aae71610d9ec9ce9eb8c32661e4eb31d1b2fb4da4&smart=true&width=6996&height=4665",
+      "imagen_credito": "Página/12",
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
       "id": "d9fa34f7fb",
       "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
+      "rel": 20.0,
+      "relevancia": 20.0,
       "fecha": "2026-10-12T20:19:27-03:00",
       "hora": "20:19",
-      "titulo": "El Indec publica mañana la inflación de septiembre y las consultoras prevén cerca del 2%",
+      "titulo": "El Indec publica la inflación de septiembre y las consultoras prevén cerca del 2%",
       "fuente": "Hoy Día Córdoba",
       "url": "https://hoydia.com.ar/economia/inflacion-septiembre-consultoras/",
       "acceso": "abierto",
       "resumen": "Las estimaciones privadas ubican la suba mensual entre el 1,9% y el 2,1%, con los alimentos entre los principales impulsores.",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/El-Indec-publica-manana-la-inflacion-de-septiembre-y-las-consultoras-preven-cerca-del-2-optimized.webp",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.092,
-        "y1": 0.38
-      }
+      "dia": 1,
+      "rostros": null
     },
     {
       "id": "7206f2fd5a",
       "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
+      "rel": 20.0,
+      "relevancia": 20.0,
       "fecha": "2026-10-12T20:19:10-03:00",
       "hora": "20:19",
       "titulo": "Denuncia por el oro del BCRA: piden la detención de Luis Caputo y Santiago Bausili",
@@ -231,20 +324,17 @@
       "acceso": "abierto",
       "resumen": "El abogado Gregorio Dalbón solicitó el arresto del ministro de Economía y las autoridades del Banco Central tras un informe oficial de la AGN.",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/08/2026_06_260602904-scaled-1-1024x734-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.086,
-        "y1": 0.509
-      }
+      "dia": 1,
+      "rostros": null
     },
     {
       "id": "5072f7d3a9",
       "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
+      "rel": 20.0,
+      "relevancia": 20.0,
       "fecha": "2026-10-12T20:00:14-03:00",
       "hora": "20:00",
       "titulo": "El oficialismo enfrenta una semana de definiciones clave en la Cámara de Diputados",
@@ -253,51 +343,10 @@
       "acceso": "abierto",
       "resumen": "Deberá enfrentar el debate por la Ley de Tierras, el Presupuesto 2027, la Ley de Malvinas y la sesión opositora para derogar el DNU 70/23.",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/09/telam-telam-camara-diputados-congreso-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "a05ed9d3de",
-      "seccion": "argentina",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-10-12T17:19:36-03:00",
-      "hora": "17:19",
-      "titulo": "El Gobierno rechazó el ingreso al país de un periodista brasileño que había criticado a Milei",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-gobierno-rechazo-el-ingreso-al-pais-de-un-periodista-brasileno-que-habia-criticado-a-milei-nid12102026/",
-      "acceso": "suscripcion",
-      "resumen": "Rogerio Tomaz Jr. fue detenido en Aeroparque y obligado a regresar a San Pablo; aducen faltas a las leyes migratorias; Santiago Caputo celebró en redes la expulsión",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/FS2KDL2PFZG55ASR4D2YGILO2U.JPEG?auth=9da501ffb1e5d1aafab6e3a759154817e834d488bdf0046b1997fcb453e8db8e&smart=true&width=2500&height=1784",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.066,
-        "y1": 0.525
-      }
-    },
-    {
-      "id": "a993bc8429",
-      "seccion": "economia",
-      "rel": 20.7,
-      "relevancia": 20.7,
-      "fecha": "2026-10-12T00:23:04-03:00",
-      "hora": "00:23",
-      "titulo": "Juan Carlos de Pablo habló sobre los lingotes de oro del BCRA, la figura de Luis Caputo y el futuro de la economía",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/juan-carlos-de-pablo-economista-para-la-argentina-es-un-problema-que-brasil-no-funcione-nid11102026/",
-      "acceso": "suscripcion",
-      "resumen": "El economista se refirió a la victoria de Flavio Bolsonaro y desmintió que las inversiones no lleguen al país; también habló sobre el ingreso de dólares y la relación entre Milei y Trump",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/SL4KBSXGDJHSBOOWINTZ5GVOK4.png?auth=6ba7edb1996d4b9b1c9b1feecae90d139d1389a35afc64b48af64c75092f3671&smart=true&width=579&height=434",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -316,30 +365,8 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/A6UXMV6DKJDDBGDDINAVY7FG6E.jpg?auth=731c9ac398b3b9ca1358b3c82b9b63713de896197ab8a0f9a943ec6c0f9dc303&smart=true&width=2560&height=1711",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "8f600783df",
-      "seccion": "argentina",
-      "rel": 18.6,
-      "relevancia": 18.6,
-      "fecha": "2026-10-12T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Milei elude las tensiones con la Iglesia por la llegada del Papa",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/12/milei-elude-tensiones-y-envia-un-mensaje-al-papa/",
-      "acceso": "suscripcion",
-      "resumen": "El Presidente cambió el tono que suele usar en X y le deseó una pronta recuperación a León XVI. Desde la iglesia aseguraron que se continúa con los preparativos para su visita a la Argentina.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/WI3QSMLNLNBSHISP3CNKJ3Q6GA.jpg?auth=c400bc9a40cbd449b4a547071a89f838079f3f951afce4334adeef2a289f4448&smart=true&width=1167&height=778",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.365
-      }
     },
     {
       "id": "36ba38f418",
@@ -357,38 +384,35 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "6458628bee",
+      "seccion": "economia",
+      "rel": 17.7,
+      "relevancia": 17.7,
+      "fecha": "2026-10-13T06:30:00-03:00",
+      "hora": "06:30",
+      "titulo": "Inversión global de 35 millones de euros: una empresa argentina inauguró una terminal de cargas refrigeradas en España",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/campo/inversion-global-de-35-millones-de-euros-una-empresa-argentina-inauguro-una-terminal-de-cargas-nid13102026/",
+      "acceso": "suscripcion",
+      "resumen": "Es de PTP Group y se encuentra en el puerto de la Bahía de Cádiz y generará más competitividad para los productores que quieren ingresar a la UE",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/KG2PO7MGGZBDPDF26RIIKY7TNM.jpeg?auth=dbb4d867b9dcbdadf944c04e125bc248452d68f54770756b074471bf8e6b9797&smart=true&width=1600&height=1200",
+      "imagen_credito": "La Nación",
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "1c62cfc9d7",
-      "seccion": "economia",
-      "rel": 17.9,
-      "relevancia": 17.9,
-      "fecha": "2026-10-12T07:38:02-03:00",
-      "hora": "07:38",
-      "titulo": "Calendario de jubilaciones de la Anses: cuándo se cobran en octubre 2026 con el bono oficial y el aumento confirmado",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/calendario-de-jubilaciones-de-la-anses-cuando-se-cobran-en-octubre-2026-con-el-bono-oficial-y-el-nid01102026/",
-      "acceso": "suscripcion",
-      "resumen": "Los haberes previsionales ya tienen establecido el cronograma de pagos para el décimo mes del año, cómo es la entrega diaria según el DNI",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/F2ZVVBH6LJBQPN7MMPDERZSRKE.jpg?auth=4d4298ff75b5f4bc0b47251cbf2419d49d3f06ae917b70932bab1d98ddbe6ccb&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.125,
-        "y1": 0.356
-      }
-    },
-    {
       "id": "425ecc0848",
       "seccion": "cordoba",
-      "rel": 17.5,
-      "relevancia": 17.5,
-      "fecha": "2026-10-12T19:27:41-03:00",
-      "hora": "19:27",
+      "rel": 17.6,
+      "relevancia": 17.6,
+      "fecha": "2026-10-13T06:00:41-03:00",
+      "hora": "06:00",
       "titulo": "Las voces del oficialismo cordobés tras el Encuentro Plurinacional",
       "fuente": "Hoy Día Córdoba",
       "url": "https://hoydia.com.ar/politica/cordoba/las-voces-del-oficialismo-cordobes-tras-el-encuentro-plurinacional/",
@@ -417,7 +441,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/VWOP2ICWOBHV7HVHB5JNQUP2DQ.JPG?auth=91cbcf4baad0377ae6a2fe9c7121b4c8c5fe12a981ffb33da98c540acd79286e&smart=true&width=3000&height=2000",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.605,
         "y1": 0.833
@@ -439,30 +463,8 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "7f81484530",
-      "seccion": "economia",
-      "rel": 11.9,
-      "relevancia": 11.9,
-      "fecha": "2026-10-12T07:31:49-03:00",
-      "hora": "07:31",
-      "titulo": "El Nobel de Economía 2026 fue para Robert Hall y Michael Woodford",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/12/el-nobel-de-economia-2026-fue-para-robert-hall-y-michael-woodford/",
-      "acceso": "suscripcion",
-      "resumen": "El comité destacó que sus investigaciones “hicieron posible gestionar grandes crisis macroeconómicas de manera mucho más efectiva que antes”.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LHWQTDM5LFCIHFLF6FBJW4GIHQ.jpg?auth=b9089fdc21d3869387b51b94c2adcf174a4867fefd844a3e1a5b451cc0f282fb&smart=true&width=560&height=388",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.164,
-        "y1": 0.707
-      }
     },
     {
       "id": "7a834a75e3",
@@ -486,6 +488,47 @@
           "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-nos-unimos-en-oracion-por-su-salud-dijo-el-presidente-por-la-nid12102026/"
         }
       ],
+      "dia": 2,
+      "rostros": null
+    },
+    {
+      "id": "81f786d174",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": -478.0,
+      "fecha": "2026-10-12T07:56:18-03:00",
+      "hora": "07:56",
+      "titulo": "Con Milei en el exterior, el Gobierno buscará acelerar los tiempos legislativos y avanzar en los acuerdos con los aliados",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/12/con-milei-en-el-exterior-el-gobierno-busca-acelerar-los-tiempos-legislativos-y-avanzar-en-los-acuerdos-con-los-aliados/",
+      "acceso": "abierto",
+      "resumen": "La mesa política retomará sus reuniones para ordenar la hoja de ruta en el Congreso y neutralizar los planes de la oposición. La complejidad del calendario y los debates en torno a los entendimientos con las provincias. La misión internacional del Presidente",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/73FGBWL3BBFNXO2IDYJT5D43EA.jpg?auth=89de5cc67acacab2bf281ec7d7766d10169346455c6c7da94ea6728ab71f7d87&smart=true&width=1280&height=854",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.353,
+        "y1": 0.642
+      }
+    },
+    {
+      "id": "140485572d",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": -478.1,
+      "fecha": "2026-10-12T07:38:49-03:00",
+      "hora": "07:38",
+      "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
+      "acceso": "suscripcion",
+      "resumen": "Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480",
+      "imagen_credito": "La Nación",
+      "otros": [],
       "dia": 1,
       "rostros": null
     },
@@ -505,7 +548,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/4Y55N2IGUNDOVPIFC36AOVRVEM.jpg?auth=390f5128e80f0bdb39e9e50b613b6b9cc220af654cdce0bcc754f6af789c8a20&smart=true&width=1920&height=1280",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.144,
         "y1": 0.429
@@ -527,32 +570,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/YHN4KX7JQJCENI2RZODBKP5EVU.jpg?auth=190a439f856511d861639b89851728cb87b2be8f983000b97cd4d8cb28c06815&smart=true&width=694&height=484",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.347,
         "y1": 0.895
-      }
-    },
-    {
-      "id": "dd93e612b6",
-      "seccion": "argentina",
-      "rel": 21.4,
-      "relevancia": -478.6,
-      "fecha": "2026-10-11T07:47:14-03:00",
-      "hora": "07:47",
-      "titulo": "El Papa en Luján: las invitaciones que va a hacer Kicillof y los enviados de Milei a la misa en territorio opositor",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-papa-en-lujan-las-invitaciones-que-va-a-hacer-kicillof-y-los-enviados-de-milei-a-la-misa-en-nid11102026/",
-      "acceso": "suscripcion",
-      "resumen": "El peronismo tendrá mayor representación en la ceremonia en la provincia de Buenos Aires, pero la Casa Rosada también desplegará funcionarios; negociaciones para ampliar lugares",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/ZTTZ2JOWYFDMFOLBMWGGZ2NN4M.jpeg?auth=7c17335700eb50a58234aea2078805f48a6bc1c7cc35887c56b70efc1cee3089&smart=true&width=847&height=564",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.133,
-        "y1": 0.566
       }
     },
     {
@@ -571,99 +592,30 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-10.02.54-optimized.jpeg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.264,
         "y1": 0.588
       }
     },
     {
-      "id": "4ba77ad9b9",
+      "id": "a993bc8429",
       "seccion": "economia",
-      "rel": 20.5,
-      "relevancia": -479.5,
-      "fecha": "2026-10-11T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Ricardo Dessy: “Un tipo de cambio más alto podría ser un alivio para algunos sectores”",
+      "rel": 20.7,
+      "relevancia": -479.3,
+      "fecha": "2026-10-12T00:23:04-03:00",
+      "hora": "00:23",
+      "titulo": "Juan Carlos de Pablo habló sobre los lingotes de oro del BCRA, la figura de Luis Caputo y el futuro de la economía",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/ricardo-dessy-un-tipo-de-cambio-mas-alto-podria-ser-un-alivio-para-algunos-sectores-nid11102026/",
+      "url": "https://www.lanacion.com.ar/economia/juan-carlos-de-pablo-economista-para-la-argentina-es-un-problema-que-brasil-no-funcione-nid11102026/",
       "acceso": "suscripcion",
-      "resumen": "El economista jefe del Citi para la Argentina, Paraguay y Uruguay sostiene que el ajuste fiscal volvió al país menos vulnerable, pero cree que el Gobierno debería comprar más reservas para bajar el riesgo país",
+      "resumen": "El economista se refirió a la victoria de Flavio Bolsonaro y desmintió que las inversiones no lleguen al país; también habló sobre el ingreso de dólares y la relación entre Milei y Trump",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/X5Q6K7UR6JAFRPRSDWRUKCPWUQ.jpg?auth=8ae5e9d8ec19ef60458bd147b79cb5c14893a090bc2fa338edac63864e3319bd&smart=true&width=2000&height=1331",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/SL4KBSXGDJHSBOOWINTZ5GVOK4.png?auth=6ba7edb1996d4b9b1c9b1feecae90d139d1389a35afc64b48af64c75092f3671&smart=true&width=579&height=434",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 1,
-      "rostros": {
-        "y0": 0.342,
-        "y1": 0.615
-      }
-    },
-    {
-      "id": "6029863e2d",
-      "seccion": "economia",
-      "rel": 20.5,
-      "relevancia": -479.5,
-      "fecha": "2026-10-11T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "La Argentina exportadora: hasta dónde puede llegar la nueva fábrica de dólares",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/la-argentina-exportadora-hasta-donde-puede-llegar-la-nueva-fabrica-de-dolares-nid11102026/",
-      "acceso": "suscripcion",
-      "resumen": "Con el aporte de la energía, la minería y el agro, los despachos de bienes al exterior quebrarían este año la barrera de los US$100.000 millones y en 10 años superarían los US$170.000 millones; el desafío: que sigan creciendo las…",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IE33WB4E5ZGSZLI3KJ3FFOCPT4.jpg?auth=833be366cf4e24c5563c3539dc4567b713129c79cb70c454b16fc02422cc3dbd&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.2,
-        "y1": 0.545
-      }
-    },
-    {
-      "id": "79dfdee25b",
-      "seccion": "argentina",
-      "rel": 20.5,
-      "relevancia": -479.5,
-      "fecha": "2026-10-11T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "¿Cuán fuerte estará el Gobierno de cara a las elecciones de 2027?",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/cuan-fuerte-estara-el-gobierno-de-cara-a-las-elecciones-de-2027-nid11102026/",
-      "acceso": "suscripcion",
-      "resumen": "Hay dos dimensiones más importantes que la cantidad de dólares para intervenir en el mercado: las fortalezas política y económica con las que Milei llegará al año próximo; en ese sentido, los mercados pueden estar subestimando los números",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/EWOD7PXGLZGC7NP54FL3YMOCDQ.jpg?auth=c5062ec7d2ff9d7dbff1d6f6cb05b1109284762098d8021b7304ba9cd52653c7&smart=true&width=2909&height=1980",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.243,
-        "y1": 0.86
-      }
-    },
-    {
-      "id": "6f76fc50d7",
-      "seccion": "argentina",
-      "rel": 20.5,
-      "relevancia": -479.5,
-      "fecha": "2026-10-11T00:00:00-03:00",
-      "hora": "00:00",
-      "titulo": "Sebastián Guidi: “Con Alberto Fernández y Macri, la Corte adoptó una postura confrontacional con el gobierno; por ahora, eso no se demostró con Milei”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/conversaciones-de-domingo/sebastian-guidi-con-alberto-fernandez-y-macri-la-corte-adopto-una-postura-confrontacional-con-el-nid11102026/",
-      "acceso": "suscripcion",
-      "resumen": "El gran desafío de los DNU y la constitucionalidad. Corte Suprema y Poder Ejecutivo, ¿una relación opaca? Estado y desregulación, ¿beneficiado por el sesgo de la Corte? La ley kirchnerista de los DNU, ¿la madre del problema?",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/2TMUI2TQKBHXZKQQX6ZSJP5EZU.JPG?auth=07aceedbe2cdca910dd2d5170b90f02696030655e6ad8a5fdc2af98031c59111&smart=true&width=3000&height=2000",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.178,
-        "y1": 0.755
-      }
+      "rostros": null
     },
     {
       "id": "06b9ddc8aa",
@@ -681,7 +633,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/KTP5R45XQBDSHAXGVHNWHJFKDU.jpg?auth=d42a76f2eb4a3ddfdb3c819acdf692554af52bf5a850639c3a19abfbb79a1914&smart=true&width=940&height=529",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.202,
         "y1": 0.429
@@ -703,54 +655,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/CQ6LPZPBKRAGBIDP56JRWFH73A.jpg?auth=9a77523d0a3e05d3b4f3f69534a5d299330e54c5b692453e5516b99c58ccce36&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.206,
         "y1": 0.564
-      }
-    },
-    {
-      "id": "4dbabd6c8f",
-      "seccion": "economia",
-      "rel": 19.6,
-      "relevancia": -480.4,
-      "fecha": "2026-10-11T00:01:16-03:00",
-      "hora": "00:01",
-      "titulo": "La crisis económica del “Menem trucho”",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/10/la-crisis-economica-del-menem-trucho/",
-      "acceso": "suscripcion",
-      "resumen": "Más allá de las presiones internas, Caputo dice que el “uno a uno” virtual evita corridas y, tras liquidar AYSA, prepara el remate de otras firmas para conseguir 1500 millones dólares.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HEZDQNZZMNRTEYJUGY2DEMLFGI.jpg?auth=c7c9dd3f7441581682f90ab37eb5521407593870b54df4fca8c081c4dca8e1cc&smart=true&width=3253&height=2169",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.099,
-        "y1": 0.541
-      }
-    },
-    {
-      "id": "65de5932e7",
-      "seccion": "economia",
-      "rel": 19.6,
-      "relevancia": -480.4,
-      "fecha": "2026-10-11T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "El Banco Central también timbeó con el oro que quedó en sus bóvedas",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/10/el-banco-central-tambien-timbeo-con-el-oro-que-quedo-en-sus-bovedas/",
-      "acceso": "suscripcion",
-      "resumen": "De las 1.900.000 onzas que tiene la Argentina, no sólo apostaron con las que están en Londres: también pusieron en la operación casi todas las que están en Buenos Aires.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UB5QJNSJUVGEJA4QX4UIFK7GFQ.jpg?auth=f6710824f104a739c95e7f9a8031a6526a212d5aeda3c8352a42c43fc5243003&smart=true&width=1209&height=806",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.18,
-        "y1": 0.539
       }
     },
     {
@@ -769,7 +677,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/corte-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -788,7 +696,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -807,30 +715,55 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6acb78c43b07160d80036adc/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.1,
         "y1": 0.472
       }
     },
     {
-      "id": "b5b29105e3",
+      "id": "8f600783df",
       "seccion": "argentina",
-      "rel": 18.5,
-      "relevancia": -481.5,
-      "fecha": "2026-10-11T00:01:00-03:00",
+      "rel": 18.6,
+      "relevancia": -481.4,
+      "fecha": "2026-10-12T00:01:00-03:00",
       "hora": "00:01",
-      "titulo": "El plan electoral de Milei y el fantasma de Menem",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/opinion/el-plan-electoral-de-milei-y-el-fantasma-de-menem-nid11102026/",
+      "titulo": "Milei elude las tensiones con la Iglesia por la llegada del Papa",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/12/milei-elude-tensiones-y-envia-un-mensaje-al-papa/",
       "acceso": "suscripcion",
-      "resumen": "El Gobierno inició una carrera contra el reloj para suspender las PASO, mientras enfrenta un inesperado desafío sociológico",
+      "resumen": "El Presidente cambió el tono que suele usar en X y le deseó una pronta recuperación a León XVI. Desde la iglesia aseguraron que se continúa con los preparativos para su visita a la Argentina.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/VVRDKF6ZJZB6BLCCMCH3T6BQAM.jpg?auth=c48f2892ddce9f539185f938298b70b3a0a9797cd179e7120aa027036dba6732&smart=true&width=2000&height=1333",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/WI3QSMLNLNBSHISP3CNKJ3Q6GA.jpg?auth=c400bc9a40cbd449b4a547071a89f838079f3f951afce4334adeef2a289f4448&smart=true&width=1167&height=778",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.365
+      }
+    },
+    {
+      "id": "1c62cfc9d7",
+      "seccion": "economia",
+      "rel": 17.9,
+      "relevancia": -482.1,
+      "fecha": "2026-10-12T07:38:02-03:00",
+      "hora": "07:38",
+      "titulo": "Calendario de jubilaciones de la Anses: cuándo se cobran en octubre 2026 con el bono oficial y el aumento confirmado",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/calendario-de-jubilaciones-de-la-anses-cuando-se-cobran-en-octubre-2026-con-el-bono-oficial-y-el-nid01102026/",
+      "acceso": "suscripcion",
+      "resumen": "Los haberes previsionales ya tienen establecido el cronograma de pagos para el décimo mes del año, cómo es la entrega diaria según el DNI",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/F2ZVVBH6LJBQPN7MMPDERZSRKE.jpg?auth=4d4298ff75b5f4bc0b47251cbf2419d49d3f06ae917b70932bab1d98ddbe6ccb&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 1,
-      "rostros": null
+      "rostros": {
+        "y0": 0.125,
+        "y1": 0.356
+      }
     },
     {
       "id": "5877d31227",
@@ -848,11 +781,71 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/RMXUCKKPGRCBZDO5XUW4FGSODM.JPG?auth=3eeb523e4b088462f386b2da5c6d7183c32be8d1fab154a077e621ff8ce1d7f2&smart=true&width=3313&height=2208",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.172,
         "y1": 0.436
       }
+    },
+    {
+      "id": "4aef3fcfb2",
+      "seccion": "cordoba",
+      "rel": 16.1,
+      "relevancia": -483.9,
+      "fecha": "2026-10-11T20:40:00-03:00",
+      "hora": "20:40",
+      "titulo": "El Papa será operado y Martín Llaryora expresó su apoyo: “Córdoba te espera”",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/el-papa-sera-operado-y-martin-llaryora-expreso-su-apoyo---cordoba-te-espera-_a6acc1dca3b07160d801b302a",
+      "acceso": "abierto",
+      "resumen": "El gobernador le deseó una pronta recuperación al Pontífice, que será intervenido por un nódulo pulmonar. Mientras tanto, Córdoba mantiene los preparativos para recibirlo el próximo 10 de noviembre.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ab65fc1835b9108c4faf389/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 2,
+      "rostros": {
+        "y0": 0.266,
+        "y1": 0.581
+      }
+    },
+    {
+      "id": "6fbdfe43d1",
+      "seccion": "cordoba",
+      "rel": 14.0,
+      "relevancia": -486.0,
+      "fecha": "2026-10-10T20:00:00-03:00",
+      "hora": "20:00",
+      "titulo": "La novela del tránsito esconde el hartazgo de Llaryora con Passerini y la vieja receta: enfrentar al Suoem",
+      "fuente": "Bunker Media",
+      "url": "https://bunkermedia.com.ar/contenido/1358/la-novela-del-transito-esconde-el-hartazgo-de-llaryora-con-passerini-y-la-vieja",
+      "acceso": "abierto",
+      "resumen": "Con el traspaso de parte del control del tránsito a la Policía, el gobernador Llaryora toma la llave de la gestión municipal. La nota lo vincula con su fastidio con el intendente Passerini, la vieja estrategia de enfrentar al Suoem y la intención de mejorar su posición en la capital.",
+      "impacto": null,
+      "imagen": "https://bunkermedia.com.ar/download/multimedia.grande.a069cf4fd62e2b7f.Z3JhbmRlLndlYnA%3D.webp",
+      "imagen_credito": "Bunker Media",
+      "otros": [],
+      "dia": 3,
+      "rostros": null
+    },
+    {
+      "id": "a07c6b446d",
+      "seccion": "cordoba",
+      "rel": 14.0,
+      "relevancia": -486.0,
+      "fecha": "2026-10-08T22:36:00-03:00",
+      "hora": "22:36",
+      "titulo": "Bugliotti, Avilés y Llaryora: el triángulo político en disputa detrás de las 94 hectáreas protegidas de Carlos Paz",
+      "fuente": "Bunker Media",
+      "url": "https://bunkermedia.com.ar/contenido/1352/bugliotti-aviles-y-llaryora-el-triangulo-politico-en-disputa-detras-de-las-94-he",
+      "acceso": "abierto",
+      "resumen": "La clausura de un predio protegido en Villa Carlos Paz expone una pulseada política entre el empresario Tati Bugliotti, el intendente Esteban Avilés y el Gobierno provincial, con las elecciones en el horizonte.",
+      "impacto": null,
+      "imagen": "https://bunkermedia.com.ar/download/multimedia.normal.997d49d6656e6770.bm9ybWFsLndlYnA%3D.webp",
+      "imagen_credito": "Bunker Media",
+      "otros": [],
+      "dia": 5,
+      "rostros": null
     }
   ],
   "opinion": []

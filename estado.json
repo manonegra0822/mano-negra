@@ -1,38 +1,54 @@
 {
-  "actualizado": "2026-10-12T22:15:17-03:00",
+  "actualizado": "2026-10-13T08:13:54-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 100,
           "ejemplos": [
-            "El llamativo apodo que una figura del Manchester City le puso a Enzo Fernández",
-            "Miau Fest tendrá edición Michictlán en CDMX por Día de Muertos: habrá pasarela d",
-            "Meli Espinoza vuelve a Morena tras su paso por el PT y es cuestionada por recibi"
+            "Dónde está y cómo llegar al Callejón del Aguacate en Coyoacán, sitio con una de ",
+            "¿Qué está pasando en el Metro y Metrobús hoy 13 de octubre?",
+            "Visita de los reyes a Ceuta, en directo: Felipe VI y Letizia llegan a la ciudad "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 5,
+      "leidas": 90,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 85,
+          "cantidad": 72,
           "ejemplos": [
-            "Una alerta del FBI por amenazas en ChatGPT permitió descubrir un plan para reali",
-            "Cristian Coloca, especialista en inversiones: “El error más común es no diversif",
-            "Joseph Pilates, creador del entrenamiento: “Sería un grave error pensar que con "
+            "Así hablaba Darío Giordano sobre sus hijos antes de ser acusado por Valentín Yan",
+            "Qué pasó con Valentín Yankelevich, el hijo de Romina Yan",
+            "Quién es Darío Giordano, el viudo de Romina Yan que fue acusado por su hijo Vale"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 8,
+          "ejemplos": [
+            "Fecha de cobro de Anses: el cronograma de pagos para este martes 13 de octubre",
+            "Cinco frases de dinero que todo inversor repite (y que muy pocos aplican)",
+            "Se conoce el IPC de septiembre y el mercado espera una leve aceleración"
           ]
         },
         "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El Gobierno promulgó la ley que modifica el régimen de zonas frías",
+            "El pedido de los diputados de Unión por la Patria por la ley de financiamiento",
+            "El agro en el Congreso, entre lo que se habla, se trata y, por ahora, no está en"
+          ]
+        },
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Cuando los malos impuestos son los más fáciles de cobrar"
+            "Mike McCloskey, dueño de un tambo de 20.000 vacas Holando: el emprendedor serial"
           ]
         }
       }
@@ -42,18 +58,12 @@
       "leidas": 10,
       "aceptadas": 0,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Sin abogadas feministas, no hay justicia"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 9,
+          "cantidad": 10,
           "ejemplos": [
+            "Sin abogadas feministas, no hay justicia",
             "“Big Maza”, jazz de dos orillas",
-            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional",
-            "Presentan amparo ambiental contra la Municipalidad de Córdoba por las torres del"
+            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional"
           ]
         }
       }
@@ -61,14 +71,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
-            "China criticó la injerencia de Estados Unidos en países de América Latina",
-            "Amanecer en la calle para dejar un CV: diez cuadras de fila en Moreno",
-            "El papa León XIV será ingresado este martes en el Policlínico Gemelli"
+            "Los primeros trasladados del penal de Devoto fueron los presos que estudian: ya ",
+            "Todas las miradas apuntan a Roma",
+            "Delirios y peligros"
           ]
         }
       }
@@ -79,11 +89,11 @@
       "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 13,
           "ejemplos": [
-            "Willy Magia estrena espectáculo junto a Liliana González",
             "“Demencia” digital, los efectos del scrolling en el cerebro",
-            "Colapinto y Alpine en alerta: triplete negativo y sed de revancha en América"
+            "Panamá reportó un sismo de magnitud 6,3 en el suroeste del país",
+            "El fin de semana largo movilizó $313.610 millones, pero cayó el gasto total"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -91,61 +101,31 @@
           "ejemplos": [
             "El finde largo dejó un impacto económico superior a los $50 mil millones en Córd"
           ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Tras la entrega del Nobel de la Paz, EE.UU. impuso sanciones contra la Corte Pen"
-          ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "leidas": 80,
-      "aceptadas": 4,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El Papa será operado este martes en el Hospital Policlínico Gemelli",
-            "La Iglesia argentina convoca a rezar por la salud del Papa León XIV tras el anun"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Acuerdo con EE. UU. por US$ 14 millones: el Gobierno avanzará en el reemplazo de"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 73,
-          "ejemplos": [
-            "GP de Singapur: Colapinto sufrió una complicada clasificación y largará decimoqu",
-            "Vacantes y lentitud en la Justicia: un especialista propone cuatro ejes para mod",
-            "Medidas cautelares, cuota 85, cuota extraordinaria: una bomba de tiempo"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (The read operation timed out)"
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
       "aceptadas": 2,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 16,
+          "ejemplos": [
+            "Atenas ganó en casa: remontada épica ante Ferro desata la locura final",
+            "Cataratas del Iguazú: reabren el Parque Nacional tras la crecida del río por llu",
+            "Pelo corto, sin maquillaje y expulsiones: las estrictas medidas de Keiko Fujimor"
+          ]
+        },
         "otro país": {
           "cantidad": 2,
           "ejemplos": [
             "Dos economistas estadounidenses ganaron el Premio Nobel de Economía 2026",
             "El papa León XIV será internado este martes para operarse de un nódulo pulmonar"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 16,
-          "ejemplos": [
-            "Cómo funcionan los servicios en Córdoba durante este lunes feriado",
-            "Córdoba: una discusión entre automovilistas terminó con un detenido y un herido ",
-            "Dos hombres sufrieron fracturas durante una carrera de trail en Villa Yacanto"
           ]
         }
       }
