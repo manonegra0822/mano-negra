@@ -1,94 +1,78 @@
 {
-  "actualizado": "2026-10-13T16:06:36-03:00",
+  "actualizado": "2026-10-13T20:18:26-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 97,
           "ejemplos": [
-            "“El Güero Gym” no tenía orden de aprehensión al momento de su arresto en Morelos",
-            "Isabella Ladera reveló que se someterá a una operación estética por los efectos ",
-            "Atlético de Madrid- Manchester United, en directo: previa y última hora del part"
+            "La Bolsa de Buenos Aires cierra con un alza del 1,45 %",
+            "¿Qué está pasando en el Metro y Metrobús hoy 13 de octubre? Manifestaciones prov",
+            "Resultados ganadores del Cupón Diario de la Once de este 13 de octubre"
           ]
         },
-        "sin ancla argentina": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "La inflación en septiembre fue de 1,9% y acumuló 33,4% en los últimos doce meses"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Acto sindical sin bombos y un festival de rock, cumbia y rap: cómo será el feste"
+            "Visita del Papa: el Gobierno dijo que está dispuesto a reprogramar, pero espera "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 4,
+      "leidas": 90,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 80,
+          "cantidad": 75,
           "ejemplos": [
             "Actualizaciones de las encuestas en Florida y quién gana las elecciones 2026 con",
-            "Champions League, en vivo: el minuto a minuto de los partidos",
-            "Parece un “pueblito italiano”: así es el megaproyecto inmobiliario que se levant"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El Gobierno designó a Diego Masaragian como nuevo secretario nacional de Discapa",
-            "El Gobierno envió a Guberman a Diputados para defender el Presupuesto, pero choc",
-            "Inflación de septiembre: cuál fue el IPC acumulado y qué proyectan las consultor"
+            "La salud del Papa: qué es un adenocarcinoma pulmonar, cómo se trata y qué pronós",
+            "No es Vozinha: un arquero del Mundial 2026 rompió un Récord Guinness y le entreg"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 11,
           "ejemplos": [
-            "Ya produce en 18.650 metros cuadrados: una provincia vive una transformación his",
-            "Jason Mraz y su otra pasión con paltas y café en casi siete hectáreas en San Die",
-            "Vacunos: comenzó la semana con subas en el Mercado Agroganadero de Cañuelas"
+            "Fecha de cobro de Anses: el cronograma de pagos para este martes 13 de octubre",
+            "Revelan la identidad del presunto espía en OpenAI: es un ingeniero saudita y ya ",
+            "Tras el pedido de la Justicia a la FIFA, Chiqui Tapia viajó a Suiza en avión pri"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Llegó a valer más de US$1000 millones: una empresa del agro convocó a sus accion",
+            "El Gobierno envió a Guberman a Diputados para defender el Presupuesto, pero choc"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 9,
-          "ejemplos": [
-            "Sin abogadas feministas, no hay justicia",
-            "“Big Maza”, jazz de dos orillas",
-            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 5,
+      "aceptadas": 1,
       "descartadas": {
-        "titular sin tema de política/economía": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Terminó “con éxito” la operación del papa León XIV"
+            "El Gobierno admite que puede haber cambios en la visita de León XIV"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "El Vaticano confirmó que al papa León XIV le extirparon un tumor maligno",
+            "Hábeas corpus por los detenidos en Devoto",
+            "Adiós a los carruajes en Nueva York: Mamdani busca prohibir la tracción a caball"
           ]
         }
       }
@@ -96,14 +80,26 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 11,
           "ejemplos": [
-            "Finalizó con éxito la operación al papa León XIV en el hospital Gemelli",
-            "Talleres cumplió 113 años, repasó su historia y abrió el debate entre los hincha",
-            "Las juveniles de Talleres pisan fuerte a nivel país"
+            "Tras la cirugía, confirmaron que el papa León XIV tiene cáncer de pulmón",
+            "Artemis Danza estrenará una obra inspirada en Pinocho",
+            "Argentina pidió al Tribunal del Mar impedir la explotación de hidrocarburos en M"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Fuerte reclamo de Sáenz al Gobierno por los ramales de Salta en el Belgrano Carg"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Lula lanza un plan de alivio fiscal para pequeños emprendedores"
           ]
         }
       }
@@ -111,14 +107,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 13,
+      "aceptadas": 14,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 21,
+          "cantidad": 23,
           "ejemplos": [
-            "Asociaciones civiles y fundaciones en Córdoba: nuevo régimen simplificado que ex",
-            "Prohíben la venta de una marca de agua lavandina por carecer de registros sanita",
-            "Argentina pidió al Tribunal del Mar impedir la explotación de hidrocarburos del "
+            "Cruz del Eje: el exintendente Claudio Farías se sentará en el banquillo por deli",
+            "La operación del Papa León XIV “fue un éxito”",
+            "Asociaciones civiles y fundaciones en Córdoba: nuevo régimen simplificado que ex"
           ]
         },
         "otro país": {
@@ -134,7 +130,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 44,
+          "cantidad": 41,
           "ejemplos": [
             "Paro del PAMI: médicos y odontólogos inician una huelga de cuatro días en reclam",
             "Acuerdo con EE. UU. por US$ 14 millones: el Gobierno avanzará en el reemplazo de",
@@ -146,14 +142,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 12,
           "ejemplos": [
-            "\"Chiqui“ Tapia bajo la lupa: piden investigar transferencias y un depósito millo",
-            "Comenzó la Feria de Empleo en la UNC: empresas, entrevistas laborales y exposici",
-            "La Noche de las Galerías y las Peatonales vuelve al centro de Córdoba"
+            "El viaje de León XIV a la Argentina entra en suspenso: “Esperamos la decisión de",
+            "Nuevos cortes programados de EPEC para este miércoles en Córdoba",
+            "Elevaron a juicio la causa contra Martín Gill"
           ]
         }
       }
@@ -173,22 +169,22 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 8,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 16,
           "ejemplos": [
-            "Mariano Grimaldi: “El problema está en el poder adquisitivo de la gente”",
-            "La Calera busca ser la ciudad con el sistema anticorrupción \"más completo del pa",
-            "Cardenal Rossi sobre el papa León XIV: \"Mantenemos la ilusión y el deseo de que "
+            "El exintendente de Villa María Martín Gill vuelve a quedar a un paso del juicio ",
+            "En un año Córdoba recibió casi 8.000 denuncias por vehículos mal estacionados",
+            "Así crece Armando Medialunas: productos frescos, costumbres argentinas y opcione"
           ]
         },
         "muy vieja": {
-          "cantidad": 51,
+          "cantidad": 45,
           "ejemplos": [
             "Ranking de intendentes deja una señal para Llaryora: sube un cacique del PJ y ca",
-            "Con críticas a Milei y a Llaryora, arrancó el Encuentro en Córdoba y hoy marcha ",
-            "Karina Milei segmenta la estrategia electoral de LLA y hay vía libre para jugar "
+            "Karina Milei segmenta la estrategia electoral de LLA y hay vía libre para jugar ",
+            "En medio del choque de Llaryora con el Suoem, en el PJ se acelera la carrera por"
           ]
         }
       }
