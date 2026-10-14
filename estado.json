@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-14T13:27:32-03:00",
+  "actualizado": "2026-10-14T20:20:46-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,53 +7,50 @@
       "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 94,
           "ejemplos": [
-            "Receta de arroz con pato",
-            "¿Qué está pasando en el Metro y Metrobús hoy 14 de octubre? Al menos tres líneas",
-            "Paola Rivera va por la revancha tras dos finales perdidas en la Liga Peruana de "
+            "Audiencia de Ovidio Guzmán López se pospone una vez más en EEUU: se presentará a",
+            "El Inter Miami de Lionel Messi recibe a New York City FC por la MLS",
+            "Keiko Fujimori reconoce el avance de la criminalidad, pese a su estrategia: “Es "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "El canciller Pablo Quirno aseguró que en una reunión con inversores le dijeron q",
-            "Vacacionar en Brasil es 40% más caro que el año pasado: cuánto cuestan los paque"
+            "Souther Energy designó a su nuevo gerente de Relaciones Institucionales",
+            "Horacio Marín, de YPF, en el Cicyp: la inspiración de Messi y cómo Argentina pas",
+            "Juan Pablo Valdés recorrió las zonas inundadas en Corrientes y reunió al Comando"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 86,
+      "leidas": 89,
       "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 72,
+          "cantidad": 76,
           "ejemplos": [
-            "Nuevas encuestas en Texas: quién gana las elecciones entre Abbott e Hinojosa por",
-            "Murió el excampeón mundial de boxeo Jorge “Locomotora” Castro a los 59 años",
-            "Habló otra de las mujeres que denunció a un ginecólogo chaqueño por abuso"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 6,
-          "ejemplos": [
-            "“La bronca es muy grande”: fuerte cuestionamiento al uso de los fondos de la tas",
-            "Thiago Príncipe tiene 14 años, construyó un tractor con piezas recuperadas y aho",
-            "Súper Niño: una simulación anticipó cuánto pueden aumentar los rindes de los cul"
+            "Lionel Messi en Inter Miami vs. New York City FC, en vivo por la MLS: horario, T",
+            "Bienestar Fest 2026: cuándo es, dónde comprar las entradas y qué actividades hab",
+            "Sarmiento vs. River, en vivo, por el Torneo Clausura: el minuto a minuto del par"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Llegó a valer más de US$1000 millones: una empresa del agro convocó a sus accion"
+            "El Gobierno repone los límites a la venta de tierras para contener a sus aliados",
+            "Alejandro López, el juez que absolvió a los gremialistas, llegó al puesto gracia",
+            "El Gobierno renovó todo lo que le vencía y se alzó con otros $1,75 billones que "
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
           "ejemplos": [
-            "El Gobierno avanza con los preparativos para la visita del papa León XIV a la es"
+            "Thiago Príncipe tiene 14 años, construyó un tractor con piezas recuperadas y aho",
+            "Súper Niño 2026: subió a un 75% la probabilidad de que el fenómeno tenga una mag",
+            "Desarrollan tecnología en la Argentina, tienen a Estados Unidos como principal m"
           ]
         }
       }
@@ -66,7 +63,7 @@
         "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "Territorio de lucha y encuentro transfeminista",
+            "El Pluri, una escuela de lucha y encuentro transfeminista",
             "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
           ]
         },
@@ -89,14 +86,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
-            "León XIV se recupera “según lo esperado”: recibió fisioterapia, caminó por su ha",
             "La Corte ya analiza el protocolo que puede favorecer la domiciliaria de los repr",
-            "Todo a la venta por 10 días"
+            "Sarmiento vs River hoy en vivo por el Torneo Clausura: el partido, minuto a minu",
+            "Visitas limitadas a las Cataratas del Iguazú"
           ]
         }
       }
@@ -104,39 +101,33 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 12,
           "ejemplos": [
-            "Proponen crear el Día del Acompañamiento al Hombre con Cáncer",
-            "El Papa tuvo una “evolución posoperatoria normal” y caminó por la habitación",
-            "La Universidad Siglo 21 distinguirá a María Corina Machado con el título Honoris"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "IA y Desempleo: probabilidad de lluvia del 80%"
+            "Con mayor oferta y menos operaciones, el precio de los alquileres cayó hasta un ",
+            "Organizaciones de discapacidad convocan a una movilización en Plaza San Martín",
+            "«Necesitaríamos un 34% de aumento para recuperar el poder adquisitivo de 2023»"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "error": "no se pudo leer el feed (The read operation timed out)"
+      "error": "no se pudo leer el feed (mismatched tag: line 46, column 2)"
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 16,
           "ejemplos": [
-            "Nevó en las sierras de Córdoba: así está el Camino de las Altas Cumbres",
-            "Llega a los cines “Cordobeces”, una película con toda la esencia de Córdoba",
-            "La industria metalúrgica de Córdoba perdió 2.100 puestos de trabajo en un año"
+            "Marcha Universitaria en Córdoba: la UNC difundió el cronograma oficial para este",
+            "Epec informó cerca de veinte cortes de luz programados para este jueves en Córdo",
+            "Provoca 5.000 muertes al año en el país: cuáles son las señales de alerta y cómo"
           ]
         }
       }
@@ -156,22 +147,28 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 12,
+      "aceptadas": 15,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 26,
+          "cantidad": 31,
           "ejemplos": [
-            "Juicio a Oscar González: protestan para que la Provincia retire el escrito que c",
-            "Munir Bracco: \"Lo importante es que el Papa se recupere\"",
-            "Bajaron 40% las denuncias por robo de cubiertas: un asesor de seguros explicó qu"
+            "La Autopista 19 sumó 10 kilómetros y la Provincia proyecta completar la traza a ",
+            "El \"Niño\" en Córdoba: rige una alerta amarilla por lluvias intensas y anticipan ",
+            "“Va a impactar de manera crítica en los esfuerzos de la familia”: la preocupació"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La Cámara Federal tendrá “vicepresidente segundo” y no podrán integrar la misma "
           ]
         },
         "muy vieja": {
-          "cantidad": 32,
+          "cantidad": 23,
           "ejemplos": [
+            "“Esta totalmente desfigurada la fachada”: el reclamo de comerciantes y vecinos t",
             "Carlos Fara: “Para una economía ya parada”, los cambios en el equipo económico g",
-            "Llaryora busca ampliar el vínculo con las iglesias evangélicas a través de una r",
-            "Gonzalo Maffini: “Mi tristeza es muy grande\""
+            "Llaryora busca ampliar el vínculo con las iglesias evangélicas a través de una r"
           ]
         }
       }
