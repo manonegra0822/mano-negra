@@ -1,40 +1,59 @@
 {
-  "actualizado": "2026-10-14T08:24:34-03:00",
+  "actualizado": "2026-10-14T13:27:32-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 95,
           "ejemplos": [
-            "Joni Mitchell obtuvo la ciudadanía estadounidense 62 años después de llegar desd",
-            "Elecciones generales de 2026, en directo: última hora sobre las coaliciones para",
-            "Un colegio de Barcelona pide 70.000 euros a los padres de dos alumnos que se sui"
+            "Receta de arroz con pato",
+            "¿Qué está pasando en el Metro y Metrobús hoy 14 de octubre? Al menos tres líneas",
+            "Paola Rivera va por la revancha tras dos finales perdidas en la Liga Peruana de "
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "El canciller Pablo Quirno aseguró que en una reunión con inversores le dijeron q",
+            "Vacacionar en Brasil es 40% más caro que el año pasado: cuánto cuestan los paque"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 88,
-      "aceptadas": 2,
+      "leidas": 86,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 82,
+          "cantidad": 72,
           "ejemplos": [
-            "Murió Jorge “Locomotora” Castro: reacciones y mensajes de despedida al excampeón",
-            "El Gobierno prohibió la venta de un juguete “squishy” por posibles riesgos para ",
-            "El Papa ya se recupera de su operación de cáncer de pulmón; murió Jorge “Locomot"
+            "Nuevas encuestas en Texas: quién gana las elecciones entre Abbott e Hinojosa por",
+            "Murió el excampeón mundial de boxeo Jorge “Locomotora” Castro a los 59 años",
+            "Habló otra de las mujeres que denunció a un ginecólogo chaqueño por abuso"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 6,
           "ejemplos": [
-            "Súper Niño: una simulación anticipó cuánto pueden aumentar los rindes de los cul",
-            "Rechazan cerrar una de las mayores causas de lavado de dinero del sistema financ",
-            "El último misterio de Perón: el encuentro secreto con el Papa en una iglesia de "
+            "“La bronca es muy grande”: fuerte cuestionamiento al uso de los fondos de la tas",
+            "Thiago Príncipe tiene 14 años, construyó un tractor con piezas recuperadas y aho",
+            "Súper Niño: una simulación anticipó cuánto pueden aumentar los rindes de los cul"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Llegó a valer más de US$1000 millones: una empresa del agro convocó a sus accion"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Gobierno avanza con los preparativos para la visita del papa León XIV a la es"
           ]
         }
       }
@@ -45,13 +64,20 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Territorio de lucha y encuentro transfeminista",
             "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
           ]
         },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza "
+          ]
+        },
         "muy vieja": {
-          "cantidad": 9,
+          "cantidad": 7,
           "ejemplos": [
             "Sin abogadas feministas, no hay justicia",
             "“Big Maza”, jazz de dos orillas",
@@ -63,14 +89,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 3,
           "ejemplos": [
-            "El Papa, su salud y la incertidumbre del viaje a Uruguay, Argentina y Perú",
-            "Murió Jorge “Locomotora” Castro",
-            "El histórico nocaut de Roña Castro en su pelea contra John David Jackson"
+            "León XIV se recupera “según lo esperado”: recibió fisioterapia, caminó por su ha",
+            "La Corte ya analiza el protocolo que puede favorecer la domiciliaria de los repr",
+            "Todo a la venta por 10 días"
           ]
         }
       }
@@ -78,66 +104,39 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 16,
           "ejemplos": [
-            "A los 59 años, murió Jorge “Locomotora” Castro",
-            "El papa León XIV pasó «una noche tranquila» tras ser operado de un tumor pulmona",
-            "La Feria del Libro Córdoba celebrará sus 40 años con más de 360 actividades"
+            "Proponen crear el Día del Acompañamiento al Hombre con Cáncer",
+            "El Papa tuvo una “evolución posoperatoria normal” y caminó por la habitación",
+            "La Universidad Siglo 21 distinguirá a María Corina Machado con el título Honoris"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "IA y Desempleo: probabilidad de lluvia del 80%"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "leidas": 80,
-      "aceptadas": 17,
-      "descartadas": {
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Cinco especialistas darán conferencia gratuita sobre inversiones en Estados Unid",
-            "Gobiernos y corporaciones criminales amenazan la soberanía y la paz de los puebl"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 32,
-          "ejemplos": [
-            "Plataforma de e-commerce líder a nivel mundial desembarca en el país",
-            "Elenia Sports inauguró su segundo centro deportivo en Córdoba y anunció próxima ",
-            "Confirman que el tumor del Papa León XVI es maligno"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Mastercard lanzó nueva campaña y recupera su icónico eslogan",
-            "Imputaron a un hombre que se hizo pasar hacerse pasar por juez federal"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 27,
-          "ejemplos": [
-            "La economía argentina encadena su tercer año consecutivo de superávits gemelos e",
-            "La Iglesia argentina convoca a rezar por la salud del Papa León XIV tras el anun",
-            "Paro del PAMI: médicos y odontólogos inician una huelga de cuatro días en reclam"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (The read operation timed out)"
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 20,
           "ejemplos": [
-            "Murió Netinho a los 60 años, creador del hit “La isla del sol”",
-            "La Feria del Libro Córdoba celebra sus 40 años: actividades, ciclos y figuras de",
-            "A los 59 años, falleció el exboxeador Jorge “Locomotora” Castro"
+            "Nevó en las sierras de Córdoba: así está el Camino de las Altas Cumbres",
+            "Llega a los cines “Cordobeces”, una película con toda la esencia de Córdoba",
+            "La industria metalúrgica de Córdoba perdió 2.100 puestos de trabajo en un año"
           ]
         }
       }
@@ -157,22 +156,22 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 10,
+      "aceptadas": 12,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 26,
           "ejemplos": [
+            "Juicio a Oscar González: protestan para que la Provincia retire el escrito que c",
             "Munir Bracco: \"Lo importante es que el Papa se recupere\"",
-            "Universidad Siglo 21 distinguirá a María Corina Machado por su trayectoria en de",
-            "El Encuentro se despidió de Córdoba entre una marcha masiva, denuncias y la vuel"
+            "Bajaron 40% las denuncias por robo de cubiertas: un asesor de seguros explicó qu"
           ]
         },
         "muy vieja": {
-          "cantidad": 43,
+          "cantidad": 32,
           "ejemplos": [
-            "Gonzalo Maffini: “Mi tristeza es muy grande\"",
-            "Ranking de intendentes deja una señal para Llaryora: sube un cacique del PJ y ca",
-            "Karina Milei segmenta la estrategia electoral de LLA y hay vía libre para jugar "
+            "Carlos Fara: “Para una economía ya parada”, los cambios en el equipo económico g",
+            "Llaryora busca ampliar el vínculo con las iglesias evangélicas a través de una r",
+            "Gonzalo Maffini: “Mi tristeza es muy grande\""
           ]
         }
       }
