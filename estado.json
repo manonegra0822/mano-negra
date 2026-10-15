@@ -1,90 +1,105 @@
 {
-  "actualizado": "2026-10-15T08:23:29-03:00",
+  "actualizado": "2026-10-15T13:24:51-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 5,
+      "aceptadas": 3,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 92,
-          "ejemplos": [
-            "Los 5 beneficios de comer calabaza este otoño: de cuidar la vista a proteger el ",
-            "Siete de cada diez ciudadanos cree que los menores de hoy vivirán peor que sus p",
-            "Yolanda Díaz alerta de propuestas de PP y Vox en pensiones y defiende sistema \"r"
-          ]
-        },
         "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Estos son los 10 vehículos SUV más vendidos en lo que va del año: precios y mode",
-            "Sin margen de acción, el Gobierno analiza modificar el Presupuesto para cumplir "
-          ]
-        },
-        "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "“Me da orgullo”: una influencer defendió la producción nacional y explicó por qu"
+            "Marcha Universitaria y contra el DNU 70/2023, en vivo: “Agotamos todas las insta"
+          ]
+        },
+        "sección no permitida": {
+          "cantidad": 96,
+          "ejemplos": [
+            "República Dominicana apuesta por la cooperación internacional para enfrentar al ",
+            "“Nunca es tarde para empezar”: el hombre que corre desde los 50 años, acumula má",
+            "El juez Calama investigará también a tres responsables de la Seguridad Social po"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 15,
+      "leidas": 86,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 59,
+          "cantidad": 70,
           "ejemplos": [
-            "Murió la fisicoculturista chilena Marianne von Gierke a los 40 años",
-            "Harry y Meghan hicieron su primera aparición pública tras volver a vivir en Rein",
-            "El sastre del Papa: quién es Tomás Valentín Gómez, el argentino que confeccionó "
+            "Hilary Swank anunció que está embarazada de su tercer hijo a los 52 años",
+            "El sastre del Papa: quién es Tomás Valentín Gómez, el argentino que confeccionó ",
+            "Marcha Federal Universitaria, EN VIVO: cortes, horarios y últimas noticias del r"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 5,
           "ejemplos": [
-            "“La gente está desesperada”: por la crecida del Paraná, aceleran la evacuación d",
-            "Desarrollan tecnología en la Argentina, tienen a Estados Unidos como principal m",
-            "Thiago Príncipe tiene 14 años, construyó un tractor con piezas recuperadas y aho"
+            "Europa pierde terreno frente a sus competidores agrícolas, advierte un informe e",
+            "La Argentina lidera el uso de IA para aprender nuevas habilidades",
+            "Quiénes son y cómo piensan los principales referentes de la Iglesia argentina"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
+            "La Justicia suspendió dos artículos de la reforma laboral ante los reclamos de l"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
+            "Más inversión, más exportaciones y menos subsidios: cómo Vaca Muerta cambió la e"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "El Pluri, una escuela de lucha y encuentro transfeminista",
+            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza "
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Sin abogadas feministas, no hay justicia",
+            "“Big Maza”, jazz de dos orillas",
+            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Premio, gala y aplausos de los amigos de Cerimedo y Henry Delgado",
-            "León XIV continúa con su recuperación",
-            "Martín Fierro de la Música: Charly García fue leyenda y Abel Pintos se quedó con"
-          ]
-        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "El Senado de Brasil aprobó el fin del 6x1, una victoria de Lula a días del balot"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "U2 anunció su regreso a Argentina: cuándo y dónde serán los shows"
           ]
         }
       }
@@ -92,14 +107,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 2,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 13,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
           "ejemplos": [
-            "«Necesitaríamos un 34% de aumento para recuperar el poder adquisitivo de 2023»",
-            "El futuro dejó de ser lo que era",
-            "El papa León XIV pasó “bien la noche”, se levantó y desayunó"
+            "Instituto defiende la punta ante Defensa y Justicia con el sueño internacional e",
+            "Instituto cerró el ejercicio con superávit, pero redujo sus ganancias un 62%"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 16,
+          "ejemplos": [
+            "Barrelier apuntó contra la madre en un video desde la cárcel",
+            "Instituto renueva su casa y mejora las instalaciones del Sandrín",
+            "Tras agotar su estreno, Radar suma una nueva fecha"
           ]
         }
       }
@@ -113,12 +135,18 @@
       "leidas": 20,
       "aceptadas": 3,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 17,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Córdoba: detienen a un hombre que amenazó con una navaja a su pareja",
-            "Cátedra del PSG ante el Manchester City y un choque insólito que se hizo viral",
-            "Qué puede pasar con los feriados si el Papa no visita Argentina en noviembre"
+            "La presidenta de la FUC: “La sociedad entiende que la universidad nos hace grand"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 16,
+          "ejemplos": [
+            "La comedia más vista de los últimos tiempos llega a Córdoba con dos fines de sem",
+            "Cuatro carreras en América: cuánto cuesta ir desde Córdoba a ver a Colapinto",
+            "Evoluciona la salud de León XIV: “Pasó bien la noche, se levantó y desayunó”"
           ]
         }
       }
@@ -138,28 +166,29 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 16,
+      "aceptadas": 15,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 32,
+          "cantidad": 27,
           "ejemplos": [
-            "Solo 19 de cada 100 estudiantes alcanzan los conocimientos básicos: “Argentina t",
-            "La Autopista 19 sumó 10 kilómetros y la Provincia proyecta completar la traza a ",
-            "El \"Niño\" en Córdoba: rige una alerta amarilla por lluvias intensas y anticipan "
+            "Descalzi: “Argentina tiene actividades con potencial, pero falta la mano de obra",
+            "Preparando la casa para el Súper Niño: cuánto cuesta y cómo limpiar techos y can",
+            "El \"Niño\" en Córdoba: alerta amarilla y pronóstico inestable para este jueves"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Caída del crédito, mora en familias y el \"efecto Brasil\": los desafíos de la eco",
             "La Cámara Federal tendrá “vicepresidente segundo” y no podrán integrar la misma "
           ]
         },
         "muy vieja": {
-          "cantidad": 21,
+          "cantidad": 26,
           "ejemplos": [
-            "Crisis Pyme: cerraron más de 31.000 empresas y se perdieron 181.500 empleos desd",
-            "La UCR activa su armado para 2027 y Briner abre una disputa interna con De Lored",
-            "“Esta totalmente desfigurada la fachada”: el reclamo de comerciantes y vecinos t"
+            "Mariano Grimaldi: “El problema está en el poder adquisitivo de la gente”",
+            "La Calera busca ser la ciudad con el sistema anticorrupción \"más completo del pa",
+            "Cardenal Rossi sobre el papa León XIV: \"Mantenemos la ilusión y el deseo de que "
           ]
         }
       }
