@@ -1,87 +1,72 @@
 {
-  "actualizado": "2026-10-14T20:20:46-03:00",
+  "actualizado": "2026-10-15T08:23:29-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 94,
+          "cantidad": 92,
           "ejemplos": [
-            "Audiencia de Ovidio Guzmán López se pospone una vez más en EEUU: se presentará a",
-            "El Inter Miami de Lionel Messi recibe a New York City FC por la MLS",
-            "Keiko Fujimori reconoce el avance de la criminalidad, pese a su estrategia: “Es "
+            "Los 5 beneficios de comer calabaza este otoño: de cuidar la vista a proteger el ",
+            "Siete de cada diez ciudadanos cree que los menores de hoy vivirán peor que sus p",
+            "Yolanda Díaz alerta de propuestas de PP y Vox en pensiones y defiende sistema \"r"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Estos son los 10 vehículos SUV más vendidos en lo que va del año: precios y mode",
+            "Sin margen de acción, el Gobierno analiza modificar el Presupuesto para cumplir "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "Souther Energy designó a su nuevo gerente de Relaciones Institucionales",
-            "Horacio Marín, de YPF, en el Cicyp: la inspiración de Messi y cómo Argentina pas",
-            "Juan Pablo Valdés recorrió las zonas inundadas en Corrientes y reunió al Comando"
+            "“Me da orgullo”: una influencer defendió la producción nacional y explicó por qu"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
-      "aceptadas": 6,
+      "leidas": 93,
+      "aceptadas": 15,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 76,
+          "cantidad": 59,
           "ejemplos": [
-            "Lionel Messi en Inter Miami vs. New York City FC, en vivo por la MLS: horario, T",
-            "Bienestar Fest 2026: cuándo es, dónde comprar las entradas y qué actividades hab",
-            "Sarmiento vs. River, en vivo, por el Torneo Clausura: el minuto a minuto del par"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El Gobierno repone los límites a la venta de tierras para contener a sus aliados",
-            "Alejandro López, el juez que absolvió a los gremialistas, llegó al puesto gracia",
-            "El Gobierno renovó todo lo que le vencía y se alzó con otros $1,75 billones que "
+            "Murió la fisicoculturista chilena Marianne von Gierke a los 40 años",
+            "Harry y Meghan hicieron su primera aparición pública tras volver a vivir en Rein",
+            "El sastre del Papa: quién es Tomás Valentín Gómez, el argentino que confeccionó "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 17,
           "ejemplos": [
-            "Thiago Príncipe tiene 14 años, construyó un tractor con piezas recuperadas y aho",
-            "Súper Niño 2026: subió a un 75% la probabilidad de que el fenómeno tenga una mag",
-            "Desarrollan tecnología en la Argentina, tienen a Estados Unidos como principal m"
+            "“La gente está desesperada”: por la crecida del Paraná, aceleran la evacuación d",
+            "Desarrollan tecnología en la Argentina, tienen a Estados Unidos como principal m",
+            "Thiago Príncipe tiene 14 años, construyó un tractor con piezas recuperadas y aho"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El Pluri, una escuela de lucha y encuentro transfeminista",
-            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza "
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 7,
-          "ejemplos": [
-            "Sin abogadas feministas, no hay justicia",
-            "“Big Maza”, jazz de dos orillas",
-            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
@@ -89,11 +74,17 @@
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
-            "La Corte ya analiza el protocolo que puede favorecer la domiciliaria de los repr",
-            "Sarmiento vs River hoy en vivo por el Torneo Clausura: el partido, minuto a minu",
-            "Visitas limitadas a las Cataratas del Iguazú"
+            "Premio, gala y aplausos de los amigos de Cerimedo y Henry Delgado",
+            "León XIV continúa con su recuperación",
+            "Martín Fierro de la Música: Charly García fue leyenda y Abel Pintos se quedó con"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Senado de Brasil aprobó el fin del 6x1, una victoria de Lula a días del balot"
           ]
         }
       }
@@ -101,14 +92,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 13,
           "ejemplos": [
-            "Con mayor oferta y menos operaciones, el precio de los alquileres cayó hasta un ",
-            "Organizaciones de discapacidad convocan a una movilización en Plaza San Martín",
-            "«Necesitaríamos un 34% de aumento para recuperar el poder adquisitivo de 2023»"
+            "«Necesitaríamos un 34% de aumento para recuperar el poder adquisitivo de 2023»",
+            "El futuro dejó de ser lo que era",
+            "El papa León XIV pasó “bien la noche”, se levantó y desayunó"
           ]
         }
       }
@@ -120,14 +111,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
-            "Marcha Universitaria en Córdoba: la UNC difundió el cronograma oficial para este",
-            "Epec informó cerca de veinte cortes de luz programados para este jueves en Córdo",
-            "Provoca 5.000 muertes al año en el país: cuáles son las señales de alerta y cómo"
+            "Córdoba: detienen a un hombre que amenazó con una navaja a su pareja",
+            "Cátedra del PSG ante el Manchester City y un choque insólito que se hizo viral",
+            "Qué puede pasar con los feriados si el Papa no visita Argentina en noviembre"
           ]
         }
       }
@@ -147,14 +138,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 15,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 31,
+          "cantidad": 32,
           "ejemplos": [
+            "Solo 19 de cada 100 estudiantes alcanzan los conocimientos básicos: “Argentina t",
             "La Autopista 19 sumó 10 kilómetros y la Provincia proyecta completar la traza a ",
-            "El \"Niño\" en Córdoba: rige una alerta amarilla por lluvias intensas y anticipan ",
-            "“Va a impactar de manera crítica en los esfuerzos de la familia”: la preocupació"
+            "El \"Niño\" en Córdoba: rige una alerta amarilla por lluvias intensas y anticipan "
           ]
         },
         "otro país": {
@@ -164,11 +155,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 23,
+          "cantidad": 21,
           "ejemplos": [
-            "“Esta totalmente desfigurada la fachada”: el reclamo de comerciantes y vecinos t",
-            "Carlos Fara: “Para una economía ya parada”, los cambios en el equipo económico g",
-            "Llaryora busca ampliar el vínculo con las iglesias evangélicas a través de una r"
+            "Crisis Pyme: cerraron más de 31.000 empresas y se perdieron 181.500 empleos desd",
+            "La UCR activa su armado para 2027 y Briner abre una disputa interna con De Lored",
+            "“Esta totalmente desfigurada la fachada”: el reclamo de comerciantes y vecinos t"
           ]
         }
       }
