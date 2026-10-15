@@ -1,58 +1,61 @@
 {
-  "actualizado": "2026-10-15T13:24:51-03:00",
+  "actualizado": "2026-10-15T20:17:29-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 1,
+        "sección no permitida": {
+          "cantidad": 94,
           "ejemplos": [
-            "Marcha Universitaria y contra el DNU 70/2023, en vivo: “Agotamos todas las insta"
+            "Keiko Fujimori llama a Delcy Rodríguez para coordinar expulsión de venezolanos i",
+            "Revelan que contratista del Estado denunciado por estafa pagó más de US$1,3 mill",
+            "Inravisión denunció presuntos sobrecostos en adquisición de unidad móvil que val"
           ]
         },
-        "sección no permitida": {
-          "cantidad": 96,
+        "sin ancla argentina": {
+          "cantidad": 2,
           "ejemplos": [
-            "República Dominicana apuesta por la cooperación internacional para enfrentar al ",
-            "“Nunca es tarde para empezar”: el hombre que corre desde los 50 años, acumula má",
-            "El juez Calama investigará también a tres responsables de la Seguridad Social po"
+            "El Gobierno denunció penalmente a los manifestantes detenidos por los disturbios",
+            "Senado: se demoran las firmas para dictaminar la ley de salud mental y hay disid"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 86,
-      "aceptadas": 9,
+      "leidas": 87,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 70,
+          "cantidad": 68,
           "ejemplos": [
-            "Hilary Swank anunció que está embarazada de su tercer hijo a los 52 años",
-            "El sastre del Papa: quién es Tomás Valentín Gómez, el argentino que confeccionó ",
-            "Marcha Federal Universitaria, EN VIVO: cortes, horarios y últimas noticias del r"
+            "Marcha Federal Universitaria, EN VIVO: cortes, horarios y últimas noticias del r",
+            "Endrick, la eterna promesa que quiere dar el salto definitivo: la ayuda divina, ",
+            "Cuatro muertos, entre ellos tres niños, en un tiroteo en una escuela primaria de"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Europa pierde terreno frente a sus competidores agrícolas, advierte un informe e",
-            "La Argentina lidera el uso de IA para aprender nuevas habilidades",
-            "Quiénes son y cómo piensan los principales referentes de la Iglesia argentina"
+            "Más de 30 detenidos en la marcha universitaria: el mensaje del Gobierno en medio"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 4,
           "ejemplos": [
-            "La Justicia suspendió dos artículos de la reforma laboral ante los reclamos de l"
+            "Empresarios ponen el freno de mano de cara a las elecciones",
+            "La deuda bruta volvió a crecer en septiembre, impulsada por los compromisos en p",
+            "La Justicia suspendió las multas al Gobierno por no aplicar la ley de Financiami"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 8,
           "ejemplos": [
-            "Más inversión, más exportaciones y menos subsidios: cómo Vaca Muerta cambió la e"
+            "El Grupo de los Seis se reunió con el nuncio apostólico y dialogó sobre la visit",
+            "“Hay que salir con todo”: barcazas, lanchas y una carrera contra reloj para salv",
+            "Dani Alves se reunió con Gildo Insfrán en Formosa en el marco de un encuentro de"
           ]
         }
       }
@@ -88,18 +91,20 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
-        "otro país": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
           "ejemplos": [
-            "El Senado de Brasil aprobó el fin del 6x1, una victoria de Lula a días del balot"
+            "El texto completo del documento de la quinta Marcha Federal Universitaria",
+            "Lula calificó de “conquista histórica” la reducción de la jornada laboral en Bra",
+            "Los “chorros” de la UBA y sin universidad no hay patria"
           ]
         },
-        "titular sin tema de política/economía": {
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "U2 anunció su regreso a Argentina: cuándo y dónde serán los shows"
+            "Así fue la represión en Congreso: la policía avanzó sobre la Marcha Federal Univ"
           ]
         }
       }
@@ -107,21 +112,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 6,
       "descartadas": {
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Instituto defiende la punta ante Defensa y Justicia con el sueño internacional e",
-            "Instituto cerró el ejercicio con superávit, pero redujo sus ganancias un 62%"
-          ]
-        },
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 14,
           "ejemplos": [
-            "Barrelier apuntó contra la madre en un video desde la cárcel",
-            "Instituto renueva su casa y mejora las instalaciones del Sandrín",
-            "Tras agotar su estreno, Radar suma una nueva fecha"
+            "Las Piratas empataron con Independiente del Valle en su estreno por Copa Liberta",
+            "Tras los reclamos de 900 familias, el ingreso a Villa Retiro de Horizonte II ser",
+            "Acusaciones cruzadas por los incidentes en la Marcha Federal Universitaria en CA"
           ]
         }
       }
@@ -133,20 +131,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 8,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 11,
+          "ejemplos": [
+            "Misterio",
+            "La Marcha Federal Universitaria se sintió en Río Cuarto, San Francisco y otras c",
+            "Epec informó una batería de cortes programados para este viernes en Córdoba"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "La presidenta de la FUC: “La sociedad entiende que la universidad nos hace grand"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 16,
-          "ejemplos": [
-            "La comedia más vista de los últimos tiempos llega a Córdoba con dos fines de sem",
-            "Cuatro carreras en América: cuánto cuesta ir desde Córdoba a ver a Colapinto",
-            "Evoluciona la salud de León XIV: “Pasó bien la noche, se levantó y desayunó”"
           ]
         }
       }
@@ -166,14 +164,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 15,
+      "aceptadas": 18,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 27,
+          "cantidad": 25,
           "ejemplos": [
-            "Descalzi: “Argentina tiene actividades con potencial, pero falta la mano de obra",
-            "Preparando la casa para el Súper Niño: cuánto cuesta y cómo limpiar techos y can",
-            "El \"Niño\" en Córdoba: alerta amarilla y pronóstico inestable para este jueves"
+            "REMAX cumple 15 años en Córdoba: de una primera oficina a una red de emprendedor",
+            "Una especialista sobre Colapinto ante las agresiones: “Se ha quedado a mitad de ",
+            "“Vos entregaste a tu hija”: Barrelier apuntó contra la madre de Agostina desde l"
           ]
         },
         "otro país": {
@@ -184,11 +182,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 26,
+          "cantidad": 25,
           "ejemplos": [
-            "Mariano Grimaldi: “El problema está en el poder adquisitivo de la gente”",
-            "La Calera busca ser la ciudad con el sistema anticorrupción \"más completo del pa",
-            "Cardenal Rossi sobre el papa León XIV: \"Mantenemos la ilusión y el deseo de que "
+            "El Encuentro se despidió de Córdoba entre una marcha masiva, denuncias y la vuel",
+            "El exintendente de Villa María Martín Gill vuelve a quedar a un paso del juicio ",
+            "En un año Córdoba recibió casi 8.000 denuncias por vehículos mal estacionados"
           ]
         }
       }
