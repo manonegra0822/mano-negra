@@ -1,92 +1,53 @@
 {
-  "actualizado": "2026-10-15T20:17:29-03:00",
+  "actualizado": "2026-10-16T08:23:10-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 94,
+          "cantidad": 98,
           "ejemplos": [
-            "Keiko Fujimori llama a Delcy Rodríguez para coordinar expulsión de venezolanos i",
-            "Revelan que contratista del Estado denunciado por estafa pagó más de US$1,3 mill",
-            "Inravisión denunció presuntos sobrecostos en adquisición de unidad móvil que val"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El Gobierno denunció penalmente a los manifestantes detenidos por los disturbios",
-            "Senado: se demoran las firmas para dictaminar la ley de salud mental y hay disid"
+            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 16 de octubre",
+            "El acusado de matar a un hombre en un portal de Langreo (Asturias) reconoce los ",
+            "Muere un palestino en un nuevo ataque de Israel contra el norte de Gaza pese al "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 87,
-      "aceptadas": 6,
+      "leidas": 95,
+      "aceptadas": 4,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 68,
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
           "ejemplos": [
-            "Marcha Federal Universitaria, EN VIVO: cortes, horarios y últimas noticias del r",
-            "Endrick, la eterna promesa que quiere dar el salto definitivo: la ayuda divina, ",
-            "Cuatro muertos, entre ellos tres niños, en un tiroteo en una escuela primaria de"
+            "Súper Niño. Se viene una tregua de las lluvias, pero el alivio durará poco: “Vam",
+            "Crecida histórica: el agua avanza y con lanchas y barcazas la misión es salvar a",
+            "Tragedia: un trabajador rural murió ahogado mientras rescataba vacas de una zona"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+        "sección no permitida": {
+          "cantidad": 86,
           "ejemplos": [
-            "Más de 30 detenidos en la marcha universitaria: el mensaje del Gobierno en medio"
+            "Cita del día, Winston Churchill, político: “El éxito no es definitivo, el fracas",
+            "Gabriel Rolón, psicoanalista, sobre los recuerdos: “Nuestros padres que ya no es",
+            "Christina Koch, astronauta de Artemis II, de 47 años: “Para explorar el universo"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 4,
+          "cantidad": 1,
           "ejemplos": [
-            "Empresarios ponen el freno de mano de cara a las elecciones",
-            "La deuda bruta volvió a crecer en septiembre, impulsada por los compromisos en p",
-            "La Justicia suspendió las multas al Gobierno por no aplicar la ley de Financiami"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 8,
-          "ejemplos": [
-            "El Grupo de los Seis se reunió con el nuncio apostólico y dialogó sobre la visit",
-            "“Hay que salir con todo”: barcazas, lanchas y una carrera contra reloj para salv",
-            "Dani Alves se reunió con Gildo Insfrán en Formosa en el marco de un encuentro de"
+            "Dos triunfos provisorios claves para el Gobierno"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El Pluri, una escuela de lucha y encuentro transfeminista",
-            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza "
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 7,
-          "ejemplos": [
-            "Sin abogadas feministas, no hay justicia",
-            "“Big Maza”, jazz de dos orillas",
-            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (The read operation timed out)"
     },
     {
       "medio": "Página/12",
@@ -96,9 +57,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "El texto completo del documento de la quinta Marcha Federal Universitaria",
-            "Lula calificó de “conquista histórica” la reducción de la jornada laboral en Bra",
-            "Los “chorros” de la UBA y sin universidad no hay patria"
+            "Una marcha que aglutinó todas las broncas",
+            "El fotógrafo que no se acuerda de los Cuadernos",
+            "Murió el meteorológo Fernando Confessore"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -117,9 +78,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 14,
           "ejemplos": [
-            "Las Piratas empataron con Independiente del Valle en su estreno por Copa Liberta",
-            "Tras los reclamos de 900 familias, el ingreso a Villa Retiro de Horizonte II ser",
-            "Acusaciones cruzadas por los incidentes en la Marcha Federal Universitaria en CA"
+            "¿Que pasó? / Había que buscarla y llevarla",
+            "Movistar comenzará a desaparecer en la Argentina: cuál será su nuevo nombre",
+            "La morosidad en supermercados y electrodomésticos rozó el 45%"
           ]
         }
       }
@@ -131,20 +92,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 14,
           "ejemplos": [
-            "Misterio",
-            "La Marcha Federal Universitaria se sintió en Río Cuarto, San Francisco y otras c",
-            "Epec informó una batería de cortes programados para este viernes en Córdoba"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La presidenta de la FUC: “La sociedad entiende que la universidad nos hace grand"
+            "A los 58 años, falleció el meteorólogo Fernando Confessore",
+            "La cifra jamás vista por una camiseta de Michael Jordan",
+            "¿Sale el sol? Fin de semana con escasa amplitud térmica en Córdoba"
           ]
         }
       }
@@ -164,14 +119,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 18,
+      "aceptadas": 17,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 25,
           "ejemplos": [
-            "REMAX cumple 15 años en Córdoba: de una primera oficina a una red de emprendedor",
-            "Una especialista sobre Colapinto ante las agresiones: “Se ha quedado a mitad de ",
-            "“Vos entregaste a tu hija”: Barrelier apuntó contra la madre de Agostina desde l"
+            "El \"Niño\" en Córdoba: prevén chaparrones y baja de temperatura para este viernes",
+            "Cirugía robótica: Hospital Privado amplía las alternativas para tratar el cáncer",
+            "Histórico debut de Belgrano en la Copa Libertadores"
           ]
         },
         "otro país": {
@@ -182,11 +137,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 25,
+          "cantidad": 26,
           "ejemplos": [
-            "El Encuentro se despidió de Córdoba entre una marcha masiva, denuncias y la vuel",
-            "El exintendente de Villa María Martín Gill vuelve a quedar a un paso del juicio ",
-            "En un año Córdoba recibió casi 8.000 denuncias por vehículos mal estacionados"
+            "Ocho startups cordobesas reciben impulso para acelerar sus primeras etapas de cr",
+            "\"Se investiga si había una 'caja negra': piden revisar 18 cooperativas de recicl",
+            "Armando Medialunas presenta “Armando planes reales”: una campaña que invita a vo"
           ]
         }
       }
