@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-16T08:23:10-03:00",
+  "actualizado": "2026-10-16T13:23:53-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,45 +9,77 @@
         "sección no permitida": {
           "cantidad": 98,
           "ejemplos": [
-            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 16 de octubre",
-            "El acusado de matar a un hombre en un portal de Langreo (Asturias) reconoce los ",
-            "Muere un palestino en un nuevo ataque de Israel contra el norte de Gaza pese al "
+            "Le robaron la moto a un cartero de Florencio Varela y una red de vecinos permiti",
+            "El emotivo adiós de Matías Bertolotti a Fernando Confessore: “Se fue el mentor d",
+            "Motse Mínguez dimite como portavoz del PSOE tras la polémica por las decenas de "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 4,
+      "leidas": 87,
+      "aceptadas": 8,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 4,
+        "sección no permitida": {
+          "cantidad": 74,
           "ejemplos": [
-            "Súper Niño. Se viene una tregua de las lluvias, pero el alivio durará poco: “Vam",
-            "Crecida histórica: el agua avanza y con lanchas y barcazas la misión es salvar a",
-            "Tragedia: un trabajador rural murió ahogado mientras rescataba vacas de una zona"
+            "A qué hora llegan las tormentas fuertes y el granizo a Buenos Aires hoy, según e",
+            "Sturzenegger cruzó a la provincia de Buenos Aires por el aumento de la VTV",
+            "Murió Fernando Confessore: reacciones y mensajes de despedida al meteorólogo que"
           ]
         },
-        "sección no permitida": {
-          "cantidad": 86,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Cita del día, Winston Churchill, político: “El éxito no es definitivo, el fracas",
-            "Gabriel Rolón, psicoanalista, sobre los recuerdos: “Nuestros padres que ya no es",
-            "Christina Koch, astronauta de Artemis II, de 47 años: “Para explorar el universo"
+            "El juez Lijo ordenó un exhorto a Suiza por transferencias de US$190.000 de la FI"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Dos triunfos provisorios claves para el Gobierno"
+            "Piden el juicio político para el juez que absolvió a los sindicalistas que bloqu"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Eric Agustín y Mónica Reinsch amansan guanacos, los esquilan y exportan una de l",
+            "El Senasa habilitó a las fundaciones de lucha contra la aftosa a vender disposit",
+            "Flybondi: YPF, Aeropuertos Argentina, Google, Mercado Libre, el Estado y la Copa"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (The read operation timed out)"
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "Ahora, que nos escuchen: en defensa de la ira femenina",
+            "El auto de Perón: el Justicialista, vanguardia cordobesa",
+            "El Pluri, una escuela de lucha y encuentro transfeminista"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Proyectos autogestivos que apuestan al encuentro: feriar en clave feminista",
+            "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza "
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 4,
+          "ejemplos": [
+            "Sin abogadas feministas, no hay justicia",
+            "“Big Maza”, jazz de dos orillas",
+            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
@@ -55,17 +87,11 @@
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
-            "Una marcha que aglutinó todas las broncas",
-            "El fotógrafo que no se acuerda de los Cuadernos",
-            "Murió el meteorológo Fernando Confessore"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Así fue la represión en Congreso: la policía avanzó sobre la Marcha Federal Univ"
+            "Causa Andis: la Justicia amplió el procesamiento de Diego Spagnuolo",
+            "“Se asomó y empezó a disparar”: el relato del fotógrafo de Página|12 atacado en ",
+            "El fotógrafo que no se acuerda de los Cuadernos"
           ]
         }
       }
@@ -73,14 +99,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 16,
           "ejemplos": [
-            "¿Que pasó? / Había que buscarla y llevarla",
-            "Movistar comenzará a desaparecer en la Argentina: cuál será su nuevo nombre",
-            "La morosidad en supermercados y electrodomésticos rozó el 45%"
+            "Dolor en el rugby: murió Hyron Andrews antes del debut de los Lions en Europa",
+            "Llegan a la Argentina dos nuevos celulares con 5G, IA y resistencia reforzada",
+            "La Provincia transfirió más de $8.123 millones a municipios y comunas"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Incidentes y detenidos en la marcha universitaria: el Gobierno presentó una denu"
           ]
         }
       }
@@ -92,14 +124,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 17,
           "ejemplos": [
-            "A los 58 años, falleció el meteorólogo Fernando Confessore",
-            "La cifra jamás vista por una camiseta de Michael Jordan",
-            "¿Sale el sol? Fin de semana con escasa amplitud térmica en Córdoba"
+            "Córdoba recibirá nuevamente a la Selección Argentina en noviembre",
+            "Talleres visita a Boca en La Bombonera con la misión de sumar",
+            "Hablo de mi madre: Jorge “Chacho” Marzetti, entre los recuerdos, la radio y la e"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Córdoba: detuvieron a un inspector de Tránsito tras balear una casa por una deud"
           ]
         }
       }
@@ -119,14 +157,20 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 17,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 25,
+          "cantidad": 20,
           "ejemplos": [
-            "El \"Niño\" en Córdoba: prevén chaparrones y baja de temperatura para este viernes",
-            "Cirugía robótica: Hospital Privado amplía las alternativas para tratar el cáncer",
-            "Histórico debut de Belgrano en la Copa Libertadores"
+            "Caso Ludueña: prisión preventiva para el asesor radical acusado de abuso",
+            "Cruz del Eje: buscan en otra provincia a Pablo Gómez, sospechoso por el femicidi",
+            "\"Los comerciantes la están peleando con uñas y dientes\": la apuesta del Centro p"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La Municipalidad abrió un sumario y suspendió al inspector detenido por balear u"
           ]
         },
         "otro país": {
@@ -137,11 +181,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 26,
+          "cantidad": 31,
           "ejemplos": [
-            "Ocho startups cordobesas reciben impulso para acelerar sus primeras etapas de cr",
-            "\"Se investiga si había una 'caja negra': piden revisar 18 cooperativas de recicl",
-            "Armando Medialunas presenta “Armando planes reales”: una campaña que invita a vo"
+            "El Índice de Incertidumbre Económica UCA de septiembre alcanzó el nivel más alto",
+            "El consumo busca recuperarse y el Día de la Madre impulsa las ventas: “Capaz que",
+            "Un clic y la IA puede actuar por vos: qué revisar antes de darle permisos"
           ]
         }
       }
