@@ -1,17 +1,23 @@
 {
-  "actualizado": "2026-10-17T08:17:48-03:00",
+  "actualizado": "2026-10-17T13:18:13-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 98,
           "ejemplos": [
-            "Evita conectar estos dos aparatos eléctricos a una regleta: podrían causar un in",
-            "Cómo registrarse para votar en Pensilvania en las elecciones de mitad de mandato",
-            "Muere un hombre en La Línea (Cádiz) tras resultar herido en una reyerta"
+            "EN VIVO | Clima CDMX y resto de México hoy sábado 17 de octubre: Trudy y frente ",
+            "El cirujano que operó a León XIV dijo que “no hay motivos clínicos” para que el ",
+            "Detienen a seis hombres por balear a un motociclista y robarle su moto en CDMX"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Vacas nadando y terneros en canoa: el efecto de “El Niño Godzilla” y su posible "
           ]
         }
       }
@@ -19,29 +25,36 @@
     {
       "medio": "La Nación",
       "leidas": 96,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 80,
+          "cantidad": 79,
           "ejemplos": [
-            "El papa León XIV será dado de alta hoy tras ser operado por un cáncer de pulmón",
-            "Los secretos del Señor J, el narco que impuso el miedo para retrasar un desarrol",
-            "Los precios de los autos chinos en la Argentina en octubre 2026"
+            "El cirujano del Papa habló sobre el viaje a la Argentina: “No hay motivos clínic",
+            "Harrison Ford donó más de 150 hectáreas de su rancho en Wyoming para salvar el h",
+            "Xabi Alonso, sobre el estado de Dibu Martínez: “Dejó el estadio consciente”"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 10,
+          "cantidad": 8,
           "ejemplos": [
-            "Por qué la soja es la Cenicienta del sistema y la Argentina no aprovecha una ten",
+            "Eric Agustín y Mónica Reinsch manejan una estancia de 33.000 hectáreas, amansan ",
             "“Arrancamos ligados al campo”: producían ajo y cebolla y ahora tienen un imperio",
-            "Cuando el problema no es el jefe"
+            "Récord histórico: el campo argentino ya vendió más de 105 millones de toneladas "
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
+            "Refinanciación de deudas: claves y precauciones al negociar con un banco",
             "La crisis del mercado laboral detrás de la revolución del monotributo",
-            "Mauricio Macri apoyó a Santiago Passaglia con un mensaje en redes sociales y des"
+            "La Sociedad Rural se sumó al masivo repudio contra el fallo que absolvió a los s"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La inflación mayorista subió al 3,2%: por qué se aceleró en septiembre"
           ]
         }
       }
@@ -52,7 +65,7 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "Ahora, que nos escuchen: en defensa de la ira femenina",
             "El auto de Perón: el Justicialista, vanguardia cordobesa",
@@ -67,26 +80,26 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 4,
+          "cantidad": 5,
           "ejemplos": [
+            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i",
             "Sin abogadas feministas, no hay justicia",
-            "“Big Maza”, jazz de dos orillas",
-            "Córdoba será, por tercera vez, sede del Encuentro Plurinacional"
+            "“Big Maza”, jazz de dos orillas"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 1,
+      "leidas": 6,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
-            "Después de una represión brutal, Monteoliva busca cubrirse las espaldas con una ",
             "El enemigo",
-            "El plan del prestamista"
+            "León XIV recibió el alta médica y volverá al Vaticano",
+            "Después de una represión brutal, Monteoliva busca cubrirse las espaldas con una "
           ]
         }
       }
@@ -94,14 +107,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
-            "Talleres perdió con Boca 2 a 1 en La Bombonera",
-            "Instituto le ganó 1-0 a Defensa y Justicia, sigue puntero y clasificó a los play",
-            "Trenes Argentinos concretó el primer pago para la compra de 43 formaciones"
+            "La Muni con Vos: días, horarios y trámites en tres barrios",
+            "Sábado fresco e inestable, con lluvias y alerta amarilla",
+            "El papa León XIV recibió el alta tras la operación del tumor pulmonar"
           ]
         }
       }
@@ -113,20 +126,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 16,
           "ejemplos": [
-            "De Felippe explotó tras la derrota de Talleres: “¿A quién querés que ponga, a mi",
-            "Galarza, sonriente tras la derrota de Talleres: “Contento por el gol en esta her",
-            "Cine Arte Córdoba: películas para disfrutar el fin de semana"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La inflación mayorista escaló 3,2% en septiembre con impulso del petróleo"
+            "El Papa León XIV mejora de salud y salió caminando del hospital",
+            "Compró un auto usado y descubrió que tenía más del doble de kilometraje: ¿qué pa",
+            "Con antecedentes de violencia, sigue la búsqueda del sospechoso de femicidio en "
           ]
         }
       }
@@ -149,7 +156,7 @@
       "aceptadas": 14,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 16,
           "ejemplos": [
             "Todos van a Cantón, los que saben comprar también van a Yiwu",
             "Villa María abrió una residencia para estudiantes universitarios",
@@ -157,11 +164,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 38,
+          "cantidad": 40,
           "ejemplos": [
-            "Caída del crédito, mora en familias y el \"efecto Brasil\": los desafíos de la eco",
-            "El \"Niño\" en Córdoba: alerta amarilla y pronóstico inestable para este jueves",
-            "Solo 19 de cada 100 estudiantes alcanzan los conocimientos básicos: “Argentina t"
+            "Descalzi: “Argentina tiene actividades con potencial, pero falta la mano de obra",
+            "EPEC: para la Provincia los aumentos dispuestos por Nación fueron el principal f",
+            "Preparando la casa para el Súper Niño: cuánto cuesta y cómo limpiar techos y can"
           ]
         }
       }
