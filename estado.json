@@ -1,60 +1,52 @@
 {
-  "actualizado": "2026-10-17T13:18:13-03:00",
+  "actualizado": "2026-10-17T20:13:20-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 97,
           "ejemplos": [
-            "EN VIVO | Clima CDMX y resto de México hoy sábado 17 de octubre: Trudy y frente ",
-            "El cirujano que operó a León XIV dijo que “no hay motivos clínicos” para que el ",
-            "Detienen a seis hombres por balear a un motociclista y robarle su moto en CDMX"
+            "Chivas vs Tigres En VIVO: comienza el partido de la jornada 12 del Apertura 2026",
+            "Inegi revela que Guerrero, Morelos y Baja California Sur son los estados más afe",
+            "Millonarios vs. Jaguares - en vivo Liga BetPlay: siga el minuto a minuto del reg"
           ]
         },
-        "titular sin tema de política/economía": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Vacas nadando y terneros en canoa: el efecto de “El Niño Godzilla” y su posible "
+            "A más de USD 100 el barril, impulsó la inflación mayorista, pero un banco de Wal"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 5,
+      "leidas": 93,
+      "aceptadas": 4,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 79,
+          "cantidad": 84,
           "ejemplos": [
-            "El cirujano del Papa habló sobre el viaje a la Argentina: “No hay motivos clínic",
-            "Harrison Ford donó más de 150 hectáreas de su rancho en Wyoming para salvar el h",
-            "Xabi Alonso, sobre el estado de Dibu Martínez: “Dejó el estadio consciente”"
+            "Dibu Martínez sufrió una fractura de mandíbula tras el duro golpe con un rival y",
+            "¿El fin del papel higiénico? Crearon un producto para reemplazarlo y la idea val",
+            "Christina Koch, astronauta del Artemis II: “Para explorar el universo y otros pl"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 4,
           "ejemplos": [
-            "Eric Agustín y Mónica Reinsch manejan una estancia de 33.000 hectáreas, amansan ",
-            "“Arrancamos ligados al campo”: producían ajo y cebolla y ahora tienen un imperio",
-            "Récord histórico: el campo argentino ya vendió más de 105 millones de toneladas "
+            "¿Teoría pura o historia? Hace 150 años y ahora",
+            "Cruces y maniobras dilatorias en torno a un exhorto a EE.UU. que incluye datos s",
+            "Ganarle al agua: así es el dramático operativo de los ganaderos de las islas ent"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Refinanciación de deudas: claves y precauciones al negociar con un banco",
-            "La crisis del mercado laboral detrás de la revolución del monotributo",
-            "La Sociedad Rural se sumó al masivo repudio contra el fallo que absolvió a los s"
-          ]
-        },
-        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "La inflación mayorista subió al 3,2%: por qué se aceleró en septiembre"
+            "El Merval cambia este lunes: qué se sabe sobre el nuevo índice de MSCI"
           ]
         }
       }
@@ -97,9 +89,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
-            "El enemigo",
-            "León XIV recibió el alta médica y volverá al Vaticano",
-            "Después de una represión brutal, Monteoliva busca cubrirse las espaldas con una "
+            "Todas las miradas en el balcón de León XIV: este domingo podría anunciar si visi",
+            "“Hoy se dio la largada para el triunfo que nos espera en 2027”",
+            "“No hay motivos clínicos para que no se pueda realizar el viaje a Sudamérica”, c"
           ]
         }
       }
@@ -107,14 +99,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 16,
           "ejemplos": [
-            "La Muni con Vos: días, horarios y trámites en tres barrios",
-            "Sábado fresco e inestable, con lluvias y alerta amarilla",
-            "El papa León XIV recibió el alta tras la operación del tumor pulmonar"
+            "Alemania y Francia ofrecieron financiar la compra de submarinos para Argentina",
+            "El cirujano del Papa aseguró que podrá viajar a Argentina en noviembre",
+            "Cayó con su auto desde el Puente Dorrego y terminó hospitalizada"
           ]
         }
       }
@@ -126,14 +118,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 19,
           "ejemplos": [
-            "El Papa León XIV mejora de salud y salió caminando del hospital",
-            "Compró un auto usado y descubrió que tenía más del doble de kilometraje: ¿qué pa",
-            "Con antecedentes de violencia, sigue la búsqueda del sospechoso de femicidio en "
+            "Córdoba: Bomberos apagaron un incendio en Ciudad Universitaria",
+            "El tiempo en Córdoba: cesan las lluvias y llegan ráfagas de viento norte",
+            "Cómo continúa el largo cronograma de cortes de luz en Córdoba"
           ]
         }
       }
@@ -153,10 +145,10 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 14,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 12,
           "ejemplos": [
             "Todos van a Cantón, los que saben comprar también van a Yiwu",
             "Villa María abrió una residencia para estudiantes universitarios",
@@ -164,11 +156,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 40,
+          "cantidad": 49,
           "ejemplos": [
-            "Descalzi: “Argentina tiene actividades con potencial, pero falta la mano de obra",
-            "EPEC: para la Provincia los aumentos dispuestos por Nación fueron el principal f",
-            "Preparando la casa para el Súper Niño: cuánto cuesta y cómo limpiar techos y can"
+            "Histórico debut de Belgrano en la Copa Libertadores",
+            "El juez que impuso multas al gobierno por incumplir el financiamiento universita",
+            "Luis Negretti reclamó por los fondos universitarios: “No hay ninguna excusa para"
           ]
         }
       }
