@@ -1,52 +1,53 @@
 {
-  "actualizado": "2026-10-17T20:13:20-03:00",
+  "actualizado": "2026-10-18T08:17:23-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 100,
           "ejemplos": [
-            "Chivas vs Tigres En VIVO: comienza el partido de la jornada 12 del Apertura 2026",
-            "Inegi revela que Guerrero, Morelos y Baja California Sur son los estados más afe",
-            "Millonarios vs. Jaguares - en vivo Liga BetPlay: siga el minuto a minuto del reg"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "A más de USD 100 el barril, impulsó la inflación mayorista, pero un banco de Wal"
+            "Fuerza Regida sufre robo de 22 videos con material inédito: “Tenemos una recompe",
+            "Temblor hoy en México 18 de octubre de 2026: Se registra sismo de magnitud 4.1 e",
+            "Feijóo encarga a Xavier García-Albiol liderar la ley antiokupas en el Congreso t"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 4,
+      "leidas": 90,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 84,
+          "cantidad": 77,
           "ejemplos": [
-            "Dibu Martínez sufrió una fractura de mandíbula tras el duro golpe con un rival y",
-            "¿El fin del papel higiénico? Crearon un producto para reemplazarlo y la idea val",
-            "Christina Koch, astronauta del Artemis II: “Para explorar el universo y otros pl"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 4,
-          "ejemplos": [
-            "¿Teoría pura o historia? Hace 150 años y ahora",
-            "Cruces y maniobras dilatorias en torno a un exhorto a EE.UU. que incluye datos s",
-            "Ganarle al agua: así es el dramático operativo de los ganaderos de las islas ent"
+            "“Todo se aprende en el camino”: las madres también luchan por el espacio de sus ",
+            "Cuál es el pozo del Quini 6 para el sorteo de este domingo 18 de octubre",
+            "Telekino 2450: todos los premios del sorteo de este domingo 18 de octubre"
           ]
         },
         "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "A pesar del optimismo de Diego Santilli, el Gobierno no logra aún los votos en e",
+            "Economía del comportamiento: cuando los agentes moderan sesgos y van por “la ren"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Negociaciones en Washington sobre el futuro de la Argentina",
+            "El costo de producir granos en la Argentina se acerca al de sus competidores",
+            "Stefano Volpetti: “Los productos libres de humo ya funcionan en el mundo y va a "
+          ]
+        },
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "El Merval cambia este lunes: qué se sabe sobre el nuevo índice de MSCI"
+            "Finanzas: contexto externo desafiante y riesgo país en alza"
           ]
         }
       }
@@ -83,15 +84,15 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 2,
+      "leidas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
+            "El desajuste entre la calle y la política",
             "Todas las miradas en el balcón de León XIV: este domingo podría anunciar si visi",
-            "“Hoy se dio la largada para el triunfo que nos espera en 2027”",
-            "“No hay motivos clínicos para que no se pueda realizar el viaje a Sudamérica”, c"
+            "El 17 de octubre francés de los chalecos amarillos"
           ]
         }
       }
@@ -99,14 +100,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
-            "Alemania y Francia ofrecieron financiar la compra de submarinos para Argentina",
-            "El cirujano del Papa aseguró que podrá viajar a Argentina en noviembre",
-            "Cayó con su auto desde el Puente Dorrego y terminó hospitalizada"
+            "Trenes Argentinos concretó el primer pago para la compra de 43 formaciones",
+            "Argentina en “Coordenadas”: una lectura federal para expandir las fronteras de l",
+            "El cirujano del Papa aseguró que podrá viajar a Argentina en noviembre"
           ]
         }
       }
@@ -145,22 +146,22 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 9,
+      "aceptadas": 12,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 23,
           "ejemplos": [
-            "Todos van a Cantón, los que saben comprar también van a Yiwu",
-            "Villa María abrió una residencia para estudiantes universitarios",
-            "\"Con 12 tapitas podés ayudar a ver a otra persona”: la iniciativa que transforma"
+            "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres",
+            "“La enfermedad de León XIV marca un punto de inflexión en su pontificado”",
+            "La Small Jazz Band celebra más de cuatro décadas de historia en el Teatro del Li"
           ]
         },
         "muy vieja": {
-          "cantidad": 49,
+          "cantidad": 35,
           "ejemplos": [
-            "Histórico debut de Belgrano en la Copa Libertadores",
-            "El juez que impuso multas al gobierno por incumplir el financiamiento universita",
-            "Luis Negretti reclamó por los fondos universitarios: “No hay ninguna excusa para"
+            "Córdoba, la provincia con menor inflación que el promedio nacional de septiembre",
+            "Apuestas precisas: cómo manejar los pronósticos para apostar en NBA",
+            "El \"Niño\" en Córdoba: prevén chaparrones y baja de temperatura para este viernes"
           ]
         }
       }
