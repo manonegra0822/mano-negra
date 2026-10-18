@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-18T13:19:13-03:00",
+  "actualizado": "2026-10-18T20:14:29-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,9 +9,9 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "2-1. Javi Rodríguez y Radu tumban al Alavés",
-            "Pensión Mujeres Bienestar 2026: requisitos y cómo ubicar tu módulo para inscribi",
-            "Racing e Independiente se enfrentarán en el Cilindro en una nueva edición del cl"
+            "Atlético Bucaramanga vs. América de Cali - en vivo HOY: finalizó el primer tiemp",
+            "Un estudio revela que los fármacos GLP-1 para la obesidad se asocian con menos i",
+            "Qué le pasó a Aleco Irarragorri: el presidente de Santos Laguna es hospitalizado"
           ]
         }
       }
@@ -19,29 +19,35 @@
     {
       "medio": "La Nación",
       "leidas": 91,
-      "aceptadas": 2,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 83,
+          "cantidad": 77,
           "ejemplos": [
-            "Confirman qué día llega la primera ola de frío polar esta temporada de invierno ",
-            "Nico Paz le ganó la pulseada a Mastantuono en Italia, en el duelo de esperanzas ",
-            "Un militar de EE.UU. murió al caer más de 30 metros durante una exhibición antes"
+            "Belgrano vs. River, en vivo, por el torneo Clausura: horario, TV y formaciones",
+            "Ferro Carril Oeste venció a Racing de Córdoba y quedó a un paso de la final por ",
+            "Los expertos en sueño coinciden: si no dormís a oscuras, tu cerebro empieza a pe"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Ante la mejoría de Mirtha Legrand, Martín Llaryora propuso celebrar sus 100 años"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
+            "Las ventas por el Día de la Madre retrocedieron 1,4% y acumulan cinco años en ca",
             "Negociaciones en Washington sobre el futuro de la Argentina",
-            "“Gran manjar”: las sorpresas que se llevó un viajero inglés en la Argentina",
-            "El costo de producir granos en la Argentina se acerca al de sus competidores"
+            "“Gran manjar”: las sorpresas que se llevó un viajero inglés en la Argentina"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "A los 29 años: quién es Yamila Farrell, la presidenta de la Asociación Rural de ",
-            "A pesar del optimismo de Diego Santilli, el Gobierno no logra aún los votos en e"
+            "Mauricio Macri mostró fotos de los 15 de Antonia: el vestido bordado, el baile y",
+            "A los 29 años: quién es Yamila Farrell, la presidenta de la Asociación Rural de "
           ]
         }
       }
@@ -82,9 +88,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
-            "Plan Cóndor II: Trump prepara otra cumbre para coordinar la persecución de la iz",
-            "El 17 de octubre francés de los chalecos amarillos",
-            "León XIV dijo que retomará “gradualmente” su actividad, pero no confirmó su gira"
+            "Meta perjudica a Lula mientras recauda dinero",
+            "Cuando el agua no es cuento",
+            "Encontraron muerto al gendarme que había sido arrastrado por el agua en Neuquén"
           ]
         }
       }
@@ -92,14 +98,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 13,
           "ejemplos": [
-            "Belgrano y River se reencuentran en el Kempes tras la histórica final del Apertu",
-            "El papa León XIV reapareció tras su cirugía y retomará sus actividades de manera",
-            "“Cuando las luces tiemblan”, las sombras también hablan"
+            "Las protestas dejaron 2.000 detenidos, 600 policías heridos y graves destrozos",
+            "Córdoba rechazó el recorte de medicamentos de Nación y alertó por el impacto en ",
+            "Belgrano perdió 1-3 ante Palmeiras por la Copa Libertadores Femenina"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Instituto también gana fuera de la cancha: superávit, proyectos y el sueño de la",
+            "La oposición anunció un gran acuerdo nacional y ratificó a Corina Machado como l"
           ]
         }
       }
@@ -111,20 +124,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 18,
+          "ejemplos": [
+            "Preocupación en la Selección: Cuti Romero terminó con molestias y esperan estudi",
+            "BYD va por el segmento premium en Argentina con un SUV de gran tamaño",
+            "Racing e Independiente empataron el clásico de Avellaneda en un partido caliente"
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "Francia: multitudinarias protestas y más de mil detenidos en reclamo por el alto"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 19,
-          "ejemplos": [
-            "El gigante autónomo que revoluciona la minería: China estrena un camión eléctric",
-            "El papa León XIV agradeció a las personas que rezaron por su recuperación",
-            "Doce preguntas para un editor universitario contemporáneo"
           ]
         }
       }
@@ -144,10 +157,10 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 10,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 15,
           "ejemplos": [
             "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres",
             "“La enfermedad de León XIV marca un punto de inflexión en su pontificado”",
@@ -155,11 +168,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 42,
+          "cantidad": 48,
           "ejemplos": [
-            "Caso Ludueña: prisión preventiva para el asesor radical acusado de abuso",
-            "Cruz del Eje: buscan en otra provincia a Pablo Gómez, sospechoso por el femicidi",
-            "'Pomu' Sánchez: \"Me he pasado los últimos tres días llorando\""
+            "Consejo de la Magistratura: De Loredo y la UCR de Córdoba juegan fuerte por Bigl",
+            "Villa María abrió una residencia para estudiantes universitarios",
+            "\"Con 12 tapitas podés ayudar a ver a otra persona”: la iniciativa que transforma"
           ]
         }
       }
