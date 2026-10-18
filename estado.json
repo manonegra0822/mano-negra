@@ -1,53 +1,47 @@
 {
-  "actualizado": "2026-10-18T08:17:23-03:00",
+  "actualizado": "2026-10-18T13:19:13-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 99,
           "ejemplos": [
-            "Fuerza Regida sufre robo de 22 videos con material inédito: “Tenemos una recompe",
-            "Temblor hoy en México 18 de octubre de 2026: Se registra sismo de magnitud 4.1 e",
-            "Feijóo encarga a Xavier García-Albiol liderar la ley antiokupas en el Congreso t"
+            "2-1. Javi Rodríguez y Radu tumban al Alavés",
+            "Pensión Mujeres Bienestar 2026: requisitos y cómo ubicar tu módulo para inscribi",
+            "Racing e Independiente se enfrentarán en el Cilindro en una nueva edición del cl"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 7,
+      "leidas": 91,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 77,
+          "cantidad": 83,
           "ejemplos": [
-            "“Todo se aprende en el camino”: las madres también luchan por el espacio de sus ",
-            "Cuál es el pozo del Quini 6 para el sorteo de este domingo 18 de octubre",
-            "Telekino 2450: todos los premios del sorteo de este domingo 18 de octubre"
+            "Confirman qué día llega la primera ola de frío polar esta temporada de invierno ",
+            "Nico Paz le ganó la pulseada a Mastantuono en Italia, en el duelo de esperanzas ",
+            "Un militar de EE.UU. murió al caer más de 30 metros durante una exhibición antes"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "Negociaciones en Washington sobre el futuro de la Argentina",
+            "“Gran manjar”: las sorpresas que se llevó un viajero inglés en la Argentina",
+            "El costo de producir granos en la Argentina se acerca al de sus competidores"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "A pesar del optimismo de Diego Santilli, el Gobierno no logra aún los votos en e",
-            "Economía del comportamiento: cuando los agentes moderan sesgos y van por “la ren"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Negociaciones en Washington sobre el futuro de la Argentina",
-            "El costo de producir granos en la Argentina se acerca al de sus competidores",
-            "Stefano Volpetti: “Los productos libres de humo ya funcionan en el mundo y va a "
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Finanzas: contexto externo desafiante y riesgo país en alza"
+            "A los 29 años: quién es Yamila Farrell, la presidenta de la Asociación Rural de ",
+            "A pesar del optimismo de Diego Santilli, el Gobierno no logra aún los votos en e"
           ]
         }
       }
@@ -58,41 +52,39 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "Ahora, que nos escuchen: en defensa de la ira femenina",
-            "El auto de Perón: el Justicialista, vanguardia cordobesa",
-            "El Pluri, una escuela de lucha y encuentro transfeminista"
+            "El auto de Perón: el Justicialista, vanguardia cordobesa"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Proyectos autogestivos que apuestan al encuentro: feriar en clave feminista",
-            "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza "
+            "Proyectos autogestivos que apuestan al encuentro: feriar en clave feminista"
           ]
         },
         "muy vieja": {
-          "cantidad": 5,
+          "cantidad": 7,
           "ejemplos": [
-            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i",
-            "Sin abogadas feministas, no hay justicia",
-            "“Big Maza”, jazz de dos orillas"
+            "El Pluri, una escuela de lucha y encuentro transfeminista",
+            "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza ",
+            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 1,
+      "leidas": 6,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
-            "El desajuste entre la calle y la política",
-            "Todas las miradas en el balcón de León XIV: este domingo podría anunciar si visi",
-            "El 17 de octubre francés de los chalecos amarillos"
+            "Plan Cóndor II: Trump prepara otra cumbre para coordinar la persecución de la iz",
+            "El 17 de octubre francés de los chalecos amarillos",
+            "León XIV dijo que retomará “gradualmente” su actividad, pero no confirmó su gira"
           ]
         }
       }
@@ -100,14 +92,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
-            "Trenes Argentinos concretó el primer pago para la compra de 43 formaciones",
-            "Argentina en “Coordenadas”: una lectura federal para expandir las fronteras de l",
-            "El cirujano del Papa aseguró que podrá viajar a Argentina en noviembre"
+            "Belgrano y River se reencuentran en el Kempes tras la histórica final del Apertu",
+            "El papa León XIV reapareció tras su cirugía y retomará sus actividades de manera",
+            "“Cuando las luces tiemblan”, las sombras también hablan"
           ]
         }
       }
@@ -119,14 +111,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Francia: multitudinarias protestas y más de mil detenidos en reclamo por el alto"
+          ]
+        },
         "titular sin tema de política/economía": {
           "cantidad": 19,
           "ejemplos": [
-            "Córdoba: Bomberos apagaron un incendio en Ciudad Universitaria",
-            "El tiempo en Córdoba: cesan las lluvias y llegan ráfagas de viento norte",
-            "Cómo continúa el largo cronograma de cortes de luz en Córdoba"
+            "El gigante autónomo que revoluciona la minería: China estrena un camión eléctric",
+            "El papa León XIV agradeció a las personas que rezaron por su recuperación",
+            "Doce preguntas para un editor universitario contemporáneo"
           ]
         }
       }
@@ -146,10 +144,10 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 12,
+      "aceptadas": 10,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 23,
+          "cantidad": 18,
           "ejemplos": [
             "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres",
             "“La enfermedad de León XIV marca un punto de inflexión en su pontificado”",
@@ -157,11 +155,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 35,
+          "cantidad": 42,
           "ejemplos": [
-            "Córdoba, la provincia con menor inflación que el promedio nacional de septiembre",
-            "Apuestas precisas: cómo manejar los pronósticos para apostar en NBA",
-            "El \"Niño\" en Córdoba: prevén chaparrones y baja de temperatura para este viernes"
+            "Caso Ludueña: prisión preventiva para el asesor radical acusado de abuso",
+            "Cruz del Eje: buscan en otra provincia a Pablo Gómez, sospechoso por el femicidi",
+            "'Pomu' Sánchez: \"Me he pasado los últimos tres días llorando\""
           ]
         }
       }
