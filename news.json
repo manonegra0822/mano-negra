@@ -1,6 +1,113 @@
 {
-  "actualizado": "2026-10-18T20:14:29-03:00",
+  "actualizado": "2026-10-19T08:24:56-03:00",
   "notas": [
+    {
+      "id": "9414630b75",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-19T08:15:44-03:00",
+      "hora": "08:15",
+      "titulo": "En plena tensión por Malvinas, el Gobierno dispuso comprar bajo secreto militar nuevo equipamiento para las FFAA",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/19/el-gobierno-clasifico-como-secreto-militar-una-nueva-compra-de-equipamiento-para-las-fuerzas-armadas/",
+      "acceso": "abierto",
+      "resumen": "El decreto, publicado en el Boletín Oficial y firmado por Javier Milei y el ministro Carlos Presti, impide conocer el tipo de material, el costo y el proveedor de la operación, que se inscribe en un plan de modernización por el que ya se adquirieron cazas F-16, blindados Stryker y helicópteros Black Hawk",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/KLZ2CPIJT5BABOHATD6SAXTOO4.jpg?auth=d3fec344f14007ad3198585b52452f669a1b0052c59bed8b952253d68dccc7d5&smart=true&width=1920&height=1242",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.186,
+        "y1": 0.545
+      }
+    },
+    {
+      "id": "63a068bfc4",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-19T08:02:00-03:00",
+      "hora": "08:02",
+      "titulo": "Llaryora en la mesa de Juana Viale: \"Schiaretti hubiera sido un gran presidente y estaríamos mucho mejor\"",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/llaryora-en-la-mesa-de-juana-viale-schiaretti-hubiera-sido-un-gran-presidente-y-estariamos-mucho-mejor.phtml",
+      "acceso": "abierto",
+      "resumen": "El gobernador impulsó la candidatura presidencial de Schiaretti. \"Tiene esta visión del sentido común, de la responsabilidad fiscal, pero tiene la visión de la inversión, de la producción\", aseguró. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/19-10-2026-martin-llaryora-mesa-de-juana-viale-2351329.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.026,
+        "y1": 0.771
+      }
+    },
+    {
+      "id": "140485572d",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-19T07:56:49-03:00",
+      "hora": "07:56",
+      "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
+      "acceso": "suscripcion",
+      "resumen": "Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "0549849043",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-19T07:56:31-03:00",
+      "hora": "07:56",
+      "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
+      "acceso": "suscripcion",
+      "resumen": "Para la actualización de haberes se toma el último índice de inflación que publicó el Indec; cuáles son las cifras para el penúltimo mes del año",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IZ6PB2Z7JVGAJAUJDMPKNUSKFQ.png?auth=41b276bf11862c94f065dee7b54c8b2392e447bb5796afc723c11dfece75c598&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.549,
+        "y1": 0.976
+      }
+    },
+    {
+      "id": "9bd80fa996",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-19T07:42:02-03:00",
+      "hora": "07:42",
+      "titulo": "El juez Fabián Asís: “En la justicia las necesidades del interior no son vistas con urgencia”",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/19/el-juez-fabian-asis-en-la-justicia-las-necesidades-del-interior-no-son-vistas-con-urgencia/",
+      "acceso": "abierto",
+      "resumen": "Con más de tres décadas en el Poder Judicial, el juez del Tribunal Oral Federal 2 de Córdoba habla sobre los desafíos de la Justicia para recuperar la confianza de la sociedad y la importancia de que los magistrados mantengan el contacto con la gente.",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/D4GNJ3LVTJGMDAJ74EE32TC6CY.jpg?auth=4784fdb8949ce8cdf089e09f2be9a56c00045b57954fcfad0409e894fc9ecc08&smart=true&width=1920&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.105,
+        "y1": 0.63
+      }
+    },
     {
       "id": "f3a6a844b3",
       "seccion": "cordoba",
@@ -17,7 +124,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/El-Gobierno-no-logra-la-mayoria-para-suspender-las-Paso-y-busca-negociar-con-las-provincias-optimized.jpeg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.061,
         "y1": 0.47
@@ -39,7 +146,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/09/telam-telam-camara-diputados-congreso-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -58,6 +165,31 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/YG2GKD6CIZCX7EVVGWDYFCZQXQ.png?auth=3030b974ada95a315c8772d91938c04c529b4847678c25cb90e90c9908dec11e&smart=true&width=678&height=406",
       "imagen_credito": "La Nación",
       "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "4c221dce5c",
+      "seccion": "cordoba",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-19T06:51:16-03:00",
+      "hora": "06:51",
+      "titulo": "El dólar en Córdoba: a cuánto cotiza este lunes 19 de octubre",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-19-de-octubre-191026.phtml",
+      "acceso": "abierto",
+      "resumen": "Este lunes 19 de octubre el dólar oficial en el Banco Nación se vende a 1.485 pesos y cotiza a 1.535 pesos para la compra. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/dolares-2350375.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este domingo 18 de octubre",
+          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-18-de-octubre-nid18102026/"
+        }
+      ],
       "dia": 0,
       "rostros": null
     },
@@ -77,7 +209,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/QNEKMM7DJFCGTFZTLH4WIPMTV4.jpeg?auth=b183751b78ffc04773845c3ae252e0663fc1bdc381cbe48ed5cb1182c8ab06f5&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.116,
         "y1": 0.438
@@ -99,7 +231,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/2IIE54EWCFB67FY4ITC43XV4TM.jpeg?auth=fe77be36e3c386a047e3c864ca9890aa129de011a23abcfeac009984c86e0f3a&smart=true&width=1280&height=838",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.252,
         "y1": 0.525
@@ -121,7 +253,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/0001129959-optimized.webp",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -140,7 +272,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/H6TDYSLT3BDNFDPOE4TMACEPEY.JPG?auth=0e3daed4f42ec318e3541f89c303132ecbd08e46f898a6e8895b72e9f22acab4&smart=true&width=7271&height=4847",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.013,
         "y1": 0.654
@@ -162,7 +294,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-18-at-10.20.57-optimized.jpeg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.086,
         "y1": 0.811
@@ -190,7 +322,7 @@
           "url": "https://www.lanacion.com.ar/politica/dia-de-la-lealtad-el-pj-pidio-por-la-libertad-de-cristina-kirchner-y-el-fin-de-su-proscripcion-nid17102026/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -209,7 +341,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/YQBPMWGXSZHVTHTEU2JCET5TSQ.jpeg?auth=9b4764fb41baaee4b2c08e078a2ef783dee03d0331ca95ea0cb0881ab5a316f4&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.213,
         "y1": 0.468
@@ -231,205 +363,32 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-18-at-09.40.19-optimized.jpeg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.102,
         "y1": 0.436
       }
     },
     {
-      "id": "e74ca5f2b4",
+      "id": "78243745f8",
       "seccion": "cordoba",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-10-18T15:39:26-03:00",
-      "hora": "15:39",
-      "titulo": "El presidente Javier Milei viaja a España y se reunirá con Isabel Díaz Ayuso",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/el-presidente-javier-milei-viaja-a-espana-y-se-reunira-con-isabel-diaz-ayuso_a6ad5103744c619b5d94357c1",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-10-19T08:01:00-03:00",
+      "hora": "08:01",
+      "titulo": "Liliana Montero: \"Milei le da el golpe de gracia al Remediar, están destruyendo el sistema de salud\"",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/liliana-montero-milei-le-da-el-golpe-de-gracia-al-remediar-estan-destruyendo-el-sistema-de-salud.phtml",
       "acceso": "abierto",
-      "resumen": "El mandatario nacional partirá este lunes 19 de octubre rumbo al país europeo. La reunión con la alcaldesa de Madrid ya fue confirmada por Casa Rosada.",
+      "resumen": "\"¿Quién va a pagar la cuenta? Está claro que nuevamente seremos las provincias, los municipios o la gente de su propio bolsillo\", sostuvo la funcionaria de la Provincia de Córdoba. Leer más",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad5104c44c619b5d9435bf9/720.jpeg",
-      "imagen_credito": "Cba24n",
+      "imagen": "https://fotos.perfil.com/2025/03/08/trim/540/304/8-3-2025-liliana-montero-1980821.jpg",
+      "imagen_credito": "Perfil",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.068,
-        "y1": 0.356
-      }
-    },
-    {
-      "id": "d1d3e84aeb",
-      "seccion": "economia",
-      "rel": 21.1,
-      "relevancia": 21.1,
-      "fecha": "2026-10-18T07:59:47-03:00",
-      "hora": "07:59",
-      "titulo": "Con dudas, en Wall Street se preguntan por los dólares para pagar la deuda en el año electoral",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/con-dudas-en-wall-street-se-preguntan-por-los-dolares-para-pagar-la-deuda-en-el-ano-electoral-nid18102026/",
-      "acceso": "suscripcion",
-      "resumen": "Milei habla de un monto de hasta US$125.000 millones, mientras el riesgo país supera los 600 puntos; la Argentina tiene reservas por el 7,4% del PBI y vencimientos por US$29.000 millones en 2027",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IBFMT4I2JVCZHCRDGSEWNEWM5E.jpg?auth=0f7747fd1aa2a4e270599703dec838f8568bdb8759b39f859474848740d03a79&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.06,
-        "y1": 0.403
-      }
-    },
-    {
-      "id": "ce1694ade9",
-      "seccion": "argentina",
-      "rel": 21.1,
-      "relevancia": 21.1,
-      "fecha": "2026-10-18T02:45:36-03:00",
-      "hora": "02:45",
-      "titulo": "El peronismo, unido para que haya PASO: la reunión Cristina-Massa, advertencia a los gobernadores y Santilli contracara",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-peronismo-unido-para-que-haya-paso-la-reunion-cristina-massa-advertencia-a-los-gobernadores-y-nid18102026/",
-      "acceso": "suscripcion",
-      "resumen": "Las diferencias internas persisten pero todos quieren que se mantengan las primarias; qué escenario aparece en caso de que el Gobierno logre darlas de baja",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IC33EGOFIBCRFDLLGV2MYYXANA.jpg?auth=07e8fbdd8a817bd4dfdb37c8471996623e1becc9762b2e359191b6d892751ff2&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.118,
-        "y1": 0.517
-      }
-    },
-    {
-      "id": "fee3e9e7b3",
-      "seccion": "economia",
-      "rel": 20.9,
-      "relevancia": 20.9,
-      "fecha": "2026-10-18T07:01:00-03:00",
-      "hora": "07:01",
-      "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este domingo 18 de octubre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-18-de-octubre-nid18102026/",
-      "acceso": "suscripcion",
-      "resumen": "La cotización de la moneda estadounidense se mantiene igual que el último día hábil; cómo fue el comportamiento de la divisa informal y los dólares financieros",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IYEY5GXXZJFPRK5XWHSQY47HMA.jpg?auth=4ef2027c71a711410a369f8e88fddcf2c754735ea001c725cb7094bb89d09667&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "d5e855dbf0",
-      "seccion": "argentina",
-      "rel": 20.7,
-      "relevancia": 20.7,
-      "fecha": "2026-10-18T00:42:21-03:00",
-      "hora": "00:42",
-      "titulo": "La bazuca de Milei y su alianza de cristal",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/la-bazuca-de-milei-y-su-alianza-de-cristal-nid17102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Gobierno está a la defensiva ante un sistema político que lo obliga a resignar reformas y negociar todo el tiempo para no caer en una crisis; el dilema entre tranquilizar al mercado y reavivar la ilusión de crecimiento",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/5GR7JQ2E7VFMJKYWEO2TSZQQZE.jpeg?auth=3cacdd3990d7386d86d72c2c99961bbe518846f678b69320746610002a5b368c&smart=true&width=827&height=621",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.049,
-        "y1": 0.824
-      }
-    },
-    {
-      "id": "b74de01a50",
-      "seccion": "economia",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-18T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Por qué hay que bajar el ritmo de compra de reservas",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/por-que-hay-que-bajar-el-ritmo-de-compra-de-reservas-nid18102026/",
-      "acceso": "suscripcion",
-      "resumen": "Dado que al BCRA le falta poco para cumplir con las metas comprometidas con el FMI, debería comprar mucho menos que en el primer semestre; así, la demanda interna podría recuperarse en función de las divisas que entren por exportaciones…",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/FH53Q5PD3JELDJQAOT5S6ANE54.JPG?auth=9b0546f13bf1bd4d7071b62b002e88384ccd9de822b231808668be19f5de80b2&smart=true&width=2048&height=1366",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.14,
-        "y1": 0.526
-      }
-    },
-    {
-      "id": "5e4d77d550",
-      "seccion": "argentina",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-18T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "El futuro de Milei",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-futuro-de-milei-nid18102026/",
-      "acceso": "suscripcion",
-      "resumen": "En esta columna, el ministro de Desregulación describe el plan económico del Presidente como un intento de redefinir los basamentos conceptuales del desarrollo argentino",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/FZ72X2OFOFHK5IUR74XN7FXCFE.jpg?auth=ac9c20af89df3a5ee1415c6a6c63be2d9a997ac04c777f55da9e9bbb1cee299c&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.135,
-        "y1": 0.802
-      }
-    },
-    {
-      "id": "a20707d545",
-      "seccion": "economia",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-18T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Federico Moll: “Incluso si la economía no para de crecer, el consumo masivo tal vez no recupere los niveles de 2023 por mucho tiempo”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/federico-moll-incluso-si-la-economia-no-para-de-crecer-el-consumo-masivo-tal-vez-no-recupere-los-nid18102026/",
-      "acceso": "suscripcion",
-      "resumen": "Es economista formado en la Universidad de Buenos Aires (UBA), donde también cursó la maestría; fue profesor en la UBA y en Untref; en 2017 fue ganador del premio anual de investigación Dr.",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/6UFQ4PVFQFEA7LIWYEREAZNRGQ.JPG?auth=c5fb29a555fb954573b0a2c1d01d61251957dcd3de872865abf35c28b4ac2f9d&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.174,
-        "y1": 0.772
-      }
-    },
-    {
-      "id": "c5994d8a68",
-      "seccion": "economia",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-10-18T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "El Deutsche Bank, exbanco de Caputo y Bausili, se benefició con las operaciones del oro argentino",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/18/el-deutsche-bank-exbanco-de-caputo-y-bausili-se-beneficio-con-las-operaciones-del-oro-argentino/",
-      "acceso": "suscripcion",
-      "resumen": "Una fuente del BCRA reveló a Página/12 que la entidad alemana fue una de las contrapartes de la operación que dejó pérdidas por 1.023 millones de dólares. La AGN exige los contratos.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/FLPX6XX2EZH3VIVT6U6TIERQR4.jpg?auth=bf1b22272a57fa2f35d149a621df996332068d6b877f3a66afa9a602be983495&smart=true&width=6411&height=4274",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.395,
-        "y1": 0.749
+        "y0": 0.0,
+        "y1": 0.346
       }
     },
     {
@@ -448,7 +407,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -467,174 +426,29 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UNCVRPQSX5HFXOKHZZM5DLGLCY.jpg?auth=17586f6a7f25e1035552f0d50d9f98a57f042b6c729e140d4f46295408c6727b&smart=true&width=750&height=500",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "1076c69a15",
-      "seccion": "economia",
-      "rel": 19.4,
-      "relevancia": 19.4,
-      "fecha": "2026-10-17T22:00:00-03:00",
-      "hora": "22:00",
-      "titulo": "Uepc se reunirá con el Gobierno provincial el martes para revisar la paritaria",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/cordoba/uepc-pidio-reabrir-la-paritaria-docente-y-espera-reunirse-con-la-provincia/",
-      "acceso": "abierto",
-      "resumen": "La reunión será el martes 20 de octubre, tras el pedido de revisión del acuerdo firmado en abril. La UEPC busca discutir salarios y condiciones laborales.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
       "dia": 1,
       "rostros": null
     },
     {
-      "id": "c27c70fd60",
+      "id": "e74ca5f2b4",
       "seccion": "cordoba",
-      "rel": 18.5,
-      "relevancia": 18.5,
-      "fecha": "2026-10-17T23:01:00-03:00",
-      "hora": "23:01",
-      "titulo": "Llaryora, tras la gira por Buenos Aires: críticas a Milei y apuesta por Schiaretti para “blindar” Córdoba",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/llaryora-tras-la-gira-por-buenos-aires-criticas-a-milei-y-apuesta-por-schiaretti-para-blindar-cordoba.phtml",
+      "rel": 19.2,
+      "relevancia": 19.2,
+      "fecha": "2026-10-18T15:39:26-03:00",
+      "hora": "15:39",
+      "titulo": "El presidente Javier Milei viaja a España y se reunirá con Isabel Díaz Ayuso",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/el-presidente-javier-milei-viaja-a-espana-y-se-reunira-con-isabel-diaz-ayuso_a6ad5103744c619b5d94357c1",
       "acceso": "abierto",
-      "resumen": "El gobernador combinó entrevistas en medios nacionales, gestiones por los biocombustibles y una agenda federal con otros mandatarios. Cuestionó el impacto de la recesión sobre el empleo y las pymes, defendió una posición de centro y volvió a impulsar al exgobernador como alternativa presidencial para 2027. Leer más",
+      "resumen": "El mandatario nacional partirá este lunes 19 de octubre rumbo al país europeo. La reunión con la alcaldesa de Madrid ya fue confirmada por Casa Rosada.",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/18/trim/540/304/17-10-2026-llaryora-y-kicillof-2350797.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ad5104c44c619b5d9435bf9/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [],
       "dia": 1,
       "rostros": {
-        "y0": 0.128,
-        "y1": 0.672
-      }
-    },
-    {
-      "id": "a8614d855c",
-      "seccion": "cordoba",
-      "rel": 18.5,
-      "relevancia": 18.5,
-      "fecha": "2026-10-17T22:59:00-03:00",
-      "hora": "22:59",
-      "titulo": "Asesores detenidos, carpetazos y doble vara: la guerra entre el PJ y la UCR paraliza el recinto de sesiones",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/asesores-detenidos-carpetazos-y-doble-vara-la-guerra-entre-el-pj-y-la-ucr-paraliza-el-recinto-de-sesiones.phtml",
-      "acceso": "abierto",
-      "resumen": "Los antecedentes judiciales de asesores se convirtieron en munición política para una disputa sin tregua que afecta lo institucional. El PJ presiona por Ferrero, la UCR la consagra jefa de bloque y la Unicameral queda atrapada en el fuego cruzado. Se acumulan semanas sin sesionar. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/09/19/trim/540/304/sesion-en-legislatura-2329854.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "6a17035088",
-      "seccion": "cordoba",
-      "rel": 18.5,
-      "relevancia": 18.5,
-      "fecha": "2026-10-17T22:58:00-03:00",
-      "hora": "22:58",
-      "titulo": "Passerini bendice a Quinteros como sucesor, pero el PJ Capital no garantiza su apoyo",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/passerini-bendice-a-quinteros-como-sucesor-pero-el-pj-capital-no-garantiza-su-apoyo.phtml",
-      "acceso": "abierto",
-      "resumen": "El intendente ve a un posible candidato en el ministro de Seguridad, pero el respaldo de la estructura peronista aún está en discusión. Con las elecciones provinciales y municipales separadas, Llaryora tendrá un papel decisivo en la definición de la estrategia y en el armado de la lista de Hacemos. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/07/24/trim/540/304/24-7-2026-passerini-y-quinteros-2290550.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.101,
-        "y1": 0.672
-      }
-    },
-    {
-      "id": "a1b04387a9",
-      "seccion": "cordoba",
-      "rel": 18.5,
-      "relevancia": 18.5,
-      "fecha": "2026-10-17T22:57:00-03:00",
-      "hora": "22:57",
-      "titulo": "Tiempos distintos y miradas de reojo: el complejo rompecabezas de la oposición",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/tiempos-distintos-y-miradas-de-reojo-el-complejo-rompecabezas-de-la-oposicion.phtml",
-      "acceso": "abierto",
-      "resumen": "De Loredo acelera su agenda con los equipos técnicos y el ‘Delorean’ en marcha. Mientras en La Libertad Avanza y el juecismo dudan del diálogo y abren el paraguas sobre el futuro de la alianza. La frase que no gusta en los dirigentes opositores y qué es lo que analizan en el escenario político cordobés para disputarle el mando a Llaryora. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/17/trim/540/304/oposicion-juez-de-loredo-boronoroni-2350781.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "caa404e347",
-      "seccion": "cordoba",
-      "rel": 18.4,
-      "relevancia": 18.4,
-      "fecha": "2026-10-17T22:52:00-03:00",
-      "hora": "22:52",
-      "titulo": "Federico Zapata: “El peronismo tiene una resistencia muy profunda a renovarse”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/federico-zapata-el-peronismo-tiene-una-resistencia-muy-profunda-a-renovarse.phtml",
-      "acceso": "abierto",
-      "resumen": "El politólogo analiza las tensiones del PJ, la resistencia a la renovación y la falta de autocrítica sobre el gobierno del Frente de Todos. Sostiene que el peronismo de Córdoba podría ofrecer una alternativa al espacio metropolitano, aunque todavía no encontró las herramientas para proyectarse nacionalmente. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/09/29/trim/540/304/federico-zapata-2336363.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.052,
-        "y1": 0.774
-      }
-    },
-    {
-      "id": "b293a7025b",
-      "seccion": "cordoba",
-      "rel": 18.4,
-      "relevancia": 18.4,
-      "fecha": "2026-10-17T22:50:00-03:00",
-      "hora": "22:50",
-      "titulo": "El liderazgo opositor: Kicillof se consolida sobre Massa",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/el-liderazgo-opositor-kicillof-se-consolida-sobre-massa.phtml",
-      "acceso": "abierto",
-      "resumen": "La ventaja de Axel Kicillof sobre Cristina Fernández de Kirchner se consolida, aunque con matices en las encuestas. No obstante, la oposición continúa teniendo esa vacante en disputa, lo que perfila la competencia entre otras figuras políticas en la construcción de una campaña para disputar la presidencia de Milei. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/09/10/trim/540/304/axel-kicillof-acto-en-misiones-09092026-2323181.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.519,
-        "y1": 0.754
-      }
-    },
-    {
-      "id": "f9a7aaab35",
-      "seccion": "argentina",
-      "rel": 17.9,
-      "relevancia": 17.9,
-      "fecha": "2026-10-18T19:23:26-03:00",
-      "hora": "19:23",
-      "titulo": "Milei viaja a España para apoyar a la ultraderecha, pero analistas advierten que podría jugarle en contra",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/milei-viaja-a-espana-para-apoyar-a-la-ultraderecha-pero-analistas-advierten-que-podria-jugarle-en-nid18102026/",
-      "acceso": "suscripcion",
-      "resumen": "Es su tercera visita en el año; la agenda oficial del Presidente incluye encuentros con la presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso y con el economista Jesús Huerta de Soto",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/5HWXYIEOI5H6PIO7PKTGNELEIE.jpg?auth=35daaced41b662bd029fdb138b97b1830c6691d0f426f834ef59ebda9813eb3e&smart=true&width=2048&height=1632",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.033,
-        "y1": 0.469
+        "y0": 0.068,
+        "y1": 0.356
       }
     },
     {
@@ -652,6 +466,47 @@
       "impacto": null,
       "imagen": "https://www.infobae.com/resizer/v2/PXWI2JOQ25AM7ASFP2MTAMJVWY.JPG?auth=1e09da5f1304a7d8d80d2b93cbfa7c7be8d78e7e94bc282662212913981dadc9&smart=true&width=800&height=512",
       "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "03e15d65b0",
+      "seccion": "cordoba",
+      "rel": 17.8,
+      "relevancia": 17.8,
+      "fecha": "2026-10-19T07:09:02-03:00",
+      "hora": "07:09",
+      "titulo": "Fenómeno El Niño: Córdoba suma experiencia internacional en su Consejo Asesor",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/fenomeno-el-nino--cordoba-suma-experiencia-internacional-en-su-consejo-asesor_a6ad5e5e24c488fb37e745201",
+      "acceso": "abierto",
+      "resumen": "Cuatro nuevos especialistas fueron nombrados por la Provincia. Entre ellos, dos estadounidenses y un investigador chileno.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ad5e6f94c488fb37e746726/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.239
+      }
+    },
+    {
+      "id": "a6e48e0277",
+      "seccion": "economia",
+      "rel": 17.8,
+      "relevancia": 17.8,
+      "fecha": "2026-10-19T07:00:00-03:00",
+      "hora": "07:00",
+      "titulo": "Comienza el juicio contra los Kirchner por lavado y asociación ilícita: las pruebas que reunieron los fiscales",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/comienza-el-juicio-contra-los-kirchner-por-lavado-y-asociacion-ilicita-las-pruebas-que-reunieron-los-nid19102026/",
+      "acceso": "suscripcion",
+      "resumen": "La primera audiencia será este viernes; pero, antes, la Casación decidirá sobre la reunificación de las causas Hotesur y Los Sauces",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/PDC75BLYXVEABCNQDYYPKKU5Z4.jpg?auth=86dd61f3a13266234989858aa96c093016829c1647cbd2c557099714306a3d2a&smart=true&width=1417&height=1020",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -672,6 +527,66 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "f9a7aaab35",
+      "seccion": "argentina",
+      "rel": 17.6,
+      "relevancia": 17.6,
+      "fecha": "2026-10-19T06:15:34-03:00",
+      "hora": "06:15",
+      "titulo": "Milei viaja a España para apoyar a la ultraderecha, pero analistas advierten que podría jugarle en contra",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-viaja-a-espana-para-apoyar-a-la-ultraderecha-pero-analistas-advierten-que-podria-jugarle-en-nid18102026/",
+      "acceso": "suscripcion",
+      "resumen": "Es su tercera visita en el año; la agenda oficial del Presidente incluye encuentros con la presidenta de la Comunidad de Madrid, Isabel Díaz Ayuso y con el economista Jesús Huerta de Soto",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/5HWXYIEOI5H6PIO7PKTGNELEIE.jpg?auth=35daaced41b662bd029fdb138b97b1830c6691d0f426f834ef59ebda9813eb3e&smart=true&width=2048&height=1632",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.033,
+        "y1": 0.469
+      }
+    },
+    {
+      "id": "5e31641015",
+      "seccion": "economia",
+      "rel": 16.0,
+      "relevancia": 16.0,
+      "fecha": "2026-10-19T08:20:34-03:00",
+      "hora": "08:20",
+      "titulo": "Más agrodólares: con precios firmes, las ventas alcanzaron un récord de 105 millones de toneladas de granos",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/10/19/mas-agrodolares-con-precios-firmes-las-ventas-alcanzaron-un-record-de-105-millones-de-toneladas-de-granos/",
+      "acceso": "abierto",
+      "resumen": "El volumen comercializado en la campaña 2025/26 supera en un 25% al promedio de los últimos cinco años y en casi 6 millones de toneladas al máximo anterior, según la Bolsa de Comercio de Rosario",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/XVHBEYRHUVGA3OWJK47I6GUP2U.png?auth=655469dc1e3c171d2827de8130cb0cc5b943e4f2955c3a38d5a7b143fb894da8&smart=true&width=1536&height=1024",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "7402bb96bd",
+      "seccion": "argentina",
+      "rel": 15.9,
+      "relevancia": 15.9,
+      "fecha": "2026-10-19T08:00:37-03:00",
+      "hora": "08:00",
+      "titulo": "Javier Milei y sus medidas, EN VIVO: “La casta, la alta política, los empresaurios y los periodistas no son muy distintos”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-la-casta-la-alta-politica-los-empresaurios-y-los-periodistas-no-nid19102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/3Q6QQ2OKOBFUVMAUWGWK3GGQOY.JPG?auth=87904231226d0d24756257ca3a44f7010b3dbe2edcaf784b48d3951d562ae0c8&smart=true&width=1271&height=848",
+      "imagen_credito": "La Nación",
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
@@ -691,7 +606,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/B7SLU6XCKRGMREAG3I72JKTAYQ.jpg?auth=155202bdc6ece077b2712491163da6ee636883301ef80522d730d0ad7f439795&smart=true&width=3530&height=2354",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.189,
         "y1": 0.811
@@ -700,10 +615,10 @@
     {
       "id": "73802c8b4b",
       "seccion": "argentina",
-      "rel": 14.8,
-      "relevancia": 14.8,
-      "fecha": "2026-10-18T12:56:59-03:00",
-      "hora": "12:56",
+      "rel": 14.6,
+      "relevancia": 14.6,
+      "fecha": "2026-10-19T00:01:00-03:00",
+      "hora": "00:01",
       "titulo": "¿Para cuándo algo nítido en la oposición?",
       "fuente": "Página/12",
       "url": "https://www.pagina12.com.ar/2026/10/18/para-cuando-algo-nitido-en-la-oposicion/",
@@ -712,6 +627,25 @@
       "impacto": null,
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/G7PWERXIVVCNLE6XUGXZUPTRVM.jpg?auth=e6daba3f780ff835dc5a5ce2b51ca9b490bbae2f58a5ae57ec3676271fd8a767&smart=true&width=2560&height=1920",
       "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "9c0c46c30c",
+      "seccion": "argentina",
+      "rel": 13.8,
+      "relevancia": 13.8,
+      "fecha": "2026-10-19T07:00:00-03:00",
+      "hora": "07:00",
+      "titulo": "El destino de los hoteles de los Kirchner: dos funcionan, uno está cerrado y el cuarto, tomado por ocupas",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/el-destino-de-los-hoteles-de-los-kirchner-dos-funcionan-uno-esta-cerrado-y-el-cuarto-tomado-por-nid19102026/",
+      "acceso": "suscripcion",
+      "resumen": "Los cuatro forman parte de la trama judicial de presunto lavado de dinero y asociación ilícita en las causas Hotesur y Los Sauces",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/O3XEBGCHNREOVFEMDKZJRTHCZY.jpg?auth=d5aedd1131d6b341c60877ef0fbf4f358fba371615457773ff31e91ca69cc6bd&smart=true&width=960&height=540",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -732,7 +666,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/JDIJ2Q6TEFH7LGAAUV67W3S6TY.png?auth=4e6aa41cd26e6d3d6b2dd7d609f802a427680d19b4670de38e5f8c38839feb96&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.125,
         "y1": 0.498
@@ -760,7 +694,7 @@
           "url": "https://www.pagina12.com.ar/2026/10/17/el-dia-de-la-lealtad-siguio-con-un-asado-para-cristina-kirchner-en-la-puerta-de-su-casa/"
         }
       ],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.214,
         "y1": 0.472
@@ -782,7 +716,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/PTNLOUNTIBGEPHNCPK3PEEQVGE.jpeg?auth=3b5936ce9ed510d2a29d53be34bf8ee10a6e7ce06d3a2d8b4546ae7746f45818&smart=true&width=4160&height=2773",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.133,
         "y1": 0.408
@@ -804,10 +738,54 @@
       "imagen": "https://www.infobae.com/resizer/v2/ILZ2YPJ3B5FWNAG5TU3BHWC5KE.jpg?auth=a30bc2baac0005f56a2cb6f950e808122b8bef7fb94526561b1997b9915fc103&smart=true&width=1280&height=720",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.1,
         "y1": 0.503
+      }
+    },
+    {
+      "id": "d1d3e84aeb",
+      "seccion": "economia",
+      "rel": 21.1,
+      "relevancia": -478.9,
+      "fecha": "2026-10-18T07:59:47-03:00",
+      "hora": "07:59",
+      "titulo": "Con dudas, en Wall Street se preguntan por los dólares para pagar la deuda en el año electoral",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/con-dudas-en-wall-street-se-preguntan-por-los-dolares-para-pagar-la-deuda-en-el-ano-electoral-nid18102026/",
+      "acceso": "suscripcion",
+      "resumen": "Milei habla de un monto de hasta US$125.000 millones, mientras el riesgo país supera los 600 puntos; la Argentina tiene reservas por el 7,4% del PBI y vencimientos por US$29.000 millones en 2027",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IBFMT4I2JVCZHCRDGSEWNEWM5E.jpg?auth=0f7747fd1aa2a4e270599703dec838f8568bdb8759b39f859474848740d03a79&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.06,
+        "y1": 0.403
+      }
+    },
+    {
+      "id": "ce1694ade9",
+      "seccion": "argentina",
+      "rel": 21.1,
+      "relevancia": -478.9,
+      "fecha": "2026-10-18T02:45:36-03:00",
+      "hora": "02:45",
+      "titulo": "El peronismo, unido para que haya PASO: la reunión Cristina-Massa, advertencia a los gobernadores y Santilli contracara",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/el-peronismo-unido-para-que-haya-paso-la-reunion-cristina-massa-advertencia-a-los-gobernadores-y-nid18102026/",
+      "acceso": "suscripcion",
+      "resumen": "Las diferencias internas persisten pero todos quieren que se mantengan las primarias; qué escenario aparece en caso de que el Gobierno logre darlas de baja",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IC33EGOFIBCRFDLLGV2MYYXANA.jpg?auth=07e8fbdd8a817bd4dfdb37c8471996623e1becc9762b2e359191b6d892751ff2&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.118,
+        "y1": 0.517
       }
     },
     {
@@ -826,32 +804,54 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/XFCHTD3XMRGNTOWZH5OPFKUXLQ.jpg?auth=c8eb4d241ef7320a3085cc10f035b76e613b7ad2a8755e161f632e0ec25d8ad5&smart=true&width=1279&height=1159",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.183,
         "y1": 0.443
       }
     },
     {
-      "id": "056db1c945",
+      "id": "d5e855dbf0",
       "seccion": "argentina",
-      "rel": 21.1,
-      "relevancia": -478.9,
-      "fecha": "2026-10-17T07:58:58-03:00",
-      "hora": "07:58",
-      "titulo": "Los intendentes del PJ que afrontarán un recambio inédito si es que la ley de reelecciones no se revierte",
+      "rel": 20.7,
+      "relevancia": -479.3,
+      "fecha": "2026-10-18T00:42:21-03:00",
+      "hora": "00:42",
+      "titulo": "La bazuca de Milei y su alianza de cristal",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/los-intendentes-del-pj-que-afrontaran-un-recambio-inedito-si-es-que-la-ley-de-reelecciones-no-se-nid17102026/",
+      "url": "https://www.lanacion.com.ar/politica/la-bazuca-de-milei-y-su-alianza-de-cristal-nid17102026/",
       "acceso": "suscripcion",
-      "resumen": "Si la Legislatura bonaerense no da marcha atrás con las limitaciones, varios históricos del peronismo deberán buscar un sucesor para 2027",
+      "resumen": "El Gobierno está a la defensiva ante un sistema político que lo obliga a resignar reformas y negociar todo el tiempo para no caer en una crisis; el dilema entre tranquilizar al mercado y reavivar la ilusión de crecimiento",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/BEDCHX3Z65HKRACIJAKMNIS3KM.JPG?auth=20bb74db052105f0ef2df66957478f6f7a9686d38cc56dd13208428b44d91ae9&smart=true&width=1080&height=864",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/5GR7JQ2E7VFMJKYWEO2TSZQQZE.jpeg?auth=3cacdd3990d7386d86d72c2c99961bbe518846f678b69320746610002a5b368c&smart=true&width=827&height=621",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 1,
       "rostros": {
-        "y0": 0.101,
-        "y1": 0.48
+        "y0": 0.049,
+        "y1": 0.824
+      }
+    },
+    {
+      "id": "b74de01a50",
+      "seccion": "economia",
+      "rel": 20.6,
+      "relevancia": -479.4,
+      "fecha": "2026-10-18T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Por qué hay que bajar el ritmo de compra de reservas",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/por-que-hay-que-bajar-el-ritmo-de-compra-de-reservas-nid18102026/",
+      "acceso": "suscripcion",
+      "resumen": "Dado que al BCRA le falta poco para cumplir con las metas comprometidas con el FMI, debería comprar mucho menos que en el primer semestre; así, la demanda interna podría recuperarse en función de las divisas que entren por exportaciones…",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/FH53Q5PD3JELDJQAOT5S6ANE54.JPG?auth=9b0546f13bf1bd4d7071b62b002e88384ccd9de822b231808668be19f5de80b2&smart=true&width=2048&height=1366",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.14,
+        "y1": 0.526
       }
     }
   ],

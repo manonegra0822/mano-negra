@@ -1,53 +1,59 @@
 {
-  "actualizado": "2026-10-18T20:14:29-03:00",
+  "actualizado": "2026-10-19T08:24:56-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 96,
           "ejemplos": [
-            "Atlético Bucaramanga vs. América de Cali - en vivo HOY: finalizó el primer tiemp",
-            "Un estudio revela que los fármacos GLP-1 para la obesidad se asocian con menos i",
-            "Qué le pasó a Aleco Irarragorri: el presidente de Santos Laguna es hospitalizado"
+            "¿Qué le pasa hoy a la economía de Argentina?",
+            "Una reconocida pareja del mundo del tenis anunció su separación: “Es la verdad m",
+            "Enseñar el uso crítico de la IA"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cuánto cuesta la canasta básica de bienes en cada región del país: hay diferenci"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 7,
+      "leidas": 97,
+      "aceptadas": 17,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 77,
+          "cantidad": 60,
           "ejemplos": [
-            "Belgrano vs. River, en vivo, por el torneo Clausura: horario, TV y formaciones",
-            "Ferro Carril Oeste venció a Racing de Córdoba y quedó a un paso de la final por ",
-            "Los expertos en sueño coinciden: si no dormís a oscuras, tu cerebro empieza a pe"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Ante la mejoría de Mirtha Legrand, Martín Llaryora propuso celebrar sus 100 años"
+            "Encuestas de las elecciones Brasil 2026: quién gana según los últimos sondeos pa",
+            "Francia busca contener la violencia con toque de queda; Milei viaja a España por",
+            "Cuándo es el balotaje de las Elecciones Brasil 2026"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 17,
           "ejemplos": [
-            "Las ventas por el Día de la Madre retrocedieron 1,4% y acumulan cinco años en ca",
-            "Negociaciones en Washington sobre el futuro de la Argentina",
-            "“Gran manjar”: las sorpresas que se llevó un viajero inglés en la Argentina"
+            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en noviembre 2026",
+            "Calendario de pagos de Anses: cuándo se cobra la PUAM de octubre de 2026",
+            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de o"
           ]
         },
         "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 2,
           "ejemplos": [
-            "Mauricio Macri mostró fotos de los 15 de Antonia: el vestido bordado, el baile y",
-            "A los 29 años: quién es Yamila Farrell, la presidenta de la Asociación Rural de "
+            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e",
+            "Ante la mejoría de Mirtha Legrand, Martín Llaryora propuso celebrar sus 100 años"
           ]
         }
       }
@@ -83,39 +89,21 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 5,
           "ejemplos": [
-            "Meta perjudica a Lula mientras recauda dinero",
-            "Cuando el agua no es cuento",
-            "Encontraron muerto al gendarme que había sido arrastrado por el agua en Neuquén"
+            "El ingreso no alcanza y el endeudamiento tampoco",
+            "Dos enviados de Trump llegan a la Argentina para controlar que todo marcha acord",
+            "Lula y Bolsonaro chocan en un primer debate clave"
           ]
         }
       }
     },
     {
       "medio": "Hoy Día Córdoba",
-      "leidas": 20,
-      "aceptadas": 5,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 13,
-          "ejemplos": [
-            "Las protestas dejaron 2.000 detenidos, 600 policías heridos y graves destrozos",
-            "Córdoba rechazó el recorte de medicamentos de Nación y alertó por el impacto en ",
-            "Belgrano perdió 1-3 ante Palmeiras por la Copa Libertadores Femenina"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Instituto también gana fuera de la cancha: superávit, proyectos y el sueño de la",
-            "La oposición anunció un gran acuerdo nacional y ratificó a Corina Machado como l"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (The read operation timed out)"
     },
     {
       "medio": "Comercio y Justicia",
@@ -124,14 +112,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 17,
           "ejemplos": [
-            "Preocupación en la Selección: Cuti Romero terminó con molestias y esperan estudi",
-            "BYD va por el segmento premium en Argentina con un SUV de gran tamaño",
-            "Racing e Independiente empataron el clásico de Avellaneda en un partido caliente"
+            "Detuvieron a Pablo Ezequiel Gómez por el femicidio en Cruz del Eje: tiene antece",
+            "Sin excusas tras el tropiezo: la cruda autocrítica de Zielinski que sacude a Bel",
+            "Con acusaciones cruzadas, Lula y Bolsonaro tuvieron el primer debate en Brasil"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -157,22 +145,22 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 7,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 16,
           "ejemplos": [
-            "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres",
-            "“La enfermedad de León XIV marca un punto de inflexión en su pontificado”",
-            "La Small Jazz Band celebra más de cuatro décadas de historia en el Teatro del Li"
+            "El Niño en Córdoba: cómo será el clima este lunes",
+            "Las ventas por el Día de la Madre 2026 cayeron 1,4% interanual",
+            "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres"
           ]
         },
         "muy vieja": {
-          "cantidad": 48,
+          "cantidad": 45,
           "ejemplos": [
-            "Consejo de la Magistratura: De Loredo y la UCR de Córdoba juegan fuerte por Bigl",
-            "Villa María abrió una residencia para estudiantes universitarios",
-            "\"Con 12 tapitas podés ayudar a ver a otra persona”: la iniciativa que transforma"
+            "¿Quién te dijo que no podías hacer una diferencia?: El valor de las pequeñas acc",
+            "Todos van a Cantón, los que saben comprar también van a Yiwu",
+            "Consejo de la Magistratura: De Loredo y la UCR de Córdoba juegan fuerte por Bigl"
           ]
         }
       }
