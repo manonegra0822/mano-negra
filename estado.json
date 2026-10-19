@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-19T08:24:56-03:00",
+  "actualizado": "2026-10-19T13:26:10-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,53 +7,55 @@
       "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 94,
           "ejemplos": [
-            "¿Qué le pasa hoy a la economía de Argentina?",
-            "Una reconocida pareja del mundo del tenis anunció su separación: “Es la verdad m",
-            "Enseñar el uso crítico de la IA"
+            "Procesaron a los sospechosos del crimen narco de Palermo: la suela de zapatilla ",
+            "Procesión del Señor de los Milagros EN VIVO: ruta y ubicación del Cristo Moreno ",
+            "Joe Keery habló sobre cómo combina la actuación en Broadway con su carrera music"
           ]
         },
         "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "El Gobierno prorrogó el régimen que permite a 50.000 trabajadores rurales el cob",
+            "El Gobierno analiza postergar el inicio del FAL, el fondo para pagar indemnizaci"
+          ]
+        },
+        "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Cuánto cuesta la canasta básica de bienes en cada región del país: hay diferenci"
+            "Un laboratorio del partido bonaerense de Ituzaingó desvinculó a la mitad de sus "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 97,
-      "aceptadas": 17,
+      "leidas": 94,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 60,
+          "cantidad": 72,
           "ejemplos": [
-            "Encuestas de las elecciones Brasil 2026: quién gana según los últimos sondeos pa",
-            "Francia busca contener la violencia con toque de queda; Milei viaja a España por",
-            "Cuándo es el balotaje de las Elecciones Brasil 2026"
+            "Bienestar Fest: más de 60 experiencias para activar el cuerpo, divertirse y calm",
+            "Liu Ming, médico taoísta y maestro de taichí: “Este cuerpo es el mayor tesoro qu",
+            "Balotaje de las Elecciones Brasil 2026, EN VIVO: las últimas noticias sobre los "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 8,
           "ejemplos": [
-            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en noviembre 2026",
-            "Calendario de pagos de Anses: cuándo se cobra la PUAM de octubre de 2026",
-            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de o"
+            "Oil Combustibles: la Corte planea revisar antes de fin de año la condena de Eche",
+            "Crecida del Paraná: preparan el retiro de 15.000 vacas para que no se las lleve ",
+            "Boom a China: anticipan la exportación de 1,7 millones de toneladas de un cultiv"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 5,
           "ejemplos": [
-            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e",
-            "Ante la mejoría de Mirtha Legrand, Martín Llaryora propuso celebrar sus 100 años"
+            "El riesgo país alcanza los 675 puntos y toca el valor más alto del año",
+            "ARBA lanza un plan de pagos de impuestos con descuentos de hasta el 40%",
+            "La Iglesia presiona al Senado para que avance con la ley contra la ludopatía"
           ]
         }
       }
@@ -64,10 +66,11 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 5,
           "ejemplos": [
-            "Ahora, que nos escuchen: en defensa de la ira femenina",
-            "El auto de Perón: el Justicialista, vanguardia cordobesa"
+            "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo",
+            "Foro de género y ruralidad: reconocer a cientos de mujeres que construyen tierra",
+            "Plaguicidas, ciencia que revela y evidencia censurada"
           ]
         },
         "sin ancla argentina": {
@@ -77,7 +80,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 4,
           "ejemplos": [
             "El Pluri, una escuela de lucha y encuentro transfeminista",
             "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza ",
@@ -89,21 +92,45 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 3,
           "ejemplos": [
-            "El ingreso no alcanza y el endeudamiento tampoco",
-            "Dos enviados de Trump llegan a la Argentina para controlar que todo marcha acord",
-            "Lula y Bolsonaro chocan en un primer debate clave"
+            "Advierten que podrían recortar el servicio de colectivos en el AMBA: “Las empres",
+            "Tras los disturbios del fin de semana, imponen toques de queda parciales en Fran",
+            "Adrián Paenza: “El cambio que trajo la IA es descomunal, inimaginable”"
           ]
         }
       }
     },
     {
       "medio": "Hoy Día Córdoba",
-      "error": "no se pudo leer el feed (The read operation timed out)"
+      "leidas": 20,
+      "aceptadas": 7,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 10,
+          "ejemplos": [
+            "El Papa retoma su agenda y celebrará su audiencia general el miércoles",
+            "Estados Unidos quiere cerrar el comité de la ONU donde la Argentina reclama por ",
+            "Córdoba lanzó un concurso de reciclaje para escuelas secundarias con $15 millone"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Cristiano Ronaldo lidera la votación para elegir al mejor Balón de Oro de la his",
+            "El dominio del escenario de Flávio Bolsonaro enciende las alarmas en el oficiali"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Llaryora y Juana Viale imaginaron los 100 de Mirtha en el Kempes"
+          ]
+        }
+      }
     },
     {
       "medio": "Comercio y Justicia",
@@ -112,20 +139,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
             "Detuvieron a Pablo Ezequiel Gómez por el femicidio en Cruz del Eje: tiene antece",
-            "Sin excusas tras el tropiezo: la cruda autocrítica de Zielinski que sacude a Bel",
-            "Con acusaciones cruzadas, Lula y Bolsonaro tuvieron el primer debate en Brasil"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Francia: multitudinarias protestas y más de mil detenidos en reclamo por el alto"
+            "Condenaron al exintendente de Cruz del Eje a tres años por violencia de género",
+            "Córdoba: llega una nueva edición de La Muni con Vos en los barrios Alto Alberdi,"
           ]
         }
       }
@@ -145,18 +166,24 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 9,
+      "aceptadas": 10,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 16,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "El Niño en Córdoba: cómo será el clima este lunes",
-            "Las ventas por el Día de la Madre 2026 cayeron 1,4% interanual",
-            "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres"
+            "Elecciones en Brasil: \"La calle está con Lula, pero el problema es el voto del i"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 19,
+          "ejemplos": [
+            "Dos médicas y dos enfermeras fueron condenadas por la muerte de un recién nacido",
+            "Femicidio de Camila: el detenido se escondía en la casa de una amiga de su madre",
+            "Balance del Día de la Madre en Córdoba: \"La gente está sin plata\""
           ]
         },
         "muy vieja": {
-          "cantidad": 45,
+          "cantidad": 40,
           "ejemplos": [
             "¿Quién te dijo que no podías hacer una diferencia?: El valor de las pequeñas acc",
             "Todos van a Cantón, los que saben comprar también van a Yiwu",
