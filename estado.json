@@ -1,61 +1,60 @@
 {
-  "actualizado": "2026-10-19T13:26:10-03:00",
+  "actualizado": "2026-10-19T20:22:37-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 94,
+          "cantidad": 99,
           "ejemplos": [
-            "Procesaron a los sospechosos del crimen narco de Palermo: la suela de zapatilla ",
-            "Procesión del Señor de los Milagros EN VIVO: ruta y ubicación del Cristo Moreno ",
-            "Joe Keery habló sobre cómo combina la actuación en Broadway con su carrera music"
+            "Deportivo Cali venció 2-0 a Nacional de Uruguay en la segunda fecha de la Copa L",
+            "La cocinera de la Selección reveló los tres platos preferidos de La Scaloneta y ",
+            "Morena admite participación de sus militantes en marcha por el agua y defiende s"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El Gobierno prorrogó el régimen que permite a 50.000 trabajadores rurales el cob",
-            "El Gobierno analiza postergar el inicio del FAL, el fondo para pagar indemnizaci"
-          ]
-        },
-        "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Un laboratorio del partido bonaerense de Ituzaingó desvinculó a la mitad de sus "
+            "Vaca Muerta, cabeza del récord: más de la mitad del superávit comercial del país"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
+      "leidas": 90,
       "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 72,
+          "cantidad": 67,
           "ejemplos": [
-            "Bienestar Fest: más de 60 experiencias para activar el cuerpo, divertirse y calm",
-            "Liu Ming, médico taoísta y maestro de taichí: “Este cuerpo es el mayor tesoro qu",
-            "Balotaje de las Elecciones Brasil 2026, EN VIVO: las últimas noticias sobre los "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 8,
-          "ejemplos": [
-            "Oil Combustibles: la Corte planea revisar antes de fin de año la condena de Eche",
-            "Crecida del Paraná: preparan el retiro de 15.000 vacas para que no se las lleve ",
-            "Boom a China: anticipan la exportación de 1,7 millones de toneladas de un cultiv"
+            "Abierto de Tortugas: un muy buen triunfo de La Zeta y la paliza de La Natividad-",
+            "Gio Simeone rompió la sequía en Torino con dos goles, uno impresionante, e igual",
+            "Los días grises del Súper Niño: tras un octubre peculiar, qué se espera para el "
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 5,
+          "cantidad": 6,
           "ejemplos": [
-            "El riesgo país alcanza los 675 puntos y toca el valor más alto del año",
-            "ARBA lanza un plan de pagos de impuestos con descuentos de hasta el 40%",
-            "La Iglesia presiona al Senado para que avance con la ley contra la ludopatía"
+            "Hablan los expertos: miles de vacunos deben salir de las islas y anticipan qué p",
+            "Crédito: las cinco medidas que prepara el Gobierno para impulsar los préstamos a",
+            "El riesgo país alcanzó los 675 puntos y tocó el valor más alto en un año"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Juan Capozzolo, productor de Reconquista, evacúa vacas de las islas: “Si empieza",
+            "La pregunta más incómoda: qué hay detrás del cierre de empresas en la Argentina",
+            "Rectifican un fallo y condenan a un exintendente salteño por robar rieles y cont"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Las exportaciones de septiembre superaron los US$10.000 millones y fueron las má"
           ]
         }
       }
@@ -92,14 +91,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
-            "Advierten que podrían recortar el servicio de colectivos en el AMBA: “Las empres",
-            "Tras los disturbios del fin de semana, imponen toques de queda parciales en Fran",
-            "Adrián Paenza: “El cambio que trajo la IA es descomunal, inimaginable”"
+            "Los endebles argumentos de Ravier para justificar la suba récord del riego país",
+            "Estados Unidos pidió cerrar el comité de la ONU donde Argentina reclama por Malv",
+            "El peor septiembre en 10 años"
           ]
         }
       }
@@ -107,46 +106,79 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 10,
+          "cantidad": 12,
           "ejemplos": [
-            "El Papa retoma su agenda y celebrará su audiencia general el miércoles",
-            "Estados Unidos quiere cerrar el comité de la ONU donde la Argentina reclama por ",
-            "Córdoba lanzó un concurso de reciclaje para escuelas secundarias con $15 millone"
+            "Identifican más restos de desaparecidos en la Loma del Torito",
+            "Lula y Bolsonaro llevaron la pelea electoral al límite en su primer debate",
+            "La actividad inmobiliaria cayó un 9% en los primeros 9 meses del año en Córdoba"
           ]
         },
         "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "Cristiano Ronaldo lidera la votación para elegir al mejor Balón de Oro de la his",
-            "El dominio del escenario de Flávio Bolsonaro enciende las alarmas en el oficiali"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Llaryora y Juana Viale imaginaron los 100 de Mirtha en el Kempes"
+            "El Gobierno dijo que “está bajo análisis” la postura en el Comité de Descoloniza",
+            "Arranca la NBA: candidatos, figuras y donde ver la temporada 2026/27"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "error": "no se pudo leer el feed (mismatched tag: line 46, column 2)"
+      "leidas": 80,
+      "aceptadas": 12,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 19,
+          "ejemplos": [
+            "Mientras reclama más financiamiento, la UNC cuadruplica el monto de las becas pa",
+            "Cáncer de mama: tres investigaciones argentinas buscan frenar la metástasis y me",
+            "La IPJ Córdoba reglamentó el régimen simplificado que exime de contabilidad trad"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Congreso Mundial de Jóvenes Juristas: el futuro del trabajo, en debate en Córdob",
+            "Ley Joaquín: desafíos para transformar la respuesta de la Justicia a las víctima"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Causa Rudnev: la Procuración General recibió una denuncia de una organización es"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 46,
+          "ejemplos": [
+            "La Provincia citó a la UEPC para revisar la paritaria",
+            "Visita del papa: el cirujano responsable dijo que “no hay motivos clínicos” para",
+            "La UIA cuestionó absoluciones por bloqueo sindical a una pyme de San Pedro"
+          ]
+        }
+      }
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 12,
           "ejemplos": [
-            "Detuvieron a Pablo Ezequiel Gómez por el femicidio en Cruz del Eje: tiene antece",
-            "Condenaron al exintendente de Cruz del Eje a tres años por violencia de género",
-            "Córdoba: llega una nueva edición de La Muni con Vos en los barrios Alto Alberdi,"
+            "Morbidelli suma una nueva naked de 250 cc: cuesta menos de $6 millones",
+            "Este jueves inaugura una exposición de Marcello Mercado en el 220 Cultura Contem",
+            "Detuvieron a Pablo Ezequiel Gómez por el femicidio en Cruz del Eje: tiene antece"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Muerte del cabo Yozia: el ministro Quinteros reclamó por el mantenimiento de las",
+            "El gobierno de Macron dispuso una serie de toques de queda en ciudades de Franci"
           ]
         }
       }
@@ -166,24 +198,24 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 10,
+      "aceptadas": 13,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 24,
+          "ejemplos": [
+            "“Nos deben $ 750 millones, no somos delincuentes”: Duro reclamo de las cooperati",
+            "Córdoba Welcome: Con casi 540 mil trabajadores, los shows apuntan a los benefici",
+            "KIRI, la tecnológica cordobesa que lleva el modelo Duolingo a los equipos y crec"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Elecciones en Brasil: \"La calle está con Lula, pero el problema es el voto del i"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 19,
-          "ejemplos": [
-            "Dos médicas y dos enfermeras fueron condenadas por la muerte de un recién nacido",
-            "Femicidio de Camila: el detenido se escondía en la casa de una amiga de su madre",
-            "Balance del Día de la Madre en Córdoba: \"La gente está sin plata\""
-          ]
-        },
         "muy vieja": {
-          "cantidad": 40,
+          "cantidad": 32,
           "ejemplos": [
             "¿Quién te dijo que no podías hacer una diferencia?: El valor de las pequeñas acc",
             "Todos van a Cantón, los que saben comprar también van a Yiwu",
