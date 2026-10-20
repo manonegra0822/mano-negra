@@ -1,46 +1,46 @@
 {
-  "actualizado": "2026-10-20T13:26:35-03:00",
+  "actualizado": "2026-10-20T14:48:04-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 98,
           "ejemplos": [
-            "¿Qué está pasando en el Metro y Metrobús hoy 20 de octubre? Tres líneas del MB a",
-            "Netanyahu dijo que habló con Trump sobre la necesidad de terminar con el régimen",
-            "Qué efecto puede tener la cafeína en los niños: menos sueño y cambios en la cort"
+            "Caso Digna Ochoa, 25 años después: las medidas que México sigue sin cumplir tras",
+            "Boca Juniors buscará dar vuelta la serie contra Vasco da Gama para avanzar a la ",
+            "Un piloto argentino se unió a Ferrari y confirmó que podría correr en una prácti"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "El Tribunal del Mar fijó audiencias para el 10 y 11 de noviembre en el caso de A"
+            "Fue a uno de los bodegones más destacados de Palermo, pidió un almuerzo para 6 y"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 10,
+      "leidas": 91,
+      "aceptadas": 11,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 70,
+          "cantidad": 69,
           "ejemplos": [
-            "Qué se sabe del estado de salud del papa León XIV y de su visita a la Argentina",
-            "Daniel López Rosetti, médico: “Muchas personas sufren por cosas que no pueden co",
-            "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas para el balota"
+            "Corea del Norte difundió fotos de Kim Jong-un para desmentir versiones de una he",
+            "Cómo comprar entradas para ver el show de BTS en vivo si no tengo entradas para ",
+            "“No hay un solo gasto que esté desfinanciado”: la defensa del Gobierno en el Con"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 9,
           "ejemplos": [
-            "Emergencia en el Paraná: un estudio del INTA reveló el millonario gasto de los p",
-            "Brutal ataque a una yegua: entraron a un campo, le cortaron la cara y le fractur",
-            "Juan Capozzolo, productor de Reconquista, evacúa vacas de las islas: “El peligro"
+            "El Tribunal del Mar tratará en noviembre el reclamo argentino por la explotación",
+            "“La gente tiene miedo de que la estafen”: la advertencia de Ricardo Arriazu por ",
+            "Emergencia en el Paraná: un estudio del INTA reveló el millonario gasto de los p"
           ]
         },
         "sin ancla argentina": {
@@ -48,18 +48,6 @@
           "ejemplos": [
             "Cuáles son los motivos que llevaron al riesgo país por encima de los 700 puntos",
             "Torrendell defendió la política educativa en Diputados y cuestionó cómo las univ"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Malvinas: el Gobierno evita confrontar con Washington por el Comité de Descoloni"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Ante la mejoría de Mirtha Legrand, Martín Llaryora propuso celebrar sus 100 años"
           ]
         }
       }
@@ -90,13 +78,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
             "Sindicatos y organismos de derechos humanos exigieron la liberación de los deleg",
-            "Paro sorpresivo en el subte: todas las líneas están interrumpidas"
+            "Paro sorpresivo en el subte: todas las líneas están interrumpidas",
+            "Islas Malvinas: denuncian actos de vandalismo en el cementerio de Darwin"
           ]
         }
       }
@@ -104,14 +93,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
+            "The Jazz Fusion Sessions desembarca en La Piojera: grabación, intimidad y homena",
             "Oscar González recibió tres años de prisión condicional y no irá a la cárcel",
-            "La gente de Talleres pisa fuerte: está entre los cuatro clubes que más público l",
-            "Talleres se juega la clasificación ante Gimnasia y recupera piezas clave"
+            "La gente de Talleres pisa fuerte: está entre los cuatro clubes que más público l"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -125,7 +114,7 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 19,
+      "aceptadas": 20,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 29,
@@ -150,7 +139,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 28,
+          "cantidad": 27,
           "ejemplos": [
             "Caputo insistió en que Argentina “tiene excedente de dólares”",
             "El PJ Capital celebró el Día de la Lealtad con Passerini pero sin Llaryora y Sch",
@@ -167,9 +156,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
+            "Experiencia Fundación OSDE: cuidado y bienestar integral, en comunidad",
             "El papá de Alexa, tras la condena a Oscar González: “La provincia le dejó hacer ",
-            "Talleres y otro semestre para el olvido: sin copas y atento al descenso en 2027",
-            "Boca va por su Maracanazo ante Vasco da Gama: hora, TV y formaciones"
+            "Talleres y otro semestre para el olvido: sin copas y atento al descenso en 2027"
           ]
         }
       }
@@ -194,7 +183,7 @@
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
-            "EN VIVO. Tragedia de las Altas Cumbres: condenaron a Oscar González a 3 años de ",
+            "Tragedia de las Altas Cumbres: condenaron a Oscar González a 3 años de prisión c",
             "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p",
             "Oncativo tendrá una nueva circunvalación: licitan una obra de $20.100 millones p"
           ]
