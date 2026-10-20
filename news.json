@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-19T20:22:37-03:00",
+  "actualizado": "2026-10-20T08:24:04-03:00",
   "notas": [
     {
       "id": "3799bdcdd7",
@@ -28,38 +28,10 @@
           "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-dispuso-una-compra-militar-bajo-secreto-en-medio-de-la-tension-por-malvinas/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.527,
         "y1": 0.773
-      }
-    },
-    {
-      "id": "5c403f7151",
-      "seccion": "cordoba",
-      "rel": 33.9,
-      "relevancia": 33.9,
-      "fecha": "2026-10-19T19:40:03-03:00",
-      "hora": "19:40",
-      "titulo": "La mano derecha de Karina Milei fue nombrada en Correo Argentino",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/la-mano-derecha-de-karina-milei-fue-nombrada-en-correo-argentino/",
-      "acceso": "abierto",
-      "resumen": "María Belén Agudiez, exsubsecretaria de Planificación General, renunció a su cargo en medio del escándalo que derivó en la reestructuración de la Quinta de Olivos.",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/AMR5TITGQVAMTLH6TPW2EWEW6A.jpg?auth=9909ed5196317bca8615f3c2642088cdab6964bae9f62b522db4d2dddbb35b84&smart=true&width=614&height=429",
-      "imagen_credito": "La Nación",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "La ladera de Karina Milei salpicada por el escándalo de Olivos fue nombrada en el Correo Argentino",
-          "url": "https://www.lanacion.com.ar/politica/la-amiga-de-karina-milei-salpicada-por-el-escandalo-de-olivos-fue-nombrada-en-el-correo-argentino-nid19102026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.019,
-        "y1": 0.685
       }
     },
     {
@@ -84,31 +56,25 @@
           "url": "https://www.lanacion.com.ar/economia/vaca-muerta-suma-tres-proyectos-al-rigi-por-mas-de-us15400-millones-para-exportar-petroleo-y-gas-nid19102026/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "4c221dce5c",
+      "id": "dc743cebf1",
       "seccion": "cordoba",
       "rel": 33.4,
       "relevancia": 33.4,
-      "fecha": "2026-10-19T11:07:00-03:00",
-      "hora": "11:07",
-      "titulo": "El dólar en Córdoba: a cuánto cotiza este lunes 19 de octubre",
+      "fecha": "2026-10-20T07:07:53-03:00",
+      "hora": "07:07",
+      "titulo": "El dólar en Córdoba: a cuánto cotiza este martes 20 de octubre",
       "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-19-de-octubre-191026.phtml",
+      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-20-de-octubre-201026.phtml",
       "acceso": "abierto",
-      "resumen": "Este lunes 19 de octubre el dólar oficial en el Banco Nación se vende a 1.490 pesos y cotiza a 1.540 pesos para la compra. Leer más",
+      "resumen": "Este martes 20 de octubre el dólar oficial en el Banco Nación se vende a 1.490 pesos y cotiza a 1.540 pesos para la compra. Leer más",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/dolares-2350375.jpg",
+      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/pesos-argentinos-y-dolares-2351999.jpg",
       "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este lunes 19 de octubre, minuto a minuto",
-          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid19102026/"
-        }
-      ],
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
@@ -134,36 +100,11 @@
           "url": "https://comercioyjusticia.info/economia/el-riesgo-pais-llego-a-675-puntos/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.24,
         "y1": 0.493
       }
-    },
-    {
-      "id": "a3b8b8a418",
-      "seccion": "economia",
-      "rel": 28.6,
-      "relevancia": 28.6,
-      "fecha": "2026-10-18T23:48:22-03:00",
-      "hora": "23:48",
-      "titulo": "Reclamo y acción simbólica de Pymes para visibilizar la crisis que atraviesa el sector",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/reclamo-y-accion-simbolica-de-pymes-para-visibilizar-la-crisis-que-atraviesa-el-sector/",
-      "acceso": "abierto",
-      "resumen": "En medio de la crítica situación que transitan muchas pequeñas y medianas empresas del país por la baja de consumo, la apertura indiscriminada de importaciones, el encarecimiento del crédito, el desempleo y la creciente suba en la mora de familias y empresas; desde la Asamblea de Pequeñas y Medianas Empresas (Apyme) a nivel nacional realizaron […]",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad688a2d560f32786de0aa2/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Cba24n",
-          "titulo": "Reclamo de pymes para visibilizar la crisis del sector",
-          "url": "https://www.cba24n.com.ar/cordoba/reclamo-de-pymes-para-visibilizar-la-crisis-del-sector_a6ad68892d560f32786de0a32"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
     },
     {
       "id": "58f61f192d",
@@ -181,32 +122,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/3M6H47P6RZG5NA3E4QZYYV2FCM.JPG?auth=9d2e27f1ac74d0288a54950bda5797134a4754cf42b665f9075d901ed44a4d98&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.129,
         "y1": 0.466
-      }
-    },
-    {
-      "id": "de9c48898d",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-19T19:29:33-03:00",
-      "hora": "19:29",
-      "titulo": "Milei defendió su modelo económico en la Oil & Gas Expo de Neuquén",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/milei-defendio-su-modelo-economico-en-la-oil-gas-expo-de-neuquen/",
-      "acceso": "abierto",
-      "resumen": "El Presidente celebró el récord de exportaciones y el superávit energético, y sostuvo que Vaca Muerta duplicó su producción de barriles diarios desde 2023. Estuvo acompañado por el gobernador Rolando Figueroa y por el titular de YPF, Horacio Marín.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/tty_1792448366-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.218,
-        "y1": 0.471
       }
     },
     {
@@ -225,7 +144,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/6BSLFM7IUNFYZFD4I6ITUCDEYI.jpg?auth=5da3979eb25c3bc0c712685ac5ad22531c709ccee93929ec33ca85ede6e7af7d&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.088,
         "y1": 0.678
@@ -247,7 +166,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/UVOVL4TCSVD43IBCMZD2H2RZFY.jpg?auth=df0dd861e8998c012139dd868b6335076660a1e75873ea999602ec7305a3eab7&smart=true&width=1280&height=853",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.0,
         "y1": 0.298
@@ -269,16 +188,16 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HA3GKY3EGQZWKOBXGM3WGMZXMY.jpg?auth=2563113ae3b0d43ff16a92a709ae20963ee832ce9c137429c408d3922bf65d80&smart=true&width=3000&height=2000",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
       "id": "140485572d",
       "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-19T07:56:49-03:00",
-      "hora": "07:56",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-20T07:20:29-03:00",
+      "hora": "07:20",
       "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
@@ -294,10 +213,10 @@
     {
       "id": "0549849043",
       "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-19T07:56:31-03:00",
-      "hora": "07:56",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-20T07:19:18-03:00",
+      "hora": "07:19",
       "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
@@ -314,25 +233,25 @@
       }
     },
     {
-      "id": "9bd80fa996",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-19T07:42:02-03:00",
-      "hora": "07:42",
-      "titulo": "El juez Fabián Asís: “En la justicia las necesidades del interior no son vistas con urgencia”",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/19/el-juez-fabian-asis-en-la-justicia-las-necesidades-del-interior-no-son-vistas-con-urgencia/",
-      "acceso": "abierto",
-      "resumen": "Con más de tres décadas en el Poder Judicial, el juez del Tribunal Oral Federal 2 de Córdoba habla sobre los desafíos de la Justicia para recuperar la confianza de la sociedad y la importancia de que los magistrados mantengan el contacto con la gente.",
+      "id": "2bcb648140",
+      "seccion": "argentina",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-20T07:12:48-03:00",
+      "hora": "07:12",
+      "titulo": "Siguen los cortocircuitos entre Milei y sus diputados por el proyecto de discapacidad que se consensuó con los aliados",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/siguen-los-cortocircuitos-entre-milei-y-sus-diputados-por-el-proyecto-de-discapacidad-que-se-nid20102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Poder Ejecutivo pone reparos por su costo fiscal; la mesa política discutirá hoy la propuesta que los libertarios negociaron con Pro, la UCR y otras fuerzas; el proyecto figura en el temario de la sesión convocada para el miércoles",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/D4GNJ3LVTJGMDAJ74EE32TC6CY.jpg?auth=4784fdb8949ce8cdf089e09f2be9a56c00045b57954fcfad0409e894fc9ecc08&smart=true&width=1920&height=1080",
-      "imagen_credito": "Infobae",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/4UFUIKV4HBC3HLBDUJCDU7WGSY.jpeg?auth=c312ba20d4710900d5cadffc1dbb29ca9ca47be77c0c8ee5d09f03b6907a4790&smart=true&width=1280&height=960",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.105,
-        "y1": 0.63
+        "y0": 0.222,
+        "y1": 0.66
       }
     },
     {
@@ -351,7 +270,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/NGW3KLLVOVC4JLEBHSO2FNY47A.jpg?auth=d487f8aa426b75fc67434ecea2f47db5a870969919d1f2baa843df0d218479ce&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.717,
         "y1": 0.985
@@ -379,7 +298,7 @@
           "url": "https://hoydia.com.ar/politica/cordoba/intendentes-se-movilizan-ante-la-deuda-del-pami-y-el-recorte-en-el-programa-remediar/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.372,
         "y1": 0.705
@@ -401,7 +320,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/4MPEGJJX2FAQRMDZOBJSMDCK2Y.jpg?auth=31ad49e22f9e9b845c77e89772418ae30abf48864deeca6ceac9b12097dacdc6&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -420,30 +339,11 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/1010x567_javier-milei-luis-caputo-505533-015915-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.101,
         "y1": 0.448
       }
-    },
-    {
-      "id": "152bd58f5c",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-19T18:37:43-03:00",
-      "hora": "18:37",
-      "titulo": "Juez federal de Córdoba declaró inconstitucional el tope a las jubilaciones docentes",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/juez-federal-de-cordoba-declaro-inconstitucional-el-tope-a-las-jubilaciones-docentes.phtml",
-      "acceso": "abierto",
-      "resumen": "El Juzgado Federal N° 1 resolvió en un mes una acción de amparo presentada contra la Anses, sentando un precedente clave al determinar que los topes de la Ley de Solidaridad Previsional desvirtúan el régimen especial docente. Frenó descuentos por Ganancias. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/anses-2351959.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "5d969e8760",
@@ -461,7 +361,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/RENLLITTT5HENO6NLDG6GP4FC4.jpg?auth=4f9f0410538f252533409ee76ce0f2c9617dec83028fee87596fc39519ce7264&smart=true&width=907&height=582",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.085,
         "y1": 0.378
@@ -483,7 +383,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/AXNBJJLMPZABFJLO75A2ULQKVY.jpg?auth=98d3c5b7ee92b9983b478db3c7d0fc13ce8fee7992bc07380d6489941fe77f85&smart=true&width=4160&height=2768",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -502,11 +402,71 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/QCOK236SWJEBZFNY4TLBMY4FM4.jpg?auth=860dab36f81c01cd4047d2fe6a0b3d7113163e714007304ea038f79d497b5567&smart=true&width=4350&height=2861",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.14,
         "y1": 0.606
       }
+    },
+    {
+      "id": "d8bca6e492",
+      "seccion": "economia",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-20T06:00:00-03:00",
+      "hora": "06:00",
+      "titulo": "La triste realidad del ahorrista conservador en dólares: cómo dejar de perder sin arriesgar de más",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/la-triste-realidad-del-ahorrista-conservador-en-dolares-como-dejar-de-perder-sin-arriesgar-de-mas-nid20102026/",
+      "acceso": "suscripcion",
+      "resumen": "Con los datos del índice de precios al consumidor que publica la Oficina de Estadísticas Laborales de los Estados Unidos, la inflación en dólares acumulada entre diciembre de 2024 y agosto de 2026 (último dato disponible) fue de 6,1%.",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/GUGEZSIJMBGYTP7PE7J3DANYJM.jpg?auth=780d3c018cc20b8a513f6ec9024df33827d92cc7731460dabbb7c934000dc69c&smart=true&width=1440&height=900",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.052,
+        "y1": 0.451
+      }
+    },
+    {
+      "id": "4856c11147",
+      "seccion": "cordoba",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-20T06:00:00-03:00",
+      "hora": "06:00",
+      "titulo": "Llaryora, Pullaro y Frigerio muestran “músculo” antes del debate del Presupuesto",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/llaryora-pullaro-y-frigerio-muestran-musculo-antes-del-debate-del-presupuesto/",
+      "acceso": "abierto",
+      "resumen": "Los tres gobernadores que integran la Región Centro se reunirán hoy en Paraná. Aunque el encuentro tiene como lema temas como la productividad y el desarrollo, la cumbre será una demostración de fuerza y unidad ante reivindicaciones comunes, todas vinculadas a recursos extra para cada distrito. ¿Cuáles son las prendas de cambio para negociar con […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "1424fc22b3",
+      "seccion": "economia",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-20T05:50:00-03:00",
+      "hora": "05:50",
+      "titulo": "El superávit comercial no tiene techo y Milei destacó el aporte clave de la energía",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/el-superavit-comercial-no-tiene-techo-y-milei-destaco-el-aporte-clave-de-la-energia/",
+      "acceso": "abierto",
+      "resumen": "Rozó US$3 mil millones en septiembre, según Indec. El resultado se apoyó en el fuerte incremento de las exportaciones y en un débil desempeño de las importaciones. El Presidente ponderó la política energética de su gestión, en un evento del rubro. Aprovechó para cuestionar a la oposición, ya lanzado de cara al próximo año electoral […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "1600b2d4c7",
@@ -524,7 +484,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/36K2TANZP5AXVCMJEWY4GXSCDE.jpg?auth=a9c52c97edfe95e39554bcbd3ee0fc6f34373b852523e4063b445ebf46f3d881&smart=true&width=1150&height=863",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -543,7 +503,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ad68633d560f32786dddcbe/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -562,7 +522,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/ZSW3WMXQMZDZTKG6DXEI25E7SA.jpg?auth=9470ce022346e62f73fc64532c9776ab5f5d7472c75d913d5f2c34bbb077e755&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.099,
         "y1": 0.524
@@ -584,7 +544,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/L7GXPEMS5RD7NED7MF5D47G2KY.jpg?auth=e1227a3a22b06d150d18b660c450a41f513f4a572e06ae152f75e91a977fefab&smart=true&width=1313&height=877",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.259,
         "y1": 0.516
@@ -606,7 +566,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/6UFQ4PVFQFEA7LIWYEREAZNRGQ.JPG?auth=c5fb29a555fb954573b0a2c1d01d61251957dcd3de872865abf35c28b4ac2f9d&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.174,
         "y1": 0.772
@@ -628,7 +588,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ad61af114b0e52bd1a5f635/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -647,127 +607,171 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "5056b6185e",
+      "seccion": "cordoba",
+      "rel": 20.8,
+      "relevancia": 20.8,
+      "fecha": "2026-10-20T01:18:00-03:00",
+      "hora": "01:18",
+      "titulo": "Cristina y Máximo Kirchner buscan participar por videoconferencia en el juicio oral",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/cristina-y-maximo-kirchner-buscan-participar-por-videoconferencia-en-el-juicio-oral/",
+      "acceso": "abierto",
+      "resumen": "La defensa de la ex presidenta Cristina Kirchner y el diputado Máximo Kirchner le pidió al Tribunal Oral Federal 5 (TOF 5) permiso para participar de manera virtual a ambos en las audiencias del juicio oral por Los Sauces, que, según con el cronograma vigente, está pre visto que inicie esta semana. Máximo Kirchner justificó el pedido al […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "0a526086e6",
-      "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
-      "fecha": "2026-10-19T16:08:51-03:00",
-      "hora": "16:08",
-      "titulo": "Passerini duro con Luis Juez: “Es muy cómodo hablar como habla él ganando 14 palos por mes”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/passerini-duro-con-luis-juez-es-muy-comodo-hablar-como-habla-el-ganando-14-palos-por-mes.phtml",
-      "acceso": "abierto",
-      "resumen": "El intendente respondió a las críticas del senador por el esquema de inspectores y lo acusó de haber subordinado el municipio al Suoem. Además defendió los contratos por artículo 8 y calificó de “tensa” la relación con el gremio. Leer más",
+      "id": "39f586b535",
+      "seccion": "argentina",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-10-20T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "El mercado, más desconfiado del plan Milei",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/19/el-mercado-mas-desconfiado-del-plan-milei/",
+      "acceso": "suscripcion",
+      "resumen": "En un contexto internacional adverso, el Gobierno trata de convencer a los inversores pero las respuestas son negativas y sigue la venta de bonos argentinos.",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/daniel-passerini-2337132.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/YSV5K7KP45CBBC67YJQYYRCZF4.jpg?auth=dd6b7660552f4507f05e4798a61794ecdff1040f47294c261904d8670899b27f&smart=true&width=1246&height=831",
+      "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.22,
-        "y1": 0.57
+        "y0": 0.12,
+        "y1": 0.633
       }
     },
     {
-      "id": "d91fd7f077",
+      "id": "4f5c4a5662",
       "seccion": "economia",
-      "rel": 21.1,
-      "relevancia": 21.1,
-      "fecha": "2026-10-19T14:41:25-03:00",
-      "hora": "14:41",
-      "titulo": "Caputo anunció dos nuevos RIGI con inversión por US$3.200 millones",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/caputo-anuncio-dos-nuevos-rigi-con-inversion-por-us3-200-millones/",
-      "acceso": "abierto",
-      "resumen": "El ministro de Economía, Luis Caputo, anunció la aprobación de dos nuevos proyectos en el marco del RIGI con inversiones por US$ 3.200 millones en la cuenca de Vaca Muerta. “El Comité Evaluador aprobó el ingreso al RIGI de dos nuevos proyectos de TGS S.A. destinados al tratamiento de los líquidos del gas natural (NGLs). […]",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-10-20T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Impunidad: la Justicia cerró la causa por el préstamo del FMI a Mauricio Macri",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/20/impunidad-la-justicia-cerro-la-causa-por-el-prestamo-del-fmi-a-mauricio-macri/",
+      "acceso": "suscripcion",
+      "resumen": "Hornos y Borinsky, dos jueces que visitaban Olivos, avalaron el dictamen del fiscal Pleé, que desistió de sostener la investgicación.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GAZDSN3BGQ2GEN3EGJTDSN3GGE.jpg?auth=19b179d00b9c6af15e940e00dec57f49df8f1817c69db2708d072eb5f9f96aca&smart=true&width=1200&height=750",
+      "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "63a068bfc4",
-      "seccion": "cordoba",
-      "rel": 20.5,
-      "relevancia": 20.5,
-      "fecha": "2026-10-19T11:10:00-03:00",
-      "hora": "11:10",
-      "titulo": "Llaryora en la mesa de Juana Viale: \"Schiaretti hubiera sido un gran presidente y estaríamos mucho mejor\"",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/llaryora-en-la-mesa-de-juana-viale-schiaretti-hubiera-sido-un-gran-presidente-y-estariamos-mucho-mejor.phtml",
-      "acceso": "abierto",
-      "resumen": "El gobernador impulsó la candidatura presidencial de Schiaretti. \"Tiene esta visión del sentido común, de la responsabilidad fiscal, pero tiene la visión de la inversión, de la producción\", aseguró. Leer más",
+      "id": "990d2e885d",
+      "seccion": "argentina",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-10-20T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Milei llegó a España, para alegría del PSOE",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/19/milei-llego-a-espana-para-alegria-del-psoe/",
+      "acceso": "suscripcion",
+      "resumen": "Los analistas locales consideran que la figura del presidente argentino y su política de ajuste favorecen al actual presidente Pedro Sánchez.",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/19-10-2026-martin-llaryora-mesa-de-juana-viale-2351329.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/XL64WU5PEZBS7J2KONSOR2YSP4.jpg?auth=ece1cbb7bf7612322c034d1019396198a16a8d074f1955dd4bb2878ee568a2f2&smart=true&width=3000&height=2000",
+      "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.026,
-        "y1": 0.771
+        "y0": 0.146,
+        "y1": 0.431
       }
     },
     {
-      "id": "8750e6f909",
+      "id": "f66b4b38b2",
       "seccion": "cordoba",
-      "rel": 20.2,
-      "relevancia": 20.2,
-      "fecha": "2026-10-19T09:45:47-03:00",
-      "hora": "09:45",
-      "titulo": "Uno por uno: estos son los 40 proyectos de inversión que se suman al programa IPI de la Provincia",
+      "rel": 20.1,
+      "relevancia": 20.1,
+      "fecha": "2026-10-19T20:52:42-03:00",
+      "hora": "20:52",
+      "titulo": "Juntos en la Región Centro, con diferencias ante Milei: el juego político de Frigerio, Pullaro y Llaryora",
       "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/uno-por-uno-estos-son-los-40-proyectos-de-inversion-que-se-suman-al-programa-ipi-de-la-provincia.phtml",
+      "url": "https://www.perfil.com/noticias/cordoba/juntos-en-la-region-centro-con-diferencias-ante-milei-el-juego-politico-de-frigerio-pullaro-y-llaryora.phtml",
       "acceso": "abierto",
-      "resumen": "Con una movilización de capitales estimada en $240.500 millones y la meta de generar más de 3.000 empleos formales, el Gobierno de Córdoba presentó los resultados de la primera convocatoria del programa Impuesto por Inversión. Leer más",
+      "resumen": "Se mostrarán juntos en la cumbre de la Región Centro en Paraná, pero despliegan estrategias diferentes frente a Milei: Frigerio exhibe sintonía fina, Pullaro administra sus movimientos y Llaryora endurece sus críticas al ajuste libertario. Las retenciones y una agenda federal de desarrollo, las banderas que los unen ante la Nación. Leer más",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/07/trim/540/304/cordoba-2343476.jpg",
+      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/region-centro-frigerio-llaryora-y-pullaro-2352043.jpg",
       "imagen_credito": "Perfil",
       "otros": [],
-      "dia": 0,
-      "rostros": null
+      "dia": 1,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.251
+      }
     },
     {
-      "id": "c50b3e920f",
+      "id": "5c403f7151",
       "seccion": "cordoba",
-      "rel": 20.2,
-      "relevancia": 20.2,
-      "fecha": "2026-10-19T09:37:00-03:00",
-      "hora": "09:37",
-      "titulo": "Milei desembarca en España en plena tensión europea y refuerza alianza con la derecha de Madrid",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/milei-desembarca-en-espana-en-plena-tension-europea-y-refuerza-alianza-con-la-derecha-de-madrid/",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-10-19T19:40:03-03:00",
+      "hora": "19:40",
+      "titulo": "La mano derecha de Karina Milei fue nombrada en Correo Argentino",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/la-mano-derecha-de-karina-milei-fue-nombrada-en-correo-argentino/",
       "acceso": "abierto",
-      "resumen": "El presidente llegará este martes a una Europa atravesada por protestas sociales y disputas políticas. En Madrid, combinará actividades sobre economía austríaca con una reunión con Isabel Díaz Ayuso, mientras Pedro Sánchez se encamina a las elecciones anticipadas y Vox define su estrategia electoral",
+      "resumen": "María Belén Agudiez, exsubsecretaria de Planificación General, renunció a su cargo en medio del escándalo que derivó en la reestructuración de la Quinta de Olivos.",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "acc807c572",
-      "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-19T20:21:07-03:00",
-      "hora": "20:21",
-      "titulo": "Rentas Córdoba dispuso una prórroga excepcional hasta el 30 de octubre para el pago del Impuesto de Sellos",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/rentas-cordoba-dispuso-una-prorroga-excepcional-hasta-el-30-de-octubre-para-el-pago-del-impuesto-de-sellos/",
+      "id": "50c94a156e",
+      "seccion": "economia",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-10-20T07:18:12-03:00",
+      "hora": "07:18",
+      "titulo": "Nueva paritaria de la construcción: cuánto cobra un albañil en octubre 2026 con el aumento confirmado por la Uocra",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/nueva-paritaria-de-la-construccion-cuanto-cobra-un-albanil-en-octubre-2026-con-el-aumento-confirmado-nid01102026/",
+      "acceso": "suscripcion",
+      "resumen": "La Secretaría de Trabajo homologó la paritaria con subas acumulativas del 1,9%, 1,8% y 1,7%; cuáles son las nuevas escalas",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/CQ6LPZPBKRAGBIDP56JRWFH73A.jpg?auth=9a77523d0a3e05d3b4f3f69534a5d299330e54c5b692453e5516b99c58ccce36&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.206,
+        "y1": 0.564
+      }
+    },
+    {
+      "id": "de9c48898d",
+      "seccion": "economia",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-10-19T19:29:33-03:00",
+      "hora": "19:29",
+      "titulo": "Milei defendió su modelo económico en la Oil & Gas Expo de Neuquén",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/milei-defendio-su-modelo-economico-en-la-oil-gas-expo-de-neuquen/",
       "acceso": "abierto",
-      "resumen": "La medida establece que se considerarán ingresados en término los pagos correspondientes a las declaraciones juradas (formulario F-2000) generadas en la web oficial durante dicho mes, siempre que se efectivicen mediante el formulario F-1010 hasta el próximo jueves 30 de octubre de 2026, inclusive. Desde el organismo fiscal aclararon que los pagos efectuados dentro de […]",
+      "resumen": "El Presidente celebró el récord de exportaciones y el superávit energético, y sostuvo que Vaca Muerta duplicó su producción de barriles diarios desde 2023. Estuvo acompañado por el gobernador Rolando Figueroa y por el titular de YPF, Horacio Marín.",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -786,11 +790,49 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ad69761d560f32786df0c33/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.439,
         "y1": 0.711
       }
+    },
+    {
+      "id": "152bd58f5c",
+      "seccion": "cordoba",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-10-19T18:37:43-03:00",
+      "hora": "18:37",
+      "titulo": "Juez federal de Córdoba declaró inconstitucional el tope a las jubilaciones docentes",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/juez-federal-de-cordoba-declaro-inconstitucional-el-tope-a-las-jubilaciones-docentes.phtml",
+      "acceso": "abierto",
+      "resumen": "El Juzgado Federal N° 1 resolvió en un mes una acción de amparo presentada contra la Anses, sentando un precedente clave al determinar que los topes de la Ley de Solidaridad Previsional desvirtúan el régimen especial docente. Frenó descuentos por Ganancias. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/anses-2351959.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "89bc04ebb3",
+      "seccion": "cordoba",
+      "rel": 19.6,
+      "relevancia": 19.6,
+      "fecha": "2026-10-20T06:08:46-03:00",
+      "hora": "06:08",
+      "titulo": "La Provincia y docentes reabren la Mesa Salarial y Laboral en Córdoba",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/la-provincia-y-docentes-reabren-la-mesa-salarial-y-laboral-en-cordoba_a6ad72c12c7853ea2c2ae447d",
+      "acceso": "abierto",
+      "resumen": "Representantes de UEPC y el Gobierno se reúnen este martes. Qué hay en juego.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/68889bcb8b698c20cafbe61f/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "cd054b83a8",
@@ -808,68 +850,8 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "8156e2df2c",
-      "seccion": "cordoba",
-      "rel": 19.6,
-      "relevancia": 19.6,
-      "fecha": "2026-10-19T06:00:00-03:00",
-      "hora": "06:00",
-      "titulo": "Paritarias: UEPC va por más y Llaryora ya tiene combo de respuestas para frenar la embestida",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/paritarias-uepc-va-por-mas-y-llaryora-ya-tiene-combo-de-respuestas-para-frenar-la-embestida/",
-      "acceso": "abierto",
-      "resumen": "El gremio docente fue citado para mañana por la Provincia, en el marco de la cláusula de revisión del acuerdo salarial. Si bien, en principio, sólo se analizará si se aplicó correctamente el gatillo por inflación, la intención sindical es ir por incrementos extra. En paralelo, el Gobierno quiere prorrogar el acuerdo paritario hasta junio […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "64d2f9d27a",
-      "seccion": "economia",
-      "rel": 19.5,
-      "relevancia": 19.5,
-      "fecha": "2026-10-19T10:39:10-03:00",
-      "hora": "10:39",
-      "titulo": "El boom de Bitcoin es global, pero… ¿cómo hace eco en la economía de Argentina?",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/el-boom-de-bitcoin-es-global-pero-como-hace-eco-en-la-economia-de-argentina/",
-      "acceso": "abierto",
-      "resumen": "Cuáles son los factores estructurales, económicos y regulatorios que explican por qué el país se ha convertido en un epicentro de activos como Bitcoin.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "78243745f8",
-      "seccion": "cordoba",
-      "rel": 18.5,
-      "relevancia": 18.5,
-      "fecha": "2026-10-19T11:11:00-03:00",
-      "hora": "11:11",
-      "titulo": "Liliana Montero: \"Milei le da el golpe de gracia al Remediar, están destruyendo el sistema de salud\"",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/liliana-montero-milei-le-da-el-golpe-de-gracia-al-remediar-estan-destruyendo-el-sistema-de-salud.phtml",
-      "acceso": "abierto",
-      "resumen": "\"¿Quién va a pagar la cuenta? Está claro que nuevamente seremos las provincias, los municipios o la gente de su propio bolsillo\", sostuvo la funcionaria de la Provincia de Córdoba. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2025/03/08/trim/540/304/8-3-2025-liliana-montero-1980821.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.346
-      }
     }
   ],
   "opinion": []

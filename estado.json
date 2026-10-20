@@ -1,60 +1,58 @@
 {
-  "actualizado": "2026-10-19T20:22:37-03:00",
+  "actualizado": "2026-10-20T08:24:04-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 98,
           "ejemplos": [
-            "Deportivo Cali venció 2-0 a Nacional de Uruguay en la segunda fecha de la Copa L",
-            "La cocinera de la Selección reveló los tres platos preferidos de La Scaloneta y ",
-            "Morena admite participación de sus militantes en marcha por el agua y defiende s"
+            "La víctima del crimen de Alcobendas (Madrid) de 2024 identificó a sus asesinos a",
+            "Filipinas inicia conversaciones para la entrega del socio de Duterte buscado por",
+            "España recibe a 144 nicaragüenses procedentes de Costa Rica, 33 menores, dentro "
           ]
         },
-        "sin ancla argentina": {
+        "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Vaca Muerta, cabeza del récord: más de la mitad del superávit comercial del país"
+            "Postergaron la entrada en vigencia del FAL, el fondo para pagar indemnizaciones "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 9,
+      "leidas": 98,
+      "aceptadas": 13,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 67,
+          "cantidad": 75,
           "ejemplos": [
-            "Abierto de Tortugas: un muy buen triunfo de La Zeta y la paliza de La Natividad-",
-            "Gio Simeone rompió la sequía en Torino con dos goles, uno impresionante, e igual",
-            "Los días grises del Súper Niño: tras un octubre peculiar, qué se espera para el "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 6,
-          "ejemplos": [
-            "Hablan los expertos: miles de vacunos deben salir de las islas y anticipan qué p",
-            "Crédito: las cinco medidas que prepara el Gobierno para impulsar los préstamos a",
-            "El riesgo país alcanzó los 675 puntos y tocó el valor más alto en un año"
+            "Joseph Pilates, creador del método de entrenamiento: “La correcta postura sólo s",
+            "Qué se sabe de la docente de 52 años desaparecida en Corrientes: hay dos detenid",
+            "La reacción de Francisco Stoessel frente al escándalo mediático que envuelve a s"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 8,
           "ejemplos": [
-            "Juan Capozzolo, productor de Reconquista, evacúa vacas de las islas: “Si empieza",
-            "La pregunta más incómoda: qué hay detrás del cierre de empresas en la Argentina",
-            "Rectifican un fallo y condenan a un exintendente salteño por robar rieles y cont"
+            "PNC de Anses: cuál es el monto de las Pensiones No Contributivas en noviembre de",
+            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en noviembre 2026",
+            "Cuándo cobro Anses: el calendario completo de octubre 2026"
           ]
         },
-        "otro país": {
+        "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Las exportaciones de septiembre superaron los US$10.000 millones y fueron las má"
+            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
           ]
         }
       }
@@ -65,11 +63,11 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 6,
           "ejemplos": [
+            "Columna de géneros en #DesdeLaGente: Poder Popular",
             "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo",
-            "Foro de género y ruralidad: reconocer a cientos de mujeres que construyen tierra",
-            "Plaguicidas, ciencia que revela y evidencia censurada"
+            "Foro de género y ruralidad: reconocer a cientos de mujeres que construyen tierra"
           ]
         },
         "sin ancla argentina": {
@@ -79,7 +77,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "El Pluri, una escuela de lucha y encuentro transfeminista",
             "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza ",
@@ -91,14 +89,12 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 1,
           "ejemplos": [
-            "Los endebles argumentos de Ravier para justificar la suba récord del riego país",
-            "Estados Unidos pidió cerrar el comité de la ONU donde Argentina reclama por Malv",
-            "El peor septiembre en 10 años"
+            "Con o sin Paredes, Boca va por la revancha ante Vasco en el Maracaná"
           ]
         }
       }
@@ -106,21 +102,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 14,
           "ejemplos": [
-            "Identifican más restos de desaparecidos en la Loma del Torito",
-            "Lula y Bolsonaro llevaron la pelea electoral al límite en su primer debate",
-            "La actividad inmobiliaria cayó un 9% en los primeros 9 meses del año en Córdoba"
+            "Dietas virales en redes: bajar de peso no siempre es ganar salud",
+            "El fin de la ambigüedad",
+            "Diego Flores no se relaja y apunta a Riestra: “Todavía no logramos nada”"
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "El Gobierno dijo que “está bajo análisis” la postura en el Comité de Descoloniza",
-            "Arranca la NBA: candidatos, figuras y donde ver la temporada 2026/27"
+            "El Gobierno dijo que “está bajo análisis” la postura en el Comité de Descoloniza"
           ]
         }
       }
@@ -128,14 +123,21 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 12,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 27,
           "ejemplos": [
-            "Mientras reclama más financiamiento, la UNC cuadruplica el monto de las becas pa",
-            "Cáncer de mama: tres investigaciones argentinas buscan frenar la metástasis y me",
-            "La IPJ Córdoba reglamentó el régimen simplificado que exime de contabilidad trad"
+            "YPF proyecta un millón de barriles diarios: cómo se preparan los puertos",
+            "Mercado Libre vende medicamentos en CABA y genera alarma en el sector farmacéuti",
+            "Capital psicológico: por qué las empresas deben desarrollarlo en sus equipos"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Brasil: intimaron a Meta a demostrar equidad en distribución de contenidos por e",
+            "Causa Rudnev: la Procuración General recibió una denuncia de una organización es"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -145,18 +147,12 @@
             "Ley Joaquín: desafíos para transformar la respuesta de la Justicia a las víctima"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Causa Rudnev: la Procuración General recibió una denuncia de una organización es"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 46,
+          "cantidad": 33,
           "ejemplos": [
+            "El PJ Capital celebró el Día de la Lealtad con Passerini pero sin Llaryora y Sch",
             "La Provincia citó a la UEPC para revisar la paritaria",
-            "Visita del papa: el cirujano responsable dijo que “no hay motivos clínicos” para",
-            "La UIA cuestionó absoluciones por bloqueo sindical a una pyme de San Pedro"
+            "Visita del papa: el cirujano responsable dijo que “no hay motivos clínicos” para"
           ]
         }
       }
@@ -164,21 +160,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 18,
           "ejemplos": [
-            "Morbidelli suma una nueva naked de 250 cc: cuesta menos de $6 millones",
-            "Este jueves inaugura una exposición de Marcello Mercado en el 220 Cultura Contem",
-            "Detuvieron a Pablo Ezequiel Gómez por el femicidio en Cruz del Eje: tiene antece"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Muerte del cabo Yozia: el ministro Quinteros reclamó por el mantenimiento de las",
-            "El gobierno de Macron dispuso una serie de toques de queda en ciudades de Franci"
+            "La NBA vuelve al ruedo: tres partidazos para abrir la temporada",
+            "Paso de la tormenta Adam en España y Francia deja muertos y graves inundaciones",
+            "Río Cuarto, movilizada: comienza en Córdoba el 20° juicio por crímenes de lesa h"
           ]
         }
       }
@@ -198,14 +187,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 13,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 24,
+          "cantidad": 11,
           "ejemplos": [
+            "Millonaria multa a una verdulería de Villa Allende por arrojar residuos en Córdo",
             "“Nos deben $ 750 millones, no somos delincuentes”: Duro reclamo de las cooperati",
-            "Córdoba Welcome: Con casi 540 mil trabajadores, los shows apuntan a los benefici",
-            "KIRI, la tecnológica cordobesa que lleva el modelo Duolingo a los equipos y crec"
+            "Córdoba Welcome: Con casi 540 mil trabajadores, los shows apuntan a los benefici"
           ]
         },
         "otro país": {
@@ -215,11 +204,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 32,
+          "cantidad": 50,
           "ejemplos": [
-            "¿Quién te dijo que no podías hacer una diferencia?: El valor de las pequeñas acc",
-            "Todos van a Cantón, los que saben comprar también van a Yiwu",
-            "Consejo de la Magistratura: De Loredo y la UCR de Córdoba juegan fuerte por Bigl"
+            "Llaryora, tras la gira por Buenos Aires: críticas a Milei y apuesta por Schiaret",
+            "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres",
+            "Asesores detenidos, carpetazos y doble vara: la guerra entre el PJ y la UCR para"
           ]
         }
       }
