@@ -153,6 +153,12 @@ section[id], #contenido { scroll-margin-top: calc(var(--alto-barra) + 12px); }
 .sec-aux { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; text-align: right; color: var(--muted); padding-bottom: 4px; }
 .sec-aux .flecha { color: var(--ink); }
 .vacio { color: var(--muted); padding: 16px 0; }
+/* Celular: la etiqueta y la flecha van en una línea arriba del título */
+@media (max-width: 639px) {
+  .sec-head { flex-direction: column; align-items: stretch; gap: 8px; }
+  .sec-aux { order: -1; flex-direction: row; justify-content: space-between; align-items: center; text-align: left; padding-bottom: 0; }
+  .flecha--grande { font-size: 1.75rem; }
+}
 
 /* ---------- Volanta, datos y marcas ---------- */
 .mk { display: inline-block; flex: none; width: 11px; height: 11px; }
