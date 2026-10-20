@@ -1,58 +1,65 @@
 {
-  "actualizado": "2026-10-20T08:24:04-03:00",
+  "actualizado": "2026-10-20T13:26:35-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 99,
           "ejemplos": [
-            "La víctima del crimen de Alcobendas (Madrid) de 2024 identificó a sus asesinos a",
-            "Filipinas inicia conversaciones para la entrega del socio de Duterte buscado por",
-            "España recibe a 144 nicaragüenses procedentes de Costa Rica, 33 menores, dentro "
+            "¿Qué está pasando en el Metro y Metrobús hoy 20 de octubre? Tres líneas del MB a",
+            "Netanyahu dijo que habló con Trump sobre la necesidad de terminar con el régimen",
+            "Qué efecto puede tener la cafeína en los niños: menos sueño y cambios en la cort"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Postergaron la entrada en vigencia del FAL, el fondo para pagar indemnizaciones "
+            "El Tribunal del Mar fijó audiencias para el 10 y 11 de noviembre en el caso de A"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 98,
-      "aceptadas": 13,
+      "leidas": 92,
+      "aceptadas": 10,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 70,
           "ejemplos": [
-            "Joseph Pilates, creador del método de entrenamiento: “La correcta postura sólo s",
-            "Qué se sabe de la docente de 52 años desaparecida en Corrientes: hay dos detenid",
-            "La reacción de Francisco Stoessel frente al escándalo mediático que envuelve a s"
+            "Qué se sabe del estado de salud del papa León XIV y de su visita a la Argentina",
+            "Daniel López Rosetti, médico: “Muchas personas sufren por cosas que no pueden co",
+            "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas para el balota"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 8,
           "ejemplos": [
-            "PNC de Anses: cuál es el monto de las Pensiones No Contributivas en noviembre de",
-            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en noviembre 2026",
-            "Cuándo cobro Anses: el calendario completo de octubre 2026"
+            "Emergencia en el Paraná: un estudio del INTA reveló el millonario gasto de los p",
+            "Brutal ataque a una yegua: entraron a un campo, le cortaron la cara y le fractur",
+            "Juan Capozzolo, productor de Reconquista, evacúa vacas de las islas: “El peligro"
           ]
         },
         "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Cuáles son los motivos que llevaron al riesgo país por encima de los 700 puntos",
+            "Torrendell defendió la política educativa en Diputados y cuestionó cómo las univ"
+          ]
+        },
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
+            "Malvinas: el Gobierno evita confrontar con Washington por el Comité de Descoloni"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
+            "Ante la mejoría de Mirtha Legrand, Martín Llaryora propuso celebrar sus 100 años"
           ]
         }
       }
@@ -63,25 +70,19 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 5,
           "ejemplos": [
+            "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co",
             "Columna de géneros en #DesdeLaGente: Poder Popular",
-            "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo",
-            "Foro de género y ruralidad: reconocer a cientos de mujeres que construyen tierra"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Proyectos autogestivos que apuestan al encuentro: feriar en clave feminista"
+            "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo"
           ]
         },
         "muy vieja": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "El Pluri, una escuela de lucha y encuentro transfeminista",
-            "“Las deudas no se aguantan más”: la Asamblea por el desendeudamiento copó plaza ",
-            "Fotogalería: 40 años, 39 encuentros plurinacionales, el ejercicio feminista de i"
+            "Ahora, que nos escuchen: en defensa de la ira femenina",
+            "Proyectos autogestivos que apuestan al encuentro: feriar en clave feminista",
+            "El auto de Perón: el Justicialista, vanguardia cordobesa"
           ]
         }
       }
@@ -89,12 +90,13 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Con o sin Paredes, Boca va por la revancha ante Vasco en el Maracaná"
+            "Sindicatos y organismos de derechos humanos exigieron la liberación de los deleg",
+            "Paro sorpresivo en el subte: todas las líneas están interrumpidas"
           ]
         }
       }
@@ -102,20 +104,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 17,
           "ejemplos": [
-            "Dietas virales en redes: bajar de peso no siempre es ganar salud",
-            "El fin de la ambigüedad",
-            "Diego Flores no se relaja y apunta a Riestra: “Todavía no logramos nada”"
+            "Oscar González recibió tres años de prisión condicional y no irá a la cárcel",
+            "La gente de Talleres pisa fuerte: está entre los cuatro clubes que más público l",
+            "Talleres se juega la clasificación ante Gimnasia y recupera piezas clave"
           ]
         },
-        "otro país": {
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "El Gobierno dijo que “está bajo análisis” la postura en el Comité de Descoloniza"
+            "Milei advirtió sobre un posible fraude electoral en Brasil y acusó a Lula de “zu"
           ]
         }
       }
@@ -123,14 +125,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 16,
+      "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 27,
+          "cantidad": 29,
           "ejemplos": [
-            "YPF proyecta un millón de barriles diarios: cómo se preparan los puertos",
-            "Mercado Libre vende medicamentos en CABA y genera alarma en el sector farmacéuti",
-            "Capital psicológico: por qué las empresas deben desarrollarlo en sus equipos"
+            "Choque en las Altas Cumbres: condena de tres años de prisión condicional e inhab",
+            "Corrientes, al límite por la crecida del Paraná: esperan el pico y ya hay 646 ev",
+            "YPF proyecta un millón de barriles diarios: cómo se preparan los puertos"
           ]
         },
         "otro país": {
@@ -148,11 +150,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 33,
+          "cantidad": 28,
           "ejemplos": [
+            "Caputo insistió en que Argentina “tiene excedente de dólares”",
             "El PJ Capital celebró el Día de la Lealtad con Passerini pero sin Llaryora y Sch",
-            "La Provincia citó a la UEPC para revisar la paritaria",
-            "Visita del papa: el cirujano responsable dijo que “no hay motivos clínicos” para"
+            "La Provincia citó a la UEPC para revisar la paritaria"
           ]
         }
       }
@@ -165,9 +167,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "La NBA vuelve al ruedo: tres partidazos para abrir la temporada",
-            "Paso de la tormenta Adam en España y Francia deja muertos y graves inundaciones",
-            "Río Cuarto, movilizada: comienza en Córdoba el 20° juicio por crímenes de lesa h"
+            "El papá de Alexa, tras la condena a Oscar González: “La provincia le dejó hacer ",
+            "Talleres y otro semestre para el olvido: sin copas y atento al descenso en 2027",
+            "Boca va por su Maracanazo ante Vasco da Gama: hora, TV y formaciones"
           ]
         }
       }
@@ -187,14 +189,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 8,
+      "aceptadas": 10,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 17,
           "ejemplos": [
-            "Millonaria multa a una verdulería de Villa Allende por arrojar residuos en Córdo",
-            "“Nos deben $ 750 millones, no somos delincuentes”: Duro reclamo de las cooperati",
-            "Córdoba Welcome: Con casi 540 mil trabajadores, los shows apuntan a los benefici"
+            "EN VIVO. Tragedia de las Altas Cumbres: condenaron a Oscar González a 3 años de ",
+            "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p",
+            "Oncativo tendrá una nueva circunvalación: licitan una obra de $20.100 millones p"
           ]
         },
         "otro país": {
@@ -204,7 +206,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 50,
+          "cantidad": 42,
           "ejemplos": [
             "Llaryora, tras la gira por Buenos Aires: críticas a Milei y apuesta por Schiaret",
             "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres",
