@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-20T14:50:59-03:00",
+  "actualizado": "2026-10-20T14:56:10-03:00",
   "notas": [
     {
       "id": "d0788dfe83",
@@ -210,7 +210,7 @@
       "relevancia": 21.9,
       "fecha": "2026-10-20T14:08:33-03:00",
       "hora": "14:08",
-      "titulo": "«Las pymes no soportan este modelo”: las fajas que aparecieron en Córdoba",
+      "titulo": "Las pymes no soportan este modelo: las fajas que aparecieron en Córdoba",
       "fuente": "Hoy Día Córdoba",
       "url": "https://hoydia.com.ar/economia/las-pymes-no-soportan-este-modelo-fajas-cordoba/",
       "acceso": "abierto",
@@ -225,8 +225,8 @@
     {
       "id": "18d04f2e00",
       "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
+      "rel": 21.8,
+      "relevancia": 21.8,
       "fecha": "2026-10-20T14:01:08-03:00",
       "hora": "14:01",
       "titulo": "La oposición cuestionó a Milei por negar que haya argentinos que no llegan a fin de mes",
@@ -374,28 +374,6 @@
       }
     },
     {
-      "id": "aa1c5c0ae1",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-20T12:45:03-03:00",
-      "hora": "12:45",
-      "titulo": "La suba del riesgo país castiga a la Argentina más que a otros mercados emergentes",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/la-suba-del-riesgo-pais-castiga-a-la-argentina-mas-que-a-otros-mercados-emergentes-nid20102026/",
-      "acceso": "suscripcion",
-      "resumen": "La suba de las tasas internacionales golpea a la deuda global, pero los títulos argentinos caen más que los de sus pares",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/EC3ZQIQLI5E3TIJFJPDTHD2WHM.JPG?auth=45f741c87878c031fffb9e0b8d617feb839c8b7347a2b6847385dc0dbaff5ee1&smart=true&width=5564&height=3710",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.041,
-        "y1": 0.459
-      }
-    },
-    {
       "id": "5d969e8760",
       "seccion": "argentina",
       "rel": 21.7,
@@ -415,6 +393,28 @@
       "rostros": {
         "y0": 0.085,
         "y1": 0.378
+      }
+    },
+    {
+      "id": "aa1c5c0ae1",
+      "seccion": "economia",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-20T12:45:03-03:00",
+      "hora": "12:45",
+      "titulo": "La suba del riesgo país castiga a la Argentina más que a otros mercados emergentes",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/la-suba-del-riesgo-pais-castiga-a-la-argentina-mas-que-a-otros-mercados-emergentes-nid20102026/",
+      "acceso": "suscripcion",
+      "resumen": "La suba de las tasas internacionales golpea a la deuda global, pero los títulos argentinos caen más que los de sus pares",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/EC3ZQIQLI5E3TIJFJPDTHD2WHM.JPG?auth=45f741c87878c031fffb9e0b8d617feb839c8b7347a2b6847385dc0dbaff5ee1&smart=true&width=5564&height=3710",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.041,
+        "y1": 0.459
       }
     },
     {

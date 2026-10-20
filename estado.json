@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-20T14:50:59-03:00",
+  "actualizado": "2026-10-20T14:56:10-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -79,14 +79,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
             "Sindicatos y organismos de derechos humanos exigieron la liberación de los deleg",
             "Paro sorpresivo en el subte: todas las líneas están interrumpidas",
-            "Islas Malvinas: denuncian actos de vandalismo en el cementerio de Darwin"
+            "Metrodelegados advierte que el paro de subtes puede seguir por tiempo indetermin"
           ]
         }
       }
@@ -157,9 +157,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
+            "Experiencia Fundación OSDE: cuidado y bienestar integral, en comunidad",
             "El papá de Alexa, tras la condena a Oscar González: “La provincia le dejó hacer ",
-            "Talleres y otro semestre para el olvido: sin copas y atento al descenso en 2027",
-            "Boca va por su Maracanazo ante Vasco da Gama: hora, TV y formaciones"
+            "Talleres y otro semestre para el olvido: sin copas y atento al descenso en 2027"
           ]
         }
       }
@@ -170,7 +170,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
     },
     {
       "medio": "Cadena 3",
