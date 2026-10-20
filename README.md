@@ -59,3 +59,14 @@ El margen derecho de la página muestra solo las notas que vos marques. Se carga
 - Con los datos escritos a mano: `{"url": "...", "titulo": "...", "autor": "...", "medio": "...", "resumen": "..."}`.
 
 Para sacar una, borrarla de la lista. Se muestran hasta 10.
+
+## Diseño 2026 (diario digital)
+
+- `plantilla.html` es el molde de la página. **No se edita `index.html` a mano**: lo arma `render.py`
+  con las notas (`news.json`), el dólar (`dolar.json`) y los datos del pie (`sitio.json`).
+- `assets/css/estilos.css` y `assets/js/main.js`: estilos y comportamiento (fondo blanco/negro,
+  menú del celular, header que se achica, horarios "Hace X min"). Si el JavaScript falla, las notas se leen igual.
+- `intro/`: la intro del sello (imagen, estilos y sonido).
+- **Dólar oficial**: `dolar.py` consulta dolarapi.com todos los días a las 8:00 y a las 15:00
+  (tarea "Actualizar dólar" en la pestaña Actions). Si la consulta falla, se mantiene el último valor.
+- **Contacto y redes del pie**: completar `sitio.json` (mail y enlaces completos https://...).

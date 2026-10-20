@@ -1,0 +1,43 @@
+name: Actualizar dólar
+
+on:
+  # Todos los días a las 08:00 y a las 15:00 de Argentina (11:00 y 18:00 UTC).
+  # GitHub puede demorar unos minutos en arrancar las tareas programadas.
+  schedule:
+    - cron: "0 11,18 * * *"
+  # Botón "Run workflow" en la pestaña Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Mismo grupo que la actualización de notas: nunca corren las dos a la vez
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  dolar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Consultar el dólar oficial y rearmar la página
+        run: python dolar.py
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "mano-negra-bot"
+          git config user.email "mano-negra-bot@users.noreply.github.com"
+          git add dolar.json index.html
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Actualizar dólar"
+            git pull --rebase
+            git push
+          fi

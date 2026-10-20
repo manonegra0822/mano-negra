@@ -1,0 +1,9 @@
+{
+  "ayuda": "Datos del pie de página. contacto_email: el mail que se muestra. redes: el enlace completo (https://...) de cada red; las que queden vacías no se muestran.",
+  "contacto_email": "",
+  "redes": {
+    "instagram": "",
+    "x": "",
+    "facebook": ""
+  }
+}

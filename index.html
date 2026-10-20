@@ -1,248 +1,30 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" class="no-js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Noticias políticas de Córdoba y Argentina, y cómo sus decisiones afectan las finanzas del país.">
-<meta name="theme-color" content="#FFFFFF">
-<title>Mano Negra</title>
+<title>Mano Negra · Lo que pasa ahora en Córdoba y Argentina</title>
+<meta name="description" content="Mano Negra, el medio de medios: las noticias de política y economía de Córdoba y Argentina, resumidas y con enlace a cada medio.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0b0b" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="assets/img/favicon.png?v=88e00611">
+<script>
+/* Tema (fondo blanco o negro) antes de pintar la página, para que no parpadee */
+(function(){var d=document.documentElement,t=null;d.className=d.className.replace("no-js","js");
+try{t=localStorage.getItem("mn-tema")}catch(e){}
+if(t!=="claro"&&t!=="oscuro"){t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"oscuro":"claro"}
+d.setAttribute("data-tema",t)})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-  /* Diseño: cabecera con logo y fecha; lista de todas las notas a la izquierda;
-     a la derecha, la nota más relevante del día (o la que se elija en la lista).
-     Las tres fuentes son provisorias: se cambian solo en --f-display, --f-text y --f-ui. */
-  :root {
-    color-scheme: light;
-    --paper: #FFFFFF;
-    --paper-2: #F0F0F0;
-    --ink: #000000;
-    --ink-2: #525252;
-    --line: #D2D2D2;
-    --accent: #000000;
-    --accent-ink: #FFFFFF;
-    --c-cba: #1F3FD1;
-    --c-arg: #45AEEA;
-    --c-eco: #1E9E55;
-
-    --f-display: 'Space Mono', 'Courier New', monospace;
-    --f-text: 'Plus Jakarta Sans', 'Helvetica Neue', Arial, sans-serif;
-    --f-ui: var(--f-text);
-  }
-
-  *, *::before, *::after { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0;
-    background: var(--paper);
-    color: var(--ink);
-    font-family: var(--f-text);
-    font-size: 17px;
-    line-height: 1.5;
-  }
-  button { font: inherit; color: inherit; }
-  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-  .shell {
-    display: grid;
-    grid-template-columns: minmax(280px, 380px) minmax(0, 1fr) minmax(210px, 300px);
-    grid-template-areas: "mast lead opinion" "list lead opinion";
-    grid-template-rows: auto 1fr;
-    column-gap: 0;
-    padding-inline: clamp(16px, 3vw, 40px);
-    padding-block: 24px 40px;
-    max-width: 1500px;
-    margin-inline: auto;
-  }
-
-  /* Cabecera */
-  .mast { grid-area: mast; display: grid; gap: 14px; padding-bottom: 18px; padding-inline-end: clamp(20px, 3vw, 40px); border-bottom: 2px solid var(--ink); border-inline-end: 2px solid var(--ink); min-width: 0; }
-  .brand { display: flex; align-items: center; gap: 16px; }
-  .brand img.logo-mano { height: 96px; width: auto; flex: none; }
-  .brand-name {
-    margin: 0;
-    font-family: var(--f-display);
-    font-weight: 700;
-    font-size: 3.3rem;
-    line-height: .95;
-    letter-spacing: 0;
-  }
-  .tagline { margin: 0; font-family: var(--f-ui); font-size: .95rem; color: var(--ink-2); max-width: 34ch; }
-  .dateline { margin: 0; font-family: var(--f-ui); font-size: .85rem; color: var(--ink-2); }
-  .proto {
-    margin: 0; font-family: var(--f-ui); font-size: .8rem; color: var(--ink);
-    background: var(--paper-2); padding: 6px 10px; width: fit-content;
-  }
-
-  /* Lista de notas */
-  .list { grid-area: list; min-width: 0; padding-top: 14px; padding-inline-end: clamp(20px, 3vw, 40px); border-inline-end: 2px solid var(--ink); }
-  .filters { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 0 0 6px; padding: 0; list-style: none; }
-  .filters button {
-    background: none; border: 0; padding: 6px 0; cursor: pointer;
-    font-family: var(--f-ui); font-size: .86rem; font-weight: 500; color: var(--ink-2);
-    border-bottom: 2px solid transparent;
-  }
-  .filters button[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--ink); }
-  .filters .n { font-weight: 400; margin-inline-start: 6px; }
-
-  .notes { margin: 0; padding: 0; list-style: none; }
-  .notes li { border-bottom: 1px solid var(--line); }
-  .note-btn {
-    display: grid; gap: 6px; width: 100%; text-align: start;
-    background: none; border: 0; padding: 14px 10px 14px 12px; cursor: pointer;
-    box-shadow: inset 0 0 0 0 var(--ink);
-    transition: background-color .15s;
-  }
-  .note-btn:hover { background: var(--paper-2); }
-  .note-btn[aria-current="true"] { background: var(--paper-2); box-shadow: inset 4px 0 0 0 var(--ink); }
-  .note-top { display: flex; align-items: center; gap: 8px; font-family: var(--f-ui); font-size: .82rem; color: var(--ink-2); }
-  .note-top .hora { margin-inline-start: auto; font-variant-numeric: tabular-nums; }
-  .note-title { font-family: var(--f-display); font-weight: 700; font-size: .92rem; line-height: 1.35; text-wrap: balance; }
-  .note-src { font-family: var(--f-ui); font-size: .82rem; color: var(--ink-2); }
-  .foot { margin: 18px 0 0; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); max-width: 44ch; }
-
-  .mk { width: 10px; height: 10px; flex: none; display: inline-block; background: var(--ink); }
-  .mk[data-s="cordoba"] { background: var(--c-cba); }
-  .mk[data-s="argentina"] { background: var(--c-arg); transform: rotate(45deg) scale(.82); }
-  .mk[data-s="economia"] { background: var(--c-eco); border-radius: 50%; }
-
-  /* Nota principal */
-  .lead { grid-area: lead; min-width: 0; align-self: start; position: sticky; top: env(safe-area-inset-top, 0px); max-height: 100dvh; overflow: auto; padding-block: 8px 24px; padding-inline-start: clamp(24px, 4vw, 56px); }
-  .kicker { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-family: var(--f-ui); font-weight: 600; font-size: .95rem; margin-bottom: 18px; }
-  .back {
-    background: none; border: 1px solid var(--ink); padding: 3px 10px; cursor: pointer;
-    font-family: var(--f-ui); font-size: .85rem; font-weight: 500;
-  }
-  .back:hover { background: var(--ink); color: var(--paper); }
-  .headline {
-    margin: 0 0 18px; max-width: 30ch;
-    font-family: var(--f-display); font-weight: 700;
-    font-size: clamp(1.5rem, 0.9rem + 1.6vw, 2.2rem);
-    line-height: 1.15; letter-spacing: -0.01em; text-wrap: balance;
-  }
-  .meta { display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: center; margin-bottom: 28px; font-family: var(--f-ui); font-size: .92rem; color: var(--ink-2); }
-  .meta .sec { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); font-weight: 600; }
-  .meta .src { color: var(--ink); font-weight: 600; }
-  .badge { border: 1px solid var(--ink-2); padding: 1px 8px; font-size: .8rem; color: var(--ink); }
-
-  .block { max-width: 62ch; margin-bottom: 26px; }
-  .block h3{
-    display: flex; align-items: baseline; gap: 12px; margin: 0 0 8px;
-    font-family: var(--f-ui); font-weight: 600; font-size: .95rem; color: var(--ink);
-    padding-bottom: 6px; border-bottom: 1px solid var(--line);
-  }
-  .block h3.t { margin-inline-start: auto; font-weight: 400; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-  .block p { margin: 0; }
-  .quick p { font-size: 1.2rem; line-height: 1.6; }
-  .impact p { font-size: 1.05rem; line-height: 1.55; color: var(--ink); }
-
-  .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; max-width: 62ch; }
-  .go {
-    display: inline-block; background: var(--accent); color: var(--accent-ink);
-    font-family: var(--f-ui); font-weight: 600; font-size: 1rem; padding: 10px 18px; text-decoration: none;
-  }
-  .go:hover { background: var(--ink-2); }
-  .go[aria-disabled="true"] { background: var(--paper-2); color: var(--ink-2); cursor: not-allowed; }
-  .legal { font-family: var(--f-ui); font-size: .82rem; color: var(--ink-2); margin: 14px 0 0; max-width: 62ch; }
-
-  .otros ul { margin: 0; padding: 0; list-style: none; }
-  .otros li { padding: 8px 0; border-bottom: 1px solid var(--line); font-family: var(--f-ui); font-size: .95rem; }
-  .otros a { color: var(--ink); text-underline-offset: 3px; }
-
-  /* Intro sello */
-#mn-intro{position:fixed;inset:0;z-index:9999;background:#fff;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;transition:opacity .45s ease;cursor:pointer}
-#mn-intro.mn-out{opacity:0;pointer-events:none}
-#mn-intro .mn-skip{white-space:nowrap;position:absolute;bottom:28px;left:50%;transform:translateX(-50%);min-height:44px;padding:0 20px;border:0;background:none;font-family:'Space Mono','Courier New',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#525252;cursor:pointer}
-.mn-stage{position:relative;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:clamp(24px,4vw,72px);animation:mn-thud .4s ease-out .45s both}
-.mn-print{position:relative;height:min(68vh,560px);aspect-ratio:960/1426}
-.mn-print img{position:absolute;inset:0;width:100%;height:100%;display:block}
-
-.mn-ink{opacity:0;transform-origin:50% 60%;animation:mn-ink .26s cubic-bezier(.55,0,.4,1) .3s forwards}
-.mn-title{margin:0;font-family:'Space Mono','Courier New',monospace;font-weight:700;font-size:clamp(44px,7.4vw,124px);line-height:.95;letter-spacing:-.02em;text-transform:uppercase;color:#000;display:flex;flex-direction:column}
-.mn-title span{display:block;white-space:nowrap}
-.mn-title i{font-style:normal;display:inline-block;opacity:0;animation:mn-letter .5s cubic-bezier(.2,.6,.3,1) both}
-
-@keyframes mn-ink{0%{opacity:1;transform:scale(1.32)}58%{transform:scale(.975)}80%{transform:scale(1.012)}100%{opacity:1;transform:none}}
-@keyframes mn-thud{0%{transform:none}20%{transform:translateY(5px) scale(.992)}55%{transform:translateY(-1px)}100%{transform:none}}
-@keyframes mn-letter{0%{opacity:0;filter:blur(10px);transform:translateY(8px);color:#525252}60%{opacity:1;filter:blur(1px)}100%{opacity:1;filter:none;transform:none;color:#000}}
-
-
-.mn-splat{position:absolute;left:-20.833%;top:-14.025%;width:141.667%;height:128.05%;overflow:visible;pointer-events:none}
-.mn-drop{transform-box:fill-box;transform-origin:center;opacity:0;animation:mn-drop .28s cubic-bezier(.1,.85,.25,1) both}
-@keyframes mn-drop{0%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.2)}25%{opacity:1}100%{opacity:1;transform:none}}
-
-
-#mn-intro .mn-entrar{position:absolute;inset:0;margin:auto;width:max-content;height:44px;padding:0 24px;border:0;background:none;font-family:'Space Mono','Courier New',monospace;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#000;cursor:pointer;animation:mn-blink 1.6s ease-in-out infinite}#mn-intro.mn-on .mn-entrar{display:none}#mn-intro:not(.mn-on) .mn-skip{display:none}@keyframes mn-blink{0%,100%{opacity:1}50%{opacity:.35}}
-
-.mn-stage:not(.mn-go),.mn-stage:not(.mn-go) *{animation-play-state:paused!important}
-  #mn-intro .mn-top{display:none;position:absolute;left:50%;top:40px;transform:translateX(-50%);min-height:44px;padding:0 20px;align-items:center;justify-content:center;font-family:'Space Mono','Courier New',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#000;white-space:nowrap}
-  @media (max-width:700px),(max-aspect-ratio:4/5){
-    #mn-intro .mn-top{display:flex}
-    .mn-stage{flex-direction:column;flex-wrap:nowrap;gap:clamp(20px,4.5vh,40px)}
-    .mn-print{height:auto;width:min(64vw,46vh*0.673,360px)}
-    .mn-title{font-size:clamp(38px,12.5vw,76px);align-items:center;text-align:center;line-height:.95}
-  }
-
-
-  .headline, .note-title, .quick p { overflow-wrap: break-word; }
-
-  /* Foto de la nota: solo en computadora */
-  .foto { margin: 28px 0 0; max-width: 760px; }
-  .foto img { display: block; width: 100%; height: clamp(240px, 38vh, 440px); object-fit: cover; object-position: center 22%; background: var(--paper-2); }
-  .foto figcaption { margin-top: 6px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
-  .foto a { color: var(--ink); text-underline-offset: 3px; }
-
-  /* Notas de opinión (margen derecho): la columna llega hasta abajo, con su línea, como la de la izquierda */
-  .opinion { grid-area: opinion; min-width: 0; border-inline-start: 2px solid var(--ink); }
-  .opinion-in { position: sticky; top: env(safe-area-inset-top, 0px); max-height: 100dvh; overflow: auto; padding: 8px 0 24px clamp(18px, 2.4vw, 32px); }
-  .opinion h2 { display: inline-block; margin: 0 0 8px; padding: 5px 11px; background: var(--ink); color: var(--paper); font-family: var(--f-display); font-weight: 700; font-size: 1rem; letter-spacing: -0.01em; }
-  .opinion .sub { margin: 0 0 14px; font-family: var(--f-ui); font-size: .8rem; color: var(--ink-2); }
-  .opinion ol { list-style: none; margin: 0; padding: 0; }
-  .op { padding: 14px 0; border-top: 1px solid var(--line); }
-  .op:first-child { border-top: 2px solid var(--ink); }
-  .op-medio { font-family: var(--f-ui); font-size: .78rem; color: var(--ink-2); }
-  .op-titulo { display: block; margin: 4px 0 6px; font-family: var(--f-display); font-weight: 700; font-size: .95rem; line-height: 1.25; overflow-wrap: break-word; }
-  .op-autor { font-family: var(--f-ui); font-size: .82rem; font-weight: 600; margin: 0 0 4px; }
-  .op-texto { margin: 0 0 8px; font-family: var(--f-ui); font-size: .88rem; line-height: 1.45; color: var(--ink-2); }
-  .op a { color: var(--ink); text-underline-offset: 3px; font-family: var(--f-ui); font-size: .85rem; font-weight: 600; }
-  .op a.op-titulo { text-decoration: none; font-size: .95rem; font-weight: 700; }
-  .op a.op-titulo:hover { text-decoration: underline; }
-  .opinion .vacio { font-family: var(--f-ui); font-size: .88rem; color: var(--ink-2); margin: 0; border-top: 2px solid var(--ink); padding-top: 14px; }
-  .ir-opinion { display: none; }
-
-  /* Pantallas medianas: la columna pasa a una franja destacada arriba de todo, con tarjetas que se deslizan */
-  @media (max-width: 1023px) and (min-width: 881px) {
-    .shell { grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); grid-template-areas: "opinion opinion" "mast lead" "list lead"; grid-template-rows: auto auto 1fr; }
-    .opinion { border-inline-start: 0; border-bottom: 2px solid var(--ink); margin-bottom: 18px; padding-bottom: 14px; }
-    .opinion-in { position: static; max-height: none; overflow: visible; padding: 0; }
-    .opinion ol { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
-    .op, .op:first-child { flex: 0 0 290px; scroll-snap-align: start; border-top: 2px solid var(--ink); }
-  }
-
-  @media (max-width: 880px) {
-    .shell { grid-template-columns: minmax(0, 1fr); grid-template-areas: "mast" "lead" "opinion" "list"; grid-template-rows: auto; }
-    .opinion { border-inline-start: 0; border-block: 3px solid var(--ink); background: var(--paper-2); margin: 22px calc(-1 * clamp(16px, 3vw, 40px)) 0; padding: 16px clamp(16px, 3vw, 40px) 18px; }
-    .opinion-in { position: static; max-height: none; overflow: visible; padding: 0; }
-    .opinion ol { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; -webkit-overflow-scrolling: touch; }
-    .op, .op:first-child { flex: 0 0 min(82%, 320px); scroll-snap-align: start; background: var(--paper); border: 1px solid var(--ink); border-top: 3px solid var(--ink); padding: 12px; }
-    .opinion .vacio { border-top: 0; padding-top: 0; }
-    .ir-opinion:not([hidden]) { display: inline-block; justify-self: start; padding: 8px 12px; border: 2px solid var(--ink); background: var(--ink); color: var(--paper); font-family: var(--f-ui); font-size: .85rem; font-weight: 600; text-decoration: none; }
-    .mast, .list { padding-inline-end: 0; border-inline-end: 0; }
-    .list { border-top: 2px solid var(--ink); margin-top: 16px; }
-    .lead { position: static; max-height: none; overflow: visible; padding-block: 24px 8px; padding-inline-start: 0; }
-    .headline { max-width: none; }
-    .foto { display: none; }
-    .brand-name { font-size: 2.7rem; }
-    .shell { padding-block: 16px 32px; }
-    .filters button { padding: 10px 0; }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .note-btn { transition: none; }
-  }
-</style>
+<link rel="stylesheet" href="assets/css/estilos.css?v=d5d36260">
+<link rel="stylesheet" href="intro/intro.css?v=4b6ae910">
+<script src="assets/js/main.js?v=b663ff52" defer></script>
+<script src="intro/intro.js?v=23bf882e" defer></script>
 </head>
 <body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
 <div id="mn-intro">
 <span class="mn-top">Córdoba-Argentina</span>
 <button class="mn-entrar" type="button">Tocá para entrar</button>
@@ -251,1199 +33,454 @@
 <img class="mn-ink" src="intro/mano-negra.webp" alt="">
 <svg class="mn-splat" viewBox="-200 -200 1360 1826" aria-hidden="true" fill="#000"><g class="mn-drop" style="--dx:12px;--dy:52px;animation-delay:0.49s"><path d="M183 459Q183.0 435.8 182.3 432.8A5.2 5.2 0 1 1 172.2 435.1Q172.9 438.2 183 459Z"/><circle cx="172" cy="417" r="2.9"/></g><g class="mn-drop" style="--dx:16px;--dy:38px;animation-delay:0.51s"><ellipse cx="182" cy="409" rx="7.8" ry="6.5" transform="rotate(-113 182 409)"/></g><g class="mn-drop" style="--dx:30px;--dy:46px;animation-delay:0.49s"><ellipse cx="164" cy="449" rx="3.9" ry="3.8" transform="rotate(-123 164 449)"/></g><g class="mn-drop" style="--dx:5px;--dy:52px;animation-delay:0.50s"><circle cx="343" cy="333" r="1.5"/></g><g class="mn-drop" style="--dx:15px;--dy:-50px;animation-delay:0.50s"><ellipse cx="83" cy="1289" rx="3.9" ry="3.5" transform="rotate(106 83 1289)"/></g><g class="mn-drop" style="--dx:-69px;--dy:34px;animation-delay:0.52s"><path d="M588 753Q645.4 734.7 650.1 732.4A8.7 8.7 0 1 1 642.5 716.8Q637.9 719.1 588 753Z"/><circle cx="656" cy="718" r="2.4"/></g><g class="mn-drop" style="--dx:29px;--dy:-22px;animation-delay:0.49s"><ellipse cx="55" cy="1050" rx="6.1" ry="5.1" transform="rotate(143 55 1050)"/></g><g class="mn-drop" style="--dx:63px;--dy:-86px;animation-delay:0.52s"><path d="M164 1468Q143.5 1484.1 140.9 1487.5A7.1 7.1 0 1 1 152.3 1495.9Q154.8 1492.5 164 1468Z"/><circle cx="140" cy="1508" r="3.8"/></g><g class="mn-drop" style="--dx:11px;--dy:91px;animation-delay:0.49s"><circle cx="327" cy="78" r="2.7"/></g><g class="mn-drop" style="--dx:62px;--dy:67px;animation-delay:0.51s"><path d="M344 595Q311.8 551.8 309.3 549.1A6.1 6.1 0 1 1 300.3 557.4Q302.8 560.1 344 595Z"/><circle cx="291" cy="542" r="3.4"/></g><g class="mn-drop" style="--dx:-28px;--dy:68px;animation-delay:0.51s"><ellipse cx="756" cy="100" rx="9.0" ry="6.9" transform="rotate(-67 756 100)"/></g><g class="mn-drop" style="--dx:56px;--dy:53px;animation-delay:0.50s"><path d="M316 422Q306.5 402.1 303.2 399.0A7.6 7.6 0 1 1 292.8 409.9Q296.1 413.1 316 422Z"/><circle cx="284" cy="392" r="4.0"/></g><g class="mn-drop" style="--dx:-31px;--dy:-115px;animation-delay:0.51s"><circle cx="427" cy="1519" r="2.6"/></g><g class="mn-drop" style="--dx:48px;--dy:54px;animation-delay:0.48s"><ellipse cx="325" cy="253" rx="16.0" ry="12.3" transform="rotate(-132 325 253)"/></g><g class="mn-drop" style="--dx:11px;--dy:94px;animation-delay:0.49s"><ellipse cx="336" cy="347" rx="10.3" ry="9.0" transform="rotate(-96 336 347)"/></g><g class="mn-drop" style="--dx:53px;--dy:59px;animation-delay:0.48s"><ellipse cx="183" cy="112" rx="13.6" ry="11.5" transform="rotate(-132 183 112)"/></g><g class="mn-drop" style="--dx:39px;--dy:41px;animation-delay:0.51s"><ellipse cx="289" cy="587" rx="10.1" ry="8.7" transform="rotate(-134 289 587)"/></g><g class="mn-drop" style="--dx:-119px;--dy:61px;animation-delay:0.50s"><circle cx="1033" cy="776" r="2.3"/></g><g class="mn-drop" style="--dx:53px;--dy:-103px;animation-delay:0.51s"><circle cx="545" cy="1413" r="3.2"/></g><g class="mn-drop" style="--dx:-6px;--dy:-78px;animation-delay:0.48s"><ellipse cx="590" cy="1402" rx="9.7" ry="7.3" transform="rotate(86 590 1402)"/></g><g class="mn-drop" style="--dx:35px;--dy:55px;animation-delay:0.49s"><circle cx="10" cy="328" r="2.9"/></g><g class="mn-drop" style="--dx:-36px;--dy:-45px;animation-delay:0.50s"><ellipse cx="771" cy="1174" rx="11.5" ry="8.6" transform="rotate(51 771 1174)"/></g><g class="mn-drop" style="--dx:-1px;--dy:58px;animation-delay:0.50s"><ellipse cx="410" cy="37" rx="5.8" ry="5.0" transform="rotate(-89 410 37)"/></g><g class="mn-drop" style="--dx:-51px;--dy:-55px;animation-delay:0.49s"><ellipse cx="761" cy="1237" rx="5.0" ry="3.9" transform="rotate(47 761 1237)"/></g><g class="mn-drop" style="--dx:48px;--dy:-47px;animation-delay:0.49s"><ellipse cx="47" cy="1282" rx="17.8" ry="14.5" transform="rotate(135 47 1282)"/></g><g class="mn-drop" style="--dx:-103px;--dy:30px;animation-delay:0.51s"><path d="M909 720Q934.7 717.8 937.3 717.1A4.6 4.6 0 1 1 934.8 708.3Q932.2 709.0 909 720Z"/><circle cx="948" cy="709" r="3.7"/></g><g class="mn-drop" style="--dx:65px;--dy:-7px;animation-delay:0.47s"><path d="M69 1254Q36.6 1253.1 33.8 1253.5A4.7 4.7 0 1 1 34.9 1262.7Q37.7 1262.4 69 1254Z"/><circle cx="21" cy="1259" r="4.0"/></g><g class="mn-drop" style="--dx:7px;--dy:51px;animation-delay:0.46s"><ellipse cx="33" cy="338" rx="8.5" ry="7.4" transform="rotate(-98 33 338)"/></g><g class="mn-drop" style="--dx:-66px;--dy:-19px;animation-delay:0.49s"><ellipse cx="896" cy="952" rx="10.6" ry="9.3" transform="rotate(16 896 952)"/></g><g class="mn-drop" style="--dx:-26px;--dy:80px;animation-delay:0.48s"><ellipse cx="616" cy="151" rx="8.5" ry="6.5" transform="rotate(-72 616 151)"/></g><g class="mn-drop" style="--dx:-55px;--dy:75px;animation-delay:0.50s"><path d="M693 364Q723.8 333.4 726.0 330.4A6.3 6.3 0 1 1 715.9 323.0Q713.7 326.0 693 364Z"/><circle cx="730" cy="315" r="4.2"/></g><g class="mn-drop" style="--dx:-39px;--dy:85px;animation-delay:0.51s"><ellipse cx="757" cy="145" rx="6.3" ry="5.0" transform="rotate(-66 757 145)"/></g><g class="mn-drop" style="--dx:-9px;--dy:-92px;animation-delay:0.52s"><path d="M726 1270Q719.8 1288.8 720.3 1293.7A8.2 8.2 0 1 1 736.6 1292.0Q736.1 1287.1 726 1270Z"/><circle cx="730" cy="1314" r="2.7"/></g><g class="mn-drop" style="--dx:-17px;--dy:38px;animation-delay:0.50s"><ellipse cx="516" cy="52" rx="3.2" ry="2.7" transform="rotate(-66 516 52)"/></g><g class="mn-drop" style="--dx:15px;--dy:-62px;animation-delay:0.51s"><path d="M362 1422Q348.3 1452.4 347.4 1456.1A6.3 6.3 0 1 1 359.6 1459.1Q360.5 1455.5 362 1422Z"/><circle cx="350" cy="1471" r="2.8"/></g><g class="mn-drop" style="--dx:153px;--dy:-7px;animation-delay:0.55s"><circle cx="-130" cy="755" r="2.3"/></g><g class="mn-drop" style="--dx:56px;--dy:35px;animation-delay:0.51s"><ellipse cx="-23" cy="649" rx="5.6" ry="4.6" transform="rotate(-148 -23 649)"/></g><g class="mn-drop" style="--dx:-38px;--dy:36px;animation-delay:0.50s"><path d="M646 543Q679.3 524.4 683.3 520.6A9.3 9.3 0 1 1 670.6 507.0Q666.5 510.8 646 543Z"/><circle cx="687" cy="502" r="4.1"/></g><g class="mn-drop" style="--dx:4px;--dy:111px;animation-delay:0.52s"><circle cx="635" cy="46" r="3.9"/></g><g class="mn-drop" style="--dx:87px;--dy:2px;animation-delay:0.48s"><circle cx="-64" cy="835" r="3.8"/></g><g class="mn-drop" style="--dx:80px;--dy:-2px;animation-delay:0.50s"><ellipse cx="-52" cy="601" rx="10.1" ry="7.5" transform="rotate(-181 -52 601)"/></g><g class="mn-drop" style="--dx:43px;--dy:56px;animation-delay:0.51s"><ellipse cx="159" cy="509" rx="3.8" ry="3.1" transform="rotate(-128 159 509)"/></g><g class="mn-drop" style="--dx:-63px;--dy:26px;animation-delay:0.50s"><ellipse cx="664" cy="599" rx="7.1" ry="6.3" transform="rotate(-22 664 599)"/></g><g class="mn-drop" style="--dx:30px;--dy:30px;animation-delay:0.48s"><ellipse cx="174" cy="670" rx="3.5" ry="2.8" transform="rotate(-136 174 670)"/></g><g class="mn-drop" style="--dx:42px;--dy:7px;animation-delay:0.46s"><ellipse cx="-9" cy="869" rx="3.7" ry="3.7" transform="rotate(190 -9 869)"/></g><g class="mn-drop" style="--dx:43px;--dy:63px;animation-delay:0.52s"><ellipse cx="154" cy="641" rx="7.9" ry="6.7" transform="rotate(-124 154 641)"/></g><g class="mn-drop" style="--dx:103px;--dy:-63px;animation-delay:0.50s"><path d="M82 1389Q39.3 1404.8 34.9 1407.6A8.7 8.7 0 1 1 44.0 1422.3Q48.4 1419.6 82 1389Z"/><circle cx="24" cy="1421" r="3.5"/></g><g class="mn-drop" style="--dx:24px;--dy:21px;animation-delay:0.46s"><ellipse cx="194" cy="304" rx="8.2" ry="7.2" transform="rotate(-139 194 304)"/></g><g class="mn-drop" style="--dx:91px;--dy:92px;animation-delay:0.52s"><circle cx="-65" cy="340" r="1.7"/></g><g class="mn-drop" style="--dx:-67px;--dy:18px;animation-delay:0.51s"><path d="M658 511Q709.7 504.1 713.8 503.0A7.1 7.1 0 1 1 710.2 489.2Q706.0 490.3 658 511Z"/><circle cx="726" cy="493" r="2.7"/></g><g class="mn-drop" style="--dx:17px;--dy:76px;animation-delay:0.49s"><circle cx="22" cy="314" r="3.2"/></g><g class="mn-drop" style="--dx:24px;--dy:-26px;animation-delay:0.50s"><ellipse cx="53" cy="1028" rx="6.3" ry="5.7" transform="rotate(133 53 1028)"/></g><g class="mn-drop" style="--dx:10px;--dy:41px;animation-delay:0.49s"><ellipse cx="381" cy="157" rx="7.4" ry="6.1" transform="rotate(-104 381 157)"/></g><g class="mn-drop" style="--dx:8px;--dy:115px;animation-delay:0.50s"><path d="M652 33Q655.3 -6.4 655.1 -10.0A5.9 5.9 0 1 1 643.2 -9.2Q643.5 -5.6 652 33Z"/><circle cx="648" cy="-29" r="4.0"/></g><g class="mn-drop" style="--dx:40px;--dy:-102px;animation-delay:0.50s"><circle cx="131" cy="1486" r="2.0"/></g><g class="mn-drop" style="--dx:-43px;--dy:50px;animation-delay:0.51s"><path d="M680 437Q703.6 421.4 706.5 418.0A7.5 7.5 0 1 1 695.1 408.4Q692.2 411.8 680 437Z"/><circle cx="714" cy="400" r="2.3"/></g><g class="mn-drop" style="--dx:-77px;--dy:-43px;animation-delay:0.51s"><path d="M972 750Q991.1 766.8 993.9 768.3A5.2 5.2 0 1 1 998.8 759.2Q996.1 757.7 972 750Z"/><circle cx="1006" cy="770" r="2.6"/></g><g class="mn-drop" style="--dx:-48px;--dy:26px;animation-delay:0.47s"><circle cx="669" cy="573" r="2.5"/></g><g class="mn-drop" style="--dx:37px;--dy:50px;animation-delay:0.51s"><ellipse cx="368" cy="98" rx="5.0" ry="4.9" transform="rotate(-126 368 98)"/></g><g class="mn-drop" style="--dx:24px;--dy:110px;animation-delay:0.50s"><path d="M489 568Q486.9 523.7 485.9 519.4A7.5 7.5 0 1 1 471.3 522.6Q472.3 526.9 489 568Z"/><circle cx="474" cy="504" r="4.5"/></g><g class="mn-drop" style="--dx:50px;--dy:69px;animation-delay:0.50s"><path d="M1 561Q-24.6 517.9 -26.4 515.5A5.0 5.0 0 1 1 -34.4 521.3Q-32.7 523.7 1 561Z"/><circle cx="-40" cy="506" r="2.5"/></g><g class="mn-drop" style="--dx:-21px;--dy:46px;animation-delay:0.48s"><ellipse cx="680" cy="67" rx="3.2" ry="2.7" transform="rotate(-65 680 67)"/></g><g class="mn-drop" style="--dx:42px;--dy:57px;animation-delay:0.50s"><ellipse cx="317" cy="472" rx="16.6" ry="14.3" transform="rotate(-126 317 472)"/></g><g class="mn-drop" style="--dx:14px;--dy:50px;animation-delay:0.49s"><ellipse cx="608" cy="154" rx="15.3" ry="12.3" transform="rotate(-106 608 154)"/></g><g class="mn-drop" style="--dx:91px;--dy:-20px;animation-delay:0.48s"><ellipse cx="-34" cy="977" rx="11.5" ry="10.1" transform="rotate(168 -34 977)"/></g><g class="mn-drop" style="--dx:-21px;--dy:107px;animation-delay:0.53s"><circle cx="660" cy="42" r="2.8"/></g><g class="mn-drop" style="--dx:-57px;--dy:10px;animation-delay:0.49s"><ellipse cx="620" cy="780" rx="6.7" ry="5.5" transform="rotate(-10 620 780)"/></g><g class="mn-drop" style="--dx:-31px;--dy:-28px;animation-delay:0.47s"><ellipse cx="599" cy="1063" rx="3.8" ry="2.9" transform="rotate(42 599 1063)"/></g><g class="mn-drop" style="--dx:-30px;--dy:146px;animation-delay:0.52s"><circle cx="523" cy="30" r="2.1"/></g><g class="mn-drop" style="--dx:33px;--dy:31px;animation-delay:0.49s"><ellipse cx="239" cy="103" rx="5.4" ry="4.3" transform="rotate(-137 239 103)"/></g><g class="mn-drop" style="--dx:39px;--dy:20px;animation-delay:0.46s"><ellipse cx="164" cy="696" rx="7.1" ry="6.3" transform="rotate(-153 164 696)"/></g><g class="mn-drop" style="--dx:64px;--dy:-74px;animation-delay:0.48s"><path d="M54 1185Q12.7 1226.1 10.9 1228.3A4.7 4.7 0 1 1 18.0 1234.3Q19.8 1232.2 54 1185Z"/><circle cx="4" cy="1242" r="3.4"/></g><g class="mn-drop" style="--dx:30px;--dy:130px;animation-delay:0.51s"><circle cx="490" cy="442" r="2.5"/></g><g class="mn-drop" style="--dx:-58px;--dy:-34px;animation-delay:0.50s"><ellipse cx="787" cy="1115" rx="9.7" ry="7.7" transform="rotate(30 787 1115)"/></g><g class="mn-drop" style="--dx:-49px;--dy:68px;animation-delay:0.48s"><ellipse cx="743" cy="200" rx="7.8" ry="7.6" transform="rotate(-54 743 200)"/></g><g class="mn-drop" style="--dx:-20px;--dy:-54px;animation-delay:0.51s"><path d="M740 1154Q743.4 1189.6 745.3 1194.9A9.3 9.3 0 1 1 762.8 1188.5Q760.9 1183.3 740 1154Z"/><circle cx="758" cy="1209" r="2.9"/></g><g class="mn-drop" style="--dx:80px;--dy:-8px;animation-delay:0.51s"><ellipse cx="-21" cy="964" rx="2.7" ry="2.7" transform="rotate(174 -21 964)"/></g><g class="mn-drop" style="--dx:-34px;--dy:35px;animation-delay:0.49s"><circle cx="757" cy="157" r="1.6"/></g><g class="mn-drop" style="--dx:-41px;--dy:46px;animation-delay:0.49s"><ellipse cx="663" cy="562" rx="9.9" ry="7.7" transform="rotate(-49 663 562)"/></g><g class="mn-drop" style="--dx:39px;--dy:-149px;animation-delay:0.51s"><circle cx="312" cy="1561" r="2.1"/></g><g class="mn-drop" style="--dx:-9px;--dy:-138px;animation-delay:0.52s"><circle cx="163" cy="1500" r="3.8"/></g><g class="mn-drop" style="--dx:5px;--dy:-69px;animation-delay:0.51s"><ellipse cx="411" cy="1457" rx="20.3" ry="15.7" transform="rotate(94 411 1457)"/></g><g class="mn-drop" style="--dx:-58px;--dy:-45px;animation-delay:0.50s"><circle cx="576" cy="941" r="1.5"/></g><g class="mn-drop" style="--dx:44px;--dy:79px;animation-delay:0.50s"><path d="M332 425Q312.5 379.6 311.2 377.2A4.7 4.7 0 1 1 302.9 381.7Q304.3 384.2 332 425Z"/><circle cx="298" cy="365" r="2.5"/></g><g class="mn-drop" style="--dx:-99px;--dy:-100px;animation-delay:0.54s"><circle cx="997" cy="825" r="3.4"/></g><g class="mn-drop" style="--dx:68px;--dy:-1px;animation-delay:0.48s"><ellipse cx="-30" cy="713" rx="8.4" ry="8.3" transform="rotate(-181 -30 713)"/></g><g class="mn-drop" style="--dx:17px;--dy:63px;animation-delay:0.51s"><ellipse cx="598" cy="149" rx="21.5" ry="16.0" transform="rotate(-105 598 149)"/></g><g class="mn-drop" style="--dx:3px;--dy:-41px;animation-delay:0.49s"><ellipse cx="375" cy="1431" rx="9.6" ry="8.7" transform="rotate(94 375 1431)"/></g><g class="mn-drop" style="--dx:48px;--dy:31px;animation-delay:0.47s"><ellipse cx="165" cy="324" rx="4.3" ry="4.1" transform="rotate(-147 165 324)"/></g><g class="mn-drop" style="--dx:116px;--dy:-31px;animation-delay:0.50s"><path d="M151 1425Q93.2 1435.0 90.3 1435.8A4.9 4.9 0 1 1 92.9 1445.3Q95.8 1444.5 151 1425Z"/><circle cx="82" cy="1446" r="2.6"/></g><g class="mn-drop" style="--dx:-18px;--dy:-87px;animation-delay:0.52s"><ellipse cx="607" cy="1406" rx="13.1" ry="11.9" transform="rotate(78 607 1406)"/></g><g class="mn-drop" style="--dx:8px;--dy:51px;animation-delay:0.47s"><ellipse cx="532" cy="398" rx="6.7" ry="5.9" transform="rotate(-99 532 398)"/></g><g class="mn-drop" style="--dx:37px;--dy:-53px;animation-delay:0.47s"><ellipse cx="44" cy="1177" rx="10.5" ry="9.4" transform="rotate(125 44 1177)"/></g><g class="mn-drop" style="--dx:-65px;--dy:-104px;animation-delay:0.50s"><circle cx="765" cy="1189" r="2.9"/></g><g class="mn-drop" style="--dx:-59px;--dy:56px;animation-delay:0.50s"><ellipse cx="698" cy="507" rx="5.2" ry="4.1" transform="rotate(-43 698 507)"/></g></svg>
 </div>
-<h1 class="mn-title" aria-label="Mano Negra"><span aria-hidden="true"><i style="animation-delay:0.81s">M</i><i style="animation-delay:0.88s">A</i><i style="animation-delay:0.95s">N</i><i style="animation-delay:1.02s">O</i></span><span aria-hidden="true"><i style="animation-delay:1.09s">N</i><i style="animation-delay:1.16s">E</i><i style="animation-delay:1.23s">G</i><i style="animation-delay:1.30s">R</i><i style="animation-delay:1.37s">A</i></span></h1>
+<p class="mn-title" aria-label="Mano Negra"><span aria-hidden="true"><i style="animation-delay:0.81s">M</i><i style="animation-delay:0.88s">A</i><i style="animation-delay:0.95s">N</i><i style="animation-delay:1.02s">O</i></span><span aria-hidden="true"><i style="animation-delay:1.09s">N</i><i style="animation-delay:1.16s">E</i><i style="animation-delay:1.23s">G</i><i style="animation-delay:1.30s">R</i><i style="animation-delay:1.37s">A</i></span></p>
 </div>
 <button class="mn-skip" type="button">Tocá para saltar</button>
 </div>
 <script>try{if(sessionStorage.getItem('mn-intro')||matchMedia('(prefers-reduced-motion: reduce)').matches){document.getElementById('mn-intro').remove()}}catch(e){}</script>
-<script>
-(function(){
-  var intro=document.getElementById('mn-intro'); if(!intro) return;
-  var st=intro.querySelector('.mn-stage'), img=st.querySelector('.mn-ink');
-  var started=false, done=false, ESPERA=1200; // ms que queda quieta la imagen final antes de abrir la página
-  var ready=Promise.all([new Promise(function(r){if(document.readyState==='complete')r();else window.addEventListener('load',r);}),(img&&img.decode)?img.decode().catch(function(){}):0,(document.fonts&&document.fonts.ready)||0]);
-  // --- sonido sincronizado con el golpe (Web Audio: precisión de milisegundos) ---
-  var IMPACTO=0.414; // s desde que arranca la animación hasta que la mano toca el papel
-  var SONIDO='data:audio/wav;base64,UklGRgZ8AABXQVZFZm10IBAAAAABAAEAwF0AAIC7AAACABAATElTVBoAAABJTkZPSVNGVA4AAABMYXZmNjAuMTYuMTAwAGRhdGHAewAAAAAAAP//AAAAAAAAAAAAAAEA/f/5////AQAAAP////8CAP3/9f/4/wAACgACAPj/FwAAAOH//P/u//H/JAD+/+n/CQAKAAAA0//D/xYA+f/+//r/4/8uAGX/P//o//P/GgDi/wYALABy/1//of8UAJEA3/+W//QA3f8j/+3/Uv5G//AB6f+Z/zoBrgAc/z7+T/82/8D/dP6M/5ABiP5d/3r+0QDnAG79lv7v/f/+2P7v/X4B8QHi/1j9gv4PABn/UP/DAC8Bf/y2+7f8bv8yAnYC9ACZAW/9Bv0y/bb9Yv76/GEBD/3I/gT8tv7yBJYAUP9h+sX+Cv9yA34EIf88AI76SwHw+Xn33QAQAcgJMwBj/lX+/gGzCScB5vi37xT/2QfyDrMDsvbpAmYGBAtNBB73sftSBmQEuQUA+r77dAVHBJsG5v2wAFkFogVRAMT2yfh0/owArgYZAlf7Lf2aA0kEWwC6/b/7QAPOAUkD1wFi/kgASf+PBHYAA/jy/v4KEAgJA8gBzPtD+Jr//fnp+2oAU/9VAMsC6AL1+twAw/rF9b/4hfgX+44JUwlR/HH5UQFzAO//dP3H+0cAhf99Bu8AqvwV+wX+GQdFApL5AvjJBCoGUQY/AXPzXPJO/E0ARwMF9rD9+wG6CPMF8/Bk/i8BmAwnCE7vifE8A+4IEQ/295btmQzlFTggrv4+8BvzEQSvC3IANwE89bwLLw66FIgK7fWhBoX7Gf1y+8L+CAx/BPIJlf/Y/Y79aQnmDkMBcQZn/f0G4ANQAr8Eo/7M/lXzG/5GAAgB6AlqDTwJIQEU8Sb9iwaOAvMAvAOuBqv8jPnf/akLUQT0/wUJ8f/1A031J/ecCM//BAaO9jMBoguT/MECIAC0AuX/AvT+9OACZAJ/+XAOZg6e+2UBBfvi+Y0HNAbcAtoDogBwBZgEaPkyAE4EJgZJBjv/xgnmEhTz4vq28Tn/kArMAegPEwo+A/b7ygK2CSoLNv9RAWoCtQuWCQAJnAT6/sv+RgL8AzX6egKBCkkGCgZ5BXb+tQajAmD/5gA7AxgUGg7v/jn0zf9GA+UITgm0A4gEzP8D/NED+gcKBKoSfRcIAtP5cPpi9usBjgwBB2kI6QPV/mf4u//+B5z/mgDK/RkEHwPABAgRPvm//sUHKgNvAtYIsQY6BFoI3whfBpEDJQdFBUUHBQVVBgD/sPzX+E33RgByB74LNgZdAbQEQQozDB0Fo/6gAp/9lwKgB9YMXxK0BZn8dPh3/g3+yQO5/poRnQwcCosFgv0nAPP59wHC/lMIJwUXAoT/UwT+A1cDcwMcB44ExQAMBGQF9wIdA70Blf3A/pf/SP0VC6gKgQA4BSYCOACgB1oC9f//Aa/9I/1IA24GbwepBgICU/2q/uT+B/97BU4DEQQmBGMBa//M/YAEvQHLBMADmQMWAREDHgUg/cIFpgRYATz/tP/xA8EAkQT4BC4ARwNKAP0CqP+H/64ACwN2BDsErwQKBY3+/v6l/d786P3+BXAFMQECB6oEW/4ABUAAFASo9/QAhP/a+yMFYgH0B4QCYwY//4IBq/xjAiT7DgQm/+UEfwDbB7sGgAAq/CH59f0R+0EBJgMkBgUCPQVb/Q76VPynAlr//QTfBIEFHAYn/vz5Lf2x/5YAPQHiA+YABgJL/l7/HfzGAOkAFPro/1MHDgXb/EMDHQF6/GsCk/2O+xz/QwAE/5UB8P62+gkAYwLKAk4CAP8u/s8BTf43BL4Efv+n/aoAX/iKBLQDuvT4/8gA5gFK/+v8/P7x+bwCiAmCAFX/lft1AZ8AVPva/JL9JgGnA2MAFP1//jP+Df/u/r8EfwAe/rT/Ev8AACj+4wBs/xX+9gEX/8/8MvsT/DMAwwSvBf/+jP6l/qD9gQLk/j0AhPsTAGn9vf1vBgz/ovpRALH/cQDG/CH8Kf69/bD9MATa/IT8IQXo+YkCQQSp+vkCOv3n/A3/o/0yB8j+sfx0+S33g/3G95MIHwYB/yH9D/0AAtv9Hva1+Kn7xQYOBNb7rwJ6AGz+uPs5+AP7Sf+D/C8BZP5BAQ4EiwMjAYj9fgC7/Jn9GP37+xz+OgLw///9LwBF/Rf9jf9h+oD/ZQEZ/yD+6f/SBJIA+vsE+fb6jvYP+fj8ZgDuBPsEWANlAbIABwDK+178Wfy2+Sj/jAO+BE/8avUy/DIBCwSwArf/Zv2E/5T7NgKJBM0BgPul/8P6eQKl/5f/P/+m+4f/xANAAI76YfryAEELjAXk/8n2Wf3ZA38I8QF1+gX3F/kwAOMGzQDtAuP6qf7fACb/LQEiAx34kfcgB2z8PwJ7/V8AZfz7BHABWQM6Av72Yv2EAV4HsvtfAPL8mfnHBr0DIAWp+Kv+BPwHAEgC9Aj+/gz5bACcBV4A7vz8/VYA8gTm/W768f+cCUD8Ef5cAQYDMv6d/U0ATP8iAEkC6QG7Ag7+4v4b+7L8zQBLBGH/FvwDADv/KwN7AUcBRf+2B0j7M/6T+4oBpv1+AUT9ggOF/U0AOgMrAbkFu/1iA//5OAA2AMwBWQItBLoAR/nH/8/+2wSFARsCBwELAc/7E/tmBeAF2AB5/cj5pP9D/ub//ALNBFcEEwJa/fH+Yv8k/gr/TAOcBO79rfrCA/QF3wKVAT72RQAR/qIB7wMIBeIDyv5oATYAJgMFASn8AfXh/n4SVwjJ8aToEw4mFrUFFO4w96YECAgNBGf4qAN1AwAD0vm/BLL7qwgZ/BX/uQKe/53+/vy8/qwCvQl3/DUDPPtPBU8FH/7U/+AIJ/4G7sv5cRQ6EgjyY+vyBjMRlAFm9Kz60QXzBgX6HAIfBh//mv3LAff7SQHvAvYADQJx/rEEMwDP+y//hQGHANYDOAJeCPcHrgBoATcAhe7R5LMLrSCi9Z3nuxBzFVPwte7YDk4RpPUv86YGFAg6+577XgRYAJH8kArgCfr5J/jJAaf/OAFAAzT9x/9PCE4FV/X99GsE4BQzAgj21PuG+y3/4QuGCA8DTPns87wAOgTx/zb8lfyND/kSBfBl5Y4KIhBx8cL4JRehBt7rhvZ+CgQJTv76+L4B9QWv+2/3cQVOCpAA//q+/o0F6QAD+pn/nQShAXT+iPsQBX4HyfzV+voA2wHq+0v+pQLsAOH+EAIQAFkArAGx/u4G+/+o+BL/qAUTAkkC2f4e/879Kf4tAjkB/AJV/6MBwQA2ACsCRgASANX/8P4U/+H+qwOYAxj7jP8n/1P+DgIHADgApATAAQ//xwEoAkcAyPna/QMBuP4a/0IAawzLA/LxK/fQBJoFnAfl/iX2K/oPCH0JTf/b+av9xQTUAKz8iwDxAsv3//qhCX8Nff9I8Mv0aARfDzgC2PUI/KMJdQpX/W7rNu5wDPMVIQS79Lr00/+uDkoSh/Zv4iT6LhToCYD9Gvr/+8P9kfzSA5EVNg5G31LWHg5DK9ELSe3A6RMDnB1cB2rhi+muE64atwQB81vrF/nhCnIKsAVRBzD7xe6l+dEKewpR//70dfdgCHMIzPky+UwC/g3MBj35efLt9eYAZgelDbIB3PC++JoNhwkS/Qn6JvtC/GQA2gH3BlAPZwKz71L3qgYJBfP5VvEp8jUORxXIBxvrp/anAqwIBwNf+KEF3gucASHxHPcvBHEKcQFuAkL69/d7/CQJIAtp/XHyCPB9BHIYQROV90fpKfepCMMNIgCJ8OD7IAlPBAf6iv+oAO36TPqmAWsGwwrYAjr4DP+sAZD7nPgSB58GVf8N9Cn6OAmPDAf/OPD7/q4CHgQBBEEAgf4B/SUCnwXb/7//APuOANQDdv89//X8rwKyBb4ASgLT+579B/vz/XAAWge8Du4BvfAy8/ICaAwtBCz4MP8EBUAFDPwP/A0FRQHn9kHzJQFLFuoNu/YK66D2mwsFDN8C2Pq3+mr9Av+MBakCNP1F+G3/3gJIBUj+Aftd+0MB0AVFAij/4fxQAGYEhQOP+1z5Mfz6Bg4IgwDD+NH4LAQyCVwEEvn4+6wAKwCsAlUBfAHy+vb7W/84BQ4IIgAF++D9JP8nAdD8wPvaBKIDBgLY/Cn8rATM/R0G7gHY/Bz/Q/9IAqYEaQruCUfxw+Do7RMYZyQzAnHo+OLcAD8UyhQkADHse+3sAlMZShPa8x/q7PhRDBEPzPm77pf2JAwgF+MGX+zm6CsCPxmVDlj29enj9iwLHAk6BKwAaf2r+Pv6gABzAokCdQWTAg3+j/y2/C4CuwZbBYD8/vXA96kDcRB+DGn3LvIY+30HpA4yA6Lz4/F9BwQO1QXr93bx5vzRC34LcwBv9jX23gANBQcCRQBBAE/+yP+pBF4FUf/2+Uv4rgOiEJcGOP3m8BX67g+/EkwBC+3K7Tn+KQvPDygAP+588M3/SxPnD9z7sPm6/aj+KwEqA54GG/2t+kD8UABiBBkFGP3h8Er7WwirBpv+BPrF/zoILwW6B/UE5PUJ9ab7HgTkBMb+0/6J+2gE1QHGAkoDMQJq/pb4df6ZAgv/6v6M/40A3AJNA8cGGQHa99X3gv41BEgFxwU0A2T/sv9S+nr4AwUkBiEKL/967n3rwANjHaQYou5Q3eDrIwzbIXMYCvn238LrzQVHGTMQL/xW7sPxhgbcD5UL5POy7TED2wmRBSf9kfhn/WcDoAbPBSH7bPg0ACwEjwWP/sj9gwTm/Av7swD3/gQALgJO+NAFivz2/Y0HiP7xA1YA6PtIBIcE8P3X/DD9FvpQAgoGzwKp/ET8OgFL/ioFEQOB/SAAjv8fA+AGu/5I+df8GwGPAYYADwOt/Jv6nwO8BYsAzP9v/YQBIQei/af+0wE9/NoExwj8/fvw4Pwd/4T9pAo5Bvf4DvfnAxwHXgDzAbsFvv1Z+wYBuwBC/2YBTv1Y/h8GsgJ5/4kBPgHu+0X9TwnH+hr34QXK/CgAiwVWBdL3EP3fArMEugEU/h7/nPwu/2YGJgYXBNT49/U5/z8JTgXF/ukBRf4d+9j/LgKT/fwA3wMI/0X9eADIAXP/zf3MAE0CIQLyAsz89v2J/y0AxwHSAW7+Wv0lBDoE/gCeAdMDIwEe/sv7yP1x/rQDBgMw+db7IP+AAjgHoAW9+yv74v8YAjUBoQGoAKv7yv4xAsYAKAMLA579uftw//wCIgM+Bv/9Svg8/93+bPtaA/YHT/8jA8UCG/V5+mYCXgIJAi79BvvN+vEDPQUq/uv3k/w+AS39CwDvDM4Kjfjo+ScFZwKLApwGSwmN/W/3rfed/jb5pvnVByMDc/IJ/7QUzw0S+772Cfjm+BgCoQNy9lTvcAISF+UN7fFK7z//RAifB2QF+wEJCqEKqPaQ6m/xGQEmER8Q1vkC8Dr7XQA0/yP/r/hSAuAFagNWAUgD3v7b7wYAnAuPCDMF7vaI9dgBawdwBED/Wv7N+Uv3mPoIAlsC1gHZAFv8nQT7CloFxgCl+Nz9mf8c/Fv3n/90CWgEZfyGAJ4LTgVMCfIElfHF5sj3ZQHXAO4EvwQU95j+aQDXBKkM+QhS9W/0bwGm/h/8Zf9VBTQJuQsB/En1QPT8+Q0BzAH1A1ECjwZrBgj6SfYWAdr9XwaVAPEBlgG8+wz8eQNaCFMDUgVxAZP1ivUs+Pz2/f2PA40FOQi9AjL1dfhTA3sFjQMbA1j+IPpt/wAAr/+k/i4CEAefB4T7h/Ok/R4Hhwl2BfAEKwQO/Jj42PZh8Xr5xQeTCIP9W/ub/Ar9SABABP0IwAk+AU/35fxM/vT17QIKCp4GfgRv/D/19+85+R4G2AxgE5UOjP5u8hDuOPVZAFQFdwDf/0n5S/mPBYsFLQg2BvsA6fyh/TX/4vsS+Pz5x/v2AzwIEAJ2AXQAJ/wjAOsERQF8/E78egJt/goAEwXW/kv+ewHD/PL7TALpAzgI4AmC/3r2dvoe+5/3aPqxAHP+cfsrAlUCaPyi+n37+/Q6BSEZzgqY/Wr/+Pu9+EsH7Qgd87X02A4oDo37l/N6+aoAXQEu/HYBtQ4cDlkDBvxT8WbvHwNrCgX/2Pd3/vb9mfzQBw8InANFAVv/TP6s+1f7PgJb/3sAkwfQAbj+VvsD+3v/MwMVA4kDAP+i/nn/av77BdsDU/lW+JYCHwfuAhH+//58/WP9Bv9i/90BAwS0/Y//9PZt+vkLLAH2//YSt/rI6y0BQArfAPn/UAUBAsP7n/li+2IAmwMZ//z+pgAB/jr+2P4/+coAxwQlA7sEjAZdCIT5lvIZANYDNPo1/ZQCeQHH+8wA0gdcBdgDbPt2+BMAmwLj/sn/7/y7/b8C0wEp++j7Qf/9+p4D8AuRBE3/H/10/QgBpPzk/I7+YQBbBJn/Tf/KAFf/4wSnBLr7nPrI/54DIwQL/2f1sPpUBScFJP8SATUFGv/8/BMDn/1x+P78iwP8B6gDngBTAh0AhPxh/en7sfxI/tYBlgQT/hj5CAJlBLYEXQVFAnb9avpF/Ln6mAFHAIH+JQJ8A00CZAOVAzX/+vgU9+//fwgwAJ7/UQNP++b48QPgA+n63PvNATYEJQEb/DsA5wC+AjgARPlp/U/9JwBuBosIzgQB/EH54vtrABL++//iAvsA7Pyu/db7xgDlA83/v/8VAPb6xf3F/toJhQbH+4f6tgCoDGoCN/fp+Ln7cP8pAlQHX/9Z+d/+4QDkAFAGqAT+AdX9nPxzAbb+rfnm/sUB9//tAcQA0QE1/Lr/gwIN+xEHywXK+NwAkf+D/AEKWQPd9xL9PQPa/rz9tf/m+TAAEQ5OA/z7RAJ++sv45ACC+c4EPgn5/4YCJfwU+g4DKADt/8IAGP8PAygEF/zu+L3+OAPd+nUBfxST/1z0CgLz+i79fwMiAMD/2/6L/asBogad/030UvtNDPUFzPlP/oL/jQAhBI8Ckfum+W39Nv8EA7wBFvwGAA8CPQQ/Aer+kfq1+f0EXwek/hr+sAS0A5j2tPrxBGL9xP3MBD8C2PqO/MwCdAcbAV74evmCAmgG6f/X+Ir+CQecBdD6t/8nAej74ADGB2kEmfpB+GX+rgByBRYAfv70ARv8dftYAeIASALwA+f/Ff+8BoMByvjA/TQB/f0S/84AIwHbAHcAIgKyA3f8KvrAAGz/E/9iAzgAvP/Q/2j9Cf9LA7ICKf9b/0oFagCv+gD9xgDwAYH/NwHwAK/+JgD6AIL/0f5WA6IC9f2s/e8B+QEeAYIAPvvF+8L9hf84BE4Cvv0lAKwBHQItAKkC/f5I+m8B4P/k/osDov/B+8H/vP/Y/+wDwv54/XD/oP/6ALH/Bv5r/6wB6f/Z/0cCUQA1+j/+3gf0BOQA3gDB/8IAU/0C/iMCsQFE/i78B/6z/dz9r/82AkgEpgBQ/h8FWQme/df4g/ye/SgBJwP2/1UBoQHe/Yn/pgDV/ucAVwNZAKn94/9bAOYBmgDY/r4AwP4E/lr+2/+S/iUDPwr8/b721gA4BZ8BYfzh/CEAxQGLAaIBtv0R+zr/mwVSBLf8kfqYAr8EagHP/y/+9f3n/agBywLM/nP83QHVBDX+nvqt/DoCswTvAC781f0QAqUBowGDAF8AZf5W/tj+Pv8oAGwBJwRg/9L55v3iAq4Dbv8h+o4BNAssBZ32vfOC/PQDggaGAi367vnWAU0HCwdk/aX2e/15Bm0FN/019U/+wg1TBsz5EfXr+vIK8Abc/X8Cuf509mYFbw3l+CP0qQOIBpL/Y/pp/kkKygKl8W4BJQnZ/Rf/ff/r/2gEfQdq+NDzDgcIA6z60QNc/R398Qic/Zb66gS5/LT8xgjrA6/4Yfw9BWwGEP/d+Yf9mAJzCH0Dl/Ph/FkGof3g/PkBB/8d/DUG6gEQ/LUDE//r+dsBLQZ1AVEAVwAH+Bn+dQwk/130Cf/NAm0EGwI3+Xz9AQXI/238CgDK/ioC+wfC/xL4Rvzo/X394gL2BxsDU/1S+yT+kAV8BR4B4//D/oD7JP15AWMBaAFNAur+D/wo/HT/oQRcA1n+g/2q/vkAmQAk/w8AVgDR/93/rADm/tn+SAKmAor/gf9/APD+Y//QAa0C8f9j/wUAQv5LAFICVwJU/1D9iwCOAZ//kgDhAE3+7P79AZAAqv8fAksCxP5v/p7/if+0ADgA1f/9/3z+O/8lAZAAvP4SALcA6f+bAKABFQC0/o4A5ACF/5L/UACaAJn/Sv8YANb/j/8/ANEAHwHX/yr/5/82AF0BBQEh/4j+8P69ABYAQQD+/xf/F/+j/7P/Cv9vAPEASwF2/7L/rv8kAA8AKP9wAf4AIgAnAGAA6P84/2T/Qf9BAOkApP/6/+L/2/7N/5cA0gD1//n+hgBqAdL/4f+NAGP/bf8mAPb/GAGvAXoA8/4L/6b/UwCk/w8AFwD+/ksBvAAy/3f+cP0OAJICfQA2/20AewDU/zT+MP9+AIX/5P97AU4BFAD2/4//YP9CAEwBCAF9AHEA9/8HAMT/X/9oAaEBQQHa/2D/Nv+vAmwAr/tjBBIC7Pvt/xkAIf1KAoUDbv+dAbIAXvz+AUkC8PoI/2sBEQATAicBPQBKAIz/4v6A/0UBBgFAAPb/kf8e/23/oABtAVoBIf+s/v3/wAAaADQAh/+c/7gAagBzAHD/of+0ABEARf/z/u7/SgCoAXcBqv9lAU79xfwkAfoAqgB+ALD/y/8LAUkA0P/b/3j/iwAyAWT/w/5IAJMAqP8ZAOz/I//k/7MAWgDz/u3/OQFz/2H/UAE5AfsA9wCn/zn+PP/LAHsAaP8NAN0BKgBS/0gAQv/B/gMAUwH/ALL/AgGtAIz/QgH6AJf+ff90AB4ChgMaA/f+HPOU9tQFaQllBaUB9AAD+kL2IP1h/uX9nQbWCcf/I/+bAeb7YvtT/6UBev/IARgHZQI2/AX/0gLdAIQA7AX+BJj/4/tp+ab5QP83/iv1bP5QDnwIP/y8/kAC4v/o/MT8kwI1CBQFgvoa/ecDBQF1/aj8rAAoA54A+P59AU0ElgBT/Cf+vQBIAR0BWQA9AAP/T/0KABb/2v+bAYQAeQFGAEYBGwEr/xsBIf9Z+x4FAAB1/CYKrvn781cGtQdT/PD7WwM9Agr+d/4cAh4Bef3MAOQBPv7I/tX/aP+6AOP/Z/9mAf0A5/9DAIn/jABwAfj9/v4KAar+WP/kAO/+5v2i/7sAtwEhATP/LADh///8BP/IAv//z/0CAbYBIAAZAF/+6/7FABoBtQDw/hP/wv+y/cb+nAXnA5D8m/v0/4gCVf9q/wUDYQL7/V39MQCtAM4AZQFpAJn/Y/8bAD4B+f4u/e3/UQKQAk0Aqv3i/Yv+7/1sAHYCJwF6AHL/v/8VADX/nP5s/5oC5wIn/yD/pADmAAYAtv+5/tv/UAOp/nkASP/4/t3+D/+wBXoAjf8t/z0A2P///sQAMv/y/28AYADk/33/rgCoALwA9P6a/18AcgAIALv/XwBNAFAAcv8uAAkAiP9uAFcABAHE/xUA8//X/+cASQA9AFUAs//8//f/7/98/9j/tgAjAJgA/wCqAIH/m/8pAND/4f/E/+D/cgBDAGv/G//s/oL/cv+P/73/igD4////uQAuAD4AOgBcAHcAfQAzAHj/8/8LADoAJ/95/vP/7AB/AHb/sf+UAA0Aef6h/xQBr//p/73/oP++/zsASQCI/6z/DwCl/1L/kgBkAEkAhwA//57/lQC0/2kAcQDT/jX/VgCk/2gAvwBi/1v/LP+PAHUAVgDnAPf/4v+T/3D/LgCcAHEA+P9L/7D/8wDI/5P/bwB/APD+cv/CAGsAywApAfr/Zf8cAI7/qf7b/u79JwDJAgkCLAAP/mb8yP+BA5oBFQAmAK3+Ev+oAIH/Hf9YAcP/a/4GAMMAjgABAIz+8v6KAIAAlQApAHb/KAD4AFf/VgA/Afv+CwBq/6D+KAByAGICdwAE/ycAsf9p/6T/hQH8AnYDjgIb/M73K/ls/94K9wweASz3k/q1/0cDDwDI90AAlQBd9ln+7PxcAY4GH//BASwFJwC4+dv89gO/AzUDowIQ/6MCcwqH9bXq4wy/EALy4vDDCJgGgv0OBSv7t/KSCuQK8fa6Dq0MP95w8l4NH/1SE/AJ9+unB237PvXpA5/17QNwCiAK7g/r7eH4a/ef/h8Zj+1eBRsCkvRPBYH2JQ13Din9afoQ9i/30PsuA1cGiQ1/Bg8Ax/xr9xX5bQVVE3ME7euJ7RXz1v2WDnoRCgxgBaz4AvXF9zz5xgD8CV0J6wGY/Ar9Rf7Q/UD/9gE4BK0Bq/8yAEj/JwERBPcGGAxVAGzY0uvmC6IIdBJh9y789wTL+wQBtwCuALP+1AcfBiP+7/my+M79Uf8+ATUBYwBtAmsAK/+TBQEGsf9R+Sn92P6d/mcD2wbUBaj9WPdp93P8fQOEBkEDGP5Z+4D/0AJ8AaL/VwBCAW/+b/0ZAa4Dzv+a+2X+z//T/x4BRwHsA2ADW/0e/HIA+gEDAFX/Nv/a/dH+sQE2AeH/6v8iAF8ATABCAWsBk/8OAgj8tPnTBLcAVvwE/v0CJwDg/mIDYP/M/BwCYwT++8f+hwC8/PkAYAFF/3v/MAEeAf3+kgH//xH+lgGUA5v6VQHJAIb88AKl/5j+4PzWAQUDAP8V/pn+fwHIAMT+7f+N/wgAwv+o/poAGgGN/9P/ZgBcACUAvQDh/5T9b/8MAVwAzf5F/6gAywDn/gD/lwBAAef/Lv/s/y8A5v/p//z/DgAp/8D/NgC0/3YA0ADU/5v+4v44ABwBNABn/23/1f/X/3EA7//8/lj/xAD+AHP/mv8oABMAJACYACwAwf+m//f/EgCi/3z/uP+v/20AzAAoABsAHQBl/yMAYwD3/x8AGABKAEIAYwBOAJf/If+Q/zIBbgF5/yb/SwHFAo7+wv4rAFX+Nf9oAPf/s/92ABUAq/+2AJoAof/q/+b/YwBcAD8A8v/e/9//+/8TACUALQAYABoACQANAAIASQC//wAASAAbACgA7/8HAB0AQACWADv/8f/bANf/2f8EAIAAFACF/7//FQDYAHwAi/7c/3sBjgCe/73/LwD1//j/OABaALn/qv8WABIATQASAP3/BgAJAO//HQD5/5X/9P8YALf/CAAOADAAPQAeAEAA/v+Z//n/RgAhAFsAFADL/9X/gAAlALj/kf9I/+3/XQCK/4z/jABPALP/JgA9AOn/kf+u/zkAIgCI/5j/PQAmAOn/NwA5AOL/sf+9/97/yf+9/9H/agCtAEEAuP/K//X/EQBIAML/9v9hACwAQgDo//H/TQBc/5P//f8VAHcACQAuADUAeP8QAAoA9v8sAAUA4v/A/7P/wv/X/wgATgDIAC8Aq//6/53/3/90AF0A2/+x//L/HAASAO//NgCHANn/cv9b//X/zwCMAHr/CwCLAFP/yv9pAGgA1//H/x8AUAAlABsAQAAhAGz/Zv+d/8T/9//9//P/OgD9/yn/+P+V/9r/AQF1AM3/U//g/2MAlwCoANb/YP82AFz/Qv98AGQAFACq/77/+f+A/+n/pQAAAMf/yAAZAEv/wP+BACEAHABCAEL/agDYANv/Yv8HAHgAKAAZAJ//9P+rAG8A+f+w/wIArP+a/xQAiACyAD4AhP8l/wMAiABXADgAQwC4/rb/sgEBAbL/FQDE/8b+/f7R/oj/y/+w/3QAiQDOAAMAqQIqBF3+DPyv/hr+/f3+AAQBKAFQ/9H8mgnd/d35QgmE9gIDUPwJ+4UCpwKCBR/9af00/0oAjP9c/oX/5wWUA3v/y/w0/AQCa//RAJr7IAMwAz3+rP5zAbkG8/fX/7oDWvyH/9sBZAU3/QD7/QSN//n3EPje+qMGkxfu/ejxNP6HCjAKKO4D+6wMLAB6/Nb90wICAksBQwPZ/xoAu/fN+csFDQOl/xv/C/8KAWIALPwxAXEM8ANj793wSA8dEZv47/XgAQMFKP2j/cL9JACaAHsCRwSBAE39zP7bACH/Gv/NAMgB9gHq/pn+BAKMAHv93P7C/xwAtf+aANICEAFA/t0AQgDyAZEAoP0q8CkEvhi58HzlgRYDHY3yQ+hFCY4Yc/YS4lgFtxaq8gb1QAzXDVn4hfO2AAH4FBFcCfvw2f+lB2wCDvxT/14DR/ZmAUkJXvQQAAgIsv2++Zj+uAScBAoGevvB+c4DPgMf/Wv+VQS2Avr93fgX+WgNNwT49e3+LgZ/BN36AwXoAbLx2voDAZ4HEgRz/aP+OwNqAXL+0/+tAJD/8/6T/VoB6wC1/5wAFP/JAOIAgf7pANoAzv/N/cIA0wGV/yL/0QBy/1n/3//O/0//5v4cASYB4f5hAH4AIgC1/5kCogIg/Yz9s/4v/iP+0wMGBHv/aP7n/ar9WgFAAPP9zgJgBqQBivts/xQCTf2Q+t0CmAPQ/lH89/6sANMADATtAdT/pP8/AEH+wPxcAPQAlP+L/z0AIQEJAEn+LAFdBJEA0/7X/iYCvwEh/9L7Svt/ACsAngDxAiECFQLLACn//v/TAHP9g/5HARgC/v6Y/a79q/z0/2kDdgUjBKYADP0B/ez+qP9F/pX//f/X/e/8Zv8MAO4B7QQQBOv9Ovps+/v/6wKDBbAGngcYBQX6pPOx9ij8rP8qAsoEcgYlAnb/lwCo//795/4FAtECRAJf/8T9CQA7/nj/+QB7AEr/8f6aAEcAHwE9AeL/+gCH/2b/r/60ADQBs/+hAB4AhwDS//3+5v91/wQB7QAu/lf/owFgADAB4gCS/7H+U/9+/wIAEQAgAPUA+ABj/x7+vP+8ACoAVf/7/74Axf8E/xQAfAFzAVT+zvwU/p0BtgE+AVYA8v7w/pkACQHZ/jL/JwDW/00AdQDW/zYAP/8Q/4gBnQG7/579pv6EACQA2f+g/w0AEwBqABYBrADk/+D/2v5m/nv+Cv+1/0YAwgFVAToAYwCG/6L/av9EAJMAMABxAD7/Dv6S/yoB+f9J/1P/8/9hAHUAbQB4AKMAYABw/9//vv/Y/w4Amf+5/9T/EgCOABYAUP9YAEcABgCn/3r/2//u/5MAuQDH/5f/dv8LAB4ALv+L/1oAUQCVAMEA4P9g/xD/of/5/xYAwADcAJ4AEAC9/yP/oP1k/1wBZ/8WAPIBXADg/wL/0f2TAUoC3v3Q/0IBkP+//8r/RwBNAdsAEQDI/z3/2f5K//H/vwCPAJb/hP9AAJgAoACMAAAAIABO/17/KQAwADEACQALAAMAjv+k/6MAYwB3/ywAfwAjANX/CgDe/+D/VQAaAP3/v/+V/zn/CAAYAYgAzP+T//7//v+R/9b/MwDJABkAxf9KANH/cf/7//0AlgAB/0f/BAA+AHEAhwAfAIr/RABYAAIAq/89/x8AgACx/0H/oP+oAHYA4P80ADAAiAD9/3D/LADa/2P/4P8KACv/pf/sAOYAdQAjAKr/s/4M/9AAYwAtAO//EQAKACkAKQA0APv/W/+8/63/YAD2/40ARAA3/8L/vP+5AEMAf//E//P/zP+WAE8AjP/0//v/lwC4/3//9P85AP3/AAAPABwAmwAxAJL/L/8hALEAPQCy/w3/LwCl/1wALQDU/5f/Tv8gAFcAEgFlAIz/u//s/wAAIAAJAJn/XAAJAGv/vf8GALz/ZACVAK3/KgCbAMf/dP+2AAUAef9IACAAff83ADkAcP9XAFYA2f+V/87/JwAzAA0A+v/U/zwA0QC6/yf/XwBTAS8AqP7g/8wAhv8q/xsAx/+iANoADAA0/6f/QAHwAGoB2f5V/QMAFACG/of+PAFXAWb+wP4nA1ACsQCVAscBWfdY+eoOKQhI8kD5sQeLBZENQQeS6K/ofAXrDor1aPnWB0X93vr7AjAESPREDskHpuzd/iIHqw8T82IB7gzq+RD+bPv5B4j8a/7DAP8AeAI9/sn+iwD7AqP+Jf9OAd0Bv/7u/rcATf+uAJ4A0f/K/qAABAGU/zQAGwBj/1z/fQFoAZ//2P8d/yX/igAeAaL/wv7s/2wA5/8zAGMA+P8+/4sA8gA//8b/GgFVAND+5//kAL0AcP8E/33/VwHzAOf+bv+kALQAqv+P/04AwwCY/7X/LQCU/7P/cACVAPX+P/+///X/SQBdALL/of+cACIAmP8MAOL/YP8SAHkAsf+D/z0APQDn/5L/rv8wAC0AWAAUAHL/u/+2ALj/af8nAE4A/P/C/0sAiv9n/0MAZwC0//j/ogC+/+//HAANAKb/DwD//6b/OwAKARMA7P66//X/zv+r//L/EwDIAEMABQBt//z//v9D/4//IABJAe7/XP85ANIAC//r/gMBZwAU/8H/bwB9/+X/MAGuADv/Jv9f/00A7QD5/63/jf/m/+H/TQDMADYA0P/N/83/X/+bAM8An/8y/wYAiwDd/6n/sf8DAC4AWwC+AAAA4/5Z/5wA3AD0/+v/JwBN/4j/o//Q/4gAHACm/9P/AQB1AD4BCQEo/73+xf+ZAA0AZAAaAMn/JAD6/2AAKABt/xoArADa/6L/EQGj/+T+BgHeAPD+EQDlAPD/3f8hAE7/Sv8BAQUAu/8aAAIAeADP/zYA6//T/w4A5v/s/67/WQBlAA8AzP8dAGEA0v/P/xkASgA0APX/7f/8/+X/+f8uACEAsv+9/0UAjQBIAI3/w/+BAGAA/v+0/xkAKgD1/ykA5//k/xAAJgAiANr/zf8WACEAFgAJACkAGQBEADwA8P+b/8n/GQBKAPb/ff/n/0sAKgC4/8z/KgAjAO7/5f8LAKz/tP8YACIAyP/b/y4A0P/E/3cAIwCk/xcAbwA0AL7/pf+s/+j/SAAZAO7/oP/D//X/3f/a/6T/zf8mAEwASQDU/8H/8/88AAMAvP/w/7L/BAACABoA2P+a/yEA/v8kAC4A4v/c/xIAMwCh/5z/cQAaAI//zf+8/wUAQQAIAPf/4P/7/zkAFgAJAOn/6v8rACoAHACj/8//HQAnADAA3P/7/w4AIAAxAPX/3P/e/93/MwBMAOf/7f/w//H/IwD2/9j//v8tAOr/KQATAPT/CgAgABkAAgDn//D/WwARANT/3v8sAEgAOwBIAL3/nf/g/2cAbQA1AMP/nf8NAD4AIQAbABEAEADi/+P/AwA2AE4Ayv/r/w8ASwA4AMz/yv/+/x8AEQA6AOv/CgApANH/2//4/wcAqf+l/7T/6f/t/9L/+P/5/+L/HgA4AB8ADwAdAAsANwAKAJr/DQBAAAAA5f8AABUAigBzAB8ABQCL/9z/XgDS/57/vf86/1b/pP/I/zUAYgBEAKT/Wf9BAEwBYwCw/9f/ZQByACUA0/9V/2T/b/8iAJgAIAD//zgAKAAsACkA9/8jAC8A+f/D/8P/AgAZAOj/5f/5/xUAFgAEAFYALwALAPP/FAAfAOz/5P/w/xAAIAAWAPH/8P///woAHQDh/+b/n//e/w0AKQBOANn/AgCAAFYAAQDf/8D/BgAQAOv///8MAMj/a/99/+L/SwB+AFkABwBd/7b+P/+lADwBAAFZAN7/c//Y/xMADQD4/xEAEABFAEcA9P/k//3/w/+p/7n/rv/W//3/KgBoAAMA2v/d/wsAOgDk/8b/+P/x/yoACQDW/+D//f/4/7T/2f/z/xwAQgBaAKAAXQD6/9b/3v/P/8z/4/8FAFMAbACy/03/FgB9ANv/i/9KAGoASwBgADIAvf9h/9j/7//q/wIA9f+K/93/WwAeAC4ACgDg/2D//f/ZAN0B2QGAAJ3+Ov7u/hT/w/3A/Kv+xgHgAr4B2AHpAWEAJP50/tn/Hv+T/9oBcABm/oD/BAK4AF7+vv+7ADQAff+z/7L/3v8mAP0AtQCWAGgAbgBmAFYAAwDh/07/uP7i/tD+cf/U/7z9BAE6AcYBYAHPAQYANv8j/xH/sQATAO3/uP/x/2UA1wD/ANsA+P/1/oT+Xf7s/XH+agDEAbcBKQEDAQYBrv/p//kAO/+C/Sn+w/7a/qUBGwL9AcsBiP8p/xf/z/6u/5r/tAAV/zT/AwEYAbv/X/4EAI8A/AE+AKL+qwA9Auz/rf2D/37/Cf2P/sT9uQGHCfj+jPh8/k0Cav4DAYsD7gA4/3j/xP9n/aIAFQC2/yj8JP7C9H8OuwaV/PoFFP9SAQT3OAeJ+3P+SPsbAvMDCvwiEFj/4vL5/OoEnPwM/0UGRABJ/+7/kABKAEf/mf8YARb+aP5WAQ4AVv9c/s/9Tv2iAmAG9QJWAND+6/55/gQBRgCT/+j+Tf/EAHYA7P/n/37/4QCBAOf+mgAVAF0ABAD7//7/vP+MAO//8v/J/5b/Uf+EAJ4A8/9yAPX/7v/x/18AQwBEALD/2f+N/9T/7v+Y/1wATQBGAEX/W/9LABwAbwC2/5j/0f9yAKMA0/9zAEX/WP8wAEQAHwDW/wAA6/8UAPf/uf9gAIMArP/w/wIA3P+n/6L/sf+GAI0AJgDa/9L/DQAUAJ//+v8SAEIARQDS/w8APAClAAwA+v8aAF7///92ADUAFQDt/8v/DwAWAF8Aq/8//9UAkgDr/r//lwLk/2P8hwEzATD+OgAIAQr/1f4DAcUA+/6OAU0ACACTAC8Bpv6B/eQBUwCp/6L/pwCz/jr/fP8r/3MABgE2AJ3/HP+p/5D/UACcAK8AhgBaAOr/DADw/2//of/9ANcAOP+IAa7/ZP4t/lD+gvzvAEYG2wPCANX//P1O/LH/zf/e/97/8wEkAtH/9f6//rX/ogBTAScAY/+q/+r/owDNAG0An/+K/8b+Wf+9/04AdwHFALH/gP8MAN7/2f/g/yYAfwA0AGn/jv9aAAcA5/9g//7/LQCC/wQA6f/5/5wAPgBl/2b/Xf9t/14A3f/o/4sA1AHIAET/Lv8I//H/4QCMAOD/JQALAPr/NgBuAFMAGAB4/0ABtwOj+xb9SANr/Tn+cwLEAO/+R/9QAZIBif9t/48Atf9p/1YAHQDq/7j/wP+u/7L/pf+BAMsAEADl/60ACwDU/4gAOgDQ/7n/8/8RAPb/qP80/1X/+f6zAMMB0v7J/6EBv/+MAA7/I//vAOn/kgAOAE7/Vf8iAMT/HgCnAK8Ah/8S/04BuQBN/vL/1gBRAfv+J/49ARUBrP4Z/7oAvf8J/3wA1gAzAMb/YP8uAJv/AQBNAWMBSgBe/xz//v8DAI7/3f/n/0D/+/81AKf/JQBVAPn/0v/o//b//ABsAFn/1P/m/xEABABCAPD/tP/V/yYAbADn/73/vv/k/y8AagAYAL//6P////D/4f8OAAsAwv/+/wYAKQAvAA4ACgAfAPH/2P/Q/y8AHADm/xQAHAATABEACAAGAP//FAAOAOr/CAAJAEgAEADN//z/GwAYAAkAAAAMAOn/EgD+//v/BwDi/+H/kP+4/1wA5QCIAJ3/kP8KAEoACQDe/+j/AADC/9//DQD8/+v/6v8dAC4AGQAcADsA6v/L/w4ALgDZ/7z/7/8VACEABADq/wMAGQAFAPP/+f8TAA4A4P/0/xoALQAYAO3/5f8KABIADQAIAPv/7//s/z0AUABLAFAA7v/U/+//6P8FAOf/9P/L/zwA3v9aAEEAj/8LAPj/7v8NABEA/v8mAO7/xv8cAGoAZwBaAEMA5v+//8j/5v+f/hIAMgA//W8AGAE4/9IAMgD1/8YAMADo/zYAGwDf/9T/TwDC/0D/xP+/AH4Apf9p//D/zQAfAAIAqP+R/7cARQBF/sn/sgG8/4D/3P+iANYAN/9NAMH/VAC9/t7/WQCCAGYAZf9iAOb/JADAADn/cv/9/4wAJgCt//r/r//9//T/OADn/1AAif+kANkAhgB//sn/vgB4AH3/VP+4/xv/uf91AHMBkf+A/yEAjABS/8r/FQAiAMr/mv8SADsApf+k/9z/sf8oAAEBtgAzAK//9/9bAMD/Ov/M/3EAGQDr/zgAOQAvAAYASwB4ALv/ov9yAPL/Nf8/AHcARQCw/3//uf+DAFgArv+J/5j/UwBaAK7/qf/A/4IALgAdAO//9v8nAIv/NgCAAPf/AwAwAEwAPgDG/wn/+f4NAGgBDf8L//ABdQBv/5AAMwAnAOv/xv89ANX/UP9j/xUACwCDAHwA4P8OAJwAkwBWABAAx/8eAE0Aqv9FABQAlf/u/pX/agBFABT/ywCOAPz+hwAtAH7/tf/3/3QAewA7AOn/3f/n/3f/zv8rAGIARwDy/9H/+v/u/+T/bQBg/woANQAWANz/qABNAJj/b/8MAPP/8P/Q/yQABwDn/8j/1P/L/8n/FQAVABwAIwAJANL/BQAzAC8AhP8AAFYA/f8iALb/x//T/30AjAAVAFH/vADT/vT9ZgFfABoB/f4J/vEA9QAFAPD/CAAKANb/4/9TAI0A0/8S/87/PwAiAEsASwBCAG8ALgAFAJj/0v/j/1T/MQAAAOP/OQAgADYA+//h/wIA1/80ADQANwAtANj/7P/E/+z/LgDY/wIA9//Q/wIA7f/1//T/1P/F/8L/OQAEANn/7v/6/zYAFAAAANP/6v8QAAEA4v/X/7L/AAAnADEALwD8//f/6P8NAOz/z//k//r/AwDF/+T/FQDa/9n/9/8gABYAEADd/+3/3v/3/+P/KQDn/1oAIwDx/tcAXACA/2IAIQB9/93/LgDs/9j/GwAfALv////g/83/+v8SAAwAPAAmAMb/EgAVANz/+////xwAOwAZAA8AAQAHAAkAQgAiADAAwP98/wkAYQCgAOr/d/8FANz/u/8IAGEAkAAaABMAq//F/0YAAQD0/z0AOgDO/9H/8P8jACUA9f8DABsAIgAhAPr/FwDU/9X/6f8AAGsAtv8RANb/RQBDAMD/4v/q/+3/9P/z/0UA/v/1//X/BgBCABQApf9zAKj/VP+ZADz/1f+fAAoA0f/5/wMA6v8QADEA9f/s/8f/agD8/5n/5P/Z/0oA1P+pABcAbv9v/8f/4wAzAMz/RwDS//L/EQBeABQApf/2/wwA9v+q/w0AYAD7/9L/CgDi/8H/5f8wAPv//f8TAFYACgAHAL3/+f9bADAA+f+r/xgAx/8JAEYAAgDu/9//yv/1/0QA//8KABYA6f8dAO//NQCmAM/+8QDa///+tgDr/+z/EADW/77/IgAsAO3/EAA0ACMA5f8NAFsA8//i/wsAFADq/wQAAwAOABAADwDq/ykA/v/i/wAA3v/X/zUALgDL/zwAHADj/xgAEAAWAAMA+P8pACwA3P/5/wYAFgD3/yEAGADz/yAA/f8FAN7/FAD8/+L/AwAMABAALAAyAC8A2f/p/w0A9v8YADwAigAP/yT/7QC//8cA1wBo/g0AhQAx/1cBVf/J/q8Ap//Z////AwCcADIA0P8IAO7/0//A/9D/RQBrACQAIgDa/8L/GwD6/yEABAAlABQAFAAkAP7/GQDE/9P/DgADAOH/yv/6/5P/b/8/ALQAlQDy/4D/wv/h/wYAAgD7/w4Awv8FAOj/OwAwAMX/2//q/73/+/9MAOb/+/8wAOP/+f8yAPf/GQAZAAgA8//V/x0ADADd/yEA9/8FAOj/tv8IAPf/7P/B/+f/OQB0AGkAwP/7//b/tP87ALn/+v8jAMD/DgAJAAoAAgDw/w0A8v8cAM//EQACANX/XQAxAA8ANAANAA4A5v+e/83/IwDo/7D/IACg//L/PwA3AAkA9v8BAAIAIABKADUAGf8aALD/MAByAN7/+f/R/wYALQAIAOT/9f/a/y4AHAD+/wkAMQD2//L/EwAHAN7/AgDe/wEANQDw/8v/o/9WAAUA/P9GANX/5/8WAAgARAApAI3/LgCZANf/z//S//T/QgC1/y8AfP5L/1UCMAC9/kQCcv7E/KgDMv9O/9ECWf1GAIoBKv4sAZQA9/36AGMA7P5TAQEA0f7rANX/WgAaAD//rf8/AA8A3/8AAKn/igDr////HQDZ/9H/DwD7/+P/zv91ANr/3/9AAMv/GABGANH/+//y/5T/EgBNALD/WAAyAKH/TAAPANv/YQDf/0AAEQAF/2IATwC9/7gAwP9A/44Ar/8bAEsAu/8nAEYAxP/O/0wA6/9EAB4A4/8hAOf/rP9KACAA4v8TAPT/DwAcABUAFwDq//b/2v/n/z8A8f/t/zAA2v/+/woA4f8DAAEADgAaAPf/1v8ZAAoAIQApAPf/9f+9/+n/IAASAPb/8v8KABcA+v/f/xcAJgDs/wwA8//y/wQA7P8GADIA+//5/xsA6//5/+X/8f8UAAIAAgANAOX/BgD9/+f/AQAuABUADAAOAPz/FAALAMn/8f8lABsA9P/u/93/CwAaAA4AGQDn/wQAKAAPAAkA6v/5/wcA7v8eAPL/6f/3/9L/WQAZAF//nf+J/8oAAwGzAFUATP9u/7X/YwC1ALv/nP+O/wMASwBNADcABgAVAOT/FAA+ACcA4/+2/9j/+P8oAC4AAgDj/+P/LgDI/7z/FAD2/ygA/P8bAEgACgDU/9f/EgAdAAQAAgDi/+3/6v8hAB4AJQD5/87/2f8IACwA9//E/+j/7f/t/zUAIABDAEoA6v+m/+b/IADg//b/2v/D/+P/2/9MABwA+f/u/+b/EAAEAC8A9//V/wgAEgAKAAwABADr/xcACwD7/wcAAwDr//3/GgAaADcADADK//f/4//8/ykADwDx/+X/zf8NAC8A9f8eABQA1v83AOT/2P8UANL/8//s//L/KQAxAF0ARQC//37/CADi//H/MgAJAOH/0//s//b/BAATAPb/CAAeAAMAqf/b/97/EQBIAAYAwf+r/8r//v84AAcAyf/N/8//DQASANz/6//k/9X/HgAfAB4ADADK//H/AQAHAO3/6f/6/+j//f/1/+n/EwAWABsAKwDz/93/DAAjABcABwDQ/8X/CQAjABAA6f/0/yMAIwAPAPb/2f/3/w0ABwBMABwA3P/g//X/BwD6/zYANwABAAwA6/8bABgA7f/6//T/0//6/0QACAD8/wAA8P8eABgAHQDx/9L/+P8OAPT/4//o/w8ACwDk/+n/x/+2/+7/EADb/xUAVgB0AJ0ABgC2/+3/5f+k/83/2f8dAGoAAADN//j/FgAgAPf/6/8BAAkAHwAWADwAQAAKAPn/2P+4/93/9/8WANL/xP8PADcAMgAYAO7/OwAZAND/zv/K/97/4f+i/+z/PAAsAA0A1P/Q/w8AHADz/yAABQDb/+n/BQAjAAAA8f8cACcAVQD2/2v/CwAaAPP/GQDZ//z/BQAAACUAGgDI/8H/FAAaAAcAAAD2//v/8f/z/w8AEAAMAPn/5f/x/9P/HwBZAAkA5v8DACsA8f/H/8b/cP9hADMBt/+9/0QA5P/9/ykABAATAPH/3P8UAFAA/v/F/9P/+P9SAD0AAwDP/9T/4/8KADsADQDl//3/DAAvAAwAvv/S/xwARQAyANT/3//2/8n/zP8iAPf/2f8DAPf//v/+/wgADAAHAN7/CAAjABwAAACd/7z/AAAiACoAEAAGAPn/4/8EAAYA/v/q//3/EgAWABEA7/8lABcAFgD0/9L/+f8xABoA8f8iADcAJQAAAMX/DAA8APn/BwAOAB4ATAAgACQA+P/j////GQAvABIAEgATAB4AAAAHABcAEQAFAAwABgD6/w4AFwDj//b/GgAUACEA+f/3/9v/EABDAPP/3/8mAFUAPQAgAMf/if+l/wkAJgDx/97/1f/R//T/PgBRABoA5P/u/8n/xv8CAPv/y/+4/z8AZQAWAOD/4P/u/8b/AwAXAOr/9P8BACgAEgAAAPj/v//0//r/FgBIACEA2f/t/wIA0v9OAD0Ap/+c/wQAIQAVAO3/zf8DACAAZAAnAOb/4f/3/y0A3f/W/xYAZQAtAHX/e//w/x8AXAAUANb/4f/0/3IAMACZ/9X/pf8gAHAAzf/Z/9f//P9IAAsA3f+5/+n/RABHAMv/tP/W/+z/UgAwANH/7v/3//j/JQDy/93/2P/T/wAACQAFAM//8v/y/0IAPACX/8b/3/8FAGkABgCa/8P/3v80AH4A/v+y/7z/CQBJACAAIQCI/7b/UwBSACkAuv/W/8v/DwBdAB0A0v/I/wwAMwAxAOb/zv/H/+b/YABdAOb/dv+W/9D/OADAAIgA0v+6/zUATAD9/53/dv9v/9n/ggC8AE8Anv+j/yUAawBGAOX/kf+w/z0AYAAmAM7/pP/P/xYAWQAPANP/qv/s/0cAVwA5ANr/tv/6/ygAQwAyAN7/iP/a/0UAZwAqAMH/vv/Y/ygAewAkALf/lf/l/1sAXwAJAMT/9P9CAFQAQQC4/zf/m/84AFUAKADJ/83/1/8BAHAAUQCm/5T/5f/e/xkAIgDr/8D/6P8jADIAQgD1/77/5//4/y0ANQDu/9H/AwAdABsAEwD2/97/3v8EAAkAIQAWALz/2P8IANj/5v8pABEA2P/i/+3//P8oABwAJwACAMj/5P8sACUA7/8MAM//2/8fAB4ALQD4/93/7v8lADIAHwD4/7f/FAAuAPP/1P++/9z/GgBNAAoAtv+1//n/PQA1AP//2f+//wQALQAeAPX/xf8oAFUAFADg/7b/0P8XAEYA7f+5/93/FAAtABoA3v/k/wYAAwBmACQAuP/m/9z/9P8IACoA+P/S//r/9f8mACAA9v8ZAAsA/v8YAPD/4v/1/+r/IgAoAPH/4P/M//j/YgBeAAEAxf+v/wgAEgAlAAQAjv+s//n/KABFAFAACgCH/9n/OAAsADUAEACn/8j/JgA3ACgABQD//yAA7P/n/yMA8v8mAFkAHADf//n/EgAWAG4ANwDO/8X/5v/9/1IAHQDM/wQAzv8bADIACgDh/xEAMADt/8//3f/8/xgAJwBNACYAtf+U/wgAYQApAPb/EAD5/6T/EwA7ABIA6v8HAA4A1//L/+//DwD//wcAEwDW/8H/0P8lADgAOQDv/5n/w/8RAFAAVAC0/2v/2P8+AEIAMADm/3v/uP8yAF4AFADD/6z/sf8tAEIACQDU/6H/AwApAD8AFQDy//f/EwANAPD/CwDR/+D/SQA7APX/CwDk/wAACwDo/87/1f8YADMANwDs/9P/3P8iAEoAGADc/8j//f///xcA8//+/ysABADs/+L/BwAhACgA6f/p//X/BwBaAP7/vv/Y/+T/RQBSAAoAuv/f//H/UgA6AMb/q//2/y8A7P8KAAUA/P8UAPn/yf/k/+f/6/9MAPX/w/8EAAcASQAQAM//z/8OACsA2v8YAOD/vP/K/+3/4f/w/x4ARABDAOv/yv/6/zAASADZ/8r/zf8MAFMA9v/I/yMAKQBPAC0Ayf/T//b/GAAAAJr/6f8aADsAHQDW/+T/4P8XAG4A8P+i//v/QwBgANz/R/+v/xYAqgBgAHD/uv8OADwAnAAoAGD/qv9PAFoA7P/F/5n/BgCkADUAuv/I/+z/UgA+AOD/+v+9/xgAQwDS/0EAHgDy/yAA2P/d/xcASwA6AKr/vv9SAEsAFQDu/73/8v88ADgAAQC+//T/ZQBJAOz/sf+0/wMAZgAoALD/3f8fAG0A7P+1/+D/DQAhAC8A8v+u//7/0f9DACUAof/n/ysAHQAxAOX/qf8TABUA6//z/9P/8P8WAP7////6//f/GAAKABYACQDh/+z/EAADAPX/8P/Q/yQABAD7/wkAzf/7/zYAJgDi/9//DABVAEMAxv/J/4z/fv+2AHoA2P8JAI7/JQDOAGv/Rv8uACMA6P9YAIAAvf+m/xAAZgDQ/4T/xv8BAHAAVwAkAOr/IABaABoA2f+e/1D/wf8rAEwAHgDM/8r/LQB0AFEA9/9H/4H/lwAVAU4AQf87/3L/nACdANP/TP8+/wkA1QC+AA4ALP+v/30AfAAZAIr/aP/z/z8AOQA+ALD/FQAlACgALADk/58Amv6e//kA5/8ZAKX/o/8IAHYAmQD//5v+q/62AA0BhgCu/0f/rP/d/6kApgDd/1j/h/8lAJ0AUgDg/3r/Tf/+/4MAgwBAANL/tv/4/ykANgAoANn/Z/9//xkAfwAuABAA4P+j/wAAWAANAM3//f/k/8z/GABLACUA/f8CANL/yP8nAEgAEgAFAP3/wP+1//X/LwB8AEUA8f+0/9X/aACHAB4AzP9u/0v/of9eALUAcwCfADgBKAFPAIP/V/9b/4n/nv8X/6b+O/8YANYA/gC6AG4AOQAGAOj/VQD8/5n/9v8FAMr/hf+a//D/TwBHACYANQAFAP////8BAA4ACgD4/8L/VwAKAewAFwD9/qT/ugC+AMf/rv7r/oL/x/+p/7j/LgCyAKUARwAnACwAeQDZ/6//GADv/4z/Lv/I/z8AHQBWAKkAngDKALEALADh//n/sv/n/n3+Uf/+/zQAawAVABMABwDY/wMANwBXAE0A9P/L/7r/lf/U/5sAGAHvAGcA3P9U/+z+2v47/xsA5gAYARsB/wCdAAMAU//y/vn+YP/E/9P/BwARADYAogBjAPz/CgANABoAYAApALz/xP/7/wcA4f/h/xkADAD4/+7/6//4/wEA/P/k//P/FQApABIA7f/n/+X/6v8EABcAGgARAPj/5f/0/wUA7v/T/+T///8DAAkAFQAYAP//4f/j/+z/3v/M/8n/0f/g/woAMQArABkABQDs/+z/9v8GABAA9//x//z/BgAMANv/5v9PAEIA5P/m/wkACwD5/9r/4f/4//z/GQAkAP3/7P/y//X/BAD//wEAFQD5/+n/CQAIAAIACgD1//j/EwACAO3/9P8DAAoA+P8BAB8AAQDu/xgAHwAJAPr/7P///wwA+v/5//f/9//8//D/FgA8AAQA5/8PAAYA3f/Q/9v/9P8GAAsACwD6////JAAcAP3/AgD9//X/+v/p//b/CwDt//P/DgAEAAsACgD3//D/6P8CABkA9P/y////9f8JABAA9f/8/wAA8/8AABEA/v/4/wAABgACAAcADQD///D/AQD0//f/FAAYAAYABQAHAAEA8//l/9//JQA7AAIAAwAeAA8ADAAAAAYA5v/S/+T/2v/v/zcAIgD+//z/3v/D/x8AWQAtAOb/xP/I//n/KgBBAOf/rP/p/zgANgARAO7/5v/s/wUANABNACMA6f+b/9D/WwBNAAwA5v+b/7L/IwD2ALkAQ//1/tn/3ADvAKn/ZP+q/xEAlwDp/7T/HQDS/2EAXgDI/zEAMADn/yUAGgDT/4//nP8XAAoAn//v/wAAEwBNAE8ACQCv/7v/BQAKAO7/tv+s/7T/w/8tALoAyACjAE4A9/+V/zL/Sv+T/7f/vf+n/8z/CgC6AFUBGgGIABcAeP8h/yH/gP/5/+r/AAASAOH/MADz/wcAWgBsAPEAmABWAOz/af8Z/wT/uv9cAH0AiQCiAG0Awf8m/3n/1f/E/+X/FQBoAIYAuwBQAH//T/9H/6r/NQBmAAMAKQBHAPv/IQBTAFgAVwBpACoAhP8Q/2v/zf/U//b/MAAtADUATwA+APf/GwA2AMT/aP+G/ykAnwDIAJgANADc/+f+p/6T/7cADQG1AD4Ayf99/yn/bP/U/2AAxgBrABQA2/+//7H/0P8IAPz/3P/j/8b/4f8mALX/Zv/5/44A+AAAAbYAbADy/1T/5v4I/37/KwA+ACcA8f+2/9v/PQCdAL0AlgBBANL/fv92/3b/r//z/9f/vP8+AHQANQA1AAIAGQBLAPf/0v/l/+n///8AABEAGABBADkAGQASAMT/sP+z/yQAXgAJAAgA7//i//z/+/8eAPz/3/8bABoAz//p/wUABwArAC4A/f8KAAwA7f/Z/wAAEQALAPD/6v8JACQAGAD3/xcAAADT//D/CQAYAPP/1f/w/xcA/P/9//P/8v9MACwA3P/r//f/9P9BAMz/nf/Q/x4AOgAjAO//3v/t/xIA/f/n/xUA/v/4/0MAYgAPAIL/iP/h/yQAJQAvADIA8f++/6j/AABPABMAPQBBANX/xf/G/xwAKgDv//v/+P/1/ycAOgAQANb/2P/I//n/UAApAAIAGwAMAML/3/8GAOX/u/8lAFEACgDh//L/5//+/0cArf+o/3cAJACK/zMAZQDA/7P/FwALANP/LAAaAAAA8P/d//3/FgAzAND/zf8UABYAFAD3/w4A1v/j//z/4P/u/zcAAADv/wwAFADb/9X/3P/k/yMAIADd/w0AFADg/wQACwDh//X/+P/i//3/MAAoAA0A9f8DAOr/3f8IABEABAD7/ywA+v/T////4P/8/wsADADt/9n/8f/5/woAEQAOAO//6f/5/xIAHwD0/+T/8P/9////GAD///X/AQAKABcA6//9//T//f8VAP//EwAYAAQA6f/w/wEA9//3/8v/xf8iAAwA6P9sAFIATf9lAFsAz/40AOkAXP8QAJ8Ag/+S/1UA5v/E/10ASwDQ/9r/IQDt/9v/GAAxAMD/zP8PAPD/wP8+AF0A7P/q/wIA4P/x/xcAHAApAC4AKQDk/8z/5v/r/+H/9P/5/wgA/P8FABoA/f/y/xsAFAAOAOn/2P8EADQAFwDg//3/AwDr/xAAEwD4/xYAIwAoANj/EABKAMP/4v9QAPL/6f8sAPn/4f8NAN7/2f8uACEA9v/w/w8A/v/8/xsA/v/o//7/JAAjAAYAHAD7/97/6v/X/67/of8JAG0AzQDtAKAAAQB3/2v/k/8EADgADgDn/9b/0v/1////BQA+AEoADgA6AFwA7/+8//D/0P/H/wAADgDd/8X/BQBHAC4A9P/b/xgAVAAmAN3/9f8dACYALgAKAN3/7/8sAAwA9v/0//b/DAAQAPb/3/8DAAMACAAGAPr/CgDP/9T/9P/B/7L/1/8eAGEAeABPAD4ACgDp/9r/tP+1/8H/3f/7/wgAGwDl/+f/2P/d/83//P92AGgAawBPACEABQDd/6P/ZP+q/wgABQBRACsA2v/r/xIAKwAtAP//GQAEAOH/AQDx/8f/m//c//3/AQD+/wUAEgAMAAUAEwABAAUABgAVABIA4//z//f/5f/z/+H/7/81ACIACQABAAQA9v/x/xQA+f/5////1v/W/wEAAQD5//7/7//8/xQAGAAQABMAEQDq/wsAAgAJAB8A5//k/wQAGgApAP3/4v/5/xsAIgD2/+T/4P/l/xAAKAAKAOj/3v/j//D/DgAPAPr/4f/y/yEAIgATAPj/9P8bAP////8CAAYACgAIAA8A/f8OABAA8//Y/+D/IwBCAAIA7f/w/+//IQAdAO//8v8HAA8ABAAQAP3/CQAqACMAHwALAOn/6P8FADcAMgADAOv/3v8GAP//9f/h/9f//f8xAAgA8P8YABsAGwALAOz/3f/V//j/FgAaAAIA2P/g/xsAIQAFAAEAAwD7/xwAEAD+/w4AAQAEABMADgDs//H/+f/l//H/BQAEAP7/DQAVAAIA9//3//v/AgAFANv/8/8LAA4ABQDi/+D/2f/d/ycABQDL/wIA//8AAB0A5P/J/wIAAQD2//X/9v/7//n/FgD5/+z/+f8aADMADwD5//b///8FABQAEADk////IQAJAAsA///r/wgAGQANAAgABADy/+T/7/8AABsA+P/d/9n/6//9/xcAEQAIAPn/8/8BACIADwDl/+7/CAAkACUA7f/k//3/JwAyAPz/zv/n/ygANwALAOL/8v8nAA8A8v8WAAkA5v/h/wMAFwD8/+z/+v8EAAUA+P/r//3/9f/R/83/CgAKAOT/4P8GADUA+v+n/8f/EQBCAOT/h//I/z8ASQDK/6D/8v88ACAAsv+l/woAYAASALH/yv/w/1gAHgDf//3/9/8sAEAAvv+v/9T/FgBjAN3/n/+//wUAfgA1ALf/qP/q/1kAeQAKAJT/tf8YAFkAOQDE/6r//v8sACEADgAhAPj/1f/g/wwAdgBdAM3/ef/n/3UAOwD6/wQA6//m/y4AHwD8/xYAJAAMANf/1v8cACcAFwAoAO7/uv/v/0MAKwD9/9//CgBDAOz/2P8RAAAA+P8WACcACwDN/7f/+v8iACgAJAD3/9//9/8cACIA7v/T/wkAAwDw/xYAGgAOAAIA9f8CAAUAAAAbACAA7P/0/wEA+P/+/xAAFwAOAAMA7//3/w0A9/8LAAgA4v/u/x8AOgAfAPz/w//T/+//LABKAPP/uf/k/zkAQwDo/8j/IAAZAOT/5/8cAAwAuv/r/0EAHADT/+L/EwAmAPv/xP/d/xoAHQAEAOn/9v8bAB4A1P/F/zcAOQD+/+7/+v/6/wcAGAAVAOb/6/8GACgAJQAKAM//6v9FAEQAFwDd//H//v8OAPX/8f/g/+L/CgAVAB0A6f/t/w8A+v8JADMAHAD4/9z/FwAeAOT/1P/1/y4AIAALAPT/1v/6/zYAWADS/7r//v/v/////f8kAOH/wP8EAB4AFwAAAOj//v8RAAUA4P/u/xMALQD4/77/3/8nABAA7/8KABkA+f/g/wsALAABANX/2//9/xgADAACAOP/9P8TABEA+f/p/wYABAAPAOr/5/8JAPT/6v8CAA0A/P/n/+z/BgACAAwAHgD1/+L/+v8LAA8A/v/q//3/EgATAPn/7P/5/wUA+//5//r/7f8MAPj/+v8CANv/9f8UAA0A+v/j//b//P8AAAMABQAGABMA8//O//f/FQAvAO7/0//3//n/HgAgAOX/6v8MAPn/BwAQAOb/+f8MAP3/5//r/wIACgACAOT/7P8AABAA8f/2/xYA3//4//3/7f8AAP7////0//3/9P/9/wsABAAYAPn/1v8FAAQACwD9//7/BQD//wYA//8QABMA6//z/xAAHwAJAO//AgATABIADgD5//z/EgDv/+7/8v/7/wYAEAD+//j///8JAAkAAQD///b/+P8OAA4A4f/0/xsAIgAEAOb/5//v//z//v8GAPX/7P/7/+3/BwAGAP7/+v8LAOv/7v8LAPz/BwD9/+v/+f/u/+7/BQAFAPv/7//x/xMAEwAFAAwACAACAAMACAD0//f//P8IAPr/AAAVAPb/BQAMAAsAFwD//+v/DQAJAPv//v8FAPn/BwALAPP/CwABAPb/DgASAA8ADQD9/wEAFgAKAPn//v8FAAIA7f/j/wUA+/8SAFwAGwDN//n/FQAGAOH/+P8xABQA1//Q/wwAHAD8//v/EgAIAOb/+v8UAPn/9f//////AAD4//r/FQASAP7/8P/w/wwACwAFAA0A/f/w//j/FQASAPX/9v8OABsACgDs/+//EgAUAAAA+/8UAAMA2v/t/yAAKgABAP7/BQD2/wMABQD0//n//P8IAPf/+f/s//z/CgAAAPX/+f8EAP7/DAD2/+v/BwAJAAAA+////wcABwAIAAUADwD2/wEADgACAAAAFQAYABYA/f/d/w0AIwAbAP7/+v8AAPz/AQALAA8AAQADAPr//v8OABUADQD7//H/+v8EAAwAFwD4/+v/AQALAB0ACAD2//n/AAAXAA0A9//t/wUADQD//wcAEQAEAAEA/P8EAAwAEwAHAPn/9/8EAAgABwANAPz/8v8EAA4ADAD+/wEA+v/9/wMAEQAVAPD/8f/9/wIA/P/7/wYA///q//P/EwAPAOn/3f/z//7/EQABAOT/6f/9/wQA+P/2//n/AgD8//H/+P/5//r/7P/3//////8NAPf/BgAAAOv/BgAIAAoA+//X//n/DgD7/wUA+P/7/wwAAgD+//X/8f/8//7/+f/z//v/AQD6//D/AQAMAOz///8HAPb/CQANAPH//P8AAPb/8//2/xIADAADAP//+f/0/w4ACwACAP//+/8OAA0A/P/T/+v/OAAqAPj/2v/2/yoADgABABMA+f8EAPr/9/8TAB4AEAD5//n/5P/z////8//7/+T/8P8EAPn/CQAAAP//CQD8//P/6f/r/wIADwD2/9H//v8uABkA7P/o//7/CQAhAAwA2v/d/+3//f8MAA8ACAD0//H/AAD8/wMACgAFAOr/+f8PAAIA5v/7/xoADADd//X/CgDs//H/EgAdANj/3f8qACMA0v/o/yMAFwDY/+X/PgAlANr/3v80ADMA8f/s/xcAMQALANv/9f86AEQA/P+v//X/cwA3AKb/0v9TAFwA5P+k//n/VgA2ANz/yv/8/zUAOwDR/7//CgBOAB8AsP+1/ygAbwD4/6z/xv8XAF8AJwDH/6r/7/9tAF8Ayf91/8L/ZAB9AA4Aov+b/w0AawBGAOP/mf+0/zcAUAAMANb/1v/0/wwA4//m/zEASwDd/3z/v/8wAF4AGwC//6z/8f8fAA4A5f/P/xIAPADo/63/5P8nACsA5//X//P/DgALAPv/AgDc/+P/EAAKAPX/6v/3/wsADAAMAPb/2//t/xgAFQD0/+z/9f/9/xcADADs/+j/+v8kABwA+f/w//3//f8GAAwAHQAcAPj/3f/q/wsAIgAkAPr/3v/r/ywARgAoAN7/yP8EACwALwAUAOj/2P/+/zAAIgDh/6L/BgBNABUA+f/W/xQALgAFAP3/BQADAAoAEAD+/xIAAwAJABwA/P/3/wQAFwASAPH/4P/v/xcAGwD5/+f/+f8VAAgAAADv////DwD2//z/AgDw//L/7P/5//r/8P/+//7/+P/m/9z/7v8OABcA+//F/8//EgA3AAQA0v/l/wIADwAFAP//7v/m/wEADQAJAOD/5/8KABIAAwD9//X/9v8KABkACwD3/wUACgATAAEA8f8DABsAFgADAO7/+P8WABgABwDn//z/HQAMAPn/AAD//x8AEwDj//z/CAATABgA/P/j//T/FgAZAA8A+v/3/w4ACwAKAAwABAD6//7/BQAIAAoAFAAIAPH/9P8MABMAAgAAAAsA+v/m/wMALgAfAOv/4f8PACkACgDQ/9r/HABHABYA2//R/w4AJgDz/9j//P8RABAA8f/w/wIAAAAAAAAAAwDz/9v/7P8cABgA+P/M/+//FAAbAPb/4v/7//n//f/2//z///8CAOv/5v8CAAwAGADy/+b/+P8NAAwA+P/x////EwD///z/+P///xEABAD9/wAADQAFAPb/AQAEAAwABADn//3/FAD+//H/9v8JAA0A+//u/wMAFAAHAAMA9/8CABYACQD6//b/CAAOAAMABAABAOz/7v8PAB4AAADb//D/HgAXAPL/9P8BAAwABQD7/wMA+v8BAAkA/v8BAAoA+f8BAAQABQD//+v/8v8KAA0A9P/r//3/DgAFAO//8v/1/wMA9v/t//b//f8IAPn/7v/y/wUAAAAAAPP/9v8DAAcA8P/1//7/9/8JAP7/6f/1//3/AAAFAO///P///wIAAAD+//z/8f8BABgABAD7//r/+/8JAAYA+//6//z/BAD0/+//7f/8/woADAAIAAIABgD8/////v/5/wAACQD8//3/AAD5/wIA+f8IAAIA+/8CAAMAAwABAP3/AAACAAIAAgD6//r//f8DAAYACAAEAAQAAAD6/xAACwAEAP7/+v8DAPz/CwACAPb/BwD8//z/DgAAAAMA9v/+/xEACAAFAP3/AgACAAAABgAKAAIA/P/+/wMABQAYAAcA6/8EAAYACgABAPf/AAD7/wgA+f/6/xYAAAAAAAkA//8NAAQA//8FAAgABAAFAPv/AQAXAAYAAQAFAP//CAAGAP7/CQACAP7/AAD8/wcAAwAIAP//9P8KAA4AAgD5/wkA/v8DAA0ABgD9/wkAAwD7/wcAAgAKAPj/9v8GAA8ABQACAPr/+P8QAAkABwAAAPn//P/8/wcADAD7/+//9v8OABAADwD1/+X/AAARAA4A///r//3/CgAPAAAA+v/7/wYACQDy/+////8KAAMA+P/z////+v/+//j/7P///wAA9v8AAPj/9v8EAP7/+f/7/+7/6P/2//n/AAAFAP3/9//9//3/BwD+//r/9//5/wUAAAD6//z/AAAJAAQABgD9/wEACAAEAP7/AgAIAAoABQABAAYAAwAIAAQABgAIAPv/BgAIAAgAAwD6/wUABAAFAA0ADAAJAPv/AQABAAQA/v/5/wEAAwACAAIAAQD//wYA//8EAAcA/P///wAA+P///wkA/f/6//7/+v/9/wIA+P/9/wAA/f/+/wAAAQD///v//P/+//7/AwD///v//f/2//v/BQAFAP3/8v/5/wUAAAD+//X/7f/5/wQAAAD8//f/AAD2//7/9v8FAO//9f8GAPj/8/8DAPP//v/z//H/8//5//r/+v/+//7//P8JAP7/8//7/wQACAD0//L/+f8GAAsA9//7/wEABAANAP//+P///wwADQD3/wEA//8IAA0A+P/1/wEACQAMAAcACQAAAA4ADQADAAcA/P/+/w0A//8FAAoABgASABIACQAEAAUACwAGAAQABwACAAkADQADAAYACwABAAYABwD5/wYACAD//woAAQAFAAcAAgABAP//BQD9//r/CAAFAAcABgD9/wQAAwAIAAAA9v/8/wQACQD+//z/BAD8/wAACQD+//r/+P/6////BwD///j/+P/7/////f8HAPr/8f/8//v/+f8CAPj/9//+//P/9/8FAPz/9v/9/wIAAQD8//z//P/4//n/+v/4//3/9v/9/wIA/P8DAPf/9/8FAAQABQD6//b//P/+/wAA/P/8/wIAAgD7/wAA+v8BAAUAAwD9//r/BgAFAAIA///5//X/AwAAAAcA/P/5/wEAAAD//wQAAwAFAPv/+P8AAAkAAQABAAIA/P8DAAQABAAEAAUAAAABAAQABQAFAP7/9f8EAAoA+P/+/wUA/v8CAAIACAANAAIA+v/0//X/+//6/wQAAwD8//z/BQADAAIA9//u/+v/9P8HAA4A+//r//3/KgAtACUABwDf/9f/7f/6//r/9v/l//7/BwAAAAQAAwACAAIABQACAPz/AAACAP3////2//n/CAD+/wEA//8DAAsAFAAJAPv/+/8GABIACQD7/wEAAQAAAAkABADz/wEACAD//w0ABAACAAcA/v8AAAUAAgAHAAMACAAHAAUA/f8BAAUABAAMAAYABwAEAAgABAD//wwACwADAAQACAACAAYAAAD8/wMA/f/+/wgADQAOAAYAAgD4/wAA+/8BAAQA/P/6//n/CgAJAP3/AwACAP//BAD7//3/CgAKABEAGAAIAPj/5v/i/+T/6P8AAPv/BgAQAPv/5P/x/woAEgASAPr/3v/c/+3/CgAUAAEAAwAEAPj///8HAP///P/0//H/BAAGAP//+f/3//3/+//+/wYA/P/8/+//8//9//3/BQALAAcAAAD+/+3/4v/s//L/AQAIAAEA+f/2//D/8f8EABEAEQAFAPr/BgAMAAoA+//+/wEACAAHAAMABAAGAAcABgAEAP//BwAJAAkACQAFAAwABQABAAYABQD//wQACAAFAAQABwAOAA4ABQD//wMADgANAAgA8//8/wEABQAKAPz/AQADAAkACQD///n/+v/9/wMABAD7//T//f/8//3//f/s//r//f/5//r/9f//////9v/1//r//P/z//T/9f/z//X/9v/3//j/+P/3//3/+//0//j//f/8//P/9P/7//z/+v/4//v/AAAEAAIA///9//3/AwDz/wEABgAHAPz/BAAPAPT/CQACAAUACQAAAA0AAgAQAAIAAAALAAcACAADAAMAAQAMAAYAAgALAAcABQAGAAkABAAFAAMABQABAAkABAD5/wkAAgADAAEA/P/+/wYABwAAAAUABAADAAQAAwACAAgABQD+//3/AwAHAAIAAgAAAAAACAAEAPz/AQABAAMAAQD4//7/BgADAP7//f/+//v//f8BAAEAAwACAP//AAADAAcAAgD9////+f8BAAEA/P/9////AgD8//v/BQACAAMABQD3/wQAAAD5/wAA/P/9//7/AgD7//7//f/7/wEA/f/7//3/AgAAAAAABQAAAPn//v8DAPn/AQD///X/BAAAAPn//f/7/wIAAAD+//3/+//9//T/+/////z/+//7//z//P/+//z//P/6//7//P8AAP///v8AAPX/AwAHAP//8v/0/xIACAD1//X/BAAIAP///v8BAAEABAAIAAQABQD//wIAAwD//wYAAwACAAEAAAACAAAA+v/+/wEA/P8GAAMA+P/5//v/BQALABAAHAAXAAsA+P/w/+b/5f8DAAsABAD3//r/AQDy//3/AQD8//z//f8EAAYA/f/0/wEA/v/5////BAACAAAA+//4/wIABQD///3/+/8BAAoABgD9/wEAAgD+//z/BAAFAPj/AwAHAAAABQD+/wEABAD7/wEABAAHAAoA+//5/wAACAAHAAQACgAGAAUA//8GAAUA//8HAAUADAAKAP7/AAACAAEABgAOAAgAAwD//wYACwD9/wIABQAHAAUA/P/6/wIABQAAAAEA/v/+//z/+/8AAP3/+f8AAAAA+//6/wAAAQD9////AAD7/wAA+f/9////+f8AAPr//v/+//z//f/6/wMAAQD//////f/6//3/AwAEAPz/+f/9/wAABAD4//z/AQABAP//AwD///3//v/6//z//v8CAAIA/f8DAAEAAAADAAEAAgAAAP//AAAGAAIA/f///wQAAwABAAIA//8GAAQABAD//wMABAABAAYAAAAAAP3//P8HAAIA/v/6/wQAAAD//wMA+v8FAAQAAQD+/////f8AAAEA/P8AAP7/BAD9//v////8/wEAAwADAP3/AQD+/wMAAQACAAUAAQD3/wEABQAAAAQAAwAAAAQA/f/6/wQA/////wMA/P/4/wIAAwAAAAAA/v8FAAQA/f/6/wAADgAFAAIA//8EAAYA//8LAAIAAgAHAP3/+/8FAAcAAwAAAPz/BgAIAAcA/v8AAAUACQAHAAYABwDz//r/BwAIAAYA/P/6////AQAIAAMA9v8DAAUAAAD7/////f8BAAIA/f/7/wUAAgD5/wEAAQD8/wAA/P8EAPr/9P8EAAEA+//3//v/AAAFAPv/+f/+/wAA/f/8//7//P8DAAIA/f/////////8//3////+/wAABgD+//j///8DAAMA///5//z/AgD///z//P/9/wMAAgD8//n/AAAEAP7/+//8/wIAAQD9//v//f/8/wEAAAD9/wAA/P8IAAMABAAAAAMAAQD8//P/6v/2//z/BQD+//T/+v8DAA8ADQACAPf/9f/7//7/AgAAAP///f/9//z/+//2/wUADgD8//3/AQD7//7/AAAFAAgAAQD7/wQABAAAAAIAAQABAAQAAQAAAAUABwACAAAAAwADAP7/AwACAP//BQD8/wYABQAAAAEA/P8AAAQABgD/////BgAGAAAABgADAAIACAD6//z/CAAFAAMAAwD7//7/BAAAAAQAAAD7//z///8JAAMA/P/8/////f8DAAQA+P/9//3/AAAEAPz/AAAEAP3/+/8HAAoA/v/8//3///8FAP//AAD8//v/BgADAPn///8HAAMAAQAFAP3/9f8BAAcAAAD1/wMAAwD1/wIACAD5//P/AwAGAPP/9v8OAAUA7P/7/woA/f/y/wAACgD1//H/BQAMAPv/7P8GAA8A6//v/xAACQDs//D/FwALAOD/8f8eAAkA4P/2/xQABgDp//D/DQAFAPn//f/8//n/BwAMAPj/7P8GABgAAADt////DwAAAPz/CAAGAPf//P8SAAsA6//r/xIAFgAAAPr//P/4////FwAJAOn/9f8WABgA9//s/woAFgADAPb/AQAQAAMA/P8JAAwA///7/wYACQD///X/BwAWAAYA9P/3/woAFQACAO3//f8SAAoA9P/1/wkAEAD9//L///8JAAIA9//+/wMAAQD9//3/AwAFAAUA9//0/wUADwABAOr/8v8WABcA8P/i/wAAHgAKAOT/4/8LAB8A///j/+7/EwAeAAIA4//r/xQAHwAEAOf/6v8IABoADQDv/+f///8bABQA8v/n//f/EAAXAAAA6v/s/wgAIwAPAOv/3v/6/yoAJQDr/9X/9v8iACYA+f/b//L/GgAhAAEA5//3/w8ADAD8//X/BwAPAPv/7f/3/xMAHQAAAOT/7v8RACAAAQDk/+3/CQAaAAcA6v/u/woAEgACAPL/9/8HAAwAAgDz//r/AwAGAAQA9v/3/wAACQAFAPz/9P/7/wkABgABAPf/+P8CAAQAAQD3//j/BgANAAAA8f/3/wwADAD6//P/AAALAAcA+P/y//7/CgAJAPr/9f///wsABgD5//b//v8EAAIAAgD9//7/BQAAAPz/+//8/wMA///4//z/AwAKAAEA+v/8//3/BAADAP7//v/9//z/AwACAAIABQD9//r/AAAFAAEA/f/4//3/AgD//wAA+v/9/wIAAAAAAPn//v////7/BAD8//z/AQADAAMAAgD5//r/CQAFAP//AQD///7/BAABAP7/AAABAP7//v8BAPj/AwAEAPn/AQD+/wEAAgADAPv/9/8DAAEA//8BAPn//P8DAP//BAABAP3/+////wEA+/8EAAIA+//6/wEABgADAP7/+/8EAAEA/P/+/////v8AAAYA/v/7//z/AgANAP7/+P8AAPr/AQADAPv//v/8//7/BQD8//r/AQACAAEA//8AAAEA/v/8/wEAAgD+/wEAAgABAP7//f8AAAUAAwD//wAAAQAAAP7//f8BAAQAAQD6//n/AwAEAP/////7//7/BQAEAP7//P8CAAMAAAD7//j/AgACAPz/BgAKAAgAAwAGAAMA/f/8////BgD///X/9//8/wQACAADAAAA//8FAAYA/v/8/wMABQD7/wAABAD+/wEAAwAGAAMA//8DAAoA/P/7/w0ACwD///z/CAALAPz//P8KAAgA+//8/wcAAwD8/wUADAD///L/BAAOAP7/8////wkA/f/8/wQABgD5//3/CwADAPr/+/8GAP//+/8GAAUA/P/6/wcABwD6//3/BwADAPf//v8IAP3/9f8BAAcA+v/4/wUAAQD3//3/BgD+//X//v8IAAEA9f/9/wkAAQD7/wEAAwD6//3/BwD+//f///8IAAEA+/8BAAQAAwD/////AAD+////AwABAP7/AgAEAP////8CAAMAAAABAAQAAgD9////BgAEAPz//f8FAAUAAAABAAUAAgAAAAQAAgABAAQABAAAAP//AAACAAIA/////wMAAQAAAAEAAQD//wAAAwAAAP3//f8CAAMA/f/+//7/AgD+//z//v8DAAAAAQADAP3/+/8DAAEAAQAAAP///v///////v8AAP3/AAAAAPz//P8BAAAA/v/7/wIAAQD9//n/AgD///b/+/8CAAMA/f/9//7///8FAAIA/f/6/wUABAD6/wIAAQD6/wEABwD7//r/DAAAAPT/AgAKAP//8/8JAAQA+v8AAA0A+v/x/w4ABgDx//7/FQD7/+n/CAATAPf/8/8KAAgA7//9/w8AAwDw//v/FAADAO7/9/8XAAgA5P/0/xwADQDi//r/HwAJAN//9v8jAAUA3f/+/yIA/f/l/wEAGAD8/+v/BAAVAP7/8f/9/woACAD5//T/AAAOAAgA8v/w/xQAEwDv/+j/DQAXAPP/5f8FABkA/f/o//T/EgARAO3/6v8GABAABQD2/+v/AgAfAAcA4f/n/xIAIQD1/9j//f8rABMA2f/f/xoAJwDx/9f//v8lABAA5f/n/wwAGgD5/+D/8f8OABQA/v/n/+3/CwAbAAMA5P/w/xUAFwD1/+D//f8mABEA4v/m/xIAJgD//9P/9v8nABEA9f/z//z/EgAPAPX/9v8DAAcACAD8//n/AQALAAwAAgD3//v/BQAOAA4A/f/s//n/GQATAPz/5//p/xAALQAKANn/3f8NADUAGwDe/87///8uACUA8//T/+7/GwAdAAAA6P/x/wwAEAD2/+//CAAXAP7/5f/u/wgAGwANAPL/7P/2/wwAEAD6//f/+v8BAAkA/f/2////BAAKAAEA+v/0/wAACgAIAP3/7f8AABUABgD2//f//f8JAAkA+v/0/wMABwAEAAMA+v8CAAsAAAD3////AwAGAAMA+P/9/wcACAD9//v//v8GAAoA+//7/wAABgADAAIAAQD+//7/BAAGAAAA/f/7/wMABwABAAEA/P/+//z/BQAJAPz/+v/9/wgABQD7//z/BAACAPv//v8FAAcA/P/0/wAACwAJAPv/8v/8/w8ADwD8/+3/8/8GABUACQD0//L//f8KAAMA///7//3/AQAGAAAA8////wYABAD+//j//v8EAAgAAQD0//b/BAALAAEA+v/5////AwAEAPv//P///wEAAwD9//v/AQAGAP//+f/8/wIABwACAPr//P8BAAUAAQD8//r/AAAKAAQA+P/4/wIACAD+//v/AQD//wIA///6/wEAAgD///3/+////wQAAQD7//r///8DAAEA/v/6//7/BAAAAPr/+////wIABAD///v///8EAAIA///8//7/BQACAP//AAD7/wEABQAAAP7//P8CAAMABAD+//n//v8DAAQAAAD9//z/BQACAAAA/v///wIAAgACAAEA/v8BAAUAAwABAP7/AAADAAQAAgAAAP//AwAGAAIAAQD+/wAABAAEAAAAAQD//wAABgACAP7//f///wYABQD7//7/AQACAAQAAAD8//7/AgADAAAA/P/9/wQAAgD+//7//v8FAP//+v/9/wEAAwAAAAAA//8BAAIA/v8BAAIAAAAAAAEAAQD//wAAAQABAP////8EAAEAAQABAP7///8CAAIAAQD//wAAAwABAAIA/v8AAAIAAQACAP////8DAAIA/v/+/wEAAgAAAP//AQABAAEAAwABAAEAAAAAAAEAAwABAP//AwACAP//AAABAAIAAAAAAP///v///wIAAwD/////AQACAAEA/v//////AAD+/////v8BAAIA/v/9//7/AQACAAAA/////wEAAAD+//7//f///wAA/f/+/wAA/f///wAA//8BAP7///8BAAIA///9//3//v/+/////f/8/////v///wEA///+//////8AAP7//v8AAP//AQD9/wAAAQAAAP//AAAAAAAA/v/+/wAAAAD///7/AAD+////AAD+/wAA//8AAP//AAAAAAAAAAAAAAAA//8BAAAA/f8BAAEAAwAAAP//AQADAAMA/v8BAAUAAAD8////AgACAAEAAAAAAAIAAAADAAEA/v8AAP//AAD+/////v8EAAEA//8BAP7/AQACAP7/AQABAAAAAQAAAAAAAAAAAAAA//8BAP//AAAAAAIAAAAAAAEA/////wAAAQAAAP7/AAABAAAAAgD//wAAAQAAAAAAAgD///7/AQABAAAAAgAAAAAAAAAAAAIA/////wAA//8BAAIA/f///wIAAQD//wAAAQAAAAAA/v8BAAEA//8BAAAA//8BAAEAAQABAP////8BAAIAAQD/////AQAAAAAA//8BAAEAAQACAP//AQACAAEAAgACAAAAAAACAAAAAQAAAP7/AAAAAAAAAQD//wEA//8AAAAAAAD/////AQD+/wAA///+/wAA/////wEA/////wAA//8AAAMAAAAAAAAA/f8BAAAAAAABAP//AAD//wAAAgAAAP//AAAEAAAA///+/wAAAwACAP////8AAAIAAQAAAP7/AQABAAAAAAAAAAEAAQAAAAEAAAABAAAAAQACAAEAAQAAAAEAAgACAAAAAQABAAMAAgAAAAAAAQACAAEAAAABAAIAAgACAAEAAQABAAEAAQD//wAAAAAAAAAA////////AAD+////AAD//wAAAAD//wAAAQAAAAAAAQAAAAAAAQACAAEAAAAAAAAAAAABAAAA/////////v////7//////wAAAAD+/wEAAQD+/wAA//8CAAEAAAD//wAAAAD///7///8AAAAA/v8AAAAAAAAAAAAA//8AAAAAAAAAAP////8AAP//AAAAAAAA//8AAP//AAABAP///v///////////////v///wAAAAAAAAAAAAABAAEAAAABAAAAAQABAAAAAgABAAIAAwACAAIAAQAAAAEAAQAAAAAAAQAAAAIAAAABAAEAAQACAAEAAAABAAAAAgABAAEAAQAAAAAAAQABAAAA//8AAAEAAAAAAAAA//8AAAAAAAAAAP//AQD+////AAD//wAAAAAAAP////////7/AAAAAP7///8AAP///v///////////////////////////////v/+/////v//////////////AAD+////AAD+/wEA/////wAAAAD/////AAD//wAAAAD//wAA//8AAAAA//8AAAAA//8AAAAA//8AAAAAAAABAAAAAQAAAP//AQAAAAAAAAAAAAAA//8AAAAAAAD//wAAAAAAAAEAAAD//wAA//8AAAAAAAD//wAA//8AAAEAAQAAAAEAAQAAAAAAAAAAAAEAAAAAAP//AQABAP////8BAAAAAAABAP//AAAAAAEAAAAAAAEA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAQABAAEAAAAAAAAAAAAAAP//AAABAAAAAAABAAEAAQAAAAEAAAAAAAEAAQABAAAAAgABAAAAAAAAAAEAAgAAAAEAAAABAAAAAAABAAEAAQAAAAEAAAABAAEAAAAAAAAAAQAAAAEAAQAAAAAAAAABAAEAAQABAAEAAAABAAEAAAABAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD/////AAAAAAAAAAAAAAAAAAD///////8AAAAAAAD//wAAAAAAAAAA/////wAAAAAAAAAAAAD//wAAAAAAAP//////////AAD//////////wAAAAD///////8AAAAA//8AAP//AQAAAAAAAAD//wAA/////wAAAAAAAAEAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAQABAAEAAAAAAP//AAABAP///////wAAAQAAAAAAAQABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAA//8AAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAEAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAD//wAAAQABAAAAAAAAAAEAAAD/////AAABAAAA/////wEAAQAAAP//AAABAAEA///+/wAAAgABAP///v8AAAIAAgD///3///8CAAIAAAD9//7/AgADAAEA/v/9/wAAAgACAAAA/f/+/wEAAwACAP7//P///wIAAwAAAP3//f8BAAIAAQD///7///8AAAAAAAAAAAAAAAD//wAAAAABAAEA/////wAAAQABAP////8BAAEAAAD/////AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAQAAAP//AAABAAAA/////wAAAQAAAP//AAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAEAAQAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
-  var AC=window.AudioContext||window.webkitAudioContext, ctx=null, buf=null;
-  function cargar(){ if(!AC||ctx) return; ctx=new AC();
-    var b64=SONIDO.split(',')[1], bin=atob(b64), arr=new Uint8Array(bin.length);
-    for(var i=0;i<bin.length;i++) arr[i]=bin.charCodeAt(i);
-    ctx.decodeAudioData(arr.buffer,function(d){buf=d;},function(){}); }
-  function golpe(stage){
-    // arranca la animación y programa el sonido contra su reloj real
-    stage.classList.remove('mn-go'); void stage.offsetWidth; stage.classList.add('mn-go');
-    var ink=stage.querySelector('.mn-ink'), an=ink.getAnimations?ink.getAnimations()[0]:null;
-    function prog(t0){ if(!ctx||!buf) return;
-      var lat=(ctx.outputLatency||0)+(ctx.baseLatency||0);
-      var falta=(t0+IMPACTO*1000-performance.now())/1000;
-      var s=ctx.createBufferSource(); s.buffer=buf; s.connect(ctx.destination);
-      s.start(ctx.currentTime+Math.max(0,falta-lat)); }
-    if(an&&an.ready) an.ready.then(function(){prog(an.startTime!=null?an.startTime:performance.now());});
-    else prog(performance.now());
-  }
-  cargar(); // decodifica el sonido apenas carga la página (todavía no suena)
-  function abrir(){
-    if(done) return; done=true; try{sessionStorage.setItem('mn-intro','1')}catch(e){}
-    intro.classList.add('mn-out');
-    document.documentElement.classList.add('mn-intro-done');
-    document.dispatchEvent(new Event('manonegra:intro-fin'));
-    setTimeout(function(){intro.remove();},500);
-  }
-  function entrar(){
-    started=true; intro.classList.add('mn-on');
-    if(ctx&&ctx.resume) ctx.resume(); // el toque habilita el audio
-    ready.then(function(){ golpe(st); });
-    var letras=st.querySelectorAll('.mn-title i');
-    letras[letras.length-1].addEventListener('animationend',function(){setTimeout(abrir,ESPERA);});
-  }
-  intro.addEventListener('click',function(){ if(!started) entrar(); else abrir(); });
-})();
-</script>
 
-
-<div class="shell">
-  <header class="mast">
-    <div class="brand">
-      <img class="logo-mano" src="intro/mano-negra.webp" alt="Mano Negra" width="64" height="96">
-      <h1 class="brand-name">Mano<br>Negra</h1>
-    </div>
-    <p class="tagline">Lo que pasa ahora en Córdoba y Argentina</p>
-    <p class="dateline" id="dateline"></p>
-    <a class="ir-opinion" id="ir-opinion" href="#opinion" hidden>Notas de opinión ↓</a>
-  </header>
-
-  <section class="list" aria-label="Todas las notas">
-    <ul class="filters" id="filters"></ul>
-    <ol class="notes" id="notes"></ol>
-    <p class="foot">Cada nota muestra el extracto que publica el propio medio y enlaza a la nota original, que es la fuente de referencia.</p>
-  </section>
-
-  <article class="lead" id="lead" aria-live="polite"></article>
-
-  <aside class="opinion" id="opinion" aria-labelledby="op-titulo">
-    <div class="opinion-in">
-      <h2 id="op-titulo">Notas de opinión</h2>
-      <p class="sub">Selección de columnas y análisis.</p>
-      <ol id="op-lista"></ol>
-    </div>
-  </aside>
+<div class="dolar" role="region" aria-label="Cotización del dólar">
+  <div class="envoltura dolar-in">
+    <p class="dolar-txt"><span class="dolar-nom">(Dólar oficial)</span><span class="dolar-val">Compra <b data-dolar="compra">$1.490</b></span><span class="dolar-val">Venta <b data-dolar="venta">$1.540</b></span><span class="dolar-hora">Act. <span data-dolar="hora">19/10 15:00 h</span></span></p>
+    <p class="reloj"><span class="etiqueta">(Córdoba, GMT−3)</span> <span data-reloj>Mar 20.10.26 — 13:26</span></p>
+  </div>
 </div>
 
-<script type="application/json" id="news-data">
-{
-  "actualizado": "2026-10-20T13:26:35-03:00",
-  "notas": [
-    {
-      "id": "dc743cebf1",
-      "seccion": "cordoba",
-      "rel": 34.0,
-      "relevancia": 34.0,
-      "fecha": "2026-10-20T11:12:00-03:00",
-      "hora": "11:12",
-      "titulo": "El dólar en Córdoba: a cuánto cotiza este martes 20 de octubre",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-20-de-octubre-201026.phtml",
-      "acceso": "abierto",
-      "resumen": "Este martes 20 de octubre el dólar oficial en el Banco Nación se vende a 1.490 pesos y cotiza a 1.540 pesos para la compra. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/pesos-argentinos-y-dolares-2351999.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 20 de octubre, minuto a minuto",
-          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid20102026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "d0788dfe83",
-      "seccion": "economia",
-      "rel": 33.7,
-      "relevancia": 33.7,
-      "fecha": "2026-10-20T13:11:21-03:00",
-      "hora": "13:11",
-      "titulo": "Riesgo país: tras un inicio en 710 puntos, los bonos se recuperaron y el indicador se ubica en 684 unidades",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/riesgo-pais-tras-un-inicio-en-710-puntos-los-bonos-se-recuperaron-y-el-indicador-se-ubica-en-684-unidades/",
-      "acceso": "abierto",
-      "resumen": "El riesgo país recortó la suba inicial y al promediar las operaciones del martes se ubica en 684 puntos, que representa un alza de 9 unidades con relación al ùltimo cierre. La reversión se produce a causa de una mejora en el valor de los títulos púiblicos. Al iniciarse la rueda, el indicador soberano se […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/10/riesgo-pais.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "El riesgo país salta a 710 puntos: los bonos argentinos operan a la baja",
-          "url": "https://hoydia.com.ar/economia/el-riesgo-pais-salta-a-710-puntos-los-bonos-argentinos-operan-a-la-baja/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "65bb6b7813",
-      "seccion": "cordoba",
-      "rel": 33.6,
-      "relevancia": 33.6,
-      "fecha": "2026-10-19T18:10:42-03:00",
-      "hora": "18:10",
-      "titulo": "El Gobierno aprobó tres proyectos RIGI por más de US$ 15.400 millones en Vaca Muerta",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/gobierno-proyectos-rigi-vaca-muerta/",
-      "acceso": "abierto",
-      "resumen": "Las iniciativas de Pluspetrol y TGS apuntan a ampliar la producción de hidrocarburos, procesar líquidos del gas natural y fortalecer la infraestructura exportadora. Se prevén miles de empleos y mayores ingresos de divisas.",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/M5R7ZRFNAZHQBAAJXXMI3GQOTU.JPG?auth=b13988f691222eedecb1ddde092477f4b0fad40b26048989d0a5835098c65759&smart=true&width=3936&height=2624",
-      "imagen_credito": "La Nación",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Vaca Muerta suma tres proyectos al RIGI por más de US$15.400 millones para exportar petróleo y gas",
-          "url": "https://www.lanacion.com.ar/economia/vaca-muerta-suma-tres-proyectos-al-rigi-por-mas-de-us15400-millones-para-exportar-petroleo-y-gas-nid19102026/"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "87dc32ebad",
-      "seccion": "economia",
-      "rel": 31.5,
-      "relevancia": 31.5,
-      "fecha": "2026-10-19T17:14:19-03:00",
-      "hora": "17:14",
-      "titulo": "El riesgo país se disparó a 675 puntos y el Gobierno lo atribuyó a la «incertidumbre global»",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/riesgo-pais-puntos/",
-      "acceso": "abierto",
-      "resumen": "El indicador subió más de 4% y alcanzó su nivel más alto del año. El vocero presidencial, Adrián Ravier, defendió la solidez financiera del Ejecutivo, mientras el mercado mantiene dudas por la deuda en dólares de 2027.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/Adrian-Ravier-aseguro-que-el-Gobierno-cuenta-con-herramientas-financieras-para-afrontar-escenarios-d-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [
-        {
-          "fuente": "Comercio y Justicia",
-          "titulo": "El riesgo país llegó a 675 puntos",
-          "url": "https://comercioyjusticia.info/economia/el-riesgo-pais-llego-a-675-puntos/"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.24,
-        "y1": 0.493
-      }
-    },
-    {
-      "id": "f884694dfe",
-      "seccion": "argentina",
-      "rel": 27.4,
-      "relevancia": 27.4,
-      "fecha": "2026-10-19T21:41:50-03:00",
-      "hora": "21:41",
-      "titulo": "Milei se burló de la gente no llegue a fin de mes: “¿Cómo viven 10 días sin comer ni beber?”",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/20/milei-nego-que-la-gente-no-llegue-a-fin-de-mes-como-viven-10-dias-sin-comer-ni-beber/",
-      "acceso": "suscripcion",
-      "resumen": "En un exabrupto discursivo más, el Presidente tildó a la grave crisis económica que atraviesa el país de “pelotudez” y apuntó contra los medios que difunden los datos estadísticos.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UK2LE4PF2ZFQVFYMIZKJNBT44I.jpg?auth=81fa401daa9367bc92aee13f5f8f1380cae202294a91b0005402f4940554201c&smart=true&width=3333&height=2222",
-      "imagen_credito": "Página/12",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Milei se burló de quienes dicen que la gente no llega a fin de mes: “¿Cómo viven 10 días sin comer ni beber?\"",
-          "url": "https://www.lanacion.com.ar/politica/milei-se-burlo-de-quienes-dicen-que-la-gente-no-llega-a-fin-de-mes-como-viven-10-dias-sin-comer-ni-nid20102026/"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "d5bcf463d2",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-20T13:16:41-03:00",
-      "hora": "13:16",
-      "titulo": "Milei llegó a Madrid en plena campaña: lo reciben con críticas del gobierno y sus aliados toman distancia",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/milei-llego-a-madrid-en-plena-campana-lo-reciben-con-criticas-del-gobierno-y-sus-aliados-toman-nid20102026/",
-      "acceso": "suscripcion",
-      "resumen": "Estará un día en España para dar dos conferencias; el líder de VOX no lo verá porque está de gira y Díaz Ayuso (PP) aún no confirma la cita que tenían prevista",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/B2OCJIEZVZDALCK5D7A7NF4ZVE.jpg?auth=a9e07f58a4a7f089c874309b24ab3be23d427cba9168f41eeea983a00739ae82&smart=true&width=1360&height=910",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.442,
-        "y1": 0.827
-      }
-    },
-    {
-      "id": "aa1c5c0ae1",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-20T12:45:03-03:00",
-      "hora": "12:45",
-      "titulo": "La suba del riesgo país castiga a la Argentina más que a otros mercados emergentes",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/la-suba-del-riesgo-pais-castiga-a-la-argentina-mas-que-a-otros-mercados-emergentes-nid20102026/",
-      "acceso": "suscripcion",
-      "resumen": "La suba de las tasas internacionales golpea a la deuda global, pero los títulos argentinos caen más que los de sus pares",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/EC3ZQIQLI5E3TIJFJPDTHD2WHM.JPG?auth=45f741c87878c031fffb9e0b8d617feb839c8b7347a2b6847385dc0dbaff5ee1&smart=true&width=5564&height=3710",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.041,
-        "y1": 0.459
-      }
-    },
-    {
-      "id": "1b47e78a10",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-20T12:34:37-03:00",
-      "hora": "12:34",
-      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este martes 20 de octubre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-20-de-octubre-nid20102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WOE3DXDZ5REU3LNS7652IUYWQA.jpg?auth=090f48284122b14e755b582d222efcec665673230f24171a59f32815cc779d88&smart=true&width=6000&height=4000",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "f4e4e377f0",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-20T12:08:17-03:00",
-      "hora": "12:08",
-      "titulo": "Crece el malestar en el Senado por la demora de Santilli en concurrir a brindar su informe",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/",
-      "acceso": "suscripcion",
-      "resumen": "Desde que asumió como jefe de Gabinete en junio, nunca concurrió para informar sobre la marcha del Gobierno, como marca la Constitución; queja formal del kirchnerismo",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/JDZQONTJCZDXNPSFYV62MDU4SU.jpg?auth=446a5dec428517d2b50dc4795dd1e99889b06048a039cd78ddcc5b4cba698f8c&smart=true&width=497&height=331",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.281,
-        "y1": 0.649
-      }
-    },
-    {
-      "id": "140485572d",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-20T07:20:29-03:00",
-      "hora": "07:20",
-      "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
-      "acceso": "suscripcion",
-      "resumen": "Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "0549849043",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-20T07:19:18-03:00",
-      "hora": "07:19",
-      "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
-      "acceso": "suscripcion",
-      "resumen": "Para la actualización de haberes se toma el último índice de inflación que publicó el Indec; cuáles son las cifras para el penúltimo mes del año",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IZ6PB2Z7JVGAJAUJDMPKNUSKFQ.png?auth=41b276bf11862c94f065dee7b54c8b2392e447bb5796afc723c11dfece75c598&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.549,
-        "y1": 0.976
-      }
-    },
-    {
-      "id": "2bcb648140",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-20T07:12:48-03:00",
-      "hora": "07:12",
-      "titulo": "Siguen los cortocircuitos entre Milei y sus diputados por el proyecto de discapacidad que se consensuó con los aliados",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/siguen-los-cortocircuitos-entre-milei-y-sus-diputados-por-el-proyecto-de-discapacidad-que-se-nid20102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Poder Ejecutivo pone reparos por su costo fiscal; la mesa política discutirá hoy la propuesta que los libertarios negociaron con Pro, la UCR y otras fuerzas; el proyecto figura en el temario de la sesión convocada para el miércoles",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/4UFUIKV4HBC3HLBDUJCDU7WGSY.jpeg?auth=c312ba20d4710900d5cadffc1dbb29ca9ca47be77c0c8ee5d09f03b6907a4790&smart=true&width=1280&height=960",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.222,
-        "y1": 0.66
-      }
-    },
-    {
-      "id": "76387fc0a2",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-19T19:19:03-03:00",
-      "hora": "19:19",
-      "titulo": "Dólares para las reservas: las empresas vuelven a buscar financiamiento en un mercado más selectivo",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolares-para-las-reservas-las-empresas-vuelven-a-buscar-financiamiento-en-un-mercado-mas-selectivo-nid19102026/",
-      "acceso": "suscripcion",
-      "resumen": "Aeropuertos Argentina e YPF preparan emisiones y Loma Negra consiguió US$150 millones; los inversores mantienen interés en empresas, mientras algunas provincias esperan mejores condiciones para salir al mercado",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/NGW3KLLVOVC4JLEBHSO2FNY47A.jpg?auth=d487f8aa426b75fc67434ecea2f47db5a870969919d1f2baa843df0d218479ce&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.717,
-        "y1": 0.985
-      }
-    },
-    {
-      "id": "bfc5f27c3c",
-      "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-19T14:25:00-03:00",
-      "hora": "14:25",
-      "titulo": "Intendentes de Córdoba reclamaron por la deuda del PAMI y el recorte de medicamentos",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/intendentes-de-cordoba-reclamaron-por-la-deuda-del-pami-y-el-recorte-de-medicamentos_a6ad64eeed560f32786da2ca1",
-      "acceso": "abierto",
-      "resumen": "Jefes municipales y comunales se concentraron en el centro para exigir el pago de prestaciones médicas adeudadas y cuestionar la reducción de medicamentos del Programa Remediar.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad6554ad560f32786da9c35/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Intendentes se movilizan ante la deuda del Pami y el recorte en el Programa Remediar",
-          "url": "https://hoydia.com.ar/politica/cordoba/intendentes-se-movilizan-ante-la-deuda-del-pami-y-el-recorte-en-el-programa-remediar/"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.372,
-        "y1": 0.705
-      }
-    },
-    {
-      "id": "ffc3ab15d9",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-20T11:21:39-03:00",
-      "hora": "11:21",
-      "titulo": "Milei volvió a insultar a Lula, a días del balotaje en Brasil",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/20/milei-volvio-a-insultar-a-lula-a-dias-del-balotaje-en-brasil/",
-      "acceso": "suscripcion",
-      "resumen": "El presidente argentino apuesta todo a una victoria de su aliado Flávio Bolsonaro. Tras el conflicto bilateral que desataron sus últimos improperios, ahora tildó a su par brasileño de “zurdo ladrón” y dijo que podría “robarse la elección”.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/NQN5FYCEX5FNDGLTZMCCPQLNJQ.jpg?auth=ab51c455f27cc8f5661a34aa40d7a8bc8485ef2064c10387bc246a8f6c8df648&smart=true&width=2250&height=1500",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.2,
-        "y1": 0.687
-      }
-    },
-    {
-      "id": "5d969e8760",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-19T18:35:28-03:00",
-      "hora": "18:35",
-      "titulo": "En Neuquén, Milei destacó el crecimiento de las exportaciones de petróleo y lo adjudicó a las desregulaciones del Gobierno",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/en-neuquen-milei-destaco-el-crecimiento-de-las-exportaciones-de-petroleo-y-lo-adjudico-a-las-nid19102026/",
-      "acceso": "suscripcion",
-      "resumen": "Durante su participación en la Expo Argentina Oil & Gas (AOG) Patagonia, el Presidente proyectó un superávit comercial cercano a los US$30.000 millones para este año; aseguró que el Gobierno tiene cubiertos los próximos vencimientos de deuda y vinculó el…",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RENLLITTT5HENO6NLDG6GP4FC4.jpg?auth=4f9f0410538f252533409ee76ce0f2c9617dec83028fee87596fc39519ce7264&smart=true&width=907&height=582",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.085,
-        "y1": 0.378
-      }
-    },
-    {
-      "id": "27788c6843",
-      "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-20T11:20:02-03:00",
-      "hora": "11:20",
-      "titulo": "La Ciudad Universitaria de Córdoba: su historia secreta, el proyecto faraónico trunco y cómo transformó la identidad de la Docta",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/la-ciudad-universitaria-de-cordoba--su-historia-secreta--el-proyecto-faraonico-trunco-y-como-transformo-la-identidad-de-la-docta_a6ad776dac7853ea2c2b49e31",
-      "acceso": "abierto",
-      "resumen": "En una nueva columna de Tecnología, Política y Cultura de Otra Vuelta de Tuerca, Agustín Berti conversó con el historiador e investigador del IDH-CONICET Juan Sebastián Malecki. A propósito de la marcha universitaria y de los debates en torno a la infraestructura edilicia, el especialista repasó los orígenes de la Ciudad Universitaria: desde el plan inicial de 1909 y la huella de la Fundación Eva…",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad7776fc7853ea2c2b4add4/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "f5145eee98",
-      "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-20T11:19:00-03:00",
-      "hora": "11:19",
-      "titulo": "Milei tiene otro rival en Córdoba y no es Kicillof según una encuesta",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/milei-tiene-otro-rival-en-cordoba-y-no-es-kicillof-segun-una-encuesta.phtml",
-      "acceso": "abierto",
-      "resumen": "Un estudio de Grupo Feedback sobre 924 casos presenciales ubica al Presidente primero, con 29,3% para 2027. En segundo lugar aparece un nuevo elemento por delante de Axel Kicillof (9,8%). Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/milei-en-cordoba-2352259.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.641,
-        "y1": 0.853
-      }
-    },
-    {
-      "id": "1600b2d4c7",
-      "seccion": "argentina",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-19T18:10:46-03:00",
-      "hora": "18:10",
-      "titulo": "Discapacidad: aliados y dialoguistas piden cambios al Gobierno y podrían votar la emergencia",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/19/discapacidad-aliados-y-dialoguistas-piden-cambios-al-gobierno-y-podrian-votar-la-emergencia/",
-      "acceso": "suscripcion",
-      "resumen": "Las discusiones giran en torno a las pensiones, el ajuste a los prestadores y la falta de garantías en el presupuesto.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/36K2TANZP5AXVCMJEWY4GXSCDE.jpg?auth=a9c52c97edfe95e39554bcbd3ee0fc6f34373b852523e4063b445ebf46f3d881&smart=true&width=1150&height=863",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "50dce82737",
-      "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-19T18:09:14-03:00",
-      "hora": "18:09",
-      "titulo": "Javier Milei: “En el viejo modelo hubiéramos volado por los aires\"",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/javier-milei---en-el-viejo-modelo-hubieramos-volado-por-los-aires-_a6ad6862bd560f32786dddb3f",
-      "acceso": "abierto",
-      "resumen": "El presidente expuso en la Argentina Oil & Gas Expo, que se realizó en Neuquén. Destacó el impacto de la desregulación del precio del petróleo, del RIGI y cuestionó a “quienes piden una devaluación”.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad68633d560f32786dddcbe/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "4b73898fcb",
-      "seccion": "economia",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-19T17:50:46-03:00",
-      "hora": "17:50",
-      "titulo": "La Casación confirmó el cierre de la causa contra Mauricio Macri, Luis Caputo y Federico Sturzenegger por el crédito de US$57.100 millones del FMI",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/la-casacion-confirmo-el-cierre-de-la-causa-contra-mauricio-macri-luis-caputo-y-federico-sturzenegger-nid19102026/",
-      "acceso": "suscripcion",
-      "resumen": "Lo decidió el tribunal luego de que el fiscal Pleé desistiera de impulsar la acusación; dura reprimenda a un querellante y su abogado",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/ZSW3WMXQMZDZTKG6DXEI25E7SA.jpg?auth=9470ce022346e62f73fc64532c9776ab5f5d7472c75d913d5f2c34bbb077e755&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.099,
-        "y1": 0.524
-      }
-    },
-    {
-      "id": "94e3a3bec3",
-      "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-10-20T10:34:01-03:00",
-      "hora": "10:34",
-      "titulo": "Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaron más de un año de atraso en pagos",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/pami-en-cordoba-intendentes-denuncian-un-ano-de-deuda-y-reclaman-fondos-para-sostener-la-atencion.phtml",
-      "acceso": "abierto",
-      "resumen": "Jefes comunales de distintos municipios cordobeses se movilizaron este lunes para reclamar que el organismo nacional regularice las transferencias por prestaciones médicas a afiliados. También cuestionaron la reducción del programa Remediar y advirtieron por el impacto en los centros de salud locales. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/06/20/trim/540/304/200626pamicedocg-2265152.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "d750920581",
-      "seccion": "cordoba",
-      "rel": 21.4,
-      "relevancia": 21.4,
-      "fecha": "2026-10-20T09:37:00-03:00",
-      "hora": "09:37",
-      "titulo": "El Gobierno reconoce que la economía crece menos de lo previsto, pero mantiene el plan de Milei",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-gobierno-reconoce-que-la-economia-crece-menos-de-lo-previsto-pero-mantiene-el-plan-de-milei/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno nacional reconoció este lunes que la economía argentina crece a un ritmo menor al esperado, aunque descartó introducir modificaciones en el programa económico del presidente Javier Milei. La Casa Rosada sostuvo que la actividad continúa en expansión, pese a las dificultades que atraviesan algunos sectores y al escenario de incertidumbre internacional. El Gobierno […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "83f1cc0bf2",
-      "seccion": "cordoba",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-10-20T08:30:00-03:00",
-      "hora": "08:30",
-      "titulo": "Miguel Magnasco se postula como “el candidato de la renovación” para suceder a Daniel Passerini",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/miguel-magnasco-se-postula-como--el-candidato-de-la-renovacion--para-suceder-a-daniel-passerini_a6ad69ec4d560f32786dfb47d",
-      "acceso": "abierto",
-      "resumen": "El subsecretario de Biodiversidad provincial lanzó la campaña Córdoba al Futuro desde el espacio Una Nueva Política Ciudad.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad69f7dd560f32786dfc4ce/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.133,
-        "y1": 0.631
-      }
-    },
-    {
-      "id": "4856c11147",
-      "seccion": "cordoba",
-      "rel": 20.8,
-      "relevancia": 20.8,
-      "fecha": "2026-10-20T06:00:00-03:00",
-      "hora": "06:00",
-      "titulo": "Llaryora, Pullaro y Frigerio muestran “músculo” antes del debate del Presupuesto",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/llaryora-pullaro-y-frigerio-muestran-musculo-antes-del-debate-del-presupuesto/",
-      "acceso": "abierto",
-      "resumen": "Los tres gobernadores que integran la Región Centro se reunirán hoy en Paraná. Aunque el encuentro tiene como lema temas como la productividad y el desarrollo, la cumbre será una demostración de fuerza y unidad ante reivindicaciones comunes, todas vinculadas a recursos extra para cada distrito. ¿Cuáles son las prendas de cambio para negociar con […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "1424fc22b3",
-      "seccion": "economia",
-      "rel": 20.7,
-      "relevancia": 20.7,
-      "fecha": "2026-10-20T05:50:00-03:00",
-      "hora": "05:50",
-      "titulo": "El superávit comercial no tiene techo y Milei destacó el aporte clave de la energía",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/el-superavit-comercial-no-tiene-techo-y-milei-destaco-el-aporte-clave-de-la-energia/",
-      "acceso": "abierto",
-      "resumen": "Rozó US$3 mil millones en septiembre, según Indec. El resultado se apoyó en el fuerte incremento de las exportaciones y en un débil desempeño de las importaciones. El Presidente ponderó la política energética de su gestión, en un evento del rubro. Aprovechó para cuestionar a la oposición, ya lanzado de cara al próximo año electoral […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "39f586b535",
-      "seccion": "argentina",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-20T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "El mercado, más desconfiado del plan Milei",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/19/el-mercado-mas-desconfiado-del-plan-milei/",
-      "acceso": "suscripcion",
-      "resumen": "En un contexto internacional adverso, el Gobierno trata de convencer a los inversores pero las respuestas son negativas y sigue la venta de bonos argentinos.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/YSV5K7KP45CBBC67YJQYYRCZF4.jpg?auth=dd6b7660552f4507f05e4798a61794ecdff1040f47294c261904d8670899b27f&smart=true&width=1246&height=831",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.12,
-        "y1": 0.633
-      }
-    },
-    {
-      "id": "4f5c4a5662",
-      "seccion": "economia",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-20T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Impunidad: la Justicia cerró la causa por el préstamo del FMI a Mauricio Macri",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/20/impunidad-la-justicia-cerro-la-causa-por-el-prestamo-del-fmi-a-mauricio-macri/",
-      "acceso": "suscripcion",
-      "resumen": "Hornos y Borinsky, dos jueces que visitaban Olivos, avalaron el dictamen del fiscal Pleé, que desistió de sostener la investgicación.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GAZDSN3BGQ2GEN3EGJTDSN3GGE.jpg?auth=19b179d00b9c6af15e940e00dec57f49df8f1817c69db2708d072eb5f9f96aca&smart=true&width=1200&height=750",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "990d2e885d",
-      "seccion": "argentina",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-20T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Milei llegó a España, para alegría del PSOE",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/19/milei-llego-a-espana-para-alegria-del-psoe/",
-      "acceso": "suscripcion",
-      "resumen": "Los analistas locales consideran que la figura del presidente argentino y su política de ajuste favorecen al actual presidente Pedro Sánchez.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/XL64WU5PEZBS7J2KONSOR2YSP4.jpg?auth=ece1cbb7bf7612322c034d1019396198a16a8d074f1955dd4bb2878ee568a2f2&smart=true&width=3000&height=2000",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.146,
-        "y1": 0.431
-      }
-    },
-    {
-      "id": "5056b6185e",
-      "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-20T01:18:00-03:00",
-      "hora": "01:18",
-      "titulo": "Cristina y Máximo Kirchner buscan participar por videoconferencia en el juicio oral",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/cristina-y-maximo-kirchner-buscan-participar-por-videoconferencia-en-el-juicio-oral/",
-      "acceso": "abierto",
-      "resumen": "La defensa de la ex presidenta Cristina Kirchner y el diputado Máximo Kirchner le pidió al Tribunal Oral Federal 5 (TOF 5) permiso para participar de manera virtual a ambos en las audiencias del juicio oral por Los Sauces, que, según con el cronograma vigente, está pre visto que inicie esta semana. Máximo Kirchner justificó el pedido al […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "5c403f7151",
-      "seccion": "cordoba",
-      "rel": 19.9,
-      "relevancia": 19.9,
-      "fecha": "2026-10-19T19:40:03-03:00",
-      "hora": "19:40",
-      "titulo": "La mano derecha de Karina Milei fue nombrada en Correo Argentino",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/la-mano-derecha-de-karina-milei-fue-nombrada-en-correo-argentino/",
-      "acceso": "abierto",
-      "resumen": "María Belén Agudiez, exsubsecretaria de Planificación General, renunció a su cargo en medio del escándalo que derivó en la reestructuración de la Quinta de Olivos.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "50c94a156e",
-      "seccion": "economia",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-10-20T07:18:12-03:00",
-      "hora": "07:18",
-      "titulo": "Nueva paritaria de la construcción: cuánto cobra un albañil en octubre 2026 con el aumento confirmado por la Uocra",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/nueva-paritaria-de-la-construccion-cuanto-cobra-un-albanil-en-octubre-2026-con-el-aumento-confirmado-nid01102026/",
-      "acceso": "suscripcion",
-      "resumen": "La Secretaría de Trabajo homologó la paritaria con subas acumulativas del 1,9%, 1,8% y 1,7%; cuáles son las nuevas escalas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/CQ6LPZPBKRAGBIDP56JRWFH73A.jpg?auth=9a77523d0a3e05d3b4f3f69534a5d299330e54c5b692453e5516b99c58ccce36&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.206,
-        "y1": 0.564
-      }
-    },
-    {
-      "id": "de9c48898d",
-      "seccion": "economia",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-10-19T19:29:33-03:00",
-      "hora": "19:29",
-      "titulo": "Milei defendió su modelo económico en la Oil & Gas Expo de Neuquén",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/milei-defendio-su-modelo-economico-en-la-oil-gas-expo-de-neuquen/",
-      "acceso": "abierto",
-      "resumen": "El Presidente celebró el récord de exportaciones y el superávit energético, y sostuvo que Vaca Muerta duplicó su producción de barriles diarios desde 2023. Estuvo acompañado por el gobernador Rolando Figueroa y por el titular de YPF, Horacio Marín.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "0d5c515850",
-      "seccion": "cordoba",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-10-19T19:21:17-03:00",
-      "hora": "19:21",
-      "titulo": "El Gobierno nacional oficializó el plan de retiros voluntarios en la administración pública",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/el-gobierno-nacional-oficializo-el-plan-de-retiros-voluntarios-en-la-administracion-publica_a6ad6962ad560f32786defaae",
-      "acceso": "abierto",
-      "resumen": "“No es retiro voluntario, es despido extorsivo. No hay voluntad cuando la opción es o firmás o te quedás en la calle sin laburo y sin obra social. No se aguanta más. Al que vamos a retirar, y no de manera voluntaria, es a Sturzenegger”, expresó el secretario general de ATE, Rodolfo Aguiar.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad69761d560f32786df0c33/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.439,
-        "y1": 0.711
-      }
-    },
-    {
-      "id": "89bc04ebb3",
-      "seccion": "cordoba",
-      "rel": 19.6,
-      "relevancia": 19.6,
-      "fecha": "2026-10-20T06:08:46-03:00",
-      "hora": "06:08",
-      "titulo": "La Provincia y docentes reabren la Mesa Salarial y Laboral en Córdoba",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/la-provincia-y-docentes-reabren-la-mesa-salarial-y-laboral-en-cordoba_a6ad72c12c7853ea2c2ae447d",
-      "acceso": "abierto",
-      "resumen": "Representantes de UEPC y el Gobierno se reúnen este martes. Qué hay en juego.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/68889bcb8b698c20cafbe61f/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "ead72b9519",
-      "seccion": "cordoba",
-      "rel": 19.4,
-      "relevancia": 19.4,
-      "fecha": "2026-10-20T10:03:54-03:00",
-      "hora": "10:03",
-      "titulo": "CIMCC: datos rigurosos y articulación pública para impulsar la productividad industrial",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/contenido-institucional/cimcc-datos-rigurosos-y-articulacion-publica-para-impulsar-la-productividad-industrial/",
-      "acceso": "abierto",
-      "resumen": "A través de su Centro de Estudios para la Producción Metalúrgica, la Cámara aborda las problemáticas del sector con método científico para presentar soluciones viables a las autoridades y promover reformas a nivel local, provincial y nacional. Frente a un escenario económico complejo y cambiante, la Cámara de Industriales Metalúrgicos y de Componentes de Córdoba […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "dff963b863",
-      "seccion": "economia",
-      "rel": 19.3,
-      "relevancia": 19.3,
-      "fecha": "2026-10-20T09:00:00-03:00",
-      "hora": "09:00",
-      "titulo": "Sobreendeudamiento: cuando la pyme todavía puede recuperarse",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/factor/sobreendeudamiento-cuando-la-pyme-todavia-puede-recuperarse/",
-      "acceso": "abierto",
-      "resumen": "Por Víctor Moncada Abogado En la primera parte sostuvimos que una dificultad financiera no equivale necesariamente a inviabilidad productiva. Una pyme puede producir, vender, conservar clientes, pagar salarios y mantener una actividad económica real y, sin embargo, encontrarse atrapada por una estructura financiera que progresivamente absorbe su capacidad de funcionamiento. Allí aparece una pregunta concreta: […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "f66b4b38b2",
-      "seccion": "cordoba",
-      "rel": 19.2,
-      "relevancia": 19.2,
-      "fecha": "2026-10-19T20:52:42-03:00",
-      "hora": "20:52",
-      "titulo": "Juntos en la Región Centro, con diferencias ante Milei: el juego político de Frigerio, Pullaro y Llaryora",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/juntos-en-la-region-centro-con-diferencias-ante-milei-el-juego-politico-de-frigerio-pullaro-y-llaryora.phtml",
-      "acceso": "abierto",
-      "resumen": "Se mostrarán juntos en la cumbre de la Región Centro en Paraná, pero despliegan estrategias diferentes frente a Milei: Frigerio exhibe sintonía fina, Pullaro administra sus movimientos y Llaryora endurece sus críticas al ajuste libertario. Las retenciones y una agenda federal de desarrollo, las banderas que los unen ante la Nación. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/region-centro-frigerio-llaryora-y-pullaro-2352043.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.251
-      }
-    },
-    {
-      "id": "152bd58f5c",
-      "seccion": "cordoba",
-      "rel": 18.9,
-      "relevancia": 18.9,
-      "fecha": "2026-10-19T18:37:43-03:00",
-      "hora": "18:37",
-      "titulo": "Juez federal de Córdoba declaró inconstitucional el tope a las jubilaciones docentes",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/juez-federal-de-cordoba-declaro-inconstitucional-el-tope-a-las-jubilaciones-docentes.phtml",
-      "acceso": "abierto",
-      "resumen": "El Juzgado Federal N° 1 resolvió en un mes una acción de amparo presentada contra la Anses, sentando un precedente clave al determinar que los topes de la Ley de Solidaridad Previsional desvirtúan el régimen especial docente. Frenó descuentos por Ganancias. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/19/trim/540/304/anses-2351959.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "0a526086e6",
-      "seccion": "cordoba",
-      "rel": 18.5,
-      "relevancia": 18.5,
-      "fecha": "2026-10-19T16:08:51-03:00",
-      "hora": "16:08",
-      "titulo": "Passerini duro con Luis Juez: “Es muy cómodo hablar como habla él ganando 14 palos por mes”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/passerini-duro-con-luis-juez-es-muy-comodo-hablar-como-habla-el-ganando-14-palos-por-mes.phtml",
-      "acceso": "abierto",
-      "resumen": "El intendente respondió a las críticas del senador por el esquema de inspectores y lo acusó de haber subordinado el municipio al Suoem. Además defendió los contratos por artículo 8 y calificó de “tensa” la relación con el gremio. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/09/30/trim/540/304/daniel-passerini-2337132.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.22,
-        "y1": 0.57
-      }
-    }
-  ],
-  "opinion": []
-}
-</script>
+<header class="barra" id="barra">
+  <div class="envoltura barra-in">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="menu-ico" aria-hidden="true"><span></span><span></span></span>
+      <span class="menu-txt">Menú</span>
+    </button>
+    <a class="marca" href="#inicio" aria-label="Mano Negra, ir al inicio">
+      <img class="marca-logo" src="assets/img/huella-192.webp?v=4d58ff56" alt="" width="129" height="192">
+      <span class="marca-nombre">Mano Negra</span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Secciones">
+      <ul class="menu-lista">
+        <li><a href="#inicio"><span class="idx">01</span>Inicio</a></li>
+        <li><a href="#politica"><span class="idx">02</span>Política</a></li>
+        <li><a href="#economia"><span class="idx">03</span>Economía</a></li>
+        <li><a href="#cordoba"><span class="idx">04</span>Córdoba</a></li>
+        <li><a href="#argentina"><span class="idx">05</span>Argentina</a></li>
+        
+        <li><a href="#ultimas"><span class="idx">→</span>Últimas</a></li>
+      </ul>
+    </nav>
+    <button class="tema-btn" type="button" aria-pressed="false">
+      <span class="tema-ico" aria-hidden="true"></span>
+      <span class="tema-txt">Fondo negro</span>
+    </button>
+  </div>
+</header>
 
-<script>
-(function () {
-  var data = JSON.parse(document.getElementById('news-data').textContent);
-  var SECTIONS = { cordoba: 'Córdoba', argentina: 'Argentina', economia: 'Economía y finanzas' };
-  var FILTERS = [['todas', 'Todas'], ['cordoba', 'Córdoba'], ['argentina', 'Argentina'], ['economia', 'Economía']];
-  function ts(n) { var t = Date.parse(n.fecha); return isNaN(t) ? 0 : t; }
-  // Listado en orden cronológico (lo más nuevo arriba); la nota del día es la más relevante de las últimas 24 h
-  var notes = data.notas.slice().sort(function (a, b) { return ts(b) - ts(a) || b.relevancia - a.relevancia; });
-  var masRelevante = data.notas.slice().sort(function (a, b) { return b.relevancia - a.relevancia; })[0];
-  var leadId = masRelevante && masRelevante.id;
-  var state = { filter: 'todas', selected: leadId };
+<div class="cabecera" id="cabecera">
+  <div class="envoltura">
+    <ul class="cab-etiquetas">
+      <li>(El medio de medios)</li>
+      <li>(Córdoba — Argentina)</li>
+      <li>(Edición 20.10.26 · 13:26 h)</li>
+      <li>(40 notas · 11 medios)</li>
+    </ul>
+    <div class="cab-marca">
+      <img class="cab-logo" src="assets/img/huella-192.webp?v=4d58ff56" alt="" width="129" height="192">
+      <h1 class="cab-nombre"><span>Mano</span> <span>Negra</span></h1>
+    </div>
+    <div class="cab-pie">
+      <p class="cab-lema">Lo que pasa ahora en Córdoba y Argentina. Política y economía, resumidas y con el enlace a cada medio.</p>
+      <p class="cab-fecha">Martes 20 de octubre de 2026</p>
+    </div>
+  </div>
+</div>
 
-  function el(tag, cls, text) {
-    var e = document.createElement(tag);
-    if (cls) e.className = cls;
-    if (text != null) e.textContent = text;
-    return e;
-  }
-  function marker(s) { var m = el('span', 'mk'); m.dataset.s = s; return m; }
-  function safeUrl(u) {
-    try { var x = new URL(u); return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null; }
-    catch (e) { return null; }
-  }
-  function diaTxt(n) { return n.dia === 1 ? 'Ayer ' : (n.dia === 2 ? 'Anteayer ' : (n.dia >= 3 ? 'Hace ' + n.dia + ' días ' : '')); }
+<div class="cinta" aria-label="Últimos titulares">
+  <p class="cinta-tag">(Último momento)</p>
+  <div class="cinta-pista">
+    <ul class="cinta-lista"><li><a href="https://www.lanacion.com.ar/politica/milei-llego-a-madrid-en-plena-campana-lo-reciben-con-criticas-del-gobierno-y-sus-aliados-toman-nid20102026/" target="_blank" rel="noopener"><b>13:16</b> Milei llegó a Madrid en plena campaña: lo reciben con críticas del gobierno y sus aliados toman distancia</a></li><li><a href="https://comercioyjusticia.info/lo-ultimo/riesgo-pais-tras-un-inicio-en-710-puntos-los-bonos-se-recuperaron-y-el-indicador-se-ubica-en-684-unidades/" target="_blank" rel="noopener"><b>13:11</b> Riesgo país: tras un inicio en 710 puntos, los bonos se recuperaron y el indicador se ubica en 684 unidades</a></li><li><a href="https://www.lanacion.com.ar/economia/dolar/la-suba-del-riesgo-pais-castiga-a-la-argentina-mas-que-a-otros-mercados-emergentes-nid20102026/" target="_blank" rel="noopener"><b>12:45</b> La suba del riesgo país castiga a la Argentina más que a otros mercados emergentes</a></li><li><a href="https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-20-de-octubre-nid20102026/" target="_blank" rel="noopener"><b>12:34</b> Plazo fijo: cuál es la tasa de interés banco por banco este martes 20 de octubre</a></li><li><a href="https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/" target="_blank" rel="noopener"><b>12:08</b> Crece el malestar en el Senado por la demora de Santilli en concurrir a brindar su informe</a></li><li><a href="https://www.pagina12.com.ar/2026/10/20/milei-volvio-a-insultar-a-lula-a-dias-del-balotaje-en-brasil/" target="_blank" rel="noopener"><b>11:21</b> Milei volvió a insultar a Lula, a días del balotaje en Brasil</a></li><li><a href="https://www.cba24n.com.ar/cordoba/la-ciudad-universitaria-de-cordoba--su-historia-secreta--el-proyecto-faraonico-trunco-y-como-transformo-la-identidad-de-la-docta_a6ad776dac7853ea2c2b49e31" target="_blank" rel="noopener"><b>11:20</b> La Ciudad Universitaria de Córdoba: su historia secreta, el proyecto faraónico trunco y cómo transformó la identidad de la Docta</a></li><li><a href="https://www.perfil.com/noticias/cordoba/milei-tiene-otro-rival-en-cordoba-y-no-es-kicillof-segun-una-encuesta.phtml" target="_blank" rel="noopener"><b>11:19</b> Milei tiene otro rival en Córdoba y no es Kicillof según una encuesta</a></li><li><a href="https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-20-de-octubre-201026.phtml" target="_blank" rel="noopener"><b>11:12</b> El dólar en Córdoba: a cuánto cotiza este martes 20 de octubre</a></li><li><a href="https://www.perfil.com/noticias/cordoba/pami-en-cordoba-intendentes-denuncian-un-ano-de-deuda-y-reclaman-fondos-para-sostener-la-atencion.phtml" target="_blank" rel="noopener"><b>10:34</b> Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaron más de un año de atraso en pagos</a></li></ul>
+    <ul class="cinta-lista" aria-hidden="true"><li><a href="https://www.lanacion.com.ar/politica/milei-llego-a-madrid-en-plena-campana-lo-reciben-con-criticas-del-gobierno-y-sus-aliados-toman-nid20102026/" target="_blank" rel="noopener"><b>13:16</b> Milei llegó a Madrid en plena campaña: lo reciben con críticas del gobierno y sus aliados toman distancia</a></li><li><a href="https://comercioyjusticia.info/lo-ultimo/riesgo-pais-tras-un-inicio-en-710-puntos-los-bonos-se-recuperaron-y-el-indicador-se-ubica-en-684-unidades/" target="_blank" rel="noopener"><b>13:11</b> Riesgo país: tras un inicio en 710 puntos, los bonos se recuperaron y el indicador se ubica en 684 unidades</a></li><li><a href="https://www.lanacion.com.ar/economia/dolar/la-suba-del-riesgo-pais-castiga-a-la-argentina-mas-que-a-otros-mercados-emergentes-nid20102026/" target="_blank" rel="noopener"><b>12:45</b> La suba del riesgo país castiga a la Argentina más que a otros mercados emergentes</a></li><li><a href="https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-20-de-octubre-nid20102026/" target="_blank" rel="noopener"><b>12:34</b> Plazo fijo: cuál es la tasa de interés banco por banco este martes 20 de octubre</a></li><li><a href="https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/" target="_blank" rel="noopener"><b>12:08</b> Crece el malestar en el Senado por la demora de Santilli en concurrir a brindar su informe</a></li><li><a href="https://www.pagina12.com.ar/2026/10/20/milei-volvio-a-insultar-a-lula-a-dias-del-balotaje-en-brasil/" target="_blank" rel="noopener"><b>11:21</b> Milei volvió a insultar a Lula, a días del balotaje en Brasil</a></li><li><a href="https://www.cba24n.com.ar/cordoba/la-ciudad-universitaria-de-cordoba--su-historia-secreta--el-proyecto-faraonico-trunco-y-como-transformo-la-identidad-de-la-docta_a6ad776dac7853ea2c2b49e31" target="_blank" rel="noopener"><b>11:20</b> La Ciudad Universitaria de Córdoba: su historia secreta, el proyecto faraónico trunco y cómo transformó la identidad de la Docta</a></li><li><a href="https://www.perfil.com/noticias/cordoba/milei-tiene-otro-rival-en-cordoba-y-no-es-kicillof-segun-una-encuesta.phtml" target="_blank" rel="noopener"><b>11:19</b> Milei tiene otro rival en Córdoba y no es Kicillof según una encuesta</a></li><li><a href="https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-20-de-octubre-201026.phtml" target="_blank" rel="noopener"><b>11:12</b> El dólar en Córdoba: a cuánto cotiza este martes 20 de octubre</a></li><li><a href="https://www.perfil.com/noticias/cordoba/pami-en-cordoba-intendentes-denuncian-un-ano-de-deuda-y-reclaman-fondos-para-sostener-la-atencion.phtml" target="_blank" rel="noopener"><b>10:34</b> Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaron más de un año de atraso en pagos</a></li></ul>
+  </div>
+</div>
 
-  function encuadrar(img, ro) {
-    var nw = img.naturalWidth, nh = img.naturalHeight, bw = img.clientWidth;
-    if (!nw || !nh || !bw) return;
-    // La foto ocupa lo que queda de pantalla debajo del texto, para verse completa sin scrollear
-    var lead = document.getElementById('lead');
-    var yTop = img.getBoundingClientRect().top + (lead ? lead.scrollTop : 0) - (lead ? lead.getBoundingClientRect().top : 0);
-    var libreVista = window.innerHeight - yTop - 64;
-    img.style.height = Math.max(230, Math.min(480, libreVista)) + 'px';
-    var bh = img.clientHeight;
-    if (!bh) return;
-    var hs = nh * bw / nw;                 // alto de la foto ya escalada al ancho de la caja
-    var y0 = ro.y0 * hs, y1 = ro.y1 * hs, top;
-    if (y1 - y0 > bh) {                    // los rostros no entran: se agranda la caja (hasta 480 px)
-      bh = Math.min(y1 - y0, hs, 480);
-      img.style.height = bh + 'px';
-    }
-    var libre = hs - bh;                   // cuánto sobra para desplazar
-    if (libre <= 0) { img.style.objectPosition = 'center top'; return; }
-    if (y1 - y0 <= bh) top = (y0 + y1) / 2 - bh / 2;  // el rostro entra: centrarlo
-    else top = y0;                                    // no entra: priorizar la cara desde la frente
-    top = Math.max(0, Math.min(libre, top));
-    img.style.objectPosition = 'center ' + (top / libre * 100).toFixed(1) + '%';
-  }
+<main id="contenido" class="envoltura">
+  <section class="portada" id="inicio" aria-label="Nota del día">
+    <article class="lead">
+  <div class="lead-txt">
+    <p class="lead-top"><span class="etiqueta">(Nota del día)</span><span class="idx" aria-hidden="true">MN/01</span></p>
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h2 class="lead-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-20-de-octubre-201026.phtml" target="_blank" rel="noopener">El dólar en Córdoba: a cuánto cotiza este martes 20 de octubre</a></h2>
+    <p class="lead-bajada">Este martes 20 de octubre el dólar oficial en el Banco Nación se vende a 1.490 pesos y cotiza a 1.540 pesos para la compra.</p>
+    <p class="meta"><span class="meta-fuente">Perfil</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T11:12-03:00" data-rel>Hoy 11:12</time></p>
+    <a class="btn" href="https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-20-de-octubre-201026.phtml" target="_blank" rel="noopener"><span>Leer en Perfil</span><span class="flecha" aria-hidden="true">↗</span></a>
+    <div class="otros"><h3 class="etiqueta">(También lo cubren)</h3><ul><li><a href="https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid20102026/" target="_blank" rel="noopener"><span class="otros-medio">La Nación</span><span class="otros-tit-n">Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 20 de octubre, minuto a minuto</span><span class="flecha" aria-hidden="true">↗</span></a></li></ul></div>
+  </div>
+  <figure class="foto-principal"><img src="https://fotos.perfil.com/2026/10/19/trim/540/304/pesos-argentinos-y-dolares-2351999.jpg" alt="El dólar en Córdoba: a cuánto cotiza este martes 20 de octubre" width="1200" height="900" fetchpriority="high" decoding="async" referrerpolicy="no-referrer"><figcaption>(Foto: Perfil)</figcaption></figure>
+</article>
+  </section>
 
-  function safeImg(u) {
-    if (/^fotos\/[\w.\-]+$/.test(u)) return u;  // foto propia del sitio
-    try { var x = new URL(u); return x.protocol === 'https:' ? x.href : null; }
-    catch (e) { return null; }
-  }
-  var desktop = window.matchMedia('(min-width: 881px)');
-  function byId(id) { return notes.filter(function (n) { return n.id === id; })[0]; }
+  <section class="destacadas" aria-labelledby="t-destacadas">
+    <header class="sec-head">
+      <h2 class="sec-tit" id="t-destacadas">Titulares</h2>
+      <p class="sec-aux"><span class="etiqueta">(Lo más importante del día)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
+    </header>
+    <div class="grilla"><article class="card card--foto">
+  <p class="card-top"><span class="idx" aria-hidden="true">MN/02</span><span class="flecha" aria-hidden="true">↗</span></p>
+  <figure class="foto-card"><img src="https://comercioyjusticia.info/wp-content/uploads/2024/10/riesgo-pais.webp" alt="Riesgo país: tras un inicio en 710 puntos, los bonos se recuperaron y el indicador se ubica en 684 unidades" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://comercioyjusticia.info/lo-ultimo/riesgo-pais-tras-un-inicio-en-710-puntos-los-bonos-se-recuperaron-y-el-indicador-se-ubica-en-684-unidades/" target="_blank" rel="noopener">Riesgo país: tras un inicio en 710 puntos, los bonos se recuperaron y el indicador se ubica en 684 unidades</a></h3>
+    <p class="card-bajada">El riesgo país recortó la suba inicial y al promediar las operaciones del martes se ubica en 684 puntos, que representa un alza de 9 unidades…</p>
+    <p class="meta"><span class="meta-fuente">Comercio y Justicia</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T13:11-03:00" data-rel>Hoy 13:11</time></p>
+  </div>
+</article><article class="card card--foto">
+  <p class="card-top"><span class="idx" aria-hidden="true">MN/03</span><span class="flecha" aria-hidden="true">↗</span></p>
+  <figure class="foto-card"><img src="https://resizer.glanacion.com/resizer/v2/M5R7ZRFNAZHQBAAJXXMI3GQOTU.JPG?auth=b13988f691222eedecb1ddde092477f4b0fad40b26048989d0a5835098c65759&amp;smart=true&amp;width=3936&amp;height=2624" alt="El Gobierno aprobó tres proyectos RIGI por más de US$ 15.400 millones en Vaca Muerta" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://hoydia.com.ar/economia/gobierno-proyectos-rigi-vaca-muerta/" target="_blank" rel="noopener">El Gobierno aprobó tres proyectos RIGI por más de US$ 15.400 millones en Vaca Muerta</a></h3>
+    <p class="card-bajada">Las iniciativas de Pluspetrol y TGS apuntan a ampliar la producción de hidrocarburos, procesar líquidos del gas natural y fortalecer la infraestructura exportadora. Se prevén miles…</p>
+    <p class="meta"><span class="meta-fuente">Hoy Día Córdoba</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-19T18:10-03:00" data-rel>Ayer 18:10</time></p>
+  </div>
+</article><article class="card card--foto">
+  <p class="card-top"><span class="idx" aria-hidden="true">MN/04</span><span class="flecha" aria-hidden="true">↗</span></p>
+  <figure class="foto-card"><img src="https://hoydia.com.ar/wp-content/uploads/2026/10/Adrian-Ravier-aseguro-que-el-Gobierno-cuenta-con-herramientas-financieras-para-afrontar-escenarios-d-optimized.jpeg" alt="El riesgo país se disparó a 675 puntos y el Gobierno lo atribuyó a la «incertidumbre global»" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 37%"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://hoydia.com.ar/economia/riesgo-pais-puntos/" target="_blank" rel="noopener">El riesgo país se disparó a 675 puntos y el Gobierno lo atribuyó a la «incertidumbre global»</a></h3>
+    <p class="card-bajada">El indicador subió más de 4% y alcanzó su nivel más alto del año. El vocero presidencial, Adrián Ravier, defendió la solidez financiera del Ejecutivo, mientras…</p>
+    <p class="meta"><span class="meta-fuente">Hoy Día Córdoba</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-19T17:14-03:00" data-rel>Ayer 17:14</time></p>
+  </div>
+</article><article class="card card--foto">
+  <p class="card-top"><span class="idx" aria-hidden="true">MN/05</span><span class="flecha" aria-hidden="true">↗</span></p>
+  <figure class="foto-card"><img src="https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UK2LE4PF2ZFQVFYMIZKJNBT44I.jpg?auth=81fa401daa9367bc92aee13f5f8f1380cae202294a91b0005402f4940554201c&amp;smart=true&amp;width=3333&amp;height=2222" alt="Milei se burló de la gente no llegue a fin de mes: “¿Cómo viven 10 días sin comer ni beber?”" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/20/milei-nego-que-la-gente-no-llegue-a-fin-de-mes-como-viven-10-dias-sin-comer-ni-beber/" target="_blank" rel="noopener">Milei se burló de la gente no llegue a fin de mes: “¿Cómo viven 10 días sin comer ni beber?”</a></h3>
+    <p class="card-bajada">En un exabrupto discursivo más, el Presidente tildó a la grave crisis económica que atraviesa el país de “pelotudez” y apuntó contra los medios que difunden…</p>
+    <p class="meta"><span class="meta-fuente">Página/12</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-19T21:41-03:00" data-rel>Ayer 21:41</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article><article class="card card--foto">
+  <p class="card-top"><span class="idx" aria-hidden="true">MN/06</span><span class="flecha" aria-hidden="true">↗</span></p>
+  <figure class="foto-card"><img src="https://resizer.glanacion.com/resizer/v2/B2OCJIEZVZDALCK5D7A7NF4ZVE.jpg?auth=a9e07f58a4a7f089c874309b24ab3be23d427cba9168f41eeea983a00739ae82&amp;smart=true&amp;width=1360&amp;height=910" alt="Milei llegó a Madrid en plena campaña: lo reciben con críticas del gobierno y sus aliados toman distancia" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 63%"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/milei-llego-a-madrid-en-plena-campana-lo-reciben-con-criticas-del-gobierno-y-sus-aliados-toman-nid20102026/" target="_blank" rel="noopener">Milei llegó a Madrid en plena campaña: lo reciben con críticas del gobierno y sus aliados toman distancia</a></h3>
+    <p class="card-bajada">Estará un día en España para dar dos conferencias; el líder de VOX no lo verá porque está de gira y Díaz Ayuso (PP) aún no…</p>
+    <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T13:16-03:00" data-rel>Hoy 13:16</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article><article class="card card--foto">
+  <p class="card-top"><span class="idx" aria-hidden="true">MN/07</span><span class="flecha" aria-hidden="true">↗</span></p>
+  <figure class="foto-card"><img src="https://resizer.glanacion.com/resizer/v2/EC3ZQIQLI5E3TIJFJPDTHD2WHM.JPG?auth=45f741c87878c031fffb9e0b8d617feb839c8b7347a2b6847385dc0dbaff5ee1&amp;smart=true&amp;width=5564&amp;height=3710" alt="La suba del riesgo país castiga a la Argentina más que a otros mercados emergentes" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 25%"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/dolar/la-suba-del-riesgo-pais-castiga-a-la-argentina-mas-que-a-otros-mercados-emergentes-nid20102026/" target="_blank" rel="noopener">La suba del riesgo país castiga a la Argentina más que a otros mercados emergentes</a></h3>
+    <p class="card-bajada">La suba de las tasas internacionales golpea a la deuda global, pero los títulos argentinos caen más que los de sus pares</p>
+    <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T12:45-03:00" data-rel>Hoy 12:45</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article></div>
+  </section>
 
-  // Fecha
-  var when = new Date(data.actualizado);
-  var f = when.toLocaleDateString('es-AR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'America/Argentina/Cordoba' });
-  var h = when.toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'America/Argentina/Cordoba' });
-  document.getElementById('dateline').textContent = f + '. Actualizado a las ' + h + '.';
+  <section class="seccion" id="politica" aria-labelledby="t-politica">
+  <header class="sec-head">
+    <h2 class="sec-tit" id="t-politica">Política</h2>
+    <p class="sec-aux"><span class="etiqueta">(23 notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
+  </header>
+  <div class="sec-grid"><article class="card card--foto">
+  
+  <figure class="foto-card"><img src="https://resizer.glanacion.com/resizer/v2/JDZQONTJCZDXNPSFYV62MDU4SU.jpg?auth=446a5dec428517d2b50dc4795dd1e99889b06048a039cd78ddcc5b4cba698f8c&amp;smart=true&amp;width=497&amp;height=331" alt="Crece el malestar en el Senado por la demora de Santilli en concurrir a brindar su informe" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 46%"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/" target="_blank" rel="noopener">Crece el malestar en el Senado por la demora de Santilli en concurrir a brindar su informe</a></h3>
+    <p class="card-bajada">Desde que asumió como jefe de Gabinete en junio, nunca concurrió para informar sobre la marcha del Gobierno, como marca la Constitución; queja formal…</p>
+    <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T12:08-03:00" data-rel>Hoy 12:08</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/20/milei-volvio-a-insultar-a-lula-a-dias-del-balotaje-en-brasil/" target="_blank" rel="noopener">Milei volvió a insultar a Lula, a días del balotaje en Brasil</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Página/12</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T11:21-03:00" data-rel>Hoy 11:21</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.cba24n.com.ar/cordoba/la-ciudad-universitaria-de-cordoba--su-historia-secreta--el-proyecto-faraonico-trunco-y-como-transformo-la-identidad-de-la-docta_a6ad776dac7853ea2c2b49e31" target="_blank" rel="noopener">La Ciudad Universitaria de Córdoba: su historia secreta, el proyecto faraónico trunco y cómo transformó la identidad de la Docta</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Cba24n</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T11:20-03:00" data-rel>Hoy 11:20</time></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/milei-tiene-otro-rival-en-cordoba-y-no-es-kicillof-segun-una-encuesta.phtml" target="_blank" rel="noopener">Milei tiene otro rival en Córdoba y no es Kicillof según una encuesta</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Perfil</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T11:19-03:00" data-rel>Hoy 11:19</time></p>
+  </div>
+</article></div>
+</section><section class="seccion" id="economia" aria-labelledby="t-economia">
+  <header class="sec-head">
+    <h2 class="sec-tit" id="t-economia">Economía</h2>
+    <p class="sec-aux"><span class="etiqueta">(17 notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
+  </header>
+  <div class="sec-grid"><article class="card card--foto">
+  
+  <figure class="foto-card"><img src="https://resizer.glanacion.com/resizer/v2/WOE3DXDZ5REU3LNS7652IUYWQA.jpg?auth=090f48284122b14e755b582d222efcec665673230f24171a59f32815cc779d88&amp;smart=true&amp;width=6000&amp;height=4000" alt="Plazo fijo: cuál es la tasa de interés banco por banco este martes 20 de octubre" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-20-de-octubre-nid20102026/" target="_blank" rel="noopener">Plazo fijo: cuál es la tasa de interés banco por banco este martes 20 de octubre</a></h3>
+    <p class="card-bajada">El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una…</p>
+    <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T12:34-03:00" data-rel>Hoy 12:34</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://comercioyjusticia.info/contenido-institucional/cimcc-datos-rigurosos-y-articulacion-publica-para-impulsar-la-productividad-industrial/" target="_blank" rel="noopener">CIMCC: datos rigurosos y articulación pública para impulsar la productividad industrial</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Comercio y Justicia</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T10:03-03:00" data-rel>Hoy 10:03</time></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://comercioyjusticia.info/factor/sobreendeudamiento-cuando-la-pyme-todavia-puede-recuperarse/" target="_blank" rel="noopener">Sobreendeudamiento: cuando la pyme todavía puede recuperarse</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Comercio y Justicia</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T09:00-03:00" data-rel>Hoy 09:00</time></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/" target="_blank" rel="noopener">Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T07:19-03:00" data-rel>Hoy 07:19</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article></div>
+</section><section class="seccion" id="cordoba" aria-labelledby="t-cordoba">
+  <header class="sec-head">
+    <h2 class="sec-tit" id="t-cordoba">Córdoba</h2>
+    <p class="sec-aux"><span class="etiqueta">(18 notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
+  </header>
+  <div class="sec-grid"><article class="card card--foto">
+  
+  <figure class="foto-card"><img src="https://fotos.perfil.com/2026/06/20/trim/540/304/200626pamicedocg-2265152.jpg" alt="Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaron más de un año de atraso en pagos" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/pami-en-cordoba-intendentes-denuncian-un-ano-de-deuda-y-reclaman-fondos-para-sostener-la-atencion.phtml" target="_blank" rel="noopener">Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaron más de un año de atraso en pagos</a></h3>
+    <p class="card-bajada">Jefes comunales de distintos municipios cordobeses se movilizaron este lunes para reclamar que el organismo nacional regularice las transferencias por prestaciones médicas a afiliados.</p>
+    <p class="meta"><span class="meta-fuente">Perfil</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T10:34-03:00" data-rel>Hoy 10:34</time></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://comercioyjusticia.info/lo-ultimo/el-gobierno-reconoce-que-la-economia-crece-menos-de-lo-previsto-pero-mantiene-el-plan-de-milei/" target="_blank" rel="noopener">El Gobierno reconoce que la economía crece menos de lo previsto, pero mantiene el plan de Milei</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Comercio y Justicia</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T09:37-03:00" data-rel>Hoy 09:37</time></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.cba24n.com.ar/cordoba/miguel-magnasco-se-postula-como--el-candidato-de-la-renovacion--para-suceder-a-daniel-passerini_a6ad69ec4d560f32786dfb47d" target="_blank" rel="noopener">Miguel Magnasco se postula como “el candidato de la renovación” para suceder a Daniel Passerini</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Cba24n</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T08:30-03:00" data-rel>Hoy 08:30</time></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-cordoba" aria-hidden="true"></span><span>Córdoba</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.cba24n.com.ar/cordoba/la-provincia-y-docentes-reabren-la-mesa-salarial-y-laboral-en-cordoba_a6ad72c12c7853ea2c2ae447d" target="_blank" rel="noopener">La Provincia y docentes reabren la Mesa Salarial y Laboral en Córdoba</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Cba24n</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T06:08-03:00" data-rel>Hoy 06:08</time></p>
+  </div>
+</article></div>
+</section><section class="seccion" id="argentina" aria-labelledby="t-argentina">
+  <header class="sec-head">
+    <h2 class="sec-tit" id="t-argentina">Argentina</h2>
+    <p class="sec-aux"><span class="etiqueta">(22 notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
+  </header>
+  <div class="sec-grid"><article class="card card--foto">
+  
+  <figure class="foto-card"><img src="https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&amp;smart=true&amp;width=6720&amp;height=4480" alt="¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/" target="_blank" rel="noopener">¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave</a></h3>
+    <p class="card-bajada">Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo…</p>
+    <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T07:20-03:00" data-rel>Hoy 07:20</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/nueva-paritaria-de-la-construccion-cuanto-cobra-un-albanil-en-octubre-2026-con-el-aumento-confirmado-nid01102026/" target="_blank" rel="noopener">Nueva paritaria de la construcción: cuánto cobra un albañil en octubre 2026 con el aumento confirmado por la Uocra</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T07:18-03:00" data-rel>Hoy 07:18</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/siguen-los-cortocircuitos-entre-milei-y-sus-diputados-por-el-proyecto-de-discapacidad-que-se-nid20102026/" target="_blank" rel="noopener">Siguen los cortocircuitos entre Milei y sus diputados por el proyecto de discapacidad que se consensuó con los aliados</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T07:12-03:00" data-rel>Hoy 07:12</time> <span class="tag-sus">(Con suscripción)</span></p>
+  </div>
+</article><article class="card card--texto">
+  
+  
+  <div class="card-txt">
+    <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Economía</span></p>
+    <h3 class="card-tit"><a class="nota-link" href="https://comercioyjusticia.info/economia/el-superavit-comercial-no-tiene-techo-y-milei-destaco-el-aporte-clave-de-la-energia/" target="_blank" rel="noopener">El superávit comercial no tiene techo y Milei destacó el aporte clave de la energía</a></h3>
+    
+    <p class="meta"><span class="meta-fuente">Comercio y Justicia</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-20T05:50-03:00" data-rel>Hoy 05:50</time></p>
+  </div>
+</article></div>
+</section>
 
-  function renderFilters() {
-    var ul = document.getElementById('filters');
-    ul.textContent = '';
-    FILTERS.forEach(function (p) {
-      var count = p[0] === 'todas' ? notes.length : notes.filter(function (n) { return n.seccion === p[0]; }).length;
-      var li = el('li');
-      var b = el('button', null, p[1]);
-      b.type = 'button';
-      b.setAttribute('aria-pressed', String(state.filter === p[0]));
-      b.appendChild(el('span', 'n', String(count)));
-      b.addEventListener('click', function () { state.filter = p[0]; renderFilters(); renderList(); });
-      li.appendChild(b);
-      ul.appendChild(li);
-    });
-  }
+  
 
-  function renderList() {
-    var ol = document.getElementById('notes');
-    ol.textContent = '';
-    notes.filter(function (n) { return state.filter === 'todas' || n.seccion === state.filter; })
-      .forEach(function (n) {
-        var li = el('li');
-        var b = el('button', 'note-btn');
-        b.type = 'button';
-        if (n.id === state.selected) b.setAttribute('aria-current', 'true');
-        var top = el('span', 'note-top');
-        top.appendChild(marker(n.seccion));
-        top.appendChild(el('span', null, SECTIONS[n.seccion] || n.seccion));
-        top.appendChild(el('span', 'hora', diaTxt(n) + (n.hora || '')));
-        b.appendChild(top);
-        b.appendChild(el('span', 'note-title', n.titulo));
-        b.appendChild(el('span', 'note-src', n.fuente + (n.acceso === 'suscripcion' ? ' (con suscripción)' : '')));
-        b.addEventListener('click', function () {
-          state.selected = n.id;
-          renderList();
-          renderLead();
-          if (window.matchMedia('(max-width: 880px)').matches) {
-            var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            document.getElementById('lead').scrollIntoView({ block: 'start', behavior: reduce ? 'auto' : 'smooth' });
-          }
-        });
-        li.appendChild(b);
-        ol.appendChild(li);
-      });
-  }
+  <section class="ultimas" id="ultimas" aria-labelledby="t-ultimas">
+    <header class="sec-head">
+      <h2 class="sec-tit" id="t-ultimas">Últimas</h2>
+      <p class="sec-aux"><span class="etiqueta">(De la más nueva a la más vieja)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
+    </header>
+    <ol class="indice"><li class="fila">
+  <span class="fila-n" aria-hidden="true">01</span>
+  <span class="fila-hora">13:16</span>
+  <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Política</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/milei-llego-a-madrid-en-plena-campana-lo-reciben-con-criticas-del-gobierno-y-sus-aliados-toman-nid20102026/" target="_blank" rel="noopener">Milei llegó a Madrid en plena campaña: lo reciben con críticas del gobierno y sus aliados toman distancia</a></h3>
+  <span class="fila-medio">La Nación<span class="tag-sus">(Con suscripción)</span></span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">02</span>
+  <span class="fila-hora">13:11</span>
+  <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Economía</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://comercioyjusticia.info/lo-ultimo/riesgo-pais-tras-un-inicio-en-710-puntos-los-bonos-se-recuperaron-y-el-indicador-se-ubica-en-684-unidades/" target="_blank" rel="noopener">Riesgo país: tras un inicio en 710 puntos, los bonos se recuperaron y el indicador se ubica en 684 unidades</a></h3>
+  <span class="fila-medio">Comercio y Justicia</span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">03</span>
+  <span class="fila-hora">12:45</span>
+  <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Economía</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/dolar/la-suba-del-riesgo-pais-castiga-a-la-argentina-mas-que-a-otros-mercados-emergentes-nid20102026/" target="_blank" rel="noopener">La suba del riesgo país castiga a la Argentina más que a otros mercados emergentes</a></h3>
+  <span class="fila-medio">La Nación<span class="tag-sus">(Con suscripción)</span></span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">04</span>
+  <span class="fila-hora">12:34</span>
+  <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Economía</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-20-de-octubre-nid20102026/" target="_blank" rel="noopener">Plazo fijo: cuál es la tasa de interés banco por banco este martes 20 de octubre</a></h3>
+  <span class="fila-medio">La Nación<span class="tag-sus">(Con suscripción)</span></span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">05</span>
+  <span class="fila-hora">12:08</span>
+  <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Política</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/" target="_blank" rel="noopener">Crece el malestar en el Senado por la demora de Santilli en concurrir a brindar su informe</a></h3>
+  <span class="fila-medio">La Nación<span class="tag-sus">(Con suscripción)</span></span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">06</span>
+  <span class="fila-hora">11:21</span>
+  <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Política</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/20/milei-volvio-a-insultar-a-lula-a-dias-del-balotaje-en-brasil/" target="_blank" rel="noopener">Milei volvió a insultar a Lula, a días del balotaje en Brasil</a></h3>
+  <span class="fila-medio">Página/12<span class="tag-sus">(Con suscripción)</span></span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">07</span>
+  <span class="fila-hora">11:20</span>
+  <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Política</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.cba24n.com.ar/cordoba/la-ciudad-universitaria-de-cordoba--su-historia-secreta--el-proyecto-faraonico-trunco-y-como-transformo-la-identidad-de-la-docta_a6ad776dac7853ea2c2b49e31" target="_blank" rel="noopener">La Ciudad Universitaria de Córdoba: su historia secreta, el proyecto faraónico trunco y cómo transformó la identidad de la Docta</a></h3>
+  <span class="fila-medio">Cba24n</span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">08</span>
+  <span class="fila-hora">11:19</span>
+  <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Política</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/milei-tiene-otro-rival-en-cordoba-y-no-es-kicillof-segun-una-encuesta.phtml" target="_blank" rel="noopener">Milei tiene otro rival en Córdoba y no es Kicillof según una encuesta</a></h3>
+  <span class="fila-medio">Perfil</span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">09</span>
+  <span class="fila-hora">11:12</span>
+  <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Economía</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-20-de-octubre-201026.phtml" target="_blank" rel="noopener">El dólar en Córdoba: a cuánto cotiza este martes 20 de octubre</a></h3>
+  <span class="fila-medio">Perfil</span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">10</span>
+  <span class="fila-hora">10:34</span>
+  <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Política</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/pami-en-cordoba-intendentes-denuncian-un-ano-de-deuda-y-reclaman-fondos-para-sostener-la-atencion.phtml" target="_blank" rel="noopener">Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaron más de un año de atraso en pagos</a></h3>
+  <span class="fila-medio">Perfil</span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">11</span>
+  <span class="fila-hora">10:03</span>
+  <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Economía</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://comercioyjusticia.info/contenido-institucional/cimcc-datos-rigurosos-y-articulacion-publica-para-impulsar-la-productividad-industrial/" target="_blank" rel="noopener">CIMCC: datos rigurosos y articulación pública para impulsar la productividad industrial</a></h3>
+  <span class="fila-medio">Comercio y Justicia</span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li><li class="fila">
+  <span class="fila-n" aria-hidden="true">12</span>
+  <span class="fila-hora">09:37</span>
+  <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Política</span>
+  <h3 class="fila-tit"><a class="nota-link" href="https://comercioyjusticia.info/lo-ultimo/el-gobierno-reconoce-que-la-economia-crece-menos-de-lo-previsto-pero-mantiene-el-plan-de-milei/" target="_blank" rel="noopener">El Gobierno reconoce que la economía crece menos de lo previsto, pero mantiene el plan de Milei</a></h3>
+  <span class="fila-medio">Comercio y Justicia</span>
+  <span class="flecha" aria-hidden="true">↗</span>
+</li></ol>
+  </section>
+</main>
 
-  function renderLead() {
-    var n = byId(state.selected);
-    var box = document.getElementById('lead');
-    box.textContent = '';
-    if (!n) return;
-    var isLead = n.id === leadId;
-
-    var k = el('div', 'kicker');
-    k.appendChild(marker(n.seccion));
-    k.appendChild(el('span', null, isLead ? 'Nota del día' : 'Nota seleccionada'));
-    if (!isLead) {
-      var back = el('button', 'back', 'Volver a la nota del día');
-      back.type = 'button';
-      back.addEventListener('click', function () { state.selected = leadId; renderList(); renderLead(); });
-      k.appendChild(back);
-    }
-    box.appendChild(k);
-
-    box.appendChild(el('h2', 'headline', n.titulo));
-
-    var meta = el('div', 'meta');
-    var sec = el('span', 'sec');
-    sec.appendChild(marker(n.seccion));
-    sec.appendChild(el('span', null, SECTIONS[n.seccion] || n.seccion));
-    meta.appendChild(sec);
-    meta.appendChild(el('span', 'src', n.fuente));
-    if (n.hora) meta.appendChild(el('span', null, diaTxt(n) + n.hora + ' h'));
-    if (n.acceso === 'suscripcion') meta.appendChild(el('span', 'badge', 'Con suscripción: solo titular y resumen breve'));
-    box.appendChild(meta);
-
-    var words = (n.resumen || '').trim().split(/\s+/).filter(Boolean).length;
-    var secs = Math.max(5, Math.round(words / 3.3));
-    var quick = el('section', 'block quick');
-    var qh = el('h3', null, 'Lectura rápida');
-    qh.appendChild(el('span', 't', 'unos ' + secs + ' segundos'));
-    quick.appendChild(qh);
-    quick.appendChild(el('p', null, n.resumen || ''));
-    box.appendChild(quick);
-
-    if (n.impacto) {
-      var imp = el('section', 'block impact');
-      imp.appendChild(el('h3', null, 'Impacto en las finanzas'));
-      imp.appendChild(el('p', null, n.impacto));
-      box.appendChild(imp);
-    }
-
-    if (n.otros && n.otros.length) {
-      var oth = el('section', 'block otros');
-      oth.appendChild(el('h3', null, 'También lo cubren'));
-      var ul = el('ul');
-      n.otros.forEach(function (o) {
-        var li = el('li');
-        var h = o.url ? safeUrl(o.url) : null;
-        var label = o.fuente + (o.titulo ? ': ' + o.titulo : '');
-        if (h) {
-          var a = el('a', null, label);
-          a.href = h; a.target = '_blank'; a.rel = 'noopener noreferrer';
-          li.appendChild(a);
-        } else {
-          li.appendChild(el('span', null, label));
-        }
-        ul.appendChild(li);
-      });
-      oth.appendChild(ul);
-      box.appendChild(oth);
-    }
-
-    var act = el('div', 'actions');
-    var href = n.url ? safeUrl(n.url) : null;
-    if (href) {
-      var a = el('a', 'go', 'Leer la nota completa en ' + n.fuente);
-      a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer';
-      act.appendChild(a);
-    } else {
-      var d = el('span', 'go', 'El enlace a la nota original va acá');
-      d.setAttribute('aria-disabled', 'true');
-      act.appendChild(d);
-    }
-    box.appendChild(act);
-    box.appendChild(el('p', 'legal', 'Extracto publicado por el medio. Para la nota completa, usar el enlace de arriba.'));
-
-    // La foto se pide solo en computadora; en el celular no se descarga
-    var src = n.imagen && desktop.matches ? safeImg(n.imagen) : null;
-    if (src) {
-      var fig = el('figure', 'foto');
-      var img = el('img');
-      img.alt = 'Imagen de la nota';
-      img.loading = 'lazy';
-      img.referrerPolicy = 'no-referrer';
-      img.addEventListener('error', function () { fig.remove(); });
-      // Si se detectaron rostros, se encuadra para que se vean enteros
-      var ro = n.rostros;
-      if (!(ro && typeof ro.y0 === 'number' && typeof ro.y1 === 'number')) ro = { y0: 0.05, y1: 0.35 };  // sin rostros: favorecer la parte de arriba
-      if (ro) {
-        img.addEventListener('load', function () { encuadrar(img, ro); });
-        window.addEventListener('resize', function () { if (img.complete) encuadrar(img, ro); });
-      }
-      img.src = src;
-      fig.appendChild(img);
-      var cap = el('figcaption', null, 'Imagen: ' + (n.imagen_credito || n.fuente) + '. ');
-      if (href) {
-        var ver = el('a', null, 'Ver la nota original');
-        ver.href = href; ver.target = '_blank'; ver.rel = 'noopener noreferrer';
-        cap.appendChild(ver);
-      }
-      fig.appendChild(cap);
-      box.appendChild(fig);
-    }
-  }
-
-  function renderOpinion() {
-    var ol = document.getElementById('op-lista');
-    var box = document.getElementById('opinion');
-    ol.textContent = '';
-    var lista = Array.isArray(data.opinion) ? data.opinion : [];
-    var viejo = box.querySelector('.vacio'); if (viejo) viejo.remove();
-    var chip = document.getElementById('ir-opinion');
-    if (chip) { chip.hidden = !lista.length; if (lista.length) chip.textContent = 'Notas de opinión (' + lista.length + ') ↓'; }
-    if (!lista.length) {
-      var p = el('p', 'vacio', 'Todavía no hay notas de opinión marcadas.');
-      box.querySelector('.opinion-in').appendChild(p);
-      return;
-    }
-    lista.forEach(function (o) {
-      var href = safeUrl(o.url);
-      if (!href) return;
-      var li = el('li', 'op');
-      li.appendChild(el('div', 'op-medio', 'Opinión · ' + (o.medio || '')));
-      var t = el('a', 'op-titulo', o.titulo);
-      t.href = href; t.target = '_blank'; t.rel = 'noopener noreferrer';
-      li.appendChild(t);
-      if (o.autor) li.appendChild(el('p', 'op-autor', 'Por ' + o.autor));
-      if (o.resumen) li.appendChild(el('p', 'op-texto', o.resumen));
-      var a = el('a', null, 'Leer en ' + (o.medio || 'el medio') + ' →');
-      a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer';
-      li.appendChild(a);
-      ol.appendChild(li);
-    });
-  }
-
-  renderFilters(); renderList(); renderLead(); renderOpinion();
-  if (desktop.addEventListener) desktop.addEventListener('change', renderLead);
-})();
-</script>
+<footer class="pie">
+  <div class="envoltura">
+    <div class="pie-grilla">
+      <div class="pie-col">
+        <h2 class="etiqueta">(Mano Negra)</h2>
+        <p>El medio de medios. Reunimos las noticias de política y economía de Córdoba y Argentina, con un extracto y el enlace a la nota original de cada medio.</p>
+      </div>
+      <nav class="pie-col" aria-label="Secciones (pie de página)">
+        <h2 class="etiqueta">(Secciones)</h2>
+        <ul>
+          <li><a href="#inicio">Inicio<span class="flecha" aria-hidden="true">↑</span></a></li>
+          <li><a href="#politica">Política<span class="flecha" aria-hidden="true">→</span></a></li>
+          <li><a href="#economia">Economía<span class="flecha" aria-hidden="true">→</span></a></li>
+          <li><a href="#cordoba">Córdoba<span class="flecha" aria-hidden="true">→</span></a></li>
+          <li><a href="#argentina">Argentina<span class="flecha" aria-hidden="true">→</span></a></li>
+        </ul>
+      </nav>
+      <div class="pie-col">
+        <h2 class="etiqueta">(Contacto y redes)</h2>
+        <ul><li class="pie-pendiente">Muy pronto, nuestros canales de contacto.</li></ul>
+      </div>
+      <div class="pie-col">
+        <h2 class="etiqueta">(Fuentes)</h2>
+        <p>Infobae, La Nación, La tinta, Página/12, Hoy Día Córdoba, Comercio y Justicia, Cba24n, Bunker Media, Punto a Punto, Cadena 3, Perfil.</p>
+        <p class="pie-legal">Los textos son extractos publicados por cada medio; las notas completas pertenecen a sus autores. Cotización: dolarapi.com.</p>
+      </div>
+    </div>
+    <div class="pie-marca" aria-hidden="true">
+      <img class="pie-logo" src="assets/img/huella-192.webp?v=4d58ff56" alt="" width="129" height="192" loading="lazy">
+      <span class="pie-nombre">Mano Negra</span>
+    </div>
+    <div class="pie-base">
+      <p>© 2026 Mano Negra</p>
+      <p>(Córdoba, Argentina)</p>
+      <p><a href="#inicio">Volver arriba<span class="flecha" aria-hidden="true">↑</span></a></p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

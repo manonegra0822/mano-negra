@@ -11,6 +11,11 @@ on:
       - keywords.json
       - curaduria.json
       - build.py
+      - render.py
+      - plantilla.html
+      - sitio.json
+      - assets/**
+      - intro/**
       - fotos/**
   # Botón "Run workflow" en la pestaña Actions
   workflow_dispatch:
@@ -19,7 +24,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: actualizar
+  group: publicar
   cancel-in-progress: false
 
 jobs:
@@ -47,5 +52,6 @@ jobs:
             echo "Sin cambios"
           else
             git commit -m "Actualizar notas"
+            git pull --rebase
             git push
           fi

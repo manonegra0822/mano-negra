@@ -3,7 +3,7 @@
 
 Lee los feeds RSS/Atom de sources.json, se queda con las notas de política y
 economía, agrupa las que varios medios cubren sobre el mismo tema, elige la más
-relevante y escribe todo dentro de index.html (y en news.json).
+relevante, lo guarda en news.json y arma index.html (ver render.py).
 
 No usa inteligencia artificial ni servicios pagos. Solo la biblioteca estándar
 de Python. El texto de cada nota es el extracto que el propio medio publica en su
@@ -674,14 +674,9 @@ def main():
     datos = {"actualizado": ahora.isoformat(timespec="seconds"), "notas": notas, "opinion": opinion}
     Path(args.json).write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    pagina = Path(args.html).read_text(encoding="utf-8")
-    patron = re.compile(r'(<script type="application/json" id="news-data">)(.*?)(</script>)', re.S)
-    if not patron.search(pagina):
-        print("[error] No encuentro el bloque news-data en index.html.", file=sys.stderr)
-        sys.exit(1)
-    cuerpo = json.dumps(datos, ensure_ascii=False, indent=2).replace("</", "<\\/")
-    nueva = patron.sub(lambda mo: mo.group(1) + "\n" + cuerpo + "\n" + mo.group(3), pagina, count=1)
-    Path(args.html).write_text(nueva, encoding="utf-8")
+    # La página se arma completa (notas escritas en HTML) a partir de plantilla.html
+    import render
+    render.escribir_pagina()
     print(f"[listo] {len(notas)} notas. Nota del día: {notas[0]['titulo']}")
 
 
