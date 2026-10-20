@@ -1,54 +1,78 @@
 {
-  "actualizado": "2026-10-20T14:56:10-03:00",
+  "actualizado": "2026-10-20T20:20:10-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 96,
           "ejemplos": [
-            "Martín Vizcarra fue ingresado a UCI por aparente problema cardiaco: Expresidente",
-            "Audiencia de Mario Marín por tortura contra Lydia Cacho es clave para la prensa:",
-            "Cebreros (Ávila) cree que el Gobierno discrimina a los pueblos afectados por los"
+            "Instacart pagará hasta USD 4 millones a trabajadores que fueron descartados por ",
+            "Tragedia en Villa Pueyrredón: le mostraba un arma a un amigo, se le escapó un ti",
+            "Jennifer Pedraza propuso destinar $1,4 billones para formalizar a trabajadores d"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Una automotriz estadounidense pone la mira en la Argentina para desembarcar con ",
-            "Fue a uno de los bodegones más destacados de Palermo, pidió un almuerzo para 6 y"
+            "Las inscripciones para los Premios Obrar 2026 permanecen abiertas en las categor"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Banco Central sumó otros USD 100 millones y ya compró más del doble que en se"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Frigerio, Llaryora y Pullaro reclamaron “que el narco y el crimen organizado no "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 11,
+      "leidas": 95,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 70,
+          "cantidad": 84,
           "ejemplos": [
-            "Se quejó por el precio de una cena y publicó el ticket en redes sociales, pero u",
-            "Murió a los 42 años Kyle Kennedy, sobrina nieta de John Fitzgerald Kennedy",
-            "DeSantis respalda a Donalds en las elecciones 2026 y el candidato insiste en “de"
+            "Costantini invierte hasta US$30 millones para ampliar un icónico edificio de Pal",
+            "Robert De Niro: la inversión inmobiliaria del actor en un destino paradisíaco el",
+            "Los expertos en plagas coinciden: lo primero que hay que hacer en casa antes de "
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 9,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Rebill levantó US$5,4 millones y busca multiplicar por 10 su negocio en los próx",
-            "El Tribunal del Mar tratará en noviembre el reclamo argentino por la explotación",
-            "“La gente tiene miedo de que la estafen”: la advertencia de Ricardo Arriazu por "
+            "Ante la mejoría de Mirtha Legrand, Martín Llaryora propuso celebrar sus 100 años"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "Cuáles son los motivos que llevaron al riesgo país por encima de los 700 puntos",
-            "Torrendell defendió la política educativa en Diputados y cuestionó cómo las univ"
+            "Biocombustibles: las pymes pidieron elevar el corte del biodiésel y las aceitera",
+            "La chicana de Rodríguez Larreta a Jorge Macri por el furcio sobre Borges: “Ay Jo"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Emergencia sanitaria: Brasil detectó un brote de Newcastle en una granja de pavo",
+            "A Francisco Franco le mataron 34 animales en un mes, perdió $40 millones y aband",
+            "Sigue baja la confianza empresarial en industria y supermercados para lo que que"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "El Gobierno canjeó 73% de una letra que vencía a fin de mes y evitará presión ex",
+            "Georges Breitschmitt, presidente del Ipcva, tras reuniones con importadores euro"
           ]
         }
       }
@@ -79,14 +103,19 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 4,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Sindicatos y organismos de derechos humanos exigieron la liberación de los deleg",
-            "Paro sorpresivo en el subte: todas las líneas están interrumpidas",
-            "Metrodelegados advierte que el paro de subtes puede seguir por tiempo indetermin"
+            "La crisis económica y las revueltas en Europa encienden las alarmas en el Gobier"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Polémica por el traslado de los presos desde Devoto a Marcos Paz",
+            "Paro de subtes: levantan la medida de fuerza, pero advierten por una escalada de"
           ]
         }
       }
@@ -94,20 +123,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 11,
           "ejemplos": [
-            "The Jazz Fusion Sessions desembarca en La Piojera: grabación, intimidad y homena",
-            "Oscar González recibió tres años de prisión condicional y no irá a la cárcel",
-            "La gente de Talleres pisa fuerte: está entre los cuatro clubes que más público l"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Milei advirtió sobre un posible fraude electoral en Brasil y acusó a Lula de “zu"
+            "El Vaticano enviará una delegación por la visita de León XIV a Argentina y Perú",
+            "El norte cordobés tendrá su primer desafío de ciclismo de montaña en Cerro Color",
+            "Nigeria confirmó su primer caso de ébola mientras Kenia elevó a nueve los contag"
           ]
         }
       }
@@ -115,14 +138,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 20,
+      "aceptadas": 22,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 29,
+          "cantidad": 32,
           "ejemplos": [
-            "Choque en las Altas Cumbres: condena de tres años de prisión condicional e inhab",
-            "Corrientes, al límite por la crecida del Paraná: esperan el pico y ya hay 646 ev",
-            "YPF proyecta un millón de barriles diarios: cómo se preparan los puertos"
+            "El Consejo de la Magistratura de Córdoba abre la inscripción para confeccionar l",
+            "El TSJ de Córdoba moderniza el Sistema de Concurrencias Profesionales en la Just",
+            "Choque en las Altas Cumbres: condena de tres años de prisión condicional e inhab"
           ]
         },
         "otro país": {
@@ -140,7 +163,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 27,
+          "cantidad": 22,
           "ejemplos": [
             "Caputo insistió en que Argentina “tiene excedente de dólares”",
             "El PJ Capital celebró el Día de la Lealtad con Passerini pero sin Llaryora y Sch",
@@ -152,14 +175,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Tras el debate, Lula anunció que abrirá su secreto bancario y desafía a Flávio B"
+          ]
+        },
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "Experiencia Fundación OSDE: cuidado y bienestar integral, en comunidad",
-            "El papá de Alexa, tras la condena a Oscar González: “La provincia le dejó hacer ",
-            "Talleres y otro semestre para el olvido: sin copas y atento al descenso en 2027"
+            "Julián Álvarez rompió la sequía con un golazo en la Champions League",
+            "Tevez confirmó la fecha de su despedida y crece la expectativa por los invitados",
+            "Epec confirmó una nueva serie de cortes de luz programados para este miércoles e"
           ]
         }
       }
@@ -179,14 +208,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 10,
+      "aceptadas": 15,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 18,
           "ejemplos": [
-            "Tragedia de las Altas Cumbres: condenaron a Oscar González a 3 años de prisión c",
-            "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p",
-            "Oncativo tendrá una nueva circunvalación: licitan una obra de $20.100 millones p"
+            "Insultos, golpes y enfrentamientos tras la condena a Oscar González: “Alejandra ",
+            "Con una caminata de 4.500 personas, Fundación OSDE llevó una jornada de salud y ",
+            "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p"
           ]
         },
         "otro país": {
@@ -196,7 +225,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 42,
+          "cantidad": 36,
           "ejemplos": [
             "Llaryora, tras la gira por Buenos Aires: críticas a Milei y apuesta por Schiaret",
             "Eva Molinelli, expareja de Gustavo Folli: “Si se hace un juicio oral, queda pres",
