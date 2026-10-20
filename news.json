@@ -1,6 +1,39 @@
 {
-  "actualizado": "2026-10-20T14:48:04-03:00",
+  "actualizado": "2026-10-20T14:50:59-03:00",
   "notas": [
+    {
+      "id": "d0788dfe83",
+      "seccion": "economia",
+      "rel": 46.0,
+      "relevancia": 46.0,
+      "fecha": "2026-10-20T13:11:21-03:00",
+      "hora": "13:11",
+      "titulo": "Riesgo país: tras un inicio en 710 puntos, los bonos se recuperaron y el indicador se ubica en 684 unidades",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/riesgo-pais-tras-un-inicio-en-710-puntos-los-bonos-se-recuperaron-y-el-indicador-se-ubica-en-684-unidades/",
+      "acceso": "abierto",
+      "resumen": "El riesgo país recortó la suba inicial y al promediar las operaciones del martes se ubica en 684 puntos, que representa un alza de 9 unidades con relación al ùltimo cierre. La reversión se produce a causa de una mejora en el valor de los títulos púiblicos. Al iniciarse la rueda, el indicador soberano se […]",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/64CQMKPZ2FGZ5GCFAM4WY263WU.JPG?auth=9a3e609256e3d96167588eb83f6fef3749ad28dd65f85a6b34b7af667e058be4&smart=true&width=6000&height=4000",
+      "imagen_credito": "Infobae",
+      "otros": [
+        {
+          "fuente": "Infobae",
+          "titulo": "El riesgo país llegó a superar la línea de los 700 puntos básicos tras una nueva caída de los bonos argentinos",
+          "url": "https://www.infobae.com/economia/2026/10/20/el-riesgo-pais-supero-la-linea-de-los-700-puntos-basicos-tras-una-nueva-caida-de-los-bonos-argentinos/"
+        },
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "El riesgo país salta a 710 puntos: los bonos argentinos operan a la baja",
+          "url": "https://hoydia.com.ar/economia/el-riesgo-pais-salta-a-710-puntos-los-bonos-argentinos-operan-a-la-baja/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.693,
+        "y1": 0.996
+      }
+    },
     {
       "id": "dc743cebf1",
       "seccion": "cordoba",
@@ -49,31 +82,6 @@
         }
       ],
       "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "d0788dfe83",
-      "seccion": "economia",
-      "rel": 33.5,
-      "relevancia": 33.5,
-      "fecha": "2026-10-20T13:11:21-03:00",
-      "hora": "13:11",
-      "titulo": "Riesgo país: tras un inicio en 710 puntos, los bonos se recuperaron y el indicador se ubica en 684 unidades",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/riesgo-pais-tras-un-inicio-en-710-puntos-los-bonos-se-recuperaron-y-el-indicador-se-ubica-en-684-unidades/",
-      "acceso": "abierto",
-      "resumen": "El riesgo país recortó la suba inicial y al promediar las operaciones del martes se ubica en 684 puntos, que representa un alza de 9 unidades con relación al ùltimo cierre. La reversión se produce a causa de una mejora en el valor de los títulos púiblicos. Al iniciarse la rueda, el indicador soberano se […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/10/riesgo-pais.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "El riesgo país salta a 710 puntos: los bonos argentinos operan a la baja",
-          "url": "https://hoydia.com.ar/economia/el-riesgo-pais-salta-a-710-puntos-los-bonos-argentinos-operan-a-la-baja/"
-        }
-      ],
-      "dia": 0,
       "rostros": null
     },
     {

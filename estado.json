@@ -1,22 +1,23 @@
 {
-  "actualizado": "2026-10-20T14:48:04-03:00",
+  "actualizado": "2026-10-20T14:50:59-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 96,
           "ejemplos": [
-            "Caso Digna Ochoa, 25 años después: las medidas que México sigue sin cumplir tras",
-            "Boca Juniors buscará dar vuelta la serie contra Vasco da Gama para avanzar a la ",
-            "Un piloto argentino se unió a Ferrari y confirmó que podría correr en una prácti"
+            "Martín Vizcarra fue ingresado a UCI por aparente problema cardiaco: Expresidente",
+            "Audiencia de Mario Marín por tortura contra Lydia Cacho es clave para la prensa:",
+            "Cebreros (Ávila) cree que el Gobierno discrimina a los pueblos afectados por los"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Una automotriz estadounidense pone la mira en la Argentina para desembarcar con ",
             "Fue a uno de los bodegones más destacados de Palermo, pidió un almuerzo para 6 y"
           ]
         }
@@ -24,23 +25,23 @@
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
+      "leidas": 92,
       "aceptadas": 11,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 69,
+          "cantidad": 70,
           "ejemplos": [
-            "Corea del Norte difundió fotos de Kim Jong-un para desmentir versiones de una he",
-            "Cómo comprar entradas para ver el show de BTS en vivo si no tengo entradas para ",
-            "“No hay un solo gasto que esté desfinanciado”: la defensa del Gobierno en el Con"
+            "Se quejó por el precio de una cena y publicó el ticket en redes sociales, pero u",
+            "Murió a los 42 años Kyle Kennedy, sobrina nieta de John Fitzgerald Kennedy",
+            "DeSantis respalda a Donalds en las elecciones 2026 y el candidato insiste en “de"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 9,
           "ejemplos": [
+            "Rebill levantó US$5,4 millones y busca multiplicar por 10 su negocio en los próx",
             "El Tribunal del Mar tratará en noviembre el reclamo argentino por la explotación",
-            "“La gente tiene miedo de que la estafen”: la advertencia de Ricardo Arriazu por ",
-            "Emergencia en el Paraná: un estudio del INTA reveló el millonario gasto de los p"
+            "“La gente tiene miedo de que la estafen”: la advertencia de Ricardo Arriazu por "
           ]
         },
         "sin ancla argentina": {
@@ -156,9 +157,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "Experiencia Fundación OSDE: cuidado y bienestar integral, en comunidad",
             "El papá de Alexa, tras la condena a Oscar González: “La provincia le dejó hacer ",
-            "Talleres y otro semestre para el olvido: sin copas y atento al descenso en 2027"
+            "Talleres y otro semestre para el olvido: sin copas y atento al descenso en 2027",
+            "Boca va por su Maracanazo ante Vasco da Gama: hora, TV y formaciones"
           ]
         }
       }
@@ -169,7 +170,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
+      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
     },
     {
       "medio": "Cadena 3",
