@@ -153,7 +153,7 @@
   /* Intro sello */
 #mn-intro{position:fixed;inset:0;z-index:9999;background:#fff;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;transition:opacity .45s ease;cursor:pointer}
 #mn-intro.mn-out{opacity:0;pointer-events:none}
-#mn-intro .mn-skip{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);min-height:44px;padding:0 20px;border:0;background:none;font-family:'Space Mono','Courier New',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#525252;cursor:pointer}
+#mn-intro .mn-skip{white-space:nowrap;position:absolute;bottom:28px;left:50%;transform:translateX(-50%);min-height:44px;padding:0 20px;border:0;background:none;font-family:'Space Mono','Courier New',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#525252;cursor:pointer}
 .mn-stage{position:relative;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:clamp(24px,4vw,72px);animation:mn-thud .4s ease-out .45s both}
 .mn-print{position:relative;height:min(68vh,560px);aspect-ratio:960/1426}
 .mn-print img{position:absolute;inset:0;width:100%;height:100%;display:block}
@@ -176,6 +176,13 @@
 #mn-intro .mn-entrar{position:absolute;inset:0;margin:auto;width:max-content;height:44px;padding:0 24px;border:0;background:none;font-family:'Space Mono','Courier New',monospace;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#000;cursor:pointer;animation:mn-blink 1.6s ease-in-out infinite}#mn-intro.mn-on .mn-entrar{display:none}#mn-intro:not(.mn-on) .mn-skip{display:none}@keyframes mn-blink{0%,100%{opacity:1}50%{opacity:.35}}
 
 .mn-stage:not(.mn-go),.mn-stage:not(.mn-go) *{animation-play-state:paused!important}
+  #mn-intro .mn-top{display:none;position:absolute;left:50%;top:40px;transform:translateX(-50%);min-height:44px;padding:0 20px;align-items:center;justify-content:center;font-family:'Space Mono','Courier New',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#000;white-space:nowrap}
+  @media (max-width:700px),(max-aspect-ratio:4/5){
+    #mn-intro .mn-top{display:flex}
+    .mn-stage{flex-direction:column;flex-wrap:nowrap;gap:clamp(20px,4.5vh,40px)}
+    .mn-print{height:auto;width:min(64vw,46vh*0.673,360px)}
+    .mn-title{font-size:clamp(38px,12.5vw,76px);align-items:center;text-align:center;line-height:.95}
+  }
 
 
   .headline, .note-title, .quick p { overflow-wrap: break-word; }
@@ -237,6 +244,7 @@
 </head>
 <body>
 <div id="mn-intro">
+<span class="mn-top">Córdoba-Argentina</span>
 <button class="mn-entrar" type="button">Tocá para entrar</button>
 <div class="mn-stage">
 <div class="mn-print" aria-hidden="true">
