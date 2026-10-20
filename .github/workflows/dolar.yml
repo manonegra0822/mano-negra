@@ -21,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -36,8 +38,15 @@ jobs:
           git add dolar.json index.html
           if git diff --cached --quiet; then
             echo "Sin cambios"
-          else
-            git commit -m "Actualizar dólar"
-            git pull --rebase
-            git push
+            exit 0
           fi
+          git commit -m "Actualizar dólar"
+          # Si mientras tanto se publicó otra actualización, se suma a ella y se rearma la página
+          for intento in 1 2 3; do
+            if git pull --rebase -X theirs && python render.py && git add index.html && (git diff --cached --quiet || git commit --amend --no-edit) && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1
