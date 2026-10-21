@@ -2,8 +2,8 @@
   "ayuda": "Datos del pie de página. contacto_email: el mail que se muestra. redes: el enlace completo (https://...) de cada red; las que queden vacías no se muestran.",
   "contacto_email": "",
   "redes": {
-    "instagram": "",
+    "instagram": "https://www.instagram.com/manonegra.arg/",
     "x": "",
-    "facebook": ""
+    "facebook": "https://www.facebook.com/profile.php?id=61595319553931"
   }
 }
