@@ -1,60 +1,60 @@
 {
-  "actualizado": "2026-10-21T08:24:52-03:00",
+  "actualizado": "2026-10-21T09:10:56-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 99,
           "ejemplos": [
-            "Tras el acuerdo entre Trump y Putin, Rusia enviará a Estados Unidos un primer ca",
-            "La miniserie sobre monstruos marinos que arrasa en Netflix: una mezcla entre ‘Ti",
-            "Elecciones generales 29-N, en directo y última hora de los sondeos: Ayuso confir"
+            "¿Qué acciones ha dispuesto el gobierno ante la llegada del Fenómeno El Niño en t",
+            "Honduras: DAET niega detenciones de policías tras operativo en San Pedro Sula y ",
+            "Salamandra Graphic publicará los cómics de las películas del Studio Ghibli en 20"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "Empleadas domésticas: cuánto valdrá la hora de limpieza en noviembre 2026",
-            "Preocupación, incertidumbre y tristeza en los hogares: la visión de tres analist",
-            "Ricardo Arriazu: “Deberíamos crecer arriba del 5% y estamos estancados en menos "
+            "Es estadounidense, se mudó a uno de los barrios más buscados de Buenos Aires y m"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 6,
+      "leidas": 96,
+      "aceptadas": 15,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 84,
+          "cantidad": 68,
           "ejemplos": [
-            "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas para el balota",
-            "Efemérides del 21 de octubre: ¿qué pasó un día como hoy?",
-            "Natalia Lobo llega a Bienestar Fest con una experiencia para volver a la propia "
+            "Gabriel Rolón, psicoanalista: “La gracia del amor es abrazar la imperfección del",
+            "Robin Sharma, experto crecimiento personal: “Un mal día para el ego es un buen d",
+            "Arthur Brooks, catedrático de Harvard, de 62 años: “Sentirse feliz no es lo mism"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "En España, Milei trató de “impresentable dictador” y “delincuente ladrón” a Pedr",
-            "Milei trató de “impresentable dictador” y “delincuente ladrón” a Pedro Sánchez e"
+            "Milei trató de “impresentable dictador” y “delincuente ladrón” a Pedro Sánchez e",
+            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e",
+            "En España, Milei trató de “impresentable dictador” y “delincuente ladrón” a Pedr"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 9,
           "ejemplos": [
-            "Lucas Maglio, ingeniero en acuicultura, sobre un negocio en auge: “Quizás haya l",
-            "A Francisco Franco le mataron 34 animales en un mes, perdió $40 millones y aband"
+            "A cuánto llega la PUAM en noviembre de 2026 con el aumento confirmado",
+            "PNC de Anses: cuál es el monto de las Pensiones No Contributivas en noviembre de",
+            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en noviembre 2026"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "La respuesta de Oscar Zago ante un pedido de “acuerdo político” de Bullrich"
+            "Sueldo oficial: cuánto ganan los miembros de las Fuerzas Armadas en octubre de 2"
           ]
         }
       }
@@ -65,15 +65,15 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 6,
           "ejemplos": [
+            "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu",
             "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co",
-            "Columna de géneros en #DesdeLaGente: Poder Popular",
-            "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo"
+            "Columna de géneros en #DesdeLaGente: Poder Popular"
           ]
         },
         "muy vieja": {
-          "cantidad": 5,
+          "cantidad": 4,
           "ejemplos": [
             "Ahora, que nos escuchen: en defensa de la ira femenina",
             "Proyectos autogestivos que apuestan al encuentro: feriar en clave feminista",
@@ -85,13 +85,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
             "Boca batió a Vasco da Gama y se metió con carácter en la final de la Copa Sudame",
-            "“Es un avance represivo contra el derecho a la protesta”"
+            "“Es un avance represivo contra el derecho a la protesta”",
+            "León XIV celebró la audiencia general y saludó a los fieles desde el papamóvil"
           ]
         },
         "otro país": {
@@ -160,9 +161,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
-            "Video: Fabián Gianola sufrió serias lesiones en un brazo tras ser atropellado",
-            "Victoria épica del PSG: 4-2 sobre el Barcelona y se rompe la racha de 11 triunfo",
-            "El tiempo: anuncian un templado miércoles en Córdoba, antes de las tormentas"
+            "Delicia Mamani: convocan a una nueva movilización en Córdoba a 11 meses de su de",
+            "Córdoba: un motociclista falleció tras chocar contra un poste y un árbol",
+            "FIFA sancionó al técnico de Egipto y a dos integrantes de su delegación tras la "
           ]
         },
         "otro país": {
@@ -188,14 +189,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 16,
+      "aceptadas": 17,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
             "Córdoba: elevan a juicio una causa por tortura y muerte de un detenido en la cár",
-            "Insultos, golpes y enfrentamientos tras la condena a Oscar González: “Alejandra ",
-            "Con una caminata de 4.500 personas, Fundación OSDE llevó una jornada de salud y "
+            "El Niño en Córdoba: prevén una máxima de 33° este miércoles y lluvias desde el j",
+            "Insultos, golpes y enfrentamientos tras la condena a Oscar González: “Alejandra "
           ]
         },
         "otro país": {
@@ -205,7 +206,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 35,
+          "cantidad": 34,
           "ejemplos": [
             "El Niño en Córdoba: cómo será el clima este lunes",
             "Las ventas por el Día de la Madre 2026 cayeron 1,4% interanual",
