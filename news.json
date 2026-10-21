@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-21T11:04:23-03:00",
+  "actualizado": "2026-10-21T11:14:14-03:00",
   "notas": [
     {
       "id": "944adedab5",
       "seccion": "argentina",
-      "rel": 46.0,
-      "relevancia": 46.0,
+      "rel": 45.9,
+      "relevancia": 45.9,
       "fecha": "2026-10-21T10:48:56-03:00",
       "hora": "10:48",
       "titulo": "Elecciones en Brasil: la paridad entre Lula y Flávio Bolsonaro pone en juego la relación con Javier Milei",
@@ -98,10 +98,35 @@
       "rostros": null
     },
     {
-      "id": "9cd74f2d95",
+      "id": "1821b32635",
       "seccion": "cordoba",
       "rel": 34.0,
       "relevancia": 34.0,
+      "fecha": "2026-10-21T06:46:09-03:00",
+      "hora": "06:46",
+      "titulo": "El dólar en Córdoba: a cuánto cotiza este miércoles 21 de octubre",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-21-de-octubre-211026.phtml",
+      "acceso": "abierto",
+      "resumen": "Este miércoles 21 de octubre el dólar oficial en el Banco Nación se vende a 1.495 pesos y cotiza a 1.545 pesos para la compra. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/dolares-2348612.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 21 de octubre, minuto a minuto",
+          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid21102026/"
+        }
+      ],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "9cd74f2d95",
+      "seccion": "cordoba",
+      "rel": 33.9,
+      "relevancia": 33.9,
       "fecha": "2026-10-21T10:48:06-03:00",
       "hora": "10:48",
       "titulo": "“Fanático”: Pedro Sánchez le respondió a Milei con un tema de Lali",
@@ -128,8 +153,8 @@
     {
       "id": "fa7c2a468e",
       "seccion": "cordoba",
-      "rel": 34.0,
-      "relevancia": 34.0,
+      "rel": 33.9,
+      "relevancia": 33.9,
       "fecha": "2026-10-21T06:48:43-03:00",
       "hora": "06:48",
       "titulo": "Milei atacó a los periodistas por la polémica sobre la gente que no llega a fin de mes",
@@ -151,59 +176,6 @@
       "rostros": {
         "y0": 0.113,
         "y1": 0.432
-      }
-    },
-    {
-      "id": "1821b32635",
-      "seccion": "cordoba",
-      "rel": 34.0,
-      "relevancia": 34.0,
-      "fecha": "2026-10-21T06:46:09-03:00",
-      "hora": "06:46",
-      "titulo": "El dólar en Córdoba: a cuánto cotiza este miércoles 21 de octubre",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-21-de-octubre-211026.phtml",
-      "acceso": "abierto",
-      "resumen": "Este miércoles 21 de octubre el dólar oficial en el Banco Nación se vende a 1.495 pesos y cotiza a 1.545 pesos para la compra. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/14/trim/540/304/dolares-2348612.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 21 de octubre, minuto a minuto",
-          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid21102026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "40926863e8",
-      "seccion": "cordoba",
-      "rel": 32.1,
-      "relevancia": 32.1,
-      "fecha": "2026-10-20T21:30:15-03:00",
-      "hora": "21:30",
-      "titulo": "Peter Lamelas confirmó el respaldo de EEUU al Gobierno de Javier Milei",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/internacionales/peter-lamelas-confirmo-el-respaldo-de-eeuu-al-gobierno-de-javier-milei_a6ad805f3c7853ea2c2c09d3c",
-      "acceso": "abierto",
-      "resumen": "El embajador estaodounidense anunció inversiones por 20 mil millones de dólares pero advirtió que estarán pendientes de lo que suceda en 2027.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad8066ac7853ea2c2c0a93f/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Lamelas confirmó el respaldo de EE.UU. a Milei: “Estamos poniendo la plata”, dijo",
-          "url": "https://hoydia.com.ar/politica/nacional/lamelas-confirmo-el-respaldo-de-ee-uu-a-milei-estamos-poniendo-la-plata-dijo/"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.095,
-        "y1": 0.526
       }
     },
     {
@@ -323,25 +295,6 @@
       }
     },
     {
-      "id": "c03403e081",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-21T10:47:34-03:00",
-      "hora": "10:47",
-      "titulo": "Elisa Carrió cargó contra el Gobierno: “La recesión es enorme y algunas cosas me recuerdan demasiado al pasado”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/elisa-carrio-cargo-contra-el-gobierno-la-recesion-es-enorme-y-algunas-cosas-me-recuerdan-demasiado-nid21102026/",
-      "acceso": "suscripcion",
-      "resumen": "La referente de la Coalición Cívica cuestionó la posición del presidente Javier Milei y el ministro Luis Caputo; acusó a los funcionarios de estar “escondiendo algo”",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/GCIZTSFFVNDR5BOBVZX77SGPRM.jpg?auth=a67e259e7de1132a47016108ef0ad87bb168c89795b8a858f482f8c917ec7280&smart=true&width=3000&height=2000",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "72746bf565",
       "seccion": "argentina",
       "rel": 22.0,
@@ -406,6 +359,25 @@
         "y0": 0.222,
         "y1": 0.823
       }
+    },
+    {
+      "id": "c03403e081",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-21T10:47:34-03:00",
+      "hora": "10:47",
+      "titulo": "Elisa Carrió cargó contra el Gobierno: “La recesión es enorme y algunas cosas me recuerdan demasiado al pasado”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/elisa-carrio-cargo-contra-el-gobierno-la-recesion-es-enorme-y-algunas-cosas-me-recuerdan-demasiado-nid21102026/",
+      "acceso": "suscripcion",
+      "resumen": "La referente de la Coalición Cívica cuestionó la posición del presidente Javier Milei y el ministro Luis Caputo; acusó a los funcionarios de estar “escondiendo algo”",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/GCIZTSFFVNDR5BOBVZX77SGPRM.jpg?auth=a67e259e7de1132a47016108ef0ad87bb168c89795b8a858f482f8c917ec7280&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "f8acaf5387",
@@ -700,8 +672,8 @@
     {
       "id": "46d9e50e47",
       "seccion": "cordoba",
-      "rel": 21.2,
-      "relevancia": 21.2,
+      "rel": 21.1,
+      "relevancia": 21.1,
       "fecha": "2026-10-21T06:00:00-03:00",
       "hora": "06:00",
       "titulo": "Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales",
@@ -779,8 +751,8 @@
     {
       "id": "c417152d70",
       "seccion": "argentina",
-      "rel": 20.2,
-      "relevancia": 20.2,
+      "rel": 20.1,
+      "relevancia": 20.1,
       "fecha": "2026-10-21T00:01:00-03:00",
       "hora": "00:01",
       "titulo": "Diputados: Se viene una sesión maratónica e incómoda para el Gobierno",
@@ -840,10 +812,32 @@
       "rostros": null
     },
     {
-      "id": "ee3bbcc08e",
+      "id": "40926863e8",
       "seccion": "cordoba",
       "rel": 19.7,
       "relevancia": 19.7,
+      "fecha": "2026-10-20T21:30:15-03:00",
+      "hora": "21:30",
+      "titulo": "Peter Lamelas confirmó el respaldo de EEUU al Gobierno de Javier Milei",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/internacionales/peter-lamelas-confirmo-el-respaldo-de-eeuu-al-gobierno-de-javier-milei_a6ad805f3c7853ea2c2c09d3c",
+      "acceso": "abierto",
+      "resumen": "El embajador estaodounidense anunció inversiones por 20 mil millones de dólares pero advirtió que estarán pendientes de lo que suceda en 2027.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ad8066ac7853ea2c2c0a93f/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.095,
+        "y1": 0.526
+      }
+    },
+    {
+      "id": "ee3bbcc08e",
+      "seccion": "cordoba",
+      "rel": 19.6,
+      "relevancia": 19.6,
       "fecha": "2026-10-20T21:00:24-03:00",
       "hora": "21:00",
       "titulo": "Llaryora reclamó un plan de infraestructura para potenciar el desarrollo del interior productivo",
@@ -862,25 +856,6 @@
       }
     },
     {
-      "id": "4a2e947f41",
-      "seccion": "economia",
-      "rel": 19.6,
-      "relevancia": 19.6,
-      "fecha": "2026-10-20T20:30:42-03:00",
-      "hora": "20:30",
-      "titulo": "Tras los dichos de Javier Milei, la respuesta simple: se llega a fin de mes con deudas",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/tras-los-dichos-de-javier-milei--la-respuesta-simple--se-llega-a-fin-de-mes-con-deudas_a6ad7f753c7853ea2c2bf8388",
-      "acceso": "abierto",
-      "resumen": "Desde el Centro de Almaceneros recordaron que el informe de septiembre revela que muchas familias se saltean comidas, recurren a marcas más baratas y utilizan la tarjeta de crédito para poder pagar alimentos.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad7f7c2c7853ea2c2bf8db0/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "f49144b57e",
       "seccion": "cordoba",
       "rel": 19.6,
@@ -895,6 +870,25 @@
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "4a2e947f41",
+      "seccion": "economia",
+      "rel": 19.5,
+      "relevancia": 19.5,
+      "fecha": "2026-10-20T20:30:42-03:00",
+      "hora": "20:30",
+      "titulo": "Tras los dichos de Javier Milei, la respuesta simple: se llega a fin de mes con deudas",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/tras-los-dichos-de-javier-milei--la-respuesta-simple--se-llega-a-fin-de-mes-con-deudas_a6ad7f753c7853ea2c2bf8388",
+      "acceso": "abierto",
+      "resumen": "Desde el Centro de Almaceneros recordaron que el informe de septiembre revela que muchas familias se saltean comidas, recurren a marcas más baratas y utilizan la tarjeta de crédito para poder pagar alimentos.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ad7f7c2c7853ea2c2bf8db0/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [],
       "dia": 1,
       "rostros": null

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T11:04:23-03:00",
+  "actualizado": "2026-10-21T11:14:14-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,9 +9,9 @@
         "sección no permitida": {
           "cantidad": 98,
           "ejemplos": [
-            "La indirecta de Mauro Icardi a Wanda Nara desde México por una foto de la China ",
-            "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 21 de octubre: César Jáu",
-            "Juicio por la muerte de Maradona, en vivo: alega la defensa de Leopoldo Luque y "
+            "Patricia Grisales arremetió contra Margarita Rosa de Francisco por mensaje contr",
+            "CDMX tendrá 5 mil actividades gratuitas para el Día de Muertos 2026: festivales,",
+            "Dólar hoy 21 de octubre de 2026: la divisa se cotiza en Colombia a $3.191,63, $2"
           ]
         }
       }
@@ -22,11 +22,11 @@
       "aceptadas": 13,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 68,
+          "cantidad": 69,
           "ejemplos": [
+            "Cuándo juega Boca la final de la Copa Sudamericana 2026: día y sede de la defini",
             "Qué se sabe de la muerte de Antonio Grimau",
-            "Mauro Icardi compartió fotos de sus vacaciones en la playa y piropeó a la China ",
-            "Lula recorta la ventaja de Flavio según la última encuesta y hay un empate técni"
+            "Mauro Icardi compartió fotos de sus vacaciones en la playa y piropeó a la China "
           ]
         },
         "sin ancla argentina": {
@@ -37,7 +37,7 @@
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 8,
           "ejemplos": [
             "Consejo de la Magistratura: los abogados eligieron a sus representantes y una li",
             "Reasignan $18 millones para pagar gastos de pasajes y hotel en misiones comercia",
@@ -102,9 +102,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
+            "Elevan a juicio una causa por tortura y muerte de un detenido en Bouwer",
             "Macron cruzó a Trump y otros líderes por sus dichos sobre los disturbios",
-            "Rompió un vehículo, robó pertenencias y fue detenido",
-            "Emilce Cuda se reunirá con 500 líderes sociales para debatir los desafíos comuni"
+            "Rompió un vehículo, robó pertenencias y fue detenido"
           ]
         }
       }
@@ -174,7 +174,7 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 17,
+      "aceptadas": 15,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 20,
@@ -184,6 +184,12 @@
             "Accastello celebró que Itatí Demarchi llegue al Consejo de la Magistratura: “Un "
           ]
         },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "“No podemos dejar la situación así”: la Municipalidad reclama por el estado de l"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
@@ -191,11 +197,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 32,
+          "cantidad": 33,
           "ejemplos": [
-            "Femicidio de Camila: el detenido se escondía en la casa de una amiga de su madre",
-            "Uno por uno: estos son los 40 proyectos de inversión que se suman al programa IP",
-            "Las ventas por el Día de la Madre 2026 cayeron 1,4% interanual"
+            "Liliana Montero: \"Milei le da el golpe de gracia al Remediar, están destruyendo ",
+            "Llaryora en la mesa de Juana Viale: \"Schiaretti hubiera sido un gran presidente ",
+            "Femicidio de Camila: el detenido se escondía en la casa de una amiga de su madre"
           ]
         }
       }
