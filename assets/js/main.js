@@ -16,7 +16,7 @@
     function pintar() {
       var oscuro = raiz.getAttribute("data-tema") === "oscuro";
       btn.setAttribute("aria-pressed", oscuro ? "true" : "false");
-      var etiqueta = oscuro ? "Fondo blanco" : "Fondo negro";
+      var etiqueta = oscuro ? "Claro" : "Oscuro";
       if (txt) txt.textContent = etiqueta;
       btn.setAttribute("aria-label", oscuro ? "Cambiar a fondo blanco" : "Cambiar a fondo negro");
     }
