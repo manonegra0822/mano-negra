@@ -1,11 +1,77 @@
 {
-  "actualizado": "2026-10-21T09:10:56-03:00",
+  "actualizado": "2026-10-21T11:04:23-03:00",
   "notas": [
+    {
+      "id": "944adedab5",
+      "seccion": "argentina",
+      "rel": 46.0,
+      "relevancia": 46.0,
+      "fecha": "2026-10-21T10:48:56-03:00",
+      "hora": "10:48",
+      "titulo": "Elecciones en Brasil: la paridad entre Lula y Flávio Bolsonaro pone en juego la relación con Javier Milei",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/21/elecciones-en-brasil-la-paridad-entre-lula-y-flavio-bolsonaro-pone-en-juego-la-relacion-con-javier-milei/",
+      "acceso": "abierto",
+      "resumen": "El sociólogo Ariel Goldstein analizó la disputa entre los candidatos, las diferencias territoriales y el peso de las redes sociales y el voto evangélico, en una contienda que también puede redefinir el vínculo bilateral",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/DVQ7ZAAWNJCZRB4QX3E5NY5DFY.JPG?auth=f2a65bea59cdc32e34da03ce170356a9495e9e9aa41acc8c3096a2e1dd32de2a&smart=true&width=2833&height=1888",
+      "imagen_credito": "Infobae",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "Brasil respondió a los insultos de Milei contra «Lula» Da Silva en X",
+          "url": "https://hoydia.com.ar/politica/nacional/brasil-respondio-a-los-insultos-de-milei-contra-lula-da-silva-en-x/"
+        },
+        {
+          "fuente": "Cba24n",
+          "titulo": "Pedro Sánchez respondió a los insultos de Javier Milei con una canción de Lali Espósito",
+          "url": "https://www.cba24n.com.ar/argentina/pedro-sanchez-respondio-a-los-insultos-de-javier-milei-con-una-cancion-de-lali-esposito_a6ad8bc5a920f762ed29645e3"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.468,
+        "y1": 0.833
+      }
+    },
+    {
+      "id": "089a74b15e",
+      "seccion": "cordoba",
+      "rel": 45.9,
+      "relevancia": 45.9,
+      "fecha": "2026-10-21T07:26:49-03:00",
+      "hora": "07:26",
+      "titulo": "Elecciones en el Consejo de la Magistratura: triunfo de la lista de Alberto Biglieri y Eduardo Bittar",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/elecciones-en-el-consejo-de-la-magistratura--triunfo-de-la-lista-de-alberto-biglieri-y-eduardo-bittar_a6ad88cf9920f762ed292da46",
+      "acceso": "abierto",
+      "resumen": "Se definieron los cuatro representantes para el período 2026-2030. La nómina encabezada por Alberto Biglieri y Claudia Sarmiento obtuvo dos bancas. El presidente del Colegio de Abogados de Córdoba no logró ingresar. Las representaciones restantes quedaron para la cordobesa Itatí Demarchi y el platense Fernando Levene. Se acordaron esquemas de rotación de bancas a los dos años.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ad892d8920f762ed2934232/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "Consejo de la Magistratura: Bittar ganó en Córdoba con el 51% de votos",
+          "url": "https://hoydia.com.ar/politica/cordoba/consejo-de-la-magistratura-bittar-gano-en-cordoba/"
+        },
+        {
+          "fuente": "Perfil",
+          "titulo": "Elección de abogados: ganó la Lista que encabeza Biglieri e integra Bittar, quien logró un claro triunfo en Córdoba",
+          "url": "https://www.perfil.com/noticias/cordoba/eleccion-de-abogados-gano-la-lista-que-encabeza-biglieri-e-integra-bittar-quien-logro-un-claro-triunfo-en-cordoba.phtml"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.007,
+        "y1": 0.477
+      }
+    },
     {
       "id": "310e1cdf49",
       "seccion": "cordoba",
-      "rel": 57.8,
-      "relevancia": 57.8,
+      "rel": 45.5,
+      "relevancia": 45.5,
       "fecha": "2026-10-21T07:59:15-03:00",
       "hora": "07:59",
       "titulo": "Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánchez",
@@ -26,7 +92,27 @@
           "fuente": "Hoy Día Córdoba",
           "titulo": "Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánchez",
           "url": "https://hoydia.com.ar/politica/nacional/javier-milei-califico-de-impresentable-y-dictador-al-presidente-de-espana-pedro-sanchez/"
-        },
+        }
+      ],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "9cd74f2d95",
+      "seccion": "cordoba",
+      "rel": 34.0,
+      "relevancia": 34.0,
+      "fecha": "2026-10-21T10:48:06-03:00",
+      "hora": "10:48",
+      "titulo": "“Fanático”: Pedro Sánchez le respondió a Milei con un tema de Lali",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/mundo/fanatico-pedro-sanchez-le-respondio-a-milei-con-un-tema-de-lali/",
+      "acceso": "abierto",
+      "resumen": "El Presidente del Gobierno de España recurrió a la canción de la cantante argentina luego de que el mandatario argentino lo calificara de “impresentable y dictador”.",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/HIZYWJKELJHT3MBTSP3XKAHWXQ.jpeg?auth=feed99d2a6041ed09ffba937b32bf653554e21a3b04ac7d6dab423664c7c43c8&smart=true&width=1600&height=1066",
+      "imagen_credito": "La Nación",
+      "otros": [
         {
           "fuente": "La Nación",
           "titulo": "La chicana de Pedro Sánchez a Milei en su visita a España: publicó una imagen de “Fanático” de Lali",
@@ -34,32 +120,38 @@
         }
       ],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.073,
+        "y1": 0.802
+      }
     },
     {
-      "id": "7141824c2c",
+      "id": "fa7c2a468e",
       "seccion": "cordoba",
       "rel": 34.0,
       "relevancia": 34.0,
-      "fecha": "2026-10-21T06:50:34-03:00",
-      "hora": "06:50",
-      "titulo": "Brasil respondió a los insultos de Milei contra «Lula» Da Silva en X",
+      "fecha": "2026-10-21T06:48:43-03:00",
+      "hora": "06:48",
+      "titulo": "Milei atacó a los periodistas por la polémica sobre la gente que no llega a fin de mes",
       "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/brasil-respondio-a-los-insultos-de-milei-contra-lula-da-silva-en-x/",
+      "url": "https://hoydia.com.ar/politica/nacional/milei-ataco-a-los-periodistas-por-la-polemica-sobre-la-gente-que-no-llega-a-fin-de-mes/",
       "acceso": "abierto",
-      "resumen": "“Es una declaración antidemocrática y desequilibrada”, sostuvo la Cancillería del vecino país a cinco días de las elecciones presidenciales.",
+      "resumen": "El mandatario consideró que \"son muy pobres intelectualmente\" y consideró que \"están ardidos\" por su respuesta. Duras críticas de la oposición, que llegaron a España.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853",
-      "imagen_credito": "La Nación",
+      "imagen": "https://www.infobae.com/resizer/v2/LJHYRPLKBZEYXCCDF6CXWUEARQ.jpg?auth=c73aea99f793c195dd0ea493010e590b88a3cf3319dd0d54112af8655f93f322&smart=true&width=1280&height=720",
+      "imagen_credito": "Infobae",
       "otros": [
         {
-          "fuente": "La Nación",
-          "titulo": "Javier Milei y sus medidas, en vivo: el presidente llamó a Lula “zurdo ladrón” días antes del balotaje en Brasil",
-          "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/"
+          "fuente": "Infobae",
+          "titulo": "“La gente no llega a fin de mes”: qué dijo el autor de la encuesta que irritó al Presidente Milei",
+          "url": "https://www.infobae.com/economia/2026/10/21/la-gente-no-llega-a-fin-de-mes-que-dijo-el-autor-de-la-encuesta-que-irrito-al-presidente-milei/"
         }
       ],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.113,
+        "y1": 0.432
+      }
     },
     {
       "id": "1821b32635",
@@ -87,25 +179,25 @@
       "rostros": null
     },
     {
-      "id": "d57f37e4ac",
-      "seccion": "economia",
+      "id": "40926863e8",
+      "seccion": "cordoba",
       "rel": 32.1,
       "relevancia": 32.1,
-      "fecha": "2026-10-20T20:08:48-03:00",
-      "hora": "20:08",
-      "titulo": "Lamelas confirmó el respaldo de EE.UU. a Milei: “Estamos poniendo la plata”, dijo",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/lamelas-confirmo-el-respaldo-de-ee-uu-a-milei-estamos-poniendo-la-plata-dijo/",
+      "fecha": "2026-10-20T21:30:15-03:00",
+      "hora": "21:30",
+      "titulo": "Peter Lamelas confirmó el respaldo de EEUU al Gobierno de Javier Milei",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/internacionales/peter-lamelas-confirmo-el-respaldo-de-eeuu-al-gobierno-de-javier-milei_a6ad805f3c7853ea2c2c09d3c",
       "acceso": "abierto",
-      "resumen": "El embajador norteamericano en Argentina confirmó que la administración Trump busca mover hasta 20.000 millones de dólares en inversiones en el país.",
+      "resumen": "El embajador estaodounidense anunció inversiones por 20 mil millones de dólares pero advirtió que estarán pendientes de lo que suceda en 2027.",
       "impacto": null,
       "imagen": "https://srt-assets.tadevel-cdn.com/6ad8066ac7853ea2c2c0a93f/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [
         {
-          "fuente": "Cba24n",
-          "titulo": "Peter Lamelas confirmó el respaldo de EEUU al Gobierno de Javier Milei",
-          "url": "https://www.cba24n.com.ar/internacionales/peter-lamelas-confirmo-el-respaldo-de-eeuu-al-gobierno-de-javier-milei_a6ad805f3c7853ea2c2c09d3c"
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "Lamelas confirmó el respaldo de EE.UU. a Milei: “Estamos poniendo la plata”, dijo",
+          "url": "https://hoydia.com.ar/politica/nacional/lamelas-confirmo-el-respaldo-de-ee-uu-a-milei-estamos-poniendo-la-plata-dijo/"
         }
       ],
       "dia": 1,
@@ -140,6 +232,31 @@
       "rostros": null
     },
     {
+      "id": "19d71065c3",
+      "seccion": "economia",
+      "rel": 27.9,
+      "relevancia": 27.9,
+      "fecha": "2026-10-21T10:22:01-03:00",
+      "hora": "10:22",
+      "titulo": "Riesgo país cerca 700 puntos: Los ejecutivos de finanzas lo leen como un problema político, no económico",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/riesgo-pais-cerca-700-puntos-los-ejecutivos-de-finanzas-lo-leen-como-un-problema-politico-no-economico.phtml",
+      "acceso": "abierto",
+      "resumen": "Durante el 15° Congreso Mercado de Capitales, CFOs, directivos y operadores analizaron qué implica el indicador. Coinciden en que refleja desconfianza ante 2027 más que fragilidad financiera. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/congreso-iaef-2353178.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [
+        {
+          "fuente": "Comercio y Justicia",
+          "titulo": "El riesgo país llegó a 675 puntos",
+          "url": "https://comercioyjusticia.info/economia/el-riesgo-pais-llego-a-675-puntos/"
+        }
+      ],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "976466aecf",
       "seccion": "cordoba",
       "rel": 27.1,
@@ -162,6 +279,66 @@
         }
       ],
       "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "6dc3b649c6",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-21T11:00:38-03:00",
+      "hora": "11:00",
+      "titulo": "Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin co",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "3cb8ba2365",
+      "seccion": "economia",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-21T10:56:52-03:00",
+      "hora": "10:56",
+      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este miércoles 21 de octubre",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-miercoles-21-de-octubre-nid21102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/MNESLAMTJBHUJLTHH5URD3JKJA.JPG?auth=e261a07d9712dd64e4bb7a182ae96a4459836c51651dfcd920811ec0b8dedb13&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.322,
+        "y1": 0.607
+      }
+    },
+    {
+      "id": "c03403e081",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-21T10:47:34-03:00",
+      "hora": "10:47",
+      "titulo": "Elisa Carrió cargó contra el Gobierno: “La recesión es enorme y algunas cosas me recuerdan demasiado al pasado”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/elisa-carrio-cargo-contra-el-gobierno-la-recesion-es-enorme-y-algunas-cosas-me-recuerdan-demasiado-nid21102026/",
+      "acceso": "suscripcion",
+      "resumen": "La referente de la Coalición Cívica cuestionó la posición del presidente Javier Milei y el ministro Luis Caputo; acusó a los funcionarios de estar “escondiendo algo”",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/GCIZTSFFVNDR5BOBVZX77SGPRM.jpg?auth=a67e259e7de1132a47016108ef0ad87bb168c89795b8a858f482f8c917ec7280&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
       "rostros": null
     },
     {
@@ -228,66 +405,6 @@
       "rostros": {
         "y0": 0.222,
         "y1": 0.823
-      }
-    },
-    {
-      "id": "140485572d",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-21T08:34:03-03:00",
-      "hora": "08:34",
-      "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
-      "acceso": "suscripcion",
-      "resumen": "Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "c90e246d9d",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-21T08:33:45-03:00",
-      "hora": "08:33",
-      "titulo": "La industria del espectáculo en Córdoba: cómo se combinan más proyectos, con costos en alza y consumo retraído",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/la-industria-del-espectaculo-en-cordoba-como-se-combinan-mas-proyectos-con-costos-en-alza-y-consumo-retraido.phtml",
-      "acceso": "abierto",
-      "resumen": "El aumento de los gastos operativos y la menor capacidad de compra del público redujeron los márgenes de los productores. No obstante, Córdoba avanza con nuevos espacios y proyectos para ampliar su capacidad de convocatoria. La mirada de José Palazzo, presidente de Córdoba Welcome y director de Envivo Producciones. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/palazzo-2353056.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "0549849043",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-21T08:33:42-03:00",
-      "hora": "08:33",
-      "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
-      "acceso": "suscripcion",
-      "resumen": "Para la actualización de haberes se toma el último índice de inflación que publicó el Indec; cuáles son las cifras para el penúltimo mes del año",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IZ6PB2Z7JVGAJAUJDMPKNUSKFQ.png?auth=41b276bf11862c94f065dee7b54c8b2392e447bb5796afc723c11dfece75c598&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.549,
-        "y1": 0.976
       }
     },
     {
@@ -373,6 +490,47 @@
       }
     },
     {
+      "id": "c653963deb",
+      "seccion": "argentina",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-21T10:09:37-03:00",
+      "hora": "10:09",
+      "titulo": "“Zurdo y a mucha honra”: la respuesta de Pedro Sánchez a Milei",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/21/zurdo-y-a-mucha-honra-la-respuesta-de-pedro-sanchez-a-milei/",
+      "acceso": "suscripcion",
+      "resumen": "El presidente español reivindicó sus posturas políticas ante los insultos del mandatario argentino, que está en España para hacer campaña por la ultraderecha. Compartió también la canción “Fanático”, que Lali Espósito le suele dedicar a Milei.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/KA5Y5NMBCZDH3AJST6SRQVP5KU.jpg?auth=851ac866c131cdf1f78e1095b49a2b792038a6f7c94bd1c368dd093d9b7428e5&smart=true&width=1500&height=1001",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.101,
+        "y1": 0.615
+      }
+    },
+    {
+      "id": "ab179de810",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-21T10:09:00-03:00",
+      "hora": "10:09",
+      "titulo": "Sesión especial en Diputados: debaten sobre discapacidad, endeudamiento y Ley de Tierras",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/sesion-especial-en-diputados--debaten-sobre-discapacidad--endeudamiento-y-ley-de-tierras_a6ad8b1d9920f762ed295540c",
+      "acceso": "abierto",
+      "resumen": "Impulsada por el oficialismo, la sesión tendrá como eje central el proyecto de Inviolabilidad de la Propiedad Privada.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ad8ba1d920f762ed295dfb2/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "f4e4e377f0",
       "seccion": "argentina",
       "rel": 21.8,
@@ -392,6 +550,28 @@
       "rostros": {
         "y0": 0.281,
         "y1": 0.649
+      }
+    },
+    {
+      "id": "6839532756",
+      "seccion": "cordoba",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-21T09:15:01-03:00",
+      "hora": "09:15",
+      "titulo": "Javier Milei en Madrid: ataques a Pedro Sánchez, críticas a la justicia social y el rol de las mujeres",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/javier-milei-en-madrid--ataques-a-pedro-sanchez--criticas-a-la-justicia-social-y-el-rol-de-las-mujeres_a6ad8aa78920f762ed294dc44",
+      "acceso": "abierto",
+      "resumen": "Durante su disertación en la Nueva Economía Fórum de la capital española, el Presidente argentino volvió a arremeter contra el mandatario español, defendió el ajuste de su gestión y advirtió sobre la inseguridad y el “estancamiento de Occidente”.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ad8ac92920f762ed294ff84/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.131,
+        "y1": 0.447
       }
     },
     {
@@ -417,6 +597,66 @@
       }
     },
     {
+      "id": "140485572d",
+      "seccion": "argentina",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-21T08:34:03-03:00",
+      "hora": "08:34",
+      "titulo": "¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/",
+      "acceso": "suscripcion",
+      "resumen": "Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "c90e246d9d",
+      "seccion": "cordoba",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-21T08:33:45-03:00",
+      "hora": "08:33",
+      "titulo": "La industria del espectáculo en Córdoba: cómo se combinan más proyectos, con costos en alza y consumo retraído",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/la-industria-del-espectaculo-en-cordoba-como-se-combinan-mas-proyectos-con-costos-en-alza-y-consumo-retraido.phtml",
+      "acceso": "abierto",
+      "resumen": "El aumento de los gastos operativos y la menor capacidad de compra del público redujeron los márgenes de los productores. No obstante, Córdoba avanza con nuevos espacios y proyectos para ampliar su capacidad de convocatoria. La mirada de José Palazzo, presidente de Córdoba Welcome y director de Envivo Producciones. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/palazzo-2353056.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "0549849043",
+      "seccion": "economia",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-21T08:33:42-03:00",
+      "hora": "08:33",
+      "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
+      "acceso": "suscripcion",
+      "resumen": "Para la actualización de haberes se toma el último índice de inflación que publicó el Indec; cuáles son las cifras para el penúltimo mes del año",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IZ6PB2Z7JVGAJAUJDMPKNUSKFQ.png?auth=41b276bf11862c94f065dee7b54c8b2392e447bb5796afc723c11dfece75c598&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.549,
+        "y1": 0.976
+      }
+    },
+    {
       "id": "aa1c5c0ae1",
       "seccion": "economia",
       "rel": 21.6,
@@ -439,44 +679,6 @@
       }
     },
     {
-      "id": "1b47e78a10",
-      "seccion": "economia",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-20T12:34:37-03:00",
-      "hora": "12:34",
-      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este martes 20 de octubre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-20-de-octubre-nid20102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WOE3DXDZ5REU3LNS7652IUYWQA.jpg?auth=090f48284122b14e755b582d222efcec665673230f24171a59f32815cc779d88&smart=true&width=6000&height=4000",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "46d9e50e47",
-      "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-10-21T06:00:00-03:00",
-      "hora": "06:00",
-      "titulo": "Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/llaryora-tajante-en-las-paritarias-no-hay-plata-y-no-habra-mejora-extra-para-los-estatales/",
-      "acceso": "abierto",
-      "resumen": "La postura, anticipada semanas atrás por Comercio y Justicia, quedó ratificada ayer en la primera reunión con la UEPC. El gremio concurrió con un combo de pedidos que incluyen una mejora en el poder adquisitivo de los salarios. La respuesta oficial no dejó interpretaciones. Sólo se revisará si se cumplió la aplicación de la cláusula […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "27788c6843",
       "seccion": "cordoba",
       "rel": 21.4,
@@ -496,10 +698,29 @@
       "rostros": null
     },
     {
-      "id": "96f050c20d",
-      "seccion": "economia",
+      "id": "46d9e50e47",
+      "seccion": "cordoba",
       "rel": 21.2,
       "relevancia": 21.2,
+      "fecha": "2026-10-21T06:00:00-03:00",
+      "hora": "06:00",
+      "titulo": "Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/llaryora-tajante-en-las-paritarias-no-hay-plata-y-no-habra-mejora-extra-para-los-estatales/",
+      "acceso": "abierto",
+      "resumen": "La postura, anticipada semanas atrás por Comercio y Justicia, quedó ratificada ayer en la primera reunión con la UEPC. El gremio concurrió con un combo de pedidos que incluyen una mejora en el poder adquisitivo de los salarios. La respuesta oficial no dejó interpretaciones. Sólo se revisará si se cumplió la aplicación de la cláusula […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "96f050c20d",
+      "seccion": "economia",
+      "rel": 20.9,
+      "relevancia": 20.9,
       "fecha": "2026-10-21T04:24:00-03:00",
       "hora": "04:24",
       "titulo": "El 27% de los deudores argentinos registra al menos una deuda irregular, según Universidad Austral",
@@ -558,8 +779,8 @@
     {
       "id": "c417152d70",
       "seccion": "argentina",
-      "rel": 20.5,
-      "relevancia": 20.5,
+      "rel": 20.2,
+      "relevancia": 20.2,
       "fecha": "2026-10-21T00:01:00-03:00",
       "hora": "00:01",
       "titulo": "Diputados: Se viene una sesión maratónica e incómoda para el Gobierno",
@@ -575,28 +796,6 @@
       "rostros": {
         "y0": 0.0,
         "y1": 0.416
-      }
-    },
-    {
-      "id": "ee3bbcc08e",
-      "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-20T21:00:24-03:00",
-      "hora": "21:00",
-      "titulo": "Llaryora reclamó un plan de infraestructura para potenciar el desarrollo del interior productivo",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/llaryora-reclamo-un-plan-de-infraestructura-para-potenciar-el-desarrollo-del-interior-productivo_a6ad80089c7853ea2c2c022b7",
-      "acceso": "abierto",
-      "resumen": "“No tener un plan logístico es retrasar el crecimiento y el desarrollo de la Argentina. Y esto tiene que ser parte del próximo debate nacional”, expresó el gobernador.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad80082c7853ea2c2c0216f/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.024,
-        "y1": 0.351
       }
     },
     {
@@ -641,10 +840,32 @@
       "rostros": null
     },
     {
+      "id": "ee3bbcc08e",
+      "seccion": "cordoba",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-10-20T21:00:24-03:00",
+      "hora": "21:00",
+      "titulo": "Llaryora reclamó un plan de infraestructura para potenciar el desarrollo del interior productivo",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/llaryora-reclamo-un-plan-de-infraestructura-para-potenciar-el-desarrollo-del-interior-productivo_a6ad80089c7853ea2c2c022b7",
+      "acceso": "abierto",
+      "resumen": "“No tener un plan logístico es retrasar el crecimiento y el desarrollo de la Argentina. Y esto tiene que ser parte del próximo debate nacional”, expresó el gobernador.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ad80082c7853ea2c2c0216f/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.024,
+        "y1": 0.351
+      }
+    },
+    {
       "id": "4a2e947f41",
       "seccion": "economia",
-      "rel": 19.9,
-      "relevancia": 19.9,
+      "rel": 19.6,
+      "relevancia": 19.6,
       "fecha": "2026-10-20T20:30:42-03:00",
       "hora": "20:30",
       "titulo": "Tras los dichos de Javier Milei, la respuesta simple: se llega a fin de mes con deudas",
@@ -660,50 +881,6 @@
       "rostros": null
     },
     {
-      "id": "089a74b15e",
-      "seccion": "cordoba",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-10-21T07:26:49-03:00",
-      "hora": "07:26",
-      "titulo": "Elecciones en el Consejo de la Magistratura: triunfo de la lista de Alberto Biglieri y Eduardo Bittar",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/elecciones-en-el-consejo-de-la-magistratura--triunfo-de-la-lista-de-alberto-biglieri-y-eduardo-bittar_a6ad88cf9920f762ed292da46",
-      "acceso": "abierto",
-      "resumen": "Se definieron los cuatro representantes para el período 2026-2030. La nómina encabezada por Alberto Biglieri y Claudia Sarmiento obtuvo dos bancas. El presidente del Colegio de Abogados de Córdoba no logró ingresar. Las representaciones restantes quedaron para la cordobesa Itatí Demarchi y el platense Fernando Levene. Se acordaron esquemas de rotación de bancas a los dos años.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad892d8920f762ed2934232/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.007,
-        "y1": 0.477
-      }
-    },
-    {
-      "id": "f5145eee98",
-      "seccion": "cordoba",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-10-20T19:19:00-03:00",
-      "hora": "19:19",
-      "titulo": "Milei tiene otro rival en Córdoba y no es Kicillof según una encuesta",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/milei-tiene-otro-rival-en-cordoba-y-no-es-kicillof-segun-una-encuesta.phtml",
-      "acceso": "abierto",
-      "resumen": "Un estudio de Grupo Feedback sobre 924 casos presenciales ubica al Presidente primero, con 29,3% para 2027. En segundo lugar aparece un nuevo elemento por delante de Axel Kicillof (9,8%). Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/milei-en-cordoba-2352259.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.641,
-        "y1": 0.853
-      }
-    },
-    {
       "id": "f49144b57e",
       "seccion": "cordoba",
       "rel": 19.6,
@@ -715,145 +892,6 @@
       "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-no-logra-destrabar-la-reforma-electoral-y-evalua-llevarla-a-extraordinarias/",
       "acceso": "abierto",
       "resumen": "La mesa política que encabeza Karina Milei volvió a reunirse para ordenar la agenda legislativa, pero la iniciativa sigue sin fecha de tratamiento en el Congreso. El plazo para dictaminar el proyecto vence el 20 de noviembre.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "9f3f1d5655",
-      "seccion": "argentina",
-      "rel": 19.6,
-      "relevancia": 19.6,
-      "fecha": "2026-10-20T17:56:02-03:00",
-      "hora": "17:56",
-      "titulo": "El cruce entre dos diputados en la comisión de Presupuesto que casi termina a los golpes",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-cruce-entre-dos-diputados-en-la-comision-de-presupuesto-que-casi-termina-a-los-golpes-nid20102026/",
-      "acceso": "suscripcion",
-      "resumen": "El tenso cruce verbal tuvo como protagonistas a Carlos Castagneto (Unión por la Patria) y Andrés Leone (La Libertad Avanza), y requirió la intervención de otros legisladores para calmar los ánimos",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/XD2NWM5D7FHPPP6KTDK5TSR4EI.JPG?auth=fdfc69d5811e366e76fe8691db87d6a43b6c6a41ec8461ab9b864148aff111e4&smart=true&width=1280&height=866",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "e37a3cc042",
-      "seccion": "cordoba",
-      "rel": 19.4,
-      "relevancia": 19.4,
-      "fecha": "2026-10-20T17:26:09-03:00",
-      "hora": "17:26",
-      "titulo": "Condena a Oscar González: Juez, Bornoroni y la UCR de De Loredo cruzaron al PJ por la \"impunidad\"",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/condena-a-oscar-gonzalez-juez-bornoroni-y-la-ucr-de-de-loredo-cruzaron-al-pj-por-la-impunidad.phtml",
-      "acceso": "abierto",
-      "resumen": "El senador habló de una sentencia «vergonzosa», el referente libertario denunció un sistema de poder que protege a dirigentes peronistas y la UCR de De Loredo reclamó investigar privilegios y responsabilidades políticas. Las millonarias indemnizaciones que también deberá afrontar la Provincia. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/luis-juez-gabriel-bornoroni-y-rodrigo-de-loredo-2352758.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.124,
-        "y1": 0.58
-      }
-    },
-    {
-      "id": "cb9a06d588",
-      "seccion": "cordoba",
-      "rel": 19.2,
-      "relevancia": 19.2,
-      "fecha": "2026-10-20T16:08:57-03:00",
-      "hora": "16:08",
-      "titulo": "El titular de los Almaceneros en Córdoba dijo que Milei tiene razón: \"Los padres y madres saben perfectamente cómo llegar a fin de mes\"",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/german-romero-apunto-contra-milei-nunca-esperas-que-el-presidente-de-tu-nacion-haga-bullying.phtml",
-      "acceso": "abierto",
-      "resumen": "Germán Romero cuestionó las declaraciones del Presidente sobre la capacidad de las familias en administrar su economía. Además, advirtió por el deterioro de los indicadores sociales, las dificultades de los comercios y el aumento del endeudamiento de los hogares. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/javier-milei-2352602.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "94e3a3bec3",
-      "seccion": "cordoba",
-      "rel": 18.2,
-      "relevancia": 18.2,
-      "fecha": "2026-10-20T10:34:01-03:00",
-      "hora": "10:34",
-      "titulo": "Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaron más de un año de atraso en pagos",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/pami-en-cordoba-intendentes-denuncian-un-ano-de-deuda-y-reclaman-fondos-para-sostener-la-atencion.phtml",
-      "acceso": "abierto",
-      "resumen": "Jefes comunales de distintos municipios cordobeses se movilizaron este lunes para reclamar que el organismo nacional regularice las transferencias por prestaciones médicas a afiliados. También cuestionaron la reducción del programa Remediar y advirtieron por el impacto en los centros de salud locales. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/06/20/trim/540/304/200626pamicedocg-2265152.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "d9f947e980",
-      "seccion": "cordoba",
-      "rel": 18.1,
-      "relevancia": 18.1,
-      "fecha": "2026-10-20T22:04:30-03:00",
-      "hora": "22:04",
-      "titulo": "Elección de abogados: ganó la Lista que encabeza Biglieri e integra Bittar, quien logró un claro triunfo en Córdoba",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/eleccion-de-abogados-gano-la-lista-que-encabeza-biglieri-e-integra-bittar-quien-logro-un-claro-triunfo-en-cordoba.phtml",
-      "acceso": "abierto",
-      "resumen": "El presidente del Colegio de Abogados local alcanzó el 51,2% en la Capital. En segundo lugar quedó la boleta encabezada por la presidenta del Colegio de Villa María, Itatí Demarchi. El tercer puesto fue para la lista que tiene como suplente al funcionario provincial Juan Manuel Aráoz y en cuarto lugar, la de los libertarios. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/eduardo-bittar-2352931.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.256,
-        "y1": 0.567
-      }
-    },
-    {
-      "id": "d750920581",
-      "seccion": "cordoba",
-      "rel": 18.1,
-      "relevancia": 18.1,
-      "fecha": "2026-10-20T09:37:00-03:00",
-      "hora": "09:37",
-      "titulo": "El Gobierno reconoce que la economía crece menos de lo previsto, pero mantiene el plan de Milei",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-gobierno-reconoce-que-la-economia-crece-menos-de-lo-previsto-pero-mantiene-el-plan-de-milei/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno nacional reconoció este lunes que la economía argentina crece a un ritmo menor al esperado, aunque descartó introducir modificaciones en el programa económico del presidente Javier Milei. La Casa Rosada sostuvo que la actividad continúa en expansión, pese a las dificultades que atraviesan algunos sectores y al escenario de incertidumbre internacional. El Gobierno […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "ead72b9519",
-      "seccion": "cordoba",
-      "rel": 16.1,
-      "relevancia": 16.1,
-      "fecha": "2026-10-20T10:03:54-03:00",
-      "hora": "10:03",
-      "titulo": "CIMCC: datos rigurosos y articulación pública para impulsar la productividad industrial",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/contenido-institucional/cimcc-datos-rigurosos-y-articulacion-publica-para-impulsar-la-productividad-industrial/",
-      "acceso": "abierto",
-      "resumen": "A través de su Centro de Estudios para la Producción Metalúrgica, la Cámara aborda las problemáticas del sector con método científico para presentar soluciones viables a las autoridades y promover reformas a nivel local, provincial y nacional. Frente a un escenario económico complejo y cambiante, la Cámara de Industriales Metalúrgicos y de Componentes de Córdoba […]",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
