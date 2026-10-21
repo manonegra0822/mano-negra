@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T13:25:40-03:00",
+  "actualizado": "2026-10-21T15:09:22-03:00",
   "notas": [
     {
       "id": "944adedab5",
@@ -37,71 +37,38 @@
     {
       "id": "634bfe2f31",
       "seccion": "cordoba",
-      "rel": 45.8,
-      "relevancia": 45.8,
+      "rel": 43.6,
+      "relevancia": 43.6,
       "fecha": "2026-10-21T11:58:47-03:00",
       "hora": "11:58",
       "titulo": "Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar",
       "fuente": "Hoy Día Córdoba",
       "url": "https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/",
       "acceso": "abierto",
-      "resumen": "El oficialismo llega con el quórum asegurado y buscará imponer sus dictámenes de mayoría, mientras la oposición intentará modificar los proyectos en el recinto. La sesión especial comienza a las 12 y podría extenderse hasta la madrugada del jueves.",
+      "resumen": "El oficialismo llega con el quórum asegurado y buscará imponer sus dictámenes de mayoría. La sesión especial comenzó a las 12 y podría extenderse hasta la madrugada del jueves.",
       "impacto": null,
       "imagen": "https://srt-assets.tadevel-cdn.com/6ad8ba1d920f762ed295dfb2/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [
         {
-          "fuente": "Cba24n",
-          "titulo": "Sesión especial en Diputados: debaten sobre discapacidad, endeudamiento y Ley de Tierras",
-          "url": "https://www.cba24n.com.ar/argentina/sesion-especial-en-diputados--debaten-sobre-discapacidad--endeudamiento-y-ley-de-tierras_a6ad8b1d9920f762ed295540c"
-        },
-        {
           "fuente": "Comercio y Justicia",
           "titulo": "Diputados: el oficialismo consiguió quórum para debatir la Ley de Tierras, Discapacidad y endeudamiento familiar",
           "url": "https://comercioyjusticia.info/economia/diputados-el-oficialismo-consiguio-quorum-para-debatir-la-ley-de-tierras-discapacidad-y-endeudamiento-familiar/"
+        },
+        {
+          "fuente": "Cba24n",
+          "titulo": "Arrancó la sesión en Diputados: debaten sobre discapacidad, endeudamiento y Ley de Tierras",
+          "url": "https://www.cba24n.com.ar/argentina/arranco-la-sesion-en-diputados--debaten-sobre-discapacidad--endeudamiento-y-ley-de-tierras_a6ad8b1d9920f762ed295540c"
         }
       ],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "6dbe17145a",
-      "seccion": "cordoba",
-      "rel": 33.9,
-      "relevancia": 33.9,
-      "fecha": "2026-10-21T11:29:42-03:00",
-      "hora": "11:29",
-      "titulo": "Pedro Sánchez le respondió a Milei con un tema de Lali: \"Fanático\"",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/pedro-sanchez-le-respondio-a-milei-con-un-tema-de-lali-fanatico.phtml",
-      "acceso": "abierto",
-      "resumen": "El Presidente del Gobierno de España recurrió a la canción de la cantante argentina luego de que el mandatario argentino lo calificara de “impresentable y dictador”. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/21-10-2026-pedro-sanchez-lali-milei-2353239.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "Cba24n",
-          "titulo": "Pedro Sánchez respondió a los insultos de Javier Milei con una canción de Lali Espósito",
-          "url": "https://www.cba24n.com.ar/argentina/pedro-sanchez-respondio-a-los-insultos-de-javier-milei-con-una-cancion-de-lali-esposito_a6ad8bc5a920f762ed29645e3"
-        },
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "“Fanático”: Pedro Sánchez le respondió a Milei con un tema de Lali",
-          "url": "https://hoydia.com.ar/mundo/fanatico-pedro-sanchez-le-respondio-a-milei-con-un-tema-de-lali/"
-        }
-      ],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.042,
-        "y1": 0.435
-      }
-    },
-    {
       "id": "1821b32635",
       "seccion": "cordoba",
-      "rel": 33.9,
-      "relevancia": 33.9,
+      "rel": 34.0,
+      "relevancia": 34.0,
       "fecha": "2026-10-21T10:53:00-03:00",
       "hora": "10:53",
       "titulo": "El dólar en Córdoba: a cuánto cotiza este miércoles 21 de octubre",
@@ -153,8 +120,8 @@
     {
       "id": "310e1cdf49",
       "seccion": "cordoba",
-      "rel": 33.8,
-      "relevancia": 33.8,
+      "rel": 33.5,
+      "relevancia": 33.5,
       "fecha": "2026-10-21T07:59:15-03:00",
       "hora": "07:59",
       "titulo": "Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánchez",
@@ -176,6 +143,34 @@
       "rostros": {
         "y0": 0.011,
         "y1": 0.575
+      }
+    },
+    {
+      "id": "6dbe17145a",
+      "seccion": "cordoba",
+      "rel": 33.4,
+      "relevancia": 33.4,
+      "fecha": "2026-10-21T11:29:42-03:00",
+      "hora": "11:29",
+      "titulo": "Pedro Sánchez le respondió a Milei con un tema de Lali: \"Fanático\"",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/pedro-sanchez-le-respondio-a-milei-con-un-tema-de-lali-fanatico.phtml",
+      "acceso": "abierto",
+      "resumen": "El Presidente del Gobierno de España recurrió a la canción de la cantante argentina luego de que el mandatario argentino lo calificara de “impresentable y dictador”. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/21-10-2026-pedro-sanchez-lali-milei-2353239.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "Pedro Sánchez respondió a los insultos de Javier Milei con una canción de Lali Espósito",
+          "url": "https://www.cba24n.com.ar/argentina/pedro-sanchez-respondio-a-los-insultos-de-javier-milei-con-una-cancion-de-lali-esposito_a6ad8bc5a920f762ed29645e3"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.042,
+        "y1": 0.435
       }
     },
     {
@@ -204,31 +199,6 @@
       "rostros": null
     },
     {
-      "id": "19d71065c3",
-      "seccion": "economia",
-      "rel": 27.5,
-      "relevancia": 27.5,
-      "fecha": "2026-10-21T10:22:01-03:00",
-      "hora": "10:22",
-      "titulo": "Riesgo país cerca 700 puntos: Los ejecutivos de finanzas lo leen como un problema político, no económico",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/riesgo-pais-cerca-700-puntos-los-ejecutivos-de-finanzas-lo-leen-como-un-problema-politico-no-economico.phtml",
-      "acceso": "abierto",
-      "resumen": "Durante el 15° Congreso Mercado de Capitales, CFOs, directivos y operadores analizaron qué implica el indicador. Coinciden en que refleja desconfianza ante 2027 más que fragilidad financiera. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/congreso-iaef-2353178.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "Comercio y Justicia",
-          "titulo": "El riesgo país llegó a 675 puntos",
-          "url": "https://comercioyjusticia.info/economia/el-riesgo-pais-llego-a-675-puntos/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "976466aecf",
       "seccion": "cordoba",
       "rel": 27.1,
@@ -254,6 +224,25 @@
       "rostros": null
     },
     {
+      "id": "6dc3b649c6",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-21T15:00:00-03:00",
+      "hora": "15:00",
+      "titulo": "Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "89b6dd1b30",
       "seccion": "argentina",
       "rel": 22.0,
@@ -271,53 +260,6 @@
       "otros": [],
       "dia": 0,
       "rostros": null
-    },
-    {
-      "id": "6dc3b649c6",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-21T13:10:21-03:00",
-      "hora": "13:10",
-      "titulo": "Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "bf7eefd658",
-      "seccion": "cordoba",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-21T11:24:55-03:00",
-      "hora": "11:24",
-      "titulo": "Milei culpó a la oposición y a la volatilidad global por la suba del riesgo país",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/milei-culpo-a-la-oposicion-y-a-la-volatilidad-global-por-la-suba-del-riesgo-pais-y-prometio-un-crecimiento-historico/",
-      "acceso": "abierto",
-      "resumen": "Durante su exposición en el Foro Nueva Economía de Madrid, el Presidente defendió su programa económico, cuestionó con dureza al kirchnerismo y pronosticó que Argentina podría alcanzar la categoría de país apto para inversiones.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/HVJxZAJXUAAy190-optimized.webp",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [
-        {
-          "fuente": "Infobae",
-          "titulo": "Milei atribuyó la suba del riesgo país a la volatilidad internacional y la oposición: \"Enfrente están los orcos, una peste que quiere romper todo\"",
-          "url": "https://www.infobae.com/politica/2026/10/21/milei-atribuyo-la-suba-del-riesgo-pais-a-la-volatilidad-internacional-y-la-oposicion-enfrente-estan-los-orcos-una-peste-que-quiere-romper-todo/"
-        }
-      ],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.322,
-        "y1": 0.661
-      }
     },
     {
       "id": "3cb8ba2365",
@@ -386,6 +328,28 @@
       }
     },
     {
+      "id": "281e85dfe1",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-21T14:47:47-03:00",
+      "hora": "14:47",
+      "titulo": "Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/",
+      "acceso": "abierto",
+      "resumen": "El Centro de Gestión de la Economía Personal y los Negocios de la Facultad de Ciencias Económicas acompaña a vecinos con deudas de tarjetas, billeteras virtuales, préstamos y servicios, en un contexto de mora elevada en los hogares argentino",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/PQEJXIHZE5C4DOFTGBQIFWUZ4I.jpg?auth=1c5117b0f054053ff50a406c9352c2f827da76b7e29d0b57b37276b66de14939&smart=true&width=1280&height=720",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.169,
+        "y1": 0.961
+      }
+    },
+    {
       "id": "c03403e081",
       "seccion": "argentina",
       "rel": 21.9,
@@ -443,47 +407,69 @@
       "rostros": null
     },
     {
-      "id": "f1c2dc7f30",
+      "id": "d920682634",
       "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-20T14:26:14-03:00",
-      "hora": "14:26",
-      "titulo": "Kicillof enfrenta el jueves un nuevo paro docente en la provincia de Buenos Aires",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/kicillof-enfrenta-el-jueves-un-nuevo-paro-docente-en-la-provincia-de-buenos-aires-nid20102026/",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-21T14:13:40-03:00",
+      "hora": "14:13",
+      "titulo": "Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/",
       "acceso": "suscripcion",
-      "resumen": "Está convocado por uno de los cinco gremios que integra el Frente de Unidad Docente, por lo que el alcance no será masivo",
+      "resumen": "Durante la charla, Milei se jactó de insultar a Pedro Sánchez y lanzó comentarios polémicos, mientras que Abascal argumentó compromisos de campaña para justificar su ausencia. La única dirigente que recibió al presidente argentino fue Isabel Díaz Ayuso.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/OLFLE4C4Z5CYDC32PNZXVCIKI4.jpeg?auth=8df7864191ed8383c39ec7252fd261e188d74ec96d1d070085a5784e460b6d31&smart=true&width=1280&height=851",
-      "imagen_credito": "La Nación",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/NQMGQ6JAHFB3XGRZ4S3BMCTSX4.jpg?auth=1d33c53bb821526a53288eecd8ddaca67f70f0ba58d82a691f5eab4ed72d04bc&smart=true&width=1172&height=782",
+      "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.501,
-        "y1": 0.729
+        "y0": 0.167,
+        "y1": 0.424
       }
     },
     {
-      "id": "7851218af6",
+      "id": "7d8a8aae27",
       "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-20T14:25:01-03:00",
-      "hora": "14:25",
-      "titulo": "La suba del Riesgo País profundiza la interna del Gobierno y crece la presión para suspender las PASO",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/20/la-suba-del-riesgo-pais-profundiza-la-interna-del-gobierno-y-crece-la-presion-para-suspender-las-paso/",
-      "acceso": "abierto",
-      "resumen": "En Casa Rosada tienen diferentes interpretaciones sobre los factores que inciden en el crecimiento de ese indicador económico. Una parte intenta acelerar los acuerdos políticos con la oposición para aprobar la Reforma Política. Los números que tienen los operadores libertarios",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-21T14:13:34-03:00",
+      "hora": "14:13",
+      "titulo": "Debate caliente en Diputados: LLA busca obstaculizar iniciativas de la oposición",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/21/debate-caliente-en-diputados-lla-busca-obstaculizar-iniciativas-de-la-oposicion/",
+      "acceso": "suscripcion",
+      "resumen": "En lo que se prevé será una sesión maratónica, el oficialismo busca imponer sus proyectos de Ley de Inviolabilidad de la Propiedad Privada, la Ley de Emergencia en Discapacidad y la Ley de Educación Financiera.",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/ZXKBYBW7O5EZPJSEELEXAY5PPI.jpg?auth=979b83bc927d958dd504598c20a8bcb8c26ff9182159fea12f26c45f0a56c697&smart=true&width=1600&height=1200",
-      "imagen_credito": "Infobae",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/4GXSDD2N25B4BMFA5DGXYIFRAE.jpg?auth=faeec7e5d102e595bf3fc0d32e9e38196a6d30c377bedcef8fbd4461a4737591&smart=true&width=3444&height=2296",
+      "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.376,
-        "y1": 0.822
+        "y0": 0.708,
+        "y1": 0.918
+      }
+    },
+    {
+      "id": "c931b7d638",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-21T14:09:02-03:00",
+      "hora": "14:09",
+      "titulo": "“El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml",
+      "acceso": "abierto",
+      "resumen": "Con un preservativo en la mano, el legislador socialista lanzó una dura crítica al ajuste sanitario de la gestión libertaria y disparó: “Al final, la casta eras vos”. Córdoba rechazó el recorte nacional de medicamentos esenciales y reclamó una marcha atrás. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/chamorro-rechazo-la-motosierra-al-remediar-2353384.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.016,
+        "y1": 0.606
       }
     },
     {
@@ -509,39 +495,20 @@
       }
     },
     {
-      "id": "e7bd82715d",
+      "id": "57229c8c76",
       "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-21T11:56:38-03:00",
-      "hora": "11:56",
-      "titulo": "Tarjetas de crédito: el Banco Central oficializó la tasa de interés aplicable para noviembre",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/tarjetas-de-credito-el-banco-central-oficializo-la-tasa-de-interes-aplicable-para-noviembre/",
-      "acceso": "abierto",
-      "resumen": "El Banco Central de la República Argentina (BCRA) oficializó, mediante la Comunicación “B” 13251/26, la tasa de interés de referencia para las financiaciones vinculadas a tarjetas de crédito correspondientes a octubre de 2026. La medida dispone que la tasa nominal anual (TNA) promedio ponderado por monto para préstamos personales sin garantía real se ubica en […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "f50ea3ba83",
-      "seccion": "cordoba",
       "rel": 21.7,
       "relevancia": 21.7,
-      "fecha": "2026-10-21T11:48:47-03:00",
-      "hora": "11:48",
-      "titulo": "Fuero de familia en Córdoba: el Tribunal Superior reestructura los juzgados hacia un modelo de gestión asociada",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/fuero-de-familia-en-cordoba-el-tribunal-superior-reestructura-los-juzgados-hacia-un-modelo-de-gestion-asociada/",
-      "acceso": "abierto",
-      "resumen": "A partir del próximo 2 de noviembre, los ocho juzgados de familia existentes se unificarán y reestructurarán en dos Tribunales de Gestión Asociada del Fuero de Familia (TGA FF N° 1 y N° 2), cada uno integrado por cuatro magistrados. El nuevo esquema separa las tareas jurisdiccionales —que seguirán a cargo de los jueces, reunidos […]",
+      "fecha": "2026-10-21T13:21:33-03:00",
+      "hora": "13:21",
+      "titulo": "Dólares del colchón: las dudas que persisten sobre Inocencia Fiscal II y el riesgo de que las provincias reclamen impuestos",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolares-del-colchon-las-dudas-que-persisten-sobre-inocencia-fiscal-ii-y-el-riesgo-de-que-las-nid21102026/",
+      "acceso": "suscripcion",
+      "resumen": "La ley está vigente, pero todavía faltan normas para completar su implementación; además, ninguna provincia formalizó su adhesión al esquema",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/LG4BIHEIJVDPBPOUIQCH54G5NU.jpg?auth=921cd60e3d7a49ccdd28449c9693494494e38e6e60d52cd9a87c7dc7eeb4ccde&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -588,26 +555,61 @@
       }
     },
     {
-      "id": "c653963deb",
-      "seccion": "argentina",
+      "id": "e7bd82715d",
+      "seccion": "economia",
       "rel": 21.5,
       "relevancia": 21.5,
-      "fecha": "2026-10-21T10:09:37-03:00",
-      "hora": "10:09",
-      "titulo": "“Zurdo y a mucha honra”: la respuesta de Pedro Sánchez a Milei",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/21/zurdo-y-a-mucha-honra-la-respuesta-de-pedro-sanchez-a-milei/",
-      "acceso": "suscripcion",
-      "resumen": "El presidente español reivindicó sus posturas políticas ante los insultos del mandatario argentino, que está en España para hacer campaña por la ultraderecha. Compartió también la canción “Fanático”, que Lali Espósito le suele dedicar a Milei.",
+      "fecha": "2026-10-21T11:56:38-03:00",
+      "hora": "11:56",
+      "titulo": "Tarjetas de crédito: el Banco Central oficializó la tasa de interés aplicable para noviembre",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/tarjetas-de-credito-el-banco-central-oficializo-la-tasa-de-interes-aplicable-para-noviembre/",
+      "acceso": "abierto",
+      "resumen": "El Banco Central de la República Argentina (BCRA) oficializó, mediante la Comunicación “B” 13251/26, la tasa de interés de referencia para las financiaciones vinculadas a tarjetas de crédito correspondientes a octubre de 2026. La medida dispone que la tasa nominal anual (TNA) promedio ponderado por monto para préstamos personales sin garantía real se ubica en […]",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/KA5Y5NMBCZDH3AJST6SRQVP5KU.jpg?auth=851ac866c131cdf1f78e1095b49a2b792038a6f7c94bd1c368dd093d9b7428e5&smart=true&width=1500&height=1001",
-      "imagen_credito": "Página/12",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "y0": 0.101,
-        "y1": 0.615
-      }
+      "rostros": null
+    },
+    {
+      "id": "f50ea3ba83",
+      "seccion": "cordoba",
+      "rel": 21.4,
+      "relevancia": 21.4,
+      "fecha": "2026-10-21T11:48:47-03:00",
+      "hora": "11:48",
+      "titulo": "Fuero de familia en Córdoba: el Tribunal Superior reestructura los juzgados hacia un modelo de gestión asociada",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/fuero-de-familia-en-cordoba-el-tribunal-superior-reestructura-los-juzgados-hacia-un-modelo-de-gestion-asociada/",
+      "acceso": "abierto",
+      "resumen": "A partir del próximo 2 de noviembre, los ocho juzgados de familia existentes se unificarán y reestructurarán en dos Tribunales de Gestión Asociada del Fuero de Familia (TGA FF N° 1 y N° 2), cada uno integrado por cuatro magistrados. El nuevo esquema separa las tareas jurisdiccionales —que seguirán a cargo de los jueces, reunidos […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "bf7eefd658",
+      "seccion": "cordoba",
+      "rel": 21.4,
+      "relevancia": 21.4,
+      "fecha": "2026-10-21T11:24:55-03:00",
+      "hora": "11:24",
+      "titulo": "Milei culpó a la oposición y a la volatilidad global por la suba del riesgo país",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/milei-culpo-a-la-oposicion-y-a-la-volatilidad-global-por-la-suba-del-riesgo-pais-y-prometio-un-crecimiento-historico/",
+      "acceso": "abierto",
+      "resumen": "Durante su exposición en el Foro Nueva Economía de Madrid, el Presidente defendió su programa económico, cuestionó con dureza al kirchnerismo y pronosticó que Argentina podría alcanzar la categoría de país apto para inversiones.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "7e9e5075b2",
@@ -632,10 +634,32 @@
       }
     },
     {
+      "id": "c653963deb",
+      "seccion": "argentina",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-10-21T10:09:37-03:00",
+      "hora": "10:09",
+      "titulo": "“Zurdo y a mucha honra”: la respuesta de Pedro Sánchez a Milei",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/21/zurdo-y-a-mucha-honra-la-respuesta-de-pedro-sanchez-a-milei/",
+      "acceso": "suscripcion",
+      "resumen": "El presidente español reivindicó sus posturas políticas ante los insultos del mandatario argentino, que está en España para hacer campaña por la ultraderecha. Compartió también la canción “Fanático”, que Lali Espósito le suele dedicar a Milei.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/KA5Y5NMBCZDH3AJST6SRQVP5KU.jpg?auth=851ac866c131cdf1f78e1095b49a2b792038a6f7c94bd1c368dd093d9b7428e5&smart=true&width=1500&height=1001",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.101,
+        "y1": 0.615
+      }
+    },
+    {
       "id": "6839532756",
       "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
+      "rel": 21.0,
+      "relevancia": 21.0,
       "fecha": "2026-10-21T09:15:01-03:00",
       "hora": "09:15",
       "titulo": "Javier Milei en Madrid: ataques a Pedro Sánchez, críticas a la justicia social y el rol de las mujeres",
@@ -656,8 +680,8 @@
     {
       "id": "c90e246d9d",
       "seccion": "cordoba",
-      "rel": 21.2,
-      "relevancia": 21.2,
+      "rel": 20.9,
+      "relevancia": 20.9,
       "fecha": "2026-10-21T08:33:45-03:00",
       "hora": "08:33",
       "titulo": "La industria del espectáculo en Córdoba: cómo se combinan más proyectos, con costos en alza y consumo retraído",
@@ -692,25 +716,6 @@
       "rostros": null
     },
     {
-      "id": "46d9e50e47",
-      "seccion": "cordoba",
-      "rel": 20.8,
-      "relevancia": 20.8,
-      "fecha": "2026-10-21T06:00:00-03:00",
-      "hora": "06:00",
-      "titulo": "Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/llaryora-tajante-en-las-paritarias-no-hay-plata-y-no-habra-mejora-extra-para-los-estatales/",
-      "acceso": "abierto",
-      "resumen": "La postura, anticipada semanas atrás por Comercio y Justicia, quedó ratificada ayer en la primera reunión con la UEPC. El gremio concurrió con un combo de pedidos que incluyen una mejora en el poder adquisitivo de los salarios. La respuesta oficial no dejó interpretaciones. Sólo se revisará si se cumplió la aplicación de la cláusula […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "c9f9a69760",
       "seccion": "argentina",
       "rel": 20.6,
@@ -733,10 +738,29 @@
       }
     },
     {
-      "id": "96f050c20d",
-      "seccion": "economia",
+      "id": "46d9e50e47",
+      "seccion": "cordoba",
       "rel": 20.5,
       "relevancia": 20.5,
+      "fecha": "2026-10-21T06:00:00-03:00",
+      "hora": "06:00",
+      "titulo": "Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/llaryora-tajante-en-las-paritarias-no-hay-plata-y-no-habra-mejora-extra-para-los-estatales/",
+      "acceso": "abierto",
+      "resumen": "La postura, anticipada semanas atrás por Comercio y Justicia, quedó ratificada ayer en la primera reunión con la UEPC. El gremio concurrió con un combo de pedidos que incluyen una mejora en el poder adquisitivo de los salarios. La respuesta oficial no dejó interpretaciones. Sólo se revisará si se cumplió la aplicación de la cláusula […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "96f050c20d",
+      "seccion": "economia",
+      "rel": 20.2,
+      "relevancia": 20.2,
       "fecha": "2026-10-21T04:24:00-03:00",
       "hora": "04:24",
       "titulo": "El 27% de los deudores argentinos registra al menos una deuda irregular, según Universidad Austral",
@@ -771,28 +795,6 @@
       "rostros": {
         "y0": 0.0,
         "y1": 0.416
-      }
-    },
-    {
-      "id": "354a460ca3",
-      "seccion": "argentina",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-21T13:17:32-03:00",
-      "hora": "13:17",
-      "titulo": "La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/",
-      "acceso": "suscripcion",
-      "resumen": "Pedro Sánchez lo eligió como su enemigo perfecto y desde el Partido Popular tomaron distancia; el Presidente intentó sin éxito reunirse con el rey Felipe y tuvo que conformarse con una videollamada con Abascal, líder de VOX",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/QNIT7FGNIJFTLHDCOEK7P7LL7U.jpg?auth=2b5fd53b8882d9a72c036c827b2041daf283d655e8cc1c1f9f4e1cf5cfca8865&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.185,
-        "y1": 0.738
       }
     },
     {
@@ -837,6 +839,28 @@
       "rostros": null
     },
     {
+      "id": "354a460ca3",
+      "seccion": "argentina",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-10-21T13:17:32-03:00",
+      "hora": "13:17",
+      "titulo": "La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/",
+      "acceso": "suscripcion",
+      "resumen": "Pedro Sánchez lo eligió como su enemigo perfecto y desde el Partido Popular tomaron distancia; el Presidente intentó sin éxito reunirse con el rey Felipe y tuvo que conformarse con una videollamada con Abascal, líder de VOX",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/QNIT7FGNIJFTLHDCOEK7P7LL7U.jpg?auth=2b5fd53b8882d9a72c036c827b2041daf283d655e8cc1c1f9f4e1cf5cfca8865&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.185,
+        "y1": 0.738
+      }
+    },
+    {
       "id": "40926863e8",
       "seccion": "cordoba",
       "rel": 19.7,
@@ -857,47 +881,6 @@
         "y0": 0.095,
         "y1": 0.526
       }
-    },
-    {
-      "id": "ee3bbcc08e",
-      "seccion": "cordoba",
-      "rel": 19.6,
-      "relevancia": 19.6,
-      "fecha": "2026-10-20T21:00:24-03:00",
-      "hora": "21:00",
-      "titulo": "Llaryora reclamó un plan de infraestructura para potenciar el desarrollo del interior productivo",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/llaryora-reclamo-un-plan-de-infraestructura-para-potenciar-el-desarrollo-del-interior-productivo_a6ad80089c7853ea2c2c022b7",
-      "acceso": "abierto",
-      "resumen": "“No tener un plan logístico es retrasar el crecimiento y el desarrollo de la Argentina. Y esto tiene que ser parte del próximo debate nacional”, expresó el gobernador.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad80082c7853ea2c2c0216f/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.024,
-        "y1": 0.351
-      }
-    },
-    {
-      "id": "f49144b57e",
-      "seccion": "cordoba",
-      "rel": 19.6,
-      "relevancia": 19.6,
-      "fecha": "2026-10-20T19:03:06-03:00",
-      "hora": "19:03",
-      "titulo": "El Gobierno no logra destrabar la reforma electoral y evalúa llevarla a extraordinarias",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-no-logra-destrabar-la-reforma-electoral-y-evalua-llevarla-a-extraordinarias/",
-      "acceso": "abierto",
-      "resumen": "La mesa política que encabeza Karina Milei volvió a reunirse para ordenar la agenda legislativa, pero la iniciativa sigue sin fecha de tratamiento en el Congreso. El plazo para dictaminar el proyecto vence el 20 de noviembre.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
     }
   ],
   "opinion": []

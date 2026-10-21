@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T13:25:40-03:00",
+  "actualizado": "2026-10-21T15:09:22-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,49 +7,53 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 97,
           "ejemplos": [
-            "Un rayo mató a cuatro caballos de polo durante una práctica en el Jockey Club de",
-            "El Reino Unido aprobó la extracción de un importante yacimiento de gas en el mar",
-            "ISA Energía sobre alza de tarifas eléctricas en el norte: “Hay una situación de "
+            "Lilly Téllez pide a la FGR y a la Auditoría Superior investigar al hermano de An",
+            "Reunión sobre Sudán en la ONU concluye con llamadas a la unidad del país y no in",
+            "Fernanda Tomé regresa a la Liga Peruana de Vóley 2026/27: El motivo de su fichaj"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cuáles son las condiciones que enfrentan las pymes para financiarse en el mercad"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cuánto cuesta ir a ver a Boca en la final de la Copa Sudamericana"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 5,
+      "leidas": 91,
+      "aceptadas": 6,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 80,
+        "titular sin tema de política/economía": {
+          "cantidad": 9,
           "ejemplos": [
-            "Natalia Lobo llega a Bienestar Fest con una experiencia para volver a la propia ",
-            "Morena Beltrán rompió el silencio tras su salida de MasterChef: su frustración y",
-            "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas para el balota"
+            "Desde $1.700.000 y en seis cuotas: cuánto cuesta ir a Barranquilla para ver a a ",
+            "Opinión. Lo que no se discute en el debate por los biocombustibles",
+            "Financiamiento sostenible: qué hacen la Argentina, Brasil y Bolivia para impulsa"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
+        "sección no permitida": {
+          "cantidad": 74,
           "ejemplos": [
-            "Corrupción en Discapacidad: piden indagar a los dueños de la droguería Suizo Arg",
-            "Pandanés: la Justicia frenó la quiebra y abrió un proceso para buscar nuevos due",
-            "Chaco: condenaron a cuatro “cueveros” que escondían millones en los paneles de u"
+            "Zohran Mamdani, alcalde de Nueva York: “La ley municipal ya prohíbe que ICE use ",
+            "Otro mal de ausencias en el tenis argentino, ahora en el equipo femenino de la B",
+            "Oxitocina: diario del viaje emocional de una madre con una gran actuación de Flo"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El riesgo país continúa su baja de ayer, en un contexto de menor tensión financi",
-            "Sesión maratónica en Diputados: el oficialismo busca avanzar con una ley de disc",
-            "Campaña 2026/27. Los números de la fertilización cierran, pero hay que hacer las"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
           "cantidad": 2,
           "ejemplos": [
-            "El Niño: el gobierno bonaerense lanzó una plataforma para consultar las lluvias ",
-            "Una deuda millonaria y un shopping demorado se suman al juicio oral por abuso de"
+            "Campaña 2026/27. Los números de la fertilización cierran, pero hay que hacer las",
+            "El riesgo país continúa su baja de ayer, en un contexto de menor tensión financi"
           ]
         }
       }
@@ -80,15 +84,8 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 5,
-      "descartadas": {
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La crisis económica y las revueltas en Europa encienden las alarmas en el Gobier"
-          ]
-        }
-      }
+      "aceptadas": 6,
+      "descartadas": {}
     },
     {
       "medio": "Hoy Día Córdoba",
@@ -98,9 +95,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "Una motociclista resultó herida durante un accidente contra un camión en Av. Jap",
-            "AySA: la venta se firmará el 13 de noviembre y se desconoce quién controla el fo",
-            "El Hospital de Pronta Atención San Jorge cumple tres años con más de 126.000 adm"
+            "Cien años de soledad y el Nobel: la realidad era más fantástica",
+            "Malakeh, de las recetas de una abuela siria a un local gastronómico en Nueva Cór",
+            "Una motociclista resultó herida durante un accidente contra un camión en Av. Jap"
           ]
         }
       }
@@ -108,7 +105,7 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 26,
+      "aceptadas": 24,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 32,
@@ -131,11 +128,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 20,
+          "cantidad": 22,
           "ejemplos": [
-            "Lula y Bolsonaro se cruzaron por corrupción y crimen organizado en un duro debat",
-            "Milei desembarca en España en plena tensión europea y refuerza alianza con la de",
-            "El Gobierno aprobó nuevo régimen de retiro voluntario para administración públic"
+            "El riesgo país llegó a 675 puntos",
+            "Caputo anunció dos nuevos RIGI con inversión por US$3.200 millones",
+            "Lula y Bolsonaro se cruzaron por corrupción y crimen organizado en un duro debat"
           ]
         }
       }
@@ -143,14 +140,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
+            "Llega a Córdoba el Conifest, un festival por la Ciencia y la Educación Pública A",
             "Fuerte choque en avenida Japón: una moto quedó atrapada contra un camión",
-            "Colapinto vuelve a correr en Estados Unidos: días y horarios del GP de Austin",
-            "Un nuevo ciclo de austeridad y violencia: las claves de la ola de protestas que "
+            "Colapinto vuelve a correr en Estados Unidos: días y horarios del GP de Austin"
           ]
         }
       }
@@ -170,14 +167,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 16,
+      "aceptadas": 18,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 21,
           "ejemplos": [
+            "Ordenaron detener a cinco imputados por la administración de la Caja Previsional",
             "Mar del Plata más allá del verano: el hotel céntrico con cinco pisos de spa para",
-            "Oscar González declarado homicida sin prisión: por qué el fallo dejó disconforme",
-            "Oscar González y un fallo salomónico: culpable, pero sin cárcel"
+            "Oscar González declarado homicida sin prisión: por qué el fallo dejó disconforme"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -187,7 +184,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 33,
+          "cantidad": 30,
           "ejemplos": [
             "Elecciones en Brasil: \"La calle está con Lula, pero el problema es el voto del i",
             "Dos médicas y dos enfermeras fueron condenadas por la muerte de un recién nacido",
