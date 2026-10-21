@@ -53,6 +53,11 @@ def main():
             "fuente": "dolarapi.com",
             "vigente": True,
         }
+        # Se guarda la cotización anterior para mostrar si subió o bajó
+        if previo.get("venta") and previo.get("actualizado") != datos["actualizado"]:
+            datos["anterior"] = {k: previo.get(k) for k in ("compra", "venta", "actualizado")}
+        elif previo.get("anterior"):
+            datos["anterior"] = previo["anterior"]
         print(f"[ok] Dólar oficial: compra {compra} / venta {venta} ({datos['actualizado']})")
     except Exception as e:
         if not previo.get("venta"):

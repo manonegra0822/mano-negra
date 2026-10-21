@@ -5,5 +5,10 @@
   "actualizado": "2026-10-21T12:00-03:00",
   "consultado": "2026-10-21T15:21-03:00",
   "fuente": "dolarapi.com",
-  "vigente": true
+  "vigente": true,
+  "anterior": {
+    "compra": 1495.0,
+    "venta": 1545.0,
+    "actualizado": "2026-10-20T15:00-03:00"
+  }
 }
