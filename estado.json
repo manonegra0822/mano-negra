@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T15:17:55-03:00",
+  "actualizado": "2026-10-21T15:29:10-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,34 +9,34 @@
         "sección no permitida": {
           "cantidad": 97,
           "ejemplos": [
-            "Un rayo mató a cuatro caballos de polo durante una práctica en el Jockey Club de",
-            "CONADE y COM mantienen coordinación en favor de atletas mexicanos, asegura Romme",
-            "El golazo bajo la lluvia de Nico Paz ante el Manchester United al minuto del par"
+            "Pedro Sánchez acepta la propuesta de David Broncano y será entrevistado mañana e",
+            "ANDIS: la fiscalía pidió indagar a 36 nuevos acusados y amplió los cargos a exfu",
+            "La ex asesora del Gobierno Petro Eva Ferrer comenzó su comparecencia virtual ant"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Cuáles son las condiciones que enfrentan las pymes para financiarse en el mercad"
+            "Índice Pokémon: la insólita inversión que está a punto de superar a NVIDIA como "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 6,
+      "leidas": 91,
+      "aceptadas": 4,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 76,
+          "cantidad": 79,
           "ejemplos": [
-            "Por qué los caballos son tan vulnerables a los rayos y qué les pasó a los animal",
-            "Doblete de Nico Paz por la Champions League, EN VIVO: el minuto a minuto de los ",
-            "Así es el hot hatch que Toyota vende en la Argentina y que acelera de 0 a 100km/"
+            "Los goles de Nico Paz en la Champions League, EN VIVO: el minuto a minuto de los",
+            "Los golazos de Nico Paz para el Como ante el Manchester United por la Champions ",
+            "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas para el balota"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 7,
           "ejemplos": [
             "Desde $1.700.000 y en seis cuotas: cuánto cuesta ir a Barranquilla para ver a a ",
             "Opinión. Lo que no se discute en el debate por los biocombustibles",
@@ -44,10 +44,9 @@
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Campaña 2026/27. Los números de la fertilización cierran, pero hay que hacer las",
-            "El riesgo país continúa su baja de ayer, en un contexto de menor tensión financi"
+            "Campaña 2026/27. Los números de la fertilización cierran, pero hay que hacer las"
           ]
         }
       }
@@ -84,14 +83,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 19,
           "ejemplos": [
-            "Cien años de soledad y el Nobel: la realidad era más fantástica",
-            "Malakeh, de las recetas de una abuela siria a un local gastronómico en Nueva Cór",
-            "Una motociclista resultó herida durante un accidente contra un camión en Av. Jap"
+            "El Cineclub cierra octubre con terror y suspenso",
+            "Francisco Cerúndolo avanzó a cuartos de final en el ATP 250 de Bruselas",
+            "Cien años de soledad y el Nobel: la realidad era más fantástica"
           ]
         }
       }
@@ -102,11 +101,11 @@
       "aceptadas": 24,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 30,
+          "cantidad": 31,
           "ejemplos": [
+            "La UIA pidió infraestructura para que el gas de Vaca Muerta llegue a todo el paí",
             "Jubilados provinciales: la Caja oficializa nuevos coeficientes de actualización ",
-            "El Tribunal del Mar puso fecha a las audiencias por el petróleo y crece la tensi",
-            "Juicio contra Lotocki: declaran tres denunciantes"
+            "El Tribunal del Mar puso fecha a las audiencias por el petróleo y crece la tensi"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -122,7 +121,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 24,
+          "cantidad": 23,
           "ejemplos": [
             "Según la CAME, las ventas por el Día de la Madre cayeron 1,4%",
             "Empleo público: lanzan los retiros voluntarios en el Estado nacional con supresi",

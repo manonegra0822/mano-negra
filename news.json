@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T15:17:55-03:00",
+  "actualizado": "2026-10-21T15:29:10-03:00",
   "notas": [
     {
       "id": "944adedab5",
@@ -120,8 +120,8 @@
     {
       "id": "310e1cdf49",
       "seccion": "cordoba",
-      "rel": 33.5,
-      "relevancia": 33.5,
+      "rel": 33.4,
+      "relevancia": 33.4,
       "fecha": "2026-10-21T07:59:15-03:00",
       "hora": "07:59",
       "titulo": "Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánchez",
@@ -148,8 +148,8 @@
     {
       "id": "6dbe17145a",
       "seccion": "cordoba",
-      "rel": 33.4,
-      "relevancia": 33.4,
+      "rel": 33.3,
+      "relevancia": 33.3,
       "fecha": "2026-10-21T11:29:42-03:00",
       "hora": "11:29",
       "titulo": "Pedro Sánchez le respondió a Milei con un tema de Lali: \"Fanático\"",
@@ -199,6 +199,34 @@
       "rostros": null
     },
     {
+      "id": "a7e42407f5",
+      "seccion": "argentina",
+      "rel": 30.0,
+      "relevancia": 30.0,
+      "fecha": "2026-10-21T15:19:26-03:00",
+      "hora": "15:19",
+      "titulo": "Milei descalificó a una periodista española por una pregunta sobre PP y Vox",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/21/milei-descalifico-a-una-periodista-espanola-por-una-pregunta-sobre-pp-y-vox/",
+      "acceso": "abierto",
+      "resumen": "Julia Molina, de la Cadena Ser, consultó al mandatario argentino por la recepción de los partidos de derecha a su visita a Madrid, atravesada por la precampaña electoral, y el jefe de Estado reaccionó con una frase que generó polémica",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/6JA7U23P3ZHJDJMHS32PECNGEM.png?auth=d5ec41e80274082bf955e9e77bd88c23ef2eb01f13530e960664f6d952207ea6&smart=true&width=1710&height=961",
+      "imagen_credito": "Infobae",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Habló la periodista española que fue atacada por Milei cuando le hizo una pregunta",
+          "url": "https://www.lanacion.com.ar/politica/hablo-la-periodista-espanola-que-fue-atacada-por-milei-cuando-le-hizo-una-pregunta-nid21102026/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.016,
+        "y1": 0.655
+      }
+    },
+    {
       "id": "976466aecf",
       "seccion": "cordoba",
       "rel": 27.1,
@@ -238,25 +266,6 @@
       "impacto": null,
       "imagen": "https://www.infobae.com/resizer/v2/KCCOIWLA7VHYPINOIVE445RWYE.jpg?auth=c3954db1854a3e5d6035a02d4b3b903471f24d983f3307c3506a5fae55c468c9&smart=true&width=1920&height=1280",
       "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "6dc3b649c6",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-21T15:00:00-03:00",
-      "hora": "15:00",
-      "titulo": "Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853",
-      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -326,6 +335,25 @@
         "y0": 0.222,
         "y1": 0.823
       }
+    },
+    {
+      "id": "6dc3b649c6",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-21T15:00:00-03:00",
+      "hora": "15:00",
+      "titulo": "Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "281e85dfe1",
@@ -675,25 +703,6 @@
       }
     },
     {
-      "id": "c90e246d9d",
-      "seccion": "cordoba",
-      "rel": 20.9,
-      "relevancia": 20.9,
-      "fecha": "2026-10-21T08:33:45-03:00",
-      "hora": "08:33",
-      "titulo": "La industria del espectáculo en Córdoba: cómo se combinan más proyectos, con costos en alza y consumo retraído",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/la-industria-del-espectaculo-en-cordoba-como-se-combinan-mas-proyectos-con-costos-en-alza-y-consumo-retraido.phtml",
-      "acceso": "abierto",
-      "resumen": "El aumento de los gastos operativos y la menor capacidad de compra del público redujeron los márgenes de los productores. No obstante, Córdoba avanza con nuevos espacios y proyectos para ampliar su capacidad de convocatoria. La mirada de José Palazzo, presidente de Córdoba Welcome y director de Envivo Producciones. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/palazzo-2353056.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "183ec91dab",
       "seccion": "argentina",
       "rel": 20.9,
@@ -708,6 +717,25 @@
       "impacto": null,
       "imagen": "https://resizer.glanacion.com/resizer/v2/S33ZDVY6QNGC3NWZYAUC5KLUGI.JPG?auth=a2c06117dac44fb66a336f3505900f695c721e8d9fa2eeda719644054f221662&smart=true&width=1284&height=910",
       "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "c90e246d9d",
+      "seccion": "cordoba",
+      "rel": 20.8,
+      "relevancia": 20.8,
+      "fecha": "2026-10-21T08:33:45-03:00",
+      "hora": "08:33",
+      "titulo": "La industria del espectáculo en Córdoba: cómo se combinan más proyectos, con costos en alza y consumo retraído",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/la-industria-del-espectaculo-en-cordoba-como-se-combinan-mas-proyectos-con-costos-en-alza-y-consumo-retraido.phtml",
+      "acceso": "abierto",
+      "resumen": "El aumento de los gastos operativos y la menor capacidad de compra del público redujeron los márgenes de los productores. No obstante, Córdoba avanza con nuevos espacios y proyectos para ampliar su capacidad de convocatoria. La mirada de José Palazzo, presidente de Córdoba Welcome y director de Envivo Producciones. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/palazzo-2353056.jpg",
+      "imagen_credito": "Perfil",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -737,8 +765,8 @@
     {
       "id": "46d9e50e47",
       "seccion": "cordoba",
-      "rel": 20.5,
-      "relevancia": 20.5,
+      "rel": 20.4,
+      "relevancia": 20.4,
       "fecha": "2026-10-21T06:00:00-03:00",
       "hora": "06:00",
       "titulo": "Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales",
@@ -855,28 +883,6 @@
       "rostros": {
         "y0": 0.185,
         "y1": 0.738
-      }
-    },
-    {
-      "id": "40926863e8",
-      "seccion": "cordoba",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-10-20T21:30:15-03:00",
-      "hora": "21:30",
-      "titulo": "Peter Lamelas confirmó el respaldo de EEUU al Gobierno de Javier Milei",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/internacionales/peter-lamelas-confirmo-el-respaldo-de-eeuu-al-gobierno-de-javier-milei_a6ad805f3c7853ea2c2c09d3c",
-      "acceso": "abierto",
-      "resumen": "El embajador estaodounidense anunció inversiones por 20 mil millones de dólares pero advirtió que estarán pendientes de lo que suceda en 2027.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad8066ac7853ea2c2c0a93f/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.095,
-        "y1": 0.526
       }
     }
   ],
