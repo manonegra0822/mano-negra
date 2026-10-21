@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T15:29:10-03:00",
+  "actualizado": "2026-10-21T15:39:15-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,16 +7,17 @@
       "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 96,
           "ejemplos": [
-            "Pedro Sánchez acepta la propuesta de David Broncano y será entrevistado mañana e",
-            "ANDIS: la fiscalía pidió indagar a 36 nuevos acusados y amplió los cargos a exfu",
-            "La ex asesora del Gobierno Petro Eva Ferrer comenzó su comparecencia virtual ant"
+            "Detienen a Landon Donovan por venta de droga en CDMX",
+            "Elecciones generales 29-N, en directo: CHA-Frente Amplio Aragón renuncia a concu",
+            "Bayern Múnich vs. Arsenal, Champions League - en vivo: Luis Díaz arrancará desde"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Reforma laboral: el Gobierno aprobó 19 acuerdos entre sindicatos y empresas de d",
             "Índice Pokémon: la insólita inversión que está a punto de superar a NVIDIA como "
           ]
         }
@@ -28,11 +29,11 @@
       "aceptadas": 4,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 79,
+          "cantidad": 80,
           "ejemplos": [
-            "Los goles de Nico Paz en la Champions League, EN VIVO: el minuto a minuto de los",
-            "Los golazos de Nico Paz para el Como ante el Manchester United por la Champions ",
-            "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas para el balota"
+            "Deberá pagar US$25.000 millones: condenan a Meta por engañar a consumidores sobr",
+            "Imputaron a cuatro acusados de integrar una organización narco: tenían 10 kilos ",
+            "Los goles de Nico Paz en la Champions League, EN VIVO: el minuto a minuto de los"
           ]
         },
         "titular sin tema de política/economía": {
@@ -41,12 +42,6 @@
             "Desde $1.700.000 y en seis cuotas: cuánto cuesta ir a Barranquilla para ver a a ",
             "Opinión. Lo que no se discute en el debate por los biocombustibles",
             "Financiamiento sostenible: qué hacen la Argentina, Brasil y Bolivia para impulsa"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Campaña 2026/27. Los números de la fertilización cierran, pero hay que hacer las"
           ]
         }
       }
@@ -83,14 +78,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 18,
           "ejemplos": [
             "El Cineclub cierra octubre con terror y suspenso",
             "Francisco Cerúndolo avanzó a cuartos de final en el ATP 250 de Bruselas",
-            "Cien años de soledad y el Nobel: la realidad era más fantástica"
+            "Malakeh, de las recetas de una abuela siria a un local gastronómico en Nueva Cór"
           ]
         }
       }
@@ -163,11 +158,11 @@
       "aceptadas": 18,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 22,
+          "cantidad": 23,
           "ejemplos": [
+            "\"El riesgo aumenta a medida que pasan los años”: la importancia de los controles",
             "Oscar González, condenado en su propia tierra: por qué es el final político del ",
-            "Ir a la escuela no alcanza: por qué la Argentina no logra mejorar los aprendizaj",
-            "Ordenaron detener a cinco imputados por la administración de la Caja Previsional"
+            "Ir a la escuela no alcanza: por qué la Argentina no logra mejorar los aprendizaj"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -177,7 +172,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 29,
+          "cantidad": 28,
           "ejemplos": [
             "Gustavo Klein apuntó contra Nación por el Plan Remediar: “Si quiere que las prov",
             "Elecciones en Brasil: \"La calle está con Lula, pero el problema es el voto del i",

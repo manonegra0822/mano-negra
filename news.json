@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T15:29:10-03:00",
+  "actualizado": "2026-10-21T15:39:15-03:00",
   "notas": [
     {
       "id": "944adedab5",
@@ -37,8 +37,8 @@
     {
       "id": "634bfe2f31",
       "seccion": "cordoba",
-      "rel": 43.6,
-      "relevancia": 43.6,
+      "rel": 43.5,
+      "relevancia": 43.5,
       "fecha": "2026-10-21T11:58:47-03:00",
       "hora": "11:58",
       "titulo": "Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar",
@@ -201,8 +201,8 @@
     {
       "id": "a7e42407f5",
       "seccion": "argentina",
-      "rel": 30.0,
-      "relevancia": 30.0,
+      "rel": 29.9,
+      "relevancia": 29.9,
       "fecha": "2026-10-21T15:19:26-03:00",
       "hora": "15:19",
       "titulo": "Milei descalificó a una periodista española por una pregunta sobre PP y Vox",
@@ -256,8 +256,8 @@
       "seccion": "argentina",
       "rel": 22.0,
       "relevancia": 22.0,
-      "fecha": "2026-10-21T15:11:54-03:00",
-      "hora": "15:11",
+      "fecha": "2026-10-21T15:33:56-03:00",
+      "hora": "15:33",
       "titulo": "Diputados debate la ley de inviolabilidad de la propiedad privada mientras siguen las negociaciones por Discapacidad",
       "fuente": "Infobae",
       "url": "https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/",
@@ -476,28 +476,6 @@
       "rostros": null
     },
     {
-      "id": "c931b7d638",
-      "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-21T14:09:02-03:00",
-      "hora": "14:09",
-      "titulo": "“El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml",
-      "acceso": "abierto",
-      "resumen": "Con un preservativo en la mano, el legislador socialista lanzó una dura crítica al ajuste sanitario de la gestión libertaria y disparó: “Al final, la casta eras vos”. Córdoba rechazó el recorte nacional de medicamentos esenciales y reclamó una marcha atrás. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/chamorro-rechazo-la-motosierra-al-remediar-2353384.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.016,
-        "y1": 0.606
-      }
-    },
-    {
       "id": "3e2a440f2f",
       "seccion": "economia",
       "rel": 21.8,
@@ -517,6 +495,28 @@
       "rostros": {
         "y0": 0.0,
         "y1": 0.231
+      }
+    },
+    {
+      "id": "c931b7d638",
+      "seccion": "cordoba",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-21T14:09:02-03:00",
+      "hora": "14:09",
+      "titulo": "“El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml",
+      "acceso": "abierto",
+      "resumen": "Con un preservativo en la mano, el legislador socialista lanzó una dura crítica al ajuste sanitario de la gestión libertaria y disparó: “Al final, la casta eras vos”. Córdoba rechazó el recorte nacional de medicamentos esenciales y reclamó una marcha atrás. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/chamorro-rechazo-la-motosierra-al-remediar-2353384.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.016,
+        "y1": 0.606
       }
     },
     {
@@ -618,25 +618,6 @@
       "rostros": null
     },
     {
-      "id": "bf7eefd658",
-      "seccion": "cordoba",
-      "rel": 21.4,
-      "relevancia": 21.4,
-      "fecha": "2026-10-21T11:24:55-03:00",
-      "hora": "11:24",
-      "titulo": "Milei culpó a la oposición y a la volatilidad global por la suba del riesgo país",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/milei-culpo-a-la-oposicion-y-a-la-volatilidad-global-por-la-suba-del-riesgo-pais-y-prometio-un-crecimiento-historico/",
-      "acceso": "abierto",
-      "resumen": "Durante su exposición en el Foro Nueva Economía de Madrid, el Presidente defendió su programa económico, cuestionó con dureza al kirchnerismo y pronosticó que Argentina podría alcanzar la categoría de país apto para inversiones.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "7e9e5075b2",
       "seccion": "argentina",
       "rel": 21.4,
@@ -657,6 +638,25 @@
         "y0": 0.118,
         "y1": 0.654
       }
+    },
+    {
+      "id": "bf7eefd658",
+      "seccion": "cordoba",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-10-21T11:24:55-03:00",
+      "hora": "11:24",
+      "titulo": "Milei culpó a la oposición y a la volatilidad global por la suba del riesgo país",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/milei-culpo-a-la-oposicion-y-a-la-volatilidad-global-por-la-suba-del-riesgo-pais-y-prometio-un-crecimiento-historico/",
+      "acceso": "abierto",
+      "resumen": "Durante su exposición en el Foro Nueva Economía de Madrid, el Presidente defendió su programa económico, cuestionó con dureza al kirchnerismo y pronosticó que Argentina podría alcanzar la categoría de país apto para inversiones.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "c653963deb",
@@ -683,8 +683,8 @@
     {
       "id": "6839532756",
       "seccion": "cordoba",
-      "rel": 21.0,
-      "relevancia": 21.0,
+      "rel": 20.9,
+      "relevancia": 20.9,
       "fecha": "2026-10-21T09:15:01-03:00",
       "hora": "09:15",
       "titulo": "Javier Milei en Madrid: ataques a Pedro Sánchez, críticas a la justicia social y el rol de las mujeres",
@@ -784,8 +784,8 @@
     {
       "id": "96f050c20d",
       "seccion": "economia",
-      "rel": 20.2,
-      "relevancia": 20.2,
+      "rel": 20.1,
+      "relevancia": 20.1,
       "fecha": "2026-10-21T04:24:00-03:00",
       "hora": "04:24",
       "titulo": "El 27% de los deudores argentinos registra al menos una deuda irregular, según Universidad Austral",
