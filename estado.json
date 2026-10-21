@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T15:39:15-03:00",
+  "actualizado": "2026-10-21T15:40:38-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -96,11 +96,11 @@
       "aceptadas": 24,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 31,
+          "cantidad": 32,
           "ejemplos": [
+            "Capital Humano homologó 19 acuerdos colectivos de distintos sectores",
             "La UIA pidió infraestructura para que el gas de Vaca Muerta llegue a todo el paí",
-            "Jubilados provinciales: la Caja oficializa nuevos coeficientes de actualización ",
-            "El Tribunal del Mar puso fecha a las audiencias por el petróleo y crece la tensi"
+            "Jubilados provinciales: la Caja oficializa nuevos coeficientes de actualización "
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -116,7 +116,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 23,
+          "cantidad": 22,
           "ejemplos": [
             "Según la CAME, las ventas por el Día de la Madre cayeron 1,4%",
             "Empleo público: lanzan los retiros voluntarios en el Estado nacional con supresi",
