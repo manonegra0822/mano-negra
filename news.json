@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T15:09:22-03:00",
+  "actualizado": "2026-10-21T15:17:55-03:00",
   "notas": [
     {
       "id": "944adedab5",
@@ -67,8 +67,8 @@
     {
       "id": "1821b32635",
       "seccion": "cordoba",
-      "rel": 34.0,
-      "relevancia": 34.0,
+      "rel": 33.9,
+      "relevancia": 33.9,
       "fecha": "2026-10-21T10:53:00-03:00",
       "hora": "10:53",
       "titulo": "El dólar en Córdoba: a cuánto cotiza este miércoles 21 de octubre",
@@ -224,6 +224,25 @@
       "rostros": null
     },
     {
+      "id": "89b6dd1b30",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-21T15:11:54-03:00",
+      "hora": "15:11",
+      "titulo": "Diputados debate la ley de inviolabilidad de la propiedad privada mientras siguen las negociaciones por Discapacidad",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/",
+      "acceso": "abierto",
+      "resumen": "Con 132 legisladores presentes, comenzó el debate. El peronismo analiza una propuesta realizada por los “aliados” que tiene el aval de la Casa Rosada, anticipó Infobae en Vivo",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/KCCOIWLA7VHYPINOIVE445RWYE.jpg?auth=c3954db1854a3e5d6035a02d4b3b903471f24d983f3307c3506a5fae55c468c9&smart=true&width=1920&height=1280",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "6dc3b649c6",
       "seccion": "argentina",
       "rel": 22.0,
@@ -238,25 +257,6 @@
       "impacto": null,
       "imagen": "https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853",
       "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "89b6dd1b30",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-21T13:11:04-03:00",
-      "hora": "13:11",
-      "titulo": "Empezó la sesión en Diputados: negociaciones de último momento para consensuar la nueva Ley de Discapacidad",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/",
-      "acceso": "abierto",
-      "resumen": "Con 132 legisladores presentes, comenzó el debate. El peronismo analiza una propuesta realizada por los “aliados” que tiene el aval de la Casa Rosada, anticipó Infobae en Vivo",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/KCCOIWLA7VHYPINOIVE445RWYE.jpg?auth=c3954db1854a3e5d6035a02d4b3b903471f24d983f3307c3506a5fae55c468c9&smart=true&width=1920&height=1280",
-      "imagen_credito": "Infobae",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -441,14 +441,11 @@
       "acceso": "suscripcion",
       "resumen": "En lo que se prevé será una sesión maratónica, el oficialismo busca imponer sus proyectos de Ley de Inviolabilidad de la Propiedad Privada, la Ley de Emergencia en Discapacidad y la Ley de Educación Financiera.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/4GXSDD2N25B4BMFA5DGXYIFRAE.jpg?auth=faeec7e5d102e595bf3fc0d32e9e38196a6d30c377bedcef8fbd4461a4737591&smart=true&width=3444&height=2296",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VIROBXC7H5CKZMKMLKHJMGYDFI.jpg?auth=9e6283996dacbb9de1682bf3ac4343de63caad6c5bfa8ac6e27da10c32416c41&smart=true&width=3896&height=2597",
       "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "y0": 0.708,
-        "y1": 0.918
-      }
+      "rostros": null
     },
     {
       "id": "c931b7d638",
@@ -557,8 +554,8 @@
     {
       "id": "e7bd82715d",
       "seccion": "economia",
-      "rel": 21.5,
-      "relevancia": 21.5,
+      "rel": 21.4,
+      "relevancia": 21.4,
       "fecha": "2026-10-21T11:56:38-03:00",
       "hora": "11:56",
       "titulo": "Tarjetas de crédito: el Banco Central oficializó la tasa de interés aplicable para noviembre",
@@ -636,8 +633,8 @@
     {
       "id": "c653963deb",
       "seccion": "argentina",
-      "rel": 21.2,
-      "relevancia": 21.2,
+      "rel": 21.1,
+      "relevancia": 21.1,
       "fecha": "2026-10-21T10:09:37-03:00",
       "hora": "10:09",
       "titulo": "“Zurdo y a mucha honra”: la respuesta de Pedro Sánchez a Milei",

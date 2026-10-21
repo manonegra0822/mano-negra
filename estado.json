@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-21T15:09:22-03:00",
+  "actualizado": "2026-10-21T15:17:55-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 97,
           "ejemplos": [
-            "Lilly Téllez pide a la FGR y a la Auditoría Superior investigar al hermano de An",
-            "Reunión sobre Sudán en la ONU concluye con llamadas a la unidad del país y no in",
-            "Fernanda Tomé regresa a la Liga Peruana de Vóley 2026/27: El motivo de su fichaj"
+            "Un rayo mató a cuatro caballos de polo durante una práctica en el Jockey Club de",
+            "CONADE y COM mantienen coordinación en favor de atletas mexicanos, asegura Romme",
+            "El golazo bajo la lluvia de Nico Paz ante el Manchester United al minuto del par"
           ]
         },
         "sin ancla argentina": {
@@ -19,34 +19,28 @@
           "ejemplos": [
             "Cuáles son las condiciones que enfrentan las pymes para financiarse en el mercad"
           ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Cuánto cuesta ir a ver a Boca en la final de la Copa Sudamericana"
-          ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
+      "leidas": 93,
       "aceptadas": 6,
       "descartadas": {
+        "sección no permitida": {
+          "cantidad": 76,
+          "ejemplos": [
+            "Por qué los caballos son tan vulnerables a los rayos y qué les pasó a los animal",
+            "Doblete de Nico Paz por la Champions League, EN VIVO: el minuto a minuto de los ",
+            "Así es el hot hatch que Toyota vende en la Argentina y que acelera de 0 a 100km/"
+          ]
+        },
         "titular sin tema de política/economía": {
           "cantidad": 9,
           "ejemplos": [
             "Desde $1.700.000 y en seis cuotas: cuánto cuesta ir a Barranquilla para ver a a ",
             "Opinión. Lo que no se discute en el debate por los biocombustibles",
             "Financiamiento sostenible: qué hacen la Argentina, Brasil y Bolivia para impulsa"
-          ]
-        },
-        "sección no permitida": {
-          "cantidad": 74,
-          "ejemplos": [
-            "Zohran Mamdani, alcalde de Nueva York: “La ley municipal ya prohíbe que ICE use ",
-            "Otro mal de ausencias en el tenis argentino, ahora en el equipo femenino de la B",
-            "Oxitocina: diario del viaje emocional de una madre con una gran actuación de Flo"
           ]
         },
         "sin ancla argentina": {
@@ -108,7 +102,7 @@
       "aceptadas": 24,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 32,
+          "cantidad": 30,
           "ejemplos": [
             "Jubilados provinciales: la Caja oficializa nuevos coeficientes de actualización ",
             "El Tribunal del Mar puso fecha a las audiencias por el petróleo y crece la tensi",
@@ -128,11 +122,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 22,
+          "cantidad": 24,
           "ejemplos": [
-            "El riesgo país llegó a 675 puntos",
-            "Caputo anunció dos nuevos RIGI con inversión por US$3.200 millones",
-            "Lula y Bolsonaro se cruzaron por corrupción y crimen organizado en un duro debat"
+            "Según la CAME, las ventas por el Día de la Madre cayeron 1,4%",
+            "Empleo público: lanzan los retiros voluntarios en el Estado nacional con supresi",
+            "El riesgo país llegó a 675 puntos"
           ]
         }
       }
@@ -170,11 +164,11 @@
       "aceptadas": 18,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 21,
+          "cantidad": 22,
           "ejemplos": [
-            "Ordenaron detener a cinco imputados por la administración de la Caja Previsional",
-            "Mar del Plata más allá del verano: el hotel céntrico con cinco pisos de spa para",
-            "Oscar González declarado homicida sin prisión: por qué el fallo dejó disconforme"
+            "Oscar González, condenado en su propia tierra: por qué es el final político del ",
+            "Ir a la escuela no alcanza: por qué la Argentina no logra mejorar los aprendizaj",
+            "Ordenaron detener a cinco imputados por la administración de la Caja Previsional"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -184,11 +178,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 30,
+          "cantidad": 29,
           "ejemplos": [
+            "Gustavo Klein apuntó contra Nación por el Plan Remediar: “Si quiere que las prov",
             "Elecciones en Brasil: \"La calle está con Lula, pero el problema es el voto del i",
-            "Dos médicas y dos enfermeras fueron condenadas por la muerte de un recién nacido",
-            "Liliana Montero: \"Milei le da el golpe de gracia al Remediar, están destruyendo "
+            "Dos médicas y dos enfermeras fueron condenadas por la muerte de un recién nacido"
           ]
         }
       }
