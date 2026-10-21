@@ -1,10 +1,12 @@
 name: Actualizar dólar
 
 on:
-  # Todos los días a las 08:00 y a las 15:00 de Argentina (11:00 y 18:00 UTC).
+  # Todos los días a las 10:30 (apertura del mercado de cambios, 10:00) y a las 15:00
+  # de Argentina (13:30 y 18:00 UTC).
   # GitHub puede demorar unos minutos en arrancar las tareas programadas.
   schedule:
-    - cron: "0 11,18 * * *"
+    - cron: "30 13 * * *"
+    - cron: "0 18 * * *"
   # Botón "Run workflow" en la pestaña Actions
   workflow_dispatch:
 
