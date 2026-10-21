@@ -121,7 +121,7 @@ section[id], #contenido { scroll-margin-top: calc(var(--alto-barra) + 12px); }
 .cabecera { border-bottom: 1px solid var(--regla); }
 .cab-etiquetas { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding-block: 16px 14px; color: var(--muted); }
 .cab-marca {
-  display: flex; align-items: flex-end; gap: 3vw; width: max-content; max-width: 100%;
+  display: flex; align-items: flex-end; gap: 3vw; width: max-content; max-width: 100%; margin-inline: auto;
   background: var(--marca-bg); color: var(--marca-ink); padding: calc(var(--marca-pad) * 14px);
 }
 .cab-logo { height: calc(12vw * .8 * 2); width: auto; flex: none; }
