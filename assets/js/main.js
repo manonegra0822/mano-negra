@@ -302,6 +302,16 @@
       op.hidden = !ab;
       q("compartir").setAttribute("aria-expanded", ab ? "true" : "false");
     });
+    /* Instagram no tiene un enlace para compartir desde la web: se copia el enlace y se abren los mensajes */
+    q("ig").addEventListener("click", function () {
+      var n = NOTAS[actual];
+      if (!n) return;
+      var ventana = window.open("https://www.instagram.com/direct/inbox/", "_blank", "noopener");
+      function aviso() { q("copiado").textContent = "Enlace copiado: pegalo en un mensaje o en tu historia de Instagram"; }
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(n.t + " — vía Mano Negra " + n.u).then(aviso, function () { q("copiado").textContent = n.u; });
+      else q("copiado").textContent = n.u;
+      if (!ventana) aviso();
+    });
     q("copiar").addEventListener("click", function () {
       var n = NOTAS[actual];
       if (!n) return;
