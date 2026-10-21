@@ -1,60 +1,66 @@
 {
-  "actualizado": "2026-10-21T18:09:38-03:00",
+  "actualizado": "2026-10-21T20:19:48-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 1,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Tras aprobar la Ley de Propiedad Privada, Diputados discutirá la emergencia en D",
-            "El indicador preferido del Gobierno muestra que la actividad económica lleva 5 m",
-            "La actividad económica creció menos de lo esperado en agosto tras la fuerte caíd"
-          ]
-        },
         "sección no permitida": {
-          "cantidad": 93,
+          "cantidad": 97,
           "ejemplos": [
-            "Breton compara disturbios en Francia con crisis de Ceuta y alerta del descontrol",
-            "Bayern Múnich y Arsenal igualaron 2-2 en un choque de favoritos en la Champions ",
-            "El exjugador Bryan Ruiz, ratificado como seleccionador de Costa Rica"
+            "Pitbull anuncia una gira mundial y una edición de 'Pitcoin' con hasta 12 cancion",
+            "Emiratos nomina a la diplomática Lana Nusseibeh para suceder a Guterres al frent",
+            "El papa León no necesita tratamiento adicional para el cáncer de pulmón, dijeron"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Cuánto cuesta ir a ver a Boca en la final de la Copa Sudamericana"
+            "Gabriel Katopodis: “Axel es el que está en mejores condiciones para 2027″"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Tras aprobar la Ley de Propiedad Privada, Diputados discutirá la emergencia en D"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 85,
-      "aceptadas": 9,
+      "leidas": 90,
+      "aceptadas": 8,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 67,
+          "cantidad": 73,
           "ejemplos": [
-            "Champions League: gol de Buendía, goleada de Real Madrid ante Leipzig de Demiche",
-            "Murió Saúl Blanch, el primer vocalista de Rata Blanca, a los 75 años",
-            "Elecciones Brasil 2026: encuestas, final de las campañas para el balotaje y el m"
+            "Valter Longo, gerontólogo, cuenta su secreto para vivir más: “Suelo dejar unas t",
+            "Brad Pitt compró una finca de 500 hectáreas y la convirtió en una reserva agríco",
+            "Abierto de Tortugas: La Hache arrasó en un partido con ¡41 goles! sobre La Aguad"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 5,
           "ejemplos": [
-            "Oro verde: invertirán US$19,5 millones en San Juan para ampliar la producción de",
-            "Construir y destruir son, ante todo, actitudes",
-            "A Francisco Franco le mataron 34 animales en un mes, perdió $40 millones y aband"
+            "Hay 40.000 hectáreas: el “cultivo estratégico” conectado con el mundo que promet",
+            "Myriam Bregman y Luis Petri tuvieron un tenso cruce por el islam que involucró a",
+            "Una empresa agropecuaria de la familia Brito pagó US$22,8 millones por un campo "
           ]
         },
-        "otro país": {
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Vandalismo rural: Diputados aprobó un proyecto que prevé hasta 10 años de prisió",
+            "Sergio Massa dijo que “la sociedad le va a dar vuelta la página” al Gobierno en ",
+            "Fentanilo contaminado: Diputados aprobó un proyecto para rastrear medicamentos y"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Anthropic propone que EE.UU. pueda bloquear modelos de IA peligrosos con autoriz"
+            "El Niño: el gobierno bonaerense lanzó una plataforma para consultar las lluvias "
           ]
         }
       }
@@ -92,7 +98,7 @@
           "ejemplos": [
             "León XIV no precisará ningún tratamiento adicional y mantiene su viaje a Argenti",
             "Lemoine se burló de los vuelos de la muerte y la justicia le cerró la causa",
-            "Iron Maiden en Huracán: 50 años a lo bestia"
+            "Nico Paz sigue de racha: doblete en la Champions contra el Manchester United"
           ]
         }
       }
@@ -100,14 +106,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 12,
           "ejemplos": [
-            "León XIV no necesitará tratamiento oncológico tras la extirpación de un cáncer d",
-            "Causa Andis: piden indagar a los dueños de la droguería Suizo Argentina y a otro",
-            "El 26% de los argentinos quiere una tercera alternativa electoral el año próximo"
+            "La fabricante de las camisetas de River, Boca y la Selección suspendió trabajado",
+            "Quinteros exigió a Belgrano Cargas medidas de seguridad tras la muerte del polic",
+            "León XIV no necesitará tratamiento oncológico tras la extirpación de un cáncer d"
           ]
         }
       }
@@ -118,7 +124,7 @@
       "aceptadas": 25,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 30,
+          "cantidad": 27,
           "ejemplos": [
             "Capital Humano homologó 19 acuerdos colectivos de distintos sectores",
             "La UIA pidió infraestructura para que el gas de Vaca Muerta llegue a todo el paí",
@@ -138,11 +144,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 23,
+          "cantidad": 26,
           "ejemplos": [
-            "Convenio Multilateral: oficializan el nuevo calendario fiscal de noviembre debid",
-            "Estados Unidos quiere cerrar el comité de la ONU donde la Argentina reclama por ",
-            "Plan Remediar: Córdoba cuestionó la reducción de 128 a 6 medicamentos dispuesta "
+            "Mientras reclama más financiamiento, la UNC cuadruplica el monto de las becas pa",
+            "Cáncer de mama: tres investigaciones argentinas buscan frenar la metástasis y me",
+            "La IPJ Córdoba reglamentó el régimen simplificado que exime de contabilidad trad"
           ]
         }
       }
@@ -150,14 +156,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
-            "Cruz del Eje: dos detenidos por el femicidio de Camila Iglesias",
-            "UEPC anunció cronograma de asambleas",
-            "Causa ANDIS: piden 43 indagatorias y advierten por una cartelización de droguerí"
+            "Córdoba: hay alerta amarilla por tormentas para la tarde de este jueves 22 de oc",
+            "Epec informó cerca de una veintena de cortes de luz para este jueves en Córdoba",
+            "Cruz del Eje: dos detenidos por el femicidio de Camila Iglesias"
           ]
         }
       }
@@ -177,10 +183,10 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 16,
+      "aceptadas": 15,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 25,
+          "cantidad": 22,
           "ejemplos": [
             "El Niño en Córdoba: cuándo llegan las lluvias y cómo estará el tiempo el resto d",
             "El TSJ rechazó el recurso de Adela Arning y la revocatoria sigue en marcha",
@@ -194,11 +200,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 28,
+          "cantidad": 32,
           "ejemplos": [
-            "Tras la muerte de un policía en Córdoba, Quinteros reclamó a la Nación por el es",
-            "Passerini duro con Luis Juez: “Es muy cómodo hablar como habla él ganando 14 pal",
-            "Balance del Día de la Madre en Córdoba: “Hemos sacrificado mucha rentabilidad en"
+            "“Nos deben $ 750 millones, no somos delincuentes”: Duro reclamo de las cooperati",
+            "Córdoba Welcome: Con casi 540 mil trabajadores, los shows apuntan a los benefici",
+            "Juez federal de Córdoba declaró inconstitucional el tope a las jubilaciones doce"
           ]
         }
       }
