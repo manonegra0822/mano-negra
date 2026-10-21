@@ -181,7 +181,7 @@ def principal(n, ahora):
                         for o in n["otros"][:4])
         otros = f'<div class="otros"><h3 class="etiqueta">(También lo cubren)</h3><ul>{items}</ul></div>'
     clase = "lead" + ("" if n.get("imagen") else " lead--sin-foto")
-    return f'''<article class="{clase}">
+    return f'''<article class="{clase}" data-id="{e(n["id"])}">
   <div class="lead-txt">
     <p class="lead-top"><span class="etiqueta">(Nota del día)</span>{indice(1)}</p>
     {volanta(n)}
@@ -200,7 +200,7 @@ def tarjeta(n, ahora, i=None, con_foto=True, palabras=26, nivel=3):
     clase = "card" + (" card--foto" if f else " card--texto")
     bajada = f'<p class="card-bajada">{e(recortar(n.get("resumen"), palabras))}</p>' if palabras else ""
     num = f'<p class="card-top">{indice(i)}<span class="flecha" aria-hidden="true">↗</span></p>' if i else ""
-    return f'''<article class="{clase}">
+    return f'''<article class="{clase}" data-id="{e(n["id"])}">
   {num}
   {f}
   <div class="card-txt">
@@ -212,17 +212,29 @@ def tarjeta(n, ahora, i=None, con_foto=True, palabras=26, nivel=3):
 </article>'''
 
 
-def bloque_seccion(sid, nombre, notas, total, ahora):
+def bloque_seccion(sid, nombre, notas, resto, total, ahora):
     if not notas:
         cuerpo = '<p class="vacio">No hay notas de esta sección en las últimas 48 horas.</p>'
     else:
         cuerpo = "".join(tarjeta(n, ahora, con_foto=(i == 0), palabras=(24 if i == 0 else 0)) for i, n in enumerate(notas))
+    mas = ""
+    if resto:
+        filas = "".join(f'''<li class="mas-fila" data-id="{e(n["id"])}">
+  <span class="mas-hora">{cuando(n["_f"], ahora)}</span>
+  <h3 class="mas-tit">{enlace(n)}</h3>
+  <span class="mas-medio">{e(n["fuente"])}</span>
+</li>''' for n in resto)
+        mas = f'''<details class="sec-mas">
+  <summary><span class="sec-mas-abrir">Ver las {total:02d} notas de {nombre}</span><span class="sec-mas-cerrar">Ver menos</span><span class="flecha" aria-hidden="true">↘</span></summary>
+  <ol class="mas-lista">{filas}</ol>
+</details>'''
     return f'''<section class="seccion" id="{sid}" aria-labelledby="t-{sid}">
   <header class="sec-head">
     <h2 class="sec-tit" id="t-{sid}">{nombre}</h2>
     <p class="sec-aux"><span class="etiqueta">({total:02d} notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
   </header>
   <div class="sec-grid">{cuerpo}</div>
+  {mas}
 </section>'''
 
 
@@ -230,7 +242,7 @@ def ultimas(notas, ahora):
     items = []
     for i, n in enumerate(notas, 1):
         sus = '<span class="tag-sus">(Con suscripción)</span>' if n.get("acceso") != "abierto" else ""
-        items.append(f'''<li class="fila">
+        items.append(f'''<li class="fila" data-id="{e(n["id"])}">
   <span class="fila-n" aria-hidden="true">{i:02d}</span>
   <span class="fila-hora">{n["_f"]:%H:%M}</span>
   <span class="fila-sec">{marca(n["_region"])}{REGION[n["_region"]]} / {TEMA[n["_tema"]]}</span>
@@ -242,7 +254,7 @@ def ultimas(notas, ahora):
 
 
 def cinta(notas):
-    items = "".join(f'<li><a href="{e(n["url"])}" target="_blank" rel="noopener"><b>{n["_f"]:%H:%M}</b> {e(n["titulo"])}</a></li>'
+    items = "".join(f'<li data-id="{e(n["id"])}"><a class="nota-link" href="{e(n["url"])}" target="_blank" rel="noopener"><b>{n["_f"]:%H:%M}</b> {e(n["titulo"])}</a></li>'
                     for n in notas)
     return items
 
@@ -268,15 +280,29 @@ def opinion(ops, ahora):
 </section>'''
 
 
+def tendencia(actual, anterior):
+    try:
+        dif = float(actual) - float(anterior)
+    except (TypeError, ValueError):
+        return ""
+    if abs(dif) < 0.005:
+        return '<span class="tend tend--igual" title="Sin cambios respecto de la cotización anterior">= 0</span>'
+    clase, signo, txt = ("sube", "▲", "Subió") if dif > 0 else ("baja", "▼", "Bajó")
+    return (f'<span class="tend tend--{clase}"><span aria-hidden="true">{signo}</span> ${plata(abs(dif))}'
+            f'<span class="sr"> ({txt} respecto de la cotización anterior)</span></span>')
+
+
 def barra_dolar(d):
     if not d.get("venta"):
         return '<p class="dolar-txt"><span class="etiqueta">(Dólar oficial)</span> <span>Cotización no disponible por el momento.</span></p>'
     f = fecha_de(d.get("actualizado"), None)
     cuando_txt = f"{f:%d/%m} {f:%H:%M} h" if f else ""
     viejo = "" if d.get("vigente", True) else ' <span class="dolar-aviso">(último valor disponible)</span>'
+    ant = d.get("anterior") or {}
     return (f'<p class="dolar-txt"><span class="dolar-nom">(Dólar oficial)</span>'
             f'<span class="dolar-val">Compra <b data-dolar="compra">${plata(d["compra"])}</b></span>'
-            f'<span class="dolar-val">Venta <b data-dolar="venta">${plata(d["venta"])}</b></span>'
+            f'<span class="dolar-val">Venta <b data-dolar="venta">${plata(d["venta"])}</b>'
+            f'<span data-dolar="tend">{tendencia(d["venta"], ant.get("venta"))}</span></span>'
             f'<span class="dolar-hora">Act. <span data-dolar="hora">{cuando_txt}</span>{viejo}</span></p>')
 
 
@@ -293,6 +319,16 @@ def pie_contacto(sitio):
             filas.append(f'<li><a href="{e(url)}" target="_blank" rel="noopener">{e(nombres.get(k, k.title()))}'
                          f'<span class="flecha" aria-hidden="true">↗</span></a></li>')
     return "".join(filas)
+
+
+HORARIOS = (8, 13, 20)  # actualizaciones de notas (hora de Córdoba)
+
+
+def proxima_actualizacion(ahora):
+    for h in HORARIOS:
+        if ahora.hour < h:
+            return f"{h:02d}:00"
+    return f"{HORARIOS[0]:02d}:00"
 
 
 # --- página -------------------------------------------------------------------------------------
@@ -316,11 +352,20 @@ def armar(plantilla, datos, dolar, sitio, kw, fuentes):
         nuevas = [n for n in de_sec if n["id"] not in vistas]
         elegidas = (nuevas + [n for n in de_sec if n["id"] in vistas])[:N_SECCION]
         vistas.update(n["id"] for n in elegidas)
-        bloques.append(bloque_seccion(sid, nombre, elegidas, len(de_sec), ahora))
+        ids = {n["id"] for n in elegidas}
+        resto = [n for n in de_sec if n["id"] not in ids]
+        bloques.append(bloque_seccion(sid, nombre, elegidas, resto, len(de_sec), ahora))
 
     hoy = f"{DIAS[ahora.weekday()]} {ahora.day} de {MESES[ahora.month - 1]} de {ahora.year}"
     menu_extra = '<li><a href="#opinion"><span class="idx">06</span>Opinión</a></li>' if datos.get("opinion") else ""
     contacto = pie_contacto(sitio)
+    datos_js = {n["id"]: {
+        "t": n["titulo"], "r": recortar(n.get("resumen"), 70), "u": n["url"], "f": n["fuente"],
+        "i": n.get("imagen") or "", "c": n.get("imagen_credito") or n["fuente"],
+        "h": n["_f"].isoformat(timespec="minutes"), "s": n.get("acceso") != "abierto",
+        "k": f'{REGION[n["_region"]]} / {TEMA[n["_tema"]]}', "g": n["_region"],
+        "o": [{"f": o["fuente"], "t": o["titulo"], "u": o["url"]} for o in (n.get("otros") or [])[:5]],
+    } for n in notas}
     reemplazos = {
         "DOLAR": barra_dolar(dolar),
         "FECHA": e(hoy[:1].upper() + hoy[1:]),
@@ -328,6 +373,8 @@ def armar(plantilla, datos, dolar, sitio, kw, fuentes):
         "HORA": f"{ahora:%H:%M}",
         "RELOJ": f"{DIAS_C[ahora.weekday()]} {ahora:%d.%m.%y} — {ahora:%H:%M}",
         "N_NOTAS": f"{len(notas):02d}",
+        "PROXIMA": proxima_actualizacion(ahora),
+        "NOTAS_JSON": json.dumps(datos_js, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
         "N_MEDIOS": f"{len(fuentes):02d}",
         "ACTUALIZADO_ISO": ahora.isoformat(timespec="minutes"),
         "MENU_EXTRA": menu_extra,

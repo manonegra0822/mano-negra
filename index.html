@@ -13,14 +13,15 @@
 (function(){var d=document.documentElement,t=null;d.className=d.className.replace("no-js","js");
 try{t=localStorage.getItem("mn-tema")}catch(e){}
 if(t!=="claro"&&t!=="oscuro"){t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"oscuro":"claro"}
-d.setAttribute("data-tema",t)})();
+d.setAttribute("data-tema",t);
+var l=null;try{l=localStorage.getItem("mn-letra")}catch(e){}if(l==="1"||l==="2"){d.setAttribute("data-letra",l)}})();
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/estilos.css?v=36da344d">
+<link rel="stylesheet" href="assets/css/estilos.css?v=644ce7ef">
 <link rel="stylesheet" href="intro/intro.css?v=4b6ae910">
-<script src="assets/js/main.js?v=b663ff52" defer></script>
+<script src="assets/js/main.js?v=ec1ffb54" defer></script>
 <script src="intro/intro.js?v=23bf882e" defer></script>
 </head>
 <body>
@@ -41,7 +42,7 @@ d.setAttribute("data-tema",t)})();
 
 <div class="dolar" role="region" aria-label="Cotización del dólar">
   <div class="envoltura dolar-in">
-    <p class="dolar-txt"><span class="dolar-nom">(Dólar oficial)</span><span class="dolar-val">Compra <b data-dolar="compra">$1.495</b></span><span class="dolar-val">Venta <b data-dolar="venta">$1.545</b></span><span class="dolar-hora">Act. <span data-dolar="hora">21/10 07:00 h</span></span></p>
+    <p class="dolar-txt"><span class="dolar-nom">(Dólar oficial)</span><span class="dolar-val">Compra <b data-dolar="compra">$1.495</b></span><span class="dolar-val">Venta <b data-dolar="venta">$1.545</b><span data-dolar="tend"><span class="tend tend--igual" title="Sin cambios respecto de la cotización anterior">= 0</span></span></span><span class="dolar-hora">Act. <span data-dolar="hora">21/10 07:00 h</span></span></p>
     <p class="reloj"><span class="etiqueta">(Córdoba, GMT−3)</span> <span data-reloj>Mié 21.10.26 — 15:09</span></p>
   </div>
 </div>
@@ -66,11 +67,25 @@ d.setAttribute("data-tema",t)})();
         
         <li><a href="#ultimas"><span class="idx">→</span>Últimas</a></li>
       </ul>
+      <div class="menu-extra" role="group" aria-label="Tamaño de letra">
+        <span class="etiqueta">(Tamaño de letra)</span>
+        <button class="herr-btn letra-btn" type="button" data-letra="-1" aria-label="Achicar la letra">A−</button>
+        <button class="herr-btn letra-btn" type="button" data-letra="1" aria-label="Agrandar la letra">A+</button>
+      </div>
     </nav>
-    <button class="tema-btn" type="button" aria-pressed="false">
-      <span class="tema-ico" aria-hidden="true"></span>
-      <span class="tema-txt">Fondo negro</span>
-    </button>
+    <div class="herramientas">
+      <button class="herr-btn buscar-btn" type="button" aria-label="Buscar en las notas" aria-keyshortcuts="/">
+        <span class="lupa" aria-hidden="true"></span><span class="herr-txt">Buscar</span>
+      </button>
+      <div class="letra" role="group" aria-label="Tamaño de letra">
+        <button class="herr-btn letra-btn" type="button" data-letra="-1" aria-label="Achicar la letra">A−</button>
+        <button class="herr-btn letra-btn" type="button" data-letra="1" aria-label="Agrandar la letra">A+</button>
+      </div>
+      <button class="tema-btn" type="button" aria-pressed="false">
+        <span class="tema-ico" aria-hidden="true"></span>
+        <span class="tema-txt">Fondo negro</span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -80,6 +95,7 @@ d.setAttribute("data-tema",t)})();
       <li>(El medio de medios)</li>
       <li>(Córdoba — Argentina)</li>
       <li>(Edición 21.10.26 · 15:09 h)</li>
+      <li>(Próxima actualización <span data-prox>20:00</span> h)</li>
       <li>(40 notas · 11 medios)</li>
     </ul>
     <div class="cab-marca">
@@ -96,14 +112,18 @@ d.setAttribute("data-tema",t)})();
 <div class="cinta" aria-label="Últimos titulares">
   <p class="cinta-tag">(Último momento)</p>
   <div class="cinta-pista">
-    <ul class="cinta-lista"><li><a href="https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/" target="_blank" rel="noopener"><b>15:00</b> Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?</a></li><li><a href="https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/" target="_blank" rel="noopener"><b>14:47</b> Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas</a></li><li><a href="https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/" target="_blank" rel="noopener"><b>14:13</b> Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada</a></li><li><a href="https://www.pagina12.com.ar/2026/10/21/debate-caliente-en-diputados-lla-busca-obstaculizar-iniciativas-de-la-oposicion/" target="_blank" rel="noopener"><b>14:13</b> Debate caliente en Diputados: LLA busca obstaculizar iniciativas de la oposición</a></li><li><a href="https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml" target="_blank" rel="noopener"><b>14:09</b> “El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar</a></li><li><a href="https://www.lanacion.com.ar/economia/dolares-del-colchon-las-dudas-que-persisten-sobre-inocencia-fiscal-ii-y-el-riesgo-de-que-las-nid21102026/" target="_blank" rel="noopener"><b>13:21</b> Dólares del colchón: las dudas que persisten sobre Inocencia Fiscal II y el riesgo de que las provincias reclamen impuestos</a></li><li><a href="https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/" target="_blank" rel="noopener"><b>13:17</b> La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados</a></li><li><a href="https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/" target="_blank" rel="noopener"><b>13:11</b> Empezó la sesión en Diputados: negociaciones de último momento para consensuar la nueva Ley de Discapacidad</a></li><li><a href="https://www.lanacion.com.ar/economia/oro-del-banco-central-la-fiscalia-pidio-informes-para-investigar-las-operaciones-que-habrian-nid21102026/" target="_blank" rel="noopener"><b>12:12</b> Oro del Banco Central: la fiscalía pidió informes para investigar las operaciones que habrían generado pérdidas por US$1023 millones</a></li><li><a href="https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/" target="_blank" rel="noopener"><b>11:58</b> Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar</a></li></ul>
-    <ul class="cinta-lista" aria-hidden="true"><li><a href="https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/" target="_blank" rel="noopener"><b>15:00</b> Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?</a></li><li><a href="https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/" target="_blank" rel="noopener"><b>14:47</b> Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas</a></li><li><a href="https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/" target="_blank" rel="noopener"><b>14:13</b> Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada</a></li><li><a href="https://www.pagina12.com.ar/2026/10/21/debate-caliente-en-diputados-lla-busca-obstaculizar-iniciativas-de-la-oposicion/" target="_blank" rel="noopener"><b>14:13</b> Debate caliente en Diputados: LLA busca obstaculizar iniciativas de la oposición</a></li><li><a href="https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml" target="_blank" rel="noopener"><b>14:09</b> “El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar</a></li><li><a href="https://www.lanacion.com.ar/economia/dolares-del-colchon-las-dudas-que-persisten-sobre-inocencia-fiscal-ii-y-el-riesgo-de-que-las-nid21102026/" target="_blank" rel="noopener"><b>13:21</b> Dólares del colchón: las dudas que persisten sobre Inocencia Fiscal II y el riesgo de que las provincias reclamen impuestos</a></li><li><a href="https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/" target="_blank" rel="noopener"><b>13:17</b> La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados</a></li><li><a href="https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/" target="_blank" rel="noopener"><b>13:11</b> Empezó la sesión en Diputados: negociaciones de último momento para consensuar la nueva Ley de Discapacidad</a></li><li><a href="https://www.lanacion.com.ar/economia/oro-del-banco-central-la-fiscalia-pidio-informes-para-investigar-las-operaciones-que-habrian-nid21102026/" target="_blank" rel="noopener"><b>12:12</b> Oro del Banco Central: la fiscalía pidió informes para investigar las operaciones que habrían generado pérdidas por US$1023 millones</a></li><li><a href="https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/" target="_blank" rel="noopener"><b>11:58</b> Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar</a></li></ul>
+    <ul class="cinta-lista"><li data-id="6dc3b649c6"><a class="nota-link" href="https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/" target="_blank" rel="noopener"><b>15:00</b> Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?</a></li><li data-id="281e85dfe1"><a class="nota-link" href="https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/" target="_blank" rel="noopener"><b>14:47</b> Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas</a></li><li data-id="d920682634"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/" target="_blank" rel="noopener"><b>14:13</b> Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada</a></li><li data-id="7d8a8aae27"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/debate-caliente-en-diputados-lla-busca-obstaculizar-iniciativas-de-la-oposicion/" target="_blank" rel="noopener"><b>14:13</b> Debate caliente en Diputados: LLA busca obstaculizar iniciativas de la oposición</a></li><li data-id="c931b7d638"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml" target="_blank" rel="noopener"><b>14:09</b> “El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar</a></li><li data-id="57229c8c76"><a class="nota-link" href="https://www.lanacion.com.ar/economia/dolares-del-colchon-las-dudas-que-persisten-sobre-inocencia-fiscal-ii-y-el-riesgo-de-que-las-nid21102026/" target="_blank" rel="noopener"><b>13:21</b> Dólares del colchón: las dudas que persisten sobre Inocencia Fiscal II y el riesgo de que las provincias reclamen impuestos</a></li><li data-id="354a460ca3"><a class="nota-link" href="https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/" target="_blank" rel="noopener"><b>13:17</b> La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados</a></li><li data-id="89b6dd1b30"><a class="nota-link" href="https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/" target="_blank" rel="noopener"><b>13:11</b> Empezó la sesión en Diputados: negociaciones de último momento para consensuar la nueva Ley de Discapacidad</a></li><li data-id="3e2a440f2f"><a class="nota-link" href="https://www.lanacion.com.ar/economia/oro-del-banco-central-la-fiscalia-pidio-informes-para-investigar-las-operaciones-que-habrian-nid21102026/" target="_blank" rel="noopener"><b>12:12</b> Oro del Banco Central: la fiscalía pidió informes para investigar las operaciones que habrían generado pérdidas por US$1023 millones</a></li><li data-id="634bfe2f31"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/" target="_blank" rel="noopener"><b>11:58</b> Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar</a></li></ul>
+    <ul class="cinta-lista" aria-hidden="true"><li data-id="6dc3b649c6"><a class="nota-link" href="https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/" target="_blank" rel="noopener"><b>15:00</b> Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?</a></li><li data-id="281e85dfe1"><a class="nota-link" href="https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/" target="_blank" rel="noopener"><b>14:47</b> Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas</a></li><li data-id="d920682634"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/" target="_blank" rel="noopener"><b>14:13</b> Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada</a></li><li data-id="7d8a8aae27"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/debate-caliente-en-diputados-lla-busca-obstaculizar-iniciativas-de-la-oposicion/" target="_blank" rel="noopener"><b>14:13</b> Debate caliente en Diputados: LLA busca obstaculizar iniciativas de la oposición</a></li><li data-id="c931b7d638"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml" target="_blank" rel="noopener"><b>14:09</b> “El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar</a></li><li data-id="57229c8c76"><a class="nota-link" href="https://www.lanacion.com.ar/economia/dolares-del-colchon-las-dudas-que-persisten-sobre-inocencia-fiscal-ii-y-el-riesgo-de-que-las-nid21102026/" target="_blank" rel="noopener"><b>13:21</b> Dólares del colchón: las dudas que persisten sobre Inocencia Fiscal II y el riesgo de que las provincias reclamen impuestos</a></li><li data-id="354a460ca3"><a class="nota-link" href="https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/" target="_blank" rel="noopener"><b>13:17</b> La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados</a></li><li data-id="89b6dd1b30"><a class="nota-link" href="https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/" target="_blank" rel="noopener"><b>13:11</b> Empezó la sesión en Diputados: negociaciones de último momento para consensuar la nueva Ley de Discapacidad</a></li><li data-id="3e2a440f2f"><a class="nota-link" href="https://www.lanacion.com.ar/economia/oro-del-banco-central-la-fiscalia-pidio-informes-para-investigar-las-operaciones-que-habrian-nid21102026/" target="_blank" rel="noopener"><b>12:12</b> Oro del Banco Central: la fiscalía pidió informes para investigar las operaciones que habrían generado pérdidas por US$1023 millones</a></li><li data-id="634bfe2f31"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/" target="_blank" rel="noopener"><b>11:58</b> Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar</a></li></ul>
   </div>
+</div>
+
+<div class="envoltura">
+  <p class="aviso-nuevas" data-nuevas hidden></p>
 </div>
 
 <main id="contenido" class="envoltura">
   <section class="portada" id="inicio" aria-label="Nota del día">
-    <article class="lead">
+    <article class="lead" data-id="944adedab5">
   <div class="lead-txt">
     <p class="lead-top"><span class="etiqueta">(Nota del día)</span><span class="idx" aria-hidden="true">MN/01</span></p>
     <p class="kicker"><span class="mk mk-argentina" aria-hidden="true"></span><span>Argentina</span><span class="kicker-sep" aria-hidden="true">/</span><span>Política</span></p>
@@ -122,7 +142,7 @@ d.setAttribute("data-tema",t)})();
       <h2 class="sec-tit" id="t-destacadas">Titulares</h2>
       <p class="sec-aux"><span class="etiqueta">(Lo más importante del día)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
     </header>
-    <div class="grilla"><article class="card card--foto">
+    <div class="grilla"><article class="card card--foto" data-id="634bfe2f31">
   <p class="card-top"><span class="idx" aria-hidden="true">MN/02</span><span class="flecha" aria-hidden="true">↗</span></p>
   <figure class="foto-card"><img src="https://srt-assets.tadevel-cdn.com/6ad8ba1d920f762ed295dfb2/720.jpeg" alt="Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
   <div class="card-txt">
@@ -131,7 +151,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">El oficialismo llega con el quórum asegurado y buscará imponer sus dictámenes de mayoría. La sesión especial comenzó a las 12 y podría extenderse hasta la…</p>
     <p class="meta"><span class="meta-fuente">Hoy Día Córdoba</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T11:58-03:00" data-rel>Hoy 11:58</time></p>
   </div>
-</article><article class="card card--foto">
+</article><article class="card card--foto" data-id="1821b32635">
   <p class="card-top"><span class="idx" aria-hidden="true">MN/03</span><span class="flecha" aria-hidden="true">↗</span></p>
   <figure class="foto-card"><img src="https://fotos.perfil.com/2026/10/14/trim/540/304/dolares-2348612.jpg" alt="El dólar en Córdoba: a cuánto cotiza este miércoles 21 de octubre" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
   <div class="card-txt">
@@ -140,7 +160,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">Este miércoles 21 de octubre el dólar oficial en el Banco Nación se vende a 1.495 pesos y cotiza a 1.545 pesos para la compra. Leer…</p>
     <p class="meta"><span class="meta-fuente">Perfil</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T10:53-03:00" data-rel>Hoy 10:53</time></p>
   </div>
-</article><article class="card card--foto">
+</article><article class="card card--foto" data-id="fa7c2a468e">
   <p class="card-top"><span class="idx" aria-hidden="true">MN/04</span><span class="flecha" aria-hidden="true">↗</span></p>
   <figure class="foto-card"><img src="https://www.infobae.com/resizer/v2/LJHYRPLKBZEYXCCDF6CXWUEARQ.jpg?auth=c73aea99f793c195dd0ea493010e590b88a3cf3319dd0d54112af8655f93f322&amp;smart=true&amp;width=1280&amp;height=720" alt="Milei atacó a los periodistas por la polémica sobre la gente que no llega a fin de mes" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 27%"></figure>
   <div class="card-txt">
@@ -149,7 +169,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">El mandatario consideró que &quot;son muy pobres intelectualmente&quot; y consideró que &quot;están ardidos&quot; por su respuesta. Duras críticas de la oposición, que llegaron a España.</p>
     <p class="meta"><span class="meta-fuente">Hoy Día Córdoba</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T06:48-03:00" data-rel>Hoy 06:48</time></p>
   </div>
-</article><article class="card card--foto">
+</article><article class="card card--foto" data-id="310e1cdf49">
   <p class="card-top"><span class="idx" aria-hidden="true">MN/05</span><span class="flecha" aria-hidden="true">↗</span></p>
   <figure class="foto-card"><img src="https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GCXDTXP4BJHB5LPQTFOWBUV3ZI.jpg?auth=02b9e8ab55cfb75b9a6f45a6de8ad368c40c51f40c6e3cdfa2aef9e8da79e8da&amp;smart=true&amp;width=2544&amp;height=1696" alt="Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánchez" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 29%"></figure>
   <div class="card-txt">
@@ -158,7 +178,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">El presidente Javier Milei sostuvo que como Jefe de Estado argentino “pondera la civilización española” durante la jornada del Nueva Economía Fórum, que se desarrollará en…</p>
     <p class="meta"><span class="meta-fuente">Comercio y Justicia</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T07:59-03:00" data-rel>Hoy 07:59</time></p>
   </div>
-</article><article class="card card--foto">
+</article><article class="card card--foto" data-id="6dbe17145a">
   <p class="card-top"><span class="idx" aria-hidden="true">MN/06</span><span class="flecha" aria-hidden="true">↗</span></p>
   <figure class="foto-card"><img src="https://fotos.perfil.com/2026/10/21/trim/540/304/21-10-2026-pedro-sanchez-lali-milei-2353239.jpg" alt="Pedro Sánchez le respondió a Milei con un tema de Lali: &quot;Fanático&quot;" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 24%"></figure>
   <div class="card-txt">
@@ -167,7 +187,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">El Presidente del Gobierno de España recurrió a la canción de la cantante argentina luego de que el mandatario argentino lo calificara de “impresentable y dictador”.</p>
     <p class="meta"><span class="meta-fuente">Perfil</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T11:29-03:00" data-rel>Hoy 11:29</time></p>
   </div>
-</article><article class="card card--foto">
+</article><article class="card card--foto" data-id="3393052de3">
   <p class="card-top"><span class="idx" aria-hidden="true">MN/07</span><span class="flecha" aria-hidden="true">↗</span></p>
   <figure class="foto-card"><img src="https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/4TRYSDVC6FFATJYVSKX3A4JVPY.jpeg?auth=f104657efeea14ab55f613e06df9ea963c9a5ce98e8fe8d6385e3a901daf4037&amp;smart=true&amp;width=4032&amp;height=3024" alt="Casación unificó los juicios contra Cristina y Máximo Kirchner por Hotesur y Los Sauces" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
   <div class="card-txt">
@@ -184,7 +204,7 @@ d.setAttribute("data-tema",t)})();
     <h2 class="sec-tit" id="t-politica">Política</h2>
     <p class="sec-aux"><span class="etiqueta">(29 notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
   </header>
-  <div class="sec-grid"><article class="card card--foto">
+  <div class="sec-grid"><article class="card card--foto" data-id="6dc3b649c6">
   
   <figure class="foto-card"><img src="https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&amp;smart=true&amp;width=1280&amp;height=853" alt="Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer"></figure>
   <div class="card-txt">
@@ -193,7 +213,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios</p>
     <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T15:00-03:00" data-rel>Hoy 15:00</time> <span class="tag-sus">(Con suscripción)</span></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="d920682634">
   
   
   <div class="card-txt">
@@ -202,7 +222,7 @@ d.setAttribute("data-tema",t)})();
     
     <p class="meta"><span class="meta-fuente">Página/12</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T14:13-03:00" data-rel>Hoy 14:13</time> <span class="tag-sus">(Con suscripción)</span></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="7d8a8aae27">
   
   
   <div class="card-txt">
@@ -211,7 +231,7 @@ d.setAttribute("data-tema",t)})();
     
     <p class="meta"><span class="meta-fuente">Página/12</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T14:13-03:00" data-rel>Hoy 14:13</time> <span class="tag-sus">(Con suscripción)</span></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="c931b7d638">
   
   
   <div class="card-txt">
@@ -221,12 +241,116 @@ d.setAttribute("data-tema",t)})();
     <p class="meta"><span class="meta-fuente">Perfil</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T14:09-03:00" data-rel>Hoy 14:09</time></p>
   </div>
 </article></div>
+  <details class="sec-mas">
+  <summary><span class="sec-mas-abrir">Ver las 29 notas de Política</span><span class="sec-mas-cerrar">Ver menos</span><span class="flecha" aria-hidden="true">↘</span></summary>
+  <ol class="mas-lista"><li class="mas-fila" data-id="354a460ca3">
+  <span class="mas-hora"><time datetime="2026-10-21T13:17-03:00" data-rel>Hoy 13:17</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/" target="_blank" rel="noopener">La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="89b6dd1b30">
+  <span class="mas-hora"><time datetime="2026-10-21T13:11-03:00" data-rel>Hoy 13:11</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/" target="_blank" rel="noopener">Empezó la sesión en Diputados: negociaciones de último momento para consensuar la nueva Ley de Discapacidad</a></h3>
+  <span class="mas-medio">Infobae</span>
+</li><li class="mas-fila" data-id="634bfe2f31">
+  <span class="mas-hora"><time datetime="2026-10-21T11:58-03:00" data-rel>Hoy 11:58</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/" target="_blank" rel="noopener">Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li><li class="mas-fila" data-id="f50ea3ba83">
+  <span class="mas-hora"><time datetime="2026-10-21T11:48-03:00" data-rel>Hoy 11:48</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://comercioyjusticia.info/leyes-y-comentarios/fuero-de-familia-en-cordoba-el-tribunal-superior-reestructura-los-juzgados-hacia-un-modelo-de-gestion-asociada/" target="_blank" rel="noopener">Fuero de familia en Córdoba: el Tribunal Superior reestructura los juzgados hacia un modelo de gestión asociada</a></h3>
+  <span class="mas-medio">Comercio y Justicia</span>
+</li><li class="mas-fila" data-id="6dbe17145a">
+  <span class="mas-hora"><time datetime="2026-10-21T11:29-03:00" data-rel>Hoy 11:29</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/pedro-sanchez-le-respondio-a-milei-con-un-tema-de-lali-fanatico.phtml" target="_blank" rel="noopener">Pedro Sánchez le respondió a Milei con un tema de Lali: &quot;Fanático&quot;</a></h3>
+  <span class="mas-medio">Perfil</span>
+</li><li class="mas-fila" data-id="bf7eefd658">
+  <span class="mas-hora"><time datetime="2026-10-21T11:24-03:00" data-rel>Hoy 11:24</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/economia/milei-culpo-a-la-oposicion-y-a-la-volatilidad-global-por-la-suba-del-riesgo-pais-y-prometio-un-crecimiento-historico/" target="_blank" rel="noopener">Milei culpó a la oposición y a la volatilidad global por la suba del riesgo país</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li><li class="mas-fila" data-id="944adedab5">
+  <span class="mas-hora"><time datetime="2026-10-21T10:48-03:00" data-rel>Hoy 10:48</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.infobae.com/politica/2026/10/21/elecciones-en-brasil-la-paridad-entre-lula-y-flavio-bolsonaro-pone-en-juego-la-relacion-con-javier-milei/" target="_blank" rel="noopener">Elecciones en Brasil: la paridad entre Lula y Flávio Bolsonaro pone en juego la relación con Javier Milei</a></h3>
+  <span class="mas-medio">Infobae</span>
+</li><li class="mas-fila" data-id="c03403e081">
+  <span class="mas-hora"><time datetime="2026-10-21T10:47-03:00" data-rel>Hoy 10:47</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/elisa-carrio-cargo-contra-el-gobierno-la-recesion-es-enorme-y-algunas-cosas-me-recuerdan-demasiado-nid21102026/" target="_blank" rel="noopener">Elisa Carrió cargó contra el Gobierno: “La recesión es enorme y algunas cosas me recuerdan demasiado al pasado”</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="c653963deb">
+  <span class="mas-hora"><time datetime="2026-10-21T10:09-03:00" data-rel>Hoy 10:09</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/zurdo-y-a-mucha-honra-la-respuesta-de-pedro-sanchez-a-milei/" target="_blank" rel="noopener">“Zurdo y a mucha honra”: la respuesta de Pedro Sánchez a Milei</a></h3>
+  <span class="mas-medio">Página/12</span>
+</li><li class="mas-fila" data-id="7e9e5075b2">
+  <span class="mas-hora"><time datetime="2026-10-21T09:46-03:00" data-rel>Hoy 09:46</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/asco-de-pronunciamiento-la-dura-critica-de-victor-hugo-a-macri-y-la-mafia-mediatica-y-judicial/" target="_blank" rel="noopener">Víctor Hugo, lapidario con Macri y Milei: “Una página llena de grasa en la historia argentina”</a></h3>
+  <span class="mas-medio">Página/12</span>
+</li><li class="mas-fila" data-id="6839532756">
+  <span class="mas-hora"><time datetime="2026-10-21T09:15-03:00" data-rel>Hoy 09:15</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.cba24n.com.ar/argentina/javier-milei-en-madrid--ataques-a-pedro-sanchez--criticas-a-la-justicia-social-y-el-rol-de-las-mujeres_a6ad8aa78920f762ed294dc44" target="_blank" rel="noopener">Javier Milei en Madrid: ataques a Pedro Sánchez, críticas a la justicia social y el rol de las mujeres</a></h3>
+  <span class="mas-medio">Cba24n</span>
+</li><li class="mas-fila" data-id="140485572d">
+  <span class="mas-hora"><time datetime="2026-10-21T08:34-03:00" data-rel>Hoy 08:34</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/" target="_blank" rel="noopener">¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="c90e246d9d">
+  <span class="mas-hora"><time datetime="2026-10-21T08:33-03:00" data-rel>Hoy 08:33</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/la-industria-del-espectaculo-en-cordoba-como-se-combinan-mas-proyectos-con-costos-en-alza-y-consumo-retraido.phtml" target="_blank" rel="noopener">La industria del espectáculo en Córdoba: cómo se combinan más proyectos, con costos en alza y consumo retraído</a></h3>
+  <span class="mas-medio">Perfil</span>
+</li><li class="mas-fila" data-id="f8acaf5387">
+  <span class="mas-hora"><time datetime="2026-10-21T08:33-03:00" data-rel>Hoy 08:33</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/una-agencia-britanica-de-comunicacion-hizo-gestiones-internacionales-en-defensa-de-cristina-kirchner-nid21102026/" target="_blank" rel="noopener">Una agencia británica de comunicación hizo gestiones internacionales en defensa de Cristina Kirchner</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="54c2f575ec">
+  <span class="mas-hora"><time datetime="2026-10-21T08:26-03:00" data-rel>Hoy 08:26</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/en-espana-milei-volvio-a-hablar-sobre-los-argentinos-no-lleguen-a-fin-de-mes-es-un-slogan-barato-nid21102026/" target="_blank" rel="noopener">En España Milei volvió a negar que haya argentinos que no llegan a fin de mes: “Es un slogan barato”</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="1ca8d95122">
+  <span class="mas-hora"><time datetime="2026-10-21T08:12-03:00" data-rel>Hoy 08:12</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.infobae.com/politica/2026/10/21/tierra-del-fuego-dos-libertarios-se-disputan-el-liderazgo-provincial-y-buscan-posicionarse-para-la-gobernacion/" target="_blank" rel="noopener">Tierra del Fuego: dos libertarios se disputan el liderazgo provincial y buscan posicionarse para la gobernación</a></h3>
+  <span class="mas-medio">Infobae</span>
+</li><li class="mas-fila" data-id="310e1cdf49">
+  <span class="mas-hora"><time datetime="2026-10-21T07:59-03:00" data-rel>Hoy 07:59</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://comercioyjusticia.info/informacion-general/milei-califico-de-impresentable-y-dictador-al-presidente-de-espana-pedro-sanchez/" target="_blank" rel="noopener">Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánchez</a></h3>
+  <span class="mas-medio">Comercio y Justicia</span>
+</li><li class="mas-fila" data-id="fa7c2a468e">
+  <span class="mas-hora"><time datetime="2026-10-21T06:48-03:00" data-rel>Hoy 06:48</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/milei-ataco-a-los-periodistas-por-la-polemica-sobre-la-gente-que-no-llega-a-fin-de-mes/" target="_blank" rel="noopener">Milei atacó a los periodistas por la polémica sobre la gente que no llega a fin de mes</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li><li class="mas-fila" data-id="183ec91dab">
+  <span class="mas-hora"><time datetime="2026-10-21T01:46-03:00" data-rel>Hoy 01:46</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/reuniones-de-ultima-hora-diferencias-y-presion-de-la-iglesia-el-oficialismo-espera-el-aval-de-la-nid20102026/" target="_blank" rel="noopener">Reuniones de última hora, diferencias y presión de la Iglesia: el oficialismo espera el aval de la Casa Rosada</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="c417152d70">
+  <span class="mas-hora"><time datetime="2026-10-21T00:01-03:00" data-rel>Hoy 00:01</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/20/diputados-se-viene-una-sesion-maratonica-e-incomoda-para-el-gobierno/" target="_blank" rel="noopener">Diputados: Se viene una sesión maratónica e incómoda para el Gobierno</a></h3>
+  <span class="mas-medio">Página/12</span>
+</li><li class="mas-fila" data-id="c9f9a69760">
+  <span class="mas-hora"><time datetime="2026-10-20T23:46-03:00" data-rel>Ayer 23:46</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/patricia-bullrich-se-refirio-a-la-posibilidad-de-ser-candidata-a-presidenta-estoy-preparada-nid20102026/" target="_blank" rel="noopener">Patricia Bullrich se refirió a la posibilidad de ser candidata a presidenta: “Estoy preparada”</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="40926863e8">
+  <span class="mas-hora"><time datetime="2026-10-20T21:30-03:00" data-rel>Ayer 21:30</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.cba24n.com.ar/internacionales/peter-lamelas-confirmo-el-respaldo-de-eeuu-al-gobierno-de-javier-milei_a6ad805f3c7853ea2c2c09d3c" target="_blank" rel="noopener">Peter Lamelas confirmó el respaldo de EEUU al Gobierno de Javier Milei</a></h3>
+  <span class="mas-medio">Cba24n</span>
+</li><li class="mas-fila" data-id="414ad70f43">
+  <span class="mas-hora"><time datetime="2026-10-20T20:45-03:00" data-rel>Ayer 20:45</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/economia/pymes-reclamo-apymes-cordoba/" target="_blank" rel="noopener">Las pymes no soportan este modelo: las fajas que aparecieron en Córdoba</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li><li class="mas-fila" data-id="976466aecf">
+  <span class="mas-hora"><time datetime="2026-10-20T17:07-03:00" data-rel>Ayer 17:07</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.cba24n.com.ar/argentina/--como-viven-10-dias-sin-comer----milei-arremetio-contra-los-periodistas-tras-su-afirmacion_a6ad7c4d1c7853ea2c2bb2e45" target="_blank" rel="noopener">“¿Cómo viven 10 dias sin comer?”: Milei arremetió contra los periodistas tras su afirmación</a></h3>
+  <span class="mas-medio">Cba24n</span>
+</li><li class="mas-fila" data-id="3393052de3">
+  <span class="mas-hora"><time datetime="2026-10-20T16:59-03:00" data-rel>Ayer 16:59</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/casacion-unifico-los-juicioscontra-cristina-y-maximo-kirchner-por-hotesur-y-los-sauces/" target="_blank" rel="noopener">Casación unificó los juicios contra Cristina y Máximo Kirchner por Hotesur y Los Sauces</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li></ol>
+</details>
 </section><section class="seccion" id="economia" aria-labelledby="t-economia">
   <header class="sec-head">
     <h2 class="sec-tit" id="t-economia">Economía</h2>
     <p class="sec-aux"><span class="etiqueta">(11 notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
   </header>
-  <div class="sec-grid"><article class="card card--foto">
+  <div class="sec-grid"><article class="card card--foto" data-id="281e85dfe1">
   
   <figure class="foto-card"><img src="https://www.infobae.com/resizer/v2/PQEJXIHZE5C4DOFTGBQIFWUZ4I.jpg?auth=1c5117b0f054053ff50a406c9352c2f827da76b7e29d0b57b37276b66de14939&amp;smart=true&amp;width=1280&amp;height=720" alt="Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 56%"></figure>
   <div class="card-txt">
@@ -235,7 +359,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">El Centro de Gestión de la Economía Personal y los Negocios de la Facultad de Ciencias Económicas acompaña a vecinos con deudas de tarjetas,…</p>
     <p class="meta"><span class="meta-fuente">Infobae</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T14:47-03:00" data-rel>Hoy 14:47</time></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="57229c8c76">
   
   
   <div class="card-txt">
@@ -244,7 +368,7 @@ d.setAttribute("data-tema",t)})();
     
     <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T13:21-03:00" data-rel>Hoy 13:21</time> <span class="tag-sus">(Con suscripción)</span></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="3e2a440f2f">
   
   
   <div class="card-txt">
@@ -253,7 +377,7 @@ d.setAttribute("data-tema",t)})();
     
     <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T12:12-03:00" data-rel>Hoy 12:12</time> <span class="tag-sus">(Con suscripción)</span></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="e7bd82715d">
   
   
   <div class="card-txt">
@@ -263,12 +387,44 @@ d.setAttribute("data-tema",t)})();
     <p class="meta"><span class="meta-fuente">Comercio y Justicia</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T11:56-03:00" data-rel>Hoy 11:56</time></p>
   </div>
 </article></div>
+  <details class="sec-mas">
+  <summary><span class="sec-mas-abrir">Ver las 11 notas de Economía</span><span class="sec-mas-cerrar">Ver menos</span><span class="flecha" aria-hidden="true">↘</span></summary>
+  <ol class="mas-lista"><li class="mas-fila" data-id="3cb8ba2365">
+  <span class="mas-hora"><time datetime="2026-10-21T10:56-03:00" data-rel>Hoy 10:56</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-miercoles-21-de-octubre-nid21102026/" target="_blank" rel="noopener">Plazo fijo: cuál es la tasa de interés banco por banco este miércoles 21 de octubre</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="1821b32635">
+  <span class="mas-hora"><time datetime="2026-10-21T10:53-03:00" data-rel>Hoy 10:53</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-21-de-octubre-211026.phtml" target="_blank" rel="noopener">El dólar en Córdoba: a cuánto cotiza este miércoles 21 de octubre</a></h3>
+  <span class="mas-medio">Perfil</span>
+</li><li class="mas-fila" data-id="0549849043">
+  <span class="mas-hora"><time datetime="2026-10-21T08:33-03:00" data-rel>Hoy 08:33</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/" target="_blank" rel="noopener">Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="50c94a156e">
+  <span class="mas-hora"><time datetime="2026-10-21T08:33-03:00" data-rel>Hoy 08:33</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/nueva-paritaria-de-la-construccion-cuanto-cobra-un-albanil-en-octubre-2026-con-el-aumento-confirmado-nid01102026/" target="_blank" rel="noopener">Nueva paritaria de la construcción: cuánto cobra un albañil en octubre 2026 con el aumento confirmado por la Uocra</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="46d9e50e47">
+  <span class="mas-hora"><time datetime="2026-10-21T06:00-03:00" data-rel>Hoy 06:00</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://comercioyjusticia.info/economia/llaryora-tajante-en-las-paritarias-no-hay-plata-y-no-habra-mejora-extra-para-los-estatales/" target="_blank" rel="noopener">Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales</a></h3>
+  <span class="mas-medio">Comercio y Justicia</span>
+</li><li class="mas-fila" data-id="96f050c20d">
+  <span class="mas-hora"><time datetime="2026-10-21T04:24-03:00" data-rel>Hoy 04:24</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://comercioyjusticia.info/profesionales/el-27-de-los-deudores-argentinos-registra-al-menos-una-deuda-irregular-segun-universidad-austral/" target="_blank" rel="noopener">El 27% de los deudores argentinos registra al menos una deuda irregular, según Universidad Austral</a></h3>
+  <span class="mas-medio">Comercio y Justicia</span>
+</li><li class="mas-fila" data-id="336ea860c3">
+  <span class="mas-hora"><time datetime="2026-10-20T20:06-03:00" data-rel>Ayer 20:06</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.infobae.com/economia/2026/10/20/joaquin-cottani-exviceministro-de-caputo-el-programa-economico-esta-agotado-pero-hay-tiempo-de-revisarlo/" target="_blank" rel="noopener">Joaquín Cottani, exviceministro de Caputo: “El programa económico está agotado, pero hay tiempo de revisarlo”</a></h3>
+  <span class="mas-medio">Infobae</span>
+</li></ol>
+</details>
 </section><section class="seccion" id="cordoba" aria-labelledby="t-cordoba">
   <header class="sec-head">
     <h2 class="sec-tit" id="t-cordoba">Córdoba</h2>
     <p class="sec-aux"><span class="etiqueta">(15 notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
   </header>
-  <div class="sec-grid"><article class="card card--texto">
+  <div class="sec-grid"><article class="card card--texto" data-id="f50ea3ba83">
   
   
   <div class="card-txt">
@@ -277,7 +433,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">A partir del próximo 2 de noviembre, los ocho juzgados de familia existentes se unificarán y reestructurarán en dos Tribunales de Gestión Asociada del…</p>
     <p class="meta"><span class="meta-fuente">Comercio y Justicia</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T11:48-03:00" data-rel>Hoy 11:48</time></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="bf7eefd658">
   
   
   <div class="card-txt">
@@ -286,7 +442,7 @@ d.setAttribute("data-tema",t)})();
     
     <p class="meta"><span class="meta-fuente">Hoy Día Córdoba</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T11:24-03:00" data-rel>Hoy 11:24</time></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="6839532756">
   
   
   <div class="card-txt">
@@ -295,7 +451,7 @@ d.setAttribute("data-tema",t)})();
     
     <p class="meta"><span class="meta-fuente">Cba24n</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T09:15-03:00" data-rel>Hoy 09:15</time></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="c90e246d9d">
   
   
   <div class="card-txt">
@@ -305,12 +461,60 @@ d.setAttribute("data-tema",t)})();
     <p class="meta"><span class="meta-fuente">Perfil</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T08:33-03:00" data-rel>Hoy 08:33</time></p>
   </div>
 </article></div>
+  <details class="sec-mas">
+  <summary><span class="sec-mas-abrir">Ver las 15 notas de Córdoba</span><span class="sec-mas-cerrar">Ver menos</span><span class="flecha" aria-hidden="true">↘</span></summary>
+  <ol class="mas-lista"><li class="mas-fila" data-id="c931b7d638">
+  <span class="mas-hora"><time datetime="2026-10-21T14:09-03:00" data-rel>Hoy 14:09</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml" target="_blank" rel="noopener">“El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar</a></h3>
+  <span class="mas-medio">Perfil</span>
+</li><li class="mas-fila" data-id="634bfe2f31">
+  <span class="mas-hora"><time datetime="2026-10-21T11:58-03:00" data-rel>Hoy 11:58</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/" target="_blank" rel="noopener">Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li><li class="mas-fila" data-id="6dbe17145a">
+  <span class="mas-hora"><time datetime="2026-10-21T11:29-03:00" data-rel>Hoy 11:29</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/pedro-sanchez-le-respondio-a-milei-con-un-tema-de-lali-fanatico.phtml" target="_blank" rel="noopener">Pedro Sánchez le respondió a Milei con un tema de Lali: &quot;Fanático&quot;</a></h3>
+  <span class="mas-medio">Perfil</span>
+</li><li class="mas-fila" data-id="1821b32635">
+  <span class="mas-hora"><time datetime="2026-10-21T10:53-03:00" data-rel>Hoy 10:53</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-21-de-octubre-211026.phtml" target="_blank" rel="noopener">El dólar en Córdoba: a cuánto cotiza este miércoles 21 de octubre</a></h3>
+  <span class="mas-medio">Perfil</span>
+</li><li class="mas-fila" data-id="310e1cdf49">
+  <span class="mas-hora"><time datetime="2026-10-21T07:59-03:00" data-rel>Hoy 07:59</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://comercioyjusticia.info/informacion-general/milei-califico-de-impresentable-y-dictador-al-presidente-de-espana-pedro-sanchez/" target="_blank" rel="noopener">Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánchez</a></h3>
+  <span class="mas-medio">Comercio y Justicia</span>
+</li><li class="mas-fila" data-id="fa7c2a468e">
+  <span class="mas-hora"><time datetime="2026-10-21T06:48-03:00" data-rel>Hoy 06:48</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/milei-ataco-a-los-periodistas-por-la-polemica-sobre-la-gente-que-no-llega-a-fin-de-mes/" target="_blank" rel="noopener">Milei atacó a los periodistas por la polémica sobre la gente que no llega a fin de mes</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li><li class="mas-fila" data-id="46d9e50e47">
+  <span class="mas-hora"><time datetime="2026-10-21T06:00-03:00" data-rel>Hoy 06:00</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://comercioyjusticia.info/economia/llaryora-tajante-en-las-paritarias-no-hay-plata-y-no-habra-mejora-extra-para-los-estatales/" target="_blank" rel="noopener">Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales</a></h3>
+  <span class="mas-medio">Comercio y Justicia</span>
+</li><li class="mas-fila" data-id="40926863e8">
+  <span class="mas-hora"><time datetime="2026-10-20T21:30-03:00" data-rel>Ayer 21:30</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.cba24n.com.ar/internacionales/peter-lamelas-confirmo-el-respaldo-de-eeuu-al-gobierno-de-javier-milei_a6ad805f3c7853ea2c2c09d3c" target="_blank" rel="noopener">Peter Lamelas confirmó el respaldo de EEUU al Gobierno de Javier Milei</a></h3>
+  <span class="mas-medio">Cba24n</span>
+</li><li class="mas-fila" data-id="414ad70f43">
+  <span class="mas-hora"><time datetime="2026-10-20T20:45-03:00" data-rel>Ayer 20:45</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/economia/pymes-reclamo-apymes-cordoba/" target="_blank" rel="noopener">Las pymes no soportan este modelo: las fajas que aparecieron en Córdoba</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li><li class="mas-fila" data-id="976466aecf">
+  <span class="mas-hora"><time datetime="2026-10-20T17:07-03:00" data-rel>Ayer 17:07</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.cba24n.com.ar/argentina/--como-viven-10-dias-sin-comer----milei-arremetio-contra-los-periodistas-tras-su-afirmacion_a6ad7c4d1c7853ea2c2bb2e45" target="_blank" rel="noopener">“¿Cómo viven 10 dias sin comer?”: Milei arremetió contra los periodistas tras su afirmación</a></h3>
+  <span class="mas-medio">Cba24n</span>
+</li><li class="mas-fila" data-id="3393052de3">
+  <span class="mas-hora"><time datetime="2026-10-20T16:59-03:00" data-rel>Ayer 16:59</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/casacion-unifico-los-juicioscontra-cristina-y-maximo-kirchner-por-hotesur-y-los-sauces/" target="_blank" rel="noopener">Casación unificó los juicios contra Cristina y Máximo Kirchner por Hotesur y Los Sauces</a></h3>
+  <span class="mas-medio">Hoy Día Córdoba</span>
+</li></ol>
+</details>
 </section><section class="seccion" id="argentina" aria-labelledby="t-argentina">
   <header class="sec-head">
     <h2 class="sec-tit" id="t-argentina">Argentina</h2>
     <p class="sec-aux"><span class="etiqueta">(25 notas)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
   </header>
-  <div class="sec-grid"><article class="card card--foto">
+  <div class="sec-grid"><article class="card card--foto" data-id="354a460ca3">
   
   <figure class="foto-card"><img src="https://resizer.glanacion.com/resizer/v2/QNIT7FGNIJFTLHDCOEK7P7LL7U.jpg?auth=2b5fd53b8882d9a72c036c827b2041daf283d655e8cc1c1f9f4e1cf5cfca8865&amp;smart=true&amp;width=2000&amp;height=1333" alt="La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados" width="640" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="object-position:50% 46%"></figure>
   <div class="card-txt">
@@ -319,7 +523,7 @@ d.setAttribute("data-tema",t)})();
     <p class="card-bajada">Pedro Sánchez lo eligió como su enemigo perfecto y desde el Partido Popular tomaron distancia; el Presidente intentó sin éxito reunirse con el rey…</p>
     <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T13:17-03:00" data-rel>Hoy 13:17</time> <span class="tag-sus">(Con suscripción)</span></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="89b6dd1b30">
   
   
   <div class="card-txt">
@@ -328,7 +532,7 @@ d.setAttribute("data-tema",t)})();
     
     <p class="meta"><span class="meta-fuente">Infobae</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T13:11-03:00" data-rel>Hoy 13:11</time></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="3cb8ba2365">
   
   
   <div class="card-txt">
@@ -337,7 +541,7 @@ d.setAttribute("data-tema",t)})();
     
     <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T10:56-03:00" data-rel>Hoy 10:56</time> <span class="tag-sus">(Con suscripción)</span></p>
   </div>
-</article><article class="card card--texto">
+</article><article class="card card--texto" data-id="c03403e081">
   
   
   <div class="card-txt">
@@ -347,6 +551,94 @@ d.setAttribute("data-tema",t)})();
     <p class="meta"><span class="meta-fuente">La Nación</span><span class="meta-sep" aria-hidden="true">—</span><time datetime="2026-10-21T10:47-03:00" data-rel>Hoy 10:47</time> <span class="tag-sus">(Con suscripción)</span></p>
   </div>
 </article></div>
+  <details class="sec-mas">
+  <summary><span class="sec-mas-abrir">Ver las 25 notas de Argentina</span><span class="sec-mas-cerrar">Ver menos</span><span class="flecha" aria-hidden="true">↘</span></summary>
+  <ol class="mas-lista"><li class="mas-fila" data-id="6dc3b649c6">
+  <span class="mas-hora"><time datetime="2026-10-21T15:00-03:00" data-rel>Hoy 15:00</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/" target="_blank" rel="noopener">Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="281e85dfe1">
+  <span class="mas-hora"><time datetime="2026-10-21T14:47-03:00" data-rel>Hoy 14:47</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/" target="_blank" rel="noopener">Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas</a></h3>
+  <span class="mas-medio">Infobae</span>
+</li><li class="mas-fila" data-id="d920682634">
+  <span class="mas-hora"><time datetime="2026-10-21T14:13-03:00" data-rel>Hoy 14:13</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/" target="_blank" rel="noopener">Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada</a></h3>
+  <span class="mas-medio">Página/12</span>
+</li><li class="mas-fila" data-id="7d8a8aae27">
+  <span class="mas-hora"><time datetime="2026-10-21T14:13-03:00" data-rel>Hoy 14:13</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/debate-caliente-en-diputados-lla-busca-obstaculizar-iniciativas-de-la-oposicion/" target="_blank" rel="noopener">Debate caliente en Diputados: LLA busca obstaculizar iniciativas de la oposición</a></h3>
+  <span class="mas-medio">Página/12</span>
+</li><li class="mas-fila" data-id="57229c8c76">
+  <span class="mas-hora"><time datetime="2026-10-21T13:21-03:00" data-rel>Hoy 13:21</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/dolares-del-colchon-las-dudas-que-persisten-sobre-inocencia-fiscal-ii-y-el-riesgo-de-que-las-nid21102026/" target="_blank" rel="noopener">Dólares del colchón: las dudas que persisten sobre Inocencia Fiscal II y el riesgo de que las provincias reclamen impuestos</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="3e2a440f2f">
+  <span class="mas-hora"><time datetime="2026-10-21T12:12-03:00" data-rel>Hoy 12:12</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/oro-del-banco-central-la-fiscalia-pidio-informes-para-investigar-las-operaciones-que-habrian-nid21102026/" target="_blank" rel="noopener">Oro del Banco Central: la fiscalía pidió informes para investigar las operaciones que habrían generado pérdidas por US$1023 millones</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="e7bd82715d">
+  <span class="mas-hora"><time datetime="2026-10-21T11:56-03:00" data-rel>Hoy 11:56</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://comercioyjusticia.info/leyes-y-comentarios/tarjetas-de-credito-el-banco-central-oficializo-la-tasa-de-interes-aplicable-para-noviembre/" target="_blank" rel="noopener">Tarjetas de crédito: el Banco Central oficializó la tasa de interés aplicable para noviembre</a></h3>
+  <span class="mas-medio">Comercio y Justicia</span>
+</li><li class="mas-fila" data-id="944adedab5">
+  <span class="mas-hora"><time datetime="2026-10-21T10:48-03:00" data-rel>Hoy 10:48</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.infobae.com/politica/2026/10/21/elecciones-en-brasil-la-paridad-entre-lula-y-flavio-bolsonaro-pone-en-juego-la-relacion-con-javier-milei/" target="_blank" rel="noopener">Elecciones en Brasil: la paridad entre Lula y Flávio Bolsonaro pone en juego la relación con Javier Milei</a></h3>
+  <span class="mas-medio">Infobae</span>
+</li><li class="mas-fila" data-id="c653963deb">
+  <span class="mas-hora"><time datetime="2026-10-21T10:09-03:00" data-rel>Hoy 10:09</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/zurdo-y-a-mucha-honra-la-respuesta-de-pedro-sanchez-a-milei/" target="_blank" rel="noopener">“Zurdo y a mucha honra”: la respuesta de Pedro Sánchez a Milei</a></h3>
+  <span class="mas-medio">Página/12</span>
+</li><li class="mas-fila" data-id="7e9e5075b2">
+  <span class="mas-hora"><time datetime="2026-10-21T09:46-03:00" data-rel>Hoy 09:46</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/asco-de-pronunciamiento-la-dura-critica-de-victor-hugo-a-macri-y-la-mafia-mediatica-y-judicial/" target="_blank" rel="noopener">Víctor Hugo, lapidario con Macri y Milei: “Una página llena de grasa en la historia argentina”</a></h3>
+  <span class="mas-medio">Página/12</span>
+</li><li class="mas-fila" data-id="140485572d">
+  <span class="mas-hora"><time datetime="2026-10-21T08:34-03:00" data-rel>Hoy 08:34</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/" target="_blank" rel="noopener">¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="0549849043">
+  <span class="mas-hora"><time datetime="2026-10-21T08:33-03:00" data-rel>Hoy 08:33</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/" target="_blank" rel="noopener">Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="f8acaf5387">
+  <span class="mas-hora"><time datetime="2026-10-21T08:33-03:00" data-rel>Hoy 08:33</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/una-agencia-britanica-de-comunicacion-hizo-gestiones-internacionales-en-defensa-de-cristina-kirchner-nid21102026/" target="_blank" rel="noopener">Una agencia británica de comunicación hizo gestiones internacionales en defensa de Cristina Kirchner</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="50c94a156e">
+  <span class="mas-hora"><time datetime="2026-10-21T08:33-03:00" data-rel>Hoy 08:33</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/nueva-paritaria-de-la-construccion-cuanto-cobra-un-albanil-en-octubre-2026-con-el-aumento-confirmado-nid01102026/" target="_blank" rel="noopener">Nueva paritaria de la construcción: cuánto cobra un albañil en octubre 2026 con el aumento confirmado por la Uocra</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="54c2f575ec">
+  <span class="mas-hora"><time datetime="2026-10-21T08:26-03:00" data-rel>Hoy 08:26</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/en-espana-milei-volvio-a-hablar-sobre-los-argentinos-no-lleguen-a-fin-de-mes-es-un-slogan-barato-nid21102026/" target="_blank" rel="noopener">En España Milei volvió a negar que haya argentinos que no llegan a fin de mes: “Es un slogan barato”</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="1ca8d95122">
+  <span class="mas-hora"><time datetime="2026-10-21T08:12-03:00" data-rel>Hoy 08:12</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.infobae.com/politica/2026/10/21/tierra-del-fuego-dos-libertarios-se-disputan-el-liderazgo-provincial-y-buscan-posicionarse-para-la-gobernacion/" target="_blank" rel="noopener">Tierra del Fuego: dos libertarios se disputan el liderazgo provincial y buscan posicionarse para la gobernación</a></h3>
+  <span class="mas-medio">Infobae</span>
+</li><li class="mas-fila" data-id="96f050c20d">
+  <span class="mas-hora"><time datetime="2026-10-21T04:24-03:00" data-rel>Hoy 04:24</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://comercioyjusticia.info/profesionales/el-27-de-los-deudores-argentinos-registra-al-menos-una-deuda-irregular-segun-universidad-austral/" target="_blank" rel="noopener">El 27% de los deudores argentinos registra al menos una deuda irregular, según Universidad Austral</a></h3>
+  <span class="mas-medio">Comercio y Justicia</span>
+</li><li class="mas-fila" data-id="183ec91dab">
+  <span class="mas-hora"><time datetime="2026-10-21T01:46-03:00" data-rel>Hoy 01:46</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/reuniones-de-ultima-hora-diferencias-y-presion-de-la-iglesia-el-oficialismo-espera-el-aval-de-la-nid20102026/" target="_blank" rel="noopener">Reuniones de última hora, diferencias y presión de la Iglesia: el oficialismo espera el aval de la Casa Rosada</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="c417152d70">
+  <span class="mas-hora"><time datetime="2026-10-21T00:01-03:00" data-rel>Hoy 00:01</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/20/diputados-se-viene-una-sesion-maratonica-e-incomoda-para-el-gobierno/" target="_blank" rel="noopener">Diputados: Se viene una sesión maratónica e incómoda para el Gobierno</a></h3>
+  <span class="mas-medio">Página/12</span>
+</li><li class="mas-fila" data-id="c9f9a69760">
+  <span class="mas-hora"><time datetime="2026-10-20T23:46-03:00" data-rel>Ayer 23:46</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/patricia-bullrich-se-refirio-a-la-posibilidad-de-ser-candidata-a-presidenta-estoy-preparada-nid20102026/" target="_blank" rel="noopener">Patricia Bullrich se refirió a la posibilidad de ser candidata a presidenta: “Estoy preparada”</a></h3>
+  <span class="mas-medio">La Nación</span>
+</li><li class="mas-fila" data-id="336ea860c3">
+  <span class="mas-hora"><time datetime="2026-10-20T20:06-03:00" data-rel>Ayer 20:06</time></span>
+  <h3 class="mas-tit"><a class="nota-link" href="https://www.infobae.com/economia/2026/10/20/joaquin-cottani-exviceministro-de-caputo-el-programa-economico-esta-agotado-pero-hay-tiempo-de-revisarlo/" target="_blank" rel="noopener">Joaquín Cottani, exviceministro de Caputo: “El programa económico está agotado, pero hay tiempo de revisarlo”</a></h3>
+  <span class="mas-medio">Infobae</span>
+</li></ol>
+</details>
 </section>
 
   
@@ -356,84 +648,84 @@ d.setAttribute("data-tema",t)})();
       <h2 class="sec-tit" id="t-ultimas">Últimas</h2>
       <p class="sec-aux"><span class="etiqueta">(De la más nueva a la más vieja)</span><span class="flecha flecha--grande" aria-hidden="true">↘</span></p>
     </header>
-    <ol class="indice"><li class="fila">
+    <ol class="indice"><li class="fila" data-id="6dc3b649c6">
   <span class="fila-n" aria-hidden="true">01</span>
   <span class="fila-hora">15:00</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Política</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/" target="_blank" rel="noopener">Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?</a></h3>
   <span class="fila-medio">La Nación<span class="tag-sus">(Con suscripción)</span></span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="281e85dfe1">
   <span class="fila-n" aria-hidden="true">02</span>
   <span class="fila-hora">14:47</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Economía</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/" target="_blank" rel="noopener">Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas</a></h3>
   <span class="fila-medio">Infobae</span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="d920682634">
   <span class="fila-n" aria-hidden="true">03</span>
   <span class="fila-hora">14:13</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Política</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/" target="_blank" rel="noopener">Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada</a></h3>
   <span class="fila-medio">Página/12<span class="tag-sus">(Con suscripción)</span></span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="7d8a8aae27">
   <span class="fila-n" aria-hidden="true">04</span>
   <span class="fila-hora">14:13</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Política</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.pagina12.com.ar/2026/10/21/debate-caliente-en-diputados-lla-busca-obstaculizar-iniciativas-de-la-oposicion/" target="_blank" rel="noopener">Debate caliente en Diputados: LLA busca obstaculizar iniciativas de la oposición</a></h3>
   <span class="fila-medio">Página/12<span class="tag-sus">(Con suscripción)</span></span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="c931b7d638">
   <span class="fila-n" aria-hidden="true">05</span>
   <span class="fila-hora">14:09</span>
   <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Política</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml" target="_blank" rel="noopener">“El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar</a></h3>
   <span class="fila-medio">Perfil</span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="57229c8c76">
   <span class="fila-n" aria-hidden="true">06</span>
   <span class="fila-hora">13:21</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Economía</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/dolares-del-colchon-las-dudas-que-persisten-sobre-inocencia-fiscal-ii-y-el-riesgo-de-que-las-nid21102026/" target="_blank" rel="noopener">Dólares del colchón: las dudas que persisten sobre Inocencia Fiscal II y el riesgo de que las provincias reclamen impuestos</a></h3>
   <span class="fila-medio">La Nación<span class="tag-sus">(Con suscripción)</span></span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="354a460ca3">
   <span class="fila-n" aria-hidden="true">07</span>
   <span class="fila-hora">13:17</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Política</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/" target="_blank" rel="noopener">La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados</a></h3>
   <span class="fila-medio">La Nación<span class="tag-sus">(Con suscripción)</span></span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="89b6dd1b30">
   <span class="fila-n" aria-hidden="true">08</span>
   <span class="fila-hora">13:11</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Política</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/" target="_blank" rel="noopener">Empezó la sesión en Diputados: negociaciones de último momento para consensuar la nueva Ley de Discapacidad</a></h3>
   <span class="fila-medio">Infobae</span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="3e2a440f2f">
   <span class="fila-n" aria-hidden="true">09</span>
   <span class="fila-hora">12:12</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Economía</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://www.lanacion.com.ar/economia/oro-del-banco-central-la-fiscalia-pidio-informes-para-investigar-las-operaciones-que-habrian-nid21102026/" target="_blank" rel="noopener">Oro del Banco Central: la fiscalía pidió informes para investigar las operaciones que habrían generado pérdidas por US$1023 millones</a></h3>
   <span class="fila-medio">La Nación<span class="tag-sus">(Con suscripción)</span></span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="634bfe2f31">
   <span class="fila-n" aria-hidden="true">10</span>
   <span class="fila-hora">11:58</span>
   <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Política</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/" target="_blank" rel="noopener">Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar</a></h3>
   <span class="fila-medio">Hoy Día Córdoba</span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="e7bd82715d">
   <span class="fila-n" aria-hidden="true">11</span>
   <span class="fila-hora">11:56</span>
   <span class="fila-sec"><span class="mk mk-argentina" aria-hidden="true"></span>Argentina / Economía</span>
   <h3 class="fila-tit"><a class="nota-link" href="https://comercioyjusticia.info/leyes-y-comentarios/tarjetas-de-credito-el-banco-central-oficializo-la-tasa-de-interes-aplicable-para-noviembre/" target="_blank" rel="noopener">Tarjetas de crédito: el Banco Central oficializó la tasa de interés aplicable para noviembre</a></h3>
   <span class="fila-medio">Comercio y Justicia</span>
   <span class="flecha" aria-hidden="true">↗</span>
-</li><li class="fila">
+</li><li class="fila" data-id="f50ea3ba83">
   <span class="fila-n" aria-hidden="true">12</span>
   <span class="fila-hora">11:48</span>
   <span class="fila-sec"><span class="mk mk-cordoba" aria-hidden="true"></span>Córdoba / Política</span>
@@ -482,5 +774,50 @@ d.setAttribute("data-tema",t)})();
     </div>
   </div>
 </footer>
+<dialog class="panel" id="panel" aria-labelledby="panel-tit">
+  <div class="panel-in">
+    <div class="panel-barra">
+      <span class="etiqueta" data-p="pos">(Lectura rápida)</span>
+      <div class="panel-nav">
+        <button type="button" class="herr-btn" data-p="prev" aria-label="Nota anterior">←</button>
+        <button type="button" class="herr-btn" data-p="next" aria-label="Nota siguiente">→</button>
+        <button type="button" class="herr-btn" data-p="cerrar" aria-label="Cerrar">✕</button>
+      </div>
+    </div>
+    <div class="panel-cuerpo">
+      <figure class="panel-foto" data-p="fig"><img data-p="img" alt="" referrerpolicy="no-referrer"><figcaption data-p="cred"></figcaption></figure>
+      <p class="kicker" data-p="kick"></p>
+      <h2 class="panel-tit" id="panel-tit" data-p="tit"></h2>
+      <p class="panel-bajada" data-p="res"></p>
+      <p class="meta" data-p="meta"></p>
+      <div class="panel-acciones">
+        <a class="btn" data-p="leer" href="#" target="_blank" rel="noopener"><span data-p="leer-txt">Leer la nota</span><span class="flecha" aria-hidden="true">↗</span></a>
+        <button class="btn btn--sec" type="button" data-p="compartir" aria-expanded="false"><span>Compartir</span><span class="flecha" aria-hidden="true">↗</span></button>
+      </div>
+      <div class="compartir" data-p="opciones" hidden>
+        <a data-p="wa" href="#" target="_blank" rel="noopener">WhatsApp<span class="flecha" aria-hidden="true">↗</span></a>
+        <a data-p="x" href="#" target="_blank" rel="noopener">X (Twitter)<span class="flecha" aria-hidden="true">↗</span></a>
+        <a data-p="fb" href="#" target="_blank" rel="noopener">Facebook<span class="flecha" aria-hidden="true">↗</span></a>
+        <button type="button" data-p="copiar">Copiar enlace</button>
+        <span class="compartir-ok" data-p="copiado" aria-live="polite"></span>
+      </div>
+      <div class="otros" data-p="otros"></div>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="buscador" id="buscador" aria-label="Buscar en las notas">
+  <div class="busc-in">
+    <div class="busc-cab">
+      <label class="etiqueta" for="busc-input">(Buscar en las notas de las últimas 48 horas)</label>
+      <button type="button" class="herr-btn" data-b="cerrar" aria-label="Cerrar el buscador">✕</button>
+    </div>
+    <input class="busc-input" id="busc-input" type="search" autocomplete="off" placeholder="Milei, dólar, Llaryora…" aria-describedby="busc-estado">
+    <p class="busc-estado" id="busc-estado" aria-live="polite"></p>
+    <ol class="busc-res"></ol>
+  </div>
+</dialog>
+
+<script type="application/json" id="notas-data">{"944adedab5":{"t":"Elecciones en Brasil: la paridad entre Lula y Flávio Bolsonaro pone en juego la relación con Javier Milei","r":"El sociólogo Ariel Goldstein analizó la disputa entre los candidatos, las diferencias territoriales y el peso de las redes sociales y el voto evangélico, en una contienda que también puede redefinir el vínculo bilateral","u":"https://www.infobae.com/politica/2026/10/21/elecciones-en-brasil-la-paridad-entre-lula-y-flavio-bolsonaro-pone-en-juego-la-relacion-con-javier-milei/","f":"Infobae","i":"https://www.infobae.com/resizer/v2/DVQ7ZAAWNJCZRB4QX3E5NY5DFY.JPG?auth=f2a65bea59cdc32e34da03ce170356a9495e9e9aa41acc8c3096a2e1dd32de2a&smart=true&width=2833&height=1888","c":"Infobae","h":"2026-10-21T10:48-03:00","s":false,"k":"Argentina / Política","g":"argentina","o":[{"f":"Hoy Día Córdoba","t":"Brasil respondió a los insultos de Milei contra «Lula» Da Silva en X","u":"https://hoydia.com.ar/politica/nacional/brasil-respondio-a-los-insultos-de-milei-contra-lula-da-silva-en-x/"},{"f":"Cba24n","t":"Pedro Sánchez respondió a los insultos de Javier Milei con una canción de Lali Espósito","u":"https://www.cba24n.com.ar/argentina/pedro-sanchez-respondio-a-los-insultos-de-javier-milei-con-una-cancion-de-lali-esposito_a6ad8bc5a920f762ed29645e3"}]},"634bfe2f31":{"t":"Diputados debate una mega sesión por tierras, discapacidad y endeudamiento familiar","r":"El oficialismo llega con el quórum asegurado y buscará imponer sus dictámenes de mayoría. La sesión especial comenzó a las 12 y podría extenderse hasta la madrugada del jueves.","u":"https://hoydia.com.ar/politica/nacional/diputados-debate-una-mega-sesion-por-tierras-discapacidad-y-endeudamiento-familiar/","f":"Hoy Día Córdoba","i":"https://srt-assets.tadevel-cdn.com/6ad8ba1d920f762ed295dfb2/720.jpeg","c":"Cba24n","h":"2026-10-21T11:58-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[{"f":"Comercio y Justicia","t":"Diputados: el oficialismo consiguió quórum para debatir la Ley de Tierras, Discapacidad y endeudamiento familiar","u":"https://comercioyjusticia.info/economia/diputados-el-oficialismo-consiguio-quorum-para-debatir-la-ley-de-tierras-discapacidad-y-endeudamiento-familiar/"},{"f":"Cba24n","t":"Arrancó la sesión en Diputados: debaten sobre discapacidad, endeudamiento y Ley de Tierras","u":"https://www.cba24n.com.ar/argentina/arranco-la-sesion-en-diputados--debaten-sobre-discapacidad--endeudamiento-y-ley-de-tierras_a6ad8b1d9920f762ed295540c"}]},"1821b32635":{"t":"El dólar en Córdoba: a cuánto cotiza este miércoles 21 de octubre","r":"Este miércoles 21 de octubre el dólar oficial en el Banco Nación se vende a 1.495 pesos y cotiza a 1.545 pesos para la compra.","u":"https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-21-de-octubre-211026.phtml","f":"Perfil","i":"https://fotos.perfil.com/2026/10/14/trim/540/304/dolares-2348612.jpg","c":"Perfil","h":"2026-10-21T10:53-03:00","s":false,"k":"Córdoba / Economía","g":"cordoba","o":[{"f":"La Nación","t":"Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 21 de octubre, minuto a minuto","u":"https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid21102026/"}]},"fa7c2a468e":{"t":"Milei atacó a los periodistas por la polémica sobre la gente que no llega a fin de mes","r":"El mandatario consideró que \"son muy pobres intelectualmente\" y consideró que \"están ardidos\" por su respuesta. Duras críticas de la oposición, que llegaron a España.","u":"https://hoydia.com.ar/politica/nacional/milei-ataco-a-los-periodistas-por-la-polemica-sobre-la-gente-que-no-llega-a-fin-de-mes/","f":"Hoy Día Córdoba","i":"https://www.infobae.com/resizer/v2/LJHYRPLKBZEYXCCDF6CXWUEARQ.jpg?auth=c73aea99f793c195dd0ea493010e590b88a3cf3319dd0d54112af8655f93f322&smart=true&width=1280&height=720","c":"Infobae","h":"2026-10-21T06:48-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[{"f":"Infobae","t":"“La gente no llega a fin de mes”: qué dijo el autor de la encuesta que irritó al Presidente Milei","u":"https://www.infobae.com/economia/2026/10/21/la-gente-no-llega-a-fin-de-mes-que-dijo-el-autor-de-la-encuesta-que-irrito-al-presidente-milei/"}]},"310e1cdf49":{"t":"Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánchez","r":"El presidente Javier Milei sostuvo que como Jefe de Estado argentino “pondera la civilización española” durante la jornada del Nueva Economía Fórum, que se desarrollará en el Real Casino Gran Círculo. Además, calificó de “impresentable y dictador” al presidente del Gobierno de España, Pedro Sánchez, a la vez que hizo un llamamiento al “liberalismo” a “sacar a los socialistas a patadas”el próximo […]","u":"https://comercioyjusticia.info/informacion-general/milei-califico-de-impresentable-y-dictador-al-presidente-de-espana-pedro-sanchez/","f":"Comercio y Justicia","i":"https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GCXDTXP4BJHB5LPQTFOWBUV3ZI.jpg?auth=02b9e8ab55cfb75b9a6f45a6de8ad368c40c51f40c6e3cdfa2aef9e8da79e8da&smart=true&width=2544&height=1696","c":"Página/12","h":"2026-10-21T07:59-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[{"f":"Página/12","t":"El rey de España no recibió a Milei por su negativa a verse con Pedro Sánchez","u":"https://www.pagina12.com.ar/2026/10/21/el-rey-de-espana-no-recibio-a-milei-por-su-negativa-a-verse-con-pedro-sanchez/"}]},"6dbe17145a":{"t":"Pedro Sánchez le respondió a Milei con un tema de Lali: \"Fanático\"","r":"El Presidente del Gobierno de España recurrió a la canción de la cantante argentina luego de que el mandatario argentino lo calificara de “impresentable y dictador”.","u":"https://www.perfil.com/noticias/cordoba/pedro-sanchez-le-respondio-a-milei-con-un-tema-de-lali-fanatico.phtml","f":"Perfil","i":"https://fotos.perfil.com/2026/10/21/trim/540/304/21-10-2026-pedro-sanchez-lali-milei-2353239.jpg","c":"Perfil","h":"2026-10-21T11:29-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[{"f":"Cba24n","t":"Pedro Sánchez respondió a los insultos de Javier Milei con una canción de Lali Espósito","u":"https://www.cba24n.com.ar/argentina/pedro-sanchez-respondio-a-los-insultos-de-javier-milei-con-una-cancion-de-lali-esposito_a6ad8bc5a920f762ed29645e3"}]},"3393052de3":{"t":"Casación unificó los juicios contra Cristina y Máximo Kirchner por Hotesur y Los Sauces","r":"La Sala I de la Cámara Federal de Casación Penal revocó la decisión del TOF 5 de realizar dos debates separados. El juicio unificado comenzaría este viernes 23 de octubre.","u":"https://hoydia.com.ar/politica/nacional/casacion-unifico-los-juicioscontra-cristina-y-maximo-kirchner-por-hotesur-y-los-sauces/","f":"Hoy Día Córdoba","i":"https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/4TRYSDVC6FFATJYVSKX3A4JVPY.jpeg?auth=f104657efeea14ab55f613e06df9ea963c9a5ce98e8fe8d6385e3a901daf4037&smart=true&width=4032&height=3024","c":"Página/12","h":"2026-10-20T16:59-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[{"f":"Página/12","t":"Lawafare: La Casación ordenó apuntar rápido contra Cristina y Máximo Kirchner","u":"https://www.pagina12.com.ar/2026/10/20/lawafare-la-casacion-ordeno-apuntar-rapido-contra-cristina-y-maximo-kirchner/"}]},"976466aecf":{"t":"“¿Cómo viven 10 dias sin comer?”: Milei arremetió contra los periodistas tras su afirmación","r":"El presidente se había burlado del dato que dos tercios de los argentinos no llegan a fin de mes, calificándolo de “pelotudez”. Este martes culpó a la prensa de “repetir como loros”. “Entiendo que en general son muy pobres intelectualmente pero no es tan difícil”, sostuvo.","u":"https://www.cba24n.com.ar/argentina/--como-viven-10-dias-sin-comer----milei-arremetio-contra-los-periodistas-tras-su-afirmacion_a6ad7c4d1c7853ea2c2bb2e45","f":"Cba24n","i":"https://srt-assets.tadevel-cdn.com/6ad7c9bfc7853ea2c2bb8594/720.jpeg","c":"Cba24n","h":"2026-10-20T17:07-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[{"f":"Página/12","t":"Milei se burló de la gente no llegue a fin de mes: “¿Cómo viven 10 días sin comer ni beber?”","u":"https://www.pagina12.com.ar/2026/10/20/milei-nego-que-la-gente-no-llegue-a-fin-de-mes-como-viven-10-dias-sin-comer-ni-beber/"}]},"6dc3b649c6":{"t":"Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?","r":"El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios","u":"https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853","c":"La Nación","h":"2026-10-21T15:00-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"89b6dd1b30":{"t":"Empezó la sesión en Diputados: negociaciones de último momento para consensuar la nueva Ley de Discapacidad","r":"Con 132 legisladores presentes, comenzó el debate. El peronismo analiza una propuesta realizada por los “aliados” que tiene el aval de la Casa Rosada, anticipó Infobae en Vivo","u":"https://www.infobae.com/politica/2026/10/21/diputados-en-vivo-ultimas-noticias-del-debate-sobre-discapacidad-endeudamiento-familiar-y-propiedad-privada/","f":"Infobae","i":"https://www.infobae.com/resizer/v2/KCCOIWLA7VHYPINOIVE445RWYE.jpg?auth=c3954db1854a3e5d6035a02d4b3b903471f24d983f3307c3506a5fae55c468c9&smart=true&width=1920&height=1280","c":"Infobae","h":"2026-10-21T13:11-03:00","s":false,"k":"Argentina / Política","g":"argentina","o":[]},"3cb8ba2365":{"t":"Plazo fijo: cuál es la tasa de interés banco por banco este miércoles 21 de octubre","r":"El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas","u":"https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-miercoles-21-de-octubre-nid21102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/MNESLAMTJBHUJLTHH5URD3JKJA.JPG?auth=e261a07d9712dd64e4bb7a182ae96a4459836c51651dfcd920811ec0b8dedb13&smart=true&width=3000&height=2000","c":"La Nación","h":"2026-10-21T10:56-03:00","s":true,"k":"Argentina / Economía","g":"argentina","o":[]},"1ca8d95122":{"t":"Tierra del Fuego: dos libertarios se disputan el liderazgo provincial y buscan posicionarse para la gobernación","r":"Agustín Coto y Santiago Pauli comparten la aspiración de suceder a Gustavo Melella, pero evitan una confrontación interna mientras despliegan sus armados territoriales. La definición de la candidatura quedaría en manos de la Casa Rosada","u":"https://www.infobae.com/politica/2026/10/21/tierra-del-fuego-dos-libertarios-se-disputan-el-liderazgo-provincial-y-buscan-posicionarse-para-la-gobernacion/","f":"Infobae","i":"https://www.infobae.com/resizer/v2/4PKW5ZLMSJBQ5L3BMCR6446Y3U.jpg?auth=13cfd44eb9f6aacc8f7494e2b0b394bf6bf0790279a3559a7aa7952fe455cf8a&smart=true&width=1920&height=1080","c":"Infobae","h":"2026-10-21T08:12-03:00","s":false,"k":"Argentina / Política","g":"argentina","o":[]},"336ea860c3":{"t":"Joaquín Cottani, exviceministro de Caputo: “El programa económico está agotado, pero hay tiempo de revisarlo”","r":"En diálogo con Infobae al Regreso, el economista cuestionó la estrategia cambiaria del Gobierno, reclamó señales concretas para recuperar la confianza de los mercados y advirtió sobre el impacto del plan en la actividad económica","u":"https://www.infobae.com/economia/2026/10/20/joaquin-cottani-exviceministro-de-caputo-el-programa-economico-esta-agotado-pero-hay-tiempo-de-revisarlo/","f":"Infobae","i":"https://www.infobae.com/resizer/v2/H72VFZFSBNBTNIYPLOFVXQA57M.jpg?auth=48b1a0ca2b38b653e6f747b245f0a3554e8d4ae3f2ddb0ba0b4cf59c6e0c2444&smart=true&width=758&height=426","c":"Infobae","h":"2026-10-20T20:06-03:00","s":false,"k":"Argentina / Economía","g":"argentina","o":[]},"281e85dfe1":{"t":"Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas","r":"El Centro de Gestión de la Economía Personal y los Negocios de la Facultad de Ciencias Económicas acompaña a vecinos con deudas de tarjetas, billeteras virtuales, préstamos y servicios, en un contexto de mora elevada en los hogares argentino","u":"https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/","f":"Infobae","i":"https://www.infobae.com/resizer/v2/PQEJXIHZE5C4DOFTGBQIFWUZ4I.jpg?auth=1c5117b0f054053ff50a406c9352c2f827da76b7e29d0b57b37276b66de14939&smart=true&width=1280&height=720","c":"Infobae","h":"2026-10-21T14:47-03:00","s":false,"k":"Argentina / Economía","g":"argentina","o":[]},"c03403e081":{"t":"Elisa Carrió cargó contra el Gobierno: “La recesión es enorme y algunas cosas me recuerdan demasiado al pasado”","r":"La referente de la Coalición Cívica cuestionó la posición del presidente Javier Milei y el ministro Luis Caputo; acusó a los funcionarios de estar “escondiendo algo”","u":"https://www.lanacion.com.ar/politica/elisa-carrio-cargo-contra-el-gobierno-la-recesion-es-enorme-y-algunas-cosas-me-recuerdan-demasiado-nid21102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/GCIZTSFFVNDR5BOBVZX77SGPRM.jpg?auth=a67e259e7de1132a47016108ef0ad87bb168c89795b8a858f482f8c917ec7280&smart=true&width=3000&height=2000","c":"La Nación","h":"2026-10-21T10:47-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"f8acaf5387":{"t":"Una agencia británica de comunicación hizo gestiones internacionales en defensa de Cristina Kirchner","r":"El 7 de octubre, Milton declaró ante el Departamento de Justicia estadounidense un acuerdo para representar a la expresidenta; sus abogados sostienen que el convenio no está vigente","u":"https://www.lanacion.com.ar/politica/una-agencia-britanica-de-comunicacion-hizo-gestiones-internacionales-en-defensa-de-cristina-kirchner-nid21102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/IZBHYCDJGRFKZJX75QPPEDZRBM.JPG?auth=4f16577c5fe2da205bc555f287c9070ac05cae5cfcf1469ea791d6160aa147c0&smart=true&width=1280&height=853","c":"La Nación","h":"2026-10-21T08:33-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"54c2f575ec":{"t":"En España Milei volvió a negar que haya argentinos que no llegan a fin de mes: “Es un slogan barato”","r":"El Presidente se refirió al relevamiento de una encuestadora; durante su visita al Foro Nuevo Economía de Madrid, apuntó contra el presidente del gobierno español Pedro Sánchez","u":"https://www.lanacion.com.ar/politica/en-espana-milei-volvio-a-hablar-sobre-los-argentinos-no-lleguen-a-fin-de-mes-es-un-slogan-barato-nid21102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/WIWLP6D4F5FSDL72TKA3SE5Y6I.png?auth=7700916d54ad1d738f0c0da92fe0c493c2a3e7a01b122b5be129576b691f8162&smart=true&width=1360&height=910","c":"La Nación","h":"2026-10-21T08:26-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"d920682634":{"t":"Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada","r":"Durante la charla, Milei se jactó de insultar a Pedro Sánchez y lanzó comentarios polémicos, mientras que Abascal argumentó compromisos de campaña para justificar su ausencia. La única dirigente que recibió al presidente argentino fue Isabel Díaz Ayuso.","u":"https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/","f":"Página/12","i":"https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/NQMGQ6JAHFB3XGRZ4S3BMCTSX4.jpg?auth=1d33c53bb821526a53288eecd8ddaca67f70f0ba58d82a691f5eab4ed72d04bc&smart=true&width=1172&height=782","c":"Página/12","h":"2026-10-21T14:13-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"7d8a8aae27":{"t":"Debate caliente en Diputados: LLA busca obstaculizar iniciativas de la oposición","r":"En lo que se prevé será una sesión maratónica, el oficialismo busca imponer sus proyectos de Ley de Inviolabilidad de la Propiedad Privada, la Ley de Emergencia en Discapacidad y la Ley de Educación Financiera.","u":"https://www.pagina12.com.ar/2026/10/21/debate-caliente-en-diputados-lla-busca-obstaculizar-iniciativas-de-la-oposicion/","f":"Página/12","i":"https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/4GXSDD2N25B4BMFA5DGXYIFRAE.jpg?auth=faeec7e5d102e595bf3fc0d32e9e38196a6d30c377bedcef8fbd4461a4737591&smart=true&width=3444&height=2296","c":"Página/12","h":"2026-10-21T14:13-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"c931b7d638":{"t":"“El forro de Milei” y “la casta sos vos”: la furia del socialista Chamorro por la motosierra al Remediar","r":"Con un preservativo en la mano, el legislador socialista lanzó una dura crítica al ajuste sanitario de la gestión libertaria y disparó: “Al final, la casta eras vos”. Córdoba rechazó el recorte nacional de medicamentos esenciales y reclamó una marcha atrás.","u":"https://www.perfil.com/noticias/cordoba/el-forro-de-milei-y-la-casta-sos-vos-la-furia-del-socialista-chamorro-por-la-motosierra-al-remediar.phtml","f":"Perfil","i":"https://fotos.perfil.com/2026/10/21/trim/540/304/chamorro-rechazo-la-motosierra-al-remediar-2353384.jpg","c":"Perfil","h":"2026-10-21T14:09-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[]},"3e2a440f2f":{"t":"Oro del Banco Central: la fiscalía pidió informes para investigar las operaciones que habrían generado pérdidas por US$1023 millones","r":"El fiscal Pollicita dio los primeros pasos procesales en la causa contra Caputo y Bausili; busca recabar documentación técnica","u":"https://www.lanacion.com.ar/economia/oro-del-banco-central-la-fiscalia-pidio-informes-para-investigar-las-operaciones-que-habrian-nid21102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/5MMQYGY7GRD6RBSNEY6FDC2EBU.jpg?auth=b2050d5a3c61a2ff11c8954ac3ec51c2bafcd9b420295f941435db204a35e6fc&smart=true&width=3918&height=2724","c":"La Nación","h":"2026-10-21T12:12-03:00","s":true,"k":"Argentina / Economía","g":"argentina","o":[]},"57229c8c76":{"t":"Dólares del colchón: las dudas que persisten sobre Inocencia Fiscal II y el riesgo de que las provincias reclamen impuestos","r":"La ley está vigente, pero todavía faltan normas para completar su implementación; además, ninguna provincia formalizó su adhesión al esquema","u":"https://www.lanacion.com.ar/economia/dolares-del-colchon-las-dudas-que-persisten-sobre-inocencia-fiscal-ii-y-el-riesgo-de-que-las-nid21102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/LG4BIHEIJVDPBPOUIQCH54G5NU.jpg?auth=921cd60e3d7a49ccdd28449c9693494494e38e6e60d52cd9a87c7dc7eeb4ccde&smart=true&width=2000&height=1333","c":"La Nación","h":"2026-10-21T13:21-03:00","s":true,"k":"Argentina / Economía","g":"argentina","o":[]},"140485572d":{"t":"¿Cuándo son las elecciones 2027 en la Argentina? Todas las fechas clave","r":"Las votaciones generales se ubican en octubre; cuándo es la fecha en caso de que continúen las PASO y cuándo se llevará a cabo un hipotético balotaje","u":"https://www.lanacion.com.ar/politica/cuando-son-las-elecciones-2027-en-la-argentina-todas-las-fechas-clave-nid08102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/WEIQPPWZ4VHNXMEO7BPIIJ3IYM.jpg?auth=599d908dd8437cc0d0ad769ecfd2d6118d09b81bac66d391b99189a39690e36c&smart=true&width=6720&height=4480","c":"La Nación","h":"2026-10-21T08:34-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"0549849043":{"t":"Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado","r":"Para la actualización de haberes se toma el último índice de inflación que publicó el Indec; cuáles son las cifras para el penúltimo mes del año","u":"https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/IZ6PB2Z7JVGAJAUJDMPKNUSKFQ.png?auth=41b276bf11862c94f065dee7b54c8b2392e447bb5796afc723c11dfece75c598&smart=true&width=2000&height=1333","c":"La Nación","h":"2026-10-21T08:33-03:00","s":true,"k":"Argentina / Economía","g":"argentina","o":[]},"e7bd82715d":{"t":"Tarjetas de crédito: el Banco Central oficializó la tasa de interés aplicable para noviembre","r":"El Banco Central de la República Argentina (BCRA) oficializó, mediante la Comunicación “B” 13251/26, la tasa de interés de referencia para las financiaciones vinculadas a tarjetas de crédito correspondientes a octubre de 2026. La medida dispone que la tasa nominal anual (TNA) promedio ponderado por monto para préstamos personales sin garantía real se ubica en […]","u":"https://comercioyjusticia.info/leyes-y-comentarios/tarjetas-de-credito-el-banco-central-oficializo-la-tasa-de-interes-aplicable-para-noviembre/","f":"Comercio y Justicia","i":"","c":"Comercio y Justicia","h":"2026-10-21T11:56-03:00","s":false,"k":"Argentina / Economía","g":"argentina","o":[]},"f50ea3ba83":{"t":"Fuero de familia en Córdoba: el Tribunal Superior reestructura los juzgados hacia un modelo de gestión asociada","r":"A partir del próximo 2 de noviembre, los ocho juzgados de familia existentes se unificarán y reestructurarán en dos Tribunales de Gestión Asociada del Fuero de Familia (TGA FF N° 1 y N° 2), cada uno integrado por cuatro magistrados. El nuevo esquema separa las tareas jurisdiccionales —que seguirán a cargo de los jueces, reunidos […]","u":"https://comercioyjusticia.info/leyes-y-comentarios/fuero-de-familia-en-cordoba-el-tribunal-superior-reestructura-los-juzgados-hacia-un-modelo-de-gestion-asociada/","f":"Comercio y Justicia","i":"","c":"Comercio y Justicia","h":"2026-10-21T11:48-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[]},"bf7eefd658":{"t":"Milei culpó a la oposición y a la volatilidad global por la suba del riesgo país","r":"Durante su exposición en el Foro Nueva Economía de Madrid, el Presidente defendió su programa económico, cuestionó con dureza al kirchnerismo y pronosticó que Argentina podría alcanzar la categoría de país apto para inversiones.","u":"https://hoydia.com.ar/economia/milei-culpo-a-la-oposicion-y-a-la-volatilidad-global-por-la-suba-del-riesgo-pais-y-prometio-un-crecimiento-historico/","f":"Hoy Día Córdoba","i":"","c":"Hoy Día Córdoba","h":"2026-10-21T11:24-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[]},"7e9e5075b2":{"t":"Víctor Hugo, lapidario con Macri y Milei: “Una página llena de grasa en la historia argentina”","r":"En su editorial, el periodista y conductor de Radio 750 describió el entramado de irregularidades en el Poder Judicial que derivaron en el sobreseimiento de Mauricio Macri por el acuerdo con el FMI.","u":"https://www.pagina12.com.ar/2026/10/21/asco-de-pronunciamiento-la-dura-critica-de-victor-hugo-a-macri-y-la-mafia-mediatica-y-judicial/","f":"Página/12","i":"https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/7ZKKS5SQPBHCZHNQBIFVSO2BPY.jpg?auth=54d430b9f32c8dfa0df1a2ac6a17633b9a9489d315fe74711699806f8fda58e0&smart=true&width=2560&height=1706","c":"Página/12","h":"2026-10-21T09:46-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"c653963deb":{"t":"“Zurdo y a mucha honra”: la respuesta de Pedro Sánchez a Milei","r":"El presidente español reivindicó sus posturas políticas ante los insultos del mandatario argentino, que está en España para hacer campaña por la ultraderecha. Compartió también la canción “Fanático”, que Lali Espósito le suele dedicar a Milei.","u":"https://www.pagina12.com.ar/2026/10/21/zurdo-y-a-mucha-honra-la-respuesta-de-pedro-sanchez-a-milei/","f":"Página/12","i":"https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/KA5Y5NMBCZDH3AJST6SRQVP5KU.jpg?auth=851ac866c131cdf1f78e1095b49a2b792038a6f7c94bd1c368dd093d9b7428e5&smart=true&width=1500&height=1001","c":"Página/12","h":"2026-10-21T10:09-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"6839532756":{"t":"Javier Milei en Madrid: ataques a Pedro Sánchez, críticas a la justicia social y el rol de las mujeres","r":"Durante su disertación en la Nueva Economía Fórum de la capital española, el Presidente argentino volvió a arremeter contra el mandatario español, defendió el ajuste de su gestión y advirtió sobre la inseguridad y el “estancamiento de Occidente”.","u":"https://www.cba24n.com.ar/argentina/javier-milei-en-madrid--ataques-a-pedro-sanchez--criticas-a-la-justicia-social-y-el-rol-de-las-mujeres_a6ad8aa78920f762ed294dc44","f":"Cba24n","i":"https://srt-assets.tadevel-cdn.com/6ad8ac92920f762ed294ff84/720.jpeg","c":"Cba24n","h":"2026-10-21T09:15-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[]},"c90e246d9d":{"t":"La industria del espectáculo en Córdoba: cómo se combinan más proyectos, con costos en alza y consumo retraído","r":"El aumento de los gastos operativos y la menor capacidad de compra del público redujeron los márgenes de los productores. No obstante, Córdoba avanza con nuevos espacios y proyectos para ampliar su capacidad de convocatoria. La mirada de José Palazzo, presidente de Córdoba Welcome y director de Envivo Producciones.","u":"https://www.perfil.com/noticias/cordoba/la-industria-del-espectaculo-en-cordoba-como-se-combinan-mas-proyectos-con-costos-en-alza-y-consumo-retraido.phtml","f":"Perfil","i":"https://fotos.perfil.com/2026/10/21/trim/540/304/palazzo-2353056.jpg","c":"Perfil","h":"2026-10-21T08:33-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[]},"183ec91dab":{"t":"Reuniones de última hora, diferencias y presión de la Iglesia: el oficialismo espera el aval de la Casa Rosada","r":"El oficialismo busca cerrar un acuerdo con sus aliados, persisten las dudas en la Casa Rosada; el Episcopado sumó sus reclamos","u":"https://www.lanacion.com.ar/politica/reuniones-de-ultima-hora-diferencias-y-presion-de-la-iglesia-el-oficialismo-espera-el-aval-de-la-nid20102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/S33ZDVY6QNGC3NWZYAUC5KLUGI.JPG?auth=a2c06117dac44fb66a336f3505900f695c721e8d9fa2eeda719644054f221662&smart=true&width=1284&height=910","c":"La Nación","h":"2026-10-21T01:46-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"c9f9a69760":{"t":"Patricia Bullrich se refirió a la posibilidad de ser candidata a presidenta: “Estoy preparada”","r":"La senadora nacional dijo que podría encabezar una fórmula presidencial pero que Javier Milei es quien lidera esa carrera; además, habló sobre los puntos que el Gobierno debería mejorar rumbo a las elecciones","u":"https://www.lanacion.com.ar/politica/patricia-bullrich-se-refirio-a-la-posibilidad-de-ser-candidata-a-presidenta-estoy-preparada-nid20102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/N7NQZ2XZO5CHLNNWF6KBDKS7VQ.png?auth=78b7d84e3a6307ed57797b2df360d66a05ee7dc2bca6c6108c8d3dec8a2bc67e&smart=true&width=711&height=477","c":"La Nación","h":"2026-10-20T23:46-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"46d9e50e47":{"t":"Llaryora, tajante en las paritarias: no hay plata y no habrá mejora extra para los estatales","r":"La postura, anticipada semanas atrás por Comercio y Justicia, quedó ratificada ayer en la primera reunión con la UEPC. El gremio concurrió con un combo de pedidos que incluyen una mejora en el poder adquisitivo de los salarios. La respuesta oficial no dejó interpretaciones. Sólo se revisará si se cumplió la aplicación de la cláusula […]","u":"https://comercioyjusticia.info/economia/llaryora-tajante-en-las-paritarias-no-hay-plata-y-no-habra-mejora-extra-para-los-estatales/","f":"Comercio y Justicia","i":"","c":"Comercio y Justicia","h":"2026-10-21T06:00-03:00","s":false,"k":"Córdoba / Economía","g":"cordoba","o":[]},"96f050c20d":{"t":"El 27% de los deudores argentinos registra al menos una deuda irregular, según Universidad Austral","r":"En la previa del debate sobre endeudamiento familiar previsto para hoy en la Cámara de Diputados, los datos sobre la situación crediticia de los hogares argentinos muestran la dimensión del problema: en agosto, el 27% de los deudores registró al menos un saldo irregular, el nivel más alto de la serie relevada por la Universidad […]","u":"https://comercioyjusticia.info/profesionales/el-27-de-los-deudores-argentinos-registra-al-menos-una-deuda-irregular-segun-universidad-austral/","f":"Comercio y Justicia","i":"","c":"Comercio y Justicia","h":"2026-10-21T04:24-03:00","s":false,"k":"Argentina / Economía","g":"argentina","o":[]},"c417152d70":{"t":"Diputados: Se viene una sesión maratónica e incómoda para el Gobierno","r":"El oficialismo llega al debate con sus propios proyectos, que generan más dudas que entusiasmo sobre su conveniencia incluso al interior de la Rosada. “Podemos ir a perder tranquilos”, dicen desde el entorno de Martín Menem.","u":"https://www.pagina12.com.ar/2026/10/20/diputados-se-viene-una-sesion-maratonica-e-incomoda-para-el-gobierno/","f":"Página/12","i":"https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/D4DNKFATOFC5LGN6ZD7VXWTAA4.jpg?auth=ffec4f38cbc71e19c7e63854b641f477acef94f35b3d9ec3e52a811c4429021c&smart=true&width=2222&height=1481","c":"Página/12","h":"2026-10-21T00:01-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"50c94a156e":{"t":"Nueva paritaria de la construcción: cuánto cobra un albañil en octubre 2026 con el aumento confirmado por la Uocra","r":"La Secretaría de Trabajo homologó la paritaria con subas acumulativas del 1,9%, 1,8% y 1,7%; cuáles son las nuevas escalas","u":"https://www.lanacion.com.ar/economia/nueva-paritaria-de-la-construccion-cuanto-cobra-un-albanil-en-octubre-2026-con-el-aumento-confirmado-nid01102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/CQ6LPZPBKRAGBIDP56JRWFH73A.jpg?auth=9a77523d0a3e05d3b4f3f69534a5d299330e54c5b692453e5516b99c58ccce36&smart=true&width=2000&height=1333","c":"La Nación","h":"2026-10-21T08:33-03:00","s":true,"k":"Argentina / Economía","g":"argentina","o":[]},"414ad70f43":{"t":"Las pymes no soportan este modelo: las fajas que aparecieron en Córdoba","r":"Apyme lanzó una campaña nacional con carteles en locales comerciales. Denuncia cierres de empresas, caída de ventas, aumento de deudas y más embargos durante la gestión de Javier Milei.","u":"https://hoydia.com.ar/economia/pymes-reclamo-apymes-cordoba/","f":"Hoy Día Córdoba","i":"","c":"Hoy Día Córdoba","h":"2026-10-20T20:45-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[]},"354a460ca3":{"t":"La visita de Milei a España alteró la campaña electoral e incomodó como nunca antes a sus aliados","r":"Pedro Sánchez lo eligió como su enemigo perfecto y desde el Partido Popular tomaron distancia; el Presidente intentó sin éxito reunirse con el rey Felipe y tuvo que conformarse con una videollamada con Abascal, líder de VOX","u":"https://www.lanacion.com.ar/politica/la-visita-de-milei-a-espana-altero-la-campana-electoral-e-incomodo-como-nunca-antes-a-sus-aliados-nid21102026/","f":"La Nación","i":"https://resizer.glanacion.com/resizer/v2/QNIT7FGNIJFTLHDCOEK7P7LL7U.jpg?auth=2b5fd53b8882d9a72c036c827b2041daf283d655e8cc1c1f9f4e1cf5cfca8865&smart=true&width=2000&height=1333","c":"La Nación","h":"2026-10-21T13:17-03:00","s":true,"k":"Argentina / Política","g":"argentina","o":[]},"40926863e8":{"t":"Peter Lamelas confirmó el respaldo de EEUU al Gobierno de Javier Milei","r":"El embajador estaodounidense anunció inversiones por 20 mil millones de dólares pero advirtió que estarán pendientes de lo que suceda en 2027.","u":"https://www.cba24n.com.ar/internacionales/peter-lamelas-confirmo-el-respaldo-de-eeuu-al-gobierno-de-javier-milei_a6ad805f3c7853ea2c2c09d3c","f":"Cba24n","i":"https://srt-assets.tadevel-cdn.com/6ad8066ac7853ea2c2c0a93f/720.jpeg","c":"Cba24n","h":"2026-10-20T21:30-03:00","s":false,"k":"Córdoba / Política","g":"cordoba","o":[]}}</script>
 </body>
 </html>

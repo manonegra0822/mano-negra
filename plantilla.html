@@ -13,7 +13,8 @@
 (function(){var d=document.documentElement,t=null;d.className=d.className.replace("no-js","js");
 try{t=localStorage.getItem("mn-tema")}catch(e){}
 if(t!=="claro"&&t!=="oscuro"){t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"oscuro":"claro"}
-d.setAttribute("data-tema",t)})();
+d.setAttribute("data-tema",t);
+var l=null;try{l=localStorage.getItem("mn-letra")}catch(e){}if(l==="1"||l==="2"){d.setAttribute("data-letra",l)}})();
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,11 +67,25 @@ d.setAttribute("data-tema",t)})();
         {{MENU_EXTRA}}
         <li><a href="#ultimas"><span class="idx">→</span>Últimas</a></li>
       </ul>
+      <div class="menu-extra" role="group" aria-label="Tamaño de letra">
+        <span class="etiqueta">(Tamaño de letra)</span>
+        <button class="herr-btn letra-btn" type="button" data-letra="-1" aria-label="Achicar la letra">A−</button>
+        <button class="herr-btn letra-btn" type="button" data-letra="1" aria-label="Agrandar la letra">A+</button>
+      </div>
     </nav>
-    <button class="tema-btn" type="button" aria-pressed="false">
-      <span class="tema-ico" aria-hidden="true"></span>
-      <span class="tema-txt">Fondo negro</span>
-    </button>
+    <div class="herramientas">
+      <button class="herr-btn buscar-btn" type="button" aria-label="Buscar en las notas" aria-keyshortcuts="/">
+        <span class="lupa" aria-hidden="true"></span><span class="herr-txt">Buscar</span>
+      </button>
+      <div class="letra" role="group" aria-label="Tamaño de letra">
+        <button class="herr-btn letra-btn" type="button" data-letra="-1" aria-label="Achicar la letra">A−</button>
+        <button class="herr-btn letra-btn" type="button" data-letra="1" aria-label="Agrandar la letra">A+</button>
+      </div>
+      <button class="tema-btn" type="button" aria-pressed="false">
+        <span class="tema-ico" aria-hidden="true"></span>
+        <span class="tema-txt">Fondo negro</span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -80,6 +95,7 @@ d.setAttribute("data-tema",t)})();
       <li>(El medio de medios)</li>
       <li>(Córdoba — Argentina)</li>
       <li>(Edición {{EDICION}} · {{HORA}} h)</li>
+      <li>(Próxima actualización <span data-prox>{{PROXIMA}}</span> h)</li>
       <li>({{N_NOTAS}} notas · {{N_MEDIOS}} medios)</li>
     </ul>
     <div class="cab-marca">
@@ -99,6 +115,10 @@ d.setAttribute("data-tema",t)})();
     <ul class="cinta-lista">{{CINTA}}</ul>
     <ul class="cinta-lista" aria-hidden="true">{{CINTA}}</ul>
   </div>
+</div>
+
+<div class="envoltura">
+  <p class="aviso-nuevas" data-nuevas hidden></p>
 </div>
 
 <main id="contenido" class="envoltura">
@@ -165,5 +185,50 @@ d.setAttribute("data-tema",t)})();
     </div>
   </div>
 </footer>
+<dialog class="panel" id="panel" aria-labelledby="panel-tit">
+  <div class="panel-in">
+    <div class="panel-barra">
+      <span class="etiqueta" data-p="pos">(Lectura rápida)</span>
+      <div class="panel-nav">
+        <button type="button" class="herr-btn" data-p="prev" aria-label="Nota anterior">←</button>
+        <button type="button" class="herr-btn" data-p="next" aria-label="Nota siguiente">→</button>
+        <button type="button" class="herr-btn" data-p="cerrar" aria-label="Cerrar">✕</button>
+      </div>
+    </div>
+    <div class="panel-cuerpo">
+      <figure class="panel-foto" data-p="fig"><img data-p="img" alt="" referrerpolicy="no-referrer"><figcaption data-p="cred"></figcaption></figure>
+      <p class="kicker" data-p="kick"></p>
+      <h2 class="panel-tit" id="panel-tit" data-p="tit"></h2>
+      <p class="panel-bajada" data-p="res"></p>
+      <p class="meta" data-p="meta"></p>
+      <div class="panel-acciones">
+        <a class="btn" data-p="leer" href="#" target="_blank" rel="noopener"><span data-p="leer-txt">Leer la nota</span><span class="flecha" aria-hidden="true">↗</span></a>
+        <button class="btn btn--sec" type="button" data-p="compartir" aria-expanded="false"><span>Compartir</span><span class="flecha" aria-hidden="true">↗</span></button>
+      </div>
+      <div class="compartir" data-p="opciones" hidden>
+        <a data-p="wa" href="#" target="_blank" rel="noopener">WhatsApp<span class="flecha" aria-hidden="true">↗</span></a>
+        <a data-p="x" href="#" target="_blank" rel="noopener">X (Twitter)<span class="flecha" aria-hidden="true">↗</span></a>
+        <a data-p="fb" href="#" target="_blank" rel="noopener">Facebook<span class="flecha" aria-hidden="true">↗</span></a>
+        <button type="button" data-p="copiar">Copiar enlace</button>
+        <span class="compartir-ok" data-p="copiado" aria-live="polite"></span>
+      </div>
+      <div class="otros" data-p="otros"></div>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="buscador" id="buscador" aria-label="Buscar en las notas">
+  <div class="busc-in">
+    <div class="busc-cab">
+      <label class="etiqueta" for="busc-input">(Buscar en las notas de las últimas 48 horas)</label>
+      <button type="button" class="herr-btn" data-b="cerrar" aria-label="Cerrar el buscador">✕</button>
+    </div>
+    <input class="busc-input" id="busc-input" type="search" autocomplete="off" placeholder="Milei, dólar, Llaryora…" aria-describedby="busc-estado">
+    <p class="busc-estado" id="busc-estado" aria-live="polite"></p>
+    <ol class="busc-res"></ol>
+  </div>
+</dialog>
+
+<script type="application/json" id="notas-data">{{NOTAS_JSON}}</script>
 </body>
 </html>
