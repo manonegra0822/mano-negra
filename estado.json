@@ -1,47 +1,60 @@
 {
-  "actualizado": "2026-10-21T15:40:38-03:00",
+  "actualizado": "2026-10-21T18:09:38-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 96,
+        "sin ancla argentina": {
+          "cantidad": 3,
           "ejemplos": [
-            "Detienen a Landon Donovan por venta de droga en CDMX",
-            "Elecciones generales 29-N, en directo: CHA-Frente Amplio Aragón renuncia a concu",
-            "Bayern Múnich vs. Arsenal, Champions League - en vivo: Luis Díaz arrancará desde"
+            "Tras aprobar la Ley de Propiedad Privada, Diputados discutirá la emergencia en D",
+            "El indicador preferido del Gobierno muestra que la actividad económica lleva 5 m",
+            "La actividad económica creció menos de lo esperado en agosto tras la fuerte caíd"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 2,
+        "sección no permitida": {
+          "cantidad": 93,
           "ejemplos": [
-            "Reforma laboral: el Gobierno aprobó 19 acuerdos entre sindicatos y empresas de d",
-            "Índice Pokémon: la insólita inversión que está a punto de superar a NVIDIA como "
+            "Breton compara disturbios en Francia con crisis de Ceuta y alerta del descontrol",
+            "Bayern Múnich y Arsenal igualaron 2-2 en un choque de favoritos en la Champions ",
+            "El exjugador Bryan Ruiz, ratificado como seleccionador de Costa Rica"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cuánto cuesta ir a ver a Boca en la final de la Copa Sudamericana"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 4,
+      "leidas": 85,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 80,
+          "cantidad": 67,
           "ejemplos": [
-            "Deberá pagar US$25.000 millones: condenan a Meta por engañar a consumidores sobr",
-            "Imputaron a cuatro acusados de integrar una organización narco: tenían 10 kilos ",
-            "Los goles de Nico Paz en la Champions League, EN VIVO: el minuto a minuto de los"
+            "Champions League: gol de Buendía, goleada de Real Madrid ante Leipzig de Demiche",
+            "Murió Saúl Blanch, el primer vocalista de Rata Blanca, a los 75 años",
+            "Elecciones Brasil 2026: encuestas, final de las campañas para el balotaje y el m"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 8,
           "ejemplos": [
-            "Desde $1.700.000 y en seis cuotas: cuánto cuesta ir a Barranquilla para ver a a ",
-            "Opinión. Lo que no se discute en el debate por los biocombustibles",
-            "Financiamiento sostenible: qué hacen la Argentina, Brasil y Bolivia para impulsa"
+            "Oro verde: invertirán US$19,5 millones en San Juan para ampliar la producción de",
+            "Construir y destruir son, ante todo, actitudes",
+            "A Francisco Franco le mataron 34 animales en un mes, perdió $40 millones y aband"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Anthropic propone que EE.UU. pueda bloquear modelos de IA peligrosos con autoriz"
           ]
         }
       }
@@ -72,20 +85,29 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 6,
-      "descartadas": {}
+      "aceptadas": 3,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "León XIV no precisará ningún tratamiento adicional y mantiene su viaje a Argenti",
+            "Lemoine se burló de los vuelos de la muerte y la justicia le cerró la causa",
+            "Iron Maiden en Huracán: 50 años a lo bestia"
+          ]
+        }
+      }
     },
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 17,
           "ejemplos": [
-            "El Cineclub cierra octubre con terror y suspenso",
-            "Francisco Cerúndolo avanzó a cuartos de final en el ATP 250 de Bruselas",
-            "Malakeh, de las recetas de una abuela siria a un local gastronómico en Nueva Cór"
+            "León XIV no necesitará tratamiento oncológico tras la extirpación de un cáncer d",
+            "Causa Andis: piden indagar a los dueños de la droguería Suizo Argentina y a otro",
+            "El 26% de los argentinos quiere una tercera alternativa electoral el año próximo"
           ]
         }
       }
@@ -93,10 +115,10 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 24,
+      "aceptadas": 25,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 32,
+          "cantidad": 30,
           "ejemplos": [
             "Capital Humano homologó 19 acuerdos colectivos de distintos sectores",
             "La UIA pidió infraestructura para que el gas de Vaca Muerta llegue a todo el paí",
@@ -116,11 +138,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 22,
+          "cantidad": 23,
           "ejemplos": [
-            "Según la CAME, las ventas por el Día de la Madre cayeron 1,4%",
-            "Empleo público: lanzan los retiros voluntarios en el Estado nacional con supresi",
-            "El riesgo país llegó a 675 puntos"
+            "Convenio Multilateral: oficializan el nuevo calendario fiscal de noviembre debid",
+            "Estados Unidos quiere cerrar el comité de la ONU donde la Argentina reclama por ",
+            "Plan Remediar: Córdoba cuestionó la reducción de 128 a 6 medicamentos dispuesta "
           ]
         }
       }
@@ -128,14 +150,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 17,
           "ejemplos": [
-            "Llega a Córdoba el Conifest, un festival por la Ciencia y la Educación Pública A",
-            "Fuerte choque en avenida Japón: una moto quedó atrapada contra un camión",
-            "Colapinto vuelve a correr en Estados Unidos: días y horarios del GP de Austin"
+            "Cruz del Eje: dos detenidos por el femicidio de Camila Iglesias",
+            "UEPC anunció cronograma de asambleas",
+            "Causa ANDIS: piden 43 indagatorias y advierten por una cartelización de droguerí"
           ]
         }
       }
@@ -155,14 +177,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 18,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 23,
+          "cantidad": 25,
           "ejemplos": [
-            "\"El riesgo aumenta a medida que pasan los años”: la importancia de los controles",
-            "Oscar González, condenado en su propia tierra: por qué es el final político del ",
-            "Ir a la escuela no alcanza: por qué la Argentina no logra mejorar los aprendizaj"
+            "El Niño en Córdoba: cuándo llegan las lluvias y cómo estará el tiempo el resto d",
+            "El TSJ rechazó el recurso de Adela Arning y la revocatoria sigue en marcha",
+            "Con un recital gratuito de La Sole Pastorutti, Mina Clavero lanza su temporada t"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -174,9 +196,9 @@
         "muy vieja": {
           "cantidad": 28,
           "ejemplos": [
-            "Gustavo Klein apuntó contra Nación por el Plan Remediar: “Si quiere que las prov",
-            "Elecciones en Brasil: \"La calle está con Lula, pero el problema es el voto del i",
-            "Dos médicas y dos enfermeras fueron condenadas por la muerte de un recién nacido"
+            "Tras la muerte de un policía en Córdoba, Quinteros reclamó a la Nación por el es",
+            "Passerini duro con Luis Juez: “Es muy cómodo hablar como habla él ganando 14 pal",
+            "Balance del Día de la Madre en Córdoba: “Hemos sacrificado mucha rentabilidad en"
           ]
         }
       }
