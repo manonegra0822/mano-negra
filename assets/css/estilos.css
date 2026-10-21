@@ -128,9 +128,10 @@ section[id], #contenido { scroll-margin-top: calc(var(--alto-barra) + 12px); }
 .cab-nombre { font-family: var(--f-titulo); font-weight: 700; font-size: 12vw; line-height: .8; letter-spacing: -.06em; text-transform: uppercase; }
 .cab-nombre span { display: block; }
 .cab-pie { display: grid; gap: 10px; padding-block: 12px 14px; }
-.cab-etiquetas li:nth-child(n+3), .cab-lema, .cab-etiquetas li:nth-child(4) { display: none; }
+.cab-etiquetas li:nth-child(n+3), .cab-etiquetas li:nth-child(4) { display: none; }
 .cab-etiquetas { padding-block: 12px 10px; }
-.cab-lema { font-size: 1.125rem; line-height: 1.5; max-width: 52ch; }
+.cab-lema { font-size: 1rem; line-height: 1.35; font-weight: 500; max-width: 52ch; }
+@media (max-width: 639px) { .cab-pie { justify-items: center; text-align: center; } }
 .cab-fecha { font-family: var(--f-titulo); font-size: .9375rem; text-transform: uppercase; color: var(--muted); }
 
 /* ---------- Cinta de titulares ---------- */
@@ -290,7 +291,8 @@ figure.sin-foto { display: none; }
   .foto-principal { margin-inline: 0; }
   .btn { display: inline-flex; min-width: 300px; }
   .menu-txt { display: inline; }
-  .cab-etiquetas li:nth-child(n+3), .cab-lema { display: block; }
+  .cab-etiquetas li:nth-child(n+3) { display: block; }
+  .cab-lema { font-size: 1.125rem; line-height: 1.5; font-weight: 400; }
   .cab-etiquetas { padding-block: 16px 14px; }
   .cab-nombre { font-size: 10.4vw; }
   .cab-logo { height: calc(10.4vw * .8 * 2); }
