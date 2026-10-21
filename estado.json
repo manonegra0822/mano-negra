@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-21T11:14:14-03:00",
+  "actualizado": "2026-10-21T13:25:40-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 99,
           "ejemplos": [
-            "Patricia Grisales arremetió contra Margarita Rosa de Francisco por mensaje contr",
-            "CDMX tendrá 5 mil actividades gratuitas para el Día de Muertos 2026: festivales,",
-            "Dólar hoy 21 de octubre de 2026: la divisa se cotiza en Colombia a $3.191,63, $2"
+            "Un rayo mató a cuatro caballos de polo durante una práctica en el Jockey Club de",
+            "El Reino Unido aprobó la extracción de un importante yacimiento de gas en el mar",
+            "ISA Energía sobre alza de tarifas eléctricas en el norte: “Hay una situación de "
           ]
         }
       }
@@ -19,35 +19,37 @@
     {
       "medio": "La Nación",
       "leidas": 93,
-      "aceptadas": 13,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 69,
+          "cantidad": 80,
           "ejemplos": [
-            "Cuándo juega Boca la final de la Copa Sudamericana 2026: día y sede de la defini",
-            "Qué se sabe de la muerte de Antonio Grimau",
-            "Mauro Icardi compartió fotos de sus vacaciones en la playa y piropeó a la China "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El secreto militar que impuso el Gobierno sería por la compra de equipamiento de",
-            "Biocombustibles: las pymes pidieron elevar el corte del biodiésel y las aceitera"
+            "Natalia Lobo llega a Bienestar Fest con una experiencia para volver a la propia ",
+            "Morena Beltrán rompió el silencio tras su salida de MasterChef: su frustración y",
+            "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas para el balota"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 3,
           "ejemplos": [
-            "Consejo de la Magistratura: los abogados eligieron a sus representantes y una li",
-            "Reasignan $18 millones para pagar gastos de pasajes y hotel en misiones comercia",
-            "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026"
+            "Corrupción en Discapacidad: piden indagar a los dueños de la droguería Suizo Arg",
+            "Pandanés: la Justicia frenó la quiebra y abrió un proceso para buscar nuevos due",
+            "Chaco: condenaron a cuatro “cueveros” que escondían millones en los paneles de u"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El riesgo país continúa su baja de ayer, en un contexto de menor tensión financi",
+            "Sesión maratónica en Diputados: el oficialismo busca avanzar con una ley de disc",
+            "Campaña 2026/27. Los números de la fertilización cierran, pero hay que hacer las"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Milei trató de “impresentable dictador” y “delincuente ladrón” a Pedro Sánchez e"
+            "El Niño: el gobierno bonaerense lanzó una plataforma para consultar las lluvias ",
+            "Una deuda millonaria y un shopping demorado se suman al juicio oral por abuso de"
           ]
         }
       }
@@ -78,18 +80,12 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "La crisis económica y las revueltas en Europa encienden las alarmas en el Gobier"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Boca batió a Vasco da Gama y se metió con carácter en la final de la Copa Sudame"
           ]
         }
       }
@@ -97,14 +93,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 18,
           "ejemplos": [
-            "Elevan a juicio una causa por tortura y muerte de un detenido en Bouwer",
-            "Macron cruzó a Trump y otros líderes por sus dichos sobre los disturbios",
-            "Rompió un vehículo, robó pertenencias y fue detenido"
+            "Una motociclista resultó herida durante un accidente contra un camión en Av. Jap",
+            "AySA: la venta se firmará el 13 de noviembre y se desconoce quién controla el fo",
+            "El Hospital de Pronta Atención San Jorge cumple tres años con más de 126.000 adm"
           ]
         }
       }
@@ -112,14 +108,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 22,
+      "aceptadas": 26,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 31,
+          "cantidad": 32,
           "ejemplos": [
+            "Jubilados provinciales: la Caja oficializa nuevos coeficientes de actualización ",
             "El Tribunal del Mar puso fecha a las audiencias por el petróleo y crece la tensi",
-            "Juicio contra Lotocki: declaran tres denunciantes",
-            "Cervantes lanzó la nueva carrera en Logística"
+            "Juicio contra Lotocki: declaran tres denunciantes"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -135,7 +131,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 25,
+          "cantidad": 20,
           "ejemplos": [
             "Lula y Bolsonaro se cruzaron por corrupción y crimen organizado en un duro debat",
             "Milei desembarca en España en plena tensión europea y refuerza alianza con la de",
@@ -147,14 +143,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 16,
           "ejemplos": [
-            "La bronca de Alexa Miranda: “Me derrotó la impunidad con la que salió Oscar Gonz",
-            "Feria del Libro Córdoba 2026: convocan a escritores, ilustradores y narradores d",
-            "Piratas a todo o nada: la hazaña que busca Belgrano en la Libertadores"
+            "Fuerte choque en avenida Japón: una moto quedó atrapada contra un camión",
+            "Colapinto vuelve a correr en Estados Unidos: días y horarios del GP de Austin",
+            "Un nuevo ciclo de austeridad y violencia: las claves de la ola de protestas que "
           ]
         }
       }
@@ -174,14 +170,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 15,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 20,
           "ejemplos": [
+            "Mar del Plata más allá del verano: el hotel céntrico con cinco pisos de spa para",
             "Oscar González declarado homicida sin prisión: por qué el fallo dejó disconforme",
-            "Oscar González y un fallo salomónico: culpable, pero sin cárcel",
-            "Accastello celebró que Itatí Demarchi llegue al Consejo de la Magistratura: “Un "
+            "Oscar González y un fallo salomónico: culpable, pero sin cárcel"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -190,18 +186,12 @@
             "“No podemos dejar la situación así”: la Municipalidad reclama por el estado de l"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Elecciones en Brasil: \"La calle está con Lula, pero el problema es el voto del i"
-          ]
-        },
         "muy vieja": {
           "cantidad": 33,
           "ejemplos": [
-            "Liliana Montero: \"Milei le da el golpe de gracia al Remediar, están destruyendo ",
-            "Llaryora en la mesa de Juana Viale: \"Schiaretti hubiera sido un gran presidente ",
-            "Femicidio de Camila: el detenido se escondía en la casa de una amiga de su madre"
+            "Elecciones en Brasil: \"La calle está con Lula, pero el problema es el voto del i",
+            "Dos médicas y dos enfermeras fueron condenadas por la muerte de un recién nacido",
+            "Liliana Montero: \"Milei le da el golpe de gracia al Remediar, están destruyendo "
           ]
         }
       }
