@@ -587,3 +587,19 @@ html:has(dialog[open]) { overflow: hidden; }
 .tinta-lienzo { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 60; }
 html.tinta-pintando, html.tinta-pintando * { cursor: crosshair !important; user-select: none; }
 @media (hover: none) { .foto-principal img, .foto-card img { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; } }
+
+/* Modo oscuro: toda la franja de la cabecera queda en blanco (en vez del recuadro solo detrás de la marca) */
+:root[data-tema="oscuro"] .cabecera {
+  --bg: #ffffff; --bg-suave: #f3f3f1; --ink: #0b0b0b; --ink-2: #2a2a2a; --muted: #595959;
+  --line: #d6d6d6; --regla: #0b0b0b; --foco: #1f4fd8;
+  --marca-bg: transparent; --marca-pad: 0px;
+  background: var(--bg); color: var(--ink);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema]) .cabecera {
+    --bg: #ffffff; --bg-suave: #f3f3f1; --ink: #0b0b0b; --ink-2: #2a2a2a; --muted: #595959;
+    --line: #d6d6d6; --regla: #0b0b0b; --foco: #1f4fd8;
+    --marca-bg: transparent; --marca-pad: 0px;
+    background: var(--bg); color: var(--ink);
+  }
+}
