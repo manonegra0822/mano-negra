@@ -1,40 +1,59 @@
 {
-  "actualizado": "2026-10-22T08:25:04-03:00",
+  "actualizado": "2026-10-22T11:15:38-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 95,
           "ejemplos": [
-            "Bolaños: Acabar con los sistemas públicos de pensiones y salud también es barbar",
-            "La nueva película de 'Sentido y sensibilidad' y el debut de José Mota esta seman",
-            "Los discos de la semana: veinte años de 'Back to black', el legado vivo de Amy W"
+            "Tensión en el concierto de Jesse y Joy en el Auditorio Nacional: las miradas y l",
+            "Quién es Luisa González, la excandidata presidencial del correísmo detenida en E",
+            "Bayern Múnich confirmó la lesión que sufrió Luis Díaz ante Arsenal en la Champio"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Patricia Bullrich: “Estoy preparada para ser presidente, pero una tiene que sabe",
+            "Dura advertencia de un economista: “Si el consumo y la inversión no arrancan, va"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 6,
+      "leidas": 95,
+      "aceptadas": 10,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 81,
+          "cantidad": 78,
           "ejemplos": [
-            "Reducen la pista principal de Ezeiza por obras; los salarios registrados le gana",
-            "Arthur Brooks, catedrático de Harvard, de 62 años: “Sentirse feliz no es lo mism",
-            "Gabriel Rolón: “La felicidad es ese momento de eternidad donde lo que fuiste, qu"
+            "Caso Nanci Godoy: qué pasó con la docente que desapareció en Corrientes y cómo s",
+            "“Nunca vimos algo así”: la advertencia de la argentina que dirige el organismo m",
+            "El gobierno británico le declara la guerra a los que usan celulares sin auricula"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Dos funcionarios de Trump llegaron al país, con China y los acuerdos económicos "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "A cuánto llegarían la inflación y el dólar a fin de año, según proyecciones de e"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 5,
           "ejemplos": [
-            "“Octubre extraño”: anticipan otra gran cosecha de trigo para el país, pero acech",
-            "Lucas Maglio, ingeniero en acuicultura, sobre un negocio en auge: “Quizás haya l",
-            "Hay 40.000 hectáreas: el “cultivo estratégico” conectado con el mundo que promet"
+            "Pedro, un agricultor de 50 años que maneja 600 hectáreas: “Muevo 400.000 euros a",
+            "“La primera respuesta”: un informe advierte que las empresas agropecuarias obser",
+            "La frazada corta de los caminos rurales"
           ]
         }
       }
@@ -70,7 +89,7 @@
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "El fascismo y el espumante"
+            "“Argentina, allá vamos”: otro gesto del Papa de que su viaje sigue en pie"
           ]
         }
       }
@@ -78,14 +97,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 3,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 12,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Malvinas: convocan a una asamblea de representantes provinciales de los Veterano",
-            "Esperanzadora respuesta del Papa a dos curas cordobeses: «Allí estaré»",
-            "La fabricante de las camisetas de River, Boca y la Selección suspendió trabajado"
+            "Caminata por el Buen Trato: instituciones se reúnen en el Concejo"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 16,
+          "ejemplos": [
+            "Martín Fierro de Radio 2026: todos los ganadores",
+            "Materiales con identidad: piedra, ladrillo y otras texturas",
+            "Esperanzadora respuesta del Papa: «Argentina, allá vamos»"
           ]
         }
       }
@@ -93,14 +118,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 20,
+      "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 31,
           "ejemplos": [
+            "¿Cuáles son las legislaciones para las plataformas de iGaming en la Argentina ac",
             "España: bajó la litigiosidad pero subió la mora judicial",
-            "¿Qué necesita una víctima de la justicia?",
-            "Por legítima defensa, absolvieron a un automovilista que mató a otro tras una di"
+            "¿Qué necesita una víctima de la justicia?"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -111,11 +136,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 27,
+          "cantidad": 28,
           "ejemplos": [
-            "Llaryora, Pullaro y Frigerio muestran “músculo” antes del debate del Presupuesto",
-            "YPF proyecta un millón de barriles diarios: cómo se preparan los puertos",
-            "El superávit comercial no tiene techo y Milei destacó el aporte clave de la ener"
+            "CIMCC: datos rigurosos y articulación pública para impulsar la productividad ind",
+            "Corrientes, al límite por la crecida del Paraná: esperan el pico y ya hay 646 ev",
+            "El Gobierno reconoce que la economía crece menos de lo previsto, pero mantiene e"
           ]
         }
       }
@@ -123,14 +148,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
-            "El tiempo en Córdoba: inestabilidad, humedad y alta probabilidad de lluvias para",
-            "La decisión de Talleres por los dichos de Galarza tras la derrota ante Boca",
-            "Noche de definición en el Maracaná: ¿habrá hazaña de Estudiantes o festejo de Fl"
+            "Llega a Córdoba el Conifest, un festival por la Ciencia y la Educación Pública A",
+            "Detienen a dos sospechosos por el crimen de Dana Sosa en Villa La Tela",
+            "Con sufrimiento y penales, Palmeiras eliminó a Fluminense y va por otra Libertad"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Gobierno declaró como organizaciones terroristas al Cártel de Sinaloa, las FA"
           ]
         }
       }
@@ -150,28 +181,29 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 16,
+      "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 22,
+          "cantidad": 25,
           "ejemplos": [
-            "Por legítima defensa absolvieron a un automovilista que mató a otro tras una dis",
-            "El Niño en Córdoba: cuándo llegan las lluvias y cómo estará el tiempo el resto d",
-            "El TSJ rechazó el recurso de Adela Arning y la revocatoria sigue en marcha"
+            "Hallaron restos de ocho desaparecidos en La Perla: este viernes darán a conocer ",
+            "“La macro todavía no baja al plato”: Rossi por la visita del Papa León XIV",
+            "Hospital de Arroyito: la Provincia anunció refuerzos de personal y nuevo equipam"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "VIVO | Congreso de la UIC en Córdoba: La industria en el nuevo mapa mundial",
             "“No podemos dejar la situación así”: la Municipalidad reclama por el estado de l"
           ]
         },
         "muy vieja": {
-          "cantidad": 31,
+          "cantidad": 24,
           "ejemplos": [
-            "Millonaria multa a una verdulería de Villa Allende por arrojar residuos en Córdo",
-            "Juntos en la Región Centro, con diferencias ante Milei: el juego político de Fri",
-            "“Nos deben $ 750 millones, no somos delincuentes”: Duro reclamo de las cooperati"
+            "Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaro",
+            "Guillermo Robles: \"En el Estado no intentamos buscar a los mejores empleados, bu",
+            "Malamud por las protestas en Europa: \"En Francia se combina un malestar entre lo"
           ]
         }
       }
