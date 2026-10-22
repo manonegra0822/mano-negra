@@ -1,66 +1,40 @@
 {
-  "actualizado": "2026-10-21T20:19:48-03:00",
+  "actualizado": "2026-10-22T08:25:04-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 100,
           "ejemplos": [
-            "Pitbull anuncia una gira mundial y una edición de 'Pitcoin' con hasta 12 cancion",
-            "Emiratos nomina a la diplomática Lana Nusseibeh para suceder a Guterres al frent",
-            "El papa León no necesita tratamiento adicional para el cáncer de pulmón, dijeron"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Gabriel Katopodis: “Axel es el que está en mejores condiciones para 2027″"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Tras aprobar la Ley de Propiedad Privada, Diputados discutirá la emergencia en D"
+            "Bolaños: Acabar con los sistemas públicos de pensiones y salud también es barbar",
+            "La nueva película de 'Sentido y sensibilidad' y el debut de José Mota esta seman",
+            "Los discos de la semana: veinte años de 'Back to black', el legado vivo de Amy W"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 8,
+      "leidas": 96,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 73,
+          "cantidad": 81,
           "ejemplos": [
-            "Valter Longo, gerontólogo, cuenta su secreto para vivir más: “Suelo dejar unas t",
-            "Brad Pitt compró una finca de 500 hectáreas y la convirtió en una reserva agríco",
-            "Abierto de Tortugas: La Hache arrasó en un partido con ¡41 goles! sobre La Aguad"
+            "Reducen la pista principal de Ezeiza por obras; los salarios registrados le gana",
+            "Arthur Brooks, catedrático de Harvard, de 62 años: “Sentirse feliz no es lo mism",
+            "Gabriel Rolón: “La felicidad es ese momento de eternidad donde lo que fuiste, qu"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 9,
           "ejemplos": [
-            "Hay 40.000 hectáreas: el “cultivo estratégico” conectado con el mundo que promet",
-            "Myriam Bregman y Luis Petri tuvieron un tenso cruce por el islam que involucró a",
-            "Una empresa agropecuaria de la familia Brito pagó US$22,8 millones por un campo "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Vandalismo rural: Diputados aprobó un proyecto que prevé hasta 10 años de prisió",
-            "Sergio Massa dijo que “la sociedad le va a dar vuelta la página” al Gobierno en ",
-            "Fentanilo contaminado: Diputados aprobó un proyecto para rastrear medicamentos y"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Niño: el gobierno bonaerense lanzó una plataforma para consultar las lluvias "
+            "“Octubre extraño”: anticipan otra gran cosecha de trigo para el país, pero acech",
+            "Lucas Maglio, ingeniero en acuicultura, sobre un negocio en auge: “Quizás haya l",
+            "Hay 40.000 hectáreas: el “cultivo estratégico” conectado con el mundo que promet"
           ]
         }
       }
@@ -91,14 +65,12 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "León XIV no precisará ningún tratamiento adicional y mantiene su viaje a Argenti",
-            "Lemoine se burló de los vuelos de la muerte y la justicia le cerró la causa",
-            "Nico Paz sigue de racha: doblete en la Champions contra el Manchester United"
+            "El fascismo y el espumante"
           ]
         }
       }
@@ -111,9 +83,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 12,
           "ejemplos": [
-            "La fabricante de las camisetas de River, Boca y la Selección suspendió trabajado",
-            "Quinteros exigió a Belgrano Cargas medidas de seguridad tras la muerte del polic",
-            "León XIV no necesitará tratamiento oncológico tras la extirpación de un cáncer d"
+            "Malvinas: convocan a una asamblea de representantes provinciales de los Veterano",
+            "Esperanzadora respuesta del Papa a dos curas cordobeses: «Allí estaré»",
+            "La fabricante de las camisetas de River, Boca y la Selección suspendió trabajado"
           ]
         }
       }
@@ -121,34 +93,29 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 25,
+      "aceptadas": 20,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 27,
+          "cantidad": 31,
           "ejemplos": [
-            "Capital Humano homologó 19 acuerdos colectivos de distintos sectores",
-            "La UIA pidió infraestructura para que el gas de Vaca Muerta llegue a todo el paí",
-            "Jubilados provinciales: la Caja oficializa nuevos coeficientes de actualización "
+            "España: bajó la litigiosidad pero subió la mora judicial",
+            "¿Qué necesita una víctima de la justicia?",
+            "Por legítima defensa, absolvieron a un automovilista que mató a otro tras una di"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Detuvieron dos presidentes de colegios profesionales en la causa por presunta de",
             "Brecha de género: Argentina comparte el primer puesto mundial en educación, pero"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Brasil: intimaron a Meta a demostrar equidad en distribución de contenidos por e"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 26,
+          "cantidad": 27,
           "ejemplos": [
-            "Mientras reclama más financiamiento, la UNC cuadruplica el monto de las becas pa",
-            "Cáncer de mama: tres investigaciones argentinas buscan frenar la metástasis y me",
-            "La IPJ Córdoba reglamentó el régimen simplificado que exime de contabilidad trad"
+            "Llaryora, Pullaro y Frigerio muestran “músculo” antes del debate del Presupuesto",
+            "YPF proyecta un millón de barriles diarios: cómo se preparan los puertos",
+            "El superávit comercial no tiene techo y Milei destacó el aporte clave de la ener"
           ]
         }
       }
@@ -161,9 +128,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 16,
           "ejemplos": [
-            "Córdoba: hay alerta amarilla por tormentas para la tarde de este jueves 22 de oc",
-            "Epec informó cerca de una veintena de cortes de luz para este jueves en Córdoba",
-            "Cruz del Eje: dos detenidos por el femicidio de Camila Iglesias"
+            "El tiempo en Córdoba: inestabilidad, humedad y alta probabilidad de lluvias para",
+            "La decisión de Talleres por los dichos de Galarza tras la derrota ante Boca",
+            "Noche de definición en el Maracaná: ¿habrá hazaña de Estudiantes o festejo de Fl"
           ]
         }
       }
@@ -183,14 +150,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 15,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 22,
           "ejemplos": [
+            "Por legítima defensa absolvieron a un automovilista que mató a otro tras una dis",
             "El Niño en Córdoba: cuándo llegan las lluvias y cómo estará el tiempo el resto d",
-            "El TSJ rechazó el recurso de Adela Arning y la revocatoria sigue en marcha",
-            "Con un recital gratuito de La Sole Pastorutti, Mina Clavero lanza su temporada t"
+            "El TSJ rechazó el recurso de Adela Arning y la revocatoria sigue en marcha"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -200,11 +167,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 32,
+          "cantidad": 31,
           "ejemplos": [
-            "“Nos deben $ 750 millones, no somos delincuentes”: Duro reclamo de las cooperati",
-            "Córdoba Welcome: Con casi 540 mil trabajadores, los shows apuntan a los benefici",
-            "Juez federal de Córdoba declaró inconstitucional el tope a las jubilaciones doce"
+            "Millonaria multa a una verdulería de Villa Allende por arrojar residuos en Córdo",
+            "Juntos en la Región Centro, con diferencias ante Milei: el juego político de Fri",
+            "“Nos deben $ 750 millones, no somos delincuentes”: Duro reclamo de las cooperati"
           ]
         }
       }
