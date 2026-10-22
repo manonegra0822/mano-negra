@@ -39,22 +39,42 @@ def consultar():
     return compra, venta, fecha
 
 
+HORARIOS = ((10, 30), (15, 0))
+
+
+def ya_actualizado(previo, ahora):
+    """True si ya se consultó después del último horario programado (para las corridas de respaldo)."""
+    try:
+        ultimo = dt.datetime.fromisoformat(previo["consultado"])
+    except Exception:
+        return False
+    pasados = [ahora.replace(hour=h, minute=m, second=0, microsecond=0) for h, m in HORARIOS]
+    pasados = [x for x in pasados if x <= ahora]
+    return bool(pasados) and ultimo >= pasados[-1]
+
+
 def main():
-    ahora = dt.datetime.now(TZ).isoformat(timespec="minutes")
+    ahora_dt = dt.datetime.now(TZ)
+    ahora = ahora_dt.isoformat(timespec="minutes")
     previo = leer_previo()
+    if "--si-falta" in sys.argv and previo.get("vigente") and ya_actualizado(previo, ahora_dt):
+        print("[ok] Ya se actualizó en el último horario; no hace falta repetir.")
+        return
     try:
         compra, venta, fecha = consultar()
         datos = {
             "nombre": "Dólar oficial",
             "compra": compra,
             "venta": venta,
-            "actualizado": fecha or ahora,
+            # Fecha que se muestra en la página: el momento en que se verificó la cotización
+            "actualizado": ahora,
             "consultado": ahora,
+            "fecha_fuente": fecha,
             "fuente": "dolarapi.com",
             "vigente": True,
         }
         # Se guarda la cotización anterior para mostrar si subió o bajó
-        if previo.get("venta") and previo.get("actualizado") != datos["actualizado"]:
+        if previo.get("venta") and (previo.get("venta"), previo.get("compra")) != (venta, compra):
             datos["anterior"] = {k: previo.get(k) for k in ("compra", "venta", "actualizado")}
         elif previo.get("anterior"):
             datos["anterior"] = previo["anterior"]

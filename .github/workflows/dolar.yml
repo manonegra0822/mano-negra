@@ -5,8 +5,12 @@ on:
   # de Argentina (13:30 y 18:00 UTC).
   # GitHub puede demorar unos minutos en arrancar las tareas programadas.
   schedule:
-    - cron: "30 13 * * *"
-    - cron: "0 18 * * *"
+    - cron: "30 13 * * *"   # 10:30
+    - cron: "10 14 * * *"   # respaldo 11:10 (solo corre si la anterior no llegó a ejecutarse)
+    - cron: "50 14 * * *"   # respaldo 11:50
+    - cron: "0 18 * * *"    # 15:00
+    - cron: "40 18 * * *"   # respaldo 15:40
+    - cron: "20 19 * * *"   # respaldo 16:20
   # Botón "Run workflow" en la pestaña Actions
   workflow_dispatch:
 
@@ -31,7 +35,8 @@ jobs:
           python-version: "3.12"
 
       - name: Consultar el dólar oficial y rearmar la página
-        run: python dolar.py
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then python dolar.py --si-falta; else python dolar.py; fi
 
       - name: Guardar cambios
         run: |
