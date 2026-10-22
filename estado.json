@@ -1,60 +1,66 @@
 {
-  "actualizado": "2026-10-22T12:16:52-03:00",
+  "actualizado": "2026-10-22T13:27:52-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 96,
           "ejemplos": [
-            "99% de los 169 casos de asesinatos de periodistas en México no se llegó al autor",
-            "Leo Messi: \"Oviedo va a ser una ciudad muy especial que me va a dejar un lindo r",
-            "Juan Manuel Vieites, elegido como presidente del Consejo Iberoamericano de la CE"
+            "¿Quién es Pilar Roldán? La primera medallista olímpica mujer mexicana que hizo h",
+            "Científicos entrenan inteligencia artificial para identificar abejas por su zumb",
+            "Consejo de Estado admitió demanda de pérdida de investidura contra Daniel Briceñ"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Discapacidad y tierras: la sesión dejó ganadores y perdedores que no admiten la "
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Anti low-cost: cuál es la nueva línea aérea que comenzará a operar vuelos de cab"
+            "Restringen la operación del Ezeiza por 18 días: qué pasará con los vuelos durant"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 7,
+      "leidas": 92,
+      "aceptadas": 5,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Aerolíneas volvió a las pérdidas por la crisis en Medio Oriente",
-            "Pedro, un agricultor de 50 años que maneja 600 hectáreas: “Muevo 400.000 euros a",
-            "“La primera respuesta”: un informe advierte que las empresas agropecuarias obser"
-          ]
-        },
         "sección no permitida": {
-          "cantidad": 80,
+          "cantidad": 79,
           "ejemplos": [
-            "Un club de Paraguay intentó imponer un código de vestimenta para periodistas y d",
-            "La montañita de yerba, el campeonato más insólito del mate",
-            "Elecciones Brasil 2026, EN VIVO: Lula vs. Flávio Bolsonaro camino al balotaje, h"
+            "Tras la ejecución fallida, Christa Pike ya puede hablar y caminar",
+            "Temporada de Escorpio: cómo aprovechar la energía del mes zodiacal según tu sign",
+            "Caso Nanci Godoy: qué pasó con la docente que desapareció en Corrientes y cómo s"
           ]
         },
         "sin ancla argentina": {
+          "cantidad": 4,
+          "ejemplos": [
+            "“Es el momento”: una industria que mueve US$15.000 millones pidió eliminar aranc",
+            "“Gran paso”: el campo celebró la media sanción de una ley que busca endurecer la",
+            "Sergio Iraeta reconoció que hay impuestos y aranceles que afectan a la industria"
+          ]
+        },
+        "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "Sergio Iraeta reconoció que hay impuestos y aranceles que afectan a la industria",
-            "La economía se estancó en agosto y quedó a las puertas de la recesión",
-            "A cuánto llegarían la inflación y el dólar a fin de año, según proyecciones de e"
+            "El Grupo One traerá LC Waikiki y acelera la expansión de Bestseller",
+            "Millones en juego: una jueza de Estados Unidos le abrió una puerta a Bioceres Cr",
+            "Aerolíneas volvió a las pérdidas por la crisis en Medio Oriente"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Dos funcionarios de Trump llegaron al país, con China y los acuerdos económicos "
+            "Procesaron a José Luis Espert por lavado de dinero y le prohibieron salir del pa"
           ]
         }
       }
@@ -90,7 +96,7 @@
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "“Argentina, allá vamos”: otro gesto del Papa de que su viaje sigue en pie"
+            "Un país lleno de pelotudos"
           ]
         }
       }
@@ -98,26 +104,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
-            "UNC Corre 2026: una jornada deportiva para disfrutar de Ciudad Universitaria",
-            "Investigan el femicidio de la docente rural Nancy Godoy",
-            "Mosevich y el sueño de Instituto: a un paso de hacer historia"
+            "Llegan los anuncios publicitarios a la versión gratuita de ChatGPT",
+            "Estela de Carlotto cumple 96 años y su nieto la homenajeó en redes",
+            "Sorteo de entradas: participá por pases para Talleres vs. Defensa y Justicia"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "El Gobierno declaró como organizaciones terroristas a cinco grupos criminales y "
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Caminata por el Buen Trato: instituciones se reúnen en el Concejo"
           ]
         }
       }
@@ -128,11 +128,11 @@
       "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 32,
+          "cantidad": 30,
           "ejemplos": [
+            "Comisión Arbitral: oficializan prórrogas de vencimientos por feriados y el calen",
             "Compras por courier: en septiembre superaron lo gastado en todo el año pasado y ",
-            "¿Cuáles son las legislaciones para las plataformas de iGaming en la Argentina ac",
-            "España: bajó la litigiosidad pero subió la mora judicial"
+            "¿Cuáles son las legislaciones para las plataformas de iGaming en la Argentina ac"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -143,11 +143,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 27,
+          "cantidad": 29,
           "ejemplos": [
-            "La Justicia rechazó el pedido de Espert para frenar la investigación por presunt",
-            "CIMCC: datos rigurosos y articulación pública para impulsar la productividad ind",
-            "Corrientes, al límite por la crecida del Paraná: esperan el pico y ya hay 646 ev"
+            "El TSJ de Córdoba moderniza el Sistema de Concurrencias Profesionales en la Just",
+            "Choque en las Altas Cumbres: condena de tres años de prisión condicional e inhab",
+            "Tras la sentencia a González, la querella irá a Casación y la defensa evalúa rec"
           ]
         }
       }
@@ -161,8 +161,8 @@
           "cantidad": 17,
           "ejemplos": [
             "Llega a Córdoba el Conifest, un festival por la Ciencia y la Educación Pública A",
-            "Munir Bracco celebró la llegada del Papa León XIV a Córdoba",
-            "Se viene la maratón “UNC Corre 2026”: cómo y dónde inscribirse"
+            "Messi llegó a España para recibir un premio histórico y recordó a su papá Jorge",
+            "Munir Bracco celebró la llegada del Papa León XIV a Córdoba"
           ]
         },
         "otro país": {
@@ -191,11 +191,11 @@
       "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 23,
+          "cantidad": 24,
           "ejemplos": [
+            "Caja de Previsión: tras detenciones de autoridades, arquitectos e ingenieros lle",
             "Córdoba empieza a monitorear con drones el arrojo ilegal de basura en la vía púb",
-            "Hallaron restos de ocho desaparecidos en La Perla: este viernes darán a conocer ",
-            "“La macro todavía no baja al plato”: Rossi por la visita del Papa León XIV"
+            "Hallaron restos de ocho desaparecidos en La Perla: este viernes darán a conocer "
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -206,7 +206,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 26,
+          "cantidad": 25,
           "ejemplos": [
             "Casi 6 de cada 10 ópticas de Córdoba vendieron menos anteojos que hace un año",
             "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p",
