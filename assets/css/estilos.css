@@ -344,7 +344,6 @@ figure.sin-foto { display: none; }
   .cab-nombre span { display: inline; }
   .cab-logo { height: calc(clamp(4rem, 10vw, 9.6rem) * .8); }
   .cab-pie { grid-template-columns: 1fr auto 1fr; align-items: end; }
-  .cab-pie::before { content: ""; }
   .cab-fecha { justify-self: end; text-align: right; }
 
   .lead { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 40px; align-items: start; padding-top: 32px; }
@@ -557,3 +556,34 @@ html:has(dialog[open]) { overflow: hidden; }
   .panel-acciones { grid-template-columns: 1fr 1fr; }
 }
 @media (min-width: 1240px) { .herr-txt { display: inline; } }
+
+/* =========================================================================================
+   Buscar en la cabecera (computadora) y tinta del puntero
+   ========================================================================================= */
+.buscar-cab { display: none; }
+@media (min-width: 960px) {
+  /* La lupa de la barra aparece solo cuando la cabecera (con su botón Buscar) ya no se ve */
+  .herramientas .buscar-btn { padding: 0; width: 44px; }
+  .herramientas .buscar-btn .herr-txt { display: none; }
+  .herramientas .buscar-btn .lupa { margin: -3px 0 0 -3px; }
+  .cab-visible .herramientas .buscar-btn { display: none; }
+  .cab-pie { align-items: center; }
+  .buscar-cab { display: inline-flex; justify-self: start; border: 1px solid var(--regla); padding: 0 16px; font-size: .8125rem; }
+  .buscar-cab:hover { background: var(--ink); color: var(--bg); }
+}
+:root { --tinta-rojo: #b8332e; --tinta-amarillo: #d4a12a; --tinta-magenta: #b02f78; }
+.tinta { display: none; }
+@media (hover: hover) and (pointer: fine) {
+  .js .tinta:not([hidden]) { display: flex; align-items: center; gap: 0; min-height: 44px; padding: 0 5px; border: 1px solid var(--regla); }
+}
+.tinta-btn { position: relative; width: 22px; height: 32px; padding: 0; background: none; border: 0; cursor: pointer; }
+.tinta-btn::before { content: ""; position: absolute; inset: 0; margin: auto; width: 14px; height: 14px; border-radius: 50%; background: var(--t); }
+.tinta-btn[aria-pressed="true"]::after { content: ""; position: absolute; inset: 0; margin: auto; width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--ink); box-sizing: border-box; }
+.tinta-no::before { background: none; border: 2px solid var(--muted); box-sizing: border-box; }
+.tinta-no::after { content: ""; position: absolute; left: 50%; top: 50%; width: 2px; height: 14px; background: var(--muted); transform: translate(-50%, -50%) rotate(45deg); }
+.tinta-no[aria-pressed="true"]::before { border-color: var(--ink); width: 22px; height: 22px; }
+.tinta-no[aria-pressed="true"]::after { background: var(--ink); height: 22px; border: 0; border-radius: 0; width: 2px; }
+.tinta-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+.tinta-lienzo { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 60; }
+html.tinta-pintando, html.tinta-pintando * { cursor: crosshair !important; user-select: none; }
+@media (hover: none) { .foto-principal img, .foto-card img { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; } }
