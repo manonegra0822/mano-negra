@@ -603,3 +603,15 @@ html.tinta-pintando, html.tinta-pintando * { cursor: crosshair !important; user-
     background: var(--bg); color: var(--ink);
   }
 }
+
+/* Modo oscuro: la franja de la marca del pie también queda en blanco, de lado a lado */
+:root[data-tema="oscuro"] .pie-marca {
+  --marca-bg: transparent; --marca-ink: #0b0b0b; --marca-pad: 0px;
+  background: #fff; box-shadow: 0 0 0 100vmax #fff; clip-path: inset(0 -100vmax); border-top-color: #fff; padding-bottom: 18px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema]) .pie-marca {
+    --marca-bg: transparent; --marca-ink: #0b0b0b; --marca-pad: 0px;
+    background: #fff; box-shadow: 0 0 0 100vmax #fff; clip-path: inset(0 -100vmax); border-top-color: #fff; padding-bottom: 18px;
+  }
+}
