@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-22T12:07:02-03:00",
+  "actualizado": "2026-10-22T12:16:52-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,15 +9,15 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Gustavo Petro reaccionó a la aprobación del proyecto de ley de sometimiento de A",
-            "La reflexión de Messi sobre la época dorada del FC Barcelona días antes del Clás",
-            "Cuba envejece con una mayoría femenina entre los mayores de 60 años"
+            "99% de los 169 casos de asesinatos de periodistas en México no se llegó al autor",
+            "Leo Messi: \"Oviedo va a ser una ciudad muy especial que me va a dejar un lindo r",
+            "Juan Manuel Vieites, elegido como presidente del Consejo Iberoamericano de la CE"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Alemania aprobó una pensión para niños desde los 6 años: el Estado aportará 10 e"
+            "Anti low-cost: cuál es la nueva línea aérea que comenzará a operar vuelos de cab"
           ]
         }
       }
@@ -27,12 +27,20 @@
       "leidas": 96,
       "aceptadas": 7,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Aerolíneas volvió a las pérdidas por la crisis en Medio Oriente",
+            "Pedro, un agricultor de 50 años que maneja 600 hectáreas: “Muevo 400.000 euros a",
+            "“La primera respuesta”: un informe advierte que las empresas agropecuarias obser"
+          ]
+        },
         "sección no permitida": {
           "cantidad": 80,
           "ejemplos": [
-            "El divertido entrenamiento estilo cowboy de Franco Colapinto en la previa del GP",
-            "Es venezolano y pide ser deportado tras siete meses detenido por el ICE: “Aquí a",
-            "El informe del DHS que revela cómo la administración Trump deportó a casi un mil"
+            "Un club de Paraguay intentó imponer un código de vestimenta para periodistas y d",
+            "La montañita de yerba, el campeonato más insólito del mate",
+            "Elecciones Brasil 2026, EN VIVO: Lula vs. Flávio Bolsonaro camino al balotaje, h"
           ]
         },
         "sin ancla argentina": {
@@ -47,14 +55,6 @@
           "cantidad": 1,
           "ejemplos": [
             "Dos funcionarios de Trump llegaron al país, con China y los acuerdos económicos "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Pedro, un agricultor de 50 años que maneja 600 hectáreas: “Muevo 400.000 euros a",
-            "“La primera respuesta”: un informe advierte que las empresas agropecuarias obser",
-            "La frazada corta de los caminos rurales"
           ]
         }
       }
