@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-22T14:07:37-03:00",
+  "actualizado": "2026-10-22T14:08:39-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -36,31 +36,31 @@
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
+      "leidas": 90,
       "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 76,
+          "cantidad": 75,
           "ejemplos": [
-            "Un cardiólogo explicó por qué cada vez hay más más infartos en la Argentina y re",
-            "Díaz Ayuso defendió a Milei en la Asamblea de Madrid y una legisladora nacida en",
-            "Elecciones Brasil 2026, EN VIVO: Lula vs. Flávio Bolsonaro camino al balotaje, h"
+            "Desarmó su computadora para limpiarla después de varios años y quedó impactado c",
+            "El hermano de George Bush dijo que votó por Talarico en Texas y cuestionó a los ",
+            "Un cardiólogo explicó por qué cada vez hay más más infartos en la Argentina y re"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "Los “reyes de la mentira”, del upgrade a la desesperación. Los chats y mensajes ",
+            "El Grupo One traerá LC Waikiki y acelera la expansión de Bestseller",
+            "Millones en juego: una jueza de Estados Unidos le abrió una puerta a Bioceres Cr"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "“Es el momento”: una industria que mueve US$15.000 millones pidió eliminar aranc",
             "“Gran paso”: el campo celebró la media sanción de una ley que busca endurecer la",
             "Sergio Iraeta reconoció que hay impuestos y aranceles que afectan a la industria"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El Grupo One traerá LC Waikiki y acelera la expansión de Bestseller",
-            "Millones en juego: una jueza de Estados Unidos le abrió una puerta a Bioceres Cr",
-            "Aerolíneas volvió a las pérdidas por la crisis en Medio Oriente"
           ]
         },
         "otro país": {
