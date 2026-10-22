@@ -22,6 +22,7 @@ var l=null;try{l=localStorage.getItem("mn-letra")}catch(e){}if(l==="1"||l==="2")
 <link rel="stylesheet" href="assets/css/estilos.css?v={{V:assets/css/estilos.css}}">
 <link rel="stylesheet" href="intro/intro.css?v={{V:intro/intro.css}}">
 <script src="assets/js/main.js?v={{V:assets/js/main.js}}" defer></script>
+<script src="assets/js/tinta.js?v={{V:assets/js/tinta.js}}" defer></script>
 <script src="intro/intro.js?v={{V:intro/intro.js}}" defer></script>
 </head>
 <body>
@@ -77,6 +78,12 @@ var l=null;try{l=localStorage.getItem("mn-letra")}catch(e){}if(l==="1"||l==="2")
       <button class="herr-btn buscar-btn" type="button" aria-label="Buscar en las notas" aria-keyshortcuts="/">
         <span class="lupa" aria-hidden="true"></span><span class="herr-txt">Buscar</span>
       </button>
+      <div class="tinta" role="group" aria-label="Color de la tinta del puntero" hidden>
+        <button class="tinta-btn" type="button" data-tinta="rojo" aria-label="Tinta roja" aria-pressed="false" style="--t:var(--tinta-rojo)"></button>
+        <button class="tinta-btn" type="button" data-tinta="amarillo" aria-label="Tinta amarilla" aria-pressed="false" style="--t:var(--tinta-amarillo)"></button>
+        <button class="tinta-btn" type="button" data-tinta="magenta" aria-label="Tinta magenta" aria-pressed="false" style="--t:var(--tinta-magenta)"></button>
+        <button class="tinta-btn tinta-no" type="button" data-tinta="no" aria-label="Apagar la tinta" aria-pressed="false"></button>
+      </div>
       <div class="letra" role="group" aria-label="Tamaño de letra">
         <button class="herr-btn letra-btn" type="button" data-letra="-1" aria-label="Achicar la letra">A−</button>
         <button class="herr-btn letra-btn" type="button" data-letra="1" aria-label="Agrandar la letra">A+</button>
@@ -103,6 +110,9 @@ var l=null;try{l=localStorage.getItem("mn-letra")}catch(e){}if(l==="1"||l==="2")
       <h1 class="cab-nombre"><span>Mano</span> <span>Negra</span></h1>
     </div>
     <div class="cab-pie">
+      <button class="herr-btn buscar-btn buscar-cab" type="button" aria-label="Buscar en las notas" aria-keyshortcuts="/">
+        <span class="lupa" aria-hidden="true"></span><span>Buscar</span>
+      </button>
       <p class="cab-lema">Todos los medios en un solo lugar.</p>
       <p class="cab-fecha">{{FECHA}}</p>
     </div>

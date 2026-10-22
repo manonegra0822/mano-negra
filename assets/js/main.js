@@ -336,8 +336,8 @@
   /* ---- Buscador ---- */
   function iniciarBuscador() {
     var dlg = document.getElementById("buscador");
-    var btn = document.querySelector(".buscar-btn");
-    if (!dlg || !btn || typeof dlg.showModal !== "function") { if (btn) btn.hidden = true; return; }
+    var btns = Array.prototype.slice.call(document.querySelectorAll(".buscar-btn")), btn = btns[0];
+    if (!dlg || !btn || typeof dlg.showModal !== "function") { btns.forEach(function (b) { b.hidden = true; }); return; }
     var input = dlg.querySelector(".busc-input"), res = dlg.querySelector(".busc-res"), estado = dlg.querySelector(".busc-estado");
     var lista = Object.keys(NOTAS).map(function (id) {
       var n = NOTAS[id];
@@ -360,8 +360,8 @@
         li.appendChild(b); res.appendChild(li);
       });
     }
-    function abrir() { dlg.showModal(); input.focus(); input.select(); buscar(); }
-    btn.addEventListener("click", abrir);
+    function abrir(ev) { if (ev && ev.currentTarget && ev.currentTarget.nodeType === 1) btn = ev.currentTarget; dlg.showModal(); input.focus(); input.select(); buscar(); }
+    btns.forEach(function (b) { b.addEventListener("click", abrir); });
     input.addEventListener("input", buscar);
     dlg.querySelector("[data-b='cerrar']").addEventListener("click", function () { dlg.close(); btn.focus(); });
     dlg.addEventListener("click", function (ev) { if (ev.target === dlg) dlg.close(); });
