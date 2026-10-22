@@ -1,51 +1,52 @@
 {
-  "actualizado": "2026-10-22T11:15:38-03:00",
+  "actualizado": "2026-10-22T12:07:02-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 99,
           "ejemplos": [
-            "Tensión en el concierto de Jesse y Joy en el Auditorio Nacional: las miradas y l",
-            "Quién es Luisa González, la excandidata presidencial del correísmo detenida en E",
-            "Bayern Múnich confirmó la lesión que sufrió Luis Díaz ante Arsenal en la Champio"
+            "Gustavo Petro reaccionó a la aprobación del proyecto de ley de sometimiento de A",
+            "La reflexión de Messi sobre la época dorada del FC Barcelona días antes del Clás",
+            "Cuba envejece con una mayoría femenina entre los mayores de 60 años"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 2,
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
           "ejemplos": [
-            "Patricia Bullrich: “Estoy preparada para ser presidente, pero una tiene que sabe",
-            "Dura advertencia de un economista: “Si el consumo y la inversión no arrancan, va"
+            "Alemania aprobó una pensión para niños desde los 6 años: el Estado aportará 10 e"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 10,
+      "leidas": 96,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 78,
+          "cantidad": 80,
           "ejemplos": [
-            "Caso Nanci Godoy: qué pasó con la docente que desapareció en Corrientes y cómo s",
-            "“Nunca vimos algo así”: la advertencia de la argentina que dirige el organismo m",
-            "El gobierno británico le declara la guerra a los que usan celulares sin auricula"
+            "El divertido entrenamiento estilo cowboy de Franco Colapinto en la previa del GP",
+            "Es venezolano y pide ser deportado tras siete meses detenido por el ICE: “Aquí a",
+            "El informe del DHS que revela cómo la administración Trump deportó a casi un mil"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Sergio Iraeta reconoció que hay impuestos y aranceles que afectan a la industria",
+            "La economía se estancó en agosto y quedó a las puertas de la recesión",
+            "A cuánto llegarían la inflación y el dólar a fin de año, según proyecciones de e"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Dos funcionarios de Trump llegaron al país, con China y los acuerdos económicos "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "A cuánto llegarían la inflación y el dólar a fin de año, según proyecciones de e"
           ]
         },
         "titular sin tema de política/economía": {
@@ -99,18 +100,24 @@
       "leidas": 20,
       "aceptadas": 3,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 15,
+          "ejemplos": [
+            "UNC Corre 2026: una jornada deportiva para disfrutar de Ciudad Universitaria",
+            "Investigan el femicidio de la docente rural Nancy Godoy",
+            "Mosevich y el sueño de Instituto: a un paso de hacer historia"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Gobierno declaró como organizaciones terroristas a cinco grupos criminales y "
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "Caminata por el Buen Trato: instituciones se reúnen en el Concejo"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 16,
-          "ejemplos": [
-            "Martín Fierro de Radio 2026: todos los ganadores",
-            "Materiales con identidad: piedra, ladrillo y otras texturas",
-            "Esperanzadora respuesta del Papa: «Argentina, allá vamos»"
           ]
         }
       }
@@ -121,11 +128,11 @@
       "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 31,
+          "cantidad": 32,
           "ejemplos": [
+            "Compras por courier: en septiembre superaron lo gastado en todo el año pasado y ",
             "¿Cuáles son las legislaciones para las plataformas de iGaming en la Argentina ac",
-            "España: bajó la litigiosidad pero subió la mora judicial",
-            "¿Qué necesita una víctima de la justicia?"
+            "España: bajó la litigiosidad pero subió la mora judicial"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -136,11 +143,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 28,
+          "cantidad": 27,
           "ejemplos": [
+            "La Justicia rechazó el pedido de Espert para frenar la investigación por presunt",
             "CIMCC: datos rigurosos y articulación pública para impulsar la productividad ind",
-            "Corrientes, al límite por la crecida del Paraná: esperan el pico y ya hay 646 ev",
-            "El Gobierno reconoce que la economía crece menos de lo previsto, pero mantiene e"
+            "Corrientes, al límite por la crecida del Paraná: esperan el pico y ya hay 646 ev"
           ]
         }
       }
@@ -154,8 +161,8 @@
           "cantidad": 17,
           "ejemplos": [
             "Llega a Córdoba el Conifest, un festival por la Ciencia y la Educación Pública A",
-            "Detienen a dos sospechosos por el crimen de Dana Sosa en Villa La Tela",
-            "Con sufrimiento y penales, Palmeiras eliminó a Fluminense y va por otra Libertad"
+            "Munir Bracco celebró la llegada del Papa León XIV a Córdoba",
+            "Se viene la maratón “UNC Corre 2026”: cómo y dónde inscribirse"
           ]
         },
         "otro país": {
@@ -184,11 +191,11 @@
       "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 25,
+          "cantidad": 23,
           "ejemplos": [
+            "Córdoba empieza a monitorear con drones el arrojo ilegal de basura en la vía púb",
             "Hallaron restos de ocho desaparecidos en La Perla: este viernes darán a conocer ",
-            "“La macro todavía no baja al plato”: Rossi por la visita del Papa León XIV",
-            "Hospital de Arroyito: la Provincia anunció refuerzos de personal y nuevo equipam"
+            "“La macro todavía no baja al plato”: Rossi por la visita del Papa León XIV"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -199,11 +206,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 24,
+          "cantidad": 26,
           "ejemplos": [
-            "Protesta contra el PAMI en Córdoba: intendentes salieron a la calle y denunciaro",
-            "Guillermo Robles: \"En el Estado no intentamos buscar a los mejores empleados, bu",
-            "Malamud por las protestas en Europa: \"En Francia se combina un malestar entre lo"
+            "Casi 6 de cada 10 ópticas de Córdoba vendieron menos anteojos que hace un año",
+            "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p",
+            "Oncativo tendrá una nueva circunvalación: licitan una obra de $20.100 millones p"
           ]
         }
       }

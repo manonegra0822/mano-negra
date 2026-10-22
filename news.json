@@ -1,26 +1,31 @@
 {
-  "actualizado": "2026-10-22T11:15:38-03:00",
+  "actualizado": "2026-10-22T12:07:02-03:00",
   "notas": [
     {
-      "id": "f31f0e8703",
-      "seccion": "economia",
-      "rel": 33.9,
-      "relevancia": 33.9,
-      "fecha": "2026-10-22T10:52:15-03:00",
-      "hora": "10:52",
-      "titulo": "El riesgo país argentino vuelve a superar los 700 puntos ante un complejo escenario externo",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/economia/2026/10/22/el-riesgo-pais-argentino-vuelve-a-superar-los-700-puntos-ante-un-complejo-escenario-externo/",
+      "id": "bb06d43e6b",
+      "seccion": "cordoba",
+      "rel": 45.6,
+      "relevancia": 45.6,
+      "fecha": "2026-10-22T09:46:00-03:00",
+      "hora": "09:46",
+      "titulo": "El arzobispo de Córdoba le respondió a Milei: “Si la gente dice que no llega, es porque no llega”",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/el-arzobispo-de-cordoba-le-respondio-a-milei-si-la-gente-dice-que-no-llega-es-porque-no-llega/",
       "acceso": "abierto",
-      "resumen": "Los índices de Wall Street caen más de 1% después de balances de empresas tecnológicas, mientras el petróleo sube 3% y acrecienta los temores por la inflación",
+      "resumen": "El Arzobispo de Córdoba, Ángel Rossi, le respondió al presidente Javier Milei, luego de que el primer mandatario calificara esta semana de “pelotudez” a quienes dicen que no llegan a fin de mes con sus ingresos.A tres semanas de la visita de León XIV a la Argentina, el vicepresidente primero del Episcopado, volvió a alertar […]",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/4FDE2TJVBBGJFACYX2O2ZTYHDI.JPG?auth=39a57813cca72c01ed9db90a3d32050d9694372816da2dc91974be59145e2832&smart=true&width=5662&height=3774",
-      "imagen_credito": "Infobae",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/32BDJKAINJGSZH6NKKPSKJWXAM.jpg?auth=48f5601b7a73e91f79f1a5adada3c282424ac5b68d4d9f7e41a4ea919a241f6d&smart=true&width=1920&height=1280",
+      "imagen_credito": "Página/12",
       "otros": [
         {
-          "fuente": "La Nación",
-          "titulo": "El riesgo país supera los 700 puntos y vuelve al valor máximo del año",
-          "url": "https://www.lanacion.com.ar/economia/el-riesgo-pais-supera-los-700-puntos-y-vuelve-al-valor-maximo-del-ano-nid22102026/"
+          "fuente": "Página/12",
+          "titulo": "Se derrumbó la imagen de Milei tras burlarse de la gente que no llega a fin de mes",
+          "url": "https://www.pagina12.com.ar/2026/10/22/se-derrumbo-la-imagen-de-milei-tras-burlarse-de-la-gente-que-no-llega-a-fin-de-mes/"
+        },
+        {
+          "fuente": "Perfil",
+          "titulo": "Encuesta: la imagen negativa de Milei trepó al 56% tras sus dichos sobre la gente que no llega a fin de mes",
+          "url": "https://www.perfil.com/noticias/cordoba/encuesta-la-imagen-negativa-de-milei-trepo-al-56-tras-sus-dichos-sobre-la-gente-que-no-llega-a-fin-de-mes.phtml"
         }
       ],
       "dia": 0,
@@ -29,15 +34,15 @@
     {
       "id": "7d6cb3d8b4",
       "seccion": "cordoba",
-      "rel": 33.9,
-      "relevancia": 33.9,
-      "fecha": "2026-10-22T06:56:39-03:00",
-      "hora": "06:56",
+      "rel": 34.0,
+      "relevancia": 34.0,
+      "fecha": "2026-10-22T11:22:00-03:00",
+      "hora": "11:22",
       "titulo": "El dólar en Córdoba: a cuánto cotiza este jueves 22 de octubre",
       "fuente": "Perfil",
       "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-22-de-octubre-221026.phtml",
       "acceso": "abierto",
-      "resumen": "Este jueves 22 de octubre el dólar oficial en el Banco Nación se vende a 1.495 pesos y cotiza a 1.545 pesos para la compra. Leer más",
+      "resumen": "Este jueves 22 de octubre el dólar oficial en el Banco Nación se vende a 1.500 pesos y cotiza a 1.550 pesos para la compra. Leer más",
       "impacto": null,
       "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/dolares-2350363.jpg",
       "imagen_credito": "Perfil",
@@ -52,10 +57,38 @@
       "rostros": null
     },
     {
+      "id": "59bb39b8b0",
+      "seccion": "economia",
+      "rel": 33.9,
+      "relevancia": 33.9,
+      "fecha": "2026-10-22T11:39:21-03:00",
+      "hora": "11:39",
+      "titulo": "El riesgo país vuelve a superar los 700 puntos en el inicio de las operaciones de este jueves",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/el-riesgo-pais-vuelve-a-superar-los-700-puntos-en-el-inicio-de-las-operaciones-de-este-jueves/",
+      "acceso": "abierto",
+      "resumen": "El indicador que elabora JP Morgan saltó a 703 unidades, con un alza de 29 puntos con relación al último cierre. El avance es producto de una nueva caída de los bonos argentinos, que muestran bajas de hasta 0,9%. Este movimiento es producto de la continuidad de un escenario internacional adverso, donde el precio del […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/09/riesgopais-1024x768-1.webp",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [
+        {
+          "fuente": "Infobae",
+          "titulo": "El riesgo país argentino vuelve a superar los 700 puntos ante un complejo escenario externo",
+          "url": "https://www.infobae.com/economia/2026/10/22/el-riesgo-pais-argentino-vuelve-a-superar-los-700-puntos-ante-un-complejo-escenario-externo/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.29,
+        "y1": 0.515
+      }
+    },
+    {
       "id": "bac162df92",
       "seccion": "cordoba",
-      "rel": 33.6,
-      "relevancia": 33.6,
+      "rel": 33.5,
+      "relevancia": 33.5,
       "fecha": "2026-10-22T08:46:16-03:00",
       "hora": "08:46",
       "titulo": "Rodríguez Machado defendió la nueva ley de discapacidad y cuestionó a los diputados de Córdoba que votaron en contra",
@@ -72,31 +105,6 @@
         "y0": 0.136,
         "y1": 0.688
       }
-    },
-    {
-      "id": "8c06a560ad",
-      "seccion": "cordoba",
-      "rel": 33.4,
-      "relevancia": 33.4,
-      "fecha": "2026-10-22T05:51:51-03:00",
-      "hora": "05:51",
-      "titulo": "Diputados: se votó la vuelta a comisiones del proyecto sobre Endeudamiento Familiar",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/diputados-se-voto-la-vuelta-a-comisiones-del-proyecto-sobre-endeudamiento-familiar/",
-      "acceso": "abierto",
-      "resumen": "En un final polémico, y después de más de 15 horas de sesión, la Cámara de Diputados aprobó la vuelta a comisiones del proyecto sobre Endeudamiento Familiar, luego de que quedara en evidencia que el oficialismo no tenía los votos para sancionar su propia iniciativa. A las 3.30 de la madrugada, a raíz de una […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/02/recinto-camara-de-diputados-sesion-reforma-laboral-1.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Diputados aprobó la vuelta a comisiones del proyecto sobre Endeudamiento Familiar",
-          "url": "https://hoydia.com.ar/politica/nacional/el-proyecto-de-endeudamiento-familiar-volvio-a-comision-por-falta-de-votos/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "e4a95ce97e",
@@ -199,28 +207,6 @@
       }
     },
     {
-      "id": "946c48c299",
-      "seccion": "economia",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-22T10:58:29-03:00",
-      "hora": "10:58",
-      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este jueves 22 de octubre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-jueves-22-de-octubre-nid22102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/QKTFXMJBP5FXVJVB33H2G7TPKE.jpg?auth=5b5af16f1dc4284fd7a2d40a55d62e89d36b17763195a9d828f0af19ae49f15a&smart=true&width=740&height=493",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.333,
-        "y1": 0.669
-      }
-    },
-    {
       "id": "4047e25e27",
       "seccion": "economia",
       "rel": 22.0,
@@ -265,36 +251,17 @@
       }
     },
     {
-      "id": "d7b064d918",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-22T10:46:29-03:00",
-      "hora": "10:46",
-      "titulo": "Ley de Discapacidad: el oficialismo logró el apoyo de UxP y se aprobó el proyecto con mayoría",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/ley-de-discapacidad-el-oficialismo-logro-el-apoyo-de-uxp-y-se-aprobo-el-proyecto-con-mayoria/",
-      "acceso": "abierto",
-      "resumen": "Con el acuerdo de los bloques mayoritarios, la Cámara baja le dio media sanción al proyecto con el que se busca superar la ley de emergencia que vence a fin de año.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/Camara-de-Diputados-1024x683-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "eafd12cf76",
       "seccion": "argentina",
       "rel": 21.9,
       "relevancia": 21.9,
-      "fecha": "2026-10-22T10:31:25-03:00",
-      "hora": "10:31",
+      "fecha": "2026-10-22T11:46:55-03:00",
+      "hora": "11:46",
       "titulo": "Javier Milei y sus medidas, en vivo: durante su gira en Madrid, el mandatario acusó al presidente español de “dictador”",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
       "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y declaraciones de los funcionarios",
       "impacto": null,
       "imagen": "https://resizer.glanacion.com/resizer/v2/MJ4VVCRKJFHLPNDGXNFBUYV35Q.jpg?auth=100a783afa23052985bac628f958176799e7907b2514c0e1fd15adb1c4b5f083&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
@@ -303,6 +270,28 @@
       "rostros": {
         "y0": 0.112,
         "y1": 0.556
+      }
+    },
+    {
+      "id": "9af47f875c",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T11:38:41-03:00",
+      "hora": "11:38",
+      "titulo": "José Luis Manzano compró un 21% del holding de medios de Javier Negre y refuerza su alineamiento con la gestión de Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/jose-luis-manzano-compro-un-21-del-holding-de-medios-de-javier-negre-y-refuerza-su-alineamiento-con-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "El empresario argentino, que amplió sus negocios en el país con el libertario, adquirió una porción de los medios que el militante de derecha tiene en España y Estados Unidos; la operación no incluye La Derecha Diario",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/6CUPFCLUVNBGDGPDJUERNQOHPI.jpg?auth=67c04ba9bf195269e121b68e8f66bb148c3a326fab89435ec51b65b84fcb0d79&smart=true&width=1360&height=910",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.145,
+        "y1": 0.91
       }
     },
     {
@@ -391,36 +380,39 @@
       }
     },
     {
-      "id": "9be7e98a15",
-      "seccion": "argentina",
+      "id": "946c48c299",
+      "seccion": "economia",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-10-22T10:01:34-03:00",
-      "hora": "10:01",
-      "titulo": "Sin respuesta para las familias endeudadas: el oficialismo devolvió el proyecto a comisión",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/22/sin-respuesta-para-las-familias-endeudadas-el-oficialismo-devolvio-el-proyecto-a-comision/",
+      "fecha": "2026-10-22T10:58:29-03:00",
+      "hora": "10:58",
+      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este jueves 22 de octubre",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-jueves-22-de-octubre-nid22102026/",
       "acceso": "suscripcion",
-      "resumen": "La Libertad Avanza bloqueó las iniciativas opositoras pero no pudo juntar los votos para impulsar su propio dictamen. El proyecto volvió a comisiones y el oficialismo rechazó establecer una fecha para debatirlo.",
+      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LVCPIEIFURHKXKABISCEHJ6J3I.JPG?auth=dba154e6db0d8cd829bff683b26666bb1566fea9c334b035d0749cd267b9f220&smart=true&width=2000&height=1333",
-      "imagen_credito": "Página/12",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/QKTFXMJBP5FXVJVB33H2G7TPKE.jpg?auth=5b5af16f1dc4284fd7a2d40a55d62e89d36b17763195a9d828f0af19ae49f15a&smart=true&width=740&height=493",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.333,
+        "y1": 0.669
+      }
     },
     {
-      "id": "bb06d43e6b",
+      "id": "d7b064d918",
       "seccion": "cordoba",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-10-22T09:46:00-03:00",
-      "hora": "09:46",
-      "titulo": "El arzobispo de Córdoba le respondió a Milei: “Si la gente dice que no llega, es porque no llega”",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-arzobispo-de-cordoba-le-respondio-a-milei-si-la-gente-dice-que-no-llega-es-porque-no-llega/",
+      "fecha": "2026-10-22T10:46:29-03:00",
+      "hora": "10:46",
+      "titulo": "Ley de Discapacidad: el oficialismo logró el apoyo de UxP y se aprobó el proyecto con mayoría",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/ley-de-discapacidad-el-oficialismo-logro-el-apoyo-de-uxp-y-se-aprobo-el-proyecto-con-mayoria/",
       "acceso": "abierto",
-      "resumen": "El Arzobispo de Córdoba, Ángel Rossi, le respondió al presidente Javier Milei, luego de que el primer mandatario calificara esta semana de “pelotudez” a quienes dicen que no llegan a fin de mes con sus ingresos.A tres semanas de la visita de León XIV a la Argentina, el vicepresidente primero del Episcopado, volvió a alertar […]",
+      "resumen": "Con el acuerdo de los bloques mayoritarios, la Cámara baja le dio media sanción al proyecto con el que se busca superar la ley de emergencia que vence a fin de año.",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
@@ -545,6 +537,25 @@
       }
     },
     {
+      "id": "9be7e98a15",
+      "seccion": "argentina",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-22T10:01:34-03:00",
+      "hora": "10:01",
+      "titulo": "Sin respuesta para las familias endeudadas: el oficialismo devolvió el proyecto a comisión",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/22/sin-respuesta-para-las-familias-endeudadas-el-oficialismo-devolvio-el-proyecto-a-comision/",
+      "acceso": "suscripcion",
+      "resumen": "La Libertad Avanza bloqueó las iniciativas opositoras pero no pudo juntar los votos para impulsar su propio dictamen. El proyecto volvió a comisiones y el oficialismo rechazó establecer una fecha para debatirlo.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LVCPIEIFURHKXKABISCEHJ6J3I.JPG?auth=dba154e6db0d8cd829bff683b26666bb1566fea9c334b035d0749cd267b9f220&smart=true&width=2000&height=1333",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "8d9e14e15b",
       "seccion": "argentina",
       "rel": 21.7,
@@ -648,8 +659,8 @@
     {
       "id": "f41ab57b8d",
       "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
+      "rel": 21.4,
+      "relevancia": 21.4,
       "fecha": "2026-10-22T08:25:00-03:00",
       "hora": "08:25",
       "titulo": "Ley de Discapacidad: Sin los diputados de Llaryora, el gobierno logró aprobar su proyecto con el peronismo",
@@ -660,13 +671,7 @@
       "impacto": null,
       "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/ley-de-discapacidad-aprobada-en-el-congreso-2353939.jpg",
       "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "El Gobierno consiguió aprobar su proyecto de discapacidad con el respaldo del peronismo",
-          "url": "https://www.lanacion.com.ar/politica/el-oficialismo-logro-el-apoyo-del-peronismo-y-se-encamina-a-aprobar-su-proyecto-de-discapacidad-nid21102026/"
-        }
-      ],
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
@@ -690,22 +695,22 @@
       "rostros": null
     },
     {
-      "id": "bf7eefd658",
+      "id": "8c06a560ad",
       "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
-      "fecha": "2026-10-21T11:24:55-03:00",
-      "hora": "11:24",
-      "titulo": "Milei culpó a la oposición y a la volatilidad global por la suba del riesgo país",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/milei-culpo-a-la-oposicion-y-a-la-volatilidad-global-por-la-suba-del-riesgo-pais-y-prometio-un-crecimiento-historico/",
+      "rel": 21.0,
+      "relevancia": 21.0,
+      "fecha": "2026-10-22T05:51:51-03:00",
+      "hora": "05:51",
+      "titulo": "Diputados: se votó la vuelta a comisiones del proyecto sobre Endeudamiento Familiar",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/diputados-se-voto-la-vuelta-a-comisiones-del-proyecto-sobre-endeudamiento-familiar/",
       "acceso": "abierto",
-      "resumen": "Durante su exposición en el Foro Nueva Economía de Madrid, el Presidente defendió su programa económico, cuestionó con dureza al kirchnerismo y pronosticó que Argentina podría alcanzar la categoría de país apto para inversiones.",
+      "resumen": "En un final polémico, y después de más de 15 horas de sesión, la Cámara de Diputados aprobó la vuelta a comisiones del proyecto sobre Endeudamiento Familiar, luego de que quedara en evidencia que el oficialismo no tenía los votos para sancionar su propia iniciativa. A las 3.30 de la madrugada, a raíz de una […]",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": null
     },
     {
@@ -728,25 +733,6 @@
       "rostros": null
     },
     {
-      "id": "76d49a49b8",
-      "seccion": "cordoba",
-      "rel": 20.2,
-      "relevancia": 20.2,
-      "fecha": "2026-10-22T00:22:57-03:00",
-      "hora": "00:22",
-      "titulo": "El \"espíritu papal\" descomprime la guerra entre el PJ y la UCR: la Unicameral vuelve al recinto el 28",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/el-espiritu-papal-descomprime-la-guerra-entre-el-pj-y-la-ucr-la-unicameral-vuelve-al-recinto-el-28.phtml",
-      "acceso": "abierto",
-      "resumen": "La sesión del 28 de octubre marcará el regreso al recinto tras semanas de alta tensión. El oficialismo y la oposición buscan bajar la espuma al conflicto político, pero persisten los cuestionamientos por la parálisis legislativa. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/emilce-cuda-recibio-reconocimiento-de-la-legislatura-2353881.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "121ecb5494",
       "seccion": "cordoba",
       "rel": 20.1,
@@ -763,6 +749,25 @@
       "imagen_credito": null,
       "otros": [],
       "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "76d49a49b8",
+      "seccion": "cordoba",
+      "rel": 20.0,
+      "relevancia": 20.0,
+      "fecha": "2026-10-22T00:22:57-03:00",
+      "hora": "00:22",
+      "titulo": "El \"espíritu papal\" descomprime la guerra entre el PJ y la UCR: la Unicameral vuelve al recinto el 28",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/el-espiritu-papal-descomprime-la-guerra-entre-el-pj-y-la-ucr-la-unicameral-vuelve-al-recinto-el-28.phtml",
+      "acceso": "abierto",
+      "resumen": "La sesión del 28 de octubre marcará el regreso al recinto tras semanas de alta tensión. El oficialismo y la oposición buscan bajar la espuma al conflicto político, pero persisten los cuestionamientos por la parálisis legislativa. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/emilce-cuda-recibio-reconocimiento-de-la-legislatura-2353881.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
       "rostros": null
     },
     {
@@ -825,8 +830,8 @@
     {
       "id": "9bf054a410",
       "seccion": "argentina",
-      "rel": 19.8,
-      "relevancia": 19.8,
+      "rel": 19.7,
+      "relevancia": 19.7,
       "fecha": "2026-10-22T10:11:59-03:00",
       "hora": "10:11",
       "titulo": "“Daba pena”: el imperdible editorial de Víctor Hugo Morales sobre Milei en Madrid",
@@ -847,8 +852,8 @@
     {
       "id": "3c43521599",
       "seccion": "cordoba",
-      "rel": 19.8,
-      "relevancia": 19.8,
+      "rel": 19.6,
+      "relevancia": 19.6,
       "fecha": "2026-10-22T09:50:00-03:00",
       "hora": "09:50",
       "titulo": "El empresario Teddy Karagozian, exasesor del presidente Milei, inició su concurso preventivo",
