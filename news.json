@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-22T13:27:52-03:00",
+  "actualizado": "2026-10-22T14:07:37-03:00",
   "notas": [
     {
       "id": "bb06d43e6b",
       "seccion": "cordoba",
-      "rel": 45.4,
-      "relevancia": 45.4,
+      "rel": 45.3,
+      "relevancia": 45.3,
       "fecha": "2026-10-22T09:46:00-03:00",
       "hora": "09:46",
       "titulo": "El arzobispo de Córdoba le respondió a Milei: “Si la gente dice que no llega, es porque no llega”",
@@ -34,8 +34,8 @@
     {
       "id": "7d6cb3d8b4",
       "seccion": "cordoba",
-      "rel": 33.8,
-      "relevancia": 33.8,
+      "rel": 33.9,
+      "relevancia": 33.9,
       "fecha": "2026-10-22T11:22:00-03:00",
       "hora": "11:22",
       "titulo": "El dólar en Córdoba: a cuánto cotiza este jueves 22 de octubre",
@@ -53,25 +53,6 @@
           "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid22102026/"
         }
       ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "ee87b6c45e",
-      "seccion": "cordoba",
-      "rel": 31.8,
-      "relevancia": 31.8,
-      "fecha": "2026-10-22T12:40:16-03:00",
-      "hora": "12:40",
-      "titulo": "Hotesur-Los Sauces: las claves del juicio que afrontarán Cristina y Máximo Kirchner",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/hotesur-los-sauces-las-claves-del-juicio-que-afrontaran-cristina-y-maximo-kirchner/",
-      "acceso": "abierto",
-      "resumen": "Este viernes comienza el debate tras la unificación de las causas. La expresidenta y el diputado podrán participar de la primera audiencia de forma virtual.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/Cristina-Kirchner-optimized.png",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
       "dia": 0,
       "rostros": null
     },
@@ -101,28 +82,6 @@
       "rostros": {
         "y0": 0.016,
         "y1": 0.655
-      }
-    },
-    {
-      "id": "eafd12cf76",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-22T13:22:23-03:00",
-      "hora": "13:22",
-      "titulo": "Javier Milei y sus medidas, en vivo: durante su gira en Madrid, el mandatario acusó al presidente español de “dictador”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/MJ4VVCRKJFHLPNDGXNFBUYV35Q.jpg?auth=100a783afa23052985bac628f958176799e7907b2514c0e1fd15adb1c4b5f083&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.112,
-        "y1": 0.556
       }
     },
     {
@@ -236,6 +195,132 @@
       }
     },
     {
+      "id": "22aea672a2",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T13:48:13-03:00",
+      "hora": "13:48",
+      "titulo": "Bullrich pidió que Milei acelere los acuerdos para dar gobernabilidad y advirtió: “En 2025 terminamos atados a Bessent”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/bullrich-pidio-que-milei-acelere-los-acuerdos-para-dar-gobernabilidad-y-advirtio-en-2025-terminamos-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "La jefa de senadores de LLA reclamó que la Casa Rosada cierre las alianzas con sus socios para evitar turbulencias financieras en 2027 y prescindir de un eventual auxilio del secretario del Tesoro de EE.UU.",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/PL2X436S7BD7XIT52S2PKD23TQ.JPG?auth=6f02cc1226862a2dba6a8adac99c14c242a0f23b36ae1999d4bb84ba387f25bd&smart=true&width=1335&height=890",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.301,
+        "y1": 0.796
+      }
+    },
+    {
+      "id": "a97c948592",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T13:42:53-03:00",
+      "hora": "13:42",
+      "titulo": "Economía argentina: cuánto debería crecer la actividad para no caer en recesión",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/economia-argentina-cuanto-deberia-crecer-la-actividad-para-no-caer-en-recesion-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "El EMAE debería aumentar un 8,5% mensual para no entrar en recesión técnica",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/44YZCVNCUZC5DOIVNTBWMFGICI.jpg?auth=343a6699c677908b7cfc1cc391f087ac0ab6d84c136a75346c80258a2b5c7fab&smart=true&width=1360&height=765",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "eafd12cf76",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T13:39:19-03:00",
+      "hora": "13:39",
+      "titulo": "Javier Milei y sus medidas, en vivo: durante su gira en Madrid, el mandatario acusó al presidente español de “dictador”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/MJ4VVCRKJFHLPNDGXNFBUYV35Q.jpg?auth=100a783afa23052985bac628f958176799e7907b2514c0e1fd15adb1c4b5f083&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.112,
+        "y1": 0.556
+      }
+    },
+    {
+      "id": "61ecb0c16f",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T13:38:27-03:00",
+      "hora": "13:38",
+      "titulo": "El camporista Tignanelli criticó el proyecto de Kicillof para 2027 y dijo que “no hay diálogo” con los Kirchner",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/el-camporista-tignanelli-cuestiono-el-proyecto-politico-de-kicillof-y-subrayo-que-no-hay-dialogo-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "El jefe del bloque de diputados bonaerenses del PJ subrayó que el gobernador no habla con Cristina desde hace un año y reprochó que La Cámpora se entera “por los medios” de sus iniciativas",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/H23HKL64YZFQXEMK332NPLI22Q.jpeg?auth=d8552bcdd1c7a7896253dee2679e76565a6f554056526c4dfde49bf6f0c4d845&smart=true&width=1600&height=1066",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.251,
+        "y1": 0.569
+      }
+    },
+    {
+      "id": "f67d1eadfa",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T13:31:00-03:00",
+      "hora": "13:31",
+      "titulo": "Coloquio Industrial en Córdoba: Martín Llaryora abre una jornada clave",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/coloquio-industrial-en-cordoba--martin-llaryora-abre-una-jornada-clave_a6ada39ab1773f855c7f1ba28",
+      "acceso": "abierto",
+      "resumen": "La Unión Industrial de Córdoba lleva a cabo su 18.º coloquio en el Centro de Convenciones, con actividades hasta las 19:00. La agenda incluye la participación del gobernador y una entrevista con Diego Santilli.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ada3bef1773f855c7f1d666/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "d382660aca",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T13:23:39-03:00",
+      "hora": "13:23",
+      "titulo": "Bullrich vuelve a encender la interna en el Gobierno y no descarta ser candidata en 2027",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/22/bullrich-vuelve-a-encender-la-interna-en-el-gobierno-y-no-descarta-ser-candidata-en-2027/",
+      "acceso": "suscripcion",
+      "resumen": "La senadora apuntó contra la dependencia económica del Gobierno y aseguró que “no nos puede pasar como en 2025 que terminamos atados de Bessent”. También coqueteó con la idea de candidatearse a la Presidencia.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MJSDEOBTHBSGKNDGGVQTAMJZGM.jpg?auth=4476059b77ccde57e5063a8c90dea816682b5eb10f12243957c6203d2ad16076&smart=true&width=2100&height=1400",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.148,
+        "y1": 0.584
+      }
+    },
+    {
       "id": "26118efdc0",
       "seccion": "argentina",
       "rel": 21.9,
@@ -255,69 +340,6 @@
       "rostros": {
         "y0": 0.157,
         "y1": 0.498
-      }
-    },
-    {
-      "id": "22aea672a2",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-22T13:03:56-03:00",
-      "hora": "13:03",
-      "titulo": "Bullrich pidió que Milei acelere los acuerdos para dar gobernabilidad y advirtió: “En 2025 terminamos atados a Bessent”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/bullrich-pidio-que-milei-acelere-los-acuerdos-para-dar-gobernabilidad-y-advirtio-en-2025-terminamos-nid22102026/",
-      "acceso": "suscripcion",
-      "resumen": "La jefa de senadores de LLA reclamó que LLA cierre las alianzas con sus socios para evitar turbulencias financieras en 2027 y prescindir de un eventual auxilio del secretario del Tesoro de EE.UU.",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/PL2X436S7BD7XIT52S2PKD23TQ.JPG?auth=6f02cc1226862a2dba6a8adac99c14c242a0f23b36ae1999d4bb84ba387f25bd&smart=true&width=1335&height=890",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.301,
-        "y1": 0.796
-      }
-    },
-    {
-      "id": "8c20f06e19",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-22T13:00:45-03:00",
-      "hora": "13:00",
-      "titulo": "Argentina en el puesto 23 del ranking de crecimiento económico de América en 2026",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/argentina-quedara-en-el-puesto-23-del-ranking-de-crecimiento-economico-de-america-en-2026/",
-      "acceso": "abierto",
-      "resumen": "El FMI recortó a 2,1% su previsión de expansión para el país, 1,4 puntos porcentuales menos que lo estimado en abril. La proyección se ubica por debajo del promedio regional, mientras Javier Milei anticipa un fuerte crecimiento para los próximos años y cuestiona las advertencias sobre las dificultades de las familias para llegar a fin de mes.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "39aa1ed428",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-22T12:53:00-03:00",
-      "hora": "12:53",
-      "titulo": "Libros en movimiento: una campaña de la UNC para fortalecer las bibliotecas escolares en Córdoba",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/libros-en-movimiento--una-campana-de-la-unc-para-fortalecer-las-bibliotecas-escolares-en-cordoba_a6ada31691773f855c7f14c58",
-      "acceso": "abierto",
-      "resumen": "Es una colecta organizada por la Secretaría de Extensión de la Universidad Nacional de Córdoba, en contacto con diversas organizaciones locales. Cómo donar.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/67ddd894e39bb2cb996e626f/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.317,
-        "y1": 0.762
       }
     },
     {
@@ -403,6 +425,47 @@
       "rostros": {
         "y0": 0.169,
         "y1": 0.961
+      }
+    },
+    {
+      "id": "8c20f06e19",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-22T13:00:45-03:00",
+      "hora": "13:00",
+      "titulo": "Argentina en el puesto 23 del ranking de crecimiento económico de América en 2026",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/argentina-quedara-en-el-puesto-23-del-ranking-de-crecimiento-economico-de-america-en-2026/",
+      "acceso": "abierto",
+      "resumen": "El FMI recortó a 2,1% su previsión de expansión para el país, 1,4 puntos porcentuales menos que lo estimado en abril. La proyección se ubica por debajo del promedio regional, mientras Javier Milei anticipa un fuerte crecimiento para los próximos años y cuestiona las advertencias sobre las dificultades de las familias para llegar a fin de mes.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "39aa1ed428",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-22T12:53:00-03:00",
+      "hora": "12:53",
+      "titulo": "Libros en movimiento: una campaña de la UNC para fortalecer las bibliotecas escolares en Córdoba",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/libros-en-movimiento--una-campana-de-la-unc-para-fortalecer-las-bibliotecas-escolares-en-cordoba_a6ada31691773f855c7f14c58",
+      "acceso": "abierto",
+      "resumen": "Es una colecta organizada por la Secretaría de Extensión de la Universidad Nacional de Córdoba, en contacto con diversas organizaciones locales. Cómo donar.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/67ddd894e39bb2cb996e626f/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.317,
+        "y1": 0.762
       }
     },
     {
@@ -522,28 +585,6 @@
       }
     },
     {
-      "id": "9af47f875c",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-22T11:38:41-03:00",
-      "hora": "11:38",
-      "titulo": "José Luis Manzano compró un 21% del holding de medios de Javier Negre y refuerza su alineamiento con la gestión de Milei",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/jose-luis-manzano-compro-un-21-del-holding-de-medios-de-javier-negre-y-refuerza-su-alineamiento-con-nid22102026/",
-      "acceso": "suscripcion",
-      "resumen": "El empresario argentino, que amplió sus negocios en el país con el libertario, adquirió una porción de los medios que el militante de derecha tiene en España y Estados Unidos; la operación no incluye La Derecha Diario",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/6CUPFCLUVNBGDGPDJUERNQOHPI.jpg?auth=67c04ba9bf195269e121b68e8f66bb148c3a326fab89435ec51b65b84fcb0d79&smart=true&width=1360&height=910",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.145,
-        "y1": 0.91
-      }
-    },
-    {
       "id": "d7b064d918",
       "seccion": "cordoba",
       "rel": 21.7,
@@ -623,6 +664,28 @@
       "rostros": null
     },
     {
+      "id": "9af47f875c",
+      "seccion": "argentina",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-22T11:38:41-03:00",
+      "hora": "11:38",
+      "titulo": "José Luis Manzano compró un 21% del holding de medios de Javier Negre y refuerza su alineamiento con la gestión de Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/jose-luis-manzano-compro-un-21-del-holding-de-medios-de-javier-negre-y-refuerza-su-alineamiento-con-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "El empresario argentino, que amplió sus negocios en el país con el libertario, adquirió una porción de los medios que el militante de derecha tiene en España y Estados Unidos; la operación no incluye La Derecha Diario",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/6CUPFCLUVNBGDGPDJUERNQOHPI.jpg?auth=67c04ba9bf195269e121b68e8f66bb148c3a326fab89435ec51b65b84fcb0d79&smart=true&width=1360&height=910",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.145,
+        "y1": 0.91
+      }
+    },
+    {
       "id": "78efe01bf5",
       "seccion": "argentina",
       "rel": 21.6,
@@ -664,28 +727,6 @@
       "rostros": null
     },
     {
-      "id": "6f019dff62",
-      "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
-      "fecha": "2026-10-22T08:58:03-03:00",
-      "hora": "08:58",
-      "titulo": "Ley de Propiedad Privada: qué se aprobó y cómo votaron los diputados cordobeses",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/ley-de-propiedad-privada-que-se-voto-y-como-votaron-los-legisladores-cordobeses.phtml",
-      "acceso": "abierto",
-      "resumen": "La Cámara de Diputados aprobó el proyecto de Inviolabilidad de la Propiedad Privada impulsado por el oficialismo tras una ajustada votación. En la discusión se reincorporó la Ley de Tierras Rurales y las abstenciones de los diputados cordobeses resultaron determinantes para el resultado. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/la-camara-de-diputados-aprobo-la-ley-de-propiedad-privada-2353925.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.062,
-        "y1": 0.419
-      }
-    },
-    {
       "id": "72e19e25ac",
       "seccion": "cordoba",
       "rel": 21.3,
@@ -705,10 +746,32 @@
       "rostros": null
     },
     {
+      "id": "6f019dff62",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-10-22T08:58:03-03:00",
+      "hora": "08:58",
+      "titulo": "Ley de Propiedad Privada: qué se aprobó y cómo votaron los diputados cordobeses",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/ley-de-propiedad-privada-que-se-voto-y-como-votaron-los-legisladores-cordobeses.phtml",
+      "acceso": "abierto",
+      "resumen": "La Cámara de Diputados aprobó el proyecto de Inviolabilidad de la Propiedad Privada impulsado por el oficialismo tras una ajustada votación. En la discusión se reincorporó la Ley de Tierras Rurales y las abstenciones de los diputados cordobeses resultaron determinantes para el resultado. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/la-camara-de-diputados-aprobo-la-ley-de-propiedad-privada-2353925.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.062,
+        "y1": 0.419
+      }
+    },
+    {
       "id": "bac162df92",
       "seccion": "cordoba",
-      "rel": 21.2,
-      "relevancia": 21.2,
+      "rel": 21.1,
+      "relevancia": 21.1,
       "fecha": "2026-10-22T08:46:16-03:00",
       "hora": "08:46",
       "titulo": "Rodríguez Machado defendió la nueva ley de discapacidad y cuestionó a los diputados de Córdoba que votaron en contra",
@@ -729,8 +792,8 @@
     {
       "id": "f41ab57b8d",
       "seccion": "cordoba",
-      "rel": 21.2,
-      "relevancia": 21.2,
+      "rel": 21.0,
+      "relevancia": 21.0,
       "fecha": "2026-10-22T08:25:00-03:00",
       "hora": "08:25",
       "titulo": "Ley de Discapacidad: Sin los diputados de Llaryora, el gobierno logró aprobar su proyecto con el peronismo",
@@ -767,8 +830,8 @@
     {
       "id": "8c06a560ad",
       "seccion": "cordoba",
-      "rel": 20.7,
-      "relevancia": 20.7,
+      "rel": 20.6,
+      "relevancia": 20.6,
       "fecha": "2026-10-22T05:51:51-03:00",
       "hora": "05:51",
       "titulo": "Diputados: se votó la vuelta a comisiones del proyecto sobre Endeudamiento Familiar",
@@ -795,63 +858,6 @@
       "url": "https://hoydia.com.ar/politica/cordoba/passerini-sobre-oscar-gonzalez-hay-que-dejar-actuar-a-la-justicia-y-avanzar-con-las-apelaciones/",
       "acceso": "abierto",
       "resumen": "En entrevistas con medios locales, el intendente de Córdoba se refirió a la condena del ex legislador y remarcó la necesidad de mantener el rigor institucional. Asimismo, defendió las nuevas medidas de control interno en el municipio, como la exigencia de certificados de buena conducta y narcotest para toda la planta de empleados.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "01e94fc5f6",
-      "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-21T20:30:00-03:00",
-      "hora": "20:30",
-      "titulo": "Mega sesión en Diputados: aprobaron la Ley de Tierras y pasa al Senado",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/mega-sesion-en-diputados--aprobaron-la-ley-de-tierras-y-pasa-al-senado_a6ad8b1d9920f762ed295540c",
-      "acceso": "abierto",
-      "resumen": "La Cámara Baja restituyó la normativa de 2011 en el proyecto de Inviolabilidad de la Propiedad Privada que debe volver al Senado. También se aprobó el aumento de penas por vandalismo rural y el Sistema Nacional de Alerta y Trazabilidad de Eventos Críticos en Salud. Se debate la ley de Discapacidad.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ad8ba1d920f762ed295dfb2/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "efad958032",
-      "seccion": "cordoba",
-      "rel": 19.9,
-      "relevancia": 19.9,
-      "fecha": "2026-10-21T19:34:57-03:00",
-      "hora": "19:34",
-      "titulo": "Bullrich vuelve a amenazar con una candidatura y reclamó medidas para la población",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/bullrich-reclamo-medidas-para-aliviar-la-sitacion-economica-de-la-poblacion/",
-      "acceso": "abierto",
-      "resumen": "La senadora de La Libertad Avanza pidió medidas para reactivar la industria y el comercio en otro mensaje que la diferencia del relato de la Casa Rosada.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "3825949e6e",
-      "seccion": "economia",
-      "rel": 19.9,
-      "relevancia": 19.9,
-      "fecha": "2026-10-21T19:33:15-03:00",
-      "hora": "19:33",
-      "titulo": "Los salarios registrados subieron 2,6% en agosto y le ganaron a la inflación",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/salarios-registrados-inflacion-agosto/",
-      "acceso": "abierto",
-      "resumen": "Subieron 2,6% mensual y acumularon un alza de 21,5% frente al 21,3% de los precios. Sin embargo, perdieron 3,1% interanual en términos reales.",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,

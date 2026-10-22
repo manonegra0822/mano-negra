@@ -1,44 +1,50 @@
 {
-  "actualizado": "2026-10-22T13:27:52-03:00",
+  "actualizado": "2026-10-22T14:07:37-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 96,
           "ejemplos": [
-            "¿Quién es Pilar Roldán? La primera medallista olímpica mujer mexicana que hizo h",
-            "Científicos entrenan inteligencia artificial para identificar abejas por su zumb",
-            "Consejo de Estado admitió demanda de pérdida de investidura contra Daniel Briceñ"
+            "Se robaron el Niño Jesús de tradicional parroquia de Medellín: la imagen se recu",
+            "La excandidata Luisa González denuncia \"dictadura de Noboa\" en Ecuador tras ser ",
+            "(Pre) El Barça busca resarcirse ante el Granada en Liga F Moeve y el Real Madrid"
           ]
         },
-        "sin ancla argentina": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Discapacidad y tierras: la sesión dejó ganadores y perdedores que no admiten la "
+            "El secretario de Finanzas pronosticó calma en 2027: \"Hay poca munición para corr"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Restringen la operación del Ezeiza por 18 días: qué pasará con los vuelos durant"
+            "Por la suba del combustible en medio de la guerra, Aerolíneas Argentinas volvió "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El consumo masivo volvió a caer en septiembre y acumula una baja del 2,7% en el "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 5,
+      "leidas": 91,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 79,
+          "cantidad": 76,
           "ejemplos": [
-            "Tras la ejecución fallida, Christa Pike ya puede hablar y caminar",
-            "Temporada de Escorpio: cómo aprovechar la energía del mes zodiacal según tu sign",
-            "Caso Nanci Godoy: qué pasó con la docente que desapareció en Corrientes y cómo s"
+            "Un cardiólogo explicó por qué cada vez hay más más infartos en la Argentina y re",
+            "Díaz Ayuso defendió a Milei en la Asamblea de Madrid y una legisladora nacida en",
+            "Elecciones Brasil 2026, EN VIVO: Lula vs. Flávio Bolsonaro camino al balotaje, h"
           ]
         },
         "sin ancla argentina": {
@@ -91,8 +97,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Procesaron a José Luis Espert por lavado de dinero: le prohibieron salir del paí"
+          ]
+        },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
@@ -104,20 +116,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
-            "Llegan los anuncios publicitarios a la versión gratuita de ChatGPT",
-            "Estela de Carlotto cumple 96 años y su nieto la homenajeó en redes",
-            "Sorteo de entradas: participá por pases para Talleres vs. Defensa y Justicia"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno declaró como organizaciones terroristas a cinco grupos criminales y "
+            "Francia restringe las protestas tras los disturbios y autoriza solo marchas sind",
+            "Llega la segunda edición del CONIFest 2026 en el MMAU",
+            "Llegan los anuncios publicitarios a la versión gratuita de ChatGPT"
           ]
         }
       }
@@ -155,14 +161,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
+            "Rescate en el Río Suquía: un efectivo de la Policía de Córdoba se arrojó al agua",
             "Llega a Córdoba el Conifest, un festival por la Ciencia y la Educación Pública A",
-            "Messi llegó a España para recibir un premio histórico y recordó a su papá Jorge",
-            "Munir Bracco celebró la llegada del Papa León XIV a Córdoba"
+            "Messi llegó a España para recibir un premio histórico y recordó a su papá Jorge"
           ]
         },
         "otro país": {
@@ -191,7 +197,7 @@
       "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 24,
+          "cantidad": 25,
           "ejemplos": [
             "Caja de Previsión: tras detenciones de autoridades, arquitectos e ingenieros lle",
             "Córdoba empieza a monitorear con drones el arrojo ilegal de basura en la vía púb",
@@ -206,11 +212,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 25,
+          "cantidad": 24,
           "ejemplos": [
+            "Autopista 19: la obra que conectará a Luque con la región suma un nuevo tramo ha",
             "Casi 6 de cada 10 ópticas de Córdoba vendieron menos anteojos que hace un año",
-            "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p",
-            "Oncativo tendrá una nueva circunvalación: licitan una obra de $20.100 millones p"
+            "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p"
           ]
         }
       }
