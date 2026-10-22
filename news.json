@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-22T14:08:39-03:00",
+  "actualizado": "2026-10-22T14:13:48-03:00",
   "notas": [
     {
       "id": "bb06d43e6b",
@@ -34,8 +34,8 @@
     {
       "id": "7d6cb3d8b4",
       "seccion": "cordoba",
-      "rel": 33.9,
-      "relevancia": 33.9,
+      "rel": 34.0,
+      "relevancia": 34.0,
       "fecha": "2026-10-22T11:22:00-03:00",
       "hora": "11:22",
       "titulo": "El dólar en Córdoba: a cuánto cotiza este jueves 22 de octubre",
@@ -82,6 +82,28 @@
       "rostros": {
         "y0": 0.016,
         "y1": 0.655
+      }
+    },
+    {
+      "id": "eafd12cf76",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-22T14:09:00-03:00",
+      "hora": "14:09",
+      "titulo": "Javier Milei y sus medidas, en vivo: durante su gira en Madrid, el mandatario acusó al presidente español de “dictador”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/MJ4VVCRKJFHLPNDGXNFBUYV35Q.jpg?auth=100a783afa23052985bac628f958176799e7907b2514c0e1fd15adb1c4b5f083&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.112,
+        "y1": 0.556
       }
     },
     {
@@ -195,6 +217,28 @@
       }
     },
     {
+      "id": "6f58fa3740",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T13:49:24-03:00",
+      "hora": "13:49",
+      "titulo": "Damián Di Pace sobre la economía: “Probablemente Argentina en el mes de septiembre entra en recesión”",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/damian-di-pace-sobre-la-economia-probablemente-argentina-en-el-mes-de-septiembre-entra-en-recesion.phtml",
+      "acceso": "abierto",
+      "resumen": "Un estudio reciente de Focus Market reveló que el desorden financiero y la falta de planificación generan costos ocultos en la economía de los hogares, con pérdidas que pueden superar los $260.000 al año. En diálogo con Punto a Punto Radio, el analista económico también señaló la caída de la inversión privada como uno de los principales desafíos para el crecimiento. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/damian-di-pace-2354190.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.019,
+        "y1": 0.632
+      }
+    },
+    {
       "id": "22aea672a2",
       "seccion": "argentina",
       "rel": 21.9,
@@ -234,28 +278,6 @@
       "otros": [],
       "dia": 0,
       "rostros": null
-    },
-    {
-      "id": "eafd12cf76",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-22T13:39:19-03:00",
-      "hora": "13:39",
-      "titulo": "Javier Milei y sus medidas, en vivo: durante su gira en Madrid, el mandatario acusó al presidente español de “dictador”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/MJ4VVCRKJFHLPNDGXNFBUYV35Q.jpg?auth=100a783afa23052985bac628f958176799e7907b2514c0e1fd15adb1c4b5f083&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.112,
-        "y1": 0.556
-      }
     },
     {
       "id": "61ecb0c16f",
@@ -560,28 +582,6 @@
       "rostros": {
         "y0": 0.0,
         "y1": 1.0
-      }
-    },
-    {
-      "id": "d920682634",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-21T14:13:40-03:00",
-      "hora": "14:13",
-      "titulo": "Milei es la mancha venenosa de Abascal: no consiguió la foto y lo atendió por videollamada",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/21/milei-es-la-mancha-venenosa-de-abascal-no-consiguio-la-foto-y-lo-atendio-por-videollamada/",
-      "acceso": "suscripcion",
-      "resumen": "Durante la charla, Milei se jactó de insultar a Pedro Sánchez y lanzó comentarios polémicos, mientras que Abascal argumentó compromisos de campaña para justificar su ausencia. La única dirigente que recibió al presidente argentino fue Isabel Díaz Ayuso.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/NQMGQ6JAHFB3XGRZ4S3BMCTSX4.jpg?auth=1d33c53bb821526a53288eecd8ddaca67f70f0ba58d82a691f5eab4ed72d04bc&smart=true&width=1172&height=782",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.167,
-        "y1": 0.424
       }
     },
     {

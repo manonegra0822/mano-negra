@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-22T14:08:39-03:00",
+  "actualizado": "2026-10-22T14:13:48-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -10,8 +10,8 @@
           "cantidad": 96,
           "ejemplos": [
             "Se robaron el Niño Jesús de tradicional parroquia de Medellín: la imagen se recu",
-            "La excandidata Luisa González denuncia \"dictadura de Noboa\" en Ecuador tras ser ",
-            "(Pre) El Barça busca resarcirse ante el Granada en Liga F Moeve y el Real Madrid"
+            "Alerta en pensiones del IMSS: Sheinbaum destapa fraudes y explica los nuevos cam",
+            "El Aissami dice que no renuncia a su nacionalidad venezolana para evitar ser ext"
           ]
         },
         "otro país": {
@@ -37,14 +37,14 @@
     {
       "medio": "La Nación",
       "leidas": 90,
-      "aceptadas": 7,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 77,
           "ejemplos": [
-            "Desarmó su computadora para limpiarla después de varios años y quedó impactado c",
-            "El hermano de George Bush dijo que votó por Talarico en Texas y cuestionó a los ",
-            "Un cardiólogo explicó por qué cada vez hay más más infartos en la Argentina y re"
+            "Un Malbec mendocino fue premiado mejor vino tinto del mundo en Londres",
+            "Terremoto de magnitud 7 sacude la región china de Tíbet",
+            "Desarmó su computadora para limpiarla después de varios años y quedó impactado c"
           ]
         },
         "titular sin tema de política/economía": {
@@ -56,11 +56,10 @@
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "“Es el momento”: una industria que mueve US$15.000 millones pidió eliminar aranc",
-            "“Gran paso”: el campo celebró la media sanción de una ley que busca endurecer la",
-            "Sergio Iraeta reconoció que hay impuestos y aranceles que afectan a la industria"
+            "“Gran paso”: el campo celebró la media sanción de una ley que busca endurecer la"
           ]
         },
         "otro país": {
@@ -194,7 +193,7 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 19,
+      "aceptadas": 20,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 25,
@@ -212,7 +211,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 24,
+          "cantidad": 23,
           "ejemplos": [
             "Autopista 19: la obra que conectará a Luque con la región suma un nuevo tramo ha",
             "Casi 6 de cada 10 ópticas de Córdoba vendieron menos anteojos que hace un año",
