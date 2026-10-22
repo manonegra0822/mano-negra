@@ -1,71 +1,65 @@
 {
-  "actualizado": "2026-10-22T14:13:48-03:00",
+  "actualizado": "2026-10-22T20:22:15-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 93,
           "ejemplos": [
-            "Se robaron el Niño Jesús de tradicional parroquia de Medellín: la imagen se recu",
-            "Alerta en pensiones del IMSS: Sheinbaum destapa fraudes y explica los nuevos cam",
-            "El Aissami dice que no renuncia a su nacionalidad venezolana para evitar ser ext"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El secretario de Finanzas pronosticó calma en 2027: \"Hay poca munición para corr"
+            "El cambio climático es responsable del 77 % de las muertes por calor en 2026 en ",
+            "Entre lágrimas, Dalma y Jana expresaron sus últimas palabras en el juicio por la",
+            "Barcelona, la segunda ciudad europea con más muertes por calor este verano"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Por la suba del combustible en medio de la guerra, Aerolíneas Argentinas volvió "
+            "Renunció Daniel González, el funcionario clave que coordinaba las áreas de Energ"
           ]
         },
-        "sin ancla argentina": {
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "El consumo masivo volvió a caer en septiembre y acumula una baja del 2,7% en el "
+            "Privatización del Belgrano Cargas: el Gobierno está a un paso de posponer el pro"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 6,
+      "leidas": 93,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 77,
+          "cantidad": 79,
           "ejemplos": [
-            "Un Malbec mendocino fue premiado mejor vino tinto del mundo en Londres",
-            "Terremoto de magnitud 7 sacude la región china de Tíbet",
-            "Desarmó su computadora para limpiarla después de varios años y quedó impactado c"
+            "La agenda de la TV del viernes: los ensayos de la Fórmula 1 en Austin, la fecha ",
+            "Buscan intensamente a un joven de 18 años que fue visto por última vez en su cas",
+            "El DHS propone eliminar una protección que permite permanecer hasta 60 días en E"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Excarcelaron a otro sindicalista camionero que fue acusado junto a Cabaleyro por",
+            "El Gobierno evalúa prorrogar el plazo para recibir ofertas por la privatización "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 8,
           "ejemplos": [
-            "Los “reyes de la mentira”, del upgrade a la desesperación. Los chats y mensajes ",
-            "El Grupo One traerá LC Waikiki y acelera la expansión de Bestseller",
-            "Millones en juego: una jueza de Estados Unidos le abrió una puerta a Bioceres Cr"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "“Es el momento”: una industria que mueve US$15.000 millones pidió eliminar aranc",
-            "“Gran paso”: el campo celebró la media sanción de una ley que busca endurecer la"
+            "Una violenta caída de mucho granizo mató a decenas de animales y dejó graves dañ",
+            "Millones en juego: una jueza de Estados Unidos le abrió una puerta a Bioceres Cr",
+            "“Año extraordinario”: Brasil prevé la mayor importación de trigo en 30 años y ab"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Procesaron a José Luis Espert por lavado de dinero y le prohibieron salir del pa"
+            "El gobierno de Trump blanqueó la “preocupación” de sus empresas por la ley Malvi"
           ]
         }
       }
@@ -98,15 +92,10 @@
       "leidas": 6,
       "aceptadas": 4,
       "descartadas": {
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Procesaron a José Luis Espert por lavado de dinero: le prohibieron salir del paí"
-          ]
-        },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Motín en una alcaidía porteña: liberaron al policía retenido y denuncian represi",
             "Un país lleno de pelotudos"
           ]
         }
@@ -115,14 +104,28 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 8,
           "ejemplos": [
-            "Francia restringe las protestas tras los disturbios y autoriza solo marchas sind",
-            "Llega la segunda edición del CONIFest 2026 en el MMAU",
-            "Llegan los anuncios publicitarios a la versión gratuita de ChatGPT"
+            "Sibilla: Córdoba tiene capacidad tecnológica para jugar un partido importante en",
+            "El BID otorgó una garantía de US$200 millones para reforzar la red eléctrica",
+            "Un terremoto sacudió el Tíbet y dejó 16 muertos"
+          ]
+        },
+        "otro país": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El gobierno de Trump blanqueó la preocupación de sus empresas por la «Ley Malvin",
+            "Riesgo país en 703 puntos y dólar a $1.550: crecen las dudas por la deuda de 202",
+            "Lula y Flávio Bolsonaro acordaron levantar sus secretos bancarios"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Detuvieron a la ex candidata presidencial Luisa González"
           ]
         }
       }
@@ -130,14 +133,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 19,
+      "aceptadas": 21,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 30,
+          "cantidad": 31,
           "ejemplos": [
-            "Comisión Arbitral: oficializan prórrogas de vencimientos por feriados y el calen",
-            "Compras por courier: en septiembre superaron lo gastado en todo el año pasado y ",
-            "¿Cuáles son las legislaciones para las plataformas de iGaming en la Argentina ac"
+            "Cómo son los “espacios sensoriales” para menores que lanzó el Ministerio Público",
+            "El Inaes suspende a cooperativas y mutuales sin papeles al día",
+            "Comisión Arbitral: oficializan prórrogas de vencimientos por feriados y el calen"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -148,11 +151,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 29,
+          "cantidad": 26,
           "ejemplos": [
-            "El TSJ de Córdoba moderniza el Sistema de Concurrencias Profesionales en la Just",
-            "Choque en las Altas Cumbres: condena de tres años de prisión condicional e inhab",
-            "Tras la sentencia a González, la querella irá a Casación y la defensa evalúa rec"
+            "La prórroga de la Ley de Emergencia en Discapacidad: un imperativo de derechos y",
+            "El Consejo de la Magistratura de Córdoba abre la inscripción para confeccionar l",
+            "El Gobierno posterga la puesta en marcha de los Fondos de Asistencia Laboral y e"
           ]
         }
       }
@@ -160,20 +163,21 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 13,
           "ejemplos": [
-            "Rescate en el Río Suquía: un efectivo de la Policía de Córdoba se arrojó al agua",
-            "Llega a Córdoba el Conifest, un festival por la Ciencia y la Educación Pública A",
-            "Messi llegó a España para recibir un premio histórico y recordó a su papá Jorge"
+            "Llegó a Córdoba el Conifest, un festival por la Ciencia y la Educación Pública A",
+            "“Limerencia”, una historia de amor, flamenco y decisiones en el Teatro Ciudad de",
+            "La empresa que fabrica las camisetas de la Selección, Boca y River suspendió a 8"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "El Gobierno declaró como organizaciones terroristas al Cártel de Sinaloa, las FA"
+            "Estados Unidos admitió que mira con atención la Ley de Defensa de la Soberanía",
+            "Lula y Flávio Bolsonaro tensan la campaña y acuerdan levantamiento recíproco del"
           ]
         }
       }
@@ -193,29 +197,28 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 20,
+      "aceptadas": 17,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 25,
+          "cantidad": 26,
           "ejemplos": [
-            "Caja de Previsión: tras detenciones de autoridades, arquitectos e ingenieros lle",
-            "Córdoba empieza a monitorear con drones el arrojo ilegal de basura en la vía púb",
-            "Hallaron restos de ocho desaparecidos en La Perla: este viernes darán a conocer "
+            "Ariel Filomeni: \"Hoy el crecimiento de las empresas es puertas para adentro\"",
+            "Denuncias y polémica en la higiene urbana: quién es el asesor con pasado en el S",
+            "Ranking de barrios privados en Córdoba: cuáles tienen las expensas más caras en "
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "VIVO | Congreso de la UIC en Córdoba: La industria en el nuevo mapa mundial",
             "“No podemos dejar la situación así”: la Municipalidad reclama por el estado de l"
           ]
         },
         "muy vieja": {
-          "cantidad": 23,
+          "cantidad": 26,
           "ejemplos": [
-            "Autopista 19: la obra que conectará a Luque con la región suma un nuevo tramo ha",
-            "Casi 6 de cada 10 ópticas de Córdoba vendieron menos anteojos que hace un año",
-            "Estévez: \"La mayoría se ve obligada a dejar de pensar en el futuro para pensar p"
+            "Milei tiene otro rival en Córdoba y no es Kicillof según una encuesta",
+            "Crédito para sobrevivir: cómo se endeudan los hogares según su nivel de ingresos",
+            "Insultos, golpes y enfrentamientos tras la condena a Oscar González: “Alejandra "
           ]
         }
       }

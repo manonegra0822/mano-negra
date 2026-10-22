@@ -1,109 +1,79 @@
 {
-  "actualizado": "2026-10-22T14:13:48-03:00",
+  "actualizado": "2026-10-22T20:22:15-03:00",
   "notas": [
     {
-      "id": "bb06d43e6b",
-      "seccion": "cordoba",
-      "rel": 45.3,
-      "relevancia": 45.3,
-      "fecha": "2026-10-22T09:46:00-03:00",
-      "hora": "09:46",
-      "titulo": "El arzobispo de Córdoba le respondió a Milei: “Si la gente dice que no llega, es porque no llega”",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-arzobispo-de-cordoba-le-respondio-a-milei-si-la-gente-dice-que-no-llega-es-porque-no-llega/",
-      "acceso": "abierto",
-      "resumen": "El Arzobispo de Córdoba, Ángel Rossi, le respondió al presidente Javier Milei, luego de que el primer mandatario calificara esta semana de “pelotudez” a quienes dicen que no llegan a fin de mes con sus ingresos.A tres semanas de la visita de León XIV a la Argentina, el vicepresidente primero del Episcopado, volvió a alertar […]",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/32BDJKAINJGSZH6NKKPSKJWXAM.jpg?auth=48f5601b7a73e91f79f1a5adada3c282424ac5b68d4d9f7e41a4ea919a241f6d&smart=true&width=1920&height=1280",
-      "imagen_credito": "Página/12",
-      "otros": [
-        {
-          "fuente": "Página/12",
-          "titulo": "Se derrumbó la imagen de Milei tras burlarse de la gente que no llega a fin de mes",
-          "url": "https://www.pagina12.com.ar/2026/10/22/se-derrumbo-la-imagen-de-milei-tras-burlarse-de-la-gente-que-no-llega-a-fin-de-mes/"
-        },
-        {
-          "fuente": "Perfil",
-          "titulo": "Encuesta: la imagen negativa de Milei trepó al 56% tras sus dichos sobre la gente que no llega a fin de mes",
-          "url": "https://www.perfil.com/noticias/cordoba/encuesta-la-imagen-negativa-de-milei-trepo-al-56-tras-sus-dichos-sobre-la-gente-que-no-llega-a-fin-de-mes.phtml"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "7d6cb3d8b4",
-      "seccion": "cordoba",
+      "id": "265f595e04",
+      "seccion": "argentina",
       "rel": 34.0,
       "relevancia": 34.0,
-      "fecha": "2026-10-22T11:22:00-03:00",
-      "hora": "11:22",
-      "titulo": "El dólar en Córdoba: a cuánto cotiza este jueves 22 de octubre",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-22-de-octubre-221026.phtml",
-      "acceso": "abierto",
-      "resumen": "Este jueves 22 de octubre el dólar oficial en el Banco Nación se vende a 1.500 pesos y cotiza a 1.550 pesos para la compra. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/dolares-2350363.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este jueves 22 de octubre, minuto a minuto",
-          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid22102026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "a7e42407f5",
-      "seccion": "argentina",
-      "rel": 29.9,
-      "relevancia": 29.9,
-      "fecha": "2026-10-21T15:19:26-03:00",
-      "hora": "15:19",
-      "titulo": "Milei descalificó a una periodista española por una pregunta sobre PP y Vox",
+      "fecha": "2026-10-22T20:16:39-03:00",
+      "hora": "20:16",
+      "titulo": "Nueva cumbre entre Kicillof, Massa y Máximo Kirchner para ajustar la postura por las PASO y el Presupuesto",
       "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/21/milei-descalifico-a-una-periodista-espanola-por-una-pregunta-sobre-pp-y-vox/",
+      "url": "https://www.infobae.com/politica/2026/10/22/el-pj-prepara-una-nueva-cumbre-de-unidad-para-ajustar-la-postura-por-las-paso-y-el-presupuesto/",
       "acceso": "abierto",
-      "resumen": "Julia Molina, de la Cadena Ser, consultó al mandatario argentino por la recepción de los partidos de derecha a su visita a Madrid, atravesada por la precampaña electoral, y el jefe de Estado reaccionó con una frase que generó polémica",
+      "resumen": "El encuentro, similar al que tuvo lugar en agosto en el Hotel Emperador, se concretará esta noche. Distintas posturas respecto a si el Gobierno tiene los votos para suspender las Primarias. Los otros dirigentes que irán",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/6JA7U23P3ZHJDJMHS32PECNGEM.png?auth=d5ec41e80274082bf955e9e77bd88c23ef2eb01f13530e960664f6d952207ea6&smart=true&width=1710&height=961",
+      "imagen": "https://www.infobae.com/resizer/v2/Y774MJEWCZDKLMPFED6WKWJHVI.png?auth=1dab0b9e4690172f056028b3fc0f261715fc0abaafc9d345413b09f8692bbfdb&smart=true&width=1920&height=1080",
       "imagen_credito": "Infobae",
       "otros": [
         {
-          "fuente": "La Nación",
-          "titulo": "Habló la periodista española que fue atacada por Milei cuando le hizo una pregunta",
-          "url": "https://www.lanacion.com.ar/politica/hablo-la-periodista-espanola-que-fue-atacada-por-milei-cuando-le-hizo-una-pregunta-nid21102026/"
+          "fuente": "Página/12",
+          "titulo": "Cumbre peronista: Máximo Kirchner, Axel Kicillof y Sergio Massa vuelven a verse cara a cara",
+          "url": "https://www.pagina12.com.ar/2026/10/22/cumbre-peronista-maximo-kirchner-axel-kicillof-y-sergio-massa-vuelven-a-verse-cara-a-cara/"
         }
       ],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.016,
-        "y1": 0.655
+        "y0": 0.024,
+        "y1": 0.923
       }
     },
     {
-      "id": "eafd12cf76",
+      "id": "1a1c0011b3",
+      "seccion": "cordoba",
+      "rel": 27.0,
+      "relevancia": 27.0,
+      "fecha": "2026-10-22T14:09:00-03:00",
+      "hora": "14:09",
+      "titulo": "Procesaron a José Luis Espert en la causa por presunto lavado de dinero",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/procesaron-a-jose-luis-espert-en-la-causa-por-presunto-lavado-de-dinero/",
+      "acceso": "abierto",
+      "resumen": "La Justicia Federal de San Isidro procesó a José Luis Espert en la causa que lo investiga por presunto lavado de dinero y enriquecimiento ilícito, y le impuso un embargo y una prohibición para salir del país. La medida, firmada por el juez federal Lino Mirabelli, da un paso en la investigación por el pago […]",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ada438b1773f855c7f23968/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "Procesaron a José Luis Espert por presunto lavado de dinero: embargo y prohibición de salir del país",
+          "url": "https://www.cba24n.com.ar/argentina/procesaron-a-jose-luis-espert-por-presunto-lavado-de-dinero--embargo-y-prohibicion-de-salir-del-pais_a6ada432e1773f855c7f23499"
+        }
+      ],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "f11691ac1a",
       "seccion": "argentina",
       "rel": 22.0,
       "relevancia": 22.0,
-      "fecha": "2026-10-22T14:09:00-03:00",
-      "hora": "14:09",
-      "titulo": "Javier Milei y sus medidas, en vivo: durante su gira en Madrid, el mandatario acusó al presidente español de “dictador”",
+      "fecha": "2026-10-22T20:05:05-03:00",
+      "hora": "20:05",
+      "titulo": "Javier Milei admitió que la economía no evoluciona como esperaba y lo adjudicó a un “shock externo”",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-la-confirmacion-del-rumbo-viene-con-la-reeleccion-nid22102026/",
       "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y declaraciones de los funcionarios",
+      "resumen": "El Presidente aseguró que a la Argentina le juegan en contra la suba de la tasa en Estados Unidos y las guerras en Ucrania e Irán",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/MJ4VVCRKJFHLPNDGXNFBUYV35Q.jpg?auth=100a783afa23052985bac628f958176799e7907b2514c0e1fd15adb1c4b5f083&smart=true&width=2000&height=1333",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/OSLEO35WBJEVVNBXMURQVHKIDY.jpg?auth=45b45178859f59d2b07a1a7b79717f2f38bd9a6edfcd41dca7c3820175d65556&smart=true&width=2000&height=1336",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.112,
-        "y1": 0.556
+        "y0": 0.094,
+        "y1": 0.415
       }
     },
     {
@@ -129,28 +99,6 @@
       }
     },
     {
-      "id": "e25c9cf364",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-22T11:10:17-03:00",
-      "hora": "11:10",
-      "titulo": "Video: Karina y el bloque libertario le cantaron el “feliz cumpleaños” al presidente Javier Milei",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/22/video-karina-y-el-bloque-libertario-le-cantaron-el-feliz-cumpleanos-al-presidente-javier-milei/",
-      "acceso": "abierto",
-      "resumen": "La secretaria general y el presidente de la Cámara de Diputados le enviaron un mensaje al jefe de Estado, que hoy festeja sus 56 años",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/WFRWBOHOOJGZ3ANALVSSVLUNSM.jpg?auth=2c8bd33704869a4406747ddafb5a5424c5ccbf4bfb128f99cfa6fa9f1b34c2c1&smart=true&width=1920&height=1080",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.434,
-        "y1": 0.874
-      }
-    },
-    {
       "id": "6235d9aaa3",
       "seccion": "argentina",
       "rel": 22.0,
@@ -173,69 +121,113 @@
       }
     },
     {
-      "id": "4047e25e27",
-      "seccion": "economia",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-21T18:00:04-03:00",
-      "hora": "18:00",
-      "titulo": "Las acciones argentinas cotizaron en alza, con el impulso de la suba de Wall Street",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/economia/2026/10/21/las-acciones-y-los-bonos-argentinos-cotizan-en-alza-y-cede-el-riesgo-pais/",
-      "acceso": "abierto",
-      "resumen": "El MSCI Merval subió 1,6%. Los bonos Globales, que iniciaron la sesión en alza, terminaron con pérdidas de 0,2% en promedio y subió el riesgo país",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/444ZCAYC6JHMDPQDYJAP5SUQLI.JPG?auth=a005c5fb86e057dc94dac98b93b7dd4177413d3b50e822537fca1c817d521b2d&smart=true&width=5718&height=3812",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.18,
-        "y1": 0.609
-      }
-    },
-    {
-      "id": "7f5fd11392",
+      "id": "eafd12cf76",
       "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-21T17:58:15-03:00",
-      "hora": "17:58",
-      "titulo": "Salud mental: senadores del PJ díscolo firmaron un dictamen de minoría y permiten que el tema llegue al recinto",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/21/salud-mental-senadores-del-pj-discolo-firmaron-un-dictamen-de-minoria-y-permiten-que-el-tema-llegue-al-recinto/",
-      "acceso": "abierto",
-      "resumen": "Los ahora ex kirchneristas Guillermo Andrada, Carolina Moisés y Sandra Mendoza retuvieron la rúbrica de un despacho hasta esta tarde. Consumado dicho acto, el del oficialismo y aliados se convirtió en el de mayoría que, no obstante, tiene varias disidencias y nadie asegura votos de cara a una potencial sesión para la semana próxima",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/XAIWG7OM7REWJIHRIFGCTK7PTI.jpg?auth=890673eab5c4a9cf56c3e3b45e6fb2ff246e62f82e22abd83f7a5ddff3369502&smart=true&width=640&height=427",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.097,
-        "y1": 0.477
-      }
-    },
-    {
-      "id": "6f58fa3740",
-      "seccion": "economia",
       "rel": 21.9,
       "relevancia": 21.9,
-      "fecha": "2026-10-22T13:49:24-03:00",
-      "hora": "13:49",
-      "titulo": "Damián Di Pace sobre la economía: “Probablemente Argentina en el mes de septiembre entra en recesión”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/damian-di-pace-sobre-la-economia-probablemente-argentina-en-el-mes-de-septiembre-entra-en-recesion.phtml",
-      "acceso": "abierto",
-      "resumen": "Un estudio reciente de Focus Market reveló que el desorden financiero y la falta de planificación generan costos ocultos en la economía de los hogares, con pérdidas que pueden superar los $260.000 al año. En diálogo con Punto a Punto Radio, el analista económico también señaló la caída de la inversión privada como uno de los principales desafíos para el crecimiento. Leer más",
+      "fecha": "2026-10-22T20:15:00-03:00",
+      "hora": "20:15",
+      "titulo": "Javier Milei y sus medidas, en vivo: “Los indicadores no evolucionan como esperábamos”, dijo el Presidente",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y declaraciones de los funcionarios",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/damian-di-pace-2354190.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/MJ4VVCRKJFHLPNDGXNFBUYV35Q.jpg?auth=100a783afa23052985bac628f958176799e7907b2514c0e1fd15adb1c4b5f083&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.019,
-        "y1": 0.632
+        "y0": 0.112,
+        "y1": 0.556
+      }
+    },
+    {
+      "id": "190fc37a4b",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T20:04:02-03:00",
+      "hora": "20:04",
+      "titulo": "Caputo se reunió con un hombre clave de Trump tras el anuncio de inversiones por USD 20.000 millones hasta 2027",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/10/22/caputo-se-reunio-con-un-hombre-clave-de-trump-tras-el-anuncio-de-inversiones-por-usd-20000-millones-hasta-2027/",
+      "acceso": "abierto",
+      "resumen": "El encuentro con el subsecretario de Estado de EE.UU., Christopher Landau, abordó el financiamiento de proyectos estratégicos en la Argentina en el marco del Corredor Andes-Atlántico",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/ODLQJZI4FNCDHKJR4AGQOAZT5Y.jpg?auth=b7fa3933a4a1f866e598e5bbcf23ffae6c1c129252973c4ad7aa4fcf759a4db9&smart=true&width=1600&height=1066",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.082,
+        "y1": 0.451
+      }
+    },
+    {
+      "id": "e25c9cf364",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T19:51:38-03:00",
+      "hora": "19:51",
+      "titulo": "Video: Karina y el bloque libertario le cantaron el “feliz cumpleaños” al presidente Javier Milei",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/22/video-karina-y-el-bloque-libertario-le-cantaron-el-feliz-cumpleanos-al-presidente-javier-milei/",
+      "acceso": "abierto",
+      "resumen": "La secretaria general y el presidente de la Cámara de Diputados le enviaron un mensaje al jefe de Estado, que hoy festeja sus 56 años",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/WFRWBOHOOJGZ3ANALVSSVLUNSM.jpg?auth=2c8bd33704869a4406747ddafb5a5424c5ccbf4bfb128f99cfa6fa9f1b34c2c1&smart=true&width=1920&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.434,
+        "y1": 0.874
+      }
+    },
+    {
+      "id": "7cb7faa227",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T19:41:04-03:00",
+      "hora": "19:41",
+      "titulo": "Congresista española contra Milei: “es un tarado que está destrozando la Argentina”",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/22/congresista-espanola-contra-milei-es-un-tarado-que-esta-destrozando-la-argentina/",
+      "acceso": "suscripcion",
+      "resumen": "Manuela Bergerot cruzó a Isabel Díaz Ayuso, presidenta de la Comunidad de Madrid y referente del Partido Popular, por su respaldo a Javier Milei, con quien comparte afinidad ideológica y una agenda política de derecha.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/NXQHLFZPDFF2THEW7QIVW7YDYQ.jpg?auth=2905d4c067565aaa726a1ff34fa38eff18017aa34d69fc9fd27a8192a79b2279&smart=true&width=2048&height=2048",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.16,
+        "y1": 0.697
+      }
+    },
+    {
+      "id": "addc800371",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-22T19:38:15-03:00",
+      "hora": "19:38",
+      "titulo": "Jorge Capitanich adelantó que el PJ de Chaco dirimirá sus candidaturas en una interna abierta",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/22/jorge-capitanich-adelanto-que-el-pj-de-chaco-dirimira-sus-candidaturas-en-una-interna-abierta/",
+      "acceso": "abierto",
+      "resumen": "“La próxima semana haremos la convocatoria”, dijo a Infobae el senador nacional y presidente del peronismo chaqueño. La provincia suspendió las PASO por iniciativa del gobernador Leandro Zdero, radical aliado de la Casa Rosada",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/HI2YT5CKCBDQ7AOCMR433SGFF4.jpeg?auth=bfe93933ab85d7e1285b6c9e2262482482d47febce0ce46a88e9acf22e72ac61&smart=true&width=1920&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.085,
+        "y1": 0.811
       }
     },
     {
@@ -387,67 +379,23 @@
       }
     },
     {
-      "id": "6dc3b649c6",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-21T19:56:38-03:00",
-      "hora": "19:56",
-      "titulo": "Javier Milei y sus medidas, en vivo: el Presidente cuestionó las encuestas: “¿Podés vivir 10 días sin comer y sin beber?",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-llamo-a-lula-zurdo-ladron-dias-antes-del-balotaje-nid21102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/FIWID46QBZG7BDYCVLQZOBTPCA.jpeg?auth=d12cc28a4fae3d2c123dbd2e3f40eefd4c10fc5fd1c41233db6e13d63ded15e3&smart=true&width=1280&height=853",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "0b872dfda1",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-21T19:35:39-03:00",
-      "hora": "19:35",
-      "titulo": "Kicillof demandó penalmente a Milei y a Caputo ante la justicia federal por el Fondo Hídrico",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/kicillof-demando-penalmente-a-milei-y-a-caputo-ante-la-justicia-federal-por-el-fondo-hidrico-nid21102026/",
-      "acceso": "suscripcion",
-      "resumen": "La denuncia la presentó hoy el ministro de Infraestructura de provincia, Gabriel Katopodis; incluye al ministro Luis Caputo",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/NPWPHMP6S5BKZK7ASYA4CNQZEU.png?auth=97a68adbd0e2851f085a4cf50b2a635e30150fb4d8da0083d1a7e4753c84d7cc&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.193,
-        "y1": 0.708
-      }
-    },
-    {
-      "id": "281e85dfe1",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-21T14:47:47-03:00",
-      "hora": "14:47",
-      "titulo": "Un Centro de Estudios de la UBA brinda asesoramiento gratuito a morosos: cómo consultarlo para enfrentar deudas",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/economia/2026/10/21/un-centro-de-estudios-de-la-uba-brinda-asesoramiento-gratuito-a-morosos-como-consultarlo-para-enfrentar-deudas/",
+      "id": "dadbb1c43d",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-22T19:25:33-03:00",
+      "hora": "19:25",
+      "titulo": "Llaryora reclamó un RIGI para la industria: Sin pymes no hay macro que aguante",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-reclamo-un-rigi-para-la-industria-sin-pymes-no-hay-macro-que-aguante/",
       "acceso": "abierto",
-      "resumen": "El Centro de Gestión de la Economía Personal y los Negocios de la Facultad de Ciencias Económicas acompaña a vecinos con deudas de tarjetas, billeteras virtuales, préstamos y servicios, en un contexto de mora elevada en los hogares argentino",
+      "resumen": "Durante el Coloquio Industrial de la UIC, el gobernador cordobés se puso el traje productivista, le exigió a la Nación un régimen de incentivos a la medida de los pequeños y medianos empresarios y advirtió sobre el peligro de dejar caer al sector automotriz.",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/PQEJXIHZE5C4DOFTGBQIFWUZ4I.jpg?auth=1c5117b0f054053ff50a406c9352c2f827da76b7e29d0b57b37276b66de14939&smart=true&width=1280&height=720",
-      "imagen_credito": "Infobae",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.169,
-        "y1": 0.961
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "8c20f06e19",
@@ -513,76 +461,23 @@
       }
     },
     {
-      "id": "220a5cb1c5",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-21T19:19:37-03:00",
-      "hora": "19:19",
-      "titulo": "Karina Milei se reunió con el embajador de EEUU luego del anuncio de inversiones y el apoyo político",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/21/karina-milei-se-reunio-con-el-embajador-de-eeuu-luego-del-anuncio-de-inversiones-y-el-apoyo-politico/",
+      "id": "259e1eb9be",
+      "seccion": "cordoba",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-22T18:17:27-03:00",
+      "hora": "18:17",
+      "titulo": "Casi en campaña, Massa sumó otra foto política con las 62 Organizaciones Peronistas",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/casi-en-campana-massa-sumo-otra-foto-politica-con-las-62-organizaciones-peronistas/",
       "acceso": "abierto",
-      "resumen": "La secretaria general de la Presidencia recibió en la Casa Rosada a Peter Lamelas. El proyecto Corredor Andes-Atlántico como marco del encuentro",
+      "resumen": "El excandidato presidencial de UxP volvió a mostrarse en una actividad pública en medio de la interna peronista.",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/UEUGF7YJMBGP5HF4PZVCEZKPFE.jpeg?auth=be1851161bd598129a7335c98d535a2a04245af688f36a84379b59d5882bf22b&smart=true&width=1280&height=854",
-      "imagen_credito": "Infobae",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.229,
-        "y1": 0.51
-      }
-    },
-    {
-      "id": "fb2e2efa99",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-21T19:17:15-03:00",
-      "hora": "19:17",
-      "titulo": "“Indigno”: la Cancillería española repudió los ataques de Milei a Pedro Sánchez",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/21/indigno-la-cancilleria-espanola-repudio-los-ataques-de-milei-a-pedro-sanchez/",
-      "acceso": "suscripcion",
-      "resumen": "El Ministerio de Asuntos Exteriores se expresó luego de que el mandatario argentino destrate al presidente del gobierno de España.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/BLND3YXBGJBANNVZ5UQ5M4R5OY.jpg?auth=6e37c84f137e5bb896d7778b4368e2ca617b0fed586802c7ec4439b6d9c71597&smart=true&width=1796&height=1197",
-      "imagen_credito": "Página/12",
-      "otros": [
-        {
-          "fuente": "Cba24n",
-          "titulo": "Javier Milei en Madrid: ataques a Pedro Sánchez, críticas a la justicia social y el rol de las mujeres",
-          "url": "https://www.cba24n.com.ar/argentina/javier-milei-en-madrid--ataques-a-pedro-sanchez--criticas-a-la-justicia-social-y-el-rol-de-las-mujeres_a6ad8aa78920f762ed294dc44"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.193,
-        "y1": 0.755
-      }
-    },
-    {
-      "id": "63f40156fb",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-21T17:02:48-03:00",
-      "hora": "17:02",
-      "titulo": "Discapacidad: el peronismo podría acompañar el proyecto libertario tras la negociación de nuevos cambios",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/discapacidad-el-peronismo-podria-acompanar-el-proyecto-libertario-tras-la-negociacion-de-nuevos-nid21102026/",
-      "acceso": "suscripcion",
-      "resumen": "El oficialismo analiza sumar correcciones propuestas por el misionero Oscar Herrera Ahuad y respaldadas por la oposición dura; en el PJ discuten si insisten con la emergencia o avalan una salida negociada que tome buena parte de sus reclamos y…",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/NTFJUC6NVREGZIEWXNDR7ABSNE.JPG?auth=2f63a9f58d6eca796243cdea7313993b1e0e2149b03f518aafe0ef7d26d6ca94&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 1.0
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "d7b064d918",
@@ -664,6 +559,50 @@
       "rostros": null
     },
     {
+      "id": "808a9ef9e0",
+      "seccion": "argentina",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-22T18:09:37-03:00",
+      "hora": "18:09",
+      "titulo": "Kicillof, Massa y Máximo Kirchner volverán a reunirse esta noche, en medio de una interna recargada",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/kicillof-massa-y-maximo-kirchner-volveran-a-reunirse-esta-noche-en-medio-de-una-interna-recargada-nid22102026/",
+      "acceso": "suscripcion",
+      "resumen": "El gobernador bonaerense, el exministro de Economía y el diputado nacional protagonizarán una cumbre partidaria con gobernadores y legisladores; analizarán las PASO y el presupuesto nacional",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/A2SNZIAULRHWVCOPHXEFGLRY2Q.jpg?auth=f3fb3408c1e311df8f014f5856ce11f5ce6661905d1d0670f5b763617df54fd5&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.097,
+        "y1": 0.704
+      }
+    },
+    {
+      "id": "bfb28d4e0b",
+      "seccion": "economia",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-22T17:46:57-03:00",
+      "hora": "17:46",
+      "titulo": "Los liberales le marcan la cancha a Milei",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/22/los-liberales-le-marcan-la-cancha-a-milei/",
+      "acceso": "suscripcion",
+      "resumen": "Aseguran que la situación es crítica en materia de empleo, producción, acumulación de reservas, consumo y tipo de cambio.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HPZX77MVIFFDRPKWPYL64PAD7I.jpg?auth=00e60d5b3e911df45f6be53d4edc7bc0771d1c2d5e61fca8965ed387496607b3&smart=true&width=3111&height=2074",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.29,
+        "y1": 0.805
+      }
+    },
+    {
       "id": "9af47f875c",
       "seccion": "argentina",
       "rel": 21.6,
@@ -686,25 +625,25 @@
       }
     },
     {
-      "id": "78efe01bf5",
-      "seccion": "argentina",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-21T18:02:36-03:00",
-      "hora": "18:02",
-      "titulo": "Senado: consiguió dictamen el proyecto y los cambios a la ley de salud mental quedaron un paso más cerca del recinto",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/senado-consiguio-dictamen-el-proyecto-y-los-cambios-a-la-ley-de-salud-mental-quedaron-un-paso-mas-nid21102026/",
-      "acceso": "suscripcion",
-      "resumen": "Un grupo de senadores peronistas críticos al kirchnerismo presentó un dictamen en minoría y, así, el tema podrá tratarse en la próxima sesión; el oficialismo todavía no tiene garantizados los votos",
+      "id": "6162f33667",
+      "seccion": "cordoba",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-10-22T17:31:46-03:00",
+      "hora": "17:31",
+      "titulo": "Laura Rodríguez Machado apuntó contra los legisladores del peronismo cordobés: “Siempre se abstienen o rechazan\"",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/laura-rodriguez-machado-apunto-contra-los-legisladores-del-peronismo-cordobes-siempre-se-abstienen-o-rechazan.phtml",
+      "acceso": "abierto",
+      "resumen": "En diálogo con Punto a Punto Radio, la diputada de La Libertad Avanza cuestionó a los legisladores cordobeses por su postura frente a la ley de discapacidad y aseguró que no presentaron propuestas para modificar el proyecto. Además, defendió los acuerdos alcanzados en el Congreso y destacó la media sanción de una iniciativa para agravar las penas por vandalismo rural. Leer más",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/32DQAU5RDJE7ZIPG44KS2MYEFY.jpg?auth=2af30f78675872c6d8fa25d40a18fefe3ed0a0fb9c2266fb39f72d746d9f84b5&smart=true&width=3000&height=2000",
-      "imagen_credito": "La Nación",
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/laura-rodriguez-machado-2354326.jpg",
+      "imagen_credito": "Perfil",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.26,
-        "y1": 0.672
+        "y0": 0.16,
+        "y1": 0.616
       }
     },
     {
@@ -722,6 +661,47 @@
       "impacto": null,
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LVCPIEIFURHKXKABISCEHJ6J3I.JPG?auth=dba154e6db0d8cd829bff683b26666bb1566fea9c334b035d0749cd267b9f220&smart=true&width=2000&height=1333",
       "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "c3ec6e56b2",
+      "seccion": "cordoba",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-10-22T16:01:50-03:00",
+      "hora": "16:01",
+      "titulo": "Santilli ante industriales cordobeses: “no van a decidir volver al pasado ni al populismo”",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/santilli-ante-industriales-cordobeses-no-van-a-decidir-volver-al-pasado-ni-al-populismo.phtml",
+      "acceso": "abierto",
+      "resumen": "El jefe de Gabinete, uno de los hombres fuertes de la mesa política de Javier Milei, afirmó que la baja impositiva equivale a 19.800 millones de dólares. A la distancia, también habló de las pymes, el riesgo electoral y la reforma de las PASO. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/08/19/trim/540/304/diego-santilli-2307546.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.144,
+        "y1": 0.576
+      }
+    },
+    {
+      "id": "3143b9ed80",
+      "seccion": "cordoba",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-10-22T15:55:31-03:00",
+      "hora": "15:55",
+      "titulo": "Bancor en el Congreso de IAEF: expuso su compromiso y solidez en el mercado de capitales",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/bancor-en-el-congreso-de-iaef--expuso-su-compromiso-y-solidez-en-el-mercado-de-capitales_a6ada5b6a1773f855c7f36349",
+      "acceso": "abierto",
+      "resumen": "El Banco de la Provincia de Córdoba participó en el Congreso de Mercado de Capitales del IAEF.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ada5bc11773f855c7f36938/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -746,26 +726,42 @@
       "rostros": null
     },
     {
-      "id": "6f019dff62",
+      "id": "3f002db336",
       "seccion": "cordoba",
       "rel": 21.1,
       "relevancia": 21.1,
-      "fecha": "2026-10-22T08:58:03-03:00",
-      "hora": "08:58",
-      "titulo": "Ley de Propiedad Privada: qué se aprobó y cómo votaron los diputados cordobeses",
+      "fecha": "2026-10-22T15:13:00-03:00",
+      "hora": "15:13",
+      "titulo": "VIVO | Congreso de la UIC: \"Tenés que ser un cordobés que defienda los intereses de Córdoba en Buenos Aires y no al revés”",
       "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/ley-de-propiedad-privada-que-se-voto-y-como-votaron-los-legisladores-cordobeses.phtml",
+      "url": "https://www.perfil.com/noticias/cordoba/vivo-congreso-de-la-uic-en-cordoba-la-industria-en-el-nuevo-mapa-mundial.phtml",
       "acceso": "abierto",
-      "resumen": "La Cámara de Diputados aprobó el proyecto de Inviolabilidad de la Propiedad Privada impulsado por el oficialismo tras una ajustada votación. En la discusión se reincorporó la Ley de Tierras Rurales y las abstenciones de los diputados cordobeses resultaron determinantes para el resultado. Leer más",
+      "resumen": "En el Coloquio Industrial, el gobernador Martín Llaryora defendió la producción cordobesa y reclamó al Gobierno nacional medidas para impulsar la industria y el empleo. Además, pidió un régimen de incentivos para las pymes y una prórroga de la ley de autopartes para dar previsibilidad al sector. Leer más",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/la-camara-de-diputados-aprobo-la-ley-de-propiedad-privada-2353925.jpg",
+      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/18-coloquio-industrial-de-la-union-industrial-de-cordoba-uic-2352674.jpg",
       "imagen_credito": "Perfil",
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "y0": 0.062,
-        "y1": 0.419
-      }
+      "rostros": null
+    },
+    {
+      "id": "f893fa7cb8",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-10-22T14:59:09-03:00",
+      "hora": "14:59",
+      "titulo": "Industria y empleo, en el Coloquio UIC: el mensaje de Llaryora y el reclamo empresario",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/industria-y-empleo-en-el-coloquio-uic-el-mensaje-de-llaryora-y-el-reclamo-empresario/",
+      "acceso": "abierto",
+      "resumen": "El gobernador de Córdoba reclamó un régimen de incentivos para las pequeñas y medianas empresas. \"Necesitamos un RIGI para la pyme argentina\", dijo",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "bac162df92",
@@ -790,23 +786,26 @@
       }
     },
     {
-      "id": "f41ab57b8d",
+      "id": "bc49cd5a7b",
       "seccion": "cordoba",
       "rel": 21.0,
       "relevancia": 21.0,
-      "fecha": "2026-10-22T08:25:00-03:00",
-      "hora": "08:25",
-      "titulo": "Ley de Discapacidad: Sin los diputados de Llaryora, el gobierno logró aprobar su proyecto con el peronismo",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/ley-de-discapacidad-sin-los-diputados-de-llaryora-el-gobierno-logro-aprobar-su-proyecto-con-el-peronismo.phtml",
+      "fecha": "2026-10-22T14:40:00-03:00",
+      "hora": "14:40",
+      "titulo": "Martín Llaryora: “Los cordobeses somos rebeldes y, por eso, defendemos nuestra industria”",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/martin-llaryora---los-cordobeses-somos-rebeldes-y--por-eso--defendemos-nuestra-industria-_a6ada39ab1773f855c7f1ba28",
       "acceso": "abierto",
-      "resumen": "La Cámara baja dio media sanción con 237 votos a favor, 9 en contra y 4 abstenciones. Ocho cordobeses rechazaron el texto, a los representantes cordobeses de UP se le sumaron De La Sota y Estévez. El proyecto fija por ley los requisitos de las pensiones y plazos para pagar la deuda con prestadores. Leer más",
+      "resumen": "El gobernador presidió la apertura del 18.º coloquio de la Unión Industrial de Córdoba, en el Centro de Convenciones. “Necesitamos un RIGI para la pyme argentina”, remarcó.",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/ley-de-discapacidad-aprobada-en-el-congreso-2353939.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ada48821773f855c7f27b8d/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.019,
+        "y1": 0.374
+      }
     },
     {
       "id": "4eaa5622ea",
@@ -828,42 +827,26 @@
       "rostros": null
     },
     {
-      "id": "8c06a560ad",
-      "seccion": "cordoba",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-22T05:51:51-03:00",
-      "hora": "05:51",
-      "titulo": "Diputados: se votó la vuelta a comisiones del proyecto sobre Endeudamiento Familiar",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/diputados-se-voto-la-vuelta-a-comisiones-del-proyecto-sobre-endeudamiento-familiar/",
+      "id": "6f58fa3740",
+      "seccion": "economia",
+      "rel": 20.9,
+      "relevancia": 20.9,
+      "fecha": "2026-10-22T13:49:24-03:00",
+      "hora": "13:49",
+      "titulo": "Damián Di Pace sobre la economía: “Probablemente Argentina en el mes de septiembre entra en recesión”",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/damian-di-pace-sobre-la-economia-probablemente-argentina-en-el-mes-de-septiembre-entra-en-recesion.phtml",
       "acceso": "abierto",
-      "resumen": "En un final polémico, y después de más de 15 horas de sesión, la Cámara de Diputados aprobó la vuelta a comisiones del proyecto sobre Endeudamiento Familiar, luego de que quedara en evidencia que el oficialismo no tenía los votos para sancionar su propia iniciativa. A las 3.30 de la madrugada, a raíz de una […]",
+      "resumen": "Un estudio reciente de Focus Market reveló que el desorden financiero y la falta de planificación generan costos ocultos en la economía de los hogares, con pérdidas que pueden superar los $260.000 al año. En diálogo con Punto a Punto Radio, el analista económico también señaló la caída de la inversión privada como uno de los principales desafíos para el crecimiento. Leer más",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/damian-di-pace-2354190.jpg",
+      "imagen_credito": "Perfil",
       "otros": [],
       "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "121ecb5494",
-      "seccion": "cordoba",
-      "rel": 20.1,
-      "relevancia": 20.1,
-      "fecha": "2026-10-21T21:02:14-03:00",
-      "hora": "21:02",
-      "titulo": "Passerini sobre Oscar González: «Hay que dejar actuar a la justicia y avanzar con las apelaciones»",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/cordoba/passerini-sobre-oscar-gonzalez-hay-que-dejar-actuar-a-la-justicia-y-avanzar-con-las-apelaciones/",
-      "acceso": "abierto",
-      "resumen": "En entrevistas con medios locales, el intendente de Córdoba se refirió a la condena del ex legislador y remarcó la necesidad de mantener el rigor institucional. Asimismo, defendió las nuevas medidas de control interno en el municipio, como la exigencia de certificados de buena conducta y narcotest para toda la planta de empleados.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
+      "rostros": {
+        "y0": 0.019,
+        "y1": 0.632
+      }
     }
   ],
   "opinion": []
