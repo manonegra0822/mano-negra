@@ -1,58 +1,85 @@
 {
-  "actualizado": "2026-10-22T20:22:15-03:00",
+  "actualizado": "2026-10-23T08:25:14-03:00",
   "notas": [
     {
-      "id": "265f595e04",
+      "id": "c373df0d4f",
       "seccion": "argentina",
       "rel": 34.0,
       "relevancia": 34.0,
-      "fecha": "2026-10-22T20:16:39-03:00",
-      "hora": "20:16",
-      "titulo": "Nueva cumbre entre Kicillof, Massa y Máximo Kirchner para ajustar la postura por las PASO y el Presupuesto",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/22/el-pj-prepara-una-nueva-cumbre-de-unidad-para-ajustar-la-postura-por-las-paso-y-el-presupuesto/",
-      "acceso": "abierto",
-      "resumen": "El encuentro, similar al que tuvo lugar en agosto en el Hotel Emperador, se concretará esta noche. Distintas posturas respecto a si el Gobierno tiene los votos para suspender las Primarias. Los otros dirigentes que irán",
+      "fecha": "2026-10-23T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Cumbre peronista: Máximo Kirchner, Axel Kicillof y Sergio Massa volvieron a verse cara a cara",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/22/cumbre-peronista-maximo-kirchner-axel-kicillof-y-sergio-massa-vuelven-a-verse-cara-a-cara/",
+      "acceso": "suscripcion",
+      "resumen": "Todos los sectores del peronismo se reunieron para definir la estrategia electoral y parlamentaria. La suspensión de las PASO y el debate por el Presupuesto, los ejes de la agenda. El objetivo de fondo, limar las asperezas para el 2027.",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/Y774MJEWCZDKLMPFED6WKWJHVI.png?auth=1dab0b9e4690172f056028b3fc0f261715fc0abaafc9d345413b09f8692bbfdb&smart=true&width=1920&height=1080",
-      "imagen_credito": "Infobae",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MT4JNIKI2RDPZIXKP3CX2A7M24.jpg?auth=d5d22bbf415dc0a3c54de713c7bed1471c08c106b93bc03ab9287cee9d8e08a2&smart=true&width=1075&height=717",
+      "imagen_credito": "Página/12",
       "otros": [
         {
-          "fuente": "Página/12",
-          "titulo": "Cumbre peronista: Máximo Kirchner, Axel Kicillof y Sergio Massa vuelven a verse cara a cara",
-          "url": "https://www.pagina12.com.ar/2026/10/22/cumbre-peronista-maximo-kirchner-axel-kicillof-y-sergio-massa-vuelven-a-verse-cara-a-cara/"
-        }
-      ],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.024,
-        "y1": 0.923
-      }
-    },
-    {
-      "id": "1a1c0011b3",
-      "seccion": "cordoba",
-      "rel": 27.0,
-      "relevancia": 27.0,
-      "fecha": "2026-10-22T14:09:00-03:00",
-      "hora": "14:09",
-      "titulo": "Procesaron a José Luis Espert en la causa por presunto lavado de dinero",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/procesaron-a-jose-luis-espert-en-la-causa-por-presunto-lavado-de-dinero/",
-      "acceso": "abierto",
-      "resumen": "La Justicia Federal de San Isidro procesó a José Luis Espert en la causa que lo investiga por presunto lavado de dinero y enriquecimiento ilícito, y le impuso un embargo y una prohibición para salir del país. La medida, firmada por el juez federal Lino Mirabelli, da un paso en la investigación por el pago […]",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ada438b1773f855c7f23968/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
+          "fuente": "La Nación",
+          "titulo": "Kicillof, Massa y Máximo Kirchner se reunieron en medio de una interna recargada",
+          "url": "https://www.lanacion.com.ar/politica/kicillof-massa-y-maximo-kirchner-volveran-a-reunirse-esta-noche-en-medio-de-una-interna-recargada-nid22102026/"
+        },
         {
-          "fuente": "Cba24n",
-          "titulo": "Procesaron a José Luis Espert por presunto lavado de dinero: embargo y prohibición de salir del país",
-          "url": "https://www.cba24n.com.ar/argentina/procesaron-a-jose-luis-espert-por-presunto-lavado-de-dinero--embargo-y-prohibicion-de-salir-del-pais_a6ada432e1773f855c7f23499"
+          "fuente": "Infobae",
+          "titulo": "Nueva cumbre entre Kicillof, Massa y Máximo Kirchner para ajustar la postura por las PASO y el Presupuesto",
+          "url": "https://www.infobae.com/politica/2026/10/22/el-pj-prepara-una-nueva-cumbre-de-unidad-para-ajustar-la-postura-por-las-paso-y-el-presupuesto/"
         }
       ],
       "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "f7bbff8fa6",
+      "seccion": "economia",
+      "rel": 32.4,
+      "relevancia": 32.4,
+      "fecha": "2026-10-22T22:57:04-03:00",
+      "hora": "22:57",
+      "titulo": "Milei admitió que la “foto de la economía es horrible, pero la película es la mejor”",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/milei-admitio-que-la-foto-de-la-economia-es-horrible-pero-la-pelicula-es-la-mejor/",
+      "acceso": "abierto",
+      "resumen": "Dijo que “nadie niega que hay pobreza e indigencia, pero son muchos menos que había antes” El presidente Javier Milei reconoció que los indicadores económicos no muestran la evolución que esperaba el Gobierno. Lo hizo después de que se conocieron nuevos datos sobre la actividad económica, que registró una mejora mensual de apenas 0,1%. “Los […]",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ada83871773f855c7f5e6ce/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "“La foto es horrible, pero la película es la mejor de la historia”, dice Javier Milei sobre la economía",
+          "url": "https://www.cba24n.com.ar/argentina/-la-foto-es-horrible--pero-la-pelicula-es-la-mejor-de-la-historia---dice-javier-milei-sobre-la-economia_a6ada80591773f855c7f5aa7d"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.095,
+        "y1": 0.485
+      }
+    },
+    {
+      "id": "f651dfcb26",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-23T08:08:28-03:00",
+      "hora": "08:08",
+      "titulo": "Javier Milei y sus medidas, en vivo: el mandatario dijo que piensa un proyecto a “100 años” para la Argentina",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-admitio-que-la-economia-no-evoluciona-como-nid23102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/HT3GB3DECVDWTBYCX4J5KBPZOU.jpg?auth=36f66431ba5ee308a0c27610872feefe8c9131a851ea29f0b77ecdc6b5832a22&smart=true&width=2000&height=1338",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.164,
+        "y1": 0.603
+      }
     },
     {
       "id": "f11691ac1a",
@@ -70,7 +97,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/OSLEO35WBJEVVNBXMURQVHKIDY.jpg?auth=45b45178859f59d2b07a1a7b79717f2f38bd9a6edfcd41dca7c3820175d65556&smart=true&width=2000&height=1336",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.094,
         "y1": 0.415
@@ -92,7 +119,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/QMOM2CKQ4RFXLOT4UPWDELQWQY.jpg?auth=3ead9c29fea5cd4acd07487439fb498eefdf854abb9e1501e4c78c3a1201dc00&smart=true&width=1280&height=720",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.161,
         "y1": 0.648
@@ -114,32 +141,10 @@
       "imagen": "https://www.infobae.com/resizer/v2/JJP6KQIWRFADTPHKHJWZHFK5TI.jpg?auth=d0423f9aa41049c99efe69dde4f290c9ebea4432b7d4eccf1a7f8a730ff67f3b&smart=true&width=700&height=467",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.0,
         "y1": 0.248
-      }
-    },
-    {
-      "id": "eafd12cf76",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-22T20:15:00-03:00",
-      "hora": "20:15",
-      "titulo": "Javier Milei y sus medidas, en vivo: “Los indicadores no evolucionan como esperábamos”, dijo el Presidente",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-durante-su-gira-en-madrid-el-mandatario-acuso-al-presidente-nid22102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/MJ4VVCRKJFHLPNDGXNFBUYV35Q.jpg?auth=100a783afa23052985bac628f958176799e7907b2514c0e1fd15adb1c4b5f083&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.112,
-        "y1": 0.556
       }
     },
     {
@@ -158,7 +163,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/ODLQJZI4FNCDHKJR4AGQOAZT5Y.jpg?auth=b7fa3933a4a1f866e598e5bbcf23ffae6c1c129252973c4ad7aa4fcf759a4db9&smart=true&width=1600&height=1066",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.082,
         "y1": 0.451
@@ -180,7 +185,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/WFRWBOHOOJGZ3ANALVSSVLUNSM.jpg?auth=2c8bd33704869a4406747ddafb5a5424c5ccbf4bfb128f99cfa6fa9f1b34c2c1&smart=true&width=1920&height=1080",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.434,
         "y1": 0.874
@@ -202,7 +207,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/NXQHLFZPDFF2THEW7QIVW7YDYQ.jpg?auth=2905d4c067565aaa726a1ff34fa38eff18017aa34d69fc9fd27a8192a79b2279&smart=true&width=2048&height=2048",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.16,
         "y1": 0.697
@@ -224,7 +229,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/HI2YT5CKCBDQ7AOCMR433SGFF4.jpeg?auth=bfe93933ab85d7e1285b6c9e2262482482d47febce0ce46a88e9acf22e72ac61&smart=true&width=1920&height=1080",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.085,
         "y1": 0.811
@@ -246,7 +251,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/PL2X436S7BD7XIT52S2PKD23TQ.JPG?auth=6f02cc1226862a2dba6a8adac99c14c242a0f23b36ae1999d4bb84ba387f25bd&smart=true&width=1335&height=890",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.301,
         "y1": 0.796
@@ -268,7 +273,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/44YZCVNCUZC5DOIVNTBWMFGICI.jpg?auth=343a6699c677908b7cfc1cc391f087ac0ab6d84c136a75346c80258a2b5c7fab&smart=true&width=1360&height=765",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -287,7 +292,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/H23HKL64YZFQXEMK332NPLI22Q.jpeg?auth=d8552bcdd1c7a7896253dee2679e76565a6f554056526c4dfde49bf6f0c4d845&smart=true&width=1600&height=1066",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.251,
         "y1": 0.569
@@ -309,7 +314,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ada3bef1773f855c7f1d666/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -328,7 +333,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MJSDEOBTHBSGKNDGGVQTAMJZGM.jpg?auth=4476059b77ccde57e5063a8c90dea816682b5eb10f12243957c6203d2ad16076&smart=true&width=2100&height=1400",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.148,
         "y1": 0.584
@@ -350,49 +355,27 @@
       "imagen": "https://www.infobae.com/resizer/v2/BP2HCWUZFRFW3MTRLVF35S5ZJI.jpg?auth=16c28610694e8b00bf1ef531acf4ad92e87a7d966a21139ab1900a3d3677d160&smart=true&width=5879&height=4114",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.157,
         "y1": 0.498
       }
     },
     {
-      "id": "0549849043",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-22T07:34:42-03:00",
-      "hora": "07:34",
-      "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
-      "acceso": "suscripcion",
-      "resumen": "Para la actualización de haberes se toma el último índice de inflación que publicó el Indec; cuáles son las cifras para el penúltimo mes del año",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IZ6PB2Z7JVGAJAUJDMPKNUSKFQ.png?auth=41b276bf11862c94f065dee7b54c8b2392e447bb5796afc723c11dfece75c598&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.549,
-        "y1": 0.976
-      }
-    },
-    {
-      "id": "dadbb1c43d",
+      "id": "d9918733ae",
       "seccion": "cordoba",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-10-22T19:25:33-03:00",
-      "hora": "19:25",
-      "titulo": "Llaryora reclamó un RIGI para la industria: Sin pymes no hay macro que aguante",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-reclamo-un-rigi-para-la-industria-sin-pymes-no-hay-macro-que-aguante/",
+      "fecha": "2026-10-23T07:08:20-03:00",
+      "hora": "07:08",
+      "titulo": "El dólar en Córdoba: a cuánto cotiza este viernes 23 de octubre",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-23-de-octubre-231026.phtml",
       "acceso": "abierto",
-      "resumen": "Durante el Coloquio Industrial de la UIC, el gobernador cordobés se puso el traje productivista, le exigió a la Nación un régimen de incentivos a la medida de los pequeños y medianos empresarios y advirtió sobre el peligro de dejar caer al sector automotriz.",
+      "resumen": "Este viernes 23 de octubre el dólar oficial en el Banco Nación se vende a 1.500 pesos y cotiza a 1.550 pesos para la compra. Leer más",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/pesos-argentinos-y-dolares-2352806.jpg",
+      "imagen_credito": "Perfil",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -413,7 +396,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -432,7 +415,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/67ddd894e39bb2cb996e626f/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.317,
         "y1": 0.762
@@ -454,7 +437,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/QKTFXMJBP5FXVJVB33H2G7TPKE.jpg?auth=5b5af16f1dc4284fd7a2d40a55d62e89d36b17763195a9d828f0af19ae49f15a&smart=true&width=740&height=493",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.333,
         "y1": 0.669
@@ -476,7 +459,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -495,7 +478,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -514,7 +497,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/KU6YIITGDZAO5HXZVZQSXCKV2Y.jpeg?auth=c8bc0f765882c27424fc62339f14bbf93e8a726ddea5f80164566151ec927658&smart=true&width=1600&height=1066",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.213,
         "y1": 0.742
@@ -536,7 +519,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/GCIZTSFFVNDR5BOBVZX77SGPRM.jpg?auth=a67e259e7de1132a47016108ef0ad87bb168c89795b8a858f482f8c917ec7280&smart=true&width=3000&height=2000",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -555,30 +538,27 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/MEN3JFYINNB3PAPW6W76ITSA2E.jpg?auth=a7d3e7f8772513a9e70f147d22f41c2982ef337e5f40b0fdcc713c7adaa36eee&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "808a9ef9e0",
-      "seccion": "argentina",
+      "id": "c353a8e2b0",
+      "seccion": "cordoba",
       "rel": 21.6,
       "relevancia": 21.6,
-      "fecha": "2026-10-22T18:09:37-03:00",
-      "hora": "18:09",
-      "titulo": "Kicillof, Massa y Máximo Kirchner volverán a reunirse esta noche, en medio de una interna recargada",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/kicillof-massa-y-maximo-kirchner-volveran-a-reunirse-esta-noche-en-medio-de-una-interna-recargada-nid22102026/",
-      "acceso": "suscripcion",
-      "resumen": "El gobernador bonaerense, el exministro de Economía y el diputado nacional protagonizarán una cumbre partidaria con gobernadores y legisladores; analizarán las PASO y el presupuesto nacional",
+      "fecha": "2026-10-23T06:00:00-03:00",
+      "hora": "06:00",
+      "titulo": "Passerini se juega un pleno: cambia el Código Tributario para evitar un virtual “cierre” del municipio",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/passerini-se-juega-un-pleno-cambia-el-codigo-tributario-para-evitar-un-virtual-cierre-del-municipio/",
+      "acceso": "abierto",
+      "resumen": "Envió al Concejo Deliberante y de urgencia un proyecto para modificar la redacción del artículo 256, referido a la tasa de Comercio e Industria. El nuevo texto explicita en detalle la contraprestación en servicios para empresas que pagan esa obligación La Municipalidad de Córdoba afronta un momento bisagra en su larga historia y cuyo final, […]",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/A2SNZIAULRHWVCOPHXEFGLRY2Q.jpg?auth=f3fb3408c1e311df8f014f5856ce11f5ce6661905d1d0670f5b763617df54fd5&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "y0": 0.097,
-        "y1": 0.704
-      }
+      "rostros": null
     },
     {
       "id": "bfb28d4e0b",
@@ -596,7 +576,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/HPZX77MVIFFDRPKWPYL64PAD7I.jpg?auth=00e60d5b3e911df45f6be53d4edc7bc0771d1c2d5e61fca8965ed387496607b3&smart=true&width=3111&height=2074",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.29,
         "y1": 0.805
@@ -618,33 +598,30 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/6CUPFCLUVNBGDGPDJUERNQOHPI.jpg?auth=67c04ba9bf195269e121b68e8f66bb148c3a326fab89435ec51b65b84fcb0d79&smart=true&width=1360&height=910",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.145,
         "y1": 0.91
       }
     },
     {
-      "id": "6162f33667",
-      "seccion": "cordoba",
+      "id": "c847b058e4",
+      "seccion": "economia",
       "rel": 21.5,
       "relevancia": 21.5,
-      "fecha": "2026-10-22T17:31:46-03:00",
-      "hora": "17:31",
-      "titulo": "Laura Rodríguez Machado apuntó contra los legisladores del peronismo cordobés: “Siempre se abstienen o rechazan\"",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/laura-rodriguez-machado-apunto-contra-los-legisladores-del-peronismo-cordobes-siempre-se-abstienen-o-rechazan.phtml",
+      "fecha": "2026-10-23T05:38:00-03:00",
+      "hora": "05:38",
+      "titulo": "Prórroga de la Ley de Emergencia en Discapacidad: el conflicto entre la rigidez del déficit cero y el principio de no regresividad",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/prorroga-de-la-ley-de-emergencia-en-discapacidad-el-conflicto-entre-la-rigidez-del-deficit-cero-y-el-principio-de-no-regresividad/",
       "acceso": "abierto",
-      "resumen": "En diálogo con Punto a Punto Radio, la diputada de La Libertad Avanza cuestionó a los legisladores cordobeses por su postura frente a la ley de discapacidad y aseguró que no presentaron propuestas para modificar el proyecto. Además, defendió los acuerdos alcanzados en el Congreso y destacó la media sanción de una iniciativa para agravar las penas por vandalismo rural. Leer más",
+      "resumen": "Por Marta Lastra (*) La discusión en el Congreso de la Nación sobre la prórroga de la Ley N⁰ 27793 de Emergencia en Discapacidad pone en el centro del debate la tensión entre las metas de ajuste fiscal estricto y la preservación de los derechos humanos fundamentales. Mientras se argumenta que la sostenibilidad fiscal debe […]",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/laura-rodriguez-machado-2354326.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "y0": 0.16,
-        "y1": 0.616
-      }
+      "rostros": null
     },
     {
       "id": "9be7e98a15",
@@ -662,30 +639,8 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LVCPIEIFURHKXKABISCEHJ6J3I.JPG?auth=dba154e6db0d8cd829bff683b26666bb1566fea9c334b035d0749cd267b9f220&smart=true&width=2000&height=1333",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "c3ec6e56b2",
-      "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
-      "fecha": "2026-10-22T16:01:50-03:00",
-      "hora": "16:01",
-      "titulo": "Santilli ante industriales cordobeses: “no van a decidir volver al pasado ni al populismo”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/santilli-ante-industriales-cordobeses-no-van-a-decidir-volver-al-pasado-ni-al-populismo.phtml",
-      "acceso": "abierto",
-      "resumen": "El jefe de Gabinete, uno de los hombres fuertes de la mesa política de Javier Milei, afirmó que la baja impositiva equivale a 19.800 millones de dólares. A la distancia, también habló de las pymes, el riesgo electoral y la reforma de las PASO. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/08/19/trim/540/304/diego-santilli-2307546.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.144,
-        "y1": 0.576
-      }
     },
     {
       "id": "3143b9ed80",
@@ -703,64 +658,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ada5bc11773f855c7f36938/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "72e19e25ac",
-      "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
-      "fecha": "2026-10-22T04:27:19-03:00",
-      "hora": "04:27",
-      "titulo": "El oficialismo reclamó la vuelta a comisión del proyecto de morosidad y levantó la sesión",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-oficialismo-reclamo-la-vuelta-a-comision-del-proyecto-de-morosidad-y-levanto-la-sesion-nid22102026/",
-      "acceso": "suscripcion",
-      "resumen": "Sin los votos para aprobar su iniciativa, el bloque de LLA logró postergar el debate con el respaldo clave de los diputados cordobeses",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/QOJLSE64VJF6TM67LJLNR66L2E.jpg?auth=6bd9c75eff7cf5fde5e1416b34ba4215784292b043fecf1d282e45d93eb4b37f&smart=true&width=2000&height=1334",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "3f002db336",
-      "seccion": "cordoba",
-      "rel": 21.1,
-      "relevancia": 21.1,
-      "fecha": "2026-10-22T15:13:00-03:00",
-      "hora": "15:13",
-      "titulo": "VIVO | Congreso de la UIC: \"Tenés que ser un cordobés que defienda los intereses de Córdoba en Buenos Aires y no al revés”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/vivo-congreso-de-la-uic-en-cordoba-la-industria-en-el-nuevo-mapa-mundial.phtml",
-      "acceso": "abierto",
-      "resumen": "En el Coloquio Industrial, el gobernador Martín Llaryora defendió la producción cordobesa y reclamó al Gobierno nacional medidas para impulsar la industria y el empleo. Además, pidió un régimen de incentivos para las pymes y una prórroga de la ley de autopartes para dar previsibilidad al sector. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/18-coloquio-industrial-de-la-union-industrial-de-cordoba-uic-2352674.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "f893fa7cb8",
-      "seccion": "cordoba",
-      "rel": 21.1,
-      "relevancia": 21.1,
-      "fecha": "2026-10-22T14:59:09-03:00",
-      "hora": "14:59",
-      "titulo": "Industria y empleo, en el Coloquio UIC: el mensaje de Llaryora y el reclamo empresario",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/industria-y-empleo-en-el-coloquio-uic-el-mensaje-de-llaryora-y-el-reclamo-empresario/",
-      "acceso": "abierto",
-      "resumen": "El gobernador de Córdoba reclamó un régimen de incentivos para las pequeñas y medianas empresas. \"Necesitamos un RIGI para la pyme argentina\", dijo",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -779,7 +677,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ad9f7150eecc806f29788f1/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.136,
         "y1": 0.688
@@ -801,52 +699,156 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ada48821773f855c7f27b8d/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.019,
         "y1": 0.374
       }
     },
     {
-      "id": "4eaa5622ea",
+      "id": "0d53327a9b",
       "seccion": "argentina",
-      "rel": 21.0,
-      "relevancia": 21.0,
-      "fecha": "2026-10-22T00:01:00-03:00",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-10-23T00:01:00-03:00",
       "hora": "00:01",
-      "titulo": "Volantazo fenomenal del Gobierno: Diputados aprobó el proyecto que restituye la Ley de Tierras",
+      "titulo": "Bullrich suma a Santilli a la lista de funcionarios con los que marca distancias",
       "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/21/volantazo-fenomenal-del-gobierno-se-aprobo-el-proyecto-que-restituye-la-ley-de-tierras/",
+      "url": "https://www.pagina12.com.ar/2026/10/23/bullrich-suma-a-santilli-a-la-lista-de-funcionarios-con-los-que-marca-distancia/",
       "acceso": "suscripcion",
-      "resumen": "El texto, que restablece los límites a la extranjerización del suelo argentino, fue aprobado por 124 votos a favor, 119 en contra y 6 abstenciones. Los cambios deberán ser ratificados por el Senado.",
+      "resumen": "La jefa de la bancada libertaria le bajó el precio a las gestiones del jefe de Gabinete con los gobernadores y puso en duda que esté cerca el objetivo del Gobierno de cambiar las reglas de juego para 2027.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/Z7AXGYLI5FG7ZHSBYFOEYPS5AY.jpg?auth=30d8c22ff65b95ed9f5a2ee7c99a35ec04312d979e38c310166e9aa90e35278f&smart=true&width=2762&height=1841",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GU2WKYLGHAYWIMRRHBTDQZBUHA.jpg?auth=22f547ab5bbabd371c9f9141b9a8e2aca1ab30044242a321f5e29e3435fc6c19&smart=true&width=1059&height=706",
       "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
+      "rostros": {
+        "y0": 0.099,
+        "y1": 0.566
+      }
+    },
+    {
+      "id": "dadbb1c43d",
+      "seccion": "cordoba",
+      "rel": 20.2,
+      "relevancia": 20.2,
+      "fecha": "2026-10-22T21:25:33-03:00",
+      "hora": "21:25",
+      "titulo": "Llaryora reclamó un RIGI para la industria: Sin pymes no hay macro que aguante",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-reclamo-un-rigi-para-la-industria-sin-pymes-no-hay-macro-que-aguante/",
+      "acceso": "abierto",
+      "resumen": "Durante el Coloquio Industrial de la UIC, el gobernador cordobés se puso el traje productivista, le exigió a la Nación un régimen de incentivos a la medida de los pequeños y medianos empresarios y advirtió sobre el peligro de dejar caer al sector automotriz.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "6f58fa3740",
-      "seccion": "economia",
-      "rel": 20.9,
-      "relevancia": 20.9,
-      "fecha": "2026-10-22T13:49:24-03:00",
-      "hora": "13:49",
-      "titulo": "Damián Di Pace sobre la economía: “Probablemente Argentina en el mes de septiembre entra en recesión”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/damian-di-pace-sobre-la-economia-probablemente-argentina-en-el-mes-de-septiembre-entra-en-recesion.phtml",
+      "id": "a1556abaf4",
+      "seccion": "cordoba",
+      "rel": 20.1,
+      "relevancia": 20.1,
+      "fecha": "2026-10-22T20:57:01-03:00",
+      "hora": "20:57",
+      "titulo": "Industriales reclaman medidas a Javier Milei por el estancamiento económico",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/industriales-reclaman-medidas-a-javier-milei-por-el-estancamiento-economico_a6ada9f811773f855c7f81655",
       "acceso": "abierto",
-      "resumen": "Un estudio reciente de Focus Market reveló que el desorden financiero y la falta de planificación generan costos ocultos en la economía de los hogares, con pérdidas que pueden superar los $260.000 al año. En diálogo con Punto a Punto Radio, el analista económico también señaló la caída de la inversión privada como uno de los principales desafíos para el crecimiento. Leer más",
+      "resumen": "El presidente de la Unión Industrial Argentina, Martín Rappallini, participó en el Coloquio de la Unión Industrial de Córdoba. Piden “nivelar la cancha” para reactivar los sectores industriales.",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/damian-di-pace-2354190.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ada9fa11773f855c7f818a1/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "2fdb129a97",
+      "seccion": "argentina",
+      "rel": 20.0,
+      "relevancia": 20.0,
+      "fecha": "2026-10-23T08:16:00-03:00",
+      "hora": "08:16",
+      "titulo": "Radiografía del Financial Times: el plan económico de Milei está bajo presión",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/10/23/radiografia-del-financial-times-el-plan-economico-de-milei-esta-bajo-presion/",
+      "acceso": "abierto",
+      "resumen": "El escenario plantea un desafío político para el Gobierno, que el año que viene buscará la reelección",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/CBBXKMOBOJBTTKD7Q5PNOH4W5Q.jpg?auth=eb3679bce54cec9c64ee0cadde1fe5265ccfb2a72c29cee0599d4761fbb554fd&smart=true&width=1920&height=1280",
+      "imagen_credito": "Infobae",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.019,
-        "y1": 0.632
+        "y0": 0.174,
+        "y1": 0.826
       }
+    },
+    {
+      "id": "6162f33667",
+      "seccion": "cordoba",
+      "rel": 19.5,
+      "relevancia": 19.5,
+      "fecha": "2026-10-22T17:31:46-03:00",
+      "hora": "17:31",
+      "titulo": "Laura Rodríguez Machado apuntó contra los legisladores del peronismo cordobés: “Siempre se abstienen o rechazan\"",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/laura-rodriguez-machado-apunto-contra-los-legisladores-del-peronismo-cordobes-siempre-se-abstienen-o-rechazan.phtml",
+      "acceso": "abierto",
+      "resumen": "En diálogo con Punto a Punto Radio, la diputada de La Libertad Avanza cuestionó a los legisladores cordobeses por su postura frente a la ley de discapacidad y aseguró que no presentaron propuestas para modificar el proyecto. Además, defendió los acuerdos alcanzados en el Congreso y destacó la media sanción de una iniciativa para agravar las penas por vandalismo rural. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/laura-rodriguez-machado-2354326.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.16,
+        "y1": 0.616
+      }
+    },
+    {
+      "id": "c3ec6e56b2",
+      "seccion": "cordoba",
+      "rel": 19.3,
+      "relevancia": 19.3,
+      "fecha": "2026-10-22T16:01:50-03:00",
+      "hora": "16:01",
+      "titulo": "Santilli ante industriales cordobeses: “no van a decidir volver al pasado ni al populismo”",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/santilli-ante-industriales-cordobeses-no-van-a-decidir-volver-al-pasado-ni-al-populismo.phtml",
+      "acceso": "abierto",
+      "resumen": "El jefe de Gabinete, uno de los hombres fuertes de la mesa política de Javier Milei, afirmó que la baja impositiva equivale a 19.800 millones de dólares. A la distancia, también habló de las pymes, el riesgo electoral y la reforma de las PASO. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/08/19/trim/540/304/diego-santilli-2307546.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.144,
+        "y1": 0.576
+      }
+    },
+    {
+      "id": "3f002db336",
+      "seccion": "cordoba",
+      "rel": 19.1,
+      "relevancia": 19.1,
+      "fecha": "2026-10-22T15:13:00-03:00",
+      "hora": "15:13",
+      "titulo": "VIVO | Congreso de la UIC: \"Tenés que ser un cordobés que defienda los intereses de Córdoba en Buenos Aires y no al revés”",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/vivo-congreso-de-la-uic-en-cordoba-la-industria-en-el-nuevo-mapa-mundial.phtml",
+      "acceso": "abierto",
+      "resumen": "En el Coloquio Industrial, el gobernador Martín Llaryora defendió la producción cordobesa y reclamó al Gobierno nacional medidas para impulsar la industria y el empleo. Además, pidió un régimen de incentivos para las pymes y una prórroga de la ley de autopartes para dar previsibilidad al sector. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/18-coloquio-industrial-de-la-union-industrial-de-cordoba-uic-2352674.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
     }
   ],
   "opinion": []
