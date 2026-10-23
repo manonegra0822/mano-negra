@@ -1,78 +1,97 @@
 {
-  "actualizado": "2026-10-23T13:29:08-03:00",
+  "actualizado": "2026-10-23T20:19:44-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 99,
           "ejemplos": [
-            "La abogada Wendy Herrera respondió a Samor One, exnovio de Baby Demoni, tras su ",
-            "Gobierno presentará plan para contratación “urgente” de personal de salud y comp",
-            "Premios Princesa de Asturias 2026, en directo: última hora de la ceremonia de en"
+            "Perú acumuló 4.813 millones de dólares en inversión minera entre enero y agosto",
+            "La gobernadora de Nueva York hace campaña con Mamdani en tramo final antes de el",
+            "Vance sube a huracán de categoría 2 y provoca lluvias en Michoacán, Guerrero y O"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Apple y Nvidia no ceden en su pelea por ser la compañía más valiosa de Wall Stre"
+            "Brasil, EEUU y la visita del Papa: qué piensan los argentinos sobre los eventos "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 7,
+      "leidas": 86,
+      "aceptadas": 9,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "“Influye mucho o algo”: una encuesta señala que la incertidumbre electoral para ",
-            "El riesgo país vuelve a subir, supera los 710 puntos y marca el máximo del año",
-            "Inversiones: qué opciones recomiendan los analistas ante la volatilidad global"
-          ]
-        },
         "sección no permitida": {
-          "cantidad": 74,
+          "cantidad": 69,
           "ejemplos": [
-            "Animal Flow: el entrenamiento que invita a moverse como un animal vuelve al Bien",
-            "Conrado Estol, neurólogo: “Cerca del 90% de los ACV se explican por apenas diez ",
-            "Natalia Lobo llega a Bienestar Fest con una experiencia para volver a la propia "
+            "Arrestaron en San Isidro a otros dos menores de 15 años por el robo al hermano d",
+            "Fran Rosat, chef: “Revolver el arroz arruina todas las paellas porque soltás el ",
+            "El insólito gol de Nacho Fernández en el triunfo de Gimnasia ante Sarmiento por "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 6,
           "ejemplos": [
-            "Detuvieron por lavado a Ariel Vallejo, dueño de Sur Finanzas y allegado a la AFA",
-            "Tras la prórroga de la concesión, Aeropuertos Argentina consiguió US$400 millone",
-            "“Prioridad central”: un exjefe de Seguridad de OpenAI vuelve a la compañía ante "
+            "“Sin precedentes”. El trabajo en el centro de detención clandestino La Perla ide",
+            "Detuvieron por lavado de dinero a Ariel Vallejo, dueño de Sur Finanzas y allegad",
+            "Soja Visec: habilitan una modalidad para negociar el “premio” sobre la soja trad"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "sin ancla argentina": {
+          "cantidad": 2,
           "ejemplos": [
-            "Luego de que ratificara su ambición presidencial, Bullrich levanta el perfil y s"
+            "Cambio de hábitos: creció un 6% la demanda de pastas y las familias eligen las v",
+            "Denuncian en Bariloche a un candidato del oficialismo local por apología del ter"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre",
+            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
+            "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "De cara al ballotage, Lula y su militancia no se rinden"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 4,
+          "ejemplos": [
+            "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo",
+            "Foro de género y ruralidad: reconocer a cientos de mujeres que construyen tierra",
+            "Plaguicidas, ciencia que revela y evidencia censurada"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "La historia de los ocho identificados en La Perla",
-            "“Esto es un logro colectivo”: el mensaje de los familiares de los ocho identific"
+            "Violencia y represión en Plaza de Mayo: detuvieron al padre Paco Olveira y a una",
+            "En tres milímetros, la identidad es eterna",
+            "El fenómeno del “Ejército de Lula” sacude las redes sociales en Brasil"
           ]
         }
       }
@@ -80,14 +99,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
-            "Sebastián Fassi dejaría su cargo en Talleres y se analiza una reestructuración d",
-            "Talleres-Defensa: por dónde ingresar caminando al Kempes",
-            "Las Matadoras hicieron historia en Perú y van por la revancha"
+            "Stellantis frena por siete semanas la fabricación de dos pick-ups en Córdoba",
+            "Un ciberataque dejó sin sistemas a varios municipios de Punilla",
+            "El TSJ revocó un fallo que ordenaba a la Caja restituir a aportes a una jubilada"
           ]
         }
       }
@@ -95,14 +114,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 17,
+      "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 33,
+          "cantidad": 35,
           "ejemplos": [
-            "Jerarquizan la atención prehospitalaria: oficializan el rol de los Técnicos Univ",
-            "Pidieron la indagatoria de directivos de la droguería Suizo Argentina por “tomar",
-            "Motos camino al récord: el mercado apunta a 900.000 patentamientos en 2026"
+            "La venta de combustibles repuntó en septiembre",
+            "El TSJ revocó parcialmente un fallo que ordenaba a la Caja restituir a aportes a",
+            "Investigan el femicidio de una joven en Cofico tras hallar una valija con sangre"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -112,11 +131,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 29,
+          "cantidad": 25,
           "ejemplos": [
-            "Diputados: el oficialismo consiguió quórum para debatir la Ley de Tierras, Disca",
-            "Desregulación eléctrica: el Gobierno flexibiliza el mercado mayorista y facilita",
-            "Tarjetas de crédito: el Banco Central oficializó la tasa de interés aplicable pa"
+            "Se aprobó la Ley de Tierras y Diputados continuará tratando otros cuatro proyect",
+            "Indec registró una caída de la actividad económica del 1,7% interanual en agosto",
+            "Capital Humano homologó 19 acuerdos colectivos de distintos sectores"
           ]
         }
       }
@@ -124,14 +143,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 13,
           "ejemplos": [
-            "Córdoba: investigan el femicidio de una mujer en barrio Cofico",
-            "Bombazo en Talleres: Sebastián Fassi deja su cargo dentro del club",
-            "Franz Liszt según Alfred Brendel: el piano como una forma de interrogar la exist"
+            "EPEC informó una batería de cortes de luz para este sábado en Córdoba: zonas y h",
+            "Lionel Messi recibió el Premio Princesa de Asturias en España, con el recuerdo d",
+            "El poder del relato en Pedro en el país: entrevista con María Alché"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Brasil arde en redes y en las calles: entre la campaña del miedo del PT y el \"Fl"
           ]
         }
       }
@@ -154,11 +179,11 @@
       "aceptadas": 13,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 25,
+          "cantidad": 24,
           "ejemplos": [
-            "Condenaron a una comerciante por difamar y tratar de \"chorra\" a una vecina en Fa",
-            "Crisis de la industria en Córdoba: los 5 caminos que toman las empresas y cuál e",
-            "Identifican a nueve personas desaparecidas enterradas en el centro clandestino E"
+            "Amenazas a Daniela Morales Leanza: ordenan detener a una cordobesa que reside en",
+            "Necto Strategy: El puente para que Sistemas y Negocio hablen el mismo idioma",
+            "Córdoba: Stellantis frenará la producción por siete semanas en la planta de Ferr"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -168,11 +193,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 31,
+          "cantidad": 32,
           "ejemplos": [
-            "San Francisco avanza con EPEC para modernizar el alumbrado público: instalarán h",
-            "Palmar cumple 100 años y apuesta a la robotización con una inversión de US$ 15 m",
-            "Pedro Sánchez le respondió a Milei con un tema de Lali: \"Fanático\""
+            "El Niño en Córdoba: cuándo llegan las lluvias y cómo estará el tiempo el resto d",
+            "El TSJ rechazó el recurso de Adela Arning y la revocatoria sigue en marcha",
+            "Con un recital gratuito de La Sole Pastorutti, Mina Clavero lanza su temporada t"
           ]
         }
       }
