@@ -1,97 +1,78 @@
 {
-  "actualizado": "2026-10-23T08:25:14-03:00",
+  "actualizado": "2026-10-23T13:29:08-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 97,
           "ejemplos": [
-            "Kenny Barron, Kurt Elling, Michel Camilo y Mario Biondi, en el Festival de Jazz ",
-            "La Audiencia Nacional amnistía a los doce CDR procesados por terrorismo",
-            "“El papa León XIV debe escuchar lo que está ocurriendo”: esposa de peruano desap"
+            "La abogada Wendy Herrera respondió a Samor One, exnovio de Baby Demoni, tras su ",
+            "Gobierno presentará plan para contratación “urgente” de personal de salud y comp",
+            "Premios Princesa de Asturias 2026, en directo: última hora de la ceremonia de en"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Con nombre que remite a superhéroes y ChatGPT a bordo, se lanzó el nuevo modelo ",
-            "La compraventa de inmuebles en CABA se recuperó en septiembre pero cayó la canti"
+            "Apple y Nvidia no ceden en su pelea por ser la compañía más valiosa de Wall Stre"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 2,
+      "leidas": 90,
+      "aceptadas": 7,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 89,
+        "sin ancla argentina": {
+          "cantidad": 3,
           "ejemplos": [
-            "Elecciones Brasil 2026: encuestas del balotaje Lula vs. Flavio Bolsonaro y últim",
-            "Bienestar Fest: mañana arranca en Palermo el festival con más de 60 experiencias",
-            "El Papa cancela su viaje a Asís por “precaución” tras su operación por cáncer de"
+            "“Influye mucho o algo”: una encuesta señala que la incertidumbre electoral para ",
+            "El riesgo país vuelve a subir, supera los 710 puntos y marca el máximo del año",
+            "Inversiones: qué opciones recomiendan los analistas ante la volatilidad global"
+          ]
+        },
+        "sección no permitida": {
+          "cantidad": 74,
+          "ejemplos": [
+            "Animal Flow: el entrenamiento que invita a moverse como un animal vuelve al Bien",
+            "Conrado Estol, neurólogo: “Cerca del 90% de los ACV se explican por apenas diez ",
+            "Natalia Lobo llega a Bienestar Fest con una experiencia para volver a la propia "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "Fecha de cobro de Anses: el cronograma de pagos para este viernes 23 de octubre",
-            "Murió a los 83 años José María García Arecha, exsenador nacional y dirigente rad",
-            "Pablo Quirno se reunió con el vicesecretario de Estados Unidos, Christopher Land"
+            "Detuvieron por lavado a Ariel Vallejo, dueño de Sur Finanzas y allegado a la AFA",
+            "Tras la prórroga de la concesión, Aeropuertos Argentina consiguió US$400 millone",
+            "“Prioridad central”: un exjefe de Seguridad de OpenAI vuelve a la compañía ante "
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "El gobierno de Trump blanqueó la “preocupación” de sus empresas por la ley Malvi"
+            "Luego de que ratificara su ambición presidencial, Bullrich levanta el perfil y s"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 7,
-          "ejemplos": [
-            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
-            "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu",
-            "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Ahora, que nos escuchen: en defensa de la ira femenina",
-            "Proyectos autogestivos que apuestan al encuentro: feriar en clave feminista",
-            "El auto de Perón: el Justicialista, vanguardia cordobesa"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "José Luis Espert, procesado y embargado por lavado de dinero"
-          ]
-        },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "El jerarca de Mercedes-Benz, acusado de colaborar con la dictadura, que quiso pr",
-            "El Niño tendrá una intensidad “sin precedentes”, advierte la Organización Meteor",
-            "Copa Libertadores: gracias al enorme Muslera, Estudiantes es finalista"
+            "La historia de los ocho identificados en La Perla",
+            "“Esto es un logro colectivo”: el mensaje de los familiares de los ocho identific"
           ]
         }
       }
@@ -102,19 +83,11 @@
       "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 16,
           "ejemplos": [
-            "Sibilla: Córdoba tiene capacidad tecnológica para jugar un partido importante en",
-            "El Papa no viajará a Asís para continuar su recuperación tras la cirugía",
-            "Una sentencia con polémicas / Militantes mareados / Lealtades y traiciones"
-          ]
-        },
-        "otro país": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Lula y Flávio Bolsonaro empatan con el 50% de los votos",
-            "La Corte Penal Internacional recibió el premio Sájarov",
-            "El gobierno de Trump blanqueó la preocupación de sus empresas por la «Ley Malvin"
+            "Sebastián Fassi dejaría su cargo en Talleres y se analiza una reestructuración d",
+            "Talleres-Defensa: por dónde ingresar caminando al Kempes",
+            "Las Matadoras hicieron historia en Perú y van por la revancha"
           ]
         }
       }
@@ -122,14 +95,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 20,
+      "aceptadas": 17,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 34,
+          "cantidad": 33,
           "ejemplos": [
+            "Jerarquizan la atención prehospitalaria: oficializan el rol de los Técnicos Univ",
             "Pidieron la indagatoria de directivos de la droguería Suizo Argentina por “tomar",
-            "Motos camino al récord: el mercado apunta a 900.000 patentamientos en 2026",
-            "Stellantis: “No hay que buscar fantasmas, seguimos trabajando”"
+            "Motos camino al récord: el mercado apunta a 900.000 patentamientos en 2026"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -139,11 +112,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 25,
+          "cantidad": 29,
           "ejemplos": [
-            "Juicio contra Lotocki: declaran tres denunciantes",
-            "Milei calificó de “impresentable y dictador” al presidente de España, Pedro Sánc",
-            "Cervantes lanzó la nueva carrera en Logística"
+            "Diputados: el oficialismo consiguió quórum para debatir la Ley de Tierras, Disca",
+            "Desregulación eléctrica: el Gobierno flexibiliza el mercado mayorista y facilita",
+            "Tarjetas de crédito: el Banco Central oficializó la tasa de interés aplicable pa"
           ]
         }
       }
@@ -154,18 +127,11 @@
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 18,
           "ejemplos": [
-            "La noche en que la mística venció al retiro: la revancha dorada en el Maracaná",
-            "“Calle por calle”: todas las obras y cortes de tránsito en la ciudad de Córdoba",
-            "Histórica noche en el Maracaná: Estudiantes venció a Flamengo y jugará la final "
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Estados Unidos admitió que mira con atención la Ley de Defensa de la Soberanía",
-            "Lula y Flávio Bolsonaro tensan la campaña y acuerdan levantamiento recíproco del"
+            "Córdoba: investigan el femicidio de una mujer en barrio Cofico",
+            "Bombazo en Talleres: Sebastián Fassi deja su cargo dentro del club",
+            "Franz Liszt según Alfred Brendel: el piano como una forma de interrogar la exist"
           ]
         }
       }
@@ -185,29 +151,28 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 16,
+      "aceptadas": 13,
       "descartadas": {
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Causa Zenit: el fiscal propuso 5 años y 4 meses de prisión efectiva para Cristia",
-            "“No podemos dejar la situación así”: la Municipalidad reclama por el estado de l"
-          ]
-        },
         "titular sin tema de política/economía": {
           "cantidad": 25,
           "ejemplos": [
-            "Ariel Filomeni: \"Hoy el crecimiento de las empresas es puertas para adentro\"",
-            "Denuncias y polémica en la higiene urbana: quién es el asesor con pasado en el S",
-            "Ranking de barrios privados en Córdoba: cuáles tienen las expensas más caras en "
+            "Condenaron a una comerciante por difamar y tratar de \"chorra\" a una vecina en Fa",
+            "Crisis de la industria en Córdoba: los 5 caminos que toman las empresas y cuál e",
+            "Identifican a nueve personas desaparecidas enterradas en el centro clandestino E"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Causa Zenit: el fiscal propuso 5 años y 4 meses de prisión efectiva para Cristia"
           ]
         },
         "muy vieja": {
-          "cantidad": 27,
+          "cantidad": 31,
           "ejemplos": [
-            "Córdoba: elevan a juicio una causa por tortura y muerte de un detenido en la cár",
-            "Elección de abogados: ganó la Lista que encabeza Biglieri e integra Bittar, quie",
-            "Milei tiene otro rival en Córdoba y no es Kicillof según una encuesta"
+            "San Francisco avanza con EPEC para modernizar el alumbrado público: instalarán h",
+            "Palmar cumple 100 años y apuesta a la robotización con una inversión de US$ 15 m",
+            "Pedro Sánchez le respondió a Milei con un tema de Lali: \"Fanático\""
           ]
         }
       }
