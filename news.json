@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-24T08:19:55-03:00",
+  "actualizado": "2026-10-24T13:20:05-03:00",
   "notas": [
     {
       "id": "52eddd70c6",
       "seccion": "argentina",
-      "rel": 45.9,
-      "relevancia": 45.9,
+      "rel": 69.0,
+      "relevancia": 69.0,
       "fecha": "2026-10-23T19:46:52-03:00",
       "hora": "19:46",
       "titulo": "Milei habló tras el sobreseimiento por la causa $LIBRA: “¿Quién me compensa por un año y ocho meses de mentiras?”",
@@ -25,44 +25,6 @@
       ],
       "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "92ece86adf",
-      "seccion": "cordoba",
-      "rel": 43.2,
-      "relevancia": 43.2,
-      "fecha": "2026-10-23T16:45:50-03:00",
-      "hora": "16:45",
-      "titulo": "La Justicia sobreseyó a Javier y Karina Milei en la causa $Libra",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/la-justicia-sobreseyo-a-javier-y-karina-milei-en-la-causa-libra/",
-      "acceso": "abierto",
-      "resumen": "De acuerdo a la resolución, el magistrado a cargo, Marcelo Martínez de Giorgi, ordenó que, una vez firme la decisión, se comunique y archive la causa.",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/P3HYCGK4LZD3FBABGRQ56MGBMI.jpg?auth=db54ae00db6e70185d675c67a486f947b2a38a09d24bfbccd6d3cffb5837e0e9&smart=true&width=1213&height=802",
-      "imagen_credito": "La Nación",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "La Justicia sobreseyó al Presidente y a Karina Milei en el caso $LIBRA",
-          "url": "https://www.lanacion.com.ar/politica/el-gobierno-le-contesto-al-fiscal-del-caso-libra-que-no-tenia-registro-del-presunto-acuerdo-nid20032026/"
-        },
-        {
-          "fuente": "Cba24n",
-          "titulo": "Causa $LIBRA: la Justicia sobreseyó a Karina y Javier Milei",
-          "url": "https://www.cba24n.com.ar/argentina/causa--libra--la-justicia-sobreseyo-a-karina-y-javier-milei_a6adbb150ac284b518532aa2c"
-        },
-        {
-          "fuente": "Página/12",
-          "titulo": "Causa $Libra: la Justicia sobreseyó a Milei y al resto de los acusados",
-          "url": "https://www.pagina12.com.ar/2026/10/23/causa-libra-la-justicia-sobreseyo-a-milei-y-al-resto-de-los-acusados/"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.182,
-        "y1": 0.67
-      }
     },
     {
       "id": "58da844a87",
@@ -93,35 +55,10 @@
       }
     },
     {
-      "id": "d9918733ae",
-      "seccion": "cordoba",
-      "rel": 33.8,
-      "relevancia": 33.8,
-      "fecha": "2026-10-23T11:04:00-03:00",
-      "hora": "11:04",
-      "titulo": "El dólar en Córdoba: a cuánto cotiza este viernes 23 de octubre",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-23-de-octubre-231026.phtml",
-      "acceso": "abierto",
-      "resumen": "Este viernes 23 de octubre el dólar oficial en el Banco Nación se vende a 1.500 pesos y cotiza a 1.550 pesos para la compra. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/pesos-argentinos-y-dolares-2352806.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este sábado 24 de octubre",
-          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-sabado-24-de-octubre-nid24102026/"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "aad8a97346",
       "seccion": "cordoba",
-      "rel": 31.8,
-      "relevancia": 31.8,
+      "rel": 30.9,
+      "relevancia": 30.9,
       "fecha": "2026-10-23T18:50:27-03:00",
       "hora": "18:50",
       "titulo": "Passerini impulsa una reforma del cobro de tasas tras un fallo adverso de la Corte",
@@ -145,8 +82,8 @@
     {
       "id": "c9f8bf0e82",
       "seccion": "cordoba",
-      "rel": 25.6,
-      "relevancia": 25.6,
+      "rel": 24.8,
+      "relevancia": 24.8,
       "fecha": "2026-10-23T18:32:03-03:00",
       "hora": "18:32",
       "titulo": "Incumplimiento de la Ley de Financiamiento: universidades le entregaron una carta al Papa",
@@ -231,26 +168,45 @@
       }
     },
     {
-      "id": "33426e0b5c",
-      "seccion": "cordoba",
+      "id": "0bd858a720",
+      "seccion": "argentina",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-10-24T07:17:00-03:00",
-      "hora": "07:17",
-      "titulo": "Causa $LIBRA: Agost Carreño cruzó el fallo de Martínez de Giorgi y reclamó explicaciones a Milei",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/causa-libra-agost-carreno-cruzo-el-fallo-de-martinez-de-giorgi-y-reclamo-explicaciones-a-milei.phtml",
-      "acceso": "abierto",
-      "resumen": "El exdiputado cordobés puso en duda los fundamentos del cierre judicial y advirtió que todavía faltan explicaciones. Ferraro habló de encubrimiento y Milei respondió con una celebración del fallo. Leer más",
+      "fecha": "2026-10-24T12:24:53-03:00",
+      "hora": "12:24",
+      "titulo": "Milei volvió a atacar a Lula, que había dicho que en la Argentina la gente “come carne de burro”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-le-respondio-a-lula-que-habia-dicho-que-en-la-argentina-se-come-carne-de-burro-nid24102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente acusó a su par brasileño de “ladrón y mentiroso”; fue un día después del debate con Flavio Bolsonaro",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/agost-carreno-y-ferraro-en-la-comision-investigadora-2355410.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/QDMO5RPKDNFNTGTEZDJLE6A23Q.jpg?auth=58e067a191b413550ec4d297e9bd88602910be8765011ac508fab7efd4c4245e&smart=true&width=2000&height=1500",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.039,
-        "y1": 0.415
+        "y0": 0.218,
+        "y1": 0.81
       }
+    },
+    {
+      "id": "6849514897",
+      "seccion": "argentina",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-24T12:03:03-03:00",
+      "hora": "12:03",
+      "titulo": "La relación comercial: qué impacto en la Argentina puede dejar la elección en Brasil",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/la-relacion-comercial-que-impacto-en-la-argentina-puede-dejar-la-eleccion-en-brasil-nid24102026/",
+      "acceso": "suscripcion",
+      "resumen": "Lula y Bolsonaro enfrentan dos visiones distintas sobre el Mercosur; a pesar de ser el mayor socio de la Argentina, el vínculo económico entre ambos países está lejos de alcanzar todo su potencial",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/LIO5XKNKDVAWHCA6OG2OHKFNUQ.JPG?auth=358bd3175719d8edbbd3d3057294042ca2500e8bf4828b596a7db3a8c066d90d&smart=true&width=5616&height=3744",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "f7cc37f405",
@@ -275,25 +231,6 @@
       }
     },
     {
-      "id": "3e46268753",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-23T11:41:24-03:00",
-      "hora": "11:41",
-      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este viernes 23 de octubre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-viernes-23-de-octubre-nid23102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/XZQPDHBZGBBAJLYL7RSQ5MLINU.jpg?auth=4250115643cb84819c1e99ab771ac3dafc0cc2041ced00b270d21c323232649a&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "616757010e",
       "seccion": "argentina",
       "rel": 21.7,
@@ -316,66 +253,72 @@
       }
     },
     {
-      "id": "22b8193e19",
-      "seccion": "argentina",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-10-23T10:19:31-03:00",
-      "hora": "10:19",
-      "titulo": "La derecha española se sigue despegando de Milei tras su visita",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/23/la-derecha-espanola-se-sigue-despegando-de-milei-tras-su-visita/",
-      "acceso": "suscripcion",
-      "resumen": "“No comparto el lenguaje ni las formas”, dijo el candidato del Partido Popular sobre el presidente argentino, que viajó a España para hacer una videollamada con el líder de Vox y solo fue recibido por Isabel Díaz Ayuso.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/JNFURR4TWNCVHBFUG2BQYT2YHY.jpg?auth=a39a1bfa856222d112c998e8f7142302a751e856ff9ab14fb5e566c441548276&smart=true&width=1920&height=1276",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.172,
-        "y1": 0.497
-      }
-    },
-    {
-      "id": "7573009a5d",
+      "id": "c0d274a4ca",
       "seccion": "economia",
       "rel": 21.4,
       "relevancia": 21.4,
-      "fecha": "2026-10-23T09:57:25-03:00",
-      "hora": "09:57",
-      "titulo": "Javier Milei se aferra al control de la inflación pero la agenda social está cambiando, según las últimas encuestas",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/opinion/javier-milei-se-aferra-al-control-de-la-inflacion-pero-la-agenda-social-esta-cambiando--segun-las-ultimas-encuestas_a6adb578fb8bb995ffde5e0d0",
+      "fecha": "2026-10-24T08:00:00-03:00",
+      "hora": "08:00",
+      "titulo": "Milei se aferra al control de la inflación pero a la gente le preocupan sus ingresos",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/milei-se-aferra-al-control-de-la-inflacion-pero-a-la-gente-le-preocupan-sus-ingresos.phtml",
       "acceso": "abierto",
-      "resumen": "La mayoría prefiere una política orientada a mejorar los ingresos, en lugar de mantener la estrategia anti inflacionaria. Crece la brecha entre la orientación oficialista y las expectativas sociales predominantes.",
+      "resumen": "De acuerdo a las mediciones recientes, la agenda social está cambiando. La mayoría prefiere una política orientada a mejorar los ingresos, en lugar de mantener la estrategia antiinflacionaria. Crece la brecha entre la orientación oficialista y las expectativas sociales predominantes. La persistencia de ingresos insuficientes limita el respaldo social a la política económica vigente. Leer más",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6adb597ab8bb995ffde60674/720.jpeg",
-      "imagen_credito": "Cba24n",
+      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/milei-2354206.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "Javier Milei se aferra al control de la inflación pero la agenda social está cambiando, según las últimas encuestas",
+          "url": "https://www.cba24n.com.ar/opinion/javier-milei-se-aferra-al-control-de-la-inflacion-pero-la-agenda-social-esta-cambiando--segun-las-ultimas-encuestas_a6adb578fb8bb995ffde5e0d0"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.639
+      }
+    },
+    {
+      "id": "90869d8351",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-10-24T08:02:00-03:00",
+      "hora": "08:02",
+      "titulo": "Gabriel Bornoroni: “La gente no quiere candidatos que viven en campaña permanente”",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/gabriel-bornoroni-la-gente-no-quiere-candidatos-que-viven-en-campana-permanente.phtml",
+      "acceso": "abierto",
+      "resumen": "Tras una semana clave en la Cámara de Diputados, el jefe del bloque de La Libertad Avanza destacó la sanción de la Ley de Discapacidad y cruzó al peronismo cordobés. Además, marcó su estrategia política en la provincia: priorizar la gestión y mostrar resultados en el Congreso antes de acelerar candidaturas de cara a 2027. Acercamiento con Juez y distancia con De Loredo. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/campana-bornoroni-2355364.jpeg",
+      "imagen_credito": "Perfil",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": null
     },
     {
-      "id": "f34b0c2ac1",
-      "seccion": "argentina",
-      "rel": 20.5,
-      "relevancia": 20.5,
-      "fecha": "2026-10-23T23:25:31-03:00",
-      "hora": "23:25",
-      "titulo": "Milei y la Argentina se colaron en el debate entre Lula y Flávio Bolsonaro",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/24/milei-y-la-argentina-se-colaron-en-el-debate-entre-lula-y-flavio-bolsonaro/",
-      "acceso": "suscripcion",
-      "resumen": "El presidente brasileño instó a su rival a explicar el ajuste fiscal que pretende llevar a cabo si gana en las urnas, y si para el mismo “le va a pedir prestada la motosierra a Milei”.",
+      "id": "45a20f47de",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-10-24T08:01:00-03:00",
+      "hora": "08:01",
+      "titulo": "Milei enfrenta el examen de la economía y las tensiones en La Libertad Avanza",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/milei-enfrenta-el-examen-de-la-economia-y-las-tensiones-en-la-libertad-avanza.phtml",
+      "acceso": "abierto",
+      "resumen": "El presidente empezó a jugar la reelección mientras intenta sostener el rumbo económico, reunir apoyos en el Congreso y resolver la reforma electoral. La discusión por las PASO, los cruces públicos y el posicionamiento de Patricia Bullrich anticipan una campaña que ya se metió de lleno en la agenda del Gobierno. Leer más",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VXWPN3XXS5GQRKMBVOXR3CK5WE.jpg?auth=8d2277eceec253046f9ada53340ff1906b311d0829895a18732d6cbf51f6052f&smart=true&width=7952&height=5056",
-      "imagen_credito": "Página/12",
+      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/javier-milei-20261021-2353414.jpg",
+      "imagen_credito": "Perfil",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.046,
-        "y1": 0.42
+        "y0": 0.118,
+        "y1": 0.484
       }
     },
     {
@@ -398,6 +341,28 @@
       "rostros": {
         "y0": 0.102,
         "y1": 0.542
+      }
+    },
+    {
+      "id": "f34b0c2ac1",
+      "seccion": "argentina",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-10-23T23:25:31-03:00",
+      "hora": "23:25",
+      "titulo": "Milei y la Argentina se colaron en el debate entre Lula y Flávio Bolsonaro",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/24/milei-y-la-argentina-se-colaron-en-el-debate-entre-lula-y-flavio-bolsonaro/",
+      "acceso": "suscripcion",
+      "resumen": "El presidente brasileño instó a su rival a explicar el ajuste fiscal que pretende llevar a cabo si gana en las urnas, y si para el mismo “le va a pedir prestada la motosierra a Milei”.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VXWPN3XXS5GQRKMBVOXR3CK5WE.jpg?auth=8d2277eceec253046f9ada53340ff1906b311d0829895a18732d6cbf51f6052f&smart=true&width=7952&height=5056",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.046,
+        "y1": 0.42
       }
     },
     {
@@ -425,8 +390,8 @@
     {
       "id": "e86fbc101f",
       "seccion": "cordoba",
-      "rel": 19.3,
-      "relevancia": 19.3,
+      "rel": 18.4,
+      "relevancia": 18.4,
       "fecha": "2026-10-23T15:58:34-03:00",
       "hora": "15:58",
       "titulo": "Llaryora y Passerini recorrieron las obras viales en Villa Rivadavia Anexo",
@@ -444,8 +409,8 @@
     {
       "id": "076820d3dc",
       "seccion": "cordoba",
-      "rel": 19.2,
-      "relevancia": 19.2,
+      "rel": 18.4,
+      "relevancia": 18.4,
       "fecha": "2026-10-23T15:37:31-03:00",
       "hora": "15:37",
       "titulo": "El Gobierno de Córdoba intervino el Paicor en Río Segundo por faltantes de alimentos: \"Es un alivio, porque esta situación no va para más\"",
@@ -463,8 +428,8 @@
     {
       "id": "7ceff0b992",
       "seccion": "economia",
-      "rel": 19.1,
-      "relevancia": 19.1,
+      "rel": 18.2,
+      "relevancia": 18.2,
       "fecha": "2026-10-23T14:47:37-03:00",
       "hora": "14:47",
       "titulo": "Inocencia Fiscal II: el Gobierno reglamentó la Declaración Jurada Simplificada de Ganancias",
@@ -478,107 +443,6 @@
       "otros": [],
       "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "50df0c3de0",
-      "seccion": "cordoba",
-      "rel": 18.8,
-      "relevancia": 18.8,
-      "fecha": "2026-10-23T13:03:00-03:00",
-      "hora": "13:03",
-      "titulo": "El Ersep fijó fecha para la audiencia pública que evaluará un aumento en la tarifa de Aguas Cordobesas",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/el-ersep-fijo-fecha-para-la-audiencia-publica-que-evaluara-un-aumento-en-la-tarifa-de-aguas-cordobesas/",
-      "acceso": "abierto",
-      "resumen": "Se realizará el 30 de octubre a las 10 bajo la modalidad virtual Zoom. El la ocasión se debatirá el incremento de 11,90%. La solicitud de participación se podrá presentar hasta el próximo 28 de octubre inclusive, por medio de “Trámite Multinota”, opción “Gobierno de la Provincia de Córdoba Digital” de la plataforma Ciudadano Digital […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "c0e1636ef2",
-      "seccion": "cordoba",
-      "rel": 18.7,
-      "relevancia": 18.7,
-      "fecha": "2026-10-23T12:44:29-03:00",
-      "hora": "12:44",
-      "titulo": "Dura crítica del Financial Times: “Milei ha mostrado escasa empatía”",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/dura-critica-del-financial-times-milei-ha-mostrado-escasa-empatia/",
-      "acceso": "abierto",
-      "resumen": "El influyente diario londinense, Financial Times, consideró que el presidente Javier Milei “ha mostrado escasa empatía” con los sectores perjudicados por su programa de Gobierno y sostuvo que “el ambiente se ha vuelto sombrío” a un año de las elecciones.El artículo bajo el título “Las reformas de Milei bajo presión”, califica al Presidente como “excéntrico […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "471a94ee20",
-      "seccion": "cordoba",
-      "rel": 18.7,
-      "relevancia": 18.7,
-      "fecha": "2026-10-23T12:42:23-03:00",
-      "hora": "12:42",
-      "titulo": "Llaryora: “Necesitamos un Rigi que permita que la industria argentina pueda sobrevivir”",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/llaryora-necesitamos-un-rigi-que-permita-que-la-industria-argentina-pueda-sobrevivir/",
-      "acceso": "abierto",
-      "resumen": "El gobernador Martín Llaryora volvió a criticar al presidente Javier Milei. Participó de la apertura del 18° Coloquio Industrial de la Unión Industrial de Córdoba. Pidió un régimen de incentivos para las pymes",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "e2ad93e8c2",
-      "seccion": "cordoba",
-      "rel": 18.7,
-      "relevancia": 18.7,
-      "fecha": "2026-10-23T12:39:47-03:00",
-      "hora": "12:39",
-      "titulo": "Passerini manda a cambiar lo que pagan las empresas para evitar una pérdida del 50% de sus ingresos",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/passerini-manda-a-cambiar-lo-que-pagan-las-empresas-para-evitar-una-perdida-del-50-de-sus-ingresos.phtml",
-      "acceso": "abierto",
-      "resumen": "El intendente envió al Concejo Deliberante un proyecto urgente para reformular el artículo 256, que regula la tasa de Comercio e Industria. El nuevo texto detalla 12 servicios que el municipio dice prestar a cambio del tributo. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/23/trim/540/304/daniel-passerini-2354878.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.659
-      }
-    },
-    {
-      "id": "59731b6f20",
-      "seccion": "argentina",
-      "rel": 17.9,
-      "relevancia": 17.9,
-      "fecha": "2026-10-23T12:51:04-03:00",
-      "hora": "12:51",
-      "titulo": "Cristina y Máximo Kirchner, por primera vez juntos en el banquillo: tres minutos en cámara, papeles y un cigarrillo",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/cristina-y-maximo-kirchner-por-primera-vez-juntos-en-el-banquillo-tres-minutos-en-camara-papeles-y-nid23102026/",
-      "acceso": "suscripcion",
-      "resumen": "La expresidenta y su hijo deben estar conectados durante toda la lectura de los cargos en su contra, que puede durar varios días; se los vio, a cada uno por separado, entre las imágenes de los distintos acusados del juicio…",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/2LN7PL73MVGQND4OYHPHGCQ7TM.png?auth=a7771e69ad075fbd227c438d58cae23e61df2a87a936d483e9ab455d76865eec&smart=true&width=1919&height=1079",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.004,
-        "y1": 0.442
-      }
     },
     {
       "id": "c52029e17c",
@@ -627,8 +491,8 @@
     {
       "id": "461128ffdb",
       "seccion": "economia",
-      "rel": 16.3,
-      "relevancia": 16.3,
+      "rel": 15.5,
+      "relevancia": 15.5,
       "fecha": "2026-10-23T22:15:52-03:00",
       "hora": "22:15",
       "titulo": "Esa manito judicial que deja libres a los hermanos Milei",
@@ -649,8 +513,8 @@
     {
       "id": "d076a0ad71",
       "seccion": "economia",
-      "rel": 13.4,
-      "relevancia": 13.4,
+      "rel": 12.6,
+      "relevancia": 12.6,
       "fecha": "2026-10-23T16:54:27-03:00",
       "hora": "16:54",
       "titulo": "El riesgo país se descomprime, aunque se mantiene por encima de los 700 puntos",
@@ -668,8 +532,8 @@
     {
       "id": "9f2c517a17",
       "seccion": "cordoba",
-      "rel": 13.0,
-      "relevancia": 13.0,
+      "rel": 12.2,
+      "relevancia": 12.2,
       "fecha": "2026-10-23T14:37:01-03:00",
       "hora": "14:37",
       "titulo": "La Corte Suprema flexibiliza los requisitos de afiliación a la Obra Social del Poder Judicial",
@@ -687,8 +551,8 @@
     {
       "id": "23ef4d0cb4",
       "seccion": "economia",
-      "rel": 12.6,
-      "relevancia": 12.6,
+      "rel": 11.8,
+      "relevancia": 11.8,
       "fecha": "2026-10-24T00:01:00-03:00",
       "hora": "00:01",
       "titulo": "Caputo empieza a bajar los cuadros",
@@ -709,8 +573,8 @@
     {
       "id": "0cc5b790b1",
       "seccion": "cordoba",
-      "rel": 12.1,
-      "relevancia": 12.1,
+      "rel": 11.3,
+      "relevancia": 11.3,
       "fecha": "2026-10-23T20:50:26-03:00",
       "hora": "20:50",
       "titulo": "Javier Milei participó de la cena de fin de año de la Fundación Faro",
@@ -729,26 +593,29 @@
       }
     },
     {
-      "id": "6f5e93d621",
+      "id": "d9918733ae",
       "seccion": "cordoba",
-      "rel": 10.6,
-      "relevancia": 10.6,
-      "fecha": "2026-10-23T11:53:00-03:00",
-      "hora": "11:53",
-      "titulo": "“Es un secreto”: el nuevo video de Patricia Bullrich con guiños a la Vicepresidencia",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/-es-un-secreto---el-nuevo-video-de-patricia-bullrich-con-guinos-a-la-vicepresidencia_a6adb7271b8bb995ffde99ada",
+      "rel": 33.3,
+      "relevancia": -466.7,
+      "fecha": "2026-10-23T11:04:00-03:00",
+      "hora": "11:04",
+      "titulo": "El dólar en Córdoba: a cuánto cotiza este viernes 23 de octubre",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-23-de-octubre-231026.phtml",
       "acceso": "abierto",
-      "resumen": "La senadora difundió un video musicalizado con una reconocida canción de reggaeton, con imágenes del Senado y referencias a la presidencia de la Cámara alta.",
+      "resumen": "Este viernes 23 de octubre el dólar oficial en el Banco Nación se vende a 1.500 pesos y cotiza a 1.550 pesos para la compra. Leer más",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6adb75e6b8bb995ffde9e4d4/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
+      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/pesos-argentinos-y-dolares-2352806.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este sábado 24 de octubre",
+          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-sabado-24-de-octubre-nid24102026/"
+        }
+      ],
       "dia": 1,
-      "rostros": {
-        "y0": 0.095,
-        "y1": 0.977
-      }
+      "rostros": null
     },
     {
       "id": "f11691ac1a",
@@ -770,6 +637,47 @@
       "rostros": {
         "y0": 0.094,
         "y1": 0.415
+      }
+    },
+    {
+      "id": "3e46268753",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": -478.2,
+      "fecha": "2026-10-23T11:41:24-03:00",
+      "hora": "11:41",
+      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este viernes 23 de octubre",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-viernes-23-de-octubre-nid23102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/XZQPDHBZGBBAJLYL7RSQ5MLINU.jpg?auth=4250115643cb84819c1e99ab771ac3dafc0cc2041ced00b270d21c323232649a&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "22b8193e19",
+      "seccion": "argentina",
+      "rel": 21.5,
+      "relevancia": -478.5,
+      "fecha": "2026-10-23T10:19:31-03:00",
+      "hora": "10:19",
+      "titulo": "La derecha española se sigue despegando de Milei tras su visita",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/23/la-derecha-espanola-se-sigue-despegando-de-milei-tras-su-visita/",
+      "acceso": "suscripcion",
+      "resumen": "“No comparto el lenguaje ni las formas”, dijo el candidato del Partido Popular sobre el presidente argentino, que viajó a España para hacer una videollamada con el líder de Vox y solo fue recibido por Isabel Díaz Ayuso.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/JNFURR4TWNCVHBFUG2BQYT2YHY.jpg?auth=a39a1bfa856222d112c998e8f7142302a751e856ff9ab14fb5e566c441548276&smart=true&width=1920&height=1276",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.172,
+        "y1": 0.497
       }
     },
     {
@@ -869,6 +777,85 @@
       "impacto": null,
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MT4JNIKI2RDPZIXKP3CX2A7M24.jpg?auth=d5d22bbf415dc0a3c54de713c7bed1471c08c106b93bc03ab9287cee9d8e08a2&smart=true&width=1075&height=717",
       "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "50df0c3de0",
+      "seccion": "cordoba",
+      "rel": 18.0,
+      "relevancia": -482.0,
+      "fecha": "2026-10-23T13:03:00-03:00",
+      "hora": "13:03",
+      "titulo": "El Ersep fijó fecha para la audiencia pública que evaluará un aumento en la tarifa de Aguas Cordobesas",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/el-ersep-fijo-fecha-para-la-audiencia-publica-que-evaluara-un-aumento-en-la-tarifa-de-aguas-cordobesas/",
+      "acceso": "abierto",
+      "resumen": "Se realizará el 30 de octubre a las 10 bajo la modalidad virtual Zoom. El la ocasión se debatirá el incremento de 11,90%. La solicitud de participación se podrá presentar hasta el próximo 28 de octubre inclusive, por medio de “Trámite Multinota”, opción “Gobierno de la Provincia de Córdoba Digital” de la plataforma Ciudadano Digital […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "59731b6f20",
+      "seccion": "argentina",
+      "rel": 17.9,
+      "relevancia": -482.1,
+      "fecha": "2026-10-23T12:51:04-03:00",
+      "hora": "12:51",
+      "titulo": "Cristina y Máximo Kirchner, por primera vez juntos en el banquillo: tres minutos en cámara, papeles y un cigarrillo",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/cristina-y-maximo-kirchner-por-primera-vez-juntos-en-el-banquillo-tres-minutos-en-camara-papeles-y-nid23102026/",
+      "acceso": "suscripcion",
+      "resumen": "La expresidenta y su hijo deben estar conectados durante toda la lectura de los cargos en su contra, que puede durar varios días; se los vio, a cada uno por separado, entre las imágenes de los distintos acusados del juicio…",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/2LN7PL73MVGQND4OYHPHGCQ7TM.png?auth=a7771e69ad075fbd227c438d58cae23e61df2a87a936d483e9ab455d76865eec&smart=true&width=1919&height=1079",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.004,
+        "y1": 0.442
+      }
+    },
+    {
+      "id": "c0e1636ef2",
+      "seccion": "cordoba",
+      "rel": 17.9,
+      "relevancia": -482.1,
+      "fecha": "2026-10-23T12:44:29-03:00",
+      "hora": "12:44",
+      "titulo": "Dura crítica del Financial Times: “Milei ha mostrado escasa empatía”",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/dura-critica-del-financial-times-milei-ha-mostrado-escasa-empatia/",
+      "acceso": "abierto",
+      "resumen": "El influyente diario londinense, Financial Times, consideró que el presidente Javier Milei “ha mostrado escasa empatía” con los sectores perjudicados por su programa de Gobierno y sostuvo que “el ambiente se ha vuelto sombrío” a un año de las elecciones.El artículo bajo el título “Las reformas de Milei bajo presión”, califica al Presidente como “excéntrico […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "471a94ee20",
+      "seccion": "cordoba",
+      "rel": 17.9,
+      "relevancia": -482.1,
+      "fecha": "2026-10-23T12:42:23-03:00",
+      "hora": "12:42",
+      "titulo": "Llaryora: “Necesitamos un Rigi que permita que la industria argentina pueda sobrevivir”",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/llaryora-necesitamos-un-rigi-que-permita-que-la-industria-argentina-pueda-sobrevivir/",
+      "acceso": "abierto",
+      "resumen": "El gobernador Martín Llaryora volvió a criticar al presidente Javier Milei. Participó de la apertura del 18° Coloquio Industrial de la Unión Industrial de Córdoba. Pidió un régimen de incentivos para las pymes",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
       "dia": 1,
       "rostros": null

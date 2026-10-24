@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-24T08:19:55-03:00",
+  "actualizado": "2026-10-24T13:20:05-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,33 +7,46 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 99,
           "ejemplos": [
-            "Pérdidas millonarias y menos recursos al deporte español: así afecta la piraterí",
-            "Un Erasmus iberoamericano y más ciencia: la propuesta del biólogo mexicano Anton",
-            "Abascal pide una \"gran mayoría\" para ser presidente del Gobierno: \"No es imposib"
+            "En plena celebración por los 50 años de su debut, Hugo Sánchez lanza dardo contr",
+            "El presidente de Ecopetrol sostuvo una reunión con el cuerpo diplomático de EE. ",
+            "Reabre la estación de Plaza de Armas de Sevilla tras sofocarse el incendio de un"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Conflicto universitario: convocaron a un nuevo paro nacional por una semana"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
+      "leidas": 96,
       "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 80,
+          "cantidad": 83,
           "ejemplos": [
-            "El video de la reacción de Antonela Roccuzzo cuando un guardia de seguridad le i",
-            "Bienestar Fest: Danisa Bevcic dará las claves para elegir con qué colores vestir",
-            "Confirmaron la condena para el narco que controlaba, junto con su hermano, una e"
+            "Pedro Luis Barcia. “Padecemos sisifismo: subimos la ladera con una piedra que se",
+            "Un incendio destruyó el Nido del Águila, la “casa de té de Hitler” en los Alpes ",
+            "León XIV en la Argentina: cómo se prepara la familia agustiniana para recibirlo,"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Quería ser el “unicornio del agro”, llegó a valer más de US$1000 millones y ahor",
+            "Cambio de hábitos: creció un 6% la demanda de pastas y las familias eligen las v"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 7,
           "ejemplos": [
-            "Introducido por un escocés y discutido en sus comienzos, el alambrado marcó un a",
             "De las grandes estancias a los puestos patagónicos: la fábrica de 128 años que m",
+            "Introducido por un escocés y discutido en sus comienzos, el alambrado marcó un a",
             "El costo de delegar el cerebro"
           ]
         },
@@ -41,12 +54,6 @@
           "cantidad": 1,
           "ejemplos": [
             "Avanza la cosecha estadounidense y achata los precios del maíz y de la soja"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Cambio de hábitos: creció un 6% la demanda de pastas y las familias eligen las v"
           ]
         }
       }
@@ -57,7 +64,7 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre",
             "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
@@ -71,24 +78,25 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 5,
+          "cantidad": 6,
           "ejemplos": [
+            "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co",
             "Columna de géneros en #DesdeLaGente: Poder Popular",
-            "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo",
-            "Foro de género y ruralidad: reconocer a cientos de mujeres que construyen tierra"
+            "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 3,
+      "leidas": 6,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "El bochorno y Lamelas"
+            "El bochorno y Lamelas",
+            "La intifada global"
           ]
         }
       }
@@ -98,12 +106,18 @@
       "leidas": 20,
       "aceptadas": 5,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 15,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Córdoba reunirá a empresas y escuelas para la formación en demandas productivas",
-            "Canciller cubano denunció nueva amenaza militar de Estados Unidos",
-            "Stellantis frena por siete semanas la fabricación de dos pick-ups en Córdoba"
+            "Lula y Flávio Bolsonaro cierran sus campañas antes del balotaje en Brasil"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 14,
+          "ejemplos": [
+            "La Muni con Vos llega a tres barrios de Córdoba: qué trámites hacer",
+            "Se incendió el Nido del Águila de Hitler: hay un detenido en Alemania",
+            "Aston Villa venció al Manchester City por la Premier League"
           ]
         }
       }
@@ -111,22 +125,22 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 17,
+      "aceptadas": 14,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 22,
+          "cantidad": 20,
           "ejemplos": [
+            "Francia en máxima tensión: protestas masivas, desmanes y despliegue militar",
             "La venta de combustibles repuntó en septiembre",
-            "El TSJ revocó parcialmente un fallo que ordenaba a la Caja restituir a aportes a",
-            "Investigan el femicidio de una joven en Cofico tras hallar una valija con sangre"
+            "El TSJ revocó parcialmente un fallo que ordenaba a la Caja restituir a aportes a"
           ]
         },
         "muy vieja": {
-          "cantidad": 41,
+          "cantidad": 46,
           "ejemplos": [
-            "Equiparación salarial: tras el amparo, la Justicia citó a Magistrados, al Ejecut",
-            "España: bajó la litigiosidad pero subió la mora judicial",
-            "Diputados: se votó la vuelta a comisiones del proyecto sobre Endeudamiento Famil"
+            "Comisión Arbitral: oficializan prórrogas de vencimientos por feriados y el calen",
+            "El riesgo país vuelve a superar los 700 puntos en el inicio de las operaciones d",
+            "Compras por courier: en septiembre superaron lo gastado en todo el año pasado y "
           ]
         }
       }
@@ -134,14 +148,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 15,
           "ejemplos": [
-            "Loma del Torito: la importancia del trabajo del Equipo Argentino de Antropología",
-            "Córdoba: prevén tormentas fuertes, con ocasional actividad severa",
-            "“Hay cosas que dan a entender que hubo un acuerdo”, dice Agost Carreño sobre la "
+            "Atenas sigue en racha: venció a Lanús y sumó su tercer triunfo consecutivo",
+            "Córdoba: susto en un colegio porque un alumno de 13 años tenía un revólver en su",
+            "Condenaron al ex policía que mató de un disparo a Mateo Ochoa en Córdoba"
           ]
         },
         "otro país": {
@@ -167,14 +181,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 12,
+      "aceptadas": 11,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 23,
           "ejemplos": [
-            "Amenazas a Daniela Morales Leanza: ordenan detener a una cordobesa que reside en",
-            "Necto Strategy: El puente para que Sistemas y Negocio hablen el mismo idioma",
-            "Córdoba: Stellantis frenará la producción por siete semanas en la planta de Ferr"
+            "La escultora cordobesa que moldea el mármol en las canteras donde trabajaba Migu",
+            "Nuevamente cayó preso \"Tuerto Cacho\" en un megaoperativo con 52 allanamientos po",
+            "El dueño de Abordo Viajes continuará preso: le dictaron la prisión preventiva"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -184,11 +198,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 34,
+          "cantidad": 35,
           "ejemplos": [
-            "Encuesta: la imagen negativa de Milei trepó al 56% tras sus dichos sobre la gent",
-            "Por legítima defensa absolvieron a un automovilista que mató a otro tras una dis",
-            "El \"espíritu papal\" descomprime la guerra entre el PJ y la UCR: la Unicameral vu"
+            "Caja de Previsión: tras detenciones de autoridades, arquitectos e ingenieros lle",
+            "Córdoba empieza a monitorear con drones el arrojo ilegal de basura en la vía púb",
+            "Hallaron restos de ocho desaparecidos en La Perla: este viernes darán a conocer "
           ]
         }
       }
