@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-24T13:20:05-03:00",
+  "actualizado": "2026-10-24T20:15:41-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,51 +9,44 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "En plena celebración por los 50 años de su debut, Hugo Sánchez lanza dardo contr",
-            "El presidente de Ecopetrol sostuvo una reunión con el cuerpo diplomático de EE. ",
-            "Reabre la estación de Plaza de Armas de Sevilla tras sofocarse el incendio de un"
+            "América vs. Cúcuta - en vivo Liga BetPlay: minuto a minuto del partido en el Pas",
+            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 24 de octubre: Se normaliza",
+            "Alianza Lima vs Sporting Cristal: día, hora y canal TV del clásico por la fecha "
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Conflicto universitario: convocaron a un nuevo paro nacional por una semana"
+            "La industria volvió a caer en septiembre y continúa en terreno negativo en 2026,"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 3,
+      "leidas": 92,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 83,
           "ejemplos": [
-            "Pedro Luis Barcia. “Padecemos sisifismo: subimos la ladera con una piedra que se",
-            "Un incendio destruyó el Nido del Águila, la “casa de té de Hitler” en los Alpes ",
-            "León XIV en la Argentina: cómo se prepara la familia agustiniana para recibirlo,"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Quería ser el “unicornio del agro”, llegó a valer más de US$1000 millones y ahor",
-            "Cambio de hábitos: creció un 6% la demanda de pastas y las familias eligen las v"
+            "Lionel Messi en Inter Miami vs. New York Red Bull, en vivo por la MLS",
+            "Abierto de Tortugas: La Natividad-La Dolfina goleó a La Ensenada pero sabe que d",
+            "Natalia Lobo, actriz: “No importa si mientras meditas la mente se dispersa o apa"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 3,
           "ejemplos": [
+            "¿Relación de dependencia o cuentapropismo?",
             "De las grandes estancias a los puestos patagónicos: la fábrica de 128 años que m",
-            "Introducido por un escocés y discutido en sus comienzos, el alambrado marcó un a",
-            "El costo de delegar el cerebro"
+            "Introducido por un escocés y discutido en sus comienzos, el alambrado marcó un a"
           ]
         },
-        "otro país": {
+        "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Avanza la cosecha estadounidense y achata los precios del maíz y de la soja"
+            "El sindicalista absuelto tras el bloqueo en San Nicolás prepara un contragolpe y"
           ]
         }
       }
@@ -90,13 +83,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "El bochorno y Lamelas",
-            "La intifada global"
+            "Inquietudes, resquemores y expectativas por la palabra de León XIV durante su vi",
+            "Cómo le fue a Franco Colapinto en la clasificación del GP de Estados Unidos de l",
+            "“¡No voy a permitir que un miliciano me llame ‘nueve dedos’, no lo voy a permiti"
           ]
         }
       }
@@ -104,20 +98,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 6,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 13,
+          "ejemplos": [
+            "Talleres no encuentra el fondo: perdió en el Kempes frente a Defensa y Justicia ",
+            "Colapinto largará anteúltimo mañana: recibió una dura penalización en Austin",
+            "Charly García festejó sus 75 años en La Fábrica, rodeado de amigos y famosos"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Lula y Flávio Bolsonaro cierran sus campañas antes del balotaje en Brasil"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 14,
-          "ejemplos": [
-            "La Muni con Vos llega a tres barrios de Córdoba: qué trámites hacer",
-            "Se incendió el Nido del Águila de Hitler: hay un detenido en Alemania",
-            "Aston Villa venció al Manchester City por la Premier League"
           ]
         }
       }
@@ -125,22 +119,28 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 14,
+      "aceptadas": 11,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 18,
           "ejemplos": [
+            "Calendario de cobro de Anses para noviembre de 2026: fechas confirmadas para jub",
             "Francia en máxima tensión: protestas masivas, desmanes y despliegue militar",
-            "La venta de combustibles repuntó en septiembre",
-            "El TSJ revocó parcialmente un fallo que ordenaba a la Caja restituir a aportes a"
+            "La venta de combustibles repuntó en septiembre"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Elecciones en Brasil: Lula y Flávio Bolsonaro miden fuerzas en una segunda vuelt"
           ]
         },
         "muy vieja": {
-          "cantidad": 46,
+          "cantidad": 50,
           "ejemplos": [
-            "Comisión Arbitral: oficializan prórrogas de vencimientos por feriados y el calen",
-            "El riesgo país vuelve a superar los 700 puntos en el inicio de las operaciones d",
-            "Compras por courier: en septiembre superaron lo gastado en todo el año pasado y "
+            "El Gobierno declaró organizaciones terroristas a cinco grupos criminales y guerr",
+            "Cómo son los “espacios sensoriales” para menores que lanzó el Ministerio Público",
+            "El consumo masivo volvió a caer en septiembre"
           ]
         }
       }
@@ -153,9 +153,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
-            "Atenas sigue en racha: venció a Lanús y sumó su tercer triunfo consecutivo",
-            "Córdoba: susto en un colegio porque un alumno de 13 años tenía un revólver en su",
-            "Condenaron al ex policía que mató de un disparo a Mateo Ochoa en Córdoba"
+            "La moto china que se metió en la pelea de las trail de alta cilindrada y ahora c",
+            "Brasil: tensión en el último debate entre Lula y Flávio Bolsonaro antes del balo",
+            "Atenas sigue en racha: venció a Lanús y sumó su tercer triunfo consecutivo"
           ]
         },
         "otro país": {
@@ -184,25 +184,26 @@
       "aceptadas": 11,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 23,
+          "cantidad": 26,
           "ejemplos": [
-            "La escultora cordobesa que moldea el mármol en las canteras donde trabajaba Migu",
-            "Nuevamente cayó preso \"Tuerto Cacho\" en un megaoperativo con 52 allanamientos po",
-            "El dueño de Abordo Viajes continuará preso: le dictaron la prisión preventiva"
+            "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños",
+            "Una definición crucial, no sólo para Brasil",
+            "Jorge Santecchia: “El objetivo de las medidas es sanear una situación financiera"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Instituto, a las puertas de su sueño internacional",
             "Causa Zenit: el fiscal propuso 5 años y 4 meses de prisión efectiva para Cristia"
           ]
         },
         "muy vieja": {
-          "cantidad": 35,
+          "cantidad": 31,
           "ejemplos": [
-            "Caja de Previsión: tras detenciones de autoridades, arquitectos e ingenieros lle",
-            "Córdoba empieza a monitorear con drones el arrojo ilegal de basura en la vía púb",
-            "Hallaron restos de ocho desaparecidos en La Perla: este viernes darán a conocer "
+            "Laura Rodríguez Machado apuntó contra los legisladores del peronismo cordobés: “",
+            "Santilli ante industriales cordobeses: “no van a decidir volver al pasado ni al ",
+            "Ariel Filomeni: \"Hoy el crecimiento de las empresas es puertas para adentro\""
           ]
         }
       }
