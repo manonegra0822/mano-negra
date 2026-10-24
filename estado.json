@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-23T20:19:44-03:00",
+  "actualizado": "2026-10-24T08:19:55-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,47 +7,46 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 100,
           "ejemplos": [
-            "Perú acumuló 4.813 millones de dólares en inversión minera entre enero y agosto",
-            "La gobernadora de Nueva York hace campaña con Mamdani en tramo final antes de el",
-            "Vance sube a huracán de categoría 2 y provoca lluvias en Michoacán, Guerrero y O"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Brasil, EEUU y la visita del Papa: qué piensan los argentinos sobre los eventos "
+            "Pérdidas millonarias y menos recursos al deporte español: así afecta la piraterí",
+            "Un Erasmus iberoamericano y más ciencia: la propuesta del biólogo mexicano Anton",
+            "Abascal pide una \"gran mayoría\" para ser presidente del Gobierno: \"No es imposib"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 86,
-      "aceptadas": 9,
+      "leidas": 94,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 69,
+          "cantidad": 80,
           "ejemplos": [
-            "Arrestaron en San Isidro a otros dos menores de 15 años por el robo al hermano d",
-            "Fran Rosat, chef: “Revolver el arroz arruina todas las paellas porque soltás el ",
-            "El insólito gol de Nacho Fernández en el triunfo de Gimnasia ante Sarmiento por "
+            "El video de la reacción de Antonela Roccuzzo cuando un guardia de seguridad le i",
+            "Bienestar Fest: Danisa Bevcic dará las claves para elegir con qué colores vestir",
+            "Confirmaron la condena para el narco que controlaba, junto con su hermano, una e"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 9,
           "ejemplos": [
-            "“Sin precedentes”. El trabajo en el centro de detención clandestino La Perla ide",
-            "Detuvieron por lavado de dinero a Ariel Vallejo, dueño de Sur Finanzas y allegad",
-            "Soja Visec: habilitan una modalidad para negociar el “premio” sobre la soja trad"
+            "Introducido por un escocés y discutido en sus comienzos, el alambrado marcó un a",
+            "De las grandes estancias a los puestos patagónicos: la fábrica de 128 años que m",
+            "El costo de delegar el cerebro"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Avanza la cosecha estadounidense y achata los precios del maíz y de la soja"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Cambio de hábitos: creció un 6% la demanda de pastas y las familias eligen las v",
-            "Denuncian en Bariloche a un candidato del oficialismo local por apología del ter"
+            "Cambio de hábitos: creció un 6% la demanda de pastas y las familias eligen las v"
           ]
         }
       }
@@ -58,7 +57,7 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 4,
           "ejemplos": [
             "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre",
             "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
@@ -72,26 +71,24 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 4,
+          "cantidad": 5,
           "ejemplos": [
+            "Columna de géneros en #DesdeLaGente: Poder Popular",
             "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo",
-            "Foro de género y ruralidad: reconocer a cientos de mujeres que construyen tierra",
-            "Plaguicidas, ciencia que revela y evidencia censurada"
+            "Foro de género y ruralidad: reconocer a cientos de mujeres que construyen tierra"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
+      "leidas": 4,
       "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "Violencia y represión en Plaza de Mayo: detuvieron al padre Paco Olveira y a una",
-            "En tres milímetros, la identidad es eterna",
-            "El fenómeno del “Ejército de Lula” sacude las redes sociales en Brasil"
+            "El bochorno y Lamelas"
           ]
         }
       }
@@ -104,9 +101,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
-            "Stellantis frena por siete semanas la fabricación de dos pick-ups en Córdoba",
-            "Un ciberataque dejó sin sistemas a varios municipios de Punilla",
-            "El TSJ revocó un fallo que ordenaba a la Caja restituir a aportes a una jubilada"
+            "Córdoba reunirá a empresas y escuelas para la formación en demandas productivas",
+            "Canciller cubano denunció nueva amenaza militar de Estados Unidos",
+            "Stellantis frena por siete semanas la fabricación de dos pick-ups en Córdoba"
           ]
         }
       }
@@ -114,28 +111,22 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 19,
+      "aceptadas": 17,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 35,
+          "cantidad": 22,
           "ejemplos": [
             "La venta de combustibles repuntó en septiembre",
             "El TSJ revocó parcialmente un fallo que ordenaba a la Caja restituir a aportes a",
             "Investigan el femicidio de una joven en Cofico tras hallar una valija con sangre"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Detuvieron dos presidentes de colegios profesionales en la causa por presunta de"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 25,
+          "cantidad": 41,
           "ejemplos": [
-            "Se aprobó la Ley de Tierras y Diputados continuará tratando otros cuatro proyect",
-            "Indec registró una caída de la actividad económica del 1,7% interanual en agosto",
-            "Capital Humano homologó 19 acuerdos colectivos de distintos sectores"
+            "Equiparación salarial: tras el amparo, la Justicia citó a Magistrados, al Ejecut",
+            "España: bajó la litigiosidad pero subió la mora judicial",
+            "Diputados: se votó la vuelta a comisiones del proyecto sobre Endeudamiento Famil"
           ]
         }
       }
@@ -148,9 +139,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 13,
           "ejemplos": [
-            "EPEC informó una batería de cortes de luz para este sábado en Córdoba: zonas y h",
-            "Lionel Messi recibió el Premio Princesa de Asturias en España, con el recuerdo d",
-            "El poder del relato en Pedro en el país: entrevista con María Alché"
+            "Loma del Torito: la importancia del trabajo del Equipo Argentino de Antropología",
+            "Córdoba: prevén tormentas fuertes, con ocasional actividad severa",
+            "“Hay cosas que dan a entender que hubo un acuerdo”, dice Agost Carreño sobre la "
           ]
         },
         "otro país": {
@@ -176,10 +167,10 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 13,
+      "aceptadas": 12,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 24,
+          "cantidad": 23,
           "ejemplos": [
             "Amenazas a Daniela Morales Leanza: ordenan detener a una cordobesa que reside en",
             "Necto Strategy: El puente para que Sistemas y Negocio hablen el mismo idioma",
@@ -193,11 +184,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 32,
+          "cantidad": 34,
           "ejemplos": [
-            "El Niño en Córdoba: cuándo llegan las lluvias y cómo estará el tiempo el resto d",
-            "El TSJ rechazó el recurso de Adela Arning y la revocatoria sigue en marcha",
-            "Con un recital gratuito de La Sole Pastorutti, Mina Clavero lanza su temporada t"
+            "Encuesta: la imagen negativa de Milei trepó al 56% tras sus dichos sobre la gent",
+            "Por legítima defensa absolvieron a un automovilista que mató a otro tras una dis",
+            "El \"espíritu papal\" descomprime la guerra entre el PJ y la UCR: la Unicameral vu"
           ]
         }
       }
