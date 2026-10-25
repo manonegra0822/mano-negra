@@ -1,56 +1,52 @@
 {
-  "actualizado": "2026-10-25T08:19:51-03:00",
+  "actualizado": "2026-10-25T13:20:10-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Elecciones generales 29-N, en directo: Vivas reitera que la situación es “insost",
-            "Muere a los 85 años el cineasta José Luis García Sánchez, Oso de Oro en Berlín p",
-            "EN VIVO | Abrieron los comicios en Brasil: la población decide su futuro en un r"
+            "EN VIVO | Lula vs. Flávio Bolsonaro: los brasileños eligen a su próximo presiden",
+            "A qué hora juega Alianza Lima vs CD Moquegua HOY: partido clave por fecha 13 del",
+            "Por la crecida del río fue cerrado el Circuito Superior de las Cataratas del Igu"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El boom de Vaca Muerta no para: aporta más del 70% del crudo y empuja a la Argen"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 9,
+      "leidas": 90,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 70,
+          "cantidad": 81,
           "ejemplos": [
-            "La regla oficial que se aplica a salvadoreños con doble ciudadanía que viajan fu",
-            "Elecciones en Brasil 2026, EN VIVO: Lula vs. Flávio Bolsonaro y las últimas noti",
-            "Los diseños secretos de las lágrimas: una gota deja un sedimento con un patrón ú"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 5,
-          "ejemplos": [
-            "En un contexto crítico, las pymes deben enfrentar 62 obligaciones tributarias al",
-            "Federico Pastrana: “El Gobierno domina el dólar, pero el riesgo país sube, la po",
-            "¿El plan económico debe ser reemplazado, recalibrado o mantenido?"
+            "Elecciones en Brasil 2026, EN VIVO: Lula y Bolsonaro ya votaron y se espera un r",
+            "María Corina Machado anunció que regresó a Venezuela: “Estoy aquí, con ustedes”",
+            "Efecto Papa León XIV: alojamientos de hasta $22 millones por una noche y muy poc"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
-          "ejemplos": [
-            "Opinión: No a todo el campo le va bien",
-            "Visec Carne: así funciona el mundo de los negocios, guste o no",
-            "De las grandes estancias a los puestos patagónicos: la fábrica de 128 años que m"
-          ]
-        },
-        "otro país": {
           "cantidad": 3,
           "ejemplos": [
-            "Avanza la cosecha estadounidense y achata los precios del maíz y de la soja",
-            "La visita del Papa: la Iglesia espera la “última avanzada” y el Gobierno adjudic",
-            "Sergio Massa respaldó a Lula previo a las elecciones presidenciales en Brasil"
+            "Visec Carne: así funciona el mundo de los negocios, guste o no",
+            "Hugo Lattanzi, productor que invirtió en un campo en Río Negro: “Siempre vi a la",
+            "Opinión: No a todo el campo le va bien"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "En un contexto crítico, las pymes deben enfrentar 62 obligaciones tributarias al"
           ]
         }
       }
@@ -61,11 +57,9 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre",
-            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
-            "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu"
+            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre"
           ]
         },
         "otro país": {
@@ -75,11 +69,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 6,
+          "cantidad": 8,
           "ejemplos": [
-            "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co",
-            "Columna de géneros en #DesdeLaGente: Poder Popular",
-            "De la segunda vuelta en Brasil a las mujeres rurales que sostienen el mundo"
+            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
+            "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu",
+            "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co"
           ]
         }
       }
@@ -108,86 +102,53 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 14,
           "ejemplos": [
-            "Talleres no encuentra el fondo: perdió en el Kempes frente a Defensa y Justicia ",
-            "Obras viales: comienzan los trabajos nocturnos en Humberto Primo y Sarmiento",
-            "Cómo estará el tiempo en lo que queda del fin de semana: mejora el domingo"
+            "Franco Colapinto corre en el GP de Estados Unidos: horario y dónde verlo",
+            "La crecida de los ríos en Misiones mantiene 14 pasos fronterizos cerrados y ruta",
+            "Un motociclista sufrió heridas graves tras chocar con un auto"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Lula y Flávio Bolsonaro cierran sus campañas antes del balotaje en Brasil"
+            "Lula votó en Brasil: “Estaré eternamente agradecido”",
+            "Brasil ya elige entre Lula y Bolsonaro al nuevo presidente"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "leidas": 80,
-      "aceptadas": 7,
+      "error": "no se pudo leer el feed (The read operation timed out)"
+    },
+    {
+      "medio": "Cba24n",
+      "leidas": 20,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 16,
           "ejemplos": [
-            "Se firmó un acuerdo para monitorear y proteger los derechos humanos en las cárce",
-            "Calendario de cobro de Anses para noviembre de 2026: fechas confirmadas para jub",
-            "Francia en máxima tensión: protestas masivas, desmanes y despliegue militar"
+            "“Luminosa”: una argentina entre los santos propuestos",
+            "Un atlas para orientarse en el Antropoceno",
+            "Feria del Libro de Córdoba: Imprenta del Monserrat participa con tres presentaci"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Elecciones en Brasil: Lula y Flávio Bolsonaro miden fuerzas en una segunda vuelt"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 64,
-          "ejemplos": [
-            "Passerini se juega un pleno: cambia el Código Tributario para evitar un virtual ",
-            "Pidieron la indagatoria de directivos de la droguería Suizo Argentina por “tomar",
-            "Motos camino al récord: el mercado apunta a 900.000 patentamientos en 2026"
-          ]
-        }
-      }
-    },
-    {
-      "medio": "Cba24n",
-      "leidas": 20,
-      "aceptadas": 2,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 18,
-          "ejemplos": [
-            "Cómo leer patentes para saber el año de un vehículo",
-            "Patagonia, la exploración: una travesía por paisajes secretos junto a Pablo Sigi",
-            "Música barroca: un diálogo entre estilos en el Aula Magna de la UNC"
+            "Brasil elige entre Lula y Bolsonaro al nuevo presidente"
           ]
         }
       }
     },
     {
       "medio": "Bunker Media",
-      "sitemap_bytes": 93936
-    },
-    {
-      "medio": "Bunker Media",
-      "leidas": 13,
-      "aceptadas": 4,
-      "descartadas": {
-        "muy vieja": {
-          "cantidad": 9,
-          "ejemplos": [
-            "Condena a Oscar González: el Gobierno lo da por terminado y la oposición lo llev",
-            "Llaryora ofrendó la abstención a Milei para que restituya la Ley de Tierras",
-            "De Loredo recorrió San Justo y buscó ‘achicar’ con Bornoroni y Juez"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (HTTP Error 403: Forbidden)"
     },
     {
       "medio": "Punto a Punto",
@@ -200,10 +161,10 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 12,
+      "aceptadas": 10,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 26,
+          "cantidad": 22,
           "ejemplos": [
             "Los controles que puede hacer la Guardia Urbana: puede pedir identidad, pero no ",
             "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños",
@@ -217,11 +178,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 31,
+          "cantidad": 37,
           "ejemplos": [
-            "Causa Zenit: el fiscal propuso 5 años y 4 meses de prisión efectiva para Cristia",
-            "Reconocimiento para la Sección Deportes de Perfil Córdoba",
-            "Coloquio de la UIC: Entre el pedido de un RIGI para pymes y una nueva ley de aut"
+            "Passerini manda a cambiar lo que pagan las empresas para evitar una pérdida del ",
+            "El dólar en Córdoba: a cuánto cotiza este viernes 23 de octubre",
+            "Condenaron a una comerciante por difamar y tratar de \"chorra\" a una vecina en Fa"
           ]
         }
       }
