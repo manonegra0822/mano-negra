@@ -1,52 +1,56 @@
 {
-  "actualizado": "2026-10-24T20:15:41-03:00",
+  "actualizado": "2026-10-25T08:19:51-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "América vs. Cúcuta - en vivo Liga BetPlay: minuto a minuto del partido en el Pas",
-            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 24 de octubre: Se normaliza",
-            "Alianza Lima vs Sporting Cristal: día, hora y canal TV del clásico por la fecha "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La industria volvió a caer en septiembre y continúa en terreno negativo en 2026,"
+            "Elecciones generales 29-N, en directo: Vivas reitera que la situación es “insost",
+            "Muere a los 85 años el cineasta José Luis García Sánchez, Oso de Oro en Berlín p",
+            "EN VIVO | Abrieron los comicios en Brasil: la población decide su futuro en un r"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 5,
+      "leidas": 94,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 83,
+          "cantidad": 70,
           "ejemplos": [
-            "Lionel Messi en Inter Miami vs. New York Red Bull, en vivo por la MLS",
-            "Abierto de Tortugas: La Natividad-La Dolfina goleó a La Ensenada pero sabe que d",
-            "Natalia Lobo, actriz: “No importa si mientras meditas la mente se dispersa o apa"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "¿Relación de dependencia o cuentapropismo?",
-            "De las grandes estancias a los puestos patagónicos: la fábrica de 128 años que m",
-            "Introducido por un escocés y discutido en sus comienzos, el alambrado marcó un a"
+            "La regla oficial que se aplica a salvadoreños con doble ciudadanía que viajan fu",
+            "Elecciones en Brasil 2026, EN VIVO: Lula vs. Flávio Bolsonaro y las últimas noti",
+            "Los diseños secretos de las lágrimas: una gota deja un sedimento con un patrón ú"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 5,
           "ejemplos": [
-            "El sindicalista absuelto tras el bloqueo en San Nicolás prepara un contragolpe y"
+            "En un contexto crítico, las pymes deben enfrentar 62 obligaciones tributarias al",
+            "Federico Pastrana: “El Gobierno domina el dólar, pero el riesgo país sube, la po",
+            "¿El plan económico debe ser reemplazado, recalibrado o mantenido?"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Opinión: No a todo el campo le va bien",
+            "Visec Carne: así funciona el mundo de los negocios, guste o no",
+            "De las grandes estancias a los puestos patagónicos: la fábrica de 128 años que m"
+          ]
+        },
+        "otro país": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Avanza la cosecha estadounidense y achata los precios del maíz y de la soja",
+            "La visita del Papa: la Iglesia espera la “última avanzada” y el Gobierno adjudic",
+            "Sergio Massa respaldó a Lula previo a las elecciones presidenciales en Brasil"
           ]
         }
       }
@@ -83,14 +87,20 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Apriete para que la ley no sancione a empresas norteamericanas"
+          ]
+        },
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "Inquietudes, resquemores y expectativas por la palabra de León XIV durante su vi",
-            "Cómo le fue a Franco Colapinto en la clasificación del GP de Estados Unidos de l",
-            "“¡No voy a permitir que un miliciano me llame ‘nueve dedos’, no lo voy a permiti"
+            "Brasil elige entre Lula y Flavio Bolsonaro",
+            "La duda del poder es la “paz social” en plena crisis",
+            "Duelo"
           ]
         }
       }
@@ -104,8 +114,8 @@
           "cantidad": 13,
           "ejemplos": [
             "Talleres no encuentra el fondo: perdió en el Kempes frente a Defensa y Justicia ",
-            "Colapinto largará anteúltimo mañana: recibió una dura penalización en Austin",
-            "Charly García festejó sus 75 años en La Fábrica, rodeado de amigos y famosos"
+            "Obras viales: comienzan los trabajos nocturnos en Humberto Primo y Sarmiento",
+            "Cómo estará el tiempo en lo que queda del fin de semana: mejora el domingo"
           ]
         },
         "otro país": {
@@ -119,14 +129,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 11,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 8,
           "ejemplos": [
+            "Se firmó un acuerdo para monitorear y proteger los derechos humanos en las cárce",
             "Calendario de cobro de Anses para noviembre de 2026: fechas confirmadas para jub",
-            "Francia en máxima tensión: protestas masivas, desmanes y despliegue militar",
-            "La venta de combustibles repuntó en septiembre"
+            "Francia en máxima tensión: protestas masivas, desmanes y despliegue militar"
           ]
         },
         "otro país": {
@@ -136,11 +146,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 50,
+          "cantidad": 64,
           "ejemplos": [
-            "El Gobierno declaró organizaciones terroristas a cinco grupos criminales y guerr",
-            "Cómo son los “espacios sensoriales” para menores que lanzó el Ministerio Público",
-            "El consumo masivo volvió a caer en septiembre"
+            "Passerini se juega un pleno: cambia el Código Tributario para evitar un virtual ",
+            "Pidieron la indagatoria de directivos de la droguería Suizo Argentina por “tomar",
+            "Motos camino al récord: el mercado apunta a 900.000 patentamientos en 2026"
           ]
         }
       }
@@ -148,27 +158,36 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 18,
           "ejemplos": [
-            "La moto china que se metió en la pelea de las trail de alta cilindrada y ahora c",
-            "Brasil: tensión en el último debate entre Lula y Flávio Bolsonaro antes del balo",
-            "Atenas sigue en racha: venció a Lanús y sumó su tercer triunfo consecutivo"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Brasil arde en redes y en las calles: entre la campaña del miedo del PT y el \"Fl"
+            "Cómo leer patentes para saber el año de un vehículo",
+            "Patagonia, la exploración: una travesía por paisajes secretos junto a Pablo Sigi",
+            "Música barroca: un diálogo entre estilos en el Aula Magna de la UNC"
           ]
         }
       }
     },
     {
       "medio": "Bunker Media",
-      "error": "no se pudo leer el feed (HTTP Error 403: Forbidden)"
+      "sitemap_bytes": 93936
+    },
+    {
+      "medio": "Bunker Media",
+      "leidas": 13,
+      "aceptadas": 4,
+      "descartadas": {
+        "muy vieja": {
+          "cantidad": 9,
+          "ejemplos": [
+            "Condena a Oscar González: el Gobierno lo da por terminado y la oposición lo llev",
+            "Llaryora ofrendó la abstención a Milei para que restituya la Ley de Tierras",
+            "De Loredo recorrió San Justo y buscó ‘achicar’ con Bornoroni y Juez"
+          ]
+        }
+      }
     },
     {
       "medio": "Punto a Punto",
@@ -181,29 +200,28 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 11,
+      "aceptadas": 12,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 26,
           "ejemplos": [
+            "Los controles que puede hacer la Guardia Urbana: puede pedir identidad, pero no ",
             "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños",
-            "Una definición crucial, no sólo para Brasil",
-            "Jorge Santecchia: “El objetivo de las medidas es sanear una situación financiera"
+            "Una definición crucial, no sólo para Brasil"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Instituto, a las puertas de su sueño internacional",
-            "Causa Zenit: el fiscal propuso 5 años y 4 meses de prisión efectiva para Cristia"
+            "Instituto, a las puertas de su sueño internacional"
           ]
         },
         "muy vieja": {
           "cantidad": 31,
           "ejemplos": [
-            "Laura Rodríguez Machado apuntó contra los legisladores del peronismo cordobés: “",
-            "Santilli ante industriales cordobeses: “no van a decidir volver al pasado ni al ",
-            "Ariel Filomeni: \"Hoy el crecimiento de las empresas es puertas para adentro\""
+            "Causa Zenit: el fiscal propuso 5 años y 4 meses de prisión efectiva para Cristia",
+            "Reconocimiento para la Sección Deportes de Perfil Córdoba",
+            "Coloquio de la UIC: Entre el pedido de un RIGI para pymes y una nueva ley de aut"
           ]
         }
       }

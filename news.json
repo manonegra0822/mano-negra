@@ -1,6 +1,50 @@
 {
-  "actualizado": "2026-10-24T20:15:41-03:00",
+  "actualizado": "2026-10-25T08:19:51-03:00",
   "notas": [
+    {
+      "id": "f80d4f6593",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-25T08:10:48-03:00",
+      "hora": "08:10",
+      "titulo": "Lorenzetti habló del fallo sobre Cristina Kirchner y pidió cubrir las vacantes en la Corte Suprema",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/25/lorenzetti-hablo-del-fallo-sobre-cristina-kirchner-y-pidio-cubrir-las-vacantes-en-la-corte-suprema/",
+      "acceso": "abierto",
+      "resumen": "El ministro de la Corte Suprema aclaró que el máximo tribunal no analizó la inhabilitación perpetua de la expresidenta ni revisó el fondo de la condena dictada por el tribunal oral en la causa Vialidad",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/SAT56ORDYBGUHM6L3VKJZPX5IU.JPG?auth=bf694906a0281dd873e62544bdf985444ab776863e8cf51cedeace24f897a813&smart=true&width=2865&height=1910",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.088,
+        "y1": 0.468
+      }
+    },
+    {
+      "id": "62e6fb255b",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-25T07:27:37-03:00",
+      "hora": "07:27",
+      "titulo": "En el Gobierno debaten medidas de reactivación económica pero Milei se muestra inflexible",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/en-el-gobierno-debaten-medidas-de-reactivacion-economica-pero-milei-se-muestra-inflexible-nid25102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente admitió por primera vez que los indicadores “no evolucionan” como esperaba la Rosada; el ministro de Economía volvió de Tailandia y advirtió por el shock externo; comentarios por Bullrich y por la curita en el cuello",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/ZFVMF66RU5HVFDQBNS2QZUW4FM.jpg?auth=97b53051be6b47f6d78c6989695a9909167e0d99ffb6dd32b4adc1de2702942e&smart=true&width=2000&height=1334",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.294,
+        "y1": 0.704
+      }
+    },
     {
       "id": "9e469a26db",
       "seccion": "argentina",
@@ -17,51 +61,32 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/GOMBXTQC65BYFC3CMI55KGOZFU.JPG?auth=cd66e7916ecbcf33967dc9affe90cb25c4cb2abb03e2d64ef62a1efef6bff93a&smart=true&width=5616&height=3744",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.039,
         "y1": 0.491
       }
     },
     {
-      "id": "b012821020",
-      "seccion": "cordoba",
+      "id": "129b98cc17",
+      "seccion": "argentina",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-10-24T19:04:00-03:00",
-      "hora": "19:04",
-      "titulo": "La industria cordobesa pide bajar el “costo argentino” y destrabar la reforma tributaria",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/la-industria-cordobesa-pide-bajar-el-costo-argentino-y-destrabar-la-reforma-tributaria.phtml",
-      "acceso": "abierto",
-      "resumen": "En el Coloquio de la UIC, empresarios de autopartes, maquinaria agrícola, consumo masivo, calzado, plásticos, alimentos y textiles coincidieron en que el orden macroeconómico es necesario, pero no alcanza. Reclaman menos presión impositiva, mayor acceso al crédito y un programa de fortalecimiento al estilo RIGI para las industrias más chicas. El tipo de cambio y la apertura, en cambio, los dividen. Leer más",
+      "fecha": "2026-10-25T07:17:12-03:00",
+      "hora": "07:17",
+      "titulo": "Hotesur - Los Sauces: las irregularidades bancarias y el presunto lavado detrás de la compra del departamento donde Cristina Kirchner cumple su condena",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/hotesur-los-sauces-las-irregularidades-bancarias-y-el-presunto-lavado-detras-de-la-compra-del-nid25102026/",
+      "acceso": "suscripcion",
+      "resumen": "Un peritaje detectó faltantes, firmas ausentes y operaciones sin respaldo en el Banco Nación; la conexión con una empresa de electrodomésticos",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/24-10-2026uic1-2355530.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "3ef37e387c",
-      "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-24T19:02:00-03:00",
-      "hora": "19:02",
-      "titulo": "La UCR se ordena, Gvozdenovich toma la lapicera electoral y se tensa la interna por Milei",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/la-ucr-se-ordena-gvozdenovich-toma-la-lapicera-electoral-y-se-tensa-la-interna-por-milei.phtml",
-      "acceso": "abierto",
-      "resumen": "El titular de la UCR cordobesa acelera el armado territorial, impone disciplina interna y exhibe su “mano de hierro” contra quienes juegan con el PJ. Tendrá la lapicera para definir las alianzas de 2027, mientras el Congreso de este sábado abre la pulseada por Milei, las candidaturas y las reglas de juego. Mestre, Briner y Rossi preparan la resistencia. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/de-loredo-gvozdenovich-y-puricelli-en-san-francisco-2355412.jpeg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/T5ONTE3JVZHCHPHBZXKVBQKZTE.JPG?auth=56cb7063d31472617f218ab3b27a61407c72771eeb2b4d4ddd97ca53db0393da&smart=true&width=2000&height=1334",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.062,
-        "y1": 0.402
+        "y0": 0.037,
+        "y1": 0.592
       }
     },
     {
@@ -80,7 +105,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/QDMO5RPKDNFNTGTEZDJLE6A23Q.jpg?auth=58e067a191b413550ec4d297e9bd88602910be8765011ac508fab7efd4c4245e&smart=true&width=2000&height=1500",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.218,
         "y1": 0.81
@@ -102,7 +127,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/LIO5XKNKDVAWHCA6OG2OHKFNUQ.JPG?auth=358bd3175719d8edbbd3d3057294042ca2500e8bf4828b596a7db3a8c066d90d&smart=true&width=5616&height=3744",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -121,7 +146,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/4OO4ZT5DIVDY5KR4JHQTGBWLH4.jpg?auth=939da6d5e0bd6c903fe2b98083d94c2859e820747951c02358262be2e068cb8a&smart=true&width=1125&height=750",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.043,
         "y1": 0.474
@@ -143,32 +168,10 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/INOEYZ3GK5DTHHINKAIVDHCGDI.jpg?auth=00b7567440a1d90531896660d6ce025fbfddb5f44140583aab94bea53965cf15&smart=true&width=3601&height=2400",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.112,
         "y1": 0.822
-      }
-    },
-    {
-      "id": "99892cbf19",
-      "seccion": "cordoba",
-      "rel": 21.1,
-      "relevancia": 21.1,
-      "fecha": "2026-10-24T14:40:35-03:00",
-      "hora": "14:40",
-      "titulo": "El presidente Javier Milei le respondió a Lula por sus críticas a la Argentina",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/el-presidente-javier-milei-le-respondio-a-lula-por-sus-criticas-a-la-argentina_a6adce40a88e0fc5c4d857aed",
-      "acceso": "abierto",
-      "resumen": "El mandatario nacional publicó un mensaje en sus redes sociales en el que trató a su par de Brasil como un ladrón y un mentiroso.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6adce46188e0fc5c4d8594aa/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.075,
-        "y1": 0.528
       }
     },
     {
@@ -187,117 +190,133 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/NQN5FYCEX5FNDGLTZMCCPQLNJQ.jpg?auth=ab51c455f27cc8f5661a34aa40d7a8bc8485ef2064c10387bc246a8f6c8df648&smart=true&width=2250&height=1500",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.2,
         "y1": 0.687
       }
     },
     {
-      "id": "90869d8351",
+      "id": "40ca390d8b",
       "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-24T08:02:00-03:00",
-      "hora": "08:02",
-      "titulo": "Gabriel Bornoroni: “La gente no quiere candidatos que viven en campaña permanente”",
+      "rel": 20.8,
+      "relevancia": 20.8,
+      "fecha": "2026-10-25T00:59:20-03:00",
+      "hora": "00:59",
+      "titulo": "Córdoba: la Ministra de Seguridad, Alejandra Monteoliva, inspeccionó FAdeA para el operativo del Papa León XIV",
       "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/gabriel-bornoroni-la-gente-no-quiere-candidatos-que-viven-en-campana-permanente.phtml",
+      "url": "https://www.perfil.com/noticias/cordoba/cordoba-la-ministra-de-seguridad-alejandra-monteoliva-inspecciono-fadea-para-el-operativo-del-papa-leon-xiv.phtml",
       "acceso": "abierto",
-      "resumen": "Tras una semana clave en la Cámara de Diputados, el jefe del bloque de La Libertad Avanza destacó la sanción de la Ley de Discapacidad y cruzó al peronismo cordobés. Además, marcó su estrategia política en la provincia: priorizar la gestión y mostrar resultados en el Congreso antes de acelerar candidaturas de cara a 2027. Acercamiento con Juez y distancia con De Loredo. Leer más",
+      "resumen": "La funcionaria nacional inspeccionó las instalaciones de la fábrica estatal acompañada por el intendente Daniel Passerini y los Ministros Juan Pablo Quinteros, Miguel Siciliano, con los que articularon las medidas de prevención entre Nación, Provincia y Municipio Leer más",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/campana-bornoroni-2355364.jpeg",
+      "imagen": "https://fotos.perfil.com/2026/10/25/trim/540/304/recor-monteoliva-2355823.jpg",
       "imagen_credito": "Perfil",
       "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "45a20f47de",
+      "id": "1099ac0d36",
+      "seccion": "argentina",
+      "rel": 20.4,
+      "relevancia": 20.4,
+      "fecha": "2026-10-24T22:50:00-03:00",
+      "hora": "22:50",
+      "titulo": "El momento bisagra para Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/el-momento-bisagra-para-milei-nid24102026/",
+      "acceso": "suscripcion",
+      "resumen": "Un sector del Gobierno reclama ajustes en un plan económico que internamente dejó de ser incuestionable; el planteo de EE.UU. por la Ley Malvinas y los roces en el frente externo; las lecciones de París",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/FFC5GPOK3BHV7MNFKABNQQDSLE.JPG?auth=05ac68d4e261433da0c130145adc35b742b2684f394ee25a0e2cf14f4f44ac40&smart=true&width=1074&height=806",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "20f5a7c999",
       "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-24T08:01:00-03:00",
-      "hora": "08:01",
-      "titulo": "Milei enfrenta el examen de la economía y las tensiones en La Libertad Avanza",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/milei-enfrenta-el-examen-de-la-economia-y-las-tensiones-en-la-libertad-avanza.phtml",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-10-24T20:00:00-03:00",
+      "hora": "20:00",
+      "titulo": "Natalia de la Sota, el fantasma que preocupa y condiciona a Llaryora y Schiaretti",
+      "fuente": "Bunker Media",
+      "url": "https://bunkermedia.com.ar/contenido/1412/natalia-de-la-sota-el-fantasma-que-preocupa-y-condiciona-a-llaryora-y-schiaretti",
       "acceso": "abierto",
-      "resumen": "El presidente empezó a jugar la reelección mientras intenta sostener el rumbo económico, reunir apoyos en el Congreso y resolver la reforma electoral. La discusión por las PASO, los cruces públicos y el posicionamiento de Patricia Bullrich anticipan una campaña que ya se metió de lleno en la agenda del Gobierno. Leer más",
+      "resumen": "Es el único comodín que tiene la baraja del PJ cordobés. Entra en una fórmula nacional, puede condicionar la reelección de Llaryora en el 2027 o intentar un arribo al Senado. Qué piensa de Massa y Axel y por qué siente que es la única opositora a Milei en Córdoba.",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/21/trim/540/304/javier-milei-20261021-2353414.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://bunkermedia.com.ar/download/multimedia.grande.90185501d7b45cb0.Z3JhbmRlLndlYnA%3D.webp",
+      "imagen_credito": "Bunker Media",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
-        "y0": 0.118,
-        "y1": 0.484
+        "y0": 0.286,
+        "y1": 0.61
       }
     },
     {
-      "id": "c0d274a4ca",
-      "seccion": "economia",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-24T08:00:00-03:00",
-      "hora": "08:00",
-      "titulo": "Milei se aferra al control de la inflación pero a la gente le preocupan sus ingresos",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/milei-se-aferra-al-control-de-la-inflacion-pero-a-la-gente-le-preocupan-sus-ingresos.phtml",
-      "acceso": "abierto",
-      "resumen": "De acuerdo a las mediciones recientes, la agenda social está cambiando. La mayoría prefiere una política orientada a mejorar los ingresos, en lugar de mantener la estrategia antiinflacionaria. Crece la brecha entre la orientación oficialista y las expectativas sociales predominantes. La persistencia de ingresos insuficientes limita el respaldo social a la política económica vigente. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/22/trim/540/304/milei-2354206.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.639
-      }
-    },
-    {
-      "id": "39d398b3d1",
-      "seccion": "economia",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-10-24T18:59:00-03:00",
-      "hora": "18:59",
-      "titulo": "Christian Buteler: “No alcanza con energía, campo y minería para romper la dinámica de la economía”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/christian-buteler-no-alcanza-con-energia-campo-y-mineria-para-romper-la-dinamica-de-la-economia.phtml",
-      "acceso": "abierto",
-      "resumen": "El economista analizó el estancamiento de la actividad, la posibilidad de que la Argentina haya entrado en recesión técnica y las dificultades para que el crecimiento de las exportaciones y de los sectores productivos que muestran una reactivación llegue al resto de la economía. “Se necesita una modificación al plan económico”, advirtió. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2025/11/25/trim/540/304/25-11-2025-christian-buteler-economista-2142436.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.006,
-        "y1": 0.346
-      }
-    },
-    {
-      "id": "33426e0b5c",
+      "id": "b012821020",
       "seccion": "cordoba",
       "rel": 19.8,
       "relevancia": 19.8,
-      "fecha": "2026-10-24T07:17:00-03:00",
-      "hora": "07:17",
-      "titulo": "Causa $LIBRA: Agost Carreño cruzó el fallo de Martínez de Giorgi y reclamó explicaciones a Milei",
+      "fecha": "2026-10-24T19:04:00-03:00",
+      "hora": "19:04",
+      "titulo": "La industria cordobesa pide bajar el “costo argentino” y destrabar la reforma tributaria",
       "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/causa-libra-agost-carreno-cruzo-el-fallo-de-martinez-de-giorgi-y-reclamo-explicaciones-a-milei.phtml",
+      "url": "https://www.perfil.com/noticias/cordoba/la-industria-cordobesa-pide-bajar-el-costo-argentino-y-destrabar-la-reforma-tributaria.phtml",
       "acceso": "abierto",
-      "resumen": "El exdiputado cordobés puso en duda los fundamentos del cierre judicial y advirtió que todavía faltan explicaciones. Ferraro habló de encubrimiento y Milei respondió con una celebración del fallo. Leer más",
+      "resumen": "En el Coloquio de la UIC, empresarios de autopartes, maquinaria agrícola, consumo masivo, calzado, plásticos, alimentos y textiles coincidieron en que el orden macroeconómico es necesario, pero no alcanza. Reclaman menos presión impositiva, mayor acceso al crédito y un programa de fortalecimiento al estilo RIGI para las industrias más chicas. El tipo de cambio y la apertura, en cambio, los dividen. Leer más",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/agost-carreno-y-ferraro-en-la-comision-investigadora-2355410.jpg",
+      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/24-10-2026uic1-2355530.jpg",
       "imagen_credito": "Perfil",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "3ef37e387c",
+      "seccion": "cordoba",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-10-24T19:02:00-03:00",
+      "hora": "19:02",
+      "titulo": "La UCR se ordena, Gvozdenovich toma la lapicera electoral y se tensa la interna por Milei",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/la-ucr-se-ordena-gvozdenovich-toma-la-lapicera-electoral-y-se-tensa-la-interna-por-milei.phtml",
+      "acceso": "abierto",
+      "resumen": "El titular de la UCR cordobesa acelera el armado territorial, impone disciplina interna y exhibe su “mano de hierro” contra quienes juegan con el PJ. Tendrá la lapicera para definir las alianzas de 2027, mientras el Congreso de este sábado abre la pulseada por Milei, las candidaturas y las reglas de juego. Mestre, Briner y Rossi preparan la resistencia. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/de-loredo-gvozdenovich-y-puricelli-en-san-francisco-2355412.jpeg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
       "rostros": {
-        "y0": 0.039,
-        "y1": 0.415
+        "y0": 0.062,
+        "y1": 0.402
+      }
+    },
+    {
+      "id": "b5fafaf21f",
+      "seccion": "cordoba",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-10-24T18:56:08-03:00",
+      "hora": "18:56",
+      "titulo": "Nicolás activa el aparato radical: Armado territorial, internas y pulseada por una alianza con Milei",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/nicolas-activa-el-aparato-radical-armado-territorial-internas-y-pulseada-por-una-alianza-con-milei.phtml",
+      "acceso": "abierto",
+      "resumen": "La UCR de Córdoba Capital reactivó su estructura territorial y puso en marcha el operativo 2027. Mientras Miguel Nicolás ordena el partido en la ciudad, Juan Negri impulsa un frente opositor amplio y Dante Rossi reclama internas y rechaza una alianza con LLA de Milei. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/24/trim/540/304/nicolas-junto-a-dirigentes-de-la-seccional-1-2355690.jpeg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.045,
+        "y1": 0.471
       }
     },
     {
@@ -316,32 +335,117 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/ZFVMF66RU5HVFDQBNS2QZUW4FM.jpg?auth=97b53051be6b47f6d78c6989695a9909167e0d99ffb6dd32b4adc1de2702942e&smart=true&width=2000&height=1334",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.294,
         "y1": 0.704
       }
     },
     {
-      "id": "f34b0c2ac1",
-      "seccion": "argentina",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-10-23T23:25:31-03:00",
-      "hora": "23:25",
-      "titulo": "Milei y la Argentina se colaron en el debate entre Lula y Flávio Bolsonaro",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/24/milei-y-la-argentina-se-colaron-en-el-debate-entre-lula-y-flavio-bolsonaro/",
-      "acceso": "suscripcion",
-      "resumen": "El presidente brasileño instó a su rival a explicar el ajuste fiscal que pretende llevar a cabo si gana en las urnas, y si para el mismo “le va a pedir prestada la motosierra a Milei”.",
+      "id": "99892cbf19",
+      "seccion": "cordoba",
+      "rel": 19.1,
+      "relevancia": 19.1,
+      "fecha": "2026-10-24T14:40:35-03:00",
+      "hora": "14:40",
+      "titulo": "El presidente Javier Milei le respondió a Lula por sus críticas a la Argentina",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/el-presidente-javier-milei-le-respondio-a-lula-por-sus-criticas-a-la-argentina_a6adce40a88e0fc5c4d857aed",
+      "acceso": "abierto",
+      "resumen": "El mandatario nacional publicó un mensaje en sus redes sociales en el que trató a su par de Brasil como un ladrón y un mentiroso.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VXWPN3XXS5GQRKMBVOXR3CK5WE.jpg?auth=8d2277eceec253046f9ada53340ff1906b311d0829895a18732d6cbf51f6052f&smart=true&width=7952&height=5056",
-      "imagen_credito": "Página/12",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6adce46188e0fc5c4d8594aa/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [],
       "dia": 1,
       "rostros": {
-        "y0": 0.046,
-        "y1": 0.42
+        "y0": 0.075,
+        "y1": 0.528
+      }
+    },
+    {
+      "id": "f11b1f76bc",
+      "seccion": "argentina",
+      "rel": 18.6,
+      "relevancia": 18.6,
+      "fecha": "2026-10-25T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Cumbre del G11: los acuerdos y los límites de la unidad peronista",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/24/cumbre-del-g11-los-acuerdos-y-los-limites-de-la-unidad-peronista/",
+      "acceso": "suscripcion",
+      "resumen": "La agenda legislativa acercó al líder de La Cámpora y el gobernador, aunque la disputa por la conducción continúa.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/ZO2YHRGZV5BITOWOAEVKP6QCOQ.jpg?auth=2f5e1b415911c8a8db0e6de58d8bccf5a7c043c93705fb5ab43b6dfcc7bd161b&smart=true&width=8256&height=5504",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.318
+      }
+    },
+    {
+      "id": "befd11a79c",
+      "seccion": "argentina",
+      "rel": 18.6,
+      "relevancia": 18.6,
+      "fecha": "2026-10-25T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "El Gobierno intentará destrabar el proyecto de Defensa de la Soberanía",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/25/el-gobierno-intentara-destrabar-el-proyecto-de-defensa-de-la-soberania/",
+      "acceso": "suscripcion",
+      "resumen": "El texto no despierta consenso en los socios del oficialismo y enciende una interna con Martín Menem. El Consejo de Seguridad Nacional y la amenaza a la libertad de expresión son los puntos más objetados.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/O3HAWUJXRBHNNJDS6VRMPQKPDM.jpg?auth=5deb1666a2ed6618136ffa707cd015c50bc2e4a20fde24197c448e1f11a57bd9&smart=true&width=3000&height=2000",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "39d398b3d1",
+      "seccion": "economia",
+      "rel": 17.8,
+      "relevancia": 17.8,
+      "fecha": "2026-10-24T18:59:00-03:00",
+      "hora": "18:59",
+      "titulo": "Christian Buteler: “No alcanza con energía, campo y minería para romper la dinámica de la economía”",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/christian-buteler-no-alcanza-con-energia-campo-y-mineria-para-romper-la-dinamica-de-la-economia.phtml",
+      "acceso": "abierto",
+      "resumen": "El economista analizó el estancamiento de la actividad, la posibilidad de que la Argentina haya entrado en recesión técnica y las dificultades para que el crecimiento de las exportaciones y de los sectores productivos que muestran una reactivación llegue al resto de la economía. “Se necesita una modificación al plan económico”, advirtió. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2025/11/25/trim/540/304/25-11-2025-christian-buteler-economista-2142436.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.006,
+        "y1": 0.346
+      }
+    },
+    {
+      "id": "90fc15e715",
+      "seccion": "argentina",
+      "rel": 17.0,
+      "relevancia": 17.0,
+      "fecha": "2026-10-25T02:09:05-03:00",
+      "hora": "02:09",
+      "titulo": "Lorenzetti justificó la inhabilitación a Cristina Kirchner: “No fue el primer caso”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/lorenzetti-justifico-la-inhabilitacion-de-cristina-kirchner-no-fue-el-primer-caso-nid25102026/",
+      "acceso": "suscripcion",
+      "resumen": "El magistrado remarcó que la sanción está prevista en el Código Penal y tiene antecedentes; también explicó que el máximo tribunal rechazó un recurso de la expresidenta por falta de fundamentación, sin analizar el fondo del caso",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/AEP6REID5NFE3OGILUCRHA7CSY.JPG?auth=f3763b81c60458d2c8355ef5477976c621d04ccc8a637ba33ea09f3adf686d99&smart=true&width=2000&height=1400",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.093,
+        "y1": 0.411
       }
     },
     {
@@ -360,39 +464,124 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/EKQO67MFRNB2VEPSXNGVNDXBFU.jpg?auth=0075a153a388006142c8ee3db1cbe1045602b8dd941f514645429fe956528c1a&smart=true&width=1311&height=983",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.142,
         "y1": 0.447
       }
     },
     {
-      "id": "461128ffdb",
+      "id": "31eb08b97a",
       "seccion": "economia",
-      "rel": 15.5,
-      "relevancia": 15.5,
-      "fecha": "2026-10-23T22:15:52-03:00",
-      "hora": "22:15",
-      "titulo": "Esa manito judicial que deja libres a los hermanos Milei",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/24/esa-manito-judicial-que-deja-libre-a-los-milei/",
+      "rel": 16.6,
+      "relevancia": 16.6,
+      "fecha": "2026-10-25T00:05:53-03:00",
+      "hora": "00:05",
+      "titulo": "El efecto Vaca Muerta: una provincia prepara beneficios fiscales para atraer empresas e inversiones",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/el-efecto-vaca-muerta-una-provincia-prepara-beneficios-fiscales-para-atraer-empresas-e-inversiones-nid25102026/",
       "acceso": "suscripcion",
-      "resumen": "Todos los protagonistas de la criptoestafa, entre ellos Novelli y Terrones, fueron sobreseídos. No se investigó el destino de los millones de dólares transferidos por Davis.",
+      "resumen": "La Pampa busca aprovechar el crecimiento de la actividad energética para atraer empresas de transporte, construcción y servicios industriales",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/CZRPF4GRFJCNRHQSQA27QV4JWU.png?auth=666b3a699d274f59ffbb8b9dd0476449e1f1fc1e171d15a067bd5711b40cbf0e&smart=true&width=800&height=533",
-      "imagen_credito": "Página/12",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/HMY2WUYRK5CUZOIDTP3KJ6NTCU.jpg?auth=7bf2f4a9a3f7ee73fc57653e10d641d7e7284292b249aafa845b16be5883621b&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.519,
+        "y1": 0.742
+      }
+    },
+    {
+      "id": "680dd075cf",
+      "seccion": "economia",
+      "rel": 16.6,
+      "relevancia": 16.6,
+      "fecha": "2026-10-25T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Gonzalo Luchetti: “A pesar de todas las disrupciones, la resiliencia de la economía global ha sido muy fuerte”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/gonzalo-luchetti-a-pesar-de-todas-las-disrupciones-la-resiliencia-de-la-economia-global-ha-sido-muy-nid25102026/",
+      "acceso": "suscripcion",
+      "resumen": "El ejecutivo argentino que desde marzo de este año es CFO global del Citi habla sobre los riesgos geopolíticos que afectan al mundo, el impacto de la inteligencia artificial y la fortaleza del dólar como moneda de referencia",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/77F4YZTHS5FKHAPROVKYNHLWKI.jpg?auth=19d1eade10aba0974bd8827cae1e9dea16f1735733922f74b7dddb3c8b82b599&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.238,
+        "y1": 0.938
+      }
+    },
+    {
+      "id": "d3c35ad8c0",
+      "seccion": "argentina",
+      "rel": 15.8,
+      "relevancia": 15.8,
+      "fecha": "2026-10-25T07:22:31-03:00",
+      "hora": "07:22",
+      "titulo": "Los fallos anteriores de los jueces de Hotesur - Los Sauces: la “ruta del dinero K”, los bolsos de López y Oil Combustibles",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/los-fallos-anteriores-de-los-jueces-de-hotesur-los-sauces-la-ruta-del-dinero-k-los-bolsos-de-lopez-y-nid25102026/",
+      "acceso": "suscripcion",
+      "resumen": "Cristina Kirchner, Lázaro Báez y Cristóbal López ya fueron juzgados en otras causas por alguno de los tres magistrados",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/2MTNGVNQTRDIHGXZ5OWA6YMDHU.jpeg?auth=2bcbefdb43fbae2ce6ab720b95b1ed4beb12d816129b9229cc4a69da0d3575aa&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.264,
+        "y1": 0.493
+      }
+    },
+    {
+      "id": "52597c5d2a",
+      "seccion": "argentina",
+      "rel": 14.4,
+      "relevancia": 14.4,
+      "fecha": "2026-10-24T22:46:26-03:00",
+      "hora": "22:46",
+      "titulo": "IDEA llamó a un debate “sin agravios” tras los ataques de Milei a LA NACION",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/idea-llamo-a-un-debate-sin-agravios-tras-los-ataques-de-milei-a-la-nacion-nid24102026/",
+      "acceso": "suscripcion",
+      "resumen": "La organización advirtió que las agresiones a periodistas “contradicen la responsabilidad de quienes gobiernan” y pidió sostener un debate público sin descalificaciones",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/RQCNXGNG5BEY7EHIZMF5HWC4KQ.JPG?auth=0790ca388d51392f7d6deb885189a2af4dbfe0141b07a90c38d80a112a792d6e&smart=true&width=2048&height=1366",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "83e135aad1",
+      "seccion": "cordoba",
+      "rel": 14.4,
+      "relevancia": 14.4,
+      "fecha": "2026-10-24T11:00:00-03:00",
+      "hora": "11:00",
+      "titulo": "#InfoBlindada: algo se rompió en la relación entre Llaryora y ‘Toto",
+      "fuente": "Bunker Media",
+      "url": "https://bunkermedia.com.ar/contenido/1409/infoblindada-algo-se-rompio-en-la-relacion-entre-llaryora-y-toto-caputo",
+      "acceso": "abierto",
+      "resumen": "Algunos dicen que el",
+      "impacto": null,
+      "imagen": "https://bunkermedia.com.ar/download/multimedia.normal.95eeba60aa4cf963.bm9ybWFsLndlYnA%3D.webp",
+      "imagen_credito": "Bunker Media",
       "otros": [],
       "dia": 1,
       "rostros": {
-        "y0": 0.142,
-        "y1": 0.639
+        "y0": 0.097,
+        "y1": 0.517
       }
     },
     {
       "id": "90b989b844",
       "seccion": "cordoba",
-      "rel": 15.1,
-      "relevancia": 15.1,
+      "rel": 13.0,
+      "relevancia": 13.0,
       "fecha": "2026-10-24T14:36:37-03:00",
       "hora": "14:36",
       "titulo": "Confirmaron el procesamiento por evasión tributaria del dueño de Manaos",
@@ -404,14 +593,14 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
       "id": "51c18c4b27",
       "seccion": "cordoba",
-      "rel": 13.1,
-      "relevancia": 13.1,
+      "rel": 11.1,
+      "relevancia": 11.1,
       "fecha": "2026-10-24T15:00:59-03:00",
       "hora": "15:00",
       "titulo": "Milei celebró el informe de The Jerusalem Post sobre el supuesto respaldo de Israel por Malvinas",
@@ -423,14 +612,14 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
       "id": "86c773dbb5",
       "seccion": "economia",
-      "rel": 13.0,
-      "relevancia": 13.0,
+      "rel": 11.0,
+      "relevancia": 11.0,
       "fecha": "2026-10-24T14:02:05-03:00",
       "hora": "14:02",
       "titulo": "Secuestran $9 millones y dólares falsos en allanamientos en Villa María",
@@ -442,52 +631,8 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "23ef4d0cb4",
-      "seccion": "economia",
-      "rel": 11.8,
-      "relevancia": 11.8,
-      "fecha": "2026-10-24T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Caputo empieza a bajar los cuadros",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/24/caputo-empieza-a-bajar-los-cuadros/",
-      "acceso": "suscripcion",
-      "resumen": "El medio no publica un extracto de esta nota. Se puede leer completa en el enlace.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/SVX6TQ6EFJBTZM2K5A7CFDXLCU.jpg?auth=00c91c85aea7f41e973ecb788cb4af006c9ae263222c9719920d83e696e479b2&smart=true&width=1440&height=960",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.077,
-        "y1": 0.369
-      }
-    },
-    {
-      "id": "0cc5b790b1",
-      "seccion": "cordoba",
-      "rel": 10.1,
-      "relevancia": 10.1,
-      "fecha": "2026-10-23T20:50:26-03:00",
-      "hora": "20:50",
-      "titulo": "Javier Milei participó de la cena de fin de año de la Fundación Faro",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/javier-milei-participo-de-la-cena-de-fin-de-ano-de-la-fundacion-faro_a6adbf1fbac284b518542222a",
-      "acceso": "abierto",
-      "resumen": "El mandatario nacional comenzó con una fuerte crítica al periodismo y especialmente contra el grupo La Nación por la cobertura de la causa $LIBRA.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6adbf1ccac284b518542166b/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
       "dia": 1,
-      "rostros": {
-        "y0": 0.222,
-        "y1": 0.504
-      }
+      "rostros": null
     },
     {
       "id": "52eddd70c6",
@@ -511,7 +656,7 @@
           "url": "https://www.cba24n.com.ar/argentina/javier-milei-celebro-el-sobreseimiento-en-la-causa--libra-y-fustigo-a-periodistas_a6adbe13cac284b51853d93f8"
         }
       ],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -536,7 +681,7 @@
           "url": "https://hoydia.com.ar/politica/nacional/hotesur-los-sauces-las-claves-del-juicio-que-afrontaran-cristina-y-maximo-kirchner/"
         }
       ],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.026,
         "y1": 1.0
@@ -545,8 +690,8 @@
     {
       "id": "d9918733ae",
       "seccion": "cordoba",
-      "rel": 29.8,
-      "relevancia": -470.2,
+      "rel": 33.8,
+      "relevancia": -466.2,
       "fecha": "2026-10-23T11:04:00-03:00",
       "hora": "11:04",
       "titulo": "El dólar en Córdoba: a cuánto cotiza este viernes 23 de octubre",
@@ -560,11 +705,11 @@
       "otros": [
         {
           "fuente": "La Nación",
-          "titulo": "A cuánto abre el dólar el lunes 26 de octubre",
-          "url": "https://www.lanacion.com.ar/economia/dolar/a-cuanto-abre-el-dolar-el-lunes-26-de-octubre-nid24102026/"
+          "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este domingo 25 de octubre",
+          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-25-de-octubre-nid25102026/"
         }
       ],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -589,7 +734,7 @@
           "url": "https://hoydia.com.ar/politica/nacional/las-universidades-le-entregaron-una-carta-al-papa-contra-el-gobierno/"
         }
       ],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -608,7 +753,32 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/6UXIRJLNSFGUTCIG52VSDS6FUM.jpg?auth=f27acd4167209b9a10afa48ab56b62e83e0f4d8760c589c6d4bbef00716561c7&smart=true&width=3865&height=2190",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
+      "rostros": null
+    },
+    {
+      "id": "92ece86adf",
+      "seccion": "cordoba",
+      "rel": 22.0,
+      "relevancia": -478.0,
+      "fecha": "2026-10-23T16:45:50-03:00",
+      "hora": "16:45",
+      "titulo": "La Justicia sobreseyó a Javier y Karina Milei en la causa $Libra",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/la-justicia-sobreseyo-a-javier-y-karina-milei-en-la-causa-libra/",
+      "acceso": "abierto",
+      "resumen": "De acuerdo a la resolución, el magistrado a cargo, Marcelo Martínez de Giorgi, ordenó que, una vez firme la decisión, se comunique y archive la causa.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [
+        {
+          "fuente": "Comercio y Justicia",
+          "titulo": "“Causa Libra”: Javier y Karina Milei fueron sobreseídos",
+          "url": "https://comercioyjusticia.info/justicia/causa-libra-javier-y-karina-milei-fueron-sobreseidos/"
+        }
+      ],
+      "dia": 2,
       "rostros": null
     },
     {
@@ -627,7 +797,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/IDAOKCYYXJH4FLOGEYR2VRUG3Y.png?auth=b33840d5a9d88b0b25b446e24a5cd960f0fe0f32bc20b25a28fd41fe61635bcf&smart=true&width=1920&height=1080",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.154,
         "y1": 0.454
@@ -649,7 +819,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/HT3GB3DECVDWTBYCX4J5KBPZOU.jpg?auth=36f66431ba5ee308a0c27610872feefe8c9131a851ea29f0b77ecdc6b5832a22&smart=true&width=2000&height=1338",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.164,
         "y1": 0.603
@@ -671,7 +841,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/XP6HPUAC6ZFLBI2FVYMXBIK6VI.png?auth=1f9790f1e2f26624e241d49499b2c13dd01c4e66940c665a1f55cabcfbea0b71&smart=true&width=1390&height=888",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.126,
         "y1": 0.449
@@ -693,174 +863,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/XZQPDHBZGBBAJLYL7RSQ5MLINU.jpg?auth=4250115643cb84819c1e99ab771ac3dafc0cc2041ced00b270d21c323232649a&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "616757010e",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": -478.3,
-      "fecha": "2026-10-23T18:24:08-03:00",
-      "hora": "18:24",
-      "titulo": "El PJ trabaja para blindar las PASO y Massa vuelve a mostrarse activo con viejos aliados",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-pj-trabaja-para-blindar-las-paso-y-massa-vuelve-a-mostrarse-activo-con-viejos-aliados-nid23102026/",
-      "acceso": "suscripcion",
-      "resumen": "Tras el encuentro del jueves, del que participaron el tigrense, Kicillof y Máximo Kirchner, entre otros, se renovó el compromiso para evitar que el Gobierno avance con la reforma de las reglas electorales",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/QQEDUBIXR5BEFJ2ZVLOGMLNHF4.jpeg?auth=a49fd7fb85e6bc644057eb39e31ed6b3c29c236ad9a5eaa0e8fb72dfbd5d3f54&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.367,
-        "y1": 0.612
-      }
-    },
-    {
-      "id": "22b8193e19",
-      "seccion": "argentina",
-      "rel": 21.5,
-      "relevancia": -478.5,
-      "fecha": "2026-10-23T10:19:31-03:00",
-      "hora": "10:19",
-      "titulo": "La derecha española se sigue despegando de Milei tras su visita",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/23/la-derecha-espanola-se-sigue-despegando-de-milei-tras-su-visita/",
-      "acceso": "suscripcion",
-      "resumen": "“No comparto el lenguaje ni las formas”, dijo el candidato del Partido Popular sobre el presidente argentino, que viajó a España para hacer una videollamada con el líder de Vox y solo fue recibido por Isabel Díaz Ayuso.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/JNFURR4TWNCVHBFUG2BQYT2YHY.jpg?auth=a39a1bfa856222d112c998e8f7142302a751e856ff9ab14fb5e566c441548276&smart=true&width=1920&height=1276",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.172,
-        "y1": 0.497
-      }
-    },
-    {
-      "id": "0d53327a9b",
-      "seccion": "argentina",
-      "rel": 20.6,
-      "relevancia": -479.4,
-      "fecha": "2026-10-23T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Bullrich suma a Santilli a la lista de funcionarios con los que marca distancias",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/23/bullrich-suma-a-santilli-a-la-lista-de-funcionarios-con-los-que-marca-distancia/",
-      "acceso": "suscripcion",
-      "resumen": "La jefa de la bancada libertaria le bajó el precio a las gestiones del jefe de Gabinete con los gobernadores y puso en duda que esté cerca el objetivo del Gobierno de cambiar las reglas de juego para 2027.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GU2WKYLGHAYWIMRRHBTDQZBUHA.jpg?auth=22f547ab5bbabd371c9f9141b9a8e2aca1ab30044242a321f5e29e3435fc6c19&smart=true&width=1059&height=706",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.099,
-        "y1": 0.566
-      }
-    },
-    {
-      "id": "dadbb1c43d",
-      "seccion": "cordoba",
-      "rel": 20.2,
-      "relevancia": -479.8,
-      "fecha": "2026-10-22T21:25:33-03:00",
-      "hora": "21:25",
-      "titulo": "Llaryora reclamó un RIGI para la industria: Sin pymes no hay macro que aguante",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-reclamo-un-rigi-para-la-industria-sin-pymes-no-hay-macro-que-aguante/",
-      "acceso": "abierto",
-      "resumen": "Durante el Coloquio Industrial de la UIC, el gobernador cordobés se puso el traje productivista, le exigió a la Nación un régimen de incentivos a la medida de los pequeños y medianos empresarios y advirtió sobre el peligro de dejar caer al sector automotriz.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
       "dia": 2,
-      "rostros": null
-    },
-    {
-      "id": "a1556abaf4",
-      "seccion": "cordoba",
-      "rel": 20.1,
-      "relevancia": -479.9,
-      "fecha": "2026-10-22T20:57:01-03:00",
-      "hora": "20:57",
-      "titulo": "Industriales reclaman medidas a Javier Milei por el estancamiento económico",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/industriales-reclaman-medidas-a-javier-milei-por-el-estancamiento-economico_a6ada9f811773f855c7f81655",
-      "acceso": "abierto",
-      "resumen": "El presidente de la Unión Industrial Argentina, Martín Rappallini, participó en el Coloquio de la Unión Industrial de Córdoba. Piden “nivelar la cancha” para reactivar los sectores industriales.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ada9fa11773f855c7f818a1/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 2,
-      "rostros": null
-    },
-    {
-      "id": "2fdb129a97",
-      "seccion": "argentina",
-      "rel": 20.0,
-      "relevancia": -480.0,
-      "fecha": "2026-10-23T08:16:00-03:00",
-      "hora": "08:16",
-      "titulo": "Radiografía del Financial Times: el plan económico de Milei está bajo presión",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/economia/2026/10/23/radiografia-del-financial-times-el-plan-economico-de-milei-esta-bajo-presion/",
-      "acceso": "abierto",
-      "resumen": "El escenario plantea un desafío político para el Gobierno, que el año que viene buscará la reelección",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/CBBXKMOBOJBTTKD7Q5PNOH4W5Q.jpg?auth=eb3679bce54cec9c64ee0cadde1fe5265ccfb2a72c29cee0599d4761fbb554fd&smart=true&width=1920&height=1280",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.174,
-        "y1": 0.826
-      }
-    },
-    {
-      "id": "278fb5baae",
-      "seccion": "argentina",
-      "rel": 19.8,
-      "relevancia": -480.2,
-      "fecha": "2026-10-23T18:58:09-03:00",
-      "hora": "18:58",
-      "titulo": "Un referente de la poderosa industria alimentaria de Brasil sobre las medidas de Milei: “Son muy duras y perjudican principalmente a los más pobres”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/campo/un-referente-de-la-poderosa-industria-alimentaria-de-brasil-sobre-las-medidas-de-milei-son-muy-duras-nid23102026/",
-      "acceso": "suscripcion",
-      "resumen": "Ariovaldo Zani, representante de la industria brasileña de alimentación animal, consideró que las reformas económicas pueden favorecer la llegada de inversiones extranjeras, aunque advirtió sobre sus consecuencias sociales; también defendió un Estado más reducido y un mayor protagonismo del sector…",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RUPHOHHLLVG5HGV3MCI75BHEUE.jpeg?auth=814e44298f08e8f3cefb31a93a0d14357ebf08385078174c8b49cc3ea153c099&smart=true&width=960&height=720",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.102,
-        "y1": 0.542
-      }
-    },
-    {
-      "id": "c373df0d4f",
-      "seccion": "argentina",
-      "rel": 19.8,
-      "relevancia": -480.2,
-      "fecha": "2026-10-23T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Cumbre peronista: Máximo Kirchner, Axel Kicillof y Sergio Massa volvieron a verse cara a cara",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/22/cumbre-peronista-maximo-kirchner-axel-kicillof-y-sergio-massa-vuelven-a-verse-cara-a-cara/",
-      "acceso": "suscripcion",
-      "resumen": "Todos los sectores del peronismo se reunieron para definir la estrategia electoral y parlamentaria. La suspensión de las PASO y el debate por el Presupuesto, los ejes de la agenda. El objetivo de fondo, limar las asperezas para el 2027.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MT4JNIKI2RDPZIXKP3CX2A7M24.jpg?auth=d5d22bbf415dc0a3c54de713c7bed1471c08c106b93bc03ab9287cee9d8e08a2&smart=true&width=1075&height=717",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
       "rostros": null
     }
   ],
