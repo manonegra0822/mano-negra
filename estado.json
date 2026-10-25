@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-25T13:20:10-03:00",
+  "actualizado": "2026-10-25T20:16:31-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,44 +9,42 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "EN VIVO | Lula vs. Flávio Bolsonaro: los brasileños eligen a su próximo presiden",
-            "A qué hora juega Alianza Lima vs CD Moquegua HOY: partido clave por fecha 13 del",
-            "Por la crecida del río fue cerrado el Circuito Superior de las Cataratas del Igu"
+            "Atlético Nacional vs. Medellín - en vivo HOY: comenzó el partido con James Rodrí",
+            "Aleksandar Vucic reconoció la derrota ante la Lista de Estudiantes en las elecci",
+            "Transportistas acuerdan diálogo con Segob; CANACAR mantiene convocatoria de prot"
           ]
         },
-        "titular sin tema de política/economía": {
+        "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "El boom de Vaca Muerta no para: aporta más del 70% del crudo y empuja a la Argen"
+            "Dudas en una de las locomotoras de la economía: la incertidumbre electoral es el"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 5,
+      "leidas": 94,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 81,
+          "cantidad": 86,
           "ejemplos": [
-            "Elecciones en Brasil 2026, EN VIVO: Lula y Bolsonaro ya votaron y se espera un r",
-            "María Corina Machado anunció que regresó a Venezuela: “Estoy aquí, con ustedes”",
-            "Efecto Papa León XIV: alojamientos de hasta $22 millones por una noche y muy poc"
+            "Elecciones en Brasil 2026, EN VIVO: Lula vs. Flavio Bolsonaro y las últimas noti",
+            "River vs. Racing, en vivo por el torneo Clausura: minuto a minuto del partido",
+            "El día que un turba de manifestantes mató a su Primer Ministro y se lo comió"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Visec Carne: así funciona el mundo de los negocios, guste o no",
-            "Hugo Lattanzi, productor que invirtió en un campo en Río Negro: “Siempre vi a la",
-            "Opinión: No a todo el campo le va bien"
+            "Doce diputados libertarios viajaron a Brasil para respaldar a Flavio Bolsonaro y"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "En un contexto crítico, las pymes deben enfrentar 62 obligaciones tributarias al"
+            "El sindicalista absuelto tras el bloqueo en San Pedro prepara un contragolpe y l"
           ]
         }
       }
@@ -81,20 +79,21 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Apriete para que la ley no sancione a empresas norteamericanas"
+            "Resultados Elecciones Brasil 2026: el balotaje entre Lula y Bolsonaro",
+            "Brasil: Las multitudes que promovieron una elección histórica"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "Brasil elige entre Lula y Flavio Bolsonaro",
-            "La duda del poder es la “paz social” en plena crisis",
-            "Duelo"
+            "Franco Colapinto tuvo que abandonar la carrera del GP Estados Unidos",
+            "Racismo en el acto bolsonarista",
+            "Una vergüenza nacional"
           ]
         }
       }
@@ -104,19 +103,25 @@
       "leidas": 20,
       "aceptadas": 4,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 14,
-          "ejemplos": [
-            "Franco Colapinto corre en el GP de Estados Unidos: horario y dónde verlo",
-            "La crecida de los ríos en Misiones mantiene 14 pasos fronterizos cerrados y ruta",
-            "Un motociclista sufrió heridas graves tras chocar con un auto"
-          ]
-        },
         "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "Lula votó en Brasil: “Estaré eternamente agradecido”",
-            "Brasil ya elige entre Lula y Bolsonaro al nuevo presidente"
+            "Brasil retomó el conteo de los votos y Flávio Bolsonaro mantiene una leve ventaj",
+            "Se define el futuro de la ley de Defensa de la Soberanía Nacional de Malvinas"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 13,
+          "ejemplos": [
+            "Colapinto abandonó en Austin: Antonelli se quedó con el GP de EEUU y acaricia el",
+            "Una niña de dos años sufrió graves heridas tras ser atacada por un pitbull",
+            "La historia del juvenil cordobés que cumplirá su sueño con Los Pumitas"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Brasil extendió la votación hasta las 19 por problemas de transporte y lluvias"
           ]
         }
       }
@@ -128,19 +133,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 16,
           "ejemplos": [
-            "“Luminosa”: una argentina entre los santos propuestos",
-            "Un atlas para orientarse en el Antropoceno",
-            "Feria del Libro de Córdoba: Imprenta del Monserrat participa con tres presentaci"
+            "Racing volvió a tropezar: cayó ante All Boys y lleva ocho partidos sin ganar",
+            "Colapinto no pudo terminar en Austin: Antonelli ganó y sueña con ser campeón",
+            "Córdoba: una niña sufrió graves lesiones tras ser atacada por un pitbull"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Brasil elige: Lula da Silva y Bolsonaro votaron bien temprano",
             "Brasil elige entre Lula y Bolsonaro al nuevo presidente"
           ]
         }
@@ -161,10 +167,10 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 10,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 22,
+          "cantidad": 14,
           "ejemplos": [
             "Los controles que puede hacer la Guardia Urbana: puede pedir identidad, pero no ",
             "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños",
@@ -178,11 +184,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 37,
+          "cantidad": 46,
           "ejemplos": [
-            "Passerini manda a cambiar lo que pagan las empresas para evitar una pérdida del ",
-            "El dólar en Córdoba: a cuánto cotiza este viernes 23 de octubre",
-            "Condenaron a una comerciante por difamar y tratar de \"chorra\" a una vecina en Fa"
+            "Amenazas a Daniela Morales Leanza: ordenan detener a una cordobesa que reside en",
+            "Necto Strategy: El puente para que Sistemas y Negocio hablen el mismo idioma",
+            "Córdoba: Stellantis frenará la producción por siete semanas en la planta de Ferr"
           ]
         }
       }
