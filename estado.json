@@ -1,99 +1,83 @@
 {
-  "actualizado": "2026-10-25T20:16:31-03:00",
+  "actualizado": "2026-10-26T08:32:56-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 99,
-          "ejemplos": [
-            "Atlético Nacional vs. Medellín - en vivo HOY: comenzó el partido con James Rodrí",
-            "Aleksandar Vucic reconoció la derrota ante la Lista de Estudiantes en las elecci",
-            "Transportistas acuerdan diálogo con Segob; CANACAR mantiene convocatoria de prot"
-          ]
-        },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Dudas en una de las locomotoras de la economía: la incertidumbre electoral es el"
+            "El Banco Central aceleró el ritmo de compra de dólares: ¿por qué no se refleja e"
+          ]
+        },
+        "sección no permitida": {
+          "cantidad": 98,
+          "ejemplos": [
+            "De alcanzapelotas a héroe de Boca: la historia de Jagger Herrera, el defensor qu",
+            "Ibai Llanos y Biyín lloran la muerte del streamer Komanche y reivindican la luch",
+            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 26 de octubre"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 6,
+      "leidas": 91,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 86,
+          "cantidad": 79,
           "ejemplos": [
-            "Elecciones en Brasil 2026, EN VIVO: Lula vs. Flavio Bolsonaro y las últimas noti",
-            "River vs. Racing, en vivo por el torneo Clausura: minuto a minuto del partido",
-            "El día que un turba de manifestantes mató a su Primer Ministro y se lo comió"
+            "Resultados en vivo: Lula da Silva ganó el balotaje 2026 y fue elegido presidente",
+            "Resultados: quién ganó las Elecciones 2026 en Brasil",
+            "Elecciones en Brasil 2026, EN VIVO: reacciones tras la victoria de Lula sobre Bo"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "Hugo Lattanzi, productor que invirtió en un campo en Río Negro: “Siempre vi a la",
+            "Diarios, libros, shoppings ¿y autos? Profecías incumplidas en la era digital",
+            "Martín Gana sobre el negocio de los tambos: “La crisis no se enfrenta solamente "
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Doce diputados libertarios viajaron a Brasil para respaldar a Flavio Bolsonaro y"
+            "La reacción de las acciones de Mercado Libre tras la victoria de Lula da Silva s",
+            "Reacciones de las elecciones en Brasil 2026: mensajes, tuits y declaraciones"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "El sindicalista absuelto tras el bloqueo en San Pedro prepara un contragolpe y l"
+            "AySA propone cambios en las tarifas antes de pasar a manos privadas: quiénes pag"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "De cara al ballotage, Lula y su militancia no se rinden"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 8,
-          "ejemplos": [
-            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
-            "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu",
-            "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
-        "otro país": {
+        "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "Resultados Elecciones Brasil 2026: el balotaje entre Lula y Bolsonaro",
-            "Brasil: Las multitudes que promovieron una elección histórica"
+            "Lula ganó cómodo en una remontada histórica",
+            "“El pueblo brasileño protagonizó un 17 de octubre electoral”"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Franco Colapinto tuvo que abandonar la carrera del GP Estados Unidos",
-            "Racismo en el acto bolsonarista",
-            "Una vergüenza nacional"
+            "Brasil: Las multitudes que promovieron una elección histórica"
           ]
         }
       }
@@ -101,53 +85,45 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 6,
       "descartadas": {
-        "otro país": {
-          "cantidad": 2,
+        "titular sin tema de política/economía": {
+          "cantidad": 12,
           "ejemplos": [
-            "Brasil retomó el conteo de los votos y Flávio Bolsonaro mantiene una leve ventaj",
-            "Se define el futuro de la ley de Defensa de la Soberanía Nacional de Malvinas"
+            "Dirigentes cordobeses felicitaron a Lula por su triunfo electoral en Brasil",
+            "Lula da Silva dio la sorpresa y ganó por más de tres puntos frente a Flávio Bols",
+            "La voz como camino: el viaje íntimo de un tenor que esculpe el alma a través del"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 13,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Colapinto abandonó en Austin: Antonelli se quedó con el GP de EEUU y acaricia el",
-            "Una niña de dos años sufrió graves heridas tras ser atacada por un pitbull",
-            "La historia del juvenil cordobés que cumplirá su sueño con Los Pumitas"
+            "Se define el futuro de la ley de Defensa de la Soberanía Nacional de Malvinas"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Brasil extendió la votación hasta las 19 por problemas de transporte y lluvias"
+            "Instituto recibe a Deportivo Riestra con la ilusión de clasificar a una copa int"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "error": "no se pudo leer el feed (The read operation timed out)"
+      "error": "no se pudo leer el feed (mismatched tag: line 46, column 2)"
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 20,
           "ejemplos": [
-            "Racing volvió a tropezar: cayó ante All Boys y lleva ocho partidos sin ganar",
-            "Colapinto no pudo terminar en Austin: Antonelli ganó y sueña con ser campeón",
-            "Córdoba: una niña sufrió graves lesiones tras ser atacada por un pitbull"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Brasil elige: Lula da Silva y Bolsonaro votaron bien temprano",
-            "Brasil elige entre Lula y Bolsonaro al nuevo presidente"
+            "Dos récords en una semana: Agostina Hein sigue haciendo historia",
+            "Brasil: Lula da Silva se impuso en Argentina y también hubo festejos",
+            "Barracas Central lo dio vuelta ante Estudiantes de Río IV con polémica"
           ]
         }
       }
@@ -167,14 +143,20 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 9,
+      "aceptadas": 8,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 14,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Los controles que puede hacer la Guardia Urbana: puede pedir identidad, pero no ",
-            "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños",
-            "Una definición crucial, no sólo para Brasil"
+            "Lula tras su histórico triunfo: “Participé de muchas elecciones, nunca vi tanta "
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 13,
+          "ejemplos": [
+            "Detuvieron en Buenos Aires al principal sospechoso por el crimen de Daniela Vill",
+            "Voces cordobesas: las reacciones del arco político local tras el triunfo de Lula",
+            "Lula derrota a Flávio Bolsonaro en el balotaje y seguirá cuatro años más en el p"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -184,11 +166,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 46,
+          "cantidad": 47,
           "ejemplos": [
-            "Amenazas a Daniela Morales Leanza: ordenan detener a una cordobesa que reside en",
-            "Necto Strategy: El puente para que Sistemas y Negocio hablen el mismo idioma",
-            "Córdoba: Stellantis frenará la producción por siete semanas en la planta de Ferr"
+            "Gabriel Bornoroni: “La gente no quiere candidatos que viven en campaña permanent",
+            "Milei enfrenta el examen de la economía y las tensiones en La Libertad Avanza",
+            "El efecto mariposa: cómo los pequeños gestos pueden cambiar la vida de los demás"
           ]
         }
       }
