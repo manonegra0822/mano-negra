@@ -1,66 +1,91 @@
 {
-  "actualizado": "2026-10-26T08:32:56-03:00",
+  "actualizado": "2026-10-26T13:39:54-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
       "aceptadas": 1,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 1,
+        "sección no permitida": {
+          "cantidad": 97,
           "ejemplos": [
-            "El Banco Central aceleró el ritmo de compra de dólares: ¿por qué no se refleja e"
+            "Elecciones generales en España 29-N, en directo | Sánchez acusa a PP y Vox de se",
+            "La Mañanera de la presidenta Claudia Sheinbaum hoy lunes 26 de octubre: triunfo ",
+            "Chile: Kast asumió la responsabilidad por rebaja de condenas a 56 pederastas y m"
           ]
         },
-        "sección no permitida": {
-          "cantidad": 98,
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
           "ejemplos": [
-            "De alcanzapelotas a héroe de Boca: la historia de Jagger Herrera, el defensor qu",
-            "Ibai Llanos y Biyín lloran la muerte del streamer Komanche y reivindican la luch",
-            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 26 de octubre"
+            "El Papa León XIV confirmó su viaje a la Argentina: “Me llena de alegría”",
+            "La Argentina integra el grupo de los 11 países con mejores cuentas públicas: cuá"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 5,
+      "leidas": 86,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 79,
+          "cantidad": 72,
           "ejemplos": [
-            "Resultados en vivo: Lula da Silva ganó el balotaje 2026 y fue elegido presidente",
-            "Resultados: quién ganó las Elecciones 2026 en Brasil",
-            "Elecciones en Brasil 2026, EN VIVO: reacciones tras la victoria de Lula sobre Bo"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 4,
-          "ejemplos": [
-            "Hugo Lattanzi, productor que invirtió en un campo en Río Negro: “Siempre vi a la",
-            "Diarios, libros, shoppings ¿y autos? Profecías incumplidas en la era digital",
-            "Martín Gana sobre el negocio de los tambos: “La crisis no se enfrenta solamente "
+            "Robert Emery, psicólogo experto en divorcios: “Todo se trata de mantener a los n",
+            "El mensaje completo del papa León XIV para confirmar su viaje a la Argentina: “M",
+            "Casas prefabricadas chinas en Argentina: cuánto cuestan y cómo transportarlas a "
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "La reacción de las acciones de Mercado Libre tras la victoria de Lula da Silva s",
-            "Reacciones de las elecciones en Brasil 2026: mensajes, tuits y declaraciones"
+            "Dura reacción de los mercados por el triunfo de Lula en Brasil: las acciones que",
+            "Golpe en Chicago: la soja se desploma y toca su valor más bajo en dos meses tras",
+            "Real, dólar y vacaciones en Brasil: cuánto cuesta viajar este verano"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
           "ejemplos": [
-            "AySA propone cambios en las tarifas antes de pasar a manos privadas: quiénes pag"
+            "“Gravísima situación”: abrieron la inscripción para comprar activos de la quiebr",
+            "Solo en Off | El “eterno” Gildo Insfrán gritó un gol que tardó 40 años en llegar"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina",
+            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "De cara al ballotage, Lula y su militancia no se rinden"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 6,
+          "ejemplos": [
+            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
+            "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu",
+            "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
@@ -70,14 +95,14 @@
         "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "Lula ganó cómodo en una remontada histórica",
-            "“El pueblo brasileño protagonizó un 17 de octubre electoral”"
+            "El papa León XIV confirmó su viaje a a la Argentina: “Me llena de alegría”",
+            "Lula ganó cómodo en una remontada histórica"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Brasil: Las multitudes que promovieron una elección histórica"
+            "Solo 35.500 brasileños votaron tras la extensión que quiere impugnar Bolsonaro"
           ]
         }
       }
@@ -85,26 +110,22 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 14,
           "ejemplos": [
-            "Dirigentes cordobeses felicitaron a Lula por su triunfo electoral en Brasil",
-            "Lula da Silva dio la sorpresa y ganó por más de tres puntos frente a Flávio Bols",
-            "La voz como camino: el viaje íntimo de un tenor que esculpe el alma a través del"
+            "La necesaria Argentina Inclusiva",
+            "CyberMonday 2026: cuándo es y qué ofertas se podrán encontrar",
+            "El papa León XIV confirmó su viaje a la Argentina tras su recuperación posoperat"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Se define el futuro de la ley de Defensa de la Soberanía Nacional de Malvinas"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Instituto recibe a Deportivo Riestra con la ilusión de clasificar a una copa int"
+            "El Balón de Oro 2026 se entrega en Londres con Messi, Yamal, Mbappé, Kane y Rodr",
+            "Elecciones en Israel: Netanyahu se juega su continuidad mañana",
+            "El Gobierno prorrogó los permisos para el transporte internacional de pasajeros "
           ]
         }
       }
@@ -116,14 +137,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 17,
           "ejemplos": [
-            "Dos récords en una semana: Agostina Hein sigue haciendo historia",
-            "Brasil: Lula da Silva se impuso en Argentina y también hubo festejos",
-            "Barracas Central lo dio vuelta ante Estudiantes de Río IV con polémica"
+            "El Vaticano confirmó el viaje del Papa León XIV a la Argentina: “Me llena de ale",
+            "Instituto quiere seguir arriba: recibe a Riestra en una noche clave en Alta Córd",
+            "Lionel Messi busca su noveno Balón de Oro"
           ]
         }
       }
@@ -143,20 +164,20 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 8,
+      "aceptadas": 11,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 14,
+          "ejemplos": [
+            "La CIDH lleva a la Corte el caso de un exempleado público cordobés cesanteado du",
+            "“Cada fragmento puede representar una identidad”: así buscan restos de desaparec",
+            "Carlos Jornet, el primer cordobés en asumir la presidencia de la SIP"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Lula tras su histórico triunfo: “Participé de muchas elecciones, nunca vi tanta "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 13,
-          "ejemplos": [
-            "Detuvieron en Buenos Aires al principal sospechoso por el crimen de Daniela Vill",
-            "Voces cordobesas: las reacciones del arco político local tras el triunfo de Lula",
-            "Lula derrota a Flávio Bolsonaro en el balotaje y seguirá cuatro años más en el p"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -166,11 +187,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 47,
+          "cantidad": 43,
           "ejemplos": [
-            "Gabriel Bornoroni: “La gente no quiere candidatos que viven en campaña permanent",
-            "Milei enfrenta el examen de la economía y las tensiones en La Libertad Avanza",
-            "El efecto mariposa: cómo los pequeños gestos pueden cambiar la vida de los demás"
+            "La escultora cordobesa que moldea el mármol en las canteras donde trabajaba Migu",
+            "Nuevamente cayó preso \"Tuerto Cacho\" en un megaoperativo con 52 allanamientos po",
+            "El dueño de Abordo Viajes continuará preso: le dictaron la prisión preventiva"
           ]
         }
       }
