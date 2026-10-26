@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-26T13:39:54-03:00",
+  "actualizado": "2026-10-26T20:21:59-03:00",
   "notas": [
     {
       "id": "21cf6f445b",
@@ -30,59 +30,42 @@
       }
     },
     {
-      "id": "0ec0329d29",
+      "id": "d453ef366b",
       "seccion": "cordoba",
-      "rel": 33.9,
-      "relevancia": 33.9,
-      "fecha": "2026-10-26T11:00:00-03:00",
-      "hora": "11:00",
-      "titulo": "El dólar en Córdoba: a cuánto cotiza este lunes 26 de octubre",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-26-de-octubre-261026.phtml",
+      "rel": 33.7,
+      "relevancia": 33.7,
+      "fecha": "2026-10-26T17:35:26-03:00",
+      "hora": "17:35",
+      "titulo": "Amnistía Internacional denunciará a Milei ante la ONU por sus ataques a la prensa",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/amnistia-internacional-denunciara-a-milei-ante-la-onu-por-sus-ataques-a-la-prensa_a6adfad0a6bdefb093aab8f68",
       "acceso": "abierto",
-      "resumen": "Este lunes 26 de octubre el dólar oficial en el Banco Nación se vende a 1.500 pesos y cotiza a 1.550 pesos para la compra. Leer más",
+      "resumen": "La organización de Derechos Humanos presentará esta semana denuncias formales contra el presidente por sus recientes declaraciones contra periodistas ante la ONU y la Comisión Interamericana de Derechos Humanos.",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/dolares-2350375.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6adfb93e6bdefb093aac6861/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [
         {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "Amnistía Internacional denunciará a Milei por sus ataques a los periodistas",
+          "url": "https://hoydia.com.ar/politica/nacional/amnistia-internacional-denunciara-a-milei-por-sus-ataques-a-los-periodistas/"
+        },
+        {
           "fuente": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este lunes 26 de octubre, minuto a minuto",
-          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid26102026/"
+          "titulo": "Amnistía Internacional denunciará a Milei ante la ONU por sus insultos a periodistas",
+          "url": "https://www.lanacion.com.ar/politica/amnistia-internacional-denunciara-a-milei-ante-la-onu-por-sus-insultos-a-periodistas-nid26102026/"
         }
       ],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "25c6944577",
+      "id": "ab12c41ee9",
       "seccion": "argentina",
       "rel": 22.0,
       "relevancia": 22.0,
-      "fecha": "2026-10-26T13:29:08-03:00",
-      "hora": "13:29",
-      "titulo": "Milei le pidió a su gabinete cerrar filas con el plan económico: se ausentó Patricia Bullrich",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/milei-le-pidio-a-su-gabinete-cerrar-filas-con-el-plan-economico-se-ausento-patricia-bullrich-nid26102026/",
-      "acceso": "suscripcion",
-      "resumen": "“Cambiar el rumbo para ganar elecciones sería inmoral”, dijo el Presidente delante de sus ministros; no hubo referencias a la elección de Brasil ni a las críticas por las agresiones a la prensa",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/OHQKUFY47JHZPMRL4M4GEPIA3E.png?auth=33bc6a0e5dc82ea847f665897a185c0f1a767731d3b3a7b71663e4a57121321f&smart=true&width=1360&height=910",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.263,
-        "y1": 0.507
-      }
-    },
-    {
-      "id": "ab12c41ee9",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-26T13:21:00-03:00",
-      "hora": "13:21",
+      "fecha": "2026-10-26T20:12:09-03:00",
+      "hora": "20:12",
       "titulo": "Javier Milei y sus medidas, en vivo: el Presidente acusó a Lula de querer “robar” las elecciones en Brasil",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-acuso-a-lula-de-querer-robar-las-elecciones-en-nid26102026/",
@@ -96,6 +79,75 @@
       "rostros": {
         "y0": 0.164,
         "y1": 0.603
+      }
+    },
+    {
+      "id": "e69423f2f1",
+      "seccion": "cordoba",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-26T18:09:37-03:00",
+      "hora": "18:09",
+      "titulo": "Milei pidió cerrar filas con el plan económico, pero Bullrich se diferencia",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/milei-pidio-cerrar-filas-con-el-plan-economico-aunque-bullrich-se-diferencia/",
+      "acceso": "abierto",
+      "resumen": "El jefe de Estado encabezó una nueva reunión de Gabinete donde ratificó que no habrá cambios en la economía. La jefa del bloque oficial en el Senado se ausentó.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/Milei-pidio-cerrar-filas-con-el-plan-economico-aunque-Bullrich-se-diferencia-e1793050309422-1024x521-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Milei le pidió a su gabinete cerrar filas con el plan económico: se ausentó Patricia Bullrich",
+          "url": "https://www.lanacion.com.ar/politica/milei-le-pidio-a-su-gabinete-cerrar-filas-con-el-plan-economico-se-ausento-patricia-bullrich-nid26102026/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.249,
+        "y1": 0.512
+      }
+    },
+    {
+      "id": "240de8fb93",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-26T19:50:16-03:00",
+      "hora": "19:50",
+      "titulo": "El riesgo país trepó a 755 puntos y cayeron las acciones argentinas",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/riesgo-pais-acciones-mercados/",
+      "acceso": "abierto",
+      "resumen": "YPF, Galicia y Mercado Libre registraron pérdidas en las operaciones previas a Wall Street, mientras el real brasileño sufrió una fuerte depreciación.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/Caen-los-bonos-y-las-acciones-argentinas-tras-el-triunfo-de-Lula-en-Brasil-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "df2839d4fd",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-26T19:42:53-03:00",
+      "hora": "19:42",
+      "titulo": "La Coalición Cívica prepara una denuncia por encubrimiento a Milei en la causa $Libra",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/la-coalicion-civica-prepara-una-denuncia-por-encubrimiento-a-milei-en-la-causa-libra/",
+      "acceso": "abierto",
+      "resumen": "Lo anunció el diputado Maximiliano Ferraro, quien incluirá al juez Marcelo Martínez de Giorgi y al fiscal Eduardo Taiano en la acusación.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/07/La-Justicia-busca-identificar-a-los-beneficiarios-de-la-estafa-LIBRA.avif",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.236,
+        "y1": 0.629
       }
     },
     {
@@ -165,25 +217,25 @@
       }
     },
     {
-      "id": "c39d290b23",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-25T19:58:29-03:00",
-      "hora": "19:58",
-      "titulo": "Patricia Bullrich cuestionó a Milei por sus ataques al periodismo: “Se cruzó un límite”",
+      "id": "effd626bcd",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-26T18:52:18-03:00",
+      "hora": "18:52",
+      "titulo": "Vuelan el gas y el petróleo, avanzan los fertilizantes y se demora el cobre: cuáles son las caras argentinas del RIGI",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/patricia-bullrich-cuestiono-a-milei-por-sus-ataques-al-periodismo-se-cruzo-un-limite-nid25102026/",
+      "url": "https://www.lanacion.com.ar/economia/vuelan-el-gas-y-el-petroleo-avanzan-los-fertilizantes-y-se-demora-el-cobre-cuales-son-las-caras-nid26102026/",
       "acceso": "suscripcion",
-      "resumen": "La presidenta del bloque libertario en el Senado respaldó el derecho del mandatario a contestar a las críticas, pero marcó: “Se responde con argumentos”; el mensaje contrastó la señal de apoyo que le había dado un día antes",
+      "resumen": "Los desembolsos efectivos no pasaron este año de los US$4000 millones, pero prometen una explosión entre 2028 y 2036; la mitad de los compromisos está en manos locales; falta infraestructura para desarrollar los de mayor tamaño",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/OVQP2CRYQFESVH2Q7PNOSPL7CY.JPG?auth=0c1680300857f76b6dcee45dca6bccdc92a224dc5c55c0e753f009fcf9482934&smart=true&width=6720&height=4480",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/ARPQAXGSSBGKZK44BPUAHABLOQ.jpeg?auth=7f6cf7f7c2894c27b6e6a0407df2c4ba4fc7edb9963770af6bf618934f51f50d&smart=true&width=2560&height=1707",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.114,
-        "y1": 0.478
+        "y0": 0.071,
+        "y1": 0.436
       }
     },
     {
@@ -231,28 +283,6 @@
       }
     },
     {
-      "id": "632b9835a6",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-26T11:50:09-03:00",
-      "hora": "11:50",
-      "titulo": "Firma cordobesa logra hito en IA: IRAM certificó a Global Think en gestión de inteligencia artificial",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/firma-cordobesa-logra-hito-en-ia-iram-certifico-a-global-think-en-gestion-de-inteligencia-artificial.phtml",
-      "acceso": "abierto",
-      "resumen": "La compañía es la sexta en la Argentina y la segunda de Latinoamérica con una certificación de este tipo por su alcance. Con esta norma, suma una tercera certificación internacional, que cubre tanto el uso interno de la IA como el de los productos que utilizan sus clientes. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/26/trim/540/304/punto-a-punto-2356541.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.075,
-        "y1": 0.81
-      }
-    },
-    {
       "id": "979312bb18",
       "seccion": "economia",
       "rel": 21.7,
@@ -297,25 +327,25 @@
       }
     },
     {
-      "id": "74a6958b16",
+      "id": "7a143e58a3",
       "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-25T18:17:22-03:00",
-      "hora": "18:17",
-      "titulo": "Faltan 22.700 millones de dólares",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/25/faltan-22700-millones-de-dolares/",
-      "acceso": "suscripcion",
-      "resumen": "El número desarma la promesa de Caputo y Milei sobre que las cuentas del año próximo cerrarían sin sobresaltos. Clima de desconfianza para inversiones.",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-10-26T18:09:08-03:00",
+      "hora": "18:09",
+      "titulo": "Un economista analizó el impacto de Lula en los mercados: \"Eso juega contra la competitividad argentina\"",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/un-economista-analizo-el-impacto-de-lula-en-los-mercados-eso-juega-contra-la-competitividad-argentina.phtml",
+      "acceso": "abierto",
+      "resumen": "Fausto Sportorno señaló que el encarecimiento del crédito y las dificultades para acceder a financiamiento condicionan el ritmo de actividad local. Además, analizó cómo la depreciación del real brasileño puede afectar las exportaciones argentinas y profundizar las dificultades de los sectores más rezagados. Leer más",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/YSV5K7KP45CBBC67YJQYYRCZF4.jpg?auth=dd6b7660552f4507f05e4798a61794ecdff1040f47294c261904d8670899b27f&smart=true&width=1246&height=831",
-      "imagen_credito": "Página/12",
+      "imagen": "https://fotos.perfil.com/2026/10/26/trim/540/304/javier-milei-y-lula-da-silva-2356877.jpg",
+      "imagen_credito": "Perfil",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.12,
-        "y1": 0.633
+        "y0": 0.029,
+        "y1": 0.392
       }
     },
     {
@@ -376,47 +406,110 @@
       "rostros": null
     },
     {
-      "id": "670c038cce",
-      "seccion": "argentina",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-25T17:51:19-03:00",
-      "hora": "17:51",
-      "titulo": "Viraje en el PJ: el peronismo revisa su relación con la Justicia y disputa los espacios de poder del kirchnerismo",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/viraje-en-el-pj-el-peronismo-revisa-su-relacion-con-la-justicia-y-disputa-los-espacios-de-poder-del-nid25102026/",
-      "acceso": "suscripcion",
-      "resumen": "La renovación de las ocho bancas legislativas en el Consejo de la Magistratura abre una pelea interna; el PJ perdería un lugar y los libertarios sumarían dos; los nombres que se barajan",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IBPPUCWAJZEM3JBBK6E2JG53BI.jpg?auth=8420cca2b9541cf9d78beb5bf99bfd8c187f24e858fc762a5d66cd59a56f91f2&smart=true&width=683&height=456",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.058,
-        "y1": 0.464
-      }
-    },
-    {
-      "id": "a7f83e9ee9",
+      "id": "e4750e7623",
       "seccion": "argentina",
       "rel": 21.5,
       "relevancia": 21.5,
-      "fecha": "2026-10-25T17:02:15-03:00",
-      "hora": "17:02",
-      "titulo": "Senado: la oposición dialoguista se planta y se niega a votar al frente de una comisión clave a la elegida por Karina Milei",
+      "fecha": "2026-10-26T17:34:46-03:00",
+      "hora": "17:34",
+      "titulo": "Senado: el kirchnerismo sumó un miembro a su bloque y podría ser clave en la elección para el Consejo de la Magistratura",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/senado-la-oposicion-dialoguista-se-planta-y-se-niega-a-votar-al-frente-de-una-comision-clave-a-la-nid25102026/",
+      "url": "https://www.lanacion.com.ar/politica/senado-el-kirchnerismo-sumo-un-miembro-a-su-bloque-y-podria-ser-clave-en-la-eleccion-para-el-consejo-nid26102026/",
       "acceso": "suscripcion",
-      "resumen": "Se trata de la neuquina Nadia Márquez, a quien la secretaria de la Presidencia pretende colocar al frente de Acuerdos, en reemplazo del fallecido Pagotto; la interna oficialista y el malestar con el Gobierno en la Cámara alta",
+      "resumen": "El riojano Fernando Rejal volvió a la bancada Justicialista que ahora tiene 22 senadores, es primera minoría y pedirá dos lugares en el organismo que selecciona a los jueces; el oficialismo, con 21 miembros, también reclama dos sitiales; Victoria Villarruel…",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/SJTQAKEQQBDGBAFJXEL3TY32ZA.jfif?auth=30b2dcc05b8ea053eca789fea53ac8f4c418e21b29965a7c8c12abc4ec1e9d66&smart=true&width=2048&height=1366",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/BEXBOU3WXVGJBNR625T7DS2UYE.jpg?auth=1ab75eb92cd9b9c94e9e6ec4bc4089d242fa185cdff0179bd8c9ecce26e93dc1&smart=true&width=1048&height=836",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "85b7b39301",
+      "seccion": "cordoba",
+      "rel": 21.4,
+      "relevancia": 21.4,
+      "fecha": "2026-10-26T16:46:56-03:00",
+      "hora": "16:46",
+      "titulo": "Tangir: Milei se jugó un pleno en Brasil a pedido de Trump y perdió",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/tangir-milei-se-jugo-un-pleno-en-brasil-a-pedido-de-trump-y-perdio.phtml",
+      "acceso": "abierto",
+      "resumen": "El director del Centro de Estudios y Cooperación Argentina-Brasil, analizó el triunfo de Lula da Silva, el escenario político que enfrentará en el Congreso y el impacto de la postura del presidente argentino frente a Brasil. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/26/trim/540/304/javier-milei-y-flavio-bolsonaro-2356815.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
       "rostros": {
-        "y0": 0.243,
-        "y1": 0.539
+        "y0": 0.029,
+        "y1": 0.442
+      }
+    },
+    {
+      "id": "6dd4c1e9c3",
+      "seccion": "cordoba",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-10-26T16:23:00-03:00",
+      "hora": "16:23",
+      "titulo": "Encuesta: Juez achica la distancia con Llaryora, que sigue ganando en todos los escenarios",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/encuesta-juez-achica-la-distancia-con-llaryora-que-sigue-ganando-en-todos-los-escenarios.phtml",
+      "acceso": "abierto",
+      "resumen": "El senador pasó de 28,2% a 29,7% en el mano a mano con el gobernador, mientras que el mandatario provincial retrocedió de 39% a 38,5%, según dos mediciones de la consultora Sicchar. En los cruces con Gabriel Bornoroni y Rodrigo De Loredo, el oficialismo amplió la ventaja. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/01/27/trim/540/304/luis-juez-y-martin-llaryora-2176018.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.019,
+        "y1": 0.721
+      }
+    },
+    {
+      "id": "75bd135077",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-10-26T15:11:00-03:00",
+      "hora": "15:11",
+      "titulo": "De cara al 2027, Llaryora \"pule\" la estrategia digital del oficialismo",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/de-cara-al-2027-llaryora-pule-la-estrategia-digital-del-oficialismo.phtml",
+      "acceso": "abierto",
+      "resumen": "El peronismo cordobés reunió a cerca de 400 jóvenes de toda la provincia en Villa Giardino. La jornada contó con la participación del propio Llaryora y ministros del Gabinete para optimizar la presencia del oficialismo en las redes sociales, terreno en que La Libertad Avanza se hace fuerte. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/26/trim/540/304/llaryora-giardino-2356951.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.376
+      }
+    },
+    {
+      "id": "b90bacce80",
+      "seccion": "cordoba",
+      "rel": 21.0,
+      "relevancia": 21.0,
+      "fecha": "2026-10-26T14:25:00-03:00",
+      "hora": "14:25",
+      "titulo": "Martín Llaryora celebró la visita del Papa a Córdoba: “Te esperamos con los brazos abiertos”",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/martin-llaryora-celebro-la-visita-del-papa-a-cordoba---te-esperamos-con-los-brazos-abiertos-_a6adf8cc26bdefb093aa96fab",
+      "acceso": "abierto",
+      "resumen": "Tras la confirmación del Vaticano, el gobernador expresó su entusiasmo por la visita de León XIV y aseguró que la provincia ya se prepara para recibirlo en noviembre.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6acfc0fe8e9beaf0c148a64e/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.189,
+        "y1": 0.521
       }
     },
     {
@@ -445,26 +538,45 @@
       "rostros": null
     },
     {
-      "id": "d3a6683a03",
+      "id": "632b9835a6",
       "seccion": "cordoba",
-      "rel": 20.9,
-      "relevancia": 20.9,
-      "fecha": "2026-10-26T07:16:38-03:00",
-      "hora": "07:16",
-      "titulo": "Llaryora sobre la motosierra en el Remediar: \"Le pedimos al Gobierno nacional que restituya la cobertura\"",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-10-26T11:50:09-03:00",
+      "hora": "11:50",
+      "titulo": "Firma cordobesa logra hito en IA: IRAM certificó a Global Think en gestión de inteligencia artificial",
       "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/llaryora-sobre-la-motosierra-en-el-remediar-le-pedimos-al-gobierno-nacional-que-restituya-la-cobertura.phtml",
+      "url": "https://www.perfil.com/noticias/cordoba/firma-cordobesa-logra-hito-en-ia-iram-certifico-a-global-think-en-gestion-de-inteligencia-artificial.phtml",
       "acceso": "abierto",
-      "resumen": "\"La salud no puede ser un privilegio ni depender de la capacidad de pago de cada familia\", sostuvo el gobernador de Córdoba. Leer más",
+      "resumen": "La compañía es la sexta en la Argentina y la segunda de Latinoamérica con una certificación de este tipo por su alcance. Con esta norma, suma una tercera certificación internacional, que cubre tanto el uso interno de la IA como el de los productos que utilizan sus clientes. Leer más",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/08/05/trim/540/304/martin-llaryora-2298439.jpg",
+      "imagen": "https://fotos.perfil.com/2026/10/26/trim/540/304/punto-a-punto-2356541.jpg",
       "imagen_credito": "Perfil",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.118,
-        "y1": 0.58
+        "y0": 0.075,
+        "y1": 0.81
       }
+    },
+    {
+      "id": "0ec0329d29",
+      "seccion": "cordoba",
+      "rel": 20.4,
+      "relevancia": 20.4,
+      "fecha": "2026-10-26T11:00:00-03:00",
+      "hora": "11:00",
+      "titulo": "El dólar en Córdoba: a cuánto cotiza este lunes 26 de octubre",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-26-de-octubre-261026.phtml",
+      "acceso": "abierto",
+      "resumen": "Este lunes 26 de octubre el dólar oficial en el Banco Nación se vende a 1.500 pesos y cotiza a 1.550 pesos para la compra. Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/16/trim/540/304/dolares-2350375.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "79907f4ccd",
@@ -486,32 +598,13 @@
       "rostros": null
     },
     {
-      "id": "fe9151a429",
-      "seccion": "cordoba",
-      "rel": 19.9,
-      "relevancia": 19.9,
-      "fecha": "2026-10-25T20:00:18-03:00",
-      "hora": "20:00",
-      "titulo": "Hernán Lacunza defendió las Paso y rechazó una alianza entre el PRO y LLA",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/hernan-lacunza-defendio-las-paso-y-rechazo-una-alianza-entre-el-pro-y-lla/",
-      "acceso": "abierto",
-      "resumen": "El precandidato cuestionó la idea de modificar el sistema de primarias cerca de las elecciones a la vez que descartó una alianza con La Libertad Avanza.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "65da21fba8",
       "seccion": "argentina",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-10-26T06:40:46-03:00",
-      "hora": "06:40",
-      "titulo": "Diego Guelar analizó el triunfo de Lula: un “cambio de reglas”, la relación con Milei y el posible indulto a Bolsonaro",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-10-26T18:53:59-03:00",
+      "hora": "18:53",
+      "titulo": "Diego Guelar analizó el triunfo de Lula: “cambio de reglas”, la relación con Milei y el posible indulto a Bolsonaro",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/politica/diego-guelar-analizo-el-triunfo-de-lula-un-cambio-de-reglas-la-relacion-con-milei-y-el-posible-nid25102026/",
       "acceso": "suscripcion",
@@ -524,25 +617,47 @@
       "rostros": null
     },
     {
-      "id": "66033c325a",
+      "id": "d3a6683a03",
       "seccion": "cordoba",
-      "rel": 19.3,
-      "relevancia": 19.3,
-      "fecha": "2026-10-26T09:13:18-03:00",
-      "hora": "09:13",
-      "titulo": "Zovatto: \"El triunfo de Lula genera la posibilidad de que Milei no sea reelecto\"",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-10-26T07:16:38-03:00",
+      "hora": "07:16",
+      "titulo": "Llaryora sobre la motosierra en el Remediar: \"Le pedimos al Gobierno nacional que restituya la cobertura\"",
       "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/zovatto-el-triunfo-de-lula-genera-la-posibilidad-de-que-milei-no-sea-reelecto.phtml",
+      "url": "https://www.perfil.com/noticias/cordoba/llaryora-sobre-la-motosierra-en-el-remediar-le-pedimos-al-gobierno-nacional-que-restituya-la-cobertura.phtml",
       "acceso": "abierto",
-      "resumen": "El analista político consideró que la victoria de Lula \"es un cachetazo realmente de una fuerza contundente para un presidente (Milei) que nos está haciendo quedar cada vez peor a nivel mundial\". Leer más",
+      "resumen": "\"La salud no puede ser un privilegio ni depender de la capacidad de pago de cada familia\", sostuvo el gobernador de Córdoba. Leer más",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/26/trim/540/304/26-10-2026-lula-brasil-elecciones-triunfo-balotaje-2356408.jpg",
+      "imagen": "https://fotos.perfil.com/2026/08/05/trim/540/304/martin-llaryora-2298439.jpg",
       "imagen_credito": "Perfil",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.486,
-        "y1": 0.757
+        "y0": 0.118,
+        "y1": 0.58
+      }
+    },
+    {
+      "id": "4ecc5b4288",
+      "seccion": "argentina",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-10-26T18:27:54-03:00",
+      "hora": "18:27",
+      "titulo": "Detrás del fallo $LIBRA: lo que dijo la Justicia (y lo que obvió) para sobreseer a Javier Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/detras-del-fallo-libra-lo-que-dijo-la-justicia-y-lo-que-obvio-para-sobreseer-a-javier-milei-nid26102026/",
+      "acceso": "suscripcion",
+      "resumen": "El juez y el fiscal coincidieron en que debía cerrarse la causa basados en informes del propio Gobierno y sin profundizar en revelaciones periodísticas ni de la propia investigación",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/QBAAQSIGNBCIPG7ZJ7JXMDE33M.jpg?auth=89567e2352c15cd14461385fae8cf2bc958c2e7908789314c0e2c6cb2f7cb040&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.122,
+        "y1": 0.498
       }
     },
     {
@@ -568,10 +683,32 @@
       }
     },
     {
+      "id": "66033c325a",
+      "seccion": "cordoba",
+      "rel": 18.1,
+      "relevancia": 18.1,
+      "fecha": "2026-10-26T09:13:18-03:00",
+      "hora": "09:13",
+      "titulo": "Zovatto: \"El triunfo de Lula genera la posibilidad de que Milei no sea reelecto\"",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/noticias/cordoba/zovatto-el-triunfo-de-lula-genera-la-posibilidad-de-que-milei-no-sea-reelecto.phtml",
+      "acceso": "abierto",
+      "resumen": "El analista político consideró que la victoria de Lula \"es un cachetazo realmente de una fuerza contundente para un presidente (Milei) que nos está haciendo quedar cada vez peor a nivel mundial\". Leer más",
+      "impacto": null,
+      "imagen": "https://fotos.perfil.com/2026/10/26/trim/540/304/26-10-2026-lula-brasil-elecciones-triunfo-balotaje-2356408.jpg",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.486,
+        "y1": 0.757
+      }
+    },
+    {
       "id": "464b76ecee",
       "seccion": "cordoba",
-      "rel": 19.1,
-      "relevancia": 19.1,
+      "rel": 18.0,
+      "relevancia": 18.0,
       "fecha": "2026-10-26T08:11:37-03:00",
       "hora": "08:11",
       "titulo": "Ferraro: \"Lo de Milei y la hoguera para periodistas no puede pasar inadvertido ni naturalizarse\"",
@@ -587,28 +724,6 @@
       "rostros": {
         "y0": 0.144,
         "y1": 0.659
-      }
-    },
-    {
-      "id": "02169ce6bd",
-      "seccion": "argentina",
-      "rel": 18.0,
-      "relevancia": 18.0,
-      "fecha": "2026-10-26T13:33:09-03:00",
-      "hora": "13:33",
-      "titulo": "Amnistía Internacional denunciará a Milei ante la ONU por sus insultos a periodistas",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/amnistia-internacional-denunciara-a-milei-ante-la-onu-por-sus-insultos-a-periodistas-nid26102026/",
-      "acceso": "suscripcion",
-      "resumen": "La organización de derechos humanos se presentará también ante la Comisión Interamericana de Derechos Humanos; en un comunicado, denunció la “grave e inadmisible escalada en la hostilidad presidencial hacia la prensa”",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/EKQO67MFRNB2VEPSXNGVNDXBFU.jpg?auth=0075a153a388006142c8ee3db1cbe1045602b8dd941f514645429fe956528c1a&smart=true&width=1311&height=983",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.154,
-        "y1": 0.434
       }
     },
     {
@@ -675,26 +790,23 @@
       "rostros": null
     },
     {
-      "id": "285cb72b0f",
+      "id": "4daa1cb486",
       "seccion": "economia",
-      "rel": 17.8,
-      "relevancia": 17.8,
-      "fecha": "2026-10-25T18:52:32-03:00",
-      "hora": "18:52",
-      "titulo": "Polémica en Mendoza con una ministra que hizo una costosa capacitación con fondos del Estado provincial",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/polemica-en-mendoza-con-una-ministra-que-hizo-una-costosa-capacitacion-con-fondos-del-estado-nid25102026/",
-      "acceso": "suscripcion",
-      "resumen": "Jimena Latorre, titular de Energía y Ambiente, pagó una maestría virtual de España y luego obtuvo el reintegro de 11.000 dólares; los cuestionamientos y la defensa oficial",
+      "rel": 17.7,
+      "relevancia": 17.7,
+      "fecha": "2026-10-26T18:47:55-03:00",
+      "hora": "18:47",
+      "titulo": "El freno a los salarios: la baja productividad detrás del estancamiento",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/salarios-productividad-estancamiento/",
+      "acceso": "abierto",
+      "resumen": "Un informe de Idesa señala que entre 2016 y 2025 la inversión en maquinarias y equipos creció 15% y las horas trabajadas, 11%, mientras el PBI avanzó apenas 5%.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/VIMKHUU2VRBQJIBABAVLKSTGTY.jpg?auth=9728a6f8c7d6b961d36fd878c3694b7356b1bd7bec638865195734bdd6870304&smart=true&width=980&height=551",
-      "imagen_credito": "La Nación",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.108,
-        "y1": 0.411
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "181a0c71f3",
@@ -714,6 +826,28 @@
       "otros": [],
       "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "0afd9d1bd9",
+      "seccion": "cordoba",
+      "rel": 17.4,
+      "relevancia": 17.4,
+      "fecha": "2026-10-26T16:43:17-03:00",
+      "hora": "16:43",
+      "titulo": "Córdoba: internaron a un bebé con fisura de cráneo",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/cordoba--internaron-a-un-bebe-con-fisura-de-craneo_a6adfac3c6bdefb093aab7d80",
+      "acceso": "abierto",
+      "resumen": "Los padres del bebé quedaron detenidos. La denuncia la hizo la abuela materna, que advirtió lesiones en la cabeza.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6adfacc06bdefb093aab86d8/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.405,
+        "y1": 0.639
+      }
     },
     {
       "id": "2b619b53e9",
@@ -736,129 +870,6 @@
         "y0": 0.118,
         "y1": 0.415
       }
-    },
-    {
-      "id": "6e17276f7c",
-      "seccion": "cordoba",
-      "rel": 16.8,
-      "relevancia": 16.8,
-      "fecha": "2026-10-25T20:57:30-03:00",
-      "hora": "20:57",
-      "titulo": "Amplio rechazo a los ataques de Milei contra periodistas por el caso $Libra",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/amplio-rechazo-a-los-ataques-de-milei-contra-periodistas-por-el-caso-libra/",
-      "acceso": "abierto",
-      "resumen": "Diferentes asociaciones vinculadas al periodismo y al mundo empresario alertaron por las consecuencias de las agresiones del jefe de Estado.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Amplio rechazo por el nuevo ataque de Milei a periodistas por el caso $LIBRA",
-          "url": "https://www.lanacion.com.ar/politica/la-oposicion-una-bullrichista-y-algunos-aliados-de-lla-repudiaron-el-ataque-de-milei-a-los-nid24102026/"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "ad37b1f417",
-      "seccion": "argentina",
-      "rel": 16.6,
-      "relevancia": 16.6,
-      "fecha": "2026-10-26T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "El juicio contra Cristina y Máximo Kirchner se extenderá por más de un año y abarcará todo el 2027 electoral",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-juicio-contra-cristina-y-maximo-kirchner-se-extendera-por-mas-de-un-ano-y-abarcara-todo-el-2027-nid26102026/",
-      "acceso": "suscripcion",
-      "resumen": "Terminaría a fines del año próximo; Báez construyó 18 departamentos y se alquiló ocho a sí mismo, un restaurante que se dedicaba a la construcción y el poder que compromete al líder de La Cámpora",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/T5ONTE3JVZHCHPHBZXKVBQKZTE.JPG?auth=56cb7063d31472617f218ab3b27a61407c72771eeb2b4d4ddd97ca53db0393da&smart=true&width=2000&height=1334",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.037,
-        "y1": 0.592
-      }
-    },
-    {
-      "id": "5a295070f9",
-      "seccion": "economia",
-      "rel": 15.9,
-      "relevancia": 15.9,
-      "fecha": "2026-10-25T19:45:00-03:00",
-      "hora": "19:45",
-      "titulo": "Milei aseguró que evalúa iniciar “acciones legales” contra la prensa",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-aseguro-que-evalua-iniciar-acciones-legales-contra-la-prensa/",
-      "acceso": "abierto",
-      "resumen": "El mandatario argumentó que “me estuvieron ensuciando un año, ocho meses y nueve días\".",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "d206e0fbef",
-      "seccion": "argentina",
-      "rel": 15.7,
-      "relevancia": 15.7,
-      "fecha": "2026-10-25T18:13:24-03:00",
-      "hora": "18:13",
-      "titulo": "Dirigentes políticos e intelectuales condenaron los ataques de Milei a periodistas: “Pasó todos los límites”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/la-ucr-y-el-frente-renovador-condenaron-los-ataques-de-milei-a-periodistas-paso-todos-los-limites-nid25102026/",
-      "acceso": "suscripcion",
-      "resumen": "Las fuerzas opositoras emitieron comunicados para repudiar el discurso del Presidente; “Le exigimos que cese de inmediato con sus ataques contra la libertad de expresión”, indicaron",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RQCNXGNG5BEY7EHIZMF5HWC4KQ.JPG?auth=0790ca388d51392f7d6deb885189a2af4dbfe0141b07a90c38d80a112a792d6e&smart=true&width=2048&height=1366",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "b866a2f19d",
-      "seccion": "argentina",
-      "rel": 12.6,
-      "relevancia": 12.6,
-      "fecha": "2026-10-26T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Lula arrasó en Buenos Aires con el 70 % de los votos",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/26/lula-arraso-en-buenos-aires-con-el-70-de-los-votos/",
-      "acceso": "suscripcion",
-      "resumen": "La jornada electoral transcurrió con entusiasmo, marcada por la presencia de símbolos partidarios y cánticos, en un clima de fuerte polarización política pero sin incidentes.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/P2IH2MKPK5AA3EAAL55U3ZMKGI.jpg?auth=588a2a46e632eaf126c4461b959b8b5197c8f8733a90b7437fb02329da6f005a&smart=true&width=4849&height=3233",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "a0167e1291",
-      "seccion": "economia",
-      "rel": 11.8,
-      "relevancia": 11.8,
-      "fecha": "2026-10-26T07:06:38-03:00",
-      "hora": "07:06",
-      "titulo": "Chau gustitos en el súper: el consumo cayó 5,8% y las bebidas lideraron el recorte",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/super-consumo-bebidas-canasta/",
-      "acceso": "abierto",
-      "resumen": "La aceleración de precios (+27,5%) empujó la contracción en las ventas durante el bimestre agosto-septiembre, marcando el peor registro del año. El recorte golpeó con fuerza a las bebidas no alcohólicas (-10,2%) y a los comercios de cercanía.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     }
   ],
   "opinion": []

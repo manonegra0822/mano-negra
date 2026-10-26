@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-26T13:39:54-03:00",
+  "actualizado": "2026-10-26T20:21:59-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,18 +7,17 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 98,
           "ejemplos": [
-            "Elecciones generales en España 29-N, en directo | Sánchez acusa a PP y Vox de se",
-            "La Mañanera de la presidenta Claudia Sheinbaum hoy lunes 26 de octubre: triunfo ",
-            "Chile: Kast asumió la responsabilidad por rebaja de condenas a 56 pederastas y m"
+            "Progol: aquí están los resultados ganadores del sorteo 2356 del lunes 26 de octu",
+            "“Espeluznantes” altercados en Bilbao con unos 20 detenidos: encapuchados saquean",
+            "Se registra sismo de 4.0 de magnitud"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "El Papa León XIV confirmó su viaje a la Argentina: “Me llena de alegría”",
-            "La Argentina integra el grupo de los 11 países con mejores cuentas públicas: cuá"
+            "El dólar avanzó a precios récord en todas las franjas del mercado de cambios"
           ]
         }
       }
@@ -26,29 +25,43 @@
     {
       "medio": "La Nación",
       "leidas": 86,
-      "aceptadas": 9,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 72,
+          "cantidad": 70,
           "ejemplos": [
-            "Robert Emery, psicólogo experto en divorcios: “Todo se trata de mantener a los n",
-            "El mensaje completo del papa León XIV para confirmar su viaje a la Argentina: “M",
-            "Casas prefabricadas chinas en Argentina: cuánto cuestan y cómo transportarlas a "
+            "La joven encontrada muerta en un departamento de Retiro fue ahorcada",
+            "Arnold Schwarzenegger, actor, 79 años: donó 16 hectáreas de su privilegiado camp",
+            "Balón de Oro 2026: Harry Kane es el mejor futbolista de la temporada y Lionel Me"
           ]
         },
         "otro país": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "Dura reacción de los mercados por el triunfo de Lula en Brasil: las acciones que",
-            "Golpe en Chicago: la soja se desploma y toca su valor más bajo en dos meses tras",
-            "Real, dólar y vacaciones en Brasil: cuánto cuesta viajar este verano"
+            "El Banco Central no compró reservas y el Tesoro habría vendido dólares"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El Gobierno impulsa en el Senado el ascenso de un hermano del ministro de Justic",
+            "Contrabando: el Gobierno, las empresas y las plataformas sellaron un acuerdo par",
+            "Ley de semillas: la industria dijo que amplió una propuesta para exceptuar del p"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 5,
           "ejemplos": [
-            "“Gravísima situación”: abrieron la inscripción para comprar activos de la quiebr",
-            "Solo en Off | El “eterno” Gildo Insfrán gritó un gol que tardó 40 años en llegar"
+            "Una empresa agropecuaria con una historia desde 1885 y otra que viene de 1930 en",
+            "Aliados indispensables: los animales que conocen el camino y guían a miles de va",
+            "La Soberana Orden de Malta impulsa un plan para formar en oficios a personas en "
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Pablo Zurro, intendente de Pehuajó, prohibió la circulación por 48 horas y lanzó"
           ]
         }
       }
@@ -90,19 +103,21 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
-        "titular sin tema de política/economía": {
+        "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "El papa León XIV confirmó su viaje a a la Argentina: “Me llena de alegría”",
-            "Lula ganó cómodo en una remontada histórica"
+            "Trump cuestionó las elecciones en Brasil tras la victoria de Lula y habló de ele",
+            "Las elecciones mutiladas de Israel"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
           "ejemplos": [
-            "Solo 35.500 brasileños votaron tras la extensión que quiere impugnar Bolsonaro"
+            "La Justicia brasileña le retuvo el pasaporte a Flávio Bolsonaro y le prohibió sa",
+            "La victoria de Lula, desde adentro: “Hay una movilización joven muy importante”",
+            "El papa León XIV confirmó su visita a la Argentina"
           ]
         }
       }
@@ -110,22 +125,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 11,
           "ejemplos": [
-            "La necesaria Argentina Inclusiva",
-            "CyberMonday 2026: cuándo es y qué ofertas se podrán encontrar",
-            "El papa León XIV confirmó su viaje a la Argentina tras su recuperación posoperat"
+            "La provincia amplía los planes de financiación en cuotas",
+            "Caso Márquez y Asociados: dictaron prisión preventiva para otros cuatro imputado",
+            "Murió Roxana Amed, una de las grandes voces del jazz argentino"
           ]
         },
         "otro país": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "El Balón de Oro 2026 se entrega en Londres con Messi, Yamal, Mbappé, Kane y Rodr",
-            "Elecciones en Israel: Netanyahu se juega su continuidad mañana",
-            "El Gobierno prorrogó los permisos para el transporte internacional de pasajeros "
+            "Trump cuestionó las elecciones en Brasil y habló de un supuesto fraude",
+            "Los mercados reaccionaron con fuertes caídas tras el triunfo de Lula"
           ]
         }
       }
@@ -137,14 +151,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 15,
           "ejemplos": [
-            "El Vaticano confirmó el viaje del Papa León XIV a la Argentina: “Me llena de ale",
-            "Instituto quiere seguir arriba: recibe a Riestra en una noche clave en Alta Córd",
-            "Lionel Messi busca su noveno Balón de Oro"
+            "Familiares reclamaron justicia y marcharon en Córdoba por el crimen de Daniela V",
+            "Causa Márquez y Asociados: dictan la prisión preventiva para cuatro nuevos imput",
+            "Feria del Libro: presentan en Córdoba textos de José Carlos Mariátegui"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Benjamín Netanyahu pone en juego su futuro político en las elecciones de Israel"
           ]
         }
       }
@@ -167,31 +187,32 @@
       "aceptadas": 11,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 12,
           "ejemplos": [
-            "La CIDH lleva a la Corte el caso de un exempleado público cordobés cesanteado du",
-            "“Cada fragmento puede representar una identidad”: así buscan restos de desaparec",
-            "Carlos Jornet, el primer cordobés en asumir la presidencia de la SIP"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Lula tras su histórico triunfo: “Participé de muchas elecciones, nunca vi tanta "
+            "Pieckesteiner, sobre el recorte de Remediar: “No vamos a dejar a nadie afuera, p",
+            "Causa Márquez y Asociados: ya son 13 los detenidos tras cuatro nuevas prisiones ",
+            "Papa León XIV en Córdoba: misa en FAdeA a las 10 y papamóvil por el centro"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Instituto, a las puertas de su sueño internacional"
+            "La UNC será sede de un encuentro abierto sobre salud mental y consumos problemát"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Lula, el hijo del Brasil: de la pobreza extrema a la conquista del poder",
+            "Lula tras su histórico triunfo: “Participé de muchas elecciones, nunca vi tanta "
           ]
         },
         "muy vieja": {
-          "cantidad": 43,
+          "cantidad": 44,
           "ejemplos": [
-            "La escultora cordobesa que moldea el mármol en las canteras donde trabajaba Migu",
-            "Nuevamente cayó preso \"Tuerto Cacho\" en un megaoperativo con 52 allanamientos po",
-            "El dueño de Abordo Viajes continuará preso: le dictaron la prisión preventiva"
+            "Los controles que puede hacer la Guardia Urbana: puede pedir identidad, pero no ",
+            "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños",
+            "Una definición crucial, no sólo para Brasil"
           ]
         }
       }
