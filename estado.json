@@ -1,52 +1,68 @@
 {
-  "actualizado": "2026-10-27T13:40:24-03:00",
+  "actualizado": "2026-10-27T20:24:55-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 96,
           "ejemplos": [
-            "Revelan nuevo contrato de la ex trabajadora sexual Deicy Jiménez en el Dapre: ha",
-            "Halloween: cuál es su origen y cuándo se celebra",
-            "Un piloto brasileño aseguró conocer el plan de vuelo y que Flávio Bolsonaro iba "
+            "Elecciones en Israel EN VIVO: Las elecciones en Israel cerraron con la participa",
+            "Luis Palacios, quien le dio la victoria a Santa Fe ante Bucaramanga, confirmó qu",
+            "Flavio Bolsonaro abandonó Brasil EN VIVO: Lula: “El ciudadano que sale escondido"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Una tradicional marca de trajes de baño argentina entró en concurso preventivo"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Un gigante del agro cerró una planta en Campana: hay 110 trabajadores despedidos"
+            "El Senado busca sesionar el jueves con salud mental y guiños fiscales para inver"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
-      "aceptadas": 7,
+      "leidas": 92,
+      "aceptadas": 8,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 76,
+          "cantidad": 74,
           "ejemplos": [
-            "La Policía Federal de Brasil le cancela los pasaportes a Flavio Bolsonaro e inve",
-            "Las fuertes revelaciones del documental de Matthew Perry que llegó a Netflix: “N",
-            "Elecciones en Israel 2026, EN VIVO: Benjamin Netanyahu busca retener el poder y "
+            "El proyecto ambiental de Angelina Jolie con el que protege a 200 especies hace 2",
+            "Sócrates, filósofo: “Sólo existe un bien y se llama conocimiento; y solo hay un ",
+            "Tony Silvestre, adiestrador de perros: “Estornudan porque están contentos; esto "
+          ]
+        },
+        "otro país": {
+          "cantidad": 3,
+          "ejemplos": [
+            "AmCham pidió adherir a un tratado internacional por semillas y alertó sobre el p",
+            "Ley Malvinas: el Gobierno cedió ante EE.UU. y logró dictaminar, pero persisten l",
+            "Un gigante alemán reduce un turno en una planta industrial y un sindicato se dec"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 4,
           "ejemplos": [
-            "La paradoja de la apertura comercial: las cantidades importadas cayeron y volvie",
-            "Murió Armando Zavala, el productor del megáfono que convirtió la defensa del cam",
-            "Nelson, de 62 años, produce huevos de color azul con gallinas adaptadas al frío:"
+            "Un “boom que no arrastra”: Prat Gay contra todos en el debate por el “derrame” e",
+            "María Tettamanti ratificó el rumbo tras de la renuncia de Daniel González: “No v",
+            "Martín Varsavsky cerró un acuerdo millonario para vender su empresa de biotecnol"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Martínez de Giorgi cerró el caso $LIBRA solo un día después de que el fiscal pid"
+            "Un juez decidió que el financista Vallejo siga preso, ante “riesgos procesales c",
+            "El Banco Central no compró reservas y, por primera vez en el año, lleva dos rued",
+            "Antes de la suba del riesgo país: las empresas emitieron US$2722 millones en sep"
           ]
         }
       }
@@ -82,20 +98,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
-            "¿Dónde está Flávio Bolsonaro?: investigan si intentó fugarse a la Argentina para",
-            "Víctor Hugo: “Lula salió a pelear en las redes, a recuperar a los formateados po",
-            "La automotriz Stellantis paraliza sus plantas de Córdoba y El Palomar"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Las elecciones mutiladas de Israel"
+            "Medios de Brasil aseguran que Flávio Bolsonaro llegó a EEUU",
+            "La estratega de 21 años que hackeó al bolsonarismo y blindó a Lula",
+            "El agua sube y las obras hídricas nunca llegaron"
           ]
         }
       }
@@ -103,20 +113,22 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 12,
           "ejemplos": [
-            "SUBTE celebra diez años de historietas en la Feria del Libro Córdoba",
-            "El Inta exoneró a Virginia Aparicio por presuntas faltas administrativas",
-            "Un estudiante universitario necesita más de $1,3 millones por mes para vivir en "
+            "Córdoba lanzó la web oficial para la visita del Papa León XIV: cronograma, inscr",
+            "Las galerías del centro, entre la memoria y los nuevos usos",
+            "Pese a la prohibición judicial, Flávio Bolsonaro abandonó Brasil y llegó a Miami"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Comenzó la votación en las elecciones parlamentarias de Israel"
+            "La fuga de Bolsonaro agrega tensión al vínculo bilateral con el gobierno de Lula",
+            "La oposición reclama explicaciones al Gobierno por el posible paso de Bolsonaro ",
+            "El Gobierno cedió a las presiones de EE.UU. y modifica la Ley de Defensa de la S"
           ]
         }
       }
@@ -131,11 +143,17 @@
       "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
-            "Caso Daniela Villalba: la Justicia cambió la carátula a femicidio",
-            "Presidencia desmintió el ingreso de Flávio Bolsonaro a la Argentina",
-            "Lula cumple 81 años: ¿Qué esperamos de una persona mayor?"
+            "La UNC invita a dos actividades para celebrar el Día de Muertos en Córdoba",
+            "Valentino Merlo cantará ante el papa León XIV durante el encuentro de jóvenes en",
+            "Lula da Silva, tras la huida de Flávio Bolsonaro: \"Quien no debe, no teme\""
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La interna de La Fiel y un video clave: los fundamentos por el crimen de Gabriel"
           ]
         }
       }
@@ -155,10 +173,23 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 0,
+      "aceptadas": 2,
       "descartadas": {
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: "
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "La Cúpula logró negocio histórico: única firma a cargo de la infraestructura int",
+            "Encuesta: ¿Qué esperan los argentinos de la visita del papa León XIV al país?"
+          ]
+        },
         "muy vieja": {
-          "cantidad": 50,
+          "cantidad": 45,
           "ejemplos": [
             "Femicidio de Agostina Vega: qué dijo la abogada de Soledad Andreani, nueva deten",
             "Córdoba: cobrará el 100% de la pensión tras demostrar que dejó el hogar por viol",
