@@ -1,67 +1,40 @@
 {
-  "actualizado": "2026-10-26T20:21:59-03:00",
+  "actualizado": "2026-10-27T08:29:00-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 98,
           "ejemplos": [
-            "Progol: aquí están los resultados ganadores del sorteo 2356 del lunes 26 de octu",
-            "“Espeluznantes” altercados en Bilbao con unos 20 detenidos: encapuchados saquean",
-            "Se registra sismo de 4.0 de magnitud"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El dólar avanzó a precios récord en todas las franjas del mercado de cambios"
+            "Ribera reivindica el aire acondicionado como una necesidad de salud pública y no",
+            "Ampliación de cobertura EFE Audiovisual Internacional 27 oct (11.00 GMT)",
+            "“Se oía taladrar día y noche”: narcos enemigos de “El Chapo” alertaron del túnel"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 86,
-      "aceptadas": 5,
+      "leidas": 94,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 70,
+          "cantidad": 78,
           "ejemplos": [
-            "La joven encontrada muerta en un departamento de Retiro fue ahorcada",
-            "Arnold Schwarzenegger, actor, 79 años: donó 16 hectáreas de su privilegiado camp",
-            "Balón de Oro 2026: Harry Kane es el mejor futbolista de la temporada y Lionel Me"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Dura reacción de los mercados por el triunfo de Lula en Brasil: las acciones que",
-            "El Banco Central no compró reservas y el Tesoro habría vendido dólares"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El Gobierno impulsa en el Senado el ascenso de un hermano del ministro de Justic",
-            "Contrabando: el Gobierno, las empresas y las plataformas sellaron un acuerdo par",
-            "Ley de semillas: la industria dijo que amplió una propuesta para exceptuar del p"
+            "Los nutricionistas coinciden: “A los 50 el desayuno ideal es una tostada de pan ",
+            "Un bebé de 12 días murió en Quilmes luego de que le cayera una palta en la cabez",
+            "Avanza un frente frío que provocará alertas por tormentas de gran intensidad, gr"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 10,
           "ejemplos": [
-            "Una empresa agropecuaria con una historia desde 1885 y otra que viene de 1930 en",
-            "Aliados indispensables: los animales que conocen el camino y guían a miles de va",
-            "La Soberana Orden de Malta impulsa un plan para formar en oficios a personas en "
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Pablo Zurro, intendente de Pehuajó, prohibió la circulación por 48 horas y lanzó"
+            "Fecha de cobro de Anses: el cronograma de pagos para este martes 27 de octubre",
+            "Calendario Anses: cuándo cobro la AUH en octubre 2026 si mi DNI termina en 8",
+            "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026"
           ]
         }
       }
@@ -71,17 +44,18 @@
       "leidas": 10,
       "aceptadas": 0,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Solamente muero los 21 y los 1° ya me siento bien",
+            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina",
+            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre"
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina",
-            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre"
           ]
         },
         "otro país": {
@@ -91,7 +65,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 6,
+          "cantidad": 5,
           "ejemplos": [
             "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
             "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu",
@@ -103,21 +77,13 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 0,
+      "aceptadas": 4,
       "descartadas": {
-        "otro país": {
+        "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "Trump cuestionó las elecciones en Brasil tras la victoria de Lula y habló de ele",
-            "Las elecciones mutiladas de Israel"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 4,
-          "ejemplos": [
-            "La Justicia brasileña le retuvo el pasaporte a Flávio Bolsonaro y le prohibió sa",
-            "La victoria de Lula, desde adentro: “Hay una movilización joven muy importante”",
-            "El papa León XIV confirmó su visita a la Argentina"
+            "El partido de Flávio Bolsonaro reconoció la victoria de Lula da Silva",
+            "Las Abuelas de Plaza de Mayo celebraron 49 años de lucha: “Todavía estamos busca"
           ]
         }
       }
@@ -125,21 +91,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 13,
           "ejemplos": [
-            "La provincia amplía los planes de financiación en cuotas",
-            "Caso Márquez y Asociados: dictaron prisión preventiva para otros cuatro imputado",
-            "Murió Roxana Amed, una de las grandes voces del jazz argentino"
+            "Lecciones de una remontada",
+            "Se consolida la voluntad de cambio entre los votantes para 2027",
+            "Cada vez hay más jóvenes sin cobertura médica por la pérdida de empleo formal"
           ]
         },
-        "otro país": {
-          "cantidad": 2,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Trump cuestionó las elecciones en Brasil y habló de un supuesto fraude",
-            "Los mercados reaccionaron con fuertes caídas tras el triunfo de Lula"
+            "Instituto celebró en una noche soñada y será internacional por primera vez en su"
           ]
         }
       }
@@ -151,20 +116,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 17,
           "ejemplos": [
-            "Familiares reclamaron justicia y marcharon en Córdoba por el crimen de Daniela V",
-            "Causa Márquez y Asociados: dictan la prisión preventiva para cuatro nuevos imput",
-            "Feria del Libro: presentan en Córdoba textos de José Carlos Mariátegui"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Benjamín Netanyahu pone en juego su futuro político en las elecciones de Israel"
+            "Trece personas se autoevacuaron por un incendio en un edificio céntrico de Córdo",
+            "Harry Kane ganó el Balón de Oro 2026 y Messi quedó quinto",
+            "Liga Profesional 2027: AFA evalúa la vuelta del todos contra todos"
           ]
         }
       }
@@ -184,14 +143,14 @@
     {
       "medio": "Perfil",
       "leidas": 70,
-      "aceptadas": 11,
+      "aceptadas": 12,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 13,
           "ejemplos": [
+            "Encuesta: ¿Qué esperan los argentinos de la visita del papa León XIV al país?",
             "Pieckesteiner, sobre el recorte de Remediar: “No vamos a dejar a nadie afuera, p",
-            "Causa Márquez y Asociados: ya son 13 los detenidos tras cuatro nuevas prisiones ",
-            "Papa León XIV en Córdoba: misa en FAdeA a las 10 y papamóvil por el centro"
+            "Causa Márquez y Asociados: ya son 13 los detenidos tras cuatro nuevas prisiones "
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -208,11 +167,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 44,
+          "cantidad": 42,
           "ejemplos": [
+            "Córdoba: la Ministra de Seguridad, Alejandra Monteoliva, inspeccionó FAdeA para ",
             "Los controles que puede hacer la Guardia Urbana: puede pedir identidad, pero no ",
-            "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños",
-            "Una definición crucial, no sólo para Brasil"
+            "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños"
           ]
         }
       }
