@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-27T08:29:00-03:00",
+  "actualizado": "2026-10-27T13:40:24-03:00",
   "notas": [
     {
       "id": "a8983766ba",
@@ -32,6 +32,34 @@
       "rostros": null
     },
     {
+      "id": "de8be466ae",
+      "seccion": "cordoba",
+      "rel": 31.5,
+      "relevancia": 31.5,
+      "fecha": "2026-10-27T10:27:43-03:00",
+      "hora": "10:27",
+      "titulo": "Caso $LIBRA: apelan el sobreseimiento de Milei y piden que continúe la investigación",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/caso-libra-apelan-el-sobreseimiento-de-milei-y-piden-que-continue-la-investigacion/",
+      "acceso": "abierto",
+      "resumen": "Uno de los inversores damnificados cuestiona la actuación del juez Martínez de Giorgi y del fiscal Taiano, y reclama que se revoque el fallo que benefició al Presidente, su hermana y otros nueve imputados.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae0b94969746474574b1300/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "Caso $LIBRA: apelaron el sobreseimiento de Javier Milei",
+          "url": "https://www.cba24n.com.ar/argentina/caso--libra--apelaron-el-sobreseimiento-de-javier-milei_a6ae0acd56974647457499bc8"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.142,
+        "y1": 0.505
+      }
+    },
+    {
       "id": "d453ef366b",
       "seccion": "cordoba",
       "rel": 31.0,
@@ -54,6 +82,31 @@
         }
       ],
       "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "3915628fef",
+      "seccion": "economia",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-27T13:35:00-03:00",
+      "hora": "13:35",
+      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 27 de octubre, minuto a minuto",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid27102026/",
+      "acceso": "suscripcion",
+      "resumen": "La divisa oficial opera a $1560 para la venta; el dólar blue cotiza a $1575 para esa operación; qué pasa con el MEP y el CCL",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/2PKGQIKZFRC5DNV5AWHJTAJM7Y.jpg?auth=3a1f8af0d3878b01d6e12134f43c8c8f51dfd5d06262fa04e9e6a6f2a49aaa3b&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [
+        {
+          "fuente": "Perfil",
+          "titulo": "El dólar en Córdoba: a cuánto cotiza este martes 27 de octubre",
+          "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-27-de-octubre-271026.phtml"
+        }
+      ],
+      "dia": 0,
       "rostros": null
     },
     {
@@ -107,6 +160,28 @@
       }
     },
     {
+      "id": "019c72e715",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-27T13:06:17-03:00",
+      "hora": "13:06",
+      "titulo": "Con Macri replegado, Lacunza acelera su plan presidencial y refuerza la diferenciación con Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/con-macri-replegado-lacunza-acelera-su-plan-presidencial-y-profundiza-su-diferenciacion-con-milei-nid27102026/",
+      "acceso": "suscripcion",
+      "resumen": "En medio del silencio partidario, el economista rechazó los ataques del Presidente contra periodistas por el caso $LIBRA; refuerza sus recorridas en el interior del país y tiende puentes con potenciales aliados",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/SI7NUOQ46ZAXZDCF7TXNMCQLRQ.JPG?auth=9466809ed4369e04de89589ea37ae712892baf2adbc465ea9eb635352aea3ae5&smart=true&width=8192&height=5464",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.225,
+        "y1": 0.77
+      }
+    },
+    {
       "id": "2d9831f351",
       "seccion": "economia",
       "rel": 21.9,
@@ -126,47 +201,25 @@
       "rostros": null
     },
     {
-      "id": "89a6846bce",
+      "id": "639c056da2",
       "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-26T13:04:24-03:00",
-      "hora": "13:04",
-      "titulo": "Milei saludó e hizo un “six-seven” desde el balcón de Casa Rosada antes de encabezar la reunión de Gabinete",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/26/milei-aun-no-felicito-a-lula-y-encabeza-una-nueva-reunion-de-gabinete-tras-la-derrota-de-bolsonaro/",
-      "acceso": "abierto",
-      "resumen": "El Presidente se mantiene en silencio sobre el triunfo de Lula en Brasil, en un nuevo gesto de alineación con Flávio Bolsonaro. La agenda legislativa y el contrapunto con Patricia Bullrich, que no estuvo presente en el encuentro de funcionarios",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/EXW4V5FSTZCQLNARTLR2MNIBJ4.jpeg?auth=42a16385c53895246262ff4af18e88cf94248a2d9928ee7f082ffccc55db4a8d&smart=true&width=1280&height=796",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.388,
-        "y1": 0.635
-      }
-    },
-    {
-      "id": "9e42ea1df1",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-26T12:16:15-03:00",
-      "hora": "12:16",
-      "titulo": "Milei se resiste por ahora a reconocer el triunfo de Lula y suma más tensión en el vínculo bilateral con Brasil",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-27T12:23:13-03:00",
+      "hora": "12:23",
+      "titulo": "El juego propio de Gerardo Zamora, el aliado de Cristina Kirchner que suena como alternativa a Kicillof para 2027",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/milei-se-resiste-por-ahora-a-reconocer-el-triunfo-de-lula-y-suma-mas-tension-en-el-vinculo-bilateral-nid26102026/",
+      "url": "https://www.lanacion.com.ar/politica/el-juego-propio-de-gerardo-zamora-el-aliado-de-cristina-kirchner-que-suena-como-alternativa-a-nid27102026/",
       "acceso": "suscripcion",
-      "resumen": "Desde el oficialismo se plegaron a la estrategia de Donald Trump, que tampoco reconoció la victoria del candidato del PT ante Flavio Bolsonaro; el Presidente encabezó un gabinete y no mencionó el caso brasileño",
+      "resumen": "Un sector del peronismo alienta una eventual candidatura a presidente del senador nacional y exgobernador de Santiago del Estero; su rol en la interna y sus movimientos en el Congreso",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RQ72FZAVXBEKLLVHVICBIOKCRY.png?auth=c8490d4e9936c138e34d0b2aa1550cc63385a61c6c497a0b6a39004fe4c5c9c1&smart=true&width=1360&height=910",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/CMCVI2U4GNGGPP6YWHRL6UTDUI.JPG?auth=6172c7946566de7d86c4c5359b309c899b9c37f9d07e72218e6033eddc010eea&smart=true&width=3000&height=2000",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.205,
-        "y1": 0.504
+        "y0": 0.157,
+        "y1": 0.605
       }
     },
     {
@@ -233,145 +286,63 @@
       }
     },
     {
-      "id": "c2be8ddd85",
-      "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-26T12:22:59-03:00",
-      "hora": "12:22",
-      "titulo": "Milei reúne al Gabinete: sigue en silencio sobre el resultado en Brasil",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-reune-al-gabinete-sigue-en-silencio-sobre-el-resultado-en-brasil/",
-      "acceso": "abierto",
-      "resumen": "El Presidente evitó saludar al presidente electo de Brasil. La agenda legislativa y los contrapuntos de Bullrich.",
+      "id": "28cd76cc8c",
+      "seccion": "argentina",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-27T11:57:29-03:00",
+      "hora": "11:57",
+      "titulo": "El Gobierno de Milei sigue haciendo de cuenta que Lula no ganó",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/27/el-gobierno-de-milei-sigue-haciendo-de-cuenta-que-lula-no-gano/",
+      "acceso": "suscripcion",
+      "resumen": "El vocero presidencial ratificó que no habrá “ningún comunicado”, ni siquiera de la Cancillería, sobre las elecciones en Brasil. “Se tomó nota del resultado”, dijo escuetamente. También mintió al afirmar que Lula no saludó a Milei en 2023.",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/MILEI-1-optimized.png",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UXPZE3L3LZEQTKXNMP476MJNH4.jpg?auth=55fa888b217f2cf56b0da3860786529136c807dd827665489b4d66af78b84d0e&smart=true&width=2158&height=1440",
+      "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.198,
-        "y1": 0.5
+        "y0": 0.317,
+        "y1": 0.589
       }
     },
     {
-      "id": "db05f91caa",
+      "id": "0d76de550f",
       "seccion": "cordoba",
       "rel": 21.7,
       "relevancia": 21.7,
-      "fecha": "2026-10-27T06:42:18-03:00",
-      "hora": "06:42",
-      "titulo": "El dólar en Córdoba: a cuánto cotiza este martes 27 de octubre",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/cordoba-dolar-hoy-dolar-blue-hoy-cotizacion-27-de-octubre-271026.phtml",
+      "fecha": "2026-10-27T11:53:36-03:00",
+      "hora": "11:53",
+      "titulo": "Ravier confirmó que no habrá comunicado oficial: “Lula tampoco saludó a Milei”»",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/ravier-no-habra-comunicado-oficial-de-argentina-para-felicitar-a-lula-por-su-reeleccion/",
       "acceso": "abierto",
-      "resumen": "Este martes 27 de octubre el dólar oficial en el Banco Nación se vende a 1.500 pesos y cotiza a 1.550 pesos para la compra. Leer más",
+      "resumen": "El vocero presidencial confirmó que el Gobierno no emitirá un comunicado para felicitar al mandatario brasileño por su victoria electoral. Recordó que Lula no saludó personalmente a Milei cuando ganó las elecciones argentinas en 2023 y aseguró que el comercio bilateral seguirá con normalidad.",
       "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/20/trim/540/304/pesos-argentinos-y-dolares-2352806.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "979312bb18",
+      "id": "0d1f5fb2cd",
       "seccion": "economia",
       "rel": 21.7,
       "relevancia": 21.7,
-      "fecha": "2026-10-26T11:38:29-03:00",
-      "hora": "11:38",
-      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este lunes 26 de octubre",
+      "fecha": "2026-10-27T11:52:53-03:00",
+      "hora": "11:52",
+      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este martes 27 de octubre",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-lunes-26-de-octubre-nid26102026/",
+      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-27-de-octubre-nid27102026/",
       "acceso": "suscripcion",
       "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/3C5BGJ5LYZA6VKQEFOWUKQORL4.jpg?auth=fce5d73ef1ff401221256973d8dbc811aeefcb6bd2dde340b3d79d45664244f0&smart=true&width=2000&height=1333",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/WOE3DXDZ5REU3LNS7652IUYWQA.jpg?auth=090f48284122b14e755b582d222efcec665673230f24171a59f32815cc779d88&smart=true&width=6000&height=4000",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.577,
-        "y1": 0.914
-      }
-    },
-    {
-      "id": "d746fe53a0",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-26T11:35:00-03:00",
-      "hora": "11:35",
-      "titulo": "Javier Milei guardó silencio sobre Brasil y salió al balcón a “farmear aura”",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/javier-milei-guardo-silencio-sobre-brasil-y-salio-al-balcon-a--farmear-aura-_a6adf64976bdefb093aa6ff7b",
-      "acceso": "abierto",
-      "resumen": "Tras la victoria de Lula Da Silva sobre la derecha brasileña, el Presidente evitó pronunciarse sobre el resultado. Este lunes, junto a todo su Gabinete, saludó desde el balcón de Casa Rosada e hizo el gesto viral del “six seven”.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6adf64666bdefb093aa6fdb4/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.203,
-        "y1": 0.505
-      }
-    },
-    {
-      "id": "f2e44604d8",
-      "seccion": "economia",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-26T11:26:16-03:00",
-      "hora": "11:26",
-      "titulo": "Caen los bonos y las acciones argentinas tras el triunfo de Lula en Brasil",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/caen-los-bonos-y-las-acciones-argentinas-tras-el-triunfo-de-lula-en-brasil/",
-      "acceso": "abierto",
-      "resumen": "YPF, Galicia y Mercado Libre registraron pérdidas en las operaciones previas a Wall Street, mientras el real brasileño sufrió una fuerte depreciación.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "9cae581ad7",
-      "seccion": "economia",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-26T11:19:11-03:00",
-      "hora": "11:19",
-      "titulo": "Punto por punto: los cinco frentes que abre el triunfo de Lula para Milei y la economía argentina",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/punto-por-punto-los-cinco-frentes-que-abre-el-triunfo-de-lula-para-milei-y-la-economia-argentina-nid26102026/",
-      "acceso": "suscripcion",
-      "resumen": "Los analistas estiman un bajo crecimiento del mayor socio comercial de la Argentina y fricción por el tema Mercosur",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/2BZM3B2WABC4RE44AZHVQKJJOM.JPG?auth=5eaf82524fe80069d8e39fb27e904a99c2d51a46a1b681d81310af8ac6acac06&smart=true&width=6048&height=4032",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "ea1efb0768",
-      "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-10-26T11:08:55-03:00",
-      "hora": "11:08",
-      "titulo": "Córdoba: impulsan la Ley Ema para proteger a estudiantes frente a la violencia digital",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/cordoba--impulsan-la-ley-ema-para-proteger-a-estudiantes-frente-a-la-violencia-digital_a6adf58936bdefb093aa61984",
-      "acceso": "abierto",
-      "resumen": "La propuesta fue presentada por la legisladora radical Alejandra Ferrero, tomando como modelo la normativa aprobada en Santa Fe y Buenos Aires.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6adf5ddd6bdefb093aa683df/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": null
     },
     {
@@ -413,6 +384,47 @@
       "rostros": null
     },
     {
+      "id": "e26f94f199",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-10-27T08:30:00-03:00",
+      "hora": "08:30",
+      "titulo": "Lorenzatti cuestionó a la gestión de Juez por incorporar 3.700 agentes a planta permanente",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/lorenzatti-cuestiono-a-la-gestion-de-juez-por-incorporar-3-700-agentes-a-planta-permanente_a6adfd6c46bdefb093aaf43e8",
+      "acceso": "abierto",
+      "resumen": "El secretario de Finanzas del municipio defendió la reducción de gastos y marcó que la gestión de Daniel Passerini afronta un panorama de quita de recursos y estancamiento económico.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6adfd7956bdefb093aaf5366/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "45f738d11c",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-10-27T08:30:00-03:00",
+      "hora": "08:30",
+      "titulo": "Concejalas opositoras criticaron la gestión de Passerini y pidieron un frente unido",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/concejalas-opositoras-criticaron-la-gestion-de-passerini-y-pidieron-un-frente-unido_a6adfe4866bdefb093ab06685",
+      "acceso": "abierto",
+      "resumen": "Graciela Villata, del Frente Cívico, y Elisa Cafaratti, de la UCR, apuntaron contra los “contratos precarios” y la “intervención” del gobernador Martín Llaryora.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6adfe4546bdefb093ab063dd/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.131,
+        "y1": 0.533
+      }
+    },
+    {
       "id": "b90bacce80",
       "seccion": "cordoba",
       "rel": 21.0,
@@ -433,31 +445,6 @@
         "y0": 0.189,
         "y1": 0.521
       }
-    },
-    {
-      "id": "fd4c95117c",
-      "seccion": "cordoba",
-      "rel": 21.0,
-      "relevancia": 21.0,
-      "fecha": "2026-10-26T10:40:58-03:00",
-      "hora": "10:40",
-      "titulo": "Hotesur-Los Sauces: continúa la lectura de la acusación contra Cristina y Máximo Kirchner",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/hotesur-los-sauces-continua-la-lectura-de-la-acusacion-contra-cristina-y-maximo-kirchner/",
-      "acceso": "abierto",
-      "resumen": "El Tribunal Oral Federal N°5 celebra una nueva audiencia. La expresidenta y el diputado no se encuentran presentes.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Hotesur - Los Sauces: las irregularidades bancarias y el presunto lavado detrás de la compra del departamento donde Cristina Kirchner cumple su condena",
-          "url": "https://www.lanacion.com.ar/politica/hotesur-los-sauces-las-irregularidades-bancarias-y-el-presunto-lavado-detras-de-la-compra-del-nid25102026/"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
     },
     {
       "id": "a6840ba7b0",
@@ -687,34 +674,12 @@
       }
     },
     {
-      "id": "632b9835a6",
-      "seccion": "cordoba",
-      "rel": 18.6,
-      "relevancia": 18.6,
-      "fecha": "2026-10-26T11:50:09-03:00",
-      "hora": "11:50",
-      "titulo": "Firma cordobesa logra hito en IA: IRAM certificó a Global Think en gestión de inteligencia artificial",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/noticias/cordoba/firma-cordobesa-logra-hito-en-ia-iram-certifico-a-global-think-en-gestion-de-inteligencia-artificial.phtml",
-      "acceso": "abierto",
-      "resumen": "La compañía es la sexta en la Argentina y la segunda de Latinoamérica con una certificación de este tipo por su alcance. Con esta norma, suma una tercera certificación internacional, que cubre tanto el uso interno de la IA como el de los productos que utilizan sus clientes. Leer más",
-      "impacto": null,
-      "imagen": "https://fotos.perfil.com/2026/10/26/trim/540/304/punto-a-punto-2356541.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.075,
-        "y1": 0.81
-      }
-    },
-    {
       "id": "e9e931d1f3",
       "seccion": "argentina",
       "rel": 17.9,
       "relevancia": 17.9,
-      "fecha": "2026-10-27T07:57:35-03:00",
-      "hora": "07:57",
+      "fecha": "2026-10-27T13:18:17-03:00",
+      "hora": "13:18",
       "titulo": "Javier Milei y sus medidas, en vivo: el vocero celebró el crecimiento del turismo receptivo y dijo que hay “más trabajo”",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-continua-sin-pronunciarse-sobre-la-victoria-de-lula-nid27102026/",
@@ -728,45 +693,26 @@
       "rostros": null
     },
     {
-      "id": "d0514b0dca",
-      "seccion": "economia",
-      "rel": 17.9,
-      "relevancia": 17.9,
-      "fecha": "2026-10-26T13:13:22-03:00",
-      "hora": "13:13",
-      "titulo": "Los mercados apostaban por Bolsonaro y hoy están que arden: el impacto en Argentina",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/26/los-mercados-apostaban-por-bolsonaro-y-hoy-estan-que-arden-el-impacto-en-argentina/",
-      "acceso": "suscripcion",
-      "resumen": "El medio no publica un extracto de esta nota. Se puede leer completa en el enlace.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/3JATOES6EZAOTMU4R4Q4PDPK6I.jpg?auth=ab4449392f7ab2466434d472836fe7c7037d5ccbf19728141376df1bcd4c985a&smart=true&width=1024&height=683",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.301,
-        "y1": 0.554
-      }
-    },
-    {
-      "id": "996715d0e9",
+      "id": "36b12ae760",
       "seccion": "argentina",
-      "rel": 17.8,
-      "relevancia": 17.8,
-      "fecha": "2026-10-26T12:10:05-03:00",
-      "hora": "12:10",
-      "titulo": "De espectador a auditor: la plataforma Ciudad Abierta busca acercar la gestión pública a los porteños",
+      "rel": 17.7,
+      "relevancia": 17.7,
+      "fecha": "2026-10-27T12:05:51-03:00",
+      "hora": "12:05",
+      "titulo": "Ravier dijo que Milei no va a felicitar a Lula y erró al afirmar que el brasileño no saludó al Gobierno en 2023",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/IA/de-espectador-a-auditor-la-plataforma-ciudad-abierta-busca-acercar-la-gestion-publica-a-los-portenos-nid26102026/",
+      "url": "https://www.lanacion.com.ar/politica/el-gobierno-tomo-nota-del-resultado-de-las-elecciones-en-brasil-nid27102026/",
       "acceso": "suscripcion",
-      "resumen": "Ciudad Abierta es una herramienta potenciada con inteligencia artificial generativa que permite a los ciudadanos consultar temas vinculados a leyes, contrataciones y presupuestos; también habilita a los vecinos a proponer iniciativas para sus barrios",
+      "resumen": "El vocero presidencial dijo que el Poder Ejecutivo “tomó nota” del resultado en Brasil y negó que se evalúe darle asilo a Flavio Bolsonaro",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/6H5GYGPKCFCVTMW7X7ZNAPCNWE.JPG?auth=2e8b73044273930bba3b7860722e256ddb47c6e43bd649ee8ac263d8a25a480a&smart=true&width=4000&height=3000",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/DTMOUJYJGFA25B37XASX4KKZGY.JPG?auth=40dd83f249d0463feeb2005c9a32d002fb853850f4189f6122e219191f4d551c&smart=true&width=1486&height=1115",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
-      "rostros": null
+      "dia": 0,
+      "rostros": {
+        "y0": 0.19,
+        "y1": 0.515
+      }
     },
     {
       "id": "4daa1cb486",
@@ -788,45 +734,23 @@
       "rostros": null
     },
     {
-      "id": "181a0c71f3",
-      "seccion": "argentina",
-      "rel": 17.7,
-      "relevancia": 17.7,
-      "fecha": "2026-10-26T11:35:27-03:00",
-      "hora": "11:35",
-      "titulo": "Inquietud por la presencia de Milei entre los organizadores de la Cumbre Iberoamericana",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/inquietud-por-la-presencia-de-milei-entre-los-organizadores-de-la-cumbre-iberoamericana-nid26102026/",
-      "acceso": "suscripcion",
-      "resumen": "Será la semana próxima en España y el último paso del Presidente por el país alteró la campaña electoral y provocó incomodidad incluso entre aliados del libertario",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/HJGZ2YDGT5AXDGZS7S3QMPBQ34.jpg?auth=d2272ac3953dfda6c0e90957fec52971f4b4bca9719bcf5ea5dd6f80b39eb35d&smart=true&width=2048&height=1305",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "2b619b53e9",
+      "id": "fa8a5b3340",
       "seccion": "cordoba",
       "rel": 17.4,
       "relevancia": 17.4,
-      "fecha": "2026-10-26T09:46:26-03:00",
-      "hora": "09:46",
-      "titulo": "El ministro de Salud de Córdoba cuestionó el recorte nacional del Plan Remediar",
+      "fecha": "2026-10-27T10:18:36-03:00",
+      "hora": "10:18",
+      "titulo": "Carreros y recicladores urbanos protestan frente a la Municipalidad de Córdoba",
       "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/el-ministro-de-salud-de-cordoba-cuestiono-el-recorte-nacional-del-plan-remediar-_a6adf41d16bdefb093aa48602",
+      "url": "https://www.cba24n.com.ar/cordoba/carreros-y-recicladores-urbanos-protestan-frente-a-la-municipalidad-de-cordoba_a6ae0982469746474574752c4",
       "acceso": "abierto",
-      "resumen": "Ricardo Pieckenstainer pidió que se restituya la cobertura y advirtió sobre las consecuencias para la atención primaria: “Es un retroceso importante en el acceso a la salud”, aseguró.",
+      "resumen": "Los trabajadores reclaman el pago de las tareas realizadas durante los últimos dos meses. Además, exigen la entrega de motocicletas prometidas a cambio de caballos.",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6adf4ab56bdefb093aa52a49/720.jpeg",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae0a455697464745748a0e6/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.118,
-        "y1": 0.415
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "049d6a539a",
@@ -848,6 +772,88 @@
       "rostros": {
         "y0": 0.303,
         "y1": 0.584
+      }
+    },
+    {
+      "id": "4ebe70abdd",
+      "seccion": "argentina",
+      "rel": 15.8,
+      "relevancia": 15.8,
+      "fecha": "2026-10-27T12:21:00-03:00",
+      "hora": "12:21",
+      "titulo": "El vocero presidencial afirmó que los dichos de Milei sobre mandar periodistas a la hoguera fueron “una metáfora”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/el-vocero-presidencial-aseguro-que-los-dichos-de-milei-sobre-mandar-periodistas-a-la-hoguera-fueron-nid27102026/",
+      "acceso": "suscripcion",
+      "resumen": "Adrián Ravier dijo que el Presidente reaccionó con enojo y pidió no tomar en forma literal sus palabras",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/MKBTXNGPZBBX7K7XXDG7DI2BPQ.jpg?auth=0997ade9624639bc424dde26536555e0037f1beaec1170451f31ed925358b27f&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "6335755d78",
+      "seccion": "economia",
+      "rel": 15.5,
+      "relevancia": 15.5,
+      "fecha": "2026-10-27T10:56:40-03:00",
+      "hora": "10:56",
+      "titulo": "El Gobierno amplió los topes de luz subsidiada y definió descuentos para el gas",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/el-gobierno-amplio-los-topes-de-luz-subsidiada-y-definio-descuentos-para-el-gas/",
+      "acceso": "abierto",
+      "resumen": "Los cambios elevan los límites de consumo eléctrico bonificado en las zonas más cálidas y establecen rebajas en las facturas de gas para usuarios de la Zona Fría.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "89a6846bce",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": -478.1,
+      "fecha": "2026-10-26T13:04:24-03:00",
+      "hora": "13:04",
+      "titulo": "Milei saludó e hizo un “six-seven” desde el balcón de Casa Rosada antes de encabezar la reunión de Gabinete",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/26/milei-aun-no-felicito-a-lula-y-encabeza-una-nueva-reunion-de-gabinete-tras-la-derrota-de-bolsonaro/",
+      "acceso": "abierto",
+      "resumen": "El Presidente se mantiene en silencio sobre el triunfo de Lula en Brasil, en un nuevo gesto de alineación con Flávio Bolsonaro. La agenda legislativa y el contrapunto con Patricia Bullrich, que no estuvo presente en el encuentro de funcionarios",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/EXW4V5FSTZCQLNARTLR2MNIBJ4.jpeg?auth=42a16385c53895246262ff4af18e88cf94248a2d9928ee7f082ffccc55db4a8d&smart=true&width=1280&height=796",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.388,
+        "y1": 0.635
+      }
+    },
+    {
+      "id": "9e42ea1df1",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": -478.1,
+      "fecha": "2026-10-26T12:16:15-03:00",
+      "hora": "12:16",
+      "titulo": "Milei se resiste por ahora a reconocer el triunfo de Lula y suma más tensión en el vínculo bilateral con Brasil",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-se-resiste-por-ahora-a-reconocer-el-triunfo-de-lula-y-suma-mas-tension-en-el-vinculo-bilateral-nid26102026/",
+      "acceso": "suscripcion",
+      "resumen": "Desde el oficialismo se plegaron a la estrategia de Donald Trump, que tampoco reconoció la victoria del candidato del PT ante Flavio Bolsonaro; el Presidente encabezó un gabinete y no mencionó el caso brasileño",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/RQ72FZAVXBEKLLVHVICBIOKCRY.png?auth=c8490d4e9936c138e34d0b2aa1550cc63385a61c6c497a0b6a39004fe4c5c9c1&smart=true&width=1360&height=910",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.205,
+        "y1": 0.504
       }
     }
   ],

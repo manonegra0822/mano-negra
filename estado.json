@@ -1,40 +1,52 @@
 {
-  "actualizado": "2026-10-27T08:29:00-03:00",
+  "actualizado": "2026-10-27T13:40:24-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 99,
           "ejemplos": [
-            "Ribera reivindica el aire acondicionado como una necesidad de salud pública y no",
-            "Ampliación de cobertura EFE Audiovisual Internacional 27 oct (11.00 GMT)",
-            "“Se oía taladrar día y noche”: narcos enemigos de “El Chapo” alertaron del túnel"
+            "Revelan nuevo contrato de la ex trabajadora sexual Deicy Jiménez en el Dapre: ha",
+            "Halloween: cuál es su origen y cuándo se celebra",
+            "Un piloto brasileño aseguró conocer el plan de vuelo y que Flávio Bolsonaro iba "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Un gigante del agro cerró una planta en Campana: hay 110 trabajadores despedidos"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 6,
+      "leidas": 89,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 78,
+          "cantidad": 76,
           "ejemplos": [
-            "Los nutricionistas coinciden: “A los 50 el desayuno ideal es una tostada de pan ",
-            "Un bebé de 12 días murió en Quilmes luego de que le cayera una palta en la cabez",
-            "Avanza un frente frío que provocará alertas por tormentas de gran intensidad, gr"
+            "La Policía Federal de Brasil le cancela los pasaportes a Flavio Bolsonaro e inve",
+            "Las fuertes revelaciones del documental de Matthew Perry que llegó a Netflix: “N",
+            "Elecciones en Israel 2026, EN VIVO: Benjamin Netanyahu busca retener el poder y "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 10,
+          "cantidad": 5,
           "ejemplos": [
-            "Fecha de cobro de Anses: el cronograma de pagos para este martes 27 de octubre",
-            "Calendario Anses: cuándo cobro la AUH en octubre 2026 si mi DNI termina en 8",
-            "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026"
+            "La paradoja de la apertura comercial: las cantidades importadas cayeron y volvie",
+            "Murió Armando Zavala, el productor del megáfono que convirtió la defensa del cam",
+            "Nelson, de 62 años, produce huevos de color azul con gallinas adaptadas al frío:"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Martínez de Giorgi cerró el caso $LIBRA solo un día después de que el fiscal pid"
           ]
         }
       }
@@ -45,11 +57,10 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "Solamente muero los 21 y los 1° ya me siento bien",
-            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina",
-            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre"
+            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -58,18 +69,12 @@
             "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "De cara al ballotage, Lula y su militancia no se rinden"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 5,
+          "cantidad": 7,
           "ejemplos": [
-            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N",
-            "La negociación, el último largometraje del genial Gus Van Sant, llega al Cineclu",
-            "El valor de un dedo mocho: Agustín Tosco entre la inteligencia artificial, el co"
+            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre",
+            "De cara al ballotage, Lula y su militancia no se rinden",
+            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N"
           ]
         }
       }
@@ -77,13 +82,20 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 4,
           "ejemplos": [
-            "El partido de Flávio Bolsonaro reconoció la victoria de Lula da Silva",
-            "Las Abuelas de Plaza de Mayo celebraron 49 años de lucha: “Todavía estamos busca"
+            "¿Dónde está Flávio Bolsonaro?: investigan si intentó fugarse a la Argentina para",
+            "Víctor Hugo: “Lula salió a pelear en las redes, a recuperar a los formateados po",
+            "La automotriz Stellantis paraliza sus plantas de Córdoba y El Palomar"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Las elecciones mutiladas de Israel"
           ]
         }
       }
@@ -91,20 +103,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 16,
           "ejemplos": [
-            "Lecciones de una remontada",
-            "Se consolida la voluntad de cambio entre los votantes para 2027",
-            "Cada vez hay más jóvenes sin cobertura médica por la pérdida de empleo formal"
+            "SUBTE celebra diez años de historietas en la Feria del Libro Córdoba",
+            "El Inta exoneró a Virginia Aparicio por presuntas faltas administrativas",
+            "Un estudiante universitario necesita más de $1,3 millones por mes para vivir en "
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Instituto celebró en una noche soñada y será internacional por primera vez en su"
+            "Comenzó la votación en las elecciones parlamentarias de Israel"
           ]
         }
       }
@@ -116,14 +128,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
-            "Trece personas se autoevacuaron por un incendio en un edificio céntrico de Córdo",
-            "Harry Kane ganó el Balón de Oro 2026 y Messi quedó quinto",
-            "Liga Profesional 2027: AFA evalúa la vuelta del todos contra todos"
+            "Caso Daniela Villalba: la Justicia cambió la carátula a femicidio",
+            "Presidencia desmintió el ingreso de Flávio Bolsonaro a la Argentina",
+            "Lula cumple 81 años: ¿Qué esperamos de una persona mayor?"
           ]
         }
       }
@@ -142,36 +154,15 @@
     },
     {
       "medio": "Perfil",
-      "leidas": 70,
-      "aceptadas": 12,
+      "leidas": 50,
+      "aceptadas": 0,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 13,
-          "ejemplos": [
-            "Encuesta: ¿Qué esperan los argentinos de la visita del papa León XIV al país?",
-            "Pieckesteiner, sobre el recorte de Remediar: “No vamos a dejar a nadie afuera, p",
-            "Causa Márquez y Asociados: ya son 13 los detenidos tras cuatro nuevas prisiones "
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La UNC será sede de un encuentro abierto sobre salud mental y consumos problemát"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Lula, el hijo del Brasil: de la pobreza extrema a la conquista del poder",
-            "Lula tras su histórico triunfo: “Participé de muchas elecciones, nunca vi tanta "
-          ]
-        },
         "muy vieja": {
-          "cantidad": 42,
+          "cantidad": 50,
           "ejemplos": [
-            "Córdoba: la Ministra de Seguridad, Alejandra Monteoliva, inspeccionó FAdeA para ",
-            "Los controles que puede hacer la Guardia Urbana: puede pedir identidad, pero no ",
-            "El mapa del ciberdelito: crece la estafa digital y la IA acelera los engaños"
+            "Femicidio de Agostina Vega: qué dijo la abogada de Soledad Andreani, nueva deten",
+            "Córdoba: cobrará el 100% de la pensión tras demostrar que dejó el hogar por viol",
+            "Médicos de cabecera de PAMI: \"Nos han aumentado $300 la cápita, es imposible man"
           ]
         }
       }
