@@ -1,68 +1,56 @@
 {
-  "actualizado": "2026-10-27T20:24:55-03:00",
+  "actualizado": "2026-10-28T08:32:15-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 99,
           "ejemplos": [
-            "Elecciones en Israel EN VIVO: Las elecciones en Israel cerraron con la participa",
-            "Luis Palacios, quien le dio la victoria a Santa Fe ante Bucaramanga, confirmó qu",
-            "Flavio Bolsonaro abandonó Brasil EN VIVO: Lula: “El ciudadano que sale escondido"
+            "Accidente de trenes en Toledo, en directo: al menos 30 muertos tras el choque en",
+            "El embajador de EEUU y el canciller de Cuba protagonizaron un tenso cruce a los ",
+            "Felipe VI comparece ante los medios tras el grave accidente ferroviario de Toled"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Una tradicional marca de trajes de baño argentina entró en concurso preventivo"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Senado busca sesionar el jueves con salud mental y guiños fiscales para inver"
+            "La Fundación de la Familia Policial reunió a más de 700 invitados en una cena so"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 8,
+      "leidas": 95,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 74,
+          "cantidad": 83,
           "ejemplos": [
-            "El proyecto ambiental de Angelina Jolie con el que protege a 200 especies hace 2",
-            "Sócrates, filósofo: “Sólo existe un bien y se llama conocimiento; y solo hay un ",
-            "Tony Silvestre, adiestrador de perros: “Estornudan porque están contentos; esto "
+            "Dos trenes de alta velocidad chocaron en Toledo: al menos 30 muertos",
+            "Qué se sabe del accidente de trenes de alta velocidad en España hoy: choque, des",
+            "Los testimonios de los pasajeros que sobrevivieron al choque de trenes en España"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Gobierno oficializó la disolución de Instituto de Obra Social de las Fuerzas "
           ]
         },
         "otro país": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "AmCham pidió adherir a un tratado internacional por semillas y alertó sobre el p",
-            "Ley Malvinas: el Gobierno cedió ante EE.UU. y logró dictaminar, pero persisten l",
             "Un gigante alemán reduce un turno en una planta industrial y un sindicato se dec"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 1,
           "ejemplos": [
-            "Un “boom que no arrastra”: Prat Gay contra todos en el debate por el “derrame” e",
-            "María Tettamanti ratificó el rumbo tras de la renuncia de Daniel González: “No v",
-            "Martín Varsavsky cerró un acuerdo millonario para vender su empresa de biotecnol"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Un juez decidió que el financista Vallejo siga preso, ante “riesgos procesales c",
-            "El Banco Central no compró reservas y, por primera vez en el año, lleva dos rued",
-            "Antes de la suba del riesgo país: las empresas emitieron US$2722 millones en sep"
+            "Empresarios que compraron Mercedes-Benz en la Argentina y un accionista se queda"
           ]
         }
       }
@@ -98,14 +86,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
-            "Medios de Brasil aseguran que Flávio Bolsonaro llegó a EEUU",
-            "La estratega de 21 años que hackeó al bolsonarismo y blindó a Lula",
-            "El agua sube y las obras hídricas nunca llegaron"
+            "La fuga de Flávio Bolsonaro: visas de Trump, un avión en Iguazú y el sello de la",
+            "Regalo para el cumple de Lula",
+            "La estratega de 21 años que hackeó al bolsonarismo y blindó a Lula"
           ]
         }
       }
@@ -118,17 +106,17 @@
         "titular sin tema de política/economía": {
           "cantidad": 12,
           "ejemplos": [
-            "Córdoba lanzó la web oficial para la visita del Papa León XIV: cronograma, inscr",
-            "Las galerías del centro, entre la memoria y los nuevos usos",
-            "Pese a la prohibición judicial, Flávio Bolsonaro abandonó Brasil y llegó a Miami"
+            "Flávio Bolsonaro pasó por la Argentina en un vuelo privado rumbo a Estados Unido",
+            "Tragedia en España: al menos 46 muertos tras el choque de dos trenes",
+            "La industria cayó 3,4% interanual y acumula nueve meses en baja"
           ]
         },
         "otro país": {
           "cantidad": 3,
           "ejemplos": [
+            "El Gobierno cedió a las presiones de EE.UU. y modifica la Ley de Defensa de la S",
             "La fuga de Bolsonaro agrega tensión al vínculo bilateral con el gobierno de Lula",
-            "La oposición reclama explicaciones al Gobierno por el posible paso de Bolsonaro ",
-            "El Gobierno cedió a las presiones de EE.UU. y modifica la Ley de Defensa de la S"
+            "La soja cae a mínimos de dos meses por las expectativas de mayores exportaciones"
           ]
         }
       }
@@ -145,9 +133,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
-            "La UNC invita a dos actividades para celebrar el Día de Muertos en Córdoba",
-            "Valentino Merlo cantará ante el papa León XIV durante el encuentro de jóvenes en",
-            "Lula da Silva, tras la huida de Flávio Bolsonaro: \"Quien no debe, no teme\""
+            "Con inestabilidad a cuestas, la primavera busca hacer pie en Córdoba",
+            "El ciclón Arnab tocó tierra en varios estados de India: hay casi 200 mil persona",
+            "Batacazo histórico: Fleetwood Town elimina al Arsenal en la Carabao Cup"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -173,7 +161,7 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
@@ -189,11 +177,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 45,
+          "cantidad": 46,
           "ejemplos": [
-            "Femicidio de Agostina Vega: qué dijo la abogada de Soledad Andreani, nueva deten",
-            "Córdoba: cobrará el 100% de la pensión tras demostrar que dejó el hogar por viol",
-            "Médicos de cabecera de PAMI: \"Nos han aumentado $300 la cápita, es imposible man"
+            "Llaryora en la mesa de Juana Viale: \"Schiaretti hubiera sido un gran presidente ",
+            "El dólar en Córdoba: a cuánto cotiza este martes 6 de octubre",
+            "Femicidio de Agostina Vega: qué dijo la abogada de Soledad Andreani, nueva deten"
           ]
         }
       }
