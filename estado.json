@@ -1,66 +1,68 @@
 {
-  "actualizado": "2026-10-28T13:41:31-03:00",
+  "actualizado": "2026-10-28T20:26:53-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 96,
           "ejemplos": [
-            "Caen dos prófugos de una red señalada por cobrar millones de córdobas con sinies",
-            "Sheinbaum y Lemus se juntan en La Mañanera por crisis de agua en Jalisco: limita",
-            "Patricia Manterola planeaba viajar en tren a Toledo antes de conocer el trágico "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Día del Bancario 2026: de cuánto sera el bono extra que recibirán y cuándo se co"
+            "Salen a la luz los audios entre Adif y el maquinista del AVE antes del accidente",
+            "Acusan a policía de robar billetera con 9 mil soles a emprendedor",
+            "El expresidente de El Salvador Elías Antonio Saca queda en libertad tras cumplir"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Llega el Cyber Monday: 8 de cada 10 consumidores afirman que usarán la IA para e"
+            "Se realizará una exposición en Rosario para mostrar los logros del modelo de seg",
+            "Grupo Octubre compró la productora Mandarina Contenidos y el canal de streaming "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
+      "leidas": 92,
       "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 71,
+          "cantidad": 73,
           "ejemplos": [
-            "Inti Bonomo, experto en Ciencias Ambientales, sobre el avance del fenómeno del S",
-            "Gabriel Rolón, sobre la esperanza: “Puede dejarnos incapacitados de jugar un des",
-            "Un analista internacional explicó en detalle la remontada histórica de Lula y la"
+            "Miguel Ángel Roca, arquitecto argentino: la historia detrás de la casa icónica q",
+            "Llega una tormenta de tres días a Buenos Aires con posibilidad de granizo",
+            "Planta cebra: la suculenta de hojas rayadas que es fácil de cuidar e ideal para "
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 7,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Más de 35.000 personas se anotaron para encontrar trabajo en una feria de la Ciu",
-            "La empresa de vuelos privados que trasladó a Bolsonaro es parte de la investigac",
-            "Lo dice un informe: anticipan lluvias con focos de 200 milímetros en una región"
-          ]
-        },
-        "otro país": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El Gobierno defiende la “legalidad” de la salida de Bolsonaro y un funcionario a",
-            "Crisis política: las acciones en Brasil caen hasta 12% tras la fuga de Flavio Bo",
-            "Diputados: la oposición exige al Gobierno explicaciones por la huida de Bolsonar"
+            "Santiago Caputo fue identificado por un control policial tras el operativo de hu"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "El Senado intentará aprobar mañana la reforma de la ley de salud mental y el RII"
+            "Senado: se demora el proyecto de inviolabilidad de la propiedad privada con el a",
+            "Conflicto: paro en un frigorífico que tiene una deuda bancaria de $46.000 millon",
+            "Banco Central: el oficialismo ratificó el proyecto del Senado y planea una sesió"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 6,
+          "ejemplos": [
+            "Don Pascual, de 82 años, recuperó casi 60 chivas extraviadas gracias a un dron: ",
+            "Gerardo Bartolomé, de crear un gigante en el negocio de la soja a construir una ",
+            "Causa $LIBRA: la Justicia posterga una decisión clave que puede determinar el ci"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Un fiscal federal de Misiones pidió informes al Gobierno sobre el vuelo que tran",
+            "El Gobierno renovó toda la deuda que vence a fin de mes y sumó fondos a sus ahor"
           ]
         }
       }
@@ -97,26 +99,21 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 4,
-          "ejemplos": [
-            "Así huyó Flávio Bolsonaro: los detalles de una fuga con patente argentina",
-            "“Emergencia absoluta” y “gente volando por los pasillos”: los crudos relatos de ",
-            "Choque de trenes en España: hay al menos 68 muertos y decenas de heridos"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Bolsonaro llegó a Estados Unidos tras la ayuda de Milei para fugarse vía Puerto "
-          ]
-        },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Por la fuga de Flávio Bolsonaro, piden que Pablo Quirno dé explicaciones en el C"
+            "Bolsonaro se autoproclamó “presidente electo” y luego se echó para atrás: ahora ",
+            "En cuestión de minutos, Flávio Bolsonaro pasó de ser “presidente electo de Brasi"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "La victoria de Lula no fue solo obra de Janones",
+            "Israel y, una vez más, Netanyahu",
+            "Una joven argentina murió en el accidente ferroviario en España"
           ]
         }
       }
@@ -124,20 +121,28 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 5,
       "descartadas": {
-        "otro país": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 11,
           "ejemplos": [
-            "Bullrich, sobre la elección en Brasil: “La gente decide en las urnas y su volunt"
+            "Un choque entre dos trenes en España dejó más de 60 muertos",
+            "Juzgan a seis guardiacárceles y a la esposa de Carmona por favorecer la fuga que",
+            "Flávio Bolsonaro se proclamó “líder de Brasil” y denunció fraude electoral"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 17,
+        "otro país": {
+          "cantidad": 3,
           "ejemplos": [
-            "La Trova Coral celebrará los 80 años de Silvio Rodríguez en el Teatro Real",
-            "Detuvieron a un hombre y le secuestraron una pistola 9 milímetros y un pasamonta",
-            "Hallaron sin vida a Nancy Godoy"
+            "El Gobierno admitió que coordinó con Trump el escape de Bolsonaro de Brasil",
+            "Filtraciones, cruces y un sismo institucional en el Poder Judicial provincial",
+            "“Las relaciones comerciales van a seguir”: el Gobierno ratificó el vínculo con B"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Murió el juez federal Alvin Hellerstein, a cargo del juicio a Maduro"
           ]
         }
       }
@@ -149,20 +154,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 14,
           "ejemplos": [
-            "El fútbol argentino modificará sus fechas por la visita del papa León XIV",
-            "SRT Media transmitirá los festivales de Jesús María y Cosquín 2027",
-            "El Mes del Diego: cultura y fiesta maradoneana en Córdoba"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Elecciones en Israel: Netanyahu queda primero, pero pierde la mayoría parlamenta"
+            "Irá a juicio por abusar de una mujer en un dispensario",
+            "Conmebol y la decisión tras el reclamo de Flamengo: quién jugará la final de la ",
+            "Escándalo en Rosario: condenaron a un barra de Newell's por amenazar a Di María"
           ]
         }
       }
@@ -200,9 +199,9 @@
         "muy vieja": {
           "cantidad": 46,
           "ejemplos": [
+            "Ley de Discapacidad: cómo votaron los diputados cordobeses",
             "Llaryora en la mesa de Juana Viale: \"Schiaretti hubiera sido un gran presidente ",
-            "El dólar en Córdoba: a cuánto cotiza este martes 6 de octubre",
-            "Femicidio de Agostina Vega: qué dijo la abogada de Soledad Andreani, nueva deten"
+            "El dólar en Córdoba: a cuánto cotiza este martes 6 de octubre"
           ]
         }
       }
