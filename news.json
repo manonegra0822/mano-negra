@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-28T08:32:15-03:00",
+  "actualizado": "2026-10-28T13:41:31-03:00",
   "notas": [
     {
       "id": "6a7be46334",
@@ -91,64 +91,12 @@
       }
     },
     {
-      "id": "5fe571700b",
-      "seccion": "cordoba",
-      "rel": 31.5,
-      "relevancia": 31.5,
-      "fecha": "2026-10-27T11:44:00-03:00",
-      "hora": "11:44",
-      "titulo": "Caso $LIBRA: apelaron el sobreseimiento de Javier Milei",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/caso--libra--apelaron-el-sobreseimiento-de-javier-milei_a6ae0acd56974647457499bc8",
-      "acceso": "abierto",
-      "resumen": "Juan Patricio Marchetto, uno de los inversores perjudicados por el derrumbe del activo, apeló el sobreseimiento de Javier Milei, Karina Milei y otros nueve imputados.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ae0b94969746474574b1300/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Caso $LIBRA: apelan el sobreseimiento de Milei y piden que continúe la investigación",
-          "url": "https://hoydia.com.ar/politica/nacional/caso-libra-apelan-el-sobreseimiento-de-milei-y-piden-que-continue-la-investigacion/"
-        },
-        {
-          "fuente": "La Nación",
-          "titulo": "Detrás del fallo $LIBRA: lo que dijo la Justicia (y lo que obvió) para sobreseer a Javier Milei",
-          "url": "https://www.lanacion.com.ar/politica/detras-del-fallo-libra-lo-que-dijo-la-justicia-y-lo-que-obvio-para-sobreseer-a-javier-milei-nid26102026/"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.142,
-        "y1": 0.505
-      }
-    },
-    {
-      "id": "6154e7d191",
-      "seccion": "economia",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-28T08:06:22-03:00",
-      "hora": "08:06",
-      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 28 de octubre, minuto a minuto",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid28102026/",
-      "acceso": "suscripcion",
-      "resumen": "La divisa oficial operó a $1569 para la venta; el dólar blue cotizó a $1575 para esa operación; qué pasó con el MEP y el CCL",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RA4RMWSEYJE3DCEUC2TGKULYZ4.jpg?auth=2cf281f84ef3d2f743eb5286cceea8ba95acb8ce7a67d9dde60380cbfabe9d2e&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "8a0fbcccf0",
       "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-28T07:51:49-03:00",
-      "hora": "07:51",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-28T13:39:24-03:00",
+      "hora": "13:39",
       "titulo": "Javier Milei y sus medidas, en vivo: la nueva revisión del acuerdo con el FMI y la salida de Bolsonaro desde Misiones",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-la-nueva-revision-del-acuerdo-con-el-fmi-y-la-salida-de-bolsonaro-nid28102026/",
@@ -163,6 +111,25 @@
         "y0": 0.164,
         "y1": 0.603
       }
+    },
+    {
+      "id": "6154e7d191",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-28T12:47:50-03:00",
+      "hora": "12:47",
+      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 28 de octubre, minuto a minuto",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid28102026/",
+      "acceso": "suscripcion",
+      "resumen": "La divisa oficial opera a $1566 para la venta; el dólar blue cotiza a $1575 para esa operación; qué pasó con el MEP y el CCL",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/RA4RMWSEYJE3DCEUC2TGKULYZ4.jpg?auth=2cf281f84ef3d2f743eb5286cceea8ba95acb8ce7a67d9dde60380cbfabe9d2e&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "0900272863",
@@ -225,28 +192,6 @@
       "rostros": {
         "y0": 0.4,
         "y1": 0.682
-      }
-    },
-    {
-      "id": "019c72e715",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-27T13:06:17-03:00",
-      "hora": "13:06",
-      "titulo": "Con Macri replegado, Lacunza acelera su plan presidencial y refuerza la diferenciación con Milei",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/con-macri-replegado-lacunza-acelera-su-plan-presidencial-y-profundiza-su-diferenciacion-con-milei-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "En medio del silencio partidario, el economista rechazó los ataques del Presidente contra periodistas por el caso $LIBRA; refuerza sus recorridas en el interior del país y tiende puentes con potenciales aliados",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/SI7NUOQ46ZAXZDCF7TXNMCQLRQ.JPG?auth=9466809ed4369e04de89589ea37ae712892baf2adbc465ea9eb635352aea3ae5&smart=true&width=8192&height=5464",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.225,
-        "y1": 0.77
       }
     },
     {
@@ -313,25 +258,47 @@
       }
     },
     {
-      "id": "639c056da2",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-27T12:23:13-03:00",
-      "hora": "12:23",
-      "titulo": "El juego propio de Gerardo Zamora, el aliado de Cristina Kirchner que suena como alternativa a Kicillof para 2027",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-juego-propio-de-gerardo-zamora-el-aliado-de-cristina-kirchner-que-suena-como-alternativa-a-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "Un sector del peronismo alienta una eventual candidatura a presidente del senador nacional y exgobernador de Santiago del Estero; su rol en la interna y sus movimientos en el Congreso",
+      "id": "536f187499",
+      "seccion": "economia",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-28T12:09:20-03:00",
+      "hora": "12:09",
+      "titulo": "La deuda global roza niveles de posguerra y supera la capacidad de pago de los gobiernos",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/la-deuda-global-roza-niveles-de-posguerra-y-supera-la-capacidad-de-pago-de-los-gobiernos/",
+      "acceso": "abierto",
+      "resumen": "El organismo multilateral advirtió que el encarecimiento del crédito global ahoga los presupuestos públicos y exigió correcciones fiscales inmediatas. Retrasar las medidas profundizará el costo para los países desarrollados y emergentes.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/CMCVI2U4GNGGPP6YWHRL6UTDUI.JPG?auth=6172c7946566de7d86c4c5359b309c899b9c37f9d07e72218e6033eddc010eea&smart=true&width=3000&height=2000",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-12.08.18-optimized.jpeg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.439,
+        "y1": 0.661
+      }
+    },
+    {
+      "id": "1452ccf6cf",
+      "seccion": "economia",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-28T11:22:54-03:00",
+      "hora": "11:22",
+      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este miércoles 28 de octubre",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-miercoles-28-de-octubre-nid28102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/3QTBZS3PKRF4BASCZXNJJ3KP6A.jpg?auth=d28ac9493f0b0b19e814fecce6850c518fb91d5f3dcb506740e0a06dfffedbae&smart=true&width=6240&height=4160",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.157,
-        "y1": 0.605
+        "y0": 0.142,
+        "y1": 0.461
       }
     },
     {
@@ -348,66 +315,6 @@
       "resumen": "El exministro de Economía criticó la intervención oficial en el dólar y la comparó con la gestión del exsecretario de Comercio; Emmanuel Álvarez Agis propuso endurecer nuevamente las restricciones cambiarias para las personas",
       "impacto": null,
       "imagen": "https://resizer.glanacion.com/resizer/v2/WS6TVO65HFFXLJYMQNGQS7V6PM.png?auth=cc68f5c4cc7c7b40b9d8877d53a6b0f84d17c3b2ed991a9b1f138cc3914e2143&smart=true&width=880&height=604",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "28cd76cc8c",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-27T11:57:29-03:00",
-      "hora": "11:57",
-      "titulo": "El Gobierno de Milei sigue haciendo de cuenta que Lula no ganó",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/27/el-gobierno-de-milei-sigue-haciendo-de-cuenta-que-lula-no-gano/",
-      "acceso": "suscripcion",
-      "resumen": "El vocero presidencial ratificó que no habrá “ningún comunicado”, ni siquiera de la Cancillería, sobre las elecciones en Brasil. “Se tomó nota del resultado”, dijo escuetamente. También mintió al afirmar que Lula no saludó a Milei en 2023.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/UXPZE3L3LZEQTKXNMP476MJNH4.jpg?auth=55fa888b217f2cf56b0da3860786529136c807dd827665489b4d66af78b84d0e&smart=true&width=2158&height=1440",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.317,
-        "y1": 0.589
-      }
-    },
-    {
-      "id": "0d76de550f",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-27T11:53:36-03:00",
-      "hora": "11:53",
-      "titulo": "Ravier confirmó que no habrá comunicado oficial: “Lula tampoco saludó a Milei”»",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/ravier-no-habra-comunicado-oficial-de-argentina-para-felicitar-a-lula-por-su-reeleccion/",
-      "acceso": "abierto",
-      "resumen": "El vocero presidencial confirmó que el Gobierno no emitirá un comunicado para felicitar al mandatario brasileño por su victoria electoral. Recordó que Lula no saludó personalmente a Milei cuando ganó las elecciones argentinas en 2023 y aseguró que el comercio bilateral seguirá con normalidad.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "0d1f5fb2cd",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-27T11:52:53-03:00",
-      "hora": "11:52",
-      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este martes 27 de octubre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-martes-27-de-octubre-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WOE3DXDZ5REU3LNS7652IUYWQA.jpg?auth=090f48284122b14e755b582d222efcec665673230f24171a59f32815cc779d88&smart=true&width=6000&height=4000",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 1,
@@ -556,6 +463,25 @@
       }
     },
     {
+      "id": "de2f461b1b",
+      "seccion": "argentina",
+      "rel": 20.0,
+      "relevancia": 20.0,
+      "fecha": "2026-10-28T13:24:53-03:00",
+      "hora": "13:24",
+      "titulo": "La Argentina volvió a votar en contra de condenar el embargo a Cuba en la asamblea de la ONU",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/la-argentina-volvio-a-votar-en-contra-de-levantar-el-embargo-a-cuba-en-la-asamblea-de-la-onu-nid28102026/",
+      "acceso": "suscripcion",
+      "resumen": "La votación se resolvió 130-17 a favor de la iniciativa, con 25 abstenciones; Alemania, Italia y Letonia se abstuvieron por primera vez en 34 años",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/7ZJDBI246FBKDBJTWIEZXSEWOM.jpg?auth=1aad50b8ed7db970a4d565ee9b263daa6b45e930fa8fb2d13ac5c31b06108a1d&smart=true&width=1473&height=847",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "cc6f5c3a66",
       "seccion": "cordoba",
       "rel": 19.9,
@@ -573,6 +499,28 @@
       "otros": [],
       "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "eb7c935a56",
+      "seccion": "argentina",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-10-28T11:54:43-03:00",
+      "hora": "11:54",
+      "titulo": "En su primer discurso tras el balotaje en Brasil, Milei no habló sobre la fuga de Bolsonaro",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/en-su-primer-discurso-tras-el-balotaje-en-brasil-milei-no-hablo-sobre-la-fuga-de-bolsonaro-nid28102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente participó de una inauguración en la provincia de Catamarca, en la que elogió al gobernador local y apuntó contra Quintela",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/J2ONVWP77FDOBHSUUV7N73AQVM.jpg?auth=46f17c101a5851e082cf62f39f4ccf964e63d15e0d7174b9a6c6e3f89fdc1829&smart=true&width=1058&height=642",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.185,
+        "y1": 0.551
+      }
     },
     {
       "id": "58b28638b8",
@@ -632,28 +580,6 @@
       "rostros": null
     },
     {
-      "id": "36b12ae760",
-      "seccion": "argentina",
-      "rel": 17.7,
-      "relevancia": 17.7,
-      "fecha": "2026-10-27T12:05:51-03:00",
-      "hora": "12:05",
-      "titulo": "Ravier dijo que Milei no va a felicitar a Lula y erró al afirmar que el brasileño no saludó al Gobierno en 2023",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-gobierno-tomo-nota-del-resultado-de-las-elecciones-en-brasil-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "El vocero presidencial dijo que el Poder Ejecutivo “tomó nota” del resultado en Brasil y negó que se evalúe darle asilo a Flavio Bolsonaro",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/DTMOUJYJGFA25B37XASX4KKZGY.JPG?auth=40dd83f249d0463feeb2005c9a32d002fb853850f4189f6122e219191f4d551c&smart=true&width=1486&height=1115",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.19,
-        "y1": 0.515
-      }
-    },
-    {
       "id": "0d5403465b",
       "seccion": "cordoba",
       "rel": 17.5,
@@ -676,23 +602,26 @@
       }
     },
     {
-      "id": "fa8a5b3340",
-      "seccion": "cordoba",
-      "rel": 17.4,
-      "relevancia": 17.4,
-      "fecha": "2026-10-27T10:18:36-03:00",
-      "hora": "10:18",
-      "titulo": "Carreros y recicladores urbanos protestan frente a la Municipalidad de Córdoba",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/carreros-y-recicladores-urbanos-protestan-frente-a-la-municipalidad-de-cordoba_a6ae0982469746474574752c4",
-      "acceso": "abierto",
-      "resumen": "Los trabajadores reclaman el pago de las tareas realizadas durante los últimos dos meses. Además, exigen la entrega de motocicletas prometidas a cambio de caballos.",
+      "id": "f074743ed2",
+      "seccion": "economia",
+      "rel": 15.9,
+      "relevancia": 15.9,
+      "fecha": "2026-10-28T12:50:49-03:00",
+      "hora": "12:50",
+      "titulo": "Ironías, posteos enigmáticos y críticas a la prensa: los mensajes de Santiago Caputo durante el escape de Bolsonaro",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/ironias-posteos-enigmaticos-y-criticas-a-la-prensa-los-mensajes-de-santiago-caputo-durante-el-escape-nid28102026/",
+      "acceso": "suscripcion",
+      "resumen": "El asesor presidencial compartió la imagen de una película que muestra un truco de teletransportación; fuentes del oficialismo le asignaron un rol en el operativo",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ae0a455697464745748a0e6/720.jpeg",
-      "imagen_credito": "Cba24n",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/G6YU355SCZEMHKWK2CMKG5L6PU.JPG?auth=c0ea76d56508fa328dd5b0512e6ad1d824666cc3f05581eac7979be8c7d6130b&smart=true&width=2133&height=1600",
+      "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
-      "rostros": null
+      "dia": 0,
+      "rostros": {
+        "y0": 0.108,
+        "y1": 0.544
+      }
     },
     {
       "id": "9285e148be",
@@ -755,44 +684,6 @@
       }
     },
     {
-      "id": "4ebe70abdd",
-      "seccion": "argentina",
-      "rel": 15.8,
-      "relevancia": 15.8,
-      "fecha": "2026-10-27T12:21:00-03:00",
-      "hora": "12:21",
-      "titulo": "El vocero presidencial afirmó que los dichos de Milei sobre mandar periodistas a la hoguera fueron “una metáfora”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-vocero-presidencial-aseguro-que-los-dichos-de-milei-sobre-mandar-periodistas-a-la-hoguera-fueron-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "Adrián Ravier dijo que el Presidente reaccionó con enojo y pidió no tomar en forma literal sus palabras",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/MKBTXNGPZBBX7K7XXDG7DI2BPQ.jpg?auth=0997ade9624639bc424dde26536555e0037f1beaec1170451f31ed925358b27f&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "6335755d78",
-      "seccion": "economia",
-      "rel": 15.5,
-      "relevancia": 15.5,
-      "fecha": "2026-10-27T10:56:40-03:00",
-      "hora": "10:56",
-      "titulo": "El Gobierno amplió los topes de luz subsidiada y definió descuentos para el gas",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/el-gobierno-amplio-los-topes-de-luz-subsidiada-y-definio-descuentos-para-el-gas/",
-      "acceso": "abierto",
-      "resumen": "Los cambios elevan los límites de consumo eléctrico bonificado en las zonas más cálidas y establecen rebajas en las facturas de gas para usuarios de la Zona Fría.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "28badfa1f8",
       "seccion": "economia",
       "rel": 13.8,
@@ -809,6 +700,44 @@
       "imagen_credito": null,
       "otros": [],
       "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "73b7e39cf9",
+      "seccion": "economia",
+      "rel": 13.6,
+      "relevancia": 13.6,
+      "fecha": "2026-10-28T11:29:50-03:00",
+      "hora": "11:29",
+      "titulo": "Nueva paritaria de octubre a diciembre: cuánto cobran los empleados de comercio con el aumento confirmado",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/nueva-paritaria-de-octubre-a-diciembre-cuanto-cobran-los-empleados-de-comercio-con-el-aumento-nid28102026/",
+      "acceso": "suscripcion",
+      "resumen": "El gremio y las empresas acordaron nuevos porcentajes de incremento mensuales y un bono extraordinario, que se pagará en dos veces",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/SVMKC5YGEJD3PNAOF7Z6DMSPOY.jpg?auth=dae6f6342feb17b66970b8cac882f5b4653ca4333679c671dfcd41effdf99a19&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "751e6531a4",
+      "seccion": "cordoba",
+      "rel": 10.0,
+      "relevancia": 10.0,
+      "fecha": "2026-10-28T13:32:23-03:00",
+      "hora": "13:32",
+      "titulo": "El Gobierno creó el programa “Los Más Buscados” para priorizar la captura de prófugos",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-creo-el-programa-los-mas-buscados-para-priorizar-la-captura-de-profugos/",
+      "acceso": "abierto",
+      "resumen": "La iniciativa establece un sistema automatizado que clasificará a las personas prófugas o evadidas según su peligrosidad.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
       "rostros": null
     },
     {
@@ -862,6 +791,83 @@
       ],
       "dia": 1,
       "rostros": null
+    },
+    {
+      "id": "5fe571700b",
+      "seccion": "cordoba",
+      "rel": 31.5,
+      "relevancia": -468.5,
+      "fecha": "2026-10-27T11:44:00-03:00",
+      "hora": "11:44",
+      "titulo": "Caso $LIBRA: apelaron el sobreseimiento de Javier Milei",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/caso--libra--apelaron-el-sobreseimiento-de-javier-milei_a6ae0acd56974647457499bc8",
+      "acceso": "abierto",
+      "resumen": "Juan Patricio Marchetto, uno de los inversores perjudicados por el derrumbe del activo, apeló el sobreseimiento de Javier Milei, Karina Milei y otros nueve imputados.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae0b94969746474574b1300/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "Caso $LIBRA: apelan el sobreseimiento de Milei y piden que continúe la investigación",
+          "url": "https://hoydia.com.ar/politica/nacional/caso-libra-apelan-el-sobreseimiento-de-milei-y-piden-que-continue-la-investigacion/"
+        },
+        {
+          "fuente": "La Nación",
+          "titulo": "Detrás del fallo $LIBRA: lo que dijo la Justicia (y lo que obvió) para sobreseer a Javier Milei",
+          "url": "https://www.lanacion.com.ar/politica/detras-del-fallo-libra-lo-que-dijo-la-justicia-y-lo-que-obvio-para-sobreseer-a-javier-milei-nid26102026/"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.142,
+        "y1": 0.505
+      }
+    },
+    {
+      "id": "019c72e715",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": -478.1,
+      "fecha": "2026-10-27T13:06:17-03:00",
+      "hora": "13:06",
+      "titulo": "Con Macri replegado, Lacunza acelera su plan presidencial y refuerza la diferenciación con Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/con-macri-replegado-lacunza-acelera-su-plan-presidencial-y-profundiza-su-diferenciacion-con-milei-nid27102026/",
+      "acceso": "suscripcion",
+      "resumen": "En medio del silencio partidario, el economista rechazó los ataques del Presidente contra periodistas por el caso $LIBRA; refuerza sus recorridas en el interior del país y tiende puentes con potenciales aliados",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/SI7NUOQ46ZAXZDCF7TXNMCQLRQ.JPG?auth=9466809ed4369e04de89589ea37ae712892baf2adbc465ea9eb635352aea3ae5&smart=true&width=8192&height=5464",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.225,
+        "y1": 0.77
+      }
+    },
+    {
+      "id": "639c056da2",
+      "seccion": "argentina",
+      "rel": 21.8,
+      "relevancia": -478.2,
+      "fecha": "2026-10-27T12:23:13-03:00",
+      "hora": "12:23",
+      "titulo": "El juego propio de Gerardo Zamora, el aliado de Cristina Kirchner que suena como alternativa a Kicillof para 2027",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/el-juego-propio-de-gerardo-zamora-el-aliado-de-cristina-kirchner-que-suena-como-alternativa-a-nid27102026/",
+      "acceso": "suscripcion",
+      "resumen": "Un sector del peronismo alienta una eventual candidatura a presidente del senador nacional y exgobernador de Santiago del Estero; su rol en la interna y sus movimientos en el Congreso",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/CMCVI2U4GNGGPP6YWHRL6UTDUI.JPG?auth=6172c7946566de7d86c4c5359b309c899b9c37f9d07e72218e6033eddc010eea&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.157,
+        "y1": 0.605
+      }
     }
   ],
   "opinion": []

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-28T08:32:15-03:00",
+  "actualizado": "2026-10-28T13:41:31-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,50 +7,60 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 98,
           "ejemplos": [
-            "Accidente de trenes en Toledo, en directo: al menos 30 muertos tras el choque en",
-            "El embajador de EEUU y el canciller de Cuba protagonizaron un tenso cruce a los ",
-            "Felipe VI comparece ante los medios tras el grave accidente ferroviario de Toled"
+            "Caen dos prófugos de una red señalada por cobrar millones de córdobas con sinies",
+            "Sheinbaum y Lemus se juntan en La Mañanera por crisis de agua en Jalisco: limita",
+            "Patricia Manterola planeaba viajar en tren a Toledo antes de conocer el trágico "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Día del Bancario 2026: de cuánto sera el bono extra que recibirán y cuándo se co"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "La Fundación de la Familia Policial reunió a más de 700 invitados en una cena so"
+            "Llega el Cyber Monday: 8 de cada 10 consumidores afirman que usarán la IA para e"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 9,
+      "leidas": 89,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 83,
+          "cantidad": 71,
           "ejemplos": [
-            "Dos trenes de alta velocidad chocaron en Toledo: al menos 30 muertos",
-            "Qué se sabe del accidente de trenes de alta velocidad en España hoy: choque, des",
-            "Los testimonios de los pasajeros que sobrevivieron al choque de trenes en España"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno oficializó la disolución de Instituto de Obra Social de las Fuerzas "
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Un gigante alemán reduce un turno en una planta industrial y un sindicato se dec"
+            "Inti Bonomo, experto en Ciencias Ambientales, sobre el avance del fenómeno del S",
+            "Gabriel Rolón, sobre la esperanza: “Puede dejarnos incapacitados de jugar un des",
+            "Un analista internacional explicó en detalle la remontada histórica de Lula y la"
           ]
         },
         "titular sin tema de política/economía": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Más de 35.000 personas se anotaron para encontrar trabajo en una feria de la Ciu",
+            "La empresa de vuelos privados que trasladó a Bolsonaro es parte de la investigac",
+            "Lo dice un informe: anticipan lluvias con focos de 200 milímetros en una región"
+          ]
+        },
+        "otro país": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El Gobierno defiende la “legalidad” de la salida de Bolsonaro y un funcionario a",
+            "Crisis política: las acciones en Brasil caen hasta 12% tras la fuga de Flavio Bo",
+            "Diputados: la oposición exige al Gobierno explicaciones por la huida de Bolsonar"
+          ]
+        },
+        "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Empresarios que compraron Mercedes-Benz en la Argentina y un accionista se queda"
+            "El Senado intentará aprobar mañana la reforma de la ley de salud mental y el RII"
           ]
         }
       }
@@ -61,8 +71,9 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
+            "Un paisaje que se derrama: notas sobre la muestra “Argentina” de Mondongo",
             "Solamente muero los 21 y los 1° ya me siento bien",
             "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina"
           ]
@@ -74,7 +85,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 6,
           "ejemplos": [
             "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre",
             "De cara al ballotage, Lula y su militancia no se rinden",
@@ -86,14 +97,26 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
-            "La fuga de Flávio Bolsonaro: visas de Trump, un avión en Iguazú y el sello de la",
-            "Regalo para el cumple de Lula",
-            "La estratega de 21 años que hackeó al bolsonarismo y blindó a Lula"
+            "Así huyó Flávio Bolsonaro: los detalles de una fuga con patente argentina",
+            "“Emergencia absoluta” y “gente volando por los pasillos”: los crudos relatos de ",
+            "Choque de trenes en España: hay al menos 68 muertos y decenas de heridos"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Bolsonaro llegó a Estados Unidos tras la ayuda de Milei para fugarse vía Puerto "
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Por la fuga de Flávio Bolsonaro, piden que Pablo Quirno dé explicaciones en el C"
           ]
         }
       }
@@ -101,22 +124,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 2,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 12,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Flávio Bolsonaro pasó por la Argentina en un vuelo privado rumbo a Estados Unido",
-            "Tragedia en España: al menos 46 muertos tras el choque de dos trenes",
-            "La industria cayó 3,4% interanual y acumula nueve meses en baja"
+            "Bullrich, sobre la elección en Brasil: “La gente decide en las urnas y su volunt"
           ]
         },
-        "otro país": {
-          "cantidad": 3,
+        "titular sin tema de política/economía": {
+          "cantidad": 17,
           "ejemplos": [
-            "El Gobierno cedió a las presiones de EE.UU. y modifica la Ley de Defensa de la S",
-            "La fuga de Bolsonaro agrega tensión al vínculo bilateral con el gobierno de Lula",
-            "La soja cae a mínimos de dos meses por las expectativas de mayores exportaciones"
+            "La Trova Coral celebrará los 80 años de Silvio Rodríguez en el Teatro Real",
+            "Detuvieron a un hombre y le secuestraron una pistola 9 milímetros y un pasamonta",
+            "Hallaron sin vida a Nancy Godoy"
           ]
         }
       }
@@ -128,20 +149,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 19,
           "ejemplos": [
-            "Con inestabilidad a cuestas, la primavera busca hacer pie en Córdoba",
-            "El ciclón Arnab tocó tierra en varios estados de India: hay casi 200 mil persona",
-            "Batacazo histórico: Fleetwood Town elimina al Arsenal en la Carabao Cup"
+            "El fútbol argentino modificará sus fechas por la visita del papa León XIV",
+            "SRT Media transmitirá los festivales de Jesús María y Cosquín 2027",
+            "El Mes del Diego: cultura y fiesta maradoneana en Córdoba"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "La interna de La Fiel y un video clave: los fundamentos por el crimen de Gabriel"
+            "Elecciones en Israel: Netanyahu queda primero, pero pierde la mayoría parlamenta"
           ]
         }
       }
