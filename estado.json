@@ -1,68 +1,58 @@
 {
-  "actualizado": "2026-10-28T20:26:53-03:00",
+  "actualizado": "2026-10-29T08:33:18-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 97,
           "ejemplos": [
-            "Salen a la luz los audios entre Adif y el maquinista del AVE antes del accidente",
-            "Acusan a policía de robar billetera con 9 mil soles a emprendedor",
-            "El expresidente de El Salvador Elías Antonio Saca queda en libertad tras cumplir"
+            "Tarta capuchina, la receta de tarta de yemas que nació en los conventos de las m",
+            "“Puede ser peor que la pandemia del COVID-19”: Experto en salud habla sobre el d",
+            "El Pentágono investiga como un posible ciberataque la falla de heladeras en base"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Se realizará una exposición en Rosario para mostrar los logros del modelo de seg",
-            "Grupo Octubre compró la productora Mandarina Contenidos y el canal de streaming "
+            "Causa Andis: el peritaje técnico determinó que los audios de Spagnuolo no son au"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Por la quita de subsidios, un hogar promedio ya paga más de $100.000 por mes de "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 7,
+      "leidas": 98,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 73,
+          "cantidad": 76,
           "ejemplos": [
-            "Miguel Ángel Roca, arquitecto argentino: la historia detrás de la casa icónica q",
-            "Llega una tormenta de tres días a Buenos Aires con posibilidad de granizo",
-            "Planta cebra: la suculenta de hojas rayadas que es fácil de cuidar e ideal para "
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Santiago Caputo fue identificado por un control policial tras el operativo de hu"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Senado: se demora el proyecto de inviolabilidad de la propiedad privada con el a",
-            "Conflicto: paro en un frigorífico que tiene una deuda bancaria de $46.000 millon",
-            "Banco Central: el oficialismo ratificó el proyecto del Senado y planea una sesió"
+            "Luciano Pereyra: de la emoción que le provoca cantar frente al Papa León XIV a s",
+            "Créditos hipotecarios: el Banco Nación agotó los fondos de la primera licitación",
+            "Miqueas y Tomás Thärigen, los “guardianes” del Barolo: de trabajar como cadete a"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 16,
           "ejemplos": [
-            "Don Pascual, de 82 años, recuperó casi 60 chivas extraviadas gracias a un dron: ",
             "Gerardo Bartolomé, de crear un gigante en el negocio de la soja a construir una ",
-            "Causa $LIBRA: la Justicia posterga una decisión clave que puede determinar el ci"
+            "Empresarios que compraron Mercedes-Benz en la Argentina se quedaron con 8652 hec",
+            "De cuánto es el bono de noviembre 2026 para jubilados y a quiénes les correspond"
           ]
         },
-        "otro país": {
-          "cantidad": 2,
+        "sin ancla argentina": {
+          "cantidad": 1,
           "ejemplos": [
-            "Un fiscal federal de Misiones pidió informes al Gobierno sobre el vuelo que tran",
-            "El Gobierno renovó toda la deuda que vence a fin de mes y sumó fondos a sus ahor"
+            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q"
           ]
         }
       }
@@ -99,21 +89,20 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Bolsonaro se autoproclamó “presidente electo” y luego se echó para atrás: ahora ",
-            "En cuestión de minutos, Flávio Bolsonaro pasó de ser “presidente electo de Brasi"
+            "Flávio Bolsonaro se autoproclamó “presidente electo” de Brasil"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "La victoria de Lula no fue solo obra de Janones",
-            "Israel y, una vez más, Netanyahu",
-            "Una joven argentina murió en el accidente ferroviario en España"
+            "El transporte al tope de las subas",
+            "Apareció el cuerpo de la docente correntina Nancy Godoy",
+            "Israel y, una vez más, Netanyahu"
           ]
         }
       }
@@ -121,28 +110,22 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 11,
           "ejemplos": [
-            "Un choque entre dos trenes en España dejó más de 60 muertos",
-            "Juzgan a seis guardiacárceles y a la esposa de Carmona por favorecer la fuga que",
-            "Flávio Bolsonaro se proclamó “líder de Brasil” y denunció fraude electoral"
+            "UEPC adhiere al paro nacional de 24 horas por el femicidio de Nancy Godoy",
+            "Vuelve el AutoVac y un vacunatorio itinerante recorrerá la ciudad",
+            "Una argentina entre las víctimas del choque de trenes en España"
           ]
         },
         "otro país": {
           "cantidad": 3,
           "ejemplos": [
+            "Diputados de todos los bloques exigen al Gobierno que explique su “complicidad” ",
             "El Gobierno admitió que coordinó con Trump el escape de Bolsonaro de Brasil",
-            "Filtraciones, cruces y un sismo institucional en el Poder Judicial provincial",
-            "“Las relaciones comerciales van a seguir”: el Gobierno ratificó el vínculo con B"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Murió el juez federal Alvin Hellerstein, a cargo del juicio a Maduro"
+            "Filtraciones, cruces y un sismo institucional en el Poder Judicial provincial"
           ]
         }
       }
@@ -154,14 +137,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 16,
           "ejemplos": [
-            "Irá a juicio por abusar de una mujer en un dispensario",
-            "Conmebol y la decisión tras el reclamo de Flamengo: quién jugará la final de la ",
-            "Escándalo en Rosario: condenaron a un barra de Newell's por amenazar a Di María"
+            "Uno por uno, los feriados que le quedan a 2026: hay tres en 10 días",
+            "¡Triunfazo! Platense avanzó a la final de la Copa Argentina",
+            "El tiempo: hay chance de lluvias en un cálido jueves en Córdoba"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Caso Gabriela Pérez: la fiscal cuestionó los fundamentos de la absolución del he"
           ]
         }
       }
@@ -181,7 +170,7 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
@@ -190,18 +179,17 @@
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "La Cúpula logró negocio histórico: única firma a cargo de la infraestructura int",
-            "Encuesta: ¿Qué esperan los argentinos de la visita del papa León XIV al país?"
+            "La Cúpula logró negocio histórico: única firma a cargo de la infraestructura int"
           ]
         },
         "muy vieja": {
-          "cantidad": 46,
+          "cantidad": 48,
           "ejemplos": [
-            "Ley de Discapacidad: cómo votaron los diputados cordobeses",
-            "Llaryora en la mesa de Juana Viale: \"Schiaretti hubiera sido un gran presidente ",
-            "El dólar en Córdoba: a cuánto cotiza este martes 6 de octubre"
+            "UNC: docentes de ADIUC lanzan paros en reclamo del cumplimiento de la ley de fin",
+            "Encuesta: ¿Qué esperan los argentinos de la visita del papa León XIV al país?",
+            "Ley de Discapacidad: cómo votaron los diputados cordobeses"
           ]
         }
       }
