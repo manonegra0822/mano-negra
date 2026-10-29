@@ -1,53 +1,46 @@
 {
-  "actualizado": "2026-10-29T13:43:03-03:00",
+  "actualizado": "2026-10-29T20:27:30-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 97,
           "ejemplos": [
-            "El gremio de abogados propuso crear una junta de gobierno que convoque a eleccio",
-            "Científicos descubren que un barniz de calcita preservó las pinturas prehistóric",
-            "Representante de transportistas rechaza un nuevo aumento de precio de pasajes: “"
+            "Cae en Matamoros Axel Alfredo, alias “El Titán”: operador del Cártel del Golfo y",
+            "Juicio por Loan: un testigo aseguró que firmó un acta sin ver el elemento secues",
+            "El conflicto entre Hernán Barcos y Pablo Guede siguió después del partido: lo qu"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 5,
+      "leidas": 92,
+      "aceptadas": 7,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 2,
+        "sección no permitida": {
+          "cantidad": 81,
           "ejemplos": [
-            "Nuevo presidente: Ignacio Garciarena quedó al frente de la Fundación Barbechando",
-            "El negocio de vender fuera de la ley mueve el 5% del PBI"
+            "La autopsia determinó que la docente Nancy Godoy fue asesinada a puñaladas",
+            "La anorexia y la bulimia crecieron un 71% en tres décadas, de acuerdo a un estud",
+            "Qué dijo Binance ante la alerta de seguridad que sufrió en su sistema: “Estamos "
           ]
         },
-        "sección no permitida": {
-          "cantidad": 79,
+        "sin ancla argentina": {
+          "cantidad": 1,
           "ejemplos": [
-            "Budín de acelga sin harina: la receta fácil y saludable que se prepara en pocos ",
-            "Guillermo Robino, especialista en trenes, advirtió por qué aumentan los accident",
-            "IA contra la violencia digital: nace alIAda, la plataforma que busca proteger y "
+            "Binance investiga un posible hackeo tras la salida de miles de millones de dólar"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "El CEO de YPF les anticipó a los inversores que se llevarán una “sorpresa” en 20",
-            "Empresarios que compraron Mercedes-Benz en la Argentina se quedaron con 8652 hec",
-            "La obra privada más grande en décadas empieza a transformar una región donde hab"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Ocho jóvenes van a Canadá por la gloria en una competencia internacional: “Vamos"
+            "La principal agrupación empresaria rechazó las agresiones a periodistas y pidió ",
+            "Informe oficial: ya se evacuaron 147.500 vacunos y búfalos de las zonas inundada",
+            "El Niño: en un mes aumentó un 53,4% la superficie con agua en Corrientes"
           ]
         }
       }
@@ -84,14 +77,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 6,
           "ejemplos": [
-            "Pablo Quirno admitió ser “cadete” de la Casa Blanca",
-            "El dedo y los mutilados del ultraliberalismo",
-            "Qué se sabe del crimen de Nancy Godoy: repaso cronológico de los sucesos y las h"
+            "El transporte al tope de las subas",
+            "La embajada en la Rural: La tarde en que Lamelas vistió de cowboys al elenco lib",
+            "Piden que la SIDE explique qué sabía de la huida de Bolsonaro"
           ]
         }
       }
@@ -99,20 +92,22 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 8,
           "ejemplos": [
-            "Un policía de Córdoba fue detenido por agredir a su pareja a disparos",
-            "Instituto pisa fuerte en las estadísticas de la Liga Nacional de Básquet",
-            "Francisco Apaolaza evocó su paso por Instituto y valoró el crecimiento de la Glo"
+            "Entregaron los dos papamóviles que usará León XIV en su visita a la Argentina",
+            "Desmienten la existencia de un peritaje de Gendarmería sobre los audios de la ca",
+            "Talleres prepara el viaje a Buenos Aires con la urgencia de escapar del fondo"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 4,
           "ejemplos": [
-            "Santilli defendió la salida de Flávio Bolsonaro: “No tenía impedimentos de Inter"
+            "La justicia federal ordenó al Gobierno que preserve las imágenes de la salida de",
+            "Corina Machado reclamó elecciones en Venezuela para 2027",
+            "La oposición negocia un nuevo Gobierno tras la pérdida de mayoría de Netanyahu"
           ]
         }
       }
@@ -124,14 +119,26 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 14,
           "ejemplos": [
-            "Córdoba marchó por Nancy Godoy: “No puede seguir habiendo femicidios”",
-            "Córdoba exigirá antecedentes penales anuales y narcotest a los empleados municip",
-            "Cuando el capitalismo financiero hizo estallar el mundo: 1929 y el espejismo del"
+            "La Facultad de Derecho de la UNC debatirá los límites de la regulación del fútbo",
+            "Epec informó siete cortes de luz para este viernes en Córdoba",
+            "Choque de trenes en España: hallaron el cuerpo del argentino que estaba desapare"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La Corte Suprema dejó firmes las condenas por la muerte del soldado Chirino"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Lula a Macri: “Recuerdo cuando las diferencias se solucionaban de manera civiliz"
           ]
         }
       }
@@ -142,7 +149,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
+      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
     },
     {
       "medio": "Cadena 3",
