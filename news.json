@@ -1,6 +1,34 @@
 {
-  "actualizado": "2026-10-29T08:33:18-03:00",
+  "actualizado": "2026-10-29T13:43:03-03:00",
   "notas": [
+    {
+      "id": "e69cac4bd5",
+      "seccion": "argentina",
+      "rel": 34.0,
+      "relevancia": 34.0,
+      "fecha": "2026-10-29T13:30:51-03:00",
+      "hora": "13:30",
+      "titulo": "Lula agradeció el reconocimiento de Macri, evitó mencionar a Milei y recordó los tiempos en que Argentina y Brasil dialogaban \"de manera civilizada\"",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/29/lula-agradecio-el-reconocimiento-de-macri-evito-mencionar-a-milei-y-recordo-los-tiempos-en-que-argentina-y-brasil-dialogaban-de-manera-civilizada/",
+      "acceso": "abierto",
+      "resumen": "El mandatario reelecto de Brasil respondió el saludo del líder del PRO tras el balotaje que tuvo lugar el fin de semana",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/BIMP2E4RVNFLTDAROQ7MWY6LUA.JPG?auth=96de0a889947bbcb6084b54a815a773fac2a85be595c5b5d64e33e5a9c4713c1&smart=true&width=5500&height=3987",
+      "imagen_credito": "Infobae",
+      "otros": [
+        {
+          "fuente": "Página/12",
+          "titulo": "Lula le agradeció a Macri y aprovechó para lanzarle un dardo a Milei",
+          "url": "https://www.pagina12.com.ar/2026/10/29/lula-le-agradecio-a-macri-y-aprovecho-para-lanzarle-un-dardo-a-milei/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.129,
+        "y1": 0.585
+      }
+    },
     {
       "id": "17f557751b",
       "seccion": "cordoba",
@@ -58,12 +86,31 @@
       }
     },
     {
+      "id": "95acc80ebc",
+      "seccion": "economia",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-29T13:30:00-03:00",
+      "hora": "13:30",
+      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este jueves 29 de octubre, minuto a minuto",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid29102026/",
+      "acceso": "suscripcion",
+      "resumen": "La divisa oficial opera a $1560 para la venta en el Banco Nación; el dólar blue cotiza a $1565 para esa operación; qué pasa con el MEP y el CCL",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/VU4KDTAO7ZGOXDP65RKJ7WUL4M.jpg?auth=f9284991cd1f14241d968a80a885a2c536841122127f93d433fa1547cd2e39a2&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "d2be5d591a",
       "seccion": "argentina",
       "rel": 22.0,
       "relevancia": 22.0,
-      "fecha": "2026-10-29T08:30:00-03:00",
-      "hora": "08:30",
+      "fecha": "2026-10-29T13:29:21-03:00",
+      "hora": "13:29",
       "titulo": "Javier Milei y sus medidas, en vivo: sesión en el Senado y el viaje de Karina Milei a Rosario",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-sesion-en-el-senado-y-el-viaje-de-karina-milei-a-rosario-nid29102026/",
@@ -77,6 +124,28 @@
       "rostros": {
         "y0": 0.045,
         "y1": 0.386
+      }
+    },
+    {
+      "id": "e0d5734854",
+      "seccion": "economia",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-29T13:25:44-03:00",
+      "hora": "13:25",
+      "titulo": "Las medidas que acordaron el FMI y la Argentina para reactivar la economía",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/el-fmi-y-la-argentina-acordaron-medidas-para-impulsar-la-inversion-el-empleo-y-la-acumulacion-de-reservas/",
+      "acceso": "abierto",
+      "resumen": "Tras completar la tercera revisión del programa económico, el organismo internacional instó al Gobierno a sostener el rumbo fiscal y monetario. Entre las medidas consensuadas figuran la ampliación del financiamiento privado, cambios en el mercado laboral, el impulso a obras de infraestructura y la ejecución de proyectos estratégicos.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-13.24.38-optimized.jpeg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.065,
+        "y1": 0.551
       }
     },
     {
@@ -99,6 +168,28 @@
       "rostros": {
         "y0": 0.001,
         "y1": 1.0
+      }
+    },
+    {
+      "id": "2bd2ed2b32",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-29T12:51:52-03:00",
+      "hora": "12:51",
+      "titulo": "El Gobierno limita los aumentos salariales y encontró aliados en tres gremios poderosos",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/el-gobierno-limita-los-aumentos-salariales-y-encontro-aliados-en-tres-gremios-poderosos-nid29102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Ministerio de Economía ordenó a la Secretaría de Trabajo no convalidar paritarias por encima del 2% mensual, pero habilita las sumas fijas no remunerativas",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/3RLQQHTUGZDRLDA5I7AVJLQKPM.jpg?auth=d347109e4a19c50e1b06e5db107e3901671ab15e3ae3f5ceb8828b0164575943&smart=true&width=3333&height=2222",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.082,
+        "y1": 0.455
       }
     },
     {
@@ -228,67 +319,23 @@
       }
     },
     {
-      "id": "6154e7d191",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-28T12:47:50-03:00",
-      "hora": "12:47",
-      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este miércoles 28 de octubre, minuto a minuto",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid28102026/",
-      "acceso": "suscripcion",
-      "resumen": "La divisa oficial opera a $1566 para la venta; el dólar blue cotiza a $1575 para esa operación; qué pasó con el MEP y el CCL",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RA4RMWSEYJE3DCEUC2TGKULYZ4.jpg?auth=2cf281f84ef3d2f743eb5286cceea8ba95acb8ce7a67d9dde60380cbfabe9d2e&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "536f187499",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-28T12:09:20-03:00",
-      "hora": "12:09",
-      "titulo": "La deuda global roza niveles de posguerra y supera la capacidad de pago de los gobiernos",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/la-deuda-global-roza-niveles-de-posguerra-y-supera-la-capacidad-de-pago-de-los-gobiernos/",
+      "id": "e17e3b7217",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-10-29T12:24:00-03:00",
+      "hora": "12:24",
+      "titulo": "Economía, tecnología y política: llega una nueva edición del Fórum PyME a Córdoba",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/economia--tecnologia-y-politica--llega-una-nueva-edicion-del-forum-pyme-a-cordoba_a6ae363c368357ce5aa44eef5",
       "acceso": "abierto",
-      "resumen": "El organismo multilateral advirtió que el encarecimiento del crédito global ahoga los presupuestos públicos y exigió correcciones fiscales inmediatas. Retrasar las medidas profundizará el costo para los países desarrollados y emergentes.",
+      "resumen": "El encuentro organizado por la Cámara Argentina de la Micro, Pequeña y Mediana Empresa se realizará en el Hotel Quinto Centenario. El ciclo prevé convocar a 1.900 empresarios.",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-12.08.18-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae3666068357ce5aa4525b1/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.439,
-        "y1": 0.661
-      }
-    },
-    {
-      "id": "1452ccf6cf",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-28T11:22:54-03:00",
-      "hora": "11:22",
-      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este miércoles 28 de octubre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/plazo-fijo-cual-es-la-tasa-de-interes-banco-por-banco-este-miercoles-28-de-octubre-nid28102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Banco Central de la República Argentina (BCRA) permite a los ahorristas conocer el rendimiento de estos instrumentos de inversión en pesos con una tabla comparativa de tasas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/3QTBZS3PKRF4BASCZXNJJ3KP6A.jpg?auth=d28ac9493f0b0b19e814fecce6850c518fb91d5f3dcb506740e0a06dfffedbae&smart=true&width=6240&height=4160",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.142,
-        "y1": 0.461
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "b5284e33e3",
@@ -411,22 +458,41 @@
       }
     },
     {
-      "id": "de2f461b1b",
-      "seccion": "argentina",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-10-28T13:24:53-03:00",
-      "hora": "13:24",
-      "titulo": "La Argentina volvió a votar en contra de condenar el embargo a Cuba en la asamblea de la ONU",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/la-argentina-volvio-a-votar-en-contra-de-levantar-el-embargo-a-cuba-en-la-asamblea-de-la-onu-nid28102026/",
+      "id": "03ec79c604",
+      "seccion": "economia",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-10-29T13:21:21-03:00",
+      "hora": "13:21",
+      "titulo": "El FMI pide impulsar el crecimiento pero su receta es profundizar el ajuste",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/29/el-fmi-pide-impulsar-el-crecimiento-pero-su-receta-es-profundizar-el-ajuste/",
       "acceso": "suscripcion",
-      "resumen": "La votación se resolvió 130-17 a favor de la iniciativa, con 25 abstenciones; Alemania, Italia y Letonia se abstuvieron por primera vez en 34 años",
+      "resumen": "La vocera del Fondo Monetario Internacional, Julie Kozack, dijo que acordaron con el Gobierno avanzar en cuatro medidas. El reconocimiento implícito del estancamiento de la economía.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/7ZJDBI246FBKDBJTWIEZXSEWOM.jpg?auth=1aad50b8ed7db970a4d565ee9b263daa6b45e930fa8fb2d13ac5c31b06108a1d&smart=true&width=1473&height=847",
-      "imagen_credito": "La Nación",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/6OSUYLZPIBCNZPHQFXAUKKF4RQ.jpg?auth=1ea5dbc60b028b3c4520dc902487673837bc5d7b7d350a4f61a3be51cdf1a9ae&smart=true&width=1897&height=1243",
+      "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "49df6f1d51",
+      "seccion": "cordoba",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-10-29T13:07:08-03:00",
+      "hora": "13:07",
+      "titulo": "Córdoba quedó quinta en el ranking de solidez fiscal de las provincias",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/cordoba-quedo-quinta-en-el-ranking-de-solidez-fiscal-de-las-provincias/",
+      "acceso": "abierto",
+      "resumen": "Un informe de Empiria Consultores evaluó las cuentas públicas del primer semestre de 2026 y destacó el equilibrio financiero provincial, aunque advirtió sobre el peso de la deuda.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
       "rostros": null
     },
     {
@@ -468,6 +534,25 @@
       "rostros": null
     },
     {
+      "id": "2e36feeb97",
+      "seccion": "cordoba",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-10-29T12:48:41-03:00",
+      "hora": "12:48",
+      "titulo": "Salsipuedes inauguró la nueva casa de gobierno municipal",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/salsipuedes-inauguro-la-nueva-casa-de-gobierno-municipal_a6ae3679868357ce5aa453d11",
+      "acceso": "abierto",
+      "resumen": "La puesta en valor del histórico ex Hotel SUPEH demandó más de 240 millones de pesos y fue concretada mediante el financiamiento y trabajo articulado con el Ente Metropolitano Córdoba. Permitirá centralizar la atención comunal.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae36a7f68357ce5aa457510/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "33fe5767fa",
       "seccion": "cordoba",
       "rel": 19.8,
@@ -484,31 +569,6 @@
       "imagen_credito": "Cba24n",
       "otros": [],
       "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "4af1c1fd2e",
-      "seccion": "argentina",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-10-29T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Las denuncias contra Milei por su responsabilidad en la fuga de Bolsonaro",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/29/las-denuncias-contra-milei-por-su-responsabilidad-en-la-fuga-de-bolsonaro/",
-      "acceso": "suscripcion",
-      "resumen": "Hay por lo menos tres denuncias contra Milei por la organización de la huida del excandidato presidencial de Brasil. También están señalados el canciller Pablo Quirno y la ministra Monteoliva, entre otros.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/267JO7T2FRDR5L5SMKMONS3N7A.jpg?auth=3a4fdca76cf0602e3814cca931ec9e16c287b220cd7f67764b679512f3d454cf&smart=true&width=1430&height=954",
-      "imagen_credito": "Página/12",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "En su primer discurso tras el balotaje en Brasil, Milei no habló sobre la fuga de Bolsonaro",
-          "url": "https://www.lanacion.com.ar/politica/en-su-primer-discurso-tras-el-balotaje-en-brasil-milei-no-hablo-sobre-la-fuga-de-bolsonaro-nid28102026/"
-        }
-      ],
-      "dia": 0,
       "rostros": null
     },
     {
@@ -597,6 +657,44 @@
       }
     },
     {
+      "id": "31b34dc7f1",
+      "seccion": "cordoba",
+      "rel": 17.8,
+      "relevancia": 17.8,
+      "fecha": "2026-10-29T12:41:09-03:00",
+      "hora": "12:41",
+      "titulo": "Millones en cheques rechazados: la fábrica de tractores Pauny enfrenta reclamos por deudas salariales y de aportes",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/campo/millones-en-cheques-rechazados-la-fabrica-de-tractores-pauny-enfrenta-reclamos-por-deudas-salariales-nid29102026/",
+      "acceso": "suscripcion",
+      "resumen": "En la planta de Las Varillas, Córdoba, que tiene 450 empleados, hay un conflicto con la UOM",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/BCEL3RJPMZBUPO6G3E34CKOLAQ.jpeg?auth=7caefa6cf876cfae1b790c77f1b66910c86a285d1a240fbd48928896ae9c6446&smart=true&width=993&height=662",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "4af1c1fd2e",
+      "seccion": "argentina",
+      "rel": 17.7,
+      "relevancia": 17.7,
+      "fecha": "2026-10-29T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Las denuncias contra Milei por su responsabilidad en la fuga de Bolsonaro",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/29/las-denuncias-contra-milei-por-su-responsabilidad-en-la-fuga-de-bolsonaro/",
+      "acceso": "suscripcion",
+      "resumen": "Hay por lo menos tres denuncias contra Milei por la organización de la huida del excandidato presidencial de Brasil. También están señalados el canciller Pablo Quirno y la ministra Monteoliva, entre otros.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/267JO7T2FRDR5L5SMKMONS3N7A.jpg?auth=3a4fdca76cf0602e3814cca931ec9e16c287b220cd7f67764b679512f3d454cf&smart=true&width=1430&height=954",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "283910e459",
       "seccion": "cordoba",
       "rel": 16.0,
@@ -622,25 +720,25 @@
       "rostros": null
     },
     {
-      "id": "f074743ed2",
-      "seccion": "economia",
-      "rel": 15.9,
-      "relevancia": 15.9,
-      "fecha": "2026-10-28T12:50:49-03:00",
-      "hora": "12:50",
-      "titulo": "Ironías, posteos enigmáticos y críticas a la prensa: los mensajes de Santiago Caputo durante el escape de Bolsonaro",
+      "id": "796e62b04f",
+      "seccion": "argentina",
+      "rel": 15.8,
+      "relevancia": 15.8,
+      "fecha": "2026-10-29T12:43:16-03:00",
+      "hora": "12:43",
+      "titulo": "Destituyeron al juez federal de Rosario Gastón Salmain por “mal desempeño” y ordenan su detención",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/ironias-posteos-enigmaticos-y-criticas-a-la-prensa-los-mensajes-de-santiago-caputo-durante-el-escape-nid28102026/",
+      "url": "https://www.lanacion.com.ar/politica/destituyeron-al-juez-federal-de-rosario-gaston-salmain-por-mal-desempeno-nid29102026/",
       "acceso": "suscripcion",
-      "resumen": "El asesor presidencial compartió la imagen de una película que muestra un truco de teletransportación; fuentes del oficialismo le asignaron un rol en el operativo",
+      "resumen": "El juzgado federal 4 de Rosario dispuso que se haga efectiva su detención domiciliaria en una causa en la que se lo investiga por presuntos sobornos; más temprano, el Consejo de la Magistratura lo había removido de su cargo que…",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/G6YU355SCZEMHKWK2CMKG5L6PU.JPG?auth=c0ea76d56508fa328dd5b0512e6ad1d824666cc3f05581eac7979be8c7d6130b&smart=true&width=2133&height=1600",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/UQ3ONBC33BDGJGUTEHA247L6ZA.jpeg?auth=209b01eb4707af079f769714e8654f633bb82c15e3782693c98419b00d683d1d&smart=true&width=1266&height=1018",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.108,
-        "y1": 0.544
+        "y0": 0.084,
+        "y1": 0.371
       }
     },
     {
@@ -751,107 +849,6 @@
         "y0": 0.148,
         "y1": 0.427
       }
-    },
-    {
-      "id": "0900272863",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": -478.1,
-      "fecha": "2026-10-28T07:44:20-03:00",
-      "hora": "07:44",
-      "titulo": "De comprar bancos a abrir oficinas: cómo las fintech argentinas buscan crecer en América Latina",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/de-comprar-bancos-a-abrir-oficinas-como-las-fintech-argentinas-buscan-crecer-en-america-latina-nid28102026/",
-      "acceso": "suscripcion",
-      "resumen": "Mientras Ualá y Pomelo avanzan con distintas estrategias de expansión regional, Takenos, una empresa argentina fundada en 2022 que consiguió financiamiento de fondos estadounidenses, dio un nuevo paso en Bolivia",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/5AWPWQL7SNCV5GC7FE4NB47NOE.jpg?auth=e696f6eb5d307e099385cb2910d4b462360163a241558519cbd68c3168408738&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "a91f92c5cc",
-      "seccion": "argentina",
-      "rel": 21.5,
-      "relevancia": -478.5,
-      "fecha": "2026-10-28T05:18:20-03:00",
-      "hora": "05:18",
-      "titulo": "El Gobierno de Milei, clave en la huida de Bolsonaro: partió en la madrugada de Puerto Iguazú escoltado por la policía",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/28/el-gobierno-de-milei-clave-en-la-huida-de-bolsonaro-partio-en-la-madrugada-de-puerto-iguazu-escoltado-por-la-policia/",
-      "acceso": "suscripcion",
-      "resumen": "La familia Bolsonaro entró al país a las 23:30 del martes y despegó a las 0:21 del miércoles. Trump dijo que había escuchado que el brasilero “estaba en Argentina” y que le daría la visa.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/FAXX72SLI5EERO6LNX7YZIDHEQ.jpg?auth=d0a0d7328a994804429b8dc9442d61df9129d41eb396a9258456b624b4831040&smart=true&width=1200&height=806",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.585,
-        "y1": 0.837
-      }
-    },
-    {
-      "id": "c500248d8a",
-      "seccion": "argentina",
-      "rel": 21.4,
-      "relevancia": -478.6,
-      "fecha": "2026-10-28T05:01:37-03:00",
-      "hora": "05:01",
-      "titulo": "Javier Milei llegó a Catamarca, donde recorrerá una mina de litio del RIGI con un aliado peronista",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-llego-a-catamarca-donde-recorrera-una-mina-de-litio-del-rigi-con-un-aliado-peronista-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "El Presidente fue recibido por el gobernador Jalil con quien viajará este miércoles el salar del Hombre Muerto, donde opera una firma de capitales ingleses y australianos",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/SBXLN3BSXZDNBIDNOFWRMDFOHM.jpg?auth=15ce2cc56c8c468559bcb2c4325dc2e238702b21f6c66c3a48dc85e3e3299951&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.045,
-        "y1": 0.386
-      }
-    },
-    {
-      "id": "3ca37fe2d6",
-      "seccion": "argentina",
-      "rel": 20.6,
-      "relevancia": -479.4,
-      "fecha": "2026-10-28T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "“Cristina tiene la vocación de representar a los argentinos”",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/28/cristina-tiene-la-vocacion-de-representar-a-los-argentinos/",
-      "acceso": "suscripcion",
-      "resumen": "A 16 años de la muerte de Néstor Kirchner, el diputado reivindicó el legado del expresidente y aseguró que CFK pretende volver a competir.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/52ZL3XKIEFECFBR2REAX7UPLKM.jpeg?auth=c3ac52db8568330f92a14807c3c8ee7dd10ee481c5bfe5ae865639f1557cae83&smart=true&width=1280&height=853",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "e9e931d1f3",
-      "seccion": "argentina",
-      "rel": 20.5,
-      "relevancia": -479.5,
-      "fecha": "2026-10-27T23:45:11-03:00",
-      "hora": "23:45",
-      "titulo": "Ley Malvinas: Santiago Caputo se refirió al dictamen en Diputados",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-continua-sin-pronunciarse-sobre-la-victoria-de-lula-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/5LOTKRXR35GMVDQG5YZODYJFKI.JPG?auth=aa8304663fd9d9678dfd9b7a46ae04788bf51e2b09221241ed9d919e5227e4e2&smart=true&width=1046&height=697",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 2,
-      "rostros": null
     }
   ],
   "opinion": []

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-29T08:33:18-03:00",
+  "actualizado": "2026-10-29T13:43:03-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,52 +7,47 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 99,
           "ejemplos": [
-            "Tarta capuchina, la receta de tarta de yemas que nació en los conventos de las m",
-            "“Puede ser peor que la pandemia del COVID-19”: Experto en salud habla sobre el d",
-            "El Pentágono investiga como un posible ciberataque la falla de heladeras en base"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Causa Andis: el peritaje técnico determinó que los audios de Spagnuolo no son au"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Por la quita de subsidios, un hogar promedio ya paga más de $100.000 por mes de "
+            "El gremio de abogados propuso crear una junta de gobierno que convoque a eleccio",
+            "Científicos descubren que un barniz de calcita preservó las pinturas prehistóric",
+            "Representante de transportistas rechaza un nuevo aumento de precio de pasajes: “"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 98,
+      "leidas": 90,
       "aceptadas": 5,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 76,
+        "sin ancla argentina": {
+          "cantidad": 2,
           "ejemplos": [
-            "Luciano Pereyra: de la emoción que le provoca cantar frente al Papa León XIV a s",
-            "Créditos hipotecarios: el Banco Nación agotó los fondos de la primera licitación",
-            "Miqueas y Tomás Thärigen, los “guardianes” del Barolo: de trabajar como cadete a"
+            "Nuevo presidente: Ignacio Garciarena quedó al frente de la Fundación Barbechando",
+            "El negocio de vender fuera de la ley mueve el 5% del PBI"
+          ]
+        },
+        "sección no permitida": {
+          "cantidad": 79,
+          "ejemplos": [
+            "Budín de acelga sin harina: la receta fácil y saludable que se prepara en pocos ",
+            "Guillermo Robino, especialista en trenes, advirtió por qué aumentan los accident",
+            "IA contra la violencia digital: nace alIAda, la plataforma que busca proteger y "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 3,
           "ejemplos": [
-            "Gerardo Bartolomé, de crear un gigante en el negocio de la soja a construir una ",
+            "El CEO de YPF les anticipó a los inversores que se llevarán una “sorpresa” en 20",
             "Empresarios que compraron Mercedes-Benz en la Argentina se quedaron con 8652 hec",
-            "De cuánto es el bono de noviembre 2026 para jubilados y a quiénes les correspond"
+            "La obra privada más grande en décadas empieza a transformar una región donde hab"
           ]
         },
-        "sin ancla argentina": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q"
+            "Ocho jóvenes van a Canadá por la gloria en una competencia internacional: “Vamos"
           ]
         }
       }
@@ -89,20 +84,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Flávio Bolsonaro se autoproclamó “presidente electo” de Brasil"
-          ]
-        },
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "El transporte al tope de las subas",
-            "Apareció el cuerpo de la docente correntina Nancy Godoy",
-            "Israel y, una vez más, Netanyahu"
+            "Pablo Quirno admitió ser “cadete” de la Casa Blanca",
+            "El dedo y los mutilados del ultraliberalismo",
+            "Qué se sabe del crimen de Nancy Godoy: repaso cronológico de los sucesos y las h"
           ]
         }
       }
@@ -110,22 +99,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 17,
           "ejemplos": [
-            "UEPC adhiere al paro nacional de 24 horas por el femicidio de Nancy Godoy",
-            "Vuelve el AutoVac y un vacunatorio itinerante recorrerá la ciudad",
-            "Una argentina entre las víctimas del choque de trenes en España"
+            "Un policía de Córdoba fue detenido por agredir a su pareja a disparos",
+            "Instituto pisa fuerte en las estadísticas de la Liga Nacional de Básquet",
+            "Francisco Apaolaza evocó su paso por Instituto y valoró el crecimiento de la Glo"
           ]
         },
         "otro país": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "Diputados de todos los bloques exigen al Gobierno que explique su “complicidad” ",
-            "El Gobierno admitió que coordinó con Trump el escape de Bolsonaro de Brasil",
-            "Filtraciones, cruces y un sismo institucional en el Poder Judicial provincial"
+            "Santilli defendió la salida de Flávio Bolsonaro: “No tenía impedimentos de Inter"
           ]
         }
       }
@@ -137,20 +124,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 18,
           "ejemplos": [
-            "Uno por uno, los feriados que le quedan a 2026: hay tres en 10 días",
-            "¡Triunfazo! Platense avanzó a la final de la Copa Argentina",
-            "El tiempo: hay chance de lluvias en un cálido jueves en Córdoba"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Caso Gabriela Pérez: la fiscal cuestionó los fundamentos de la absolución del he"
+            "Córdoba marchó por Nancy Godoy: “No puede seguir habiendo femicidios”",
+            "Córdoba exigirá antecedentes penales anuales y narcotest a los empleados municip",
+            "Cuando el capitalismo financiero hizo estallar el mundo: 1929 y el espejismo del"
           ]
         }
       }
@@ -172,24 +153,12 @@
       "leidas": 50,
       "aceptadas": 0,
       "descartadas": {
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La Cúpula logró negocio histórico: única firma a cargo de la infraestructura int"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 48,
+          "cantidad": 50,
           "ejemplos": [
-            "UNC: docentes de ADIUC lanzan paros en reclamo del cumplimiento de la ley de fin",
-            "Encuesta: ¿Qué esperan los argentinos de la visita del papa León XIV al país?",
-            "Ley de Discapacidad: cómo votaron los diputados cordobeses"
+            "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
+            "La Cúpula logró negocio histórico: única firma a cargo de la infraestructura int",
+            "UNC: docentes de ADIUC lanzan paros en reclamo del cumplimiento de la ley de fin"
           ]
         }
       }
