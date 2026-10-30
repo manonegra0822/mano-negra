@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-30T08:28:55-03:00",
+  "actualizado": "2026-10-30T13:39:13-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,41 +7,60 @@
       "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 95,
           "ejemplos": [
-            "Fiscalía de Veracruz busca a cinco hombres por violencia contra mujeres: ofrece ",
-            "Abogado de Maribel Guardia no descarta que surjan otros hijos de Julián Figueroa",
-            "Óscar Puente asegura que el sistema de seguridad LZB falló el año pasado en 170 "
+            "Gobierno de México celebra Día de Muertos, cancela conferencia mañanera por 2 de",
+            "Perú vuelve a Matute después de 2 años: enfrentará a Bolivia en amistoso interna",
+            "Era estadounidense la niña de siete años que murió en operativo contra sobrino d"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Condenaron a 3 años de prisión a los responsables de intimidar a una empresaria "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La venta de Supermercados DIA entra en la recta final: quién es el principal can"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 6,
+      "leidas": 91,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 85,
+          "cantidad": 73,
           "ejemplos": [
-            "A qué hora llegan las tormentas fuertes a Buenos Aires hoy, según el SMN",
-            "Quién ganó las elecciones de Israel 2026: números parejos mientras Netanyahu pid",
-            "“Súper Niño”: un especialista en Ciencias Ambientales explicó qué impacto tendrá"
+            "Cumpleaños Maradona: los mensajes y memes para saludar a Diego en su día",
+            "La Ciudad pondrá a prueba un cambio en una de sus principales autopistas: qué ve",
+            "Robar para el Amado Líder: cuál es el rastro cripto que va del hackeo de Binance"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 3,
           "ejemplos": [
-            "Binance investiga un posible hackeo tras la salida de miles de millones de dólar",
-            "El Gobierno oficializó los nuevos aumentos en las tarifas de luz y gas a partir ",
-            "Con cambios, el Senado aprobó y giró a Diputados la reforma a la ley de salud me"
+            "Inversiones: el Senado aprobó beneficios para la retención de terneras y la pesc",
+            "Dólares del “colchón”: el Gobierno prorrogó por sexta vez la presentación de la ",
+            "El Gobierno confirmó que aumentará los subsidios a los colectivos para evitar su"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 5,
           "ejemplos": [
-            "Informe oficial: ya se evacuaron 147.500 vacunos y búfalos de las zonas inundada",
-            "La desesperación de un productor que perdió casi todas sus ovejas por un ataque "
+            "Grupo Syngenta: cayeron un 5% las ventas globales y la empresa advirtió sobre di",
+            "Cuándo es el Cyber Monday en Argentina 2026",
+            "Arrancó Labitconf 2026 en BA Ferial, impactada por el robo a Binance"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Sturzenegger contó que el Gobierno usa IA para analizar leyes y modificarlas"
           ]
         }
       }
@@ -52,25 +71,19 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "Un paisaje que se derrama: notas sobre la muestra “Argentina” de Mondongo",
-            "Solamente muero los 21 y los 1° ya me siento bien",
-            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes"
+            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
+            "¿Qué puede hacer la escuela con las deepfakes sexuales?",
+            "China de la A a la Z"
           ]
         },
         "muy vieja": {
-          "cantidad": 6,
+          "cantidad": 5,
           "ejemplos": [
-            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre",
-            "De cara al ballotage, Lula y su militancia no se rinden",
-            "Azul Semeñenko: fue transfemicidio, histórica decisión de un jurado popular en N"
+            "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes",
+            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina",
+            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre"
           ]
         }
       }
@@ -80,59 +93,91 @@
       "leidas": 6,
       "aceptadas": 1,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "La justicia ordenó preservar las imágenes de la salida de Bolsonaro de la Argent",
+            "Sturzenegger deja las decisiones de su ministerio en manos de la inteligencia ar",
+            "Morir de diez días"
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "Milei llevó la relación con Brasil a un clima de “guerra fría”"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "La justicia ordenó preservar las imágenes de la salida de Bolsonaro de la Argent",
-            "La maestra que avisó y nadie escuchó",
-            "La embajada en la Rural: La tarde en que Lamelas vistió de cowboys al elenco lib"
-          ]
-        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "El bolsonarismo culpa a ChatGPT por la carta en la que Flávio se autoproclamó “p"
+            "Las claves de la campaña digital de Lula contadas por sus propios estrategas"
           ]
         }
       }
     },
     {
       "medio": "Hoy Día Córdoba",
-      "error": "no se pudo leer el feed (The read operation timed out)"
-    },
-    {
-      "medio": "Comercio y Justicia",
-      "error": "no se pudo leer el feed (mismatched tag: line 46, column 2)"
-    },
-    {
-      "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 15,
           "ejemplos": [
-            "Superclásico millonario: cuánto valen los planteles de Boca y River y quiénes so",
-            "Alerta: el Chery Tiggo 2 sacó cero estrellas en seguridad",
-            "¡Feliz Navidad! El mundo celebra el cumpleaños 66 de Diego Maradona"
+            "Llega al país un lavasecarropas inteligente con capacidad para 14 kilos",
+            "Videos largos, series por episodios y una app para TV: los nuevos formatos que l",
+            "Redmi Note 17: nueva línea de celulares con batería para hasta tres días de uso"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Piden interpelar a Diego Santilli por el escape de Flávio Bolsonaro"
+            "El papa León XIV ejerció su derecho al voto en Estados Unidos por correo electró"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "Comercio y Justicia",
+      "leidas": 80,
+      "aceptadas": 30,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 29,
+          "ejemplos": [
+            "El TSJ actualizó el valor de las cédulas de notificación para ujieres en Córdoba",
+            "Coheredera que padece obesidad mórbida podrá intervenir virtualmente en una audi",
+            "Aseguradora no rechazó el siniestro a tiempo y debe cubrir destrucción de un veh"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+        "otro país": {
+          "cantidad": 5,
           "ejemplos": [
-            "La Corte Suprema dejó firmes las condenas por la muerte del soldado Chirino"
+            "El Papa León XIV votó por correo en las elecciones de EE UU desde el Vaticano",
+            "Exportar a Estados Unidos: las claves comerciales y regulatorias para las pymes",
+            "Bausili dijo que “no proyecta una corrida” para 2027 y defendió la gestión del o"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 16,
+          "ejemplos": [
+            "Paro nacional universitario: gremios docentes y no docentes paralizan las casas ",
+            "Tragedia en España: 68 muertos por choque de trenes",
+            "Arajet lanzó descuentos de hasta 50% en vuelos internacionales"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "Cba24n",
+      "leidas": 20,
+      "aceptadas": 4,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 16,
+          "ejemplos": [
+            "El homenaje de Boca a Diego Maradona: “Eterno en nuestros corazones”",
+            "Diego Maradona cumple 66 años: los emotivos saludos de los clubes",
+            "Hablo de mi madre | último capítulo: César Barraco y Nelva Manera"
           ]
         }
       }
