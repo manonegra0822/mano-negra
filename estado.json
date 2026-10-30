@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-30T13:39:13-03:00",
+  "actualizado": "2026-10-30T20:26:42-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,23 +7,17 @@
       "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 96,
           "ejemplos": [
-            "Gobierno de México celebra Día de Muertos, cancela conferencia mañanera por 2 de",
-            "Perú vuelve a Matute después de 2 años: enfrentará a Bolivia en amistoso interna",
-            "Era estadounidense la niña de siete años que murió en operativo contra sobrino d"
+            "Cómo le fue a Checo Pérez en la Práctica 2 del Gran Premio de México",
+            "Tras no correr la primera práctica, Franco Colapinto finalizó 16° en el segundo ",
+            "Estos son los resultados del Progol de Media Semana del viernes 30 de octubre"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Condenaron a 3 años de prisión a los responsables de intimidar a una empresaria "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La venta de Supermercados DIA entra en la recta final: quién es el principal can"
+            "Macro Private Bank es la nueva propuesta de banca privada para clientes premium "
           ]
         }
       }
@@ -31,36 +25,36 @@
     {
       "medio": "La Nación",
       "leidas": 91,
-      "aceptadas": 9,
+      "aceptadas": 13,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 73,
+          "cantidad": 69,
           "ejemplos": [
-            "Cumpleaños Maradona: los mensajes y memes para saludar a Diego en su día",
-            "La Ciudad pondrá a prueba un cambio en una de sus principales autopistas: qué ve",
-            "Robar para el Amado Líder: cuál es el rastro cripto que va del hackeo de Binance"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Inversiones: el Senado aprobó beneficios para la retención de terneras y la pesc",
-            "Dólares del “colchón”: el Gobierno prorrogó por sexta vez la presentación de la ",
-            "El Gobierno confirmó que aumentará los subsidios a los colectivos para evitar su"
+            "Fani García, especialista en digestión: “Es más importante el cómo comemos que e",
+            "Un “coyote” atrapado en la frontera: la CBP lo descubrió en Texas con decenas de",
+            "Hay alerta amarilla por tormentas para la noche de este viernes 30 de octubre: l"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 5,
           "ejemplos": [
-            "Grupo Syngenta: cayeron un 5% las ventas globales y la empresa advirtió sobre di",
-            "Cuándo es el Cyber Monday en Argentina 2026",
-            "Arrancó Labitconf 2026 en BA Ferial, impactada por el robo a Binance"
+            "Renunció el subsecretario de Ciencia y Tecnología con una carta explosiva contra",
+            "Julio De Vido cambia de abogado y ahora tendrá defensor oficial",
+            "Una violenta tormenta con granizo sorprendió en una región golpeada por otro fen"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El Banco Central compró US$1395 millones en octubre, el mayor monto de los últim",
+            "El Banco Central descartó inyectar liquidez adicional en el sistema para incenti",
+            "Por qué sube el riesgo país"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Sturzenegger contó que el Gobierno usa IA para analizar leyes y modificarlas"
+            "“Basta de inversiones”: un frigorífico no renovó 80 contratados, su gerente lo l"
           ]
         }
       }
@@ -94,23 +88,11 @@
       "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "La justicia ordenó preservar las imágenes de la salida de Bolsonaro de la Argent",
-            "Sturzenegger deja las decisiones de su ministerio en manos de la inteligencia ar",
-            "Morir de diez días"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Milei llevó la relación con Brasil a un clima de “guerra fría”"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Las claves de la campaña digital de Lula contadas por sus propios estrategas"
+            "El costo humano y material del desastre vial",
+            "Brasil citó a la encargada de negocios en Argentina para que explique la huida d",
+            "La demanda de divisas sigue elevada"
           ]
         }
       }
@@ -118,20 +100,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 17,
           "ejemplos": [
-            "Llega al país un lavasecarropas inteligente con capacidad para 14 kilos",
-            "Videos largos, series por episodios y una app para TV: los nuevos formatos que l",
-            "Redmi Note 17: nueva línea de celulares con batería para hasta tres días de uso"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El papa León XIV ejerció su derecho al voto en Estados Unidos por correo electró"
+            "Colapinto terminó décimosexto en la segunda práctica libre del GP de México",
+            "Visita del Papa León XIV: transporte y cómo llegar desde el interior y otras pro",
+            "Tito Dómina sobre su nuevo libro: “Le pongo voz al personaje”"
           ]
         }
       }
@@ -142,11 +118,11 @@
       "aceptadas": 30,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 29,
+          "cantidad": 26,
           "ejemplos": [
+            "Declaran emergencia y desastre agropecuario para productores hortícolas afectado",
             "El TSJ actualizó el valor de las cédulas de notificación para ujieres en Córdoba",
-            "Coheredera que padece obesidad mórbida podrá intervenir virtualmente en una audi",
-            "Aseguradora no rechazó el siniestro a tiempo y debe cubrir destrucción de un veh"
+            "Coheredera que padece obesidad mórbida podrá intervenir virtualmente en una audi"
           ]
         },
         "otro país": {
@@ -158,11 +134,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 16,
+          "cantidad": 19,
           "ejemplos": [
-            "Paro nacional universitario: gremios docentes y no docentes paralizan las casas ",
-            "Tragedia en España: 68 muertos por choque de trenes",
-            "Arajet lanzó descuentos de hasta 50% en vuelos internacionales"
+            "El Nación y otras entidades comienzan a recibir e-oficios",
+            "La Ciudad Autónoma de Buenos Aires celebró la recuperación de 1.000 propiedades ",
+            "Nuevos montos de Anses: de cuánto serán la jubilación mínima, la máxima y la PUA"
           ]
         }
       }
@@ -170,14 +146,21 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 16,
           "ejemplos": [
-            "El homenaje de Boca a Diego Maradona: “Eterno en nuestros corazones”",
-            "Diego Maradona cumple 66 años: los emotivos saludos de los clubes",
-            "Hablo de mi madre | último capítulo: César Barraco y Nelva Manera"
+            "Una nueva Suzuki de 250 cc llegó al mercado argentino: qué ofrece y cuánto sale",
+            "Cortes de luz en Córdoba para este sábado: zonas afectadas por mantenimiento, po",
+            "En Ruta Viajes: elevan a juicio la causa contra la agencia que estafó a decenas "
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Rafael Grossi sigue en carrera para ser el secretario general de la ONU",
+            "El papa León XIV votó en las elecciones legislativas de Estados Unidos"
           ]
         }
       }
