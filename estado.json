@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-29T20:27:30-03:00",
+  "actualizado": "2026-10-30T08:28:55-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,38 +9,39 @@
         "sección no permitida": {
           "cantidad": 97,
           "ejemplos": [
-            "Cae en Matamoros Axel Alfredo, alias “El Titán”: operador del Cártel del Golfo y",
-            "Juicio por Loan: un testigo aseguró que firmó un acta sin ver el elemento secues",
-            "El conflicto entre Hernán Barcos y Pablo Guede siguió después del partido: lo qu"
+            "Fiscalía de Veracruz busca a cinco hombres por violencia contra mujeres: ofrece ",
+            "Abogado de Maribel Guardia no descarta que surjan otros hijos de Julián Figueroa",
+            "Óscar Puente asegura que el sistema de seguridad LZB falló el año pasado en 170 "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 7,
+      "leidas": 96,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 81,
+          "cantidad": 85,
           "ejemplos": [
-            "La autopsia determinó que la docente Nancy Godoy fue asesinada a puñaladas",
-            "La anorexia y la bulimia crecieron un 71% en tres décadas, de acuerdo a un estud",
-            "Qué dijo Binance ante la alerta de seguridad que sufrió en su sistema: “Estamos "
+            "A qué hora llegan las tormentas fuertes a Buenos Aires hoy, según el SMN",
+            "Quién ganó las elecciones de Israel 2026: números parejos mientras Netanyahu pid",
+            "“Súper Niño”: un especialista en Ciencias Ambientales explicó qué impacto tendrá"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Binance investiga un posible hackeo tras la salida de miles de millones de dólar"
+            "Binance investiga un posible hackeo tras la salida de miles de millones de dólar",
+            "El Gobierno oficializó los nuevos aumentos en las tarifas de luz y gas a partir ",
+            "Con cambios, el Senado aprobó y giró a Diputados la reforma a la ley de salud me"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "La principal agrupación empresaria rechazó las agresiones a periodistas y pidió ",
             "Informe oficial: ya se evacuaron 147.500 vacunos y búfalos de las zonas inundada",
-            "El Niño: en un mes aumentó un 53,4% la superficie con agua en Corrientes"
+            "La desesperación de un productor que perdió casi todas sus ovejas por un ataque "
           ]
         }
       }
@@ -77,40 +78,33 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 6,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "El transporte al tope de las subas",
-            "La embajada en la Rural: La tarde en que Lamelas vistió de cowboys al elenco lib",
-            "Piden que la SIDE explique qué sabía de la huida de Bolsonaro"
+            "Milei llevó la relación con Brasil a un clima de “guerra fría”"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "La justicia ordenó preservar las imágenes de la salida de Bolsonaro de la Argent",
+            "La maestra que avisó y nadie escuchó",
+            "La embajada en la Rural: La tarde en que Lamelas vistió de cowboys al elenco lib"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El bolsonarismo culpa a ChatGPT por la carta en la que Flávio se autoproclamó “p"
           ]
         }
       }
     },
     {
       "medio": "Hoy Día Córdoba",
-      "leidas": 20,
-      "aceptadas": 8,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 8,
-          "ejemplos": [
-            "Entregaron los dos papamóviles que usará León XIV en su visita a la Argentina",
-            "Desmienten la existencia de un peritaje de Gendarmería sobre los audios de la ca",
-            "Talleres prepara el viaje a Buenos Aires con la urgencia de escapar del fondo"
-          ]
-        },
-        "otro país": {
-          "cantidad": 4,
-          "ejemplos": [
-            "La justicia federal ordenó al Gobierno que preserve las imágenes de la salida de",
-            "Corina Machado reclamó elecciones en Venezuela para 2027",
-            "La oposición negocia un nuevo Gobierno tras la pérdida de mayoría de Netanyahu"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (The read operation timed out)"
     },
     {
       "medio": "Comercio y Justicia",
@@ -119,26 +113,26 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 17,
           "ejemplos": [
-            "La Facultad de Derecho de la UNC debatirá los límites de la regulación del fútbo",
-            "Epec informó siete cortes de luz para este viernes en Córdoba",
-            "Choque de trenes en España: hallaron el cuerpo del argentino que estaba desapare"
+            "Superclásico millonario: cuánto valen los planteles de Boca y River y quiénes so",
+            "Alerta: el Chery Tiggo 2 sacó cero estrellas en seguridad",
+            "¡Feliz Navidad! El mundo celebra el cumpleaños 66 de Diego Maradona"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Piden interpelar a Diego Santilli por el escape de Flávio Bolsonaro"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "La Corte Suprema dejó firmes las condenas por la muerte del soldado Chirino"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Lula a Macri: “Recuerdo cuando las diferencias se solucionaban de manera civiliz"
           ]
         }
       }
@@ -149,7 +143,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
     },
     {
       "medio": "Cadena 3",

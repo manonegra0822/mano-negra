@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-29T20:27:30-03:00",
+  "actualizado": "2026-10-30T08:28:55-03:00",
   "notas": [
     {
       "id": "e69cac4bd5",
@@ -23,32 +23,79 @@
           "url": "https://www.pagina12.com.ar/2026/10/29/lula-le-agradecio-a-macri-y-aprovecho-para-lanzarle-un-dardo-a-milei/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.129,
         "y1": 0.585
       }
     },
     {
-      "id": "d2be5d591a",
+      "id": "1b52be5f56",
+      "seccion": "argentina",
+      "rel": 33.2,
+      "relevancia": 33.2,
+      "fecha": "2026-10-30T07:49:47-03:00",
+      "hora": "07:49",
+      "titulo": "“No se ha avanzado nada”: Mauricio Macri aseguró que el acuerdo electoral entre el PRO y LLA está estancado",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/30/no-se-ha-avanzado-nada-mauricio-macri-aseguro-que-el-acuerdo-electoral-entre-el-pro-y-lla-esta-estancado/",
+      "acceso": "abierto",
+      "resumen": "El expresidente participó del evento solidario anual de Hacemos!, organizado por la exgobernadora bonaerense María Eugenia Vidal",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/XV22BZCDWND5ROTFVMH7LCDWUA.jpg?auth=67a011cbf37a12865f7b99e7c6d730265d843d81ccdfbf6552cf8ef819f40a74&smart=true&width=1920&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Mauricio Macri dijo que “no se ha avanzado nada” en el acuerdo electoral con La Libertad Avanza para 2027",
+          "url": "https://www.lanacion.com.ar/politica/mauricio-macri-dijo-que-no-se-ha-avanzado-nada-en-el-acuerdo-electoral-con-la-libertad-avanza-para-nid29102026/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.136,
+        "y1": 0.808
+      }
+    },
+    {
+      "id": "48af685081",
       "seccion": "argentina",
       "rel": 22.0,
       "relevancia": 22.0,
-      "fecha": "2026-10-29T20:15:00-03:00",
-      "hora": "20:15",
-      "titulo": "Javier Milei y sus medidas, en vivo: sesión en el Senado y el viaje de Karina Milei a Rosario",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-sesion-en-el-senado-y-el-viaje-de-karina-milei-a-rosario-nid29102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "fecha": "2026-10-30T08:21:57-03:00",
+      "hora": "08:21",
+      "titulo": "Kicillof sigue con recorridas en clave electoral: desembarca en Jujuy y prepara su viaje a Santa Fe",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/30/kicillof-sigue-con-recorridas-en-clave-electoral-desembarca-en-jujuy-y-prepara-su-viaje-a-santa-fe/",
+      "acceso": "abierto",
+      "resumen": "El mandatario bonaerense estará durante todo el viernes en el norte. Encuentro con el gobernador Carlos Sadir y acto central con un sector del peronismo. El desafío ante el PJ santafesino",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/SBXLN3BSXZDNBIDNOFWRMDFOHM.jpg?auth=15ce2cc56c8c468559bcb2c4325dc2e238702b21f6c66c3a48dc85e3e3299951&smart=true&width=2000&height=1333",
+      "imagen": "https://www.infobae.com/resizer/v2/VPW7NA7EWVEBBO2IKZIEABEFZQ.jpg?auth=152531edbdcf69686cdd03c37da39e5d6ca68de257eafdfad663709ff535d00b&smart=true&width=1920&height=1279",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "c52b70b4db",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-10-30T08:20:00-03:00",
+      "hora": "08:20",
+      "titulo": "Javier Milei y sus medidas, en vivo: Bullrich celebró la aprobación del RIIR en el Senado y dijo que atraerá “oportunidades de invertir y crecer”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-bullrich-celebro-la-aprobacion-del-riir-en-el-senado-nid30102026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/HT3GB3DECVDWTBYCX4J5KBPZOU.jpg?auth=36f66431ba5ee308a0c27610872feefe8c9131a851ea29f0b77ecdc6b5832a22&smart=true&width=2000&height=1338",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.045,
-        "y1": 0.386
+        "y0": 0.164,
+        "y1": 0.603
       }
     },
     {
@@ -67,29 +114,29 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/VU4KDTAO7ZGOXDP65RKJ7WUL4M.jpg?auth=f9284991cd1f14241d968a80a885a2c536841122127f93d433fa1547cd2e39a2&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "851101b3ec",
+      "id": "a6629663a9",
       "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-29T08:22:53-03:00",
-      "hora": "08:22",
-      "titulo": "El PJ Federal hace pie en La Patagonia y empuja a tres precandidatos a gobernador",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-10-30T07:46:36-03:00",
+      "hora": "07:46",
+      "titulo": "Reelecciones, PASO bonaerenses y construcción propia: qué dejó la reunión de Kicillof con sus intendentes",
       "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/29/el-pj-federal-hace-pie-en-la-patagonia-y-empuja-a-tres-precandidatos-a-gobernador/",
+      "url": "https://www.infobae.com/politica/2026/10/30/reelecciones-paso-bonaerenses-y-construccion-propia-que-dejo-la-reunion-de-kicillof-con-sus-intendentes/",
       "acceso": "abierto",
-      "resumen": "El esquema que contiene a legisladores, intendentes y dirigentes del interior trabaja en la instalación de Pablo Grasso, Juan Pablo Luque y Martín Pérez para pelear por el poder en el 2027 en Santa Cruz, Chubut y Tierra del Fuego, respectivamente",
+      "resumen": "El gobernador convocó a sus dirigentes más cercanos durante casi tres horas en La Plata para trazar un escenario y los pasos a seguir en la discusión interna del peronismo y destacar el crecimiento del MDF",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/N7KKQECBY5FQVBF56EP6OWLA6Q.jpg?auth=7f5be46e982f769f23da7de1ed4b1a432a73e0feb30b561c336dd3daa4470c8d&smart=true&width=1920&height=1080",
+      "imagen": "https://www.infobae.com/resizer/v2/D7JSGW6GNNAJXHS5NRHGOLKUWE.png?auth=038b63b25465e6a8539a30ccc791ee54940a05fb014a056d899313520698fcc7&smart=true&width=1920&height=1278",
       "imagen_credito": "Infobae",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.001,
-        "y1": 1.0
+        "y0": 0.179,
+        "y1": 0.619
       }
     },
     {
@@ -108,7 +155,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2024/09/1719408907240626003-1-1024x734-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.064,
         "y1": 0.898
@@ -130,7 +177,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/MKJTZXBEY5G2HDQPF2E7TMHRLQ.JPG?auth=59970cd711aa37011f29e4e199f72c32b5fb00f188705c1d55147360e803ee67&smart=true&width=5873&height=3915",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -149,7 +196,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/Alerta-en-Cordoba-Pauny-suspendio-a-450-trabajadores-y-acumula-deudas-millonarias-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -174,7 +221,7 @@
           "url": "https://hoydia.com.ar/politica/nacional/el-senado-debate-la-reforma-de-la-ley-de-salud-mental-y-otros-dos-proyectos/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -193,73 +240,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/3RLQQHTUGZDRLDA5I7AVJLQKPM.jpg?auth=d347109e4a19c50e1b06e5db107e3901671ab15e3ae3f5ceb8828b0164575943&smart=true&width=3333&height=2222",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.082,
         "y1": 0.455
-      }
-    },
-    {
-      "id": "0549849043",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-29T07:47:46-03:00",
-      "hora": "07:47",
-      "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
-      "acceso": "suscripcion",
-      "resumen": "Para la actualización de haberes se toma el último índice de inflación que publicó el Indec; cuáles son las cifras para el penúltimo mes del año",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IZ6PB2Z7JVGAJAUJDMPKNUSKFQ.png?auth=41b276bf11862c94f065dee7b54c8b2392e447bb5796afc723c11dfece75c598&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.549,
-        "y1": 0.976
-      }
-    },
-    {
-      "id": "76dda18ad9",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-29T07:44:06-03:00",
-      "hora": "07:44",
-      "titulo": "Qué día de noviembre no habrá bancos por el Día del Bancario en la Argentina 2026",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/que-dia-de-noviembre-no-habra-bancos-por-el-dia-del-bancario-en-la-argentina-2026-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "En el penúltimo mes del año se suman varias jornadas sin atención al público; cuáles son los días exactos y qué herramientas estarán disponibles",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/VEMQN7MZ6JB45PASVS56T6TJ7Y.jpg?auth=568e7ecf497bb699d07f5062d05d96acce9085ddd7a066915138664b867ef871&smart=true&width=5760&height=3840",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "3bd0487a9b",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-10-29T19:32:12-03:00",
-      "hora": "19:32",
-      "titulo": "Ante la recesión, Caputo se anima a una herejía",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/ante-la-recesion-caputo-se-anima-a-una-herejia-nid29102026/",
-      "acceso": "suscripcion",
-      "resumen": "En el Ministerio de Economía se discuten actualmente medidas para mejorar el acceso al crédito y la situación de sectores rezagados",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IBFMT4I2JVCZHCRDGSEWNEWM5E.jpg?auth=0f7747fd1aa2a4e270599703dec838f8568bdb8759b39f859474848740d03a79&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.06,
-        "y1": 0.403
       }
     },
     {
@@ -278,7 +262,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/GX7DLNEG6BHX3J5D3EWVRVOCZA.jpg?auth=f86848f9f4ad5a8bbc71026c5519ee36d9f5a70f0d18683d70353ab2a158f82a&smart=true&width=1280&height=852",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.164,
         "y1": 0.441
@@ -300,10 +284,32 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/FWPTKQ3MAVD43MSYAOVF3BMA2Y.jpg?auth=cb6a1b289aaf06d0987d665bffd1ec7fc76b2e58bef8926a6ffdc0481786ae6f&smart=true&width=4000&height=2667",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.404,
         "y1": 0.654
+      }
+    },
+    {
+      "id": "3bd0487a9b",
+      "seccion": "economia",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-10-30T06:40:47-03:00",
+      "hora": "06:40",
+      "titulo": "Ante la recesión, Caputo se anima a una herejía",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/ante-la-recesion-caputo-se-anima-a-una-herejia-nid29102026/",
+      "acceso": "suscripcion",
+      "resumen": "Tanto el Banco Nación como la Anses juegan un rol clave en los estímulos que imaginan en la cartera de Caputo; el pragmatismo del equipo parece estar aflorando",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IBFMT4I2JVCZHCRDGSEWNEWM5E.jpg?auth=0f7747fd1aa2a4e270599703dec838f8568bdb8759b39f859474848740d03a79&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.06,
+        "y1": 0.403
       }
     },
     {
@@ -322,7 +328,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -341,7 +347,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -360,7 +366,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -379,30 +385,49 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae3666068357ce5aa4525b1/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "ccb5199735",
+      "id": "d2be5d591a",
       "seccion": "argentina",
       "rel": 20.6,
       "relevancia": 20.6,
-      "fecha": "2026-10-29T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "De Puerto Iguazú a Miami: cómo intervino la Casa Rosada en la fuga de Flavio Bolsonaro",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/29/de-puerto-iguazu-a-miami-como-intervino-la-casa-rosada-en-la-fuga-de-flavio-bolsonaro/",
+      "fecha": "2026-10-30T00:05:09-03:00",
+      "hora": "00:05",
+      "titulo": "Kicillof criticó a Milei por la falta de políticas ambientales y por negar el cambio climático",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-sesion-en-el-senado-y-el-viaje-de-karina-milei-a-rosario-nid29102026/",
       "acceso": "suscripcion",
-      "resumen": "El Gobierno puso a disposición la PSA, Migraciones y los servicios de inteligencia para facilitar la salida. Santiago Caputo coordinó la salida. Desde Miami, el brasileño se proclamó “presidente electo”, aunque luego se desdijo.",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/WTJLCSBPUNF3TNJRGTKVI3CBFE.jpg?auth=3ca12c8cee57700526edf3c90f43adab878415f951f3f63a1510b4ec46bab516&smart=true&width=1279&height=852",
-      "imagen_credito": "Página/12",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/CGBF5ZRG6ZHDVLEEOFDEB4XTXI.JPG?auth=2e2c392bfb97318870a4ea8a0059b38c9c7d2952c5f3ca45e4c4141b001bc0f6&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.077,
-        "y1": 0.363
+        "y0": 0.249,
+        "y1": 0.86
       }
+    },
+    {
+      "id": "329beb4e21",
+      "seccion": "cordoba",
+      "rel": 20.0,
+      "relevancia": 20.0,
+      "fecha": "2026-10-29T20:26:15-03:00",
+      "hora": "20:26",
+      "titulo": "Gabriel Bornoroni ratificó su alianza política con Luis Juez",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/gabriel-bornoroni-ratifico-su-alianza-politica-con-luis-juez_a6ae3d29668357ce5aa4ddece",
+      "acceso": "abierto",
+      "resumen": "El jefe de bloque de La Libertad Avanza en Diputados se refirió a “las formas” de Javier Milei y pidió que Martín Llaryora defina una fecha para las elecciones a gobernador.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae3d39c68357ce5aa4df517/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
     },
     {
       "id": "03ec79c604",
@@ -420,7 +445,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/6OSUYLZPIBCNZPHQFXAUKKF4RQ.jpg?auth=1ea5dbc60b028b3c4520dc902487673837bc5d7b7d350a4f61a3be51cdf1a9ae&smart=true&width=1897&height=1243",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -439,7 +464,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -458,7 +483,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae394e668357ce5aa48808a/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.118,
         "y1": 0.464
@@ -480,7 +505,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae36a7f68357ce5aa457510/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -499,7 +524,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/HBSOD4RGIJFZZLA7IC67CZV5UA.png?auth=b9298f7fc99bde0728ef004f5566dcf1912b5807ffcf483003c8d40a4f73f0df&smart=true&width=942&height=624",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.199,
         "y1": 0.665
@@ -521,52 +546,52 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/BCEL3RJPMZBUPO6G3E34CKOLAQ.jpeg?auth=7caefa6cf876cfae1b790c77f1b66910c86a285d1a240fbd48928896ae9c6446&smart=true&width=993&height=662",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "4af1c1fd2e",
+      "id": "d6c78c0fa5",
       "seccion": "argentina",
-      "rel": 17.7,
-      "relevancia": 17.7,
-      "fecha": "2026-10-29T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Las denuncias contra Milei por su responsabilidad en la fuga de Bolsonaro",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/10/29/las-denuncias-contra-milei-por-su-responsabilidad-en-la-fuga-de-bolsonaro/",
+      "rel": 16.9,
+      "relevancia": 16.9,
+      "fecha": "2026-10-30T01:42:11-03:00",
+      "hora": "01:42",
+      "titulo": "El Gobierno postergó hasta diciembre la suba de los impuestos a los combustibles",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/el-gobierno-postergo-hasta-diciembre-la-suba-de-los-impuestos-a-los-combustibles-nid30102026/",
       "acceso": "suscripcion",
-      "resumen": "Hay por lo menos tres denuncias contra Milei por la organización de la huida del excandidato presidencial de Brasil. También están señalados el canciller Pablo Quirno y la ministra Monteoliva, entre otros.",
+      "resumen": "Hay actualizaciones pendientes de 2024, 2025 y al primer y segundo trimestre de 2026; la medida fue publicada en el Boletín Oficial",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/267JO7T2FRDR5L5SMKMONS3N7A.jpg?auth=3a4fdca76cf0602e3814cca931ec9e16c287b220cd7f67764b679512f3d454cf&smart=true&width=1430&height=954",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/VXCHPEDENZHQJGDYIXINBQVTNY.jpg?auth=a8e90d065339de6496e5f0e4109cd216c9cb782315ae3d492094c855e3a75215&smart=true&width=4032&height=3024",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.01,
+        "y1": 0.275
+      }
+    },
+    {
+      "id": "1d8e21fea5",
+      "seccion": "economia",
+      "rel": 16.6,
+      "relevancia": 16.6,
+      "fecha": "2026-10-30T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "La economía se hunde como en las peores crisis",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/10/30/la-economia-se-hunde-como-en-las-peores-crisis/",
+      "acceso": "suscripcion",
+      "resumen": "Lejos de las exitosas conclusiones sobre la marcha de la economía que describe Milei, un informe del Banco Provincia señala que la actual crisis rankea cerca de las del Tequila y la de 2001",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/XJKTWBDN4ZCNTP53L2F7IACRTQ.jpg?auth=0cca2ce14fd7c860dcdec943f5f466be9b8c2376be03cb25479673519685619d&smart=true&width=1200&height=800",
       "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "283910e459",
-      "seccion": "cordoba",
-      "rel": 16.0,
-      "relevancia": 16.0,
-      "fecha": "2026-10-29T06:30:50-03:00",
-      "hora": "06:30",
-      "titulo": "El proyecto de Inviolabilidad de la Propiedad Privada se traba en el Senado",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/el-proyecto-de-inviolabilidad-de-la-propiedad-privada-se-traba-en-el-senado/",
-      "acceso": "abierto",
-      "resumen": "La iniciativa había sido aprobada originalmente en la Cámara alta reestableciendo la Ley de Tierras, sin embargo no consiguió dictamen.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [
-        {
-          "fuente": "Infobae",
-          "titulo": "Propiedad privada: se demora en el Senado el dictamen que incluye límites a la venta de tierra a extranjeros",
-          "url": "https://www.infobae.com/politica/2026/10/28/propiedad-privada-se-demora-en-el-senado-el-dictamen-que-incluye-limites-a-la-venta-de-tierra-a-extranjeros/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.219,
+        "y1": 0.687
+      }
     },
     {
       "id": "740f190114",
@@ -584,7 +609,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/FJZ45OKUKZAVTJTN2RCRL63AMM.JPG?auth=6332595d86d5d4f5613df66e424b004dbb4c1378f953bdc8dc5b6b06e9e94bd5&smart=true&width=1600&height=1035",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -603,7 +628,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/EGXMXDNFQBFF5BN4KS5BYRDXK4.jpeg?auth=2999e12d59f3555ac99f3cfadc14b087ca11770a5a740fe26872b57031da538b&smart=true&width=1280&height=854",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.246,
         "y1": 0.632
@@ -625,7 +650,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/7JSVZ6J5LVG4DIEVOSZ2SDVE64.png?auth=c338dd1f2743deef20365fbed6cf65f948a329c951944582b406c924bdb5d4bf&smart=true&width=2752&height=1536",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.54,
         "y1": 0.863
@@ -647,49 +672,11 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/UQ3ONBC33BDGJGUTEHA247L6ZA.jpeg?auth=209b01eb4707af079f769714e8654f633bb82c15e3782693c98419b00d683d1d&smart=true&width=1266&height=1018",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.084,
         "y1": 0.371
       }
-    },
-    {
-      "id": "4d1e424a9d",
-      "seccion": "economia",
-      "rel": 15.7,
-      "relevancia": 15.7,
-      "fecha": "2026-10-29T06:46:50-03:00",
-      "hora": "06:46",
-      "titulo": "Se oficializó la suba en jubilaciones y asignaciones para noviembre",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/jubilaciones-asignaciones-noviembre/",
-      "acceso": "abierto",
-      "resumen": "El aumento será del 1,93% y alcanzará también a la AUH y otras prestaciones de la Anses. Con el bono de $70.000, quienes cobran el haber mínimo percibirán $514.158.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "73b7e39cf9",
-      "seccion": "economia",
-      "rel": 13.9,
-      "relevancia": 13.9,
-      "fecha": "2026-10-29T07:50:56-03:00",
-      "hora": "07:50",
-      "titulo": "Nueva paritaria de octubre a diciembre: cuánto cobran los empleados de comercio con el aumento confirmado",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/nueva-paritaria-de-octubre-a-diciembre-cuanto-cobran-los-empleados-de-comercio-con-el-aumento-nid28102026/",
-      "acceso": "suscripcion",
-      "resumen": "El gremio y las empresas acordaron nuevos porcentajes de incremento mensuales y un bono extraordinario, que se pagará en dos veces",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/SVMKC5YGEJD3PNAOF7Z6DMSPOY.jpg?auth=dae6f6342feb17b66970b8cac882f5b4653ca4333679c671dfcd41effdf99a19&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "bedb2c13a0",
@@ -707,7 +694,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -726,16 +713,16 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
       "id": "edd4561bb8",
       "seccion": "economia",
-      "rel": 11.9,
-      "relevancia": 11.9,
-      "fecha": "2026-10-29T19:35:40-03:00",
-      "hora": "19:35",
+      "rel": 10.6,
+      "relevancia": 10.6,
+      "fecha": "2026-10-30T00:11:50-03:00",
+      "hora": "00:11",
       "titulo": "Una empresa vinculada a Vicentin, al borde de quedarse sin luz por una deuda de más de $4600 millones",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/economia/campo/una-empresa-vinculada-a-vicentin-al-borde-de-quedarse-sin-luz-por-una-deuda-de-mas-de-4600-millones-nid29102026/",
@@ -764,41 +751,8 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "6a7be46334",
-      "seccion": "economia",
-      "rel": 41.2,
-      "relevancia": -458.8,
-      "fecha": "2026-10-27T21:22:54-03:00",
-      "hora": "21:22",
-      "titulo": "El FMI aprobó la revisión técnica y Argentina espera el desembolso de US$ 900 millones",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/fmi-tercera-revision-desembolso/",
-      "acceso": "abierto",
-      "resumen": "El entendimiento técnico deberá ser ratificado por el Directorio del organismo, que prevé tratarlo a principios de diciembre. El desembolso corresponde al programa de US$20.000 millones firmado en 2025.",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WB5WUAT7LZCPTPC5TUAWQXXR5Q.JPG?auth=56d6303d1f94fc41e4466c6b344d68924e0779f2b40fe1ce08fc0ea2e18a4eff&smart=true&width=1600&height=1066",
-      "imagen_credito": "La Nación",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "El FMI aprobó la tercera revisión del acuerdo con la Argentina y allana el camino para un nuevo desembolso",
-          "url": "https://www.lanacion.com.ar/economia/el-fmi-aprobo-la-tercera-revision-del-acuerdo-con-la-argentina-y-allana-el-camino-para-un-nuevo-nid27102026/"
-        },
-        {
-          "fuente": "Cba24n",
-          "titulo": "El FMI aprobó la tercera revisión del programa con Argentina",
-          "url": "https://www.cba24n.com.ar/argentina/el-fmi-aprobo-la-tercera-revision-del-programa-con-argentina_a6ae1379e743fc8c6464289ab"
-        }
-      ],
-      "dia": 2,
-      "rostros": {
-        "y0": 0.148,
-        "y1": 0.427
-      }
     },
     {
       "id": "17f557751b",
@@ -822,7 +776,7 @@
           "url": "https://www.lanacion.com.ar/politica/kicillof-apunto-contra-milei-por-no-pronunciarse-tras-la-victoria-de-lula-nid27102026/"
         }
       ],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.093,
         "y1": 0.589
@@ -850,10 +804,54 @@
           "url": "https://www.pagina12.com.ar/2026/10/28/luis-caputo-se-descompenso-en-su-visita-a-catamarca/"
         }
       ],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.118,
         "y1": 0.79
+      }
+    },
+    {
+      "id": "851101b3ec",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": -478.0,
+      "fecha": "2026-10-29T08:22:53-03:00",
+      "hora": "08:22",
+      "titulo": "El PJ Federal hace pie en La Patagonia y empuja a tres precandidatos a gobernador",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/10/29/el-pj-federal-hace-pie-en-la-patagonia-y-empuja-a-tres-precandidatos-a-gobernador/",
+      "acceso": "abierto",
+      "resumen": "El esquema que contiene a legisladores, intendentes y dirigentes del interior trabaja en la instalación de Pablo Grasso, Juan Pablo Luque y Martín Pérez para pelear por el poder en el 2027 en Santa Cruz, Chubut y Tierra del Fuego, respectivamente",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/N7KKQECBY5FQVBF56EP6OWLA6Q.jpg?auth=7f5be46e982f769f23da7de1ed4b1a432a73e0feb30b561c336dd3daa4470c8d&smart=true&width=1920&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.001,
+        "y1": 1.0
+      }
+    },
+    {
+      "id": "0549849043",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": -478.1,
+      "fecha": "2026-10-29T07:47:46-03:00",
+      "hora": "07:47",
+      "titulo": "Jubilaciones de Anses: cuánto cobro en noviembre 2026, con el bono oficial y el aumento confirmado",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/jubilaciones-de-anses-cuanto-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-aumento-confirmado-nid14102026/",
+      "acceso": "suscripcion",
+      "resumen": "Para la actualización de haberes se toma el último índice de inflación que publicó el Indec; cuáles son las cifras para el penúltimo mes del año",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IZ6PB2Z7JVGAJAUJDMPKNUSKFQ.png?auth=41b276bf11862c94f065dee7b54c8b2392e447bb5796afc723c11dfece75c598&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.549,
+        "y1": 0.976
       }
     }
   ],
