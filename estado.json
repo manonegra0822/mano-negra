@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-31T13:27:42-03:00",
+  "actualizado": "2026-10-31T20:26:33-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,39 +9,36 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Brentford vs. Nottingham Forest - en vivo, Premier League: Daniel Muñoz está en ",
-            "Clasificación del GP México EN VIVO: batalla por la pole position y parrilla de ",
-            "La embajada de Estados Unidos alertó sobre una amenaza de atentado terrorista en"
+            "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 31 de octubre: a jovenci",
+            "Lali Espósito y Pedro Rosemblat se casaron en San Telmo: quiénes son los invitad",
+            "Llaneros vs. Junior, en vivo - Liga BetPlay: siga el minuto a minuto del bicampe"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 6,
+      "leidas": 92,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 78,
+          "cantidad": 81,
           "ejemplos": [
-            "Elecciones en Texas 2026: James Talarico aventaja a Ken Paxton con amplia difere",
-            "Esteban Ocon fue reemplazado por Haas y no correrá el Gran Premio de México de F",
-            "Midterms 2026: quién va ganando las elecciones hoy en Estados Unidos y actualiza"
+            "Se casaron Lali Espósito y Pedro Rosemblat: del primer mensaje en Instagram a da",
+            "Son argentinos, fundaron un club en EE.UU. que sueña con competir contra Messi y",
+            "Roberto Siguero, maquillador: “Para disimular las arrugas de los labios después "
           ]
         },
-        "otro país": {
-          "cantidad": 2,
+        "sin ancla argentina": {
+          "cantidad": 1,
           "ejemplos": [
-            "Elecciones en Estados Unidos: qué espera Wall Street y en qué Cedears invertir a",
-            "“Basta de inversiones”: un frigorífico no renovó 80 contratados, su gerente lo l"
+            "Un diputado opositor solicitó a la AGN una auditoría integral de la privatizació"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 10,
+          "cantidad": 1,
           "ejemplos": [
-            "Santos Vega: el mítico payador que enfrentó al diablo",
-            "El Niño no tendrá un desarrollo parejo en todo el país",
-            "Plantium-Gentec, un ícono de la innovación en el agro, despidió a casi 100 emple"
+            "Aumenta el transporte público: cómo queda el boleto de colectivos y subte a part"
           ]
         }
       }
@@ -72,14 +69,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 4,
           "ejemplos": [
-            "Inútiles",
-            "Alejandro Álvarez celebró la fuga de Bolsonaro",
-            "Se profundiza el descontento de Brasil con Argentina"
+            "La visita del papa León XIV a la Argentina ya comenzó",
+            "Marco Rubio negó la intervención de Washington en la fuga de Bolsonaro",
+            "Autodestrucción"
           ]
         }
       }
@@ -87,14 +84,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
-            "Halloween: el miedo como huésped",
-            "Caravanas de motos en Córdoba: controles y más de 40 vehículos secuestrados",
-            "Alerta por tormentas en Córdoba: prevén lluvias intensas y posible granizo"
+            "Colapinto no superó la Q2 y largará decimosegundo en el GP de México",
+            "La guía del terror: diez películas para ver en Halloween y disponibles en stream",
+            "Clausuraron 22 comercios y una fiesta clandestina con 290 menores"
           ]
         }
       }
@@ -102,18 +99,18 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 20,
+      "aceptadas": 17,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 14,
           "ejemplos": [
+            "Los envíos de la Nación a las provincias subieron 0,5% en octubre",
             "La visita del papa: primer ensayo general en Fadea a días de la llegada de León ",
-            "Nueva prórroga: contribuyentes tendrán más tiempo para presentar las declaracion",
-            "Declaran emergencia y desastre agropecuario para productores hortícolas afectado"
+            "Nueva prórroga: contribuyentes tendrán más tiempo para presentar las declaracion"
           ]
         },
         "otro país": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "El Papa León XIV votó por correo en las elecciones de EE UU desde el Vaticano",
             "Exportar a Estados Unidos: las claves comerciales y regulatorias para las pymes",
@@ -121,11 +118,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 40,
+          "cantidad": 46,
           "ejemplos": [
-            "España: la tragedia ferroviaria de Toledo ya cobró 69 víctimas fatales",
-            "Aeropuertos Argentina anunció adhesión a programa internacional de accesibilidad",
-            "Bolsonaro se autoproclamó “líder opositor” de Brasil, se comparó con Guaidó y ag"
+            "Recuento final en Israel: el Likud de Netanyahu fue el partido más votado, pero ",
+            "Puerto Iguazú: desestimaron denuncias por el ingreso de Flávio Bolsonaro al país",
+            "Prórroga en el régimen de Factura de Crédito Electrónica Mipymes hasta 2027"
           ]
         }
       }
@@ -133,20 +130,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 19,
           "ejemplos": [
-            "Se amplía la conectividad aérea: una nueva aerolínea operará vuelos diarios entr",
-            "Calibrá la presión de los neumáticos antes de salir a la ruta",
-            "Alerta por tormentas en Córdoba: probabilidad de ráfagas fuertes y granizo"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Nueva marcha en Córdoba por la Salud Mental: reclaman la implementación de la le"
+            "Colapinto le apuntó a Gasly por una maniobra que lo complicó en México",
+            "Un grande de Brasil anunció a Messi como refuerzo, pero todo terminó en una desi",
+            "Madame Bovary, de Gustave Flaubert, será el eje de un encuentro virtual"
           ]
         }
       }
