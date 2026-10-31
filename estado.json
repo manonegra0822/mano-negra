@@ -1,53 +1,47 @@
 {
-  "actualizado": "2026-10-31T08:25:55-03:00",
+  "actualizado": "2026-10-31T13:27:42-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 99,
           "ejemplos": [
-            "El líder supremo de Irán amenazó con una “respuesta sin restricciones geográfica",
-            "Última hora del accidente de trenes en Toledo, en directo | Las unidades caninas",
-            "¿Cuál es el precio de la gasolina hoy sábado 31 de octubre en Nuevo León?"
+            "Brentford vs. Nottingham Forest - en vivo, Premier League: Daniel Muñoz está en ",
+            "Clasificación del GP México EN VIVO: batalla por la pole position y parrilla de ",
+            "La embajada de Estados Unidos alertó sobre una amenaza de atentado terrorista en"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 5,
+      "leidas": 96,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 77,
+          "cantidad": 78,
           "ejemplos": [
-            "Así es el doodle de Google para celebrar Halloween este 31 de octubre",
-            "Elecciones 2026: James Talarico, el joven político que hace temblar a los republ",
-            "Cómo un insulto desató un movimiento juvenil que desafía al poder en la India"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 9,
-          "ejemplos": [
-            "El Niño no tendrá un desarrollo parejo en todo el país",
-            "Maíz tardío: el cultivo que desafía los límites y apuesta por la tecnología",
-            "Plantium-Gentec, un ícono de la innovación en el agro, despidió a casi 100 emple"
+            "Elecciones en Texas 2026: James Talarico aventaja a Ken Paxton con amplia difere",
+            "Esteban Ocon fue reemplazado por Haas y no correrá el Gran Premio de México de F",
+            "Midterms 2026: quién va ganando las elecciones hoy en Estados Unidos y actualiza"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Elecciones en Estados Unidos: qué espera Wall Street y en qué Cedears invertir a",
             "“Basta de inversiones”: un frigorífico no renovó 80 contratados, su gerente lo l"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 2,
+        "titular sin tema de política/economía": {
+          "cantidad": 10,
           "ejemplos": [
-            "Vandalismo rural: un paso adelante del Congreso en la agenda agropecuaria",
-            "Bullrich celebró la aprobación del RIIR en el Senado y dijo que atraerá “oportun"
+            "Santos Vega: el mítico payador que enfrentó al diablo",
+            "El Niño no tendrá un desarrollo parejo en todo el país",
+            "Plantium-Gentec, un ícono de la innovación en el agro, despidió a casi 100 emple"
           ]
         }
       }
@@ -77,15 +71,15 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
+      "leidas": 6,
       "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
             "Inútiles",
-            "Se profundiza el descontento de Brasil con Argentina",
-            "Ruidazo por la producción y el trabajo, pero virtual"
+            "Alejandro Álvarez celebró la fuga de Bolsonaro",
+            "Se profundiza el descontento de Brasil con Argentina"
           ]
         }
       }
@@ -93,14 +87,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
-            "Colapinto terminó décimosexto en la segunda práctica libre del GP de México",
-            "Visita del Papa León XIV: transporte y cómo llegar desde el interior y otras pro",
-            "Tito Dómina sobre su nuevo libro: “Le pongo voz al personaje”"
+            "Halloween: el miedo como huésped",
+            "Caravanas de motos en Córdoba: controles y más de 40 vehículos secuestrados",
+            "Alerta por tormentas en Córdoba: prevén lluvias intensas y posible granizo"
           ]
         }
       }
@@ -108,14 +102,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 22,
+      "aceptadas": 20,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 16,
           "ejemplos": [
+            "La visita del papa: primer ensayo general en Fadea a días de la llegada de León ",
             "Nueva prórroga: contribuyentes tendrán más tiempo para presentar las declaracion",
-            "Declaran emergencia y desastre agropecuario para productores hortícolas afectado",
-            "El TSJ actualizó el valor de las cédulas de notificación para ujieres en Córdoba"
+            "Declaran emergencia y desastre agropecuario para productores hortícolas afectado"
           ]
         },
         "otro país": {
@@ -127,11 +121,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 36,
+          "cantidad": 40,
           "ejemplos": [
-            "Las empresas prevén realizar entre tres y cuatro ajustes salariales en 2026",
-            "Paritarias: UEPC sube la tensión y busca una reapertura inmediata",
-            "Hidrovía: movilizan nuevas dragas desde Asia y Europa ante el riesgo de crecidas"
+            "España: la tragedia ferroviaria de Toledo ya cobró 69 víctimas fatales",
+            "Aeropuertos Argentina anunció adhesión a programa internacional de accesibilidad",
+            "Bolsonaro se autoproclamó “líder opositor” de Brasil, se comparó con Guaidó y ag"
           ]
         }
       }
@@ -139,27 +133,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 17,
           "ejemplos": [
-            "Lali Espósito y Pedro Rosemblat celebran su boda en una ceremonia íntima en Buen",
-            "La comedia en el cine: un recorrido por cuatro grandes directores en un seminari",
-            "Tras el doble femicidio, piden investigar a Tabella por otros dos crímenes en Có"
+            "Se amplía la conectividad aérea: una nueva aerolínea operará vuelos diarios entr",
+            "Calibrá la presión de los neumáticos antes de salir a la ruta",
+            "Alerta por tormentas en Córdoba: probabilidad de ráfagas fuertes y granizo"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "Nueva marcha en Córdoba por la Salud Mental: reclaman la implementación de la le"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Rafael Grossi sigue en carrera para ser el secretario general de la ONU",
-            "El papa León XIV votó en las elecciones legislativas de Estados Unidos"
           ]
         }
       }
@@ -186,7 +173,7 @@
           "ejemplos": [
             "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
             "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil ",
-            "La Cúpula logró negocio histórico: única firma a cargo de la infraestructura int"
+            "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil "
           ]
         }
       }
