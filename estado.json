@@ -1,60 +1,53 @@
 {
-  "actualizado": "2026-10-30T20:26:42-03:00",
+  "actualizado": "2026-10-31T08:25:55-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 100,
           "ejemplos": [
-            "Cómo le fue a Checo Pérez en la Práctica 2 del Gran Premio de México",
-            "Tras no correr la primera práctica, Franco Colapinto finalizó 16° en el segundo ",
-            "Estos son los resultados del Progol de Media Semana del viernes 30 de octubre"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Macro Private Bank es la nueva propuesta de banca privada para clientes premium "
+            "El líder supremo de Irán amenazó con una “respuesta sin restricciones geográfica",
+            "Última hora del accidente de trenes en Toledo, en directo | Las unidades caninas",
+            "¿Cuál es el precio de la gasolina hoy sábado 31 de octubre en Nuevo León?"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 13,
+      "leidas": 94,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 69,
+          "cantidad": 77,
           "ejemplos": [
-            "Fani García, especialista en digestión: “Es más importante el cómo comemos que e",
-            "Un “coyote” atrapado en la frontera: la CBP lo descubrió en Texas con decenas de",
-            "Hay alerta amarilla por tormentas para la noche de este viernes 30 de octubre: l"
+            "Así es el doodle de Google para celebrar Halloween este 31 de octubre",
+            "Elecciones 2026: James Talarico, el joven político que hace temblar a los republ",
+            "Cómo un insulto desató un movimiento juvenil que desafía al poder en la India"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 9,
           "ejemplos": [
-            "Renunció el subsecretario de Ciencia y Tecnología con una carta explosiva contra",
-            "Julio De Vido cambia de abogado y ahora tendrá defensor oficial",
-            "Una violenta tormenta con granizo sorprendió en una región golpeada por otro fen"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El Banco Central compró US$1395 millones en octubre, el mayor monto de los últim",
-            "El Banco Central descartó inyectar liquidez adicional en el sistema para incenti",
-            "Por qué sube el riesgo país"
+            "El Niño no tendrá un desarrollo parejo en todo el país",
+            "Maíz tardío: el cultivo que desafía los límites y apuesta por la tecnología",
+            "Plantium-Gentec, un ícono de la innovación en el agro, despidió a casi 100 emple"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "“Basta de inversiones”: un frigorífico no renovó 80 contratados, su gerente lo l"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Vandalismo rural: un paso adelante del Congreso en la agenda agropecuaria",
+            "Bullrich celebró la aprobación del RIIR en el Senado y dijo que atraerá “oportun"
           ]
         }
       }
@@ -65,7 +58,7 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 4,
           "ejemplos": [
             "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
             "¿Qué puede hacer la escuela con las deepfakes sexuales?",
@@ -73,26 +66,26 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 5,
+          "cantidad": 6,
           "ejemplos": [
+            "Solamente muero los 21 y los 1° ya me siento bien",
             "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes",
-            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina",
-            "Arrancó el juicio de lesa humanidad más grande en una década: megacausa Gutiérre"
+            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
+      "leidas": 4,
       "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 3,
           "ejemplos": [
-            "El costo humano y material del desastre vial",
-            "Brasil citó a la encargada de negocios en Argentina para que explique la huida d",
-            "La demanda de divisas sigue elevada"
+            "Inútiles",
+            "Se profundiza el descontento de Brasil con Argentina",
+            "Ruidazo por la producción y el trabajo, pero virtual"
           ]
         }
       }
@@ -115,18 +108,18 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 30,
+      "aceptadas": 22,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 26,
+          "cantidad": 18,
           "ejemplos": [
+            "Nueva prórroga: contribuyentes tendrán más tiempo para presentar las declaracion",
             "Declaran emergencia y desastre agropecuario para productores hortícolas afectado",
-            "El TSJ actualizó el valor de las cédulas de notificación para ujieres en Córdoba",
-            "Coheredera que padece obesidad mórbida podrá intervenir virtualmente en una audi"
+            "El TSJ actualizó el valor de las cédulas de notificación para ujieres en Córdoba"
           ]
         },
         "otro país": {
-          "cantidad": 5,
+          "cantidad": 4,
           "ejemplos": [
             "El Papa León XIV votó por correo en las elecciones de EE UU desde el Vaticano",
             "Exportar a Estados Unidos: las claves comerciales y regulatorias para las pymes",
@@ -134,11 +127,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 19,
+          "cantidad": 36,
           "ejemplos": [
-            "El Nación y otras entidades comienzan a recibir e-oficios",
-            "La Ciudad Autónoma de Buenos Aires celebró la recuperación de 1.000 propiedades ",
-            "Nuevos montos de Anses: de cuánto serán la jubilación mínima, la máxima y la PUA"
+            "Las empresas prevén realizar entre tres y cuatro ajustes salariales en 2026",
+            "Paritarias: UEPC sube la tensión y busca una reapertura inmediata",
+            "Hidrovía: movilizan nuevas dragas desde Asia y Europa ante el riesgo de crecidas"
           ]
         }
       }
@@ -146,14 +139,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 14,
           "ejemplos": [
-            "Una nueva Suzuki de 250 cc llegó al mercado argentino: qué ofrece y cuánto sale",
-            "Cortes de luz en Córdoba para este sábado: zonas afectadas por mantenimiento, po",
-            "En Ruta Viajes: elevan a juicio la causa contra la agencia que estafó a decenas "
+            "Lali Espósito y Pedro Rosemblat celebran su boda en una ceremonia íntima en Buen",
+            "La comedia en el cine: un recorrido por cuatro grandes directores en un seminari",
+            "Tras el doble femicidio, piden investigar a Tabella por otros dos crímenes en Có"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Nueva marcha en Córdoba por la Salud Mental: reclaman la implementación de la le"
           ]
         },
         "otro país": {
@@ -186,8 +185,8 @@
           "cantidad": 50,
           "ejemplos": [
             "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
-            "La Cúpula logró negocio histórico: única firma a cargo de la infraestructura int",
-            "UNC: docentes de ADIUC lanzan paros en reclamo del cumplimiento de la ley de fin"
+            "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil ",
+            "La Cúpula logró negocio histórico: única firma a cargo de la infraestructura int"
           ]
         }
       }

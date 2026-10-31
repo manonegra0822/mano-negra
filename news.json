@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-30T20:26:42-03:00",
+  "actualizado": "2026-10-31T08:25:55-03:00",
   "notas": [
     {
       "id": "c9afe3e542",
       "seccion": "cordoba",
-      "rel": 45.4,
-      "relevancia": 45.4,
+      "rel": 45.2,
+      "relevancia": 45.2,
       "fecha": "2026-10-30T18:28:41-03:00",
       "hora": "18:28",
       "titulo": "El riesgo país trepa más de 6% y está al borde de los 800 puntos",
@@ -28,8 +28,41 @@
           "url": "https://comercioyjusticia.info/economia/con-790-puntos-el-riesgo-pais-toco-un-nuevo-maximo-en-lo-que-va-del-ano/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
+    },
+    {
+      "id": "bcf2ae4d36",
+      "seccion": "cordoba",
+      "rel": 43.2,
+      "relevancia": 43.2,
+      "fecha": "2026-10-30T15:20:00-03:00",
+      "hora": "15:20",
+      "titulo": "$LIBRA: una fiscalía especializada apeló el sobreseimiento de Milei",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/causa-libra-una-fiscalia-especializada-apelo-el-sobreseimiento-de-milei/",
+      "acceso": "abierto",
+      "resumen": "La Procuraduría de Investigaciones Administrativas (PIA) aceptó el pedido de dos ONG y se involucró en la causa $LIBRA para apelar el sobreseimiento del presidente Javier Milei y su hermana, la secretaria general de la Presidencia, Karina Milei, e impulsar la reapertura de la investigación. La fiscalía especializada en hechos de corrupción, encabezada por el […]",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae4edbb5a9d354f636e3c62/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "Causa $LIBRA: la fiscalía especializada apeló el sobreseimiento de Javier Milei",
+          "url": "https://www.cba24n.com.ar/argentina/causa--libra--la-fiscalia-especializada-apelo-el-sobreseimiento-de-javier-milei_a6ae4ed385a9d354f636e391e"
+        },
+        {
+          "fuente": "Página/12",
+          "titulo": "Los hermanos Milei no logran librarse de la causa $LIBRA",
+          "url": "https://www.pagina12.com.ar/2026/10/31/los-hermanos-milei-no-logran-librarse-de-la-causa-libra/"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.13,
+        "y1": 0.67
+      }
     },
     {
       "id": "5748bcc6d5",
@@ -53,43 +86,10 @@
           "url": "https://www.infobae.com/politica/2026/10/30/no-se-ha-avanzado-nada-mauricio-macri-aseguro-que-el-acuerdo-electoral-entre-el-pro-y-lla-esta-estancado/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.107,
         "y1": 0.476
-      }
-    },
-    {
-      "id": "bcf2ae4d36",
-      "seccion": "cordoba",
-      "rel": 33.1,
-      "relevancia": 33.1,
-      "fecha": "2026-10-30T15:20:00-03:00",
-      "hora": "15:20",
-      "titulo": "$LIBRA: una fiscalía especializada apeló el sobreseimiento de Milei",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/causa-libra-una-fiscalia-especializada-apelo-el-sobreseimiento-de-milei/",
-      "acceso": "abierto",
-      "resumen": "La Procuraduría de Investigaciones Administrativas (PIA) aceptó el pedido de dos ONG y se involucró en la causa $LIBRA para apelar el sobreseimiento del presidente Javier Milei y su hermana, la secretaria general de la Presidencia, Karina Milei, e impulsar la reapertura de la investigación. La fiscalía especializada en hechos de corrupción, encabezada por el […]",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ae4edbb5a9d354f636e3c62/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Cba24n",
-          "titulo": "Causa $LIBRA: la fiscalía especializada apeló el sobreseimiento de Javier Milei",
-          "url": "https://www.cba24n.com.ar/argentina/causa--libra--la-fiscalia-especializada-apelo-el-sobreseimiento-de-javier-milei_a6ae4ed385a9d354f636e391e"
-        },
-        {
-          "fuente": "La Nación",
-          "titulo": "Caso LIBRA: una fiscalía especializada se involucró en reemplazo del fiscal Taiano y apeló el sobreseimiento de Milei",
-          "url": "https://www.lanacion.com.ar/politica/caso-libra-una-fiscalia-especializada-se-involucro-en-reemplazo-del-fiscal-taiano-y-apelo-el-nid30102026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.13,
-        "y1": 0.67
       }
     },
     {
@@ -108,7 +108,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/HT3GB3DECVDWTBYCX4J5KBPZOU.jpg?auth=36f66431ba5ee308a0c27610872feefe8c9131a851ea29f0b77ecdc6b5832a22&smart=true&width=2000&height=1338",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.164,
         "y1": 0.603
@@ -130,30 +130,11 @@
       "imagen": "https://www.infobae.com/resizer/v2/SLMXW5L4SREUBKI3KBIMOHKT5U.JPG?auth=b0fd4961908f80fc07f99d1d56c1ac14ebdd451b8f777f523df48a37ab6625ef&smart=true&width=4469&height=3111",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.478,
         "y1": 0.812
       }
-    },
-    {
-      "id": "48af685081",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-10-30T08:21:57-03:00",
-      "hora": "08:21",
-      "titulo": "Kicillof sigue con recorridas en clave electoral: desembarca en Jujuy y prepara su viaje a Santa Fe",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/30/kicillof-sigue-con-recorridas-en-clave-electoral-desembarca-en-jujuy-y-prepara-su-viaje-a-santa-fe/",
-      "acceso": "abierto",
-      "resumen": "El mandatario bonaerense estará durante todo el viernes en el norte. Encuentro con el gobernador Carlos Sadir y acto central con un sector del peronismo. El desafío ante el PJ santafesino",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/VPW7NA7EWVEBBO2IKZIEABEFZQ.jpg?auth=152531edbdcf69686cdd03c37da39e5d6ca68de257eafdfad663709ff535d00b&smart=true&width=1920&height=1279",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "0686c9778e",
@@ -171,7 +152,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/6PVY4BICJZBRNFRZQW72IKZC2I.png?auth=84f765d068aa04ee8bb14287b3346ccced41b6349975f812c13d67bc6f526a89&smart=true&width=836&height=501",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.143,
         "y1": 0.697
@@ -193,30 +174,11 @@
       "imagen": "https://www.infobae.com/resizer/v2/WGUD452JHRHKBPPAOL2RNKEPIA.JPG?auth=c364c0c406f121090ac364c19a9c7a9770241f35d931c868c511194a8810c146&smart=true&width=3500&height=2269",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.196,
         "y1": 0.499
       }
-    },
-    {
-      "id": "ed0863b0f6",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-30T19:36:46-03:00",
-      "hora": "19:36",
-      "titulo": "El gremio docente exige la reapertura de la paritaria y advierte por posibles movilizaciones",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/hoy-cordoba/el-gremio-docente-exige-la-reapertura-de-la-paritaria-y-anuncia-movilizaciones/",
-      "acceso": "abierto",
-      "resumen": "La Unión de Educadores de la Provincia de Córdoba (UEPC) votó por amplia mayoría reclamar al Gobierno provincial una nueva discusión salarial y anticipó medidas de fuerza si no hay respuesta antes del 12 de noviembre.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/10/202-1793399550103-Asamblea30deoctubre-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "49c18e9b0e",
@@ -234,7 +196,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/OZDSUOBNNJESRPS73QPPLSBSTM.JPG?auth=e4126fe8259d5916dd5540e08f068ca6f89de8db8dd8313eb21120a87caa2c8f&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.067,
         "y1": 0.584
@@ -256,7 +218,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/FUNEPRLG7NASFHIJICA5EK5KQQ.JPG?auth=5d5bd78a872bce5e1cb8446d8ea581913b95470d19b8e901cf52367506e0e9d1&smart=true&width=7244&height=4832",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.208,
         "y1": 0.491
@@ -278,7 +240,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/OVML3WQPHBHN7OORGEJNLZ5MLM.jpeg?auth=fee2526bbd0ff947bbdca9c54ae041bb6da538c267944375ce74cb85cbe0a531&smart=true&width=1194&height=896",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.108,
         "y1": 0.508
@@ -300,48 +262,26 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/C5NNSIGAJFFE7JXQBKYVMQGWP4.jpeg?auth=ef39c222b4b3512c5ed84273690d8c0e6d0c7094544917cce43f687e4928b6ab&smart=true&width=1600&height=1066",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.388,
         "y1": 0.612
       }
     },
     {
-      "id": "a6629663a9",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-10-30T07:46:36-03:00",
-      "hora": "07:46",
-      "titulo": "Reelecciones, PASO bonaerenses y construcción propia: qué dejó la reunión de Kicillof con sus intendentes",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/10/30/reelecciones-paso-bonaerenses-y-construccion-propia-que-dejo-la-reunion-de-kicillof-con-sus-intendentes/",
-      "acceso": "abierto",
-      "resumen": "El gobernador convocó a sus dirigentes más cercanos durante casi tres horas en La Plata para trazar un escenario y los pasos a seguir en la discusión interna del peronismo y destacar el crecimiento del MDF",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/D7JSGW6GNNAJXHS5NRHGOLKUWE.png?auth=038b63b25465e6a8539a30ccc791ee54940a05fb014a056d899313520698fcc7&smart=true&width=1920&height=1278",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.179,
-        "y1": 0.619
-      }
-    },
-    {
-      "id": "eae5bd5232",
-      "seccion": "argentina",
+      "id": "5fd7ec7a4d",
+      "seccion": "economia",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-10-30T19:16:53-03:00",
-      "hora": "19:16",
-      "titulo": "Milei criticó a “los políticos” para quienes lo principal “es ganar elecciones”, le contestó a Cavallo y prometió bajar más impuestos si es reelecto",
+      "fecha": "2026-10-31T07:02:30-03:00",
+      "hora": "07:02",
+      "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este sábado 31 de octubre",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/seres-cargados-de-maldad-milei-comenzo-su-exposicion-en-una-universidad-con-otro-ataque-al-nid30102026/",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-sabado-31-de-octubre-nid31102026/",
       "acceso": "suscripcion",
-      "resumen": "Además, el Presidente volvió a cargar contra los periodistas, a quienes llamó “seres cargados de maldad”",
+      "resumen": "La cotización de la moneda estadounidense se mantiene igual que el último día hábil; cómo fue el comportamiento de la divisa informal y los dólares financieros",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/VIC4VQJCTFAOZKU26PRBDFQYWU.jpg?auth=fffe98bfc8ba203707f263f6df4a184f5e2a4aad37e6e825e1ac8182789f04d7&smart=true&width=785&height=499",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IYEY5GXXZJFPRK5XWHSQY47HMA.jpg?auth=4ef2027c71a711410a369f8e88fddcf2c754735ea001c725cb7094bb89d09667&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
@@ -363,7 +303,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/42OQTG4QIZAJROB7V2KCAP6IVU.jpg?auth=3146630dbb377967f2faddbc03102c1c6be602455d17fa85da1dc51cf205ec06&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -382,7 +322,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/XOPS7AWNV5CXRGCV5TLJR4HHPA.jpg?auth=4bb7fe923288fe5a313b5aed2587e26463d694dbe290ee3bd786e17141a68cea&smart=true&width=2560&height=1707",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -401,32 +341,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/HUNNYDX3QZF2VGNEOWCGUD4AIM.jpg?auth=eba55072a3a787ec6a1162880c3544cbfb9886f9b21e062715a52f3d31a87f2b&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.208,
         "y1": 0.581
-      }
-    },
-    {
-      "id": "3bd0487a9b",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-10-30T06:40:47-03:00",
-      "hora": "06:40",
-      "titulo": "Ante la recesión, Caputo se anima a una herejía",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/ante-la-recesion-caputo-se-anima-a-una-herejia-nid29102026/",
-      "acceso": "suscripcion",
-      "resumen": "Tanto el Banco Nación como la Anses juegan un rol clave en los estímulos que imaginan en la cartera de Caputo; el pragmatismo del equipo parece estar aflorando",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IBFMT4I2JVCZHCRDGSEWNEWM5E.jpg?auth=0f7747fd1aa2a4e270599703dec838f8568bdb8759b39f859474848740d03a79&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.06,
-        "y1": 0.403
       }
     },
     {
@@ -445,7 +363,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/26IZQ3WOABHMRGLYXJ3K43FDGQ.jpeg?auth=c65f02ae343f8fa791641bdf877513e0a0d78829ef7f556b08c8e269416a0456&smart=true&width=1600&height=1200",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.222,
         "y1": 0.454
@@ -467,30 +385,11 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/MOXA7424UFDJNECEBSC76KHN2U.JPG?auth=1c1513a96c440e26c902b14863e4a29d98f74652c50713dea7764fc6f49525d4&smart=true&width=3500&height=2332",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.245,
         "y1": 0.566
       }
-    },
-    {
-      "id": "1ffac270bc",
-      "seccion": "economia",
-      "rel": 21.4,
-      "relevancia": 21.4,
-      "fecha": "2026-10-30T17:02:17-03:00",
-      "hora": "17:02",
-      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este viernes 30 de octubre, minuto a minuto",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid30102026/",
-      "acceso": "suscripcion",
-      "resumen": "La divisa oficial operó a $1560 para la venta en el Banco Nación; el dólar blue cotizó a $1565 para esa operación; qué pasó con el MEP y el CCL",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RA4RMWSEYJE3DCEUC2TGKULYZ4.jpg?auth=2cf281f84ef3d2f743eb5286cceea8ba95acb8ce7a67d9dde60380cbfabe9d2e&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "46b774d96f",
@@ -508,7 +407,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae4929168c83bbb7448d2c5/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -527,10 +426,54 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae48b8368c83bbb74480001/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.258,
         "y1": 0.686
+      }
+    },
+    {
+      "id": "eae5bd5232",
+      "seccion": "argentina",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-10-31T03:36:13-03:00",
+      "hora": "03:36",
+      "titulo": "Milei expuso ante estudiantes: dos horas de charla, críticas a los políticos que solo quieren “ganar elecciones” y guiño a Karina: “Es tan ortodoxa como yo”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/seres-cargados-de-maldad-milei-comenzo-su-exposicion-en-una-universidad-con-otro-ataque-al-nid30102026/",
+      "acceso": "suscripcion",
+      "resumen": "Además, el presidente volvió a cargar contra los periodistas, a quienes llamó “seres cargados de maldad” y le respondió a Domingo Cavallo",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/VX2OF7IJQNFDVKFZSC2EXBQUYY.jpg?auth=c2d211266807febec599a43c40806ca28f49eea895f7e4cdba3c00867cf8948f&smart=true&width=1280&height=853",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.118,
+        "y1": 0.451
+      }
+    },
+    {
+      "id": "90fe797de6",
+      "seccion": "argentina",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-10-31T03:35:20-03:00",
+      "hora": "03:35",
+      "titulo": "Los Milei refuerzan su vínculo con la iglesia evangélica antes de la visita del papa León XIV",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/los-milei-refuerzan-su-vinculo-con-la-iglesia-evangelica-antes-de-la-visita-del-papa-leon-xiv-nid31102026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente y su hermana participaron de la celebración del Día de las Iglesias Evangélicas en el Museo de la Casa Rosada y hoy inaugurarán un templo cuyo pastor es el padre de una senadora libertaria",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/A6OM2AXT7VCNBOEIOA3J4F4G7M.JPG?auth=f85137cdf52286a11563fa4f44e284a52474d302f3bb02b8f56de4afd08b0a5b&smart=true&width=3000&height=1949",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.099,
+        "y1": 0.785
       }
     },
     {
@@ -549,143 +492,48 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "698af292b2",
-      "seccion": "economia",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-30T12:00:38-03:00",
-      "hora": "12:00",
-      "titulo": "El Gobierno postergó el aumento de impuestos a los combustibles correspondiente a noviembre",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-gobierno-postergo-el-aumento-de-impuestos-a-los-combustibles-correspondiente-a-noviembre/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno nacional dispuso -mediante el Decreto 1305/26-una nueva prórroga en la aplicación de los incrementos impositivos sobre los combustibles en todo el país para amortiguar el impacto inflacionario. En los considerandos se señaló que la prórroga fue dispuesta “con el propósito de continuar estimulando el crecimiento de la economía por medio de un sendero […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "d2be5d591a",
-      "seccion": "argentina",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-10-30T00:05:09-03:00",
-      "hora": "00:05",
-      "titulo": "Kicillof criticó a Milei por la falta de políticas ambientales y por negar el cambio climático",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-sesion-en-el-senado-y-el-viaje-de-karina-milei-a-rosario-nid29102026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/CGBF5ZRG6ZHDVLEEOFDEB4XTXI.JPG?auth=2e2c392bfb97318870a4ea8a0059b38c9c7d2952c5f3ca45e4c4141b001bc0f6&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.249,
-        "y1": 0.86
-      }
-    },
-    {
-      "id": "d4e360ddf3",
-      "seccion": "cordoba",
-      "rel": 20.4,
-      "relevancia": 20.4,
-      "fecha": "2026-10-30T11:02:11-03:00",
-      "hora": "11:02",
-      "titulo": "Córdoba sin Ley Ema: una discrecionalidad peligrosa ante la violencia digital escolar",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/opinion/cordoba-sin-ley-ema-una-discrecionalidad-peligrosa-ante-la-violencia-digital-escolar/",
-      "acceso": "abierto",
-      "resumen": "La responsabilidad de las escuelas siempre tuvo un perímetro claro: de la puerta para adentro y en el horario escolar. Pero los algoritmos hackearon los límites físicos y espaciales. Hoy, la violencia digital se gestiona a la madrugada desde una habitación, pero detona a las ocho de la mañana en el banco del aula escolar. […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "45ca763ebe",
-      "seccion": "cordoba",
-      "rel": 20.4,
-      "relevancia": 20.4,
-      "fecha": "2026-10-30T11:02:08-03:00",
-      "hora": "11:02",
-      "titulo": "Córdoba, quinta en el ranking nacional que promedia indicadores fiscales claves",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/cordoba-quinta-en-el-ranking-nacional-que-promedia-indicadores-fiscales-claves/",
-      "acceso": "abierto",
-      "resumen": "La provincia gestionada por Martín Llaryora aparece como la segunda mejor en “autonomía” y séptima en “resultado primario”. En tanto, figura segunda en “calidad del gasto”. Por el contrario, se ubica entre las peores en “exposición financiera”. Los datos surgen de un informe de Empiria Consultoras con datos del primer semestre del año. Tal como […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "0b7e96eca7",
-      "seccion": "economia",
-      "rel": 20.3,
-      "relevancia": 20.3,
-      "fecha": "2026-10-30T10:08:17-03:00",
-      "hora": "10:08",
-      "titulo": "El FMI se unió al reclamo de reactivar “el mercado interno” para mantener las cuentas",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-fmi-se-unio-al-reclamo-de-reactivar-el-mercado-interno-para-mantener-las-cuentas/",
-      "acceso": "abierto",
-      "resumen": "El Fondo Monetario Internacional (FMI) reveló hoy que acordó con el Gobierno argentino medidas orientadas a “impulsar” el crecimiento y “respaldar la demanda interna”, en momentos en que, según estimaciones privadas, la economía está por entrar en recesión técnica.Así lo informó la directora de comunicación del Fondo, Julie Kozack, durante una conferencia de prensa en […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "694d2dfc42",
-      "seccion": "cordoba",
-      "rel": 20.3,
-      "relevancia": 20.3,
-      "fecha": "2026-10-30T10:06:50-03:00",
-      "hora": "10:06",
-      "titulo": "Milei vuelve a España y crece la expectativa por un posible cruce con Lula en plena tensión",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/milei-vuelve-a-espana-y-crece-la-expectativa-por-un-posible-cruce-con-lula-en-plena-tension/",
-      "acceso": "abierto",
-      "resumen": "El presidente Javier Milei volverá a España la próxima semana para participar de una cumbre internacional que podría ponerlo nuevamente frente a frente con Luiz Inácio Lula da Silva. El encuentro se realizará en Madrid los días 4 y 5 de noviembre, en un contexto de fuertes diferencias entre ambos gobiernos.La eventual coincidencia entre los […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "fe243edb28",
+      "id": "f1fbc68960",
       "seccion": "cordoba",
       "rel": 20.0,
       "relevancia": 20.0,
-      "fecha": "2026-10-30T08:36:43-03:00",
-      "hora": "08:36",
-      "titulo": "Senado aprobó proyecto de reforma de Ley de Salud Mental que habilita internaciones involuntarias",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/senado-aprobo-proyecto-de-reforma-de-ley-de-salud-mental-que-habilita-internaciones-involuntarias/",
+      "fecha": "2026-10-30T20:32:30-03:00",
+      "hora": "20:32",
+      "titulo": "Martín Llaryora: “El Estado nacional hoy no inaugura ni un bicicletero”",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/martin-llaryora---el-estado-nacional-hoy-no-inaugura-ni-un-bicicletero-_a6ae5260e5a9d354f63703b8b",
       "acceso": "abierto",
-      "resumen": "El Senado aprobó el proyecto de reforma de la ley de Salud Mental, que permitirá las internaciones “involuntarias”, eliminará los manicomios y ampliará las adicciones que se tratarán como enfermedades mentales, como la ludopatía. La iniciativa que será girada a la Cámara de Diputados se aprobó con 42 contra 21 votos. El dictamen de mayoría […]",
+      "resumen": "El gobernador de Córdoba volvió a mostrar los contrastes de gestión respecto a la administración de Javier Milei.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae526cd5a9d354f63704364/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.096,
+        "y1": 0.924
+      }
+    },
+    {
+      "id": "ed0863b0f6",
+      "seccion": "cordoba",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-10-30T19:36:46-03:00",
+      "hora": "19:36",
+      "titulo": "El gremio docente exige la reapertura de la paritaria y advierte por posibles movilizaciones",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/hoy-cordoba/el-gremio-docente-exige-la-reapertura-de-la-paritaria-y-anuncia-movilizaciones/",
+      "acceso": "abierto",
+      "resumen": "La Unión de Educadores de la Provincia de Córdoba (UEPC) votó por amplia mayoría reclamar al Gobierno provincial una nueva discusión salarial y anticipó medidas de fuerza si no hay respuesta antes del 12 de noviembre.",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -704,32 +552,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/ZBJ3T53QNBEMBCAPYG2QEHIGEU.png?auth=b332cca724222b52cd4680d47f3f2636808d0bbdb238c315d7f77bf61248eced&smart=true&width=2000&height=1414",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.155,
         "y1": 0.771
-      }
-    },
-    {
-      "id": "51505415c6",
-      "seccion": "argentina",
-      "rel": 19.3,
-      "relevancia": 19.3,
-      "fecha": "2026-10-30T16:11:10-03:00",
-      "hora": "16:11",
-      "titulo": "A pedido de la Iglesia, Milei garantiza presencia oficial en todos los actos del papa León XIV",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/a-pedido-de-la-iglesia-milei-garantiza-presencia-oficial-en-todos-los-actos-del-papa-leon-xiv-nid30102026/",
-      "acceso": "suscripcion",
-      "resumen": "La presencia de referentes del gobierno nacional en cada una de las ceremonias fue un pedido de la organización",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RFTKSYLM45HIZHF3EZXPVAOZ54.jpg?auth=af2984a13d3c05ad979ccbc5f2befa642139eb965a9f60138fddd2e4b4f6e3af&smart=true&width=1280&height=853",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.062,
-        "y1": 0.408
       }
     },
     {
@@ -748,43 +574,100 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae3476268357ce5aa42adfa/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.222,
         "y1": 0.744
       }
     },
     {
-      "id": "05a45213e7",
+      "id": "698af292b2",
       "seccion": "economia",
-      "rel": 18.9,
-      "relevancia": 18.9,
-      "fecha": "2026-10-30T13:53:00-03:00",
-      "hora": "13:53",
-      "titulo": "El Gobierno aumentará los subsidios a los colectivos, pero solo en el AMBA",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/gobierno-subsidios-colectivos-amba/",
+      "rel": 18.6,
+      "relevancia": 18.6,
+      "fecha": "2026-10-30T12:00:38-03:00",
+      "hora": "12:00",
+      "titulo": "El Gobierno postergó el aumento de impuestos a los combustibles correspondiente a noviembre",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/el-gobierno-postergo-el-aumento-de-impuestos-a-los-combustibles-correspondiente-a-noviembre/",
       "acceso": "abierto",
-      "resumen": "La medida alcanzará a 104 líneas que conectan la Ciudad de Buenos Aires con el conurbano bonaerense.",
+      "resumen": "El Gobierno nacional dispuso -mediante el Decreto 1305/26-una nueva prórroga en la aplicación de los incrementos impositivos sobre los combustibles en todo el país para amortiguar el impacto inflacionario. En los considerandos se señaló que la prórroga fue dispuesta “con el propósito de continuar estimulando el crecimiento de la economía por medio de un sendero […]",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "4d92775875",
+      "id": "d4e360ddf3",
       "seccion": "cordoba",
-      "rel": 18.5,
-      "relevancia": 18.5,
-      "fecha": "2026-10-29T23:37:41-03:00",
-      "hora": "23:37",
-      "titulo": "RIGI: Llaryora reclamó financiamiento para que empresas provinciales se sumen como proveedores",
+      "rel": 18.4,
+      "relevancia": 18.4,
+      "fecha": "2026-10-30T11:02:11-03:00",
+      "hora": "11:02",
+      "titulo": "Córdoba sin Ley Ema: una discrecionalidad peligrosa ante la violencia digital escolar",
       "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/rigi-llaryora-reclamo-financiamiento-para-que-empresas-provinciales-se-sumen-como-proveedores/",
+      "url": "https://comercioyjusticia.info/opinion/cordoba-sin-ley-ema-una-discrecionalidad-peligrosa-ante-la-violencia-digital-escolar/",
       "acceso": "abierto",
-      "resumen": "El gobernador Martín Llaryora consideró que la estrategia para insertar a las empresas provinciales como potencionales proveedoras de aquellas multinacionales con inversiones multimillonarias amparadas por el RIGI, deberá necesariamente incluir financiamiento para que puedan adecuar su capacidad productiva a las nuevas demandas. “Lo que tenemos que hacer es una política de largo plazo de transformación […]",
+      "resumen": "La responsabilidad de las escuelas siempre tuvo un perímetro claro: de la puerta para adentro y en el horario escolar. Pero los algoritmos hackearon los límites físicos y espaciales. Hoy, la violencia digital se gestiona a la madrugada desde una habitación, pero detona a las ocho de la mañana en el banco del aula escolar. […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "45ca763ebe",
+      "seccion": "cordoba",
+      "rel": 18.4,
+      "relevancia": 18.4,
+      "fecha": "2026-10-30T11:02:08-03:00",
+      "hora": "11:02",
+      "titulo": "Córdoba, quinta en el ranking nacional que promedia indicadores fiscales claves",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/cordoba-quinta-en-el-ranking-nacional-que-promedia-indicadores-fiscales-claves/",
+      "acceso": "abierto",
+      "resumen": "La provincia gestionada por Martín Llaryora aparece como la segunda mejor en “autonomía” y séptima en “resultado primario”. En tanto, figura segunda en “calidad del gasto”. Por el contrario, se ubica entre las peores en “exposición financiera”. Los datos surgen de un informe de Empiria Consultoras con datos del primer semestre del año. Tal como […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "0b7e96eca7",
+      "seccion": "economia",
+      "rel": 18.3,
+      "relevancia": 18.3,
+      "fecha": "2026-10-30T10:08:17-03:00",
+      "hora": "10:08",
+      "titulo": "El FMI se unió al reclamo de reactivar “el mercado interno” para mantener las cuentas",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/el-fmi-se-unio-al-reclamo-de-reactivar-el-mercado-interno-para-mantener-las-cuentas/",
+      "acceso": "abierto",
+      "resumen": "El Fondo Monetario Internacional (FMI) reveló hoy que acordó con el Gobierno argentino medidas orientadas a “impulsar” el crecimiento y “respaldar la demanda interna”, en momentos en que, según estimaciones privadas, la economía está por entrar en recesión técnica.Así lo informó la directora de comunicación del Fondo, Julie Kozack, durante una conferencia de prensa en […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "694d2dfc42",
+      "seccion": "cordoba",
+      "rel": 18.3,
+      "relevancia": 18.3,
+      "fecha": "2026-10-30T10:06:50-03:00",
+      "hora": "10:06",
+      "titulo": "Milei vuelve a España y crece la expectativa por un posible cruce con Lula en plena tensión",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/milei-vuelve-a-espana-y-crece-la-expectativa-por-un-posible-cruce-con-lula-en-plena-tension/",
+      "acceso": "abierto",
+      "resumen": "El presidente Javier Milei volverá a España la próxima semana para participar de una cumbre internacional que podría ponerlo nuevamente frente a frente con Luiz Inácio Lula da Silva. El encuentro se realizará en Madrid los días 4 y 5 de noviembre, en un contexto de fuertes diferencias entre ambos gobiernos.La eventual coincidencia entre los […]",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
@@ -808,6 +691,44 @@
       "imagen": "https://www.infobae.com/resizer/v2/7FGMBBNKVFHMRJFRYOIZYDM2OU.jpg?auth=ed9fdb2b4aa54aa9d7353841674ff81a5c362b01cb07c20e0c515589f70370f5&smart=true&width=1920&height=1279",
       "imagen_credito": "Infobae",
       "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "fe243edb28",
+      "seccion": "cordoba",
+      "rel": 18.0,
+      "relevancia": 18.0,
+      "fecha": "2026-10-30T08:36:43-03:00",
+      "hora": "08:36",
+      "titulo": "Senado aprobó proyecto de reforma de Ley de Salud Mental que habilita internaciones involuntarias",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/senado-aprobo-proyecto-de-reforma-de-ley-de-salud-mental-que-habilita-internaciones-involuntarias/",
+      "acceso": "abierto",
+      "resumen": "El Senado aprobó el proyecto de reforma de la ley de Salud Mental, que permitirá las internaciones “involuntarias”, eliminará los manicomios y ampliará las adicciones que se tratarán como enfermedades mentales, como la ludopatía. La iniciativa que será girada a la Cámara de Diputados se aprobó con 42 contra 21 votos. El dictamen de mayoría […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "392cfaef81",
+      "seccion": "economia",
+      "rel": 17.9,
+      "relevancia": 17.9,
+      "fecha": "2026-10-31T08:00:00-03:00",
+      "hora": "08:00",
+      "titulo": "Los mercados siguen en negativo, ahora por balances corporativos en rojo",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/los-mercados-siguen-en-negativo-ahora-por-balances-corporativos-en-rojo/",
+      "acceso": "abierto",
+      "resumen": "Luego del impacto de la tensión institucional en Brasil, ayer se sumaron datos sobre los resultados de empresas regionales cuyos números fueron negativos. El riesgo país argentino rozó 800 puntos Wall Street operó con fuertes pérdidas ayer viernes luego de la presentación de balances corporativos e inclinó la balanza en las bolsas de la región, […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
@@ -827,7 +748,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -846,11 +767,87 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/TO5LYISL65BXZC5ADXLKC4VRPA.JPG?auth=308544eb17b248818489f3debcbaaac592839375401da51a58e02c04a2a3f837&smart=true&width=3000&height=2000",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.144,
         "y1": 0.652
       }
+    },
+    {
+      "id": "05a45213e7",
+      "seccion": "economia",
+      "rel": 16.9,
+      "relevancia": 16.9,
+      "fecha": "2026-10-30T13:53:00-03:00",
+      "hora": "13:53",
+      "titulo": "El Gobierno aumentará los subsidios a los colectivos, pero solo en el AMBA",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/gobierno-subsidios-colectivos-amba/",
+      "acceso": "abierto",
+      "resumen": "La medida alcanzará a 104 líneas que conectan la Ciudad de Buenos Aires con el conurbano bonaerense.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "cd0fe4628d",
+      "seccion": "economia",
+      "rel": 15.5,
+      "relevancia": 15.5,
+      "fecha": "2026-10-30T17:28:55-03:00",
+      "hora": "17:28",
+      "titulo": "UEPC: la Asamblea Provincial aprobó exigir la reapertura de la paritaria",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/uepc--la-asamblea-provincial-aprobo-exigir-la-reapertura-de-la-paritaria_a6ae4fc5c5a9d354f636ecace",
+      "acceso": "abierto",
+      "resumen": "Los delegados departamentales aprobaron discutir una nueva paritaria que garantice derechos y mejore el poder adquisitivo.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6ae4fc945a9d354f636ecdc7/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "069c157948",
+      "seccion": "economia",
+      "rel": 14.4,
+      "relevancia": 14.4,
+      "fecha": "2026-10-30T11:02:09-03:00",
+      "hora": "11:02",
+      "titulo": "El recurso que nunca figura en el presupuesto",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/negocios/el-recurso-que-nunca-figura-en-el-presupuesto/",
+      "acceso": "abierto",
+      "resumen": "Por qué la creatividad sigue siendo la herramienta más poderosa del marketing, especialmente cuando los presupuestos se achican Últimamente, en mis conversaciones con colegas y con clientes, aparece una frase que se repite cada vez más: no hay presupuesto. No es una novedad que los ciclos económicos ajusten los planes de inversión en comunicación. Lo […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "482080f212",
+      "seccion": "cordoba",
+      "rel": 14.0,
+      "relevancia": 14.0,
+      "fecha": "2026-10-30T20:42:00-03:00",
+      "hora": "20:42",
+      "titulo": "Finalizó el Primer Congreso Internacional sobre crimen Organizado y Lucha contra el Narcotráfico",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/finalizo-el-primer-congreso-internacional-sobre-crimen-organizado-y-lucha-contra-el-narcotrafico/",
+      "acceso": "abierto",
+      "resumen": "El evento cerró con la disertación del fiscal general adjunto Héctor David",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
     }
   ],
   "opinion": []
