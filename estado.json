@@ -1,53 +1,53 @@
 {
-  "actualizado": "2026-11-01T08:24:52-03:00",
+  "actualizado": "2026-11-01T13:28:01-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Renfe mantiene activo su plan de asistencia a los familiares de las víctimas del",
-            "Localizada una embarcación con cuatro migrantes a punto de hundirse en aguas del",
-            "Putin vuelve a colarse en unas elecciones en Estados Unidos"
+            "Turco Mohamed se lanza contra el América tras empatar de manera polémica",
+            "Confirman 11 mexicanos lesionados tras el choque de trenes en España: la SRE sig",
+            "Gran Desfile de Día de Muertos en CDMX reúne a más de 1.6 millones de personas"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cuánto aumentarán la luz, el gas y el agua en noviembre y qué nuevos ajustes est"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 7,
+      "leidas": 98,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 76,
+          "cantidad": 75,
           "ejemplos": [
-            "U.Natural: el método de entrenamiento que utiliza el peso corporal para optimiza",
-            "Hay alertas por tormentas, lluvias y vientos fuertes para este domingo 1 de novi",
-            "La vuelta de las cartas: escribir a mano, un ritual que revive en la era digital"
+            "Boca vs. River, en vivo: horario, TV y formaciones",
+            "La muerte de Marcela Giorgi: Cormillot, Tarico, Feinmann y otras figuras despidi",
+            "Deportaciones masivas: son inmigrantes y eligieron el encierro por temor a las r"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 12,
+          "ejemplos": [
+            "El Niño: anticipan focos de 200 milímetros en una región del país",
+            "Calendario AUH de Anses: cuándo se cobra la Asignación Universal por Hijo en nov",
+            "De cuánto es el bono de noviembre 2026 para jubilados y a quiénes les correspond"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "Estiman que la inflación de octubre se habría ubicado entre el 1,8% y el 2%",
-            "Qué se puede hacer para reactivar la economía sin modificar el rumbo"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 9,
-          "ejemplos": [
-            "La AFA ordenó transferencias a 10 sociedades bajo sospecha con la firma de un ex",
-            "Opinión: perdimos un 36% del rodeo vacuno y nadie se hace cargo",
-            "Thiago tiene 14 años, construyó un tractor y ahora quiere automatizarlo: “Lo hic"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno busca evitar fricciones en la visita del papa León XIV y envía señal"
+            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q",
+            "Estiman que la inflación de octubre se habría ubicado entre el 1,8% y el 2%"
           ]
         }
       }
@@ -58,7 +58,7 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
             "¿Qué puede hacer la escuela con las deepfakes sexuales?",
@@ -66,24 +66,26 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 6,
+          "cantidad": 7,
           "ejemplos": [
+            "Un paisaje que se derrama: notas sobre la muestra “Argentina” de Mondongo",
             "Solamente muero los 21 y los 1° ya me siento bien",
-            "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes",
-            "Lula le ganó a la derecha y abre una nueva etapa para Brasil y América Latina"
+            "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
+      "leidas": 6,
       "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Un agente de la SIDE coordinó la fuga de Flavio Bolsonaro"
+            "Un agente de la SIDE coordinó la fuga de Flavio Bolsonaro",
+            "Autodestrucción",
+            "Noé"
           ]
         }
       }
@@ -91,14 +93,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
-            "Domingo inestable en Córdoba con una máxima de 25°C y probabilidad de tormentas",
-            "Cortes de luz en Córdoba: localidades y barrios afectados este domingo",
-            "Instituto empató 3 a 3 con Estudiantes en La Plata en un partidazo"
+            "Argentina encabeza el uso de inteligencia artificial a nivel mundial",
+            "La agenda de fútbol para este domingo",
+            "Irán declaró a las fuerzas navales y aéreas del Reino Unido como «organizaciones"
           ]
         }
       }
@@ -106,30 +108,28 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 16,
+      "aceptadas": 7,
       "descartadas": {
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Congreso ingresa en etapa de hiperactividad con proyectos claves para el Gobi"
+          ]
+        },
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 5,
           "ejemplos": [
             "El canciller Quirno ratificó el pleno alineamiento con Estados Unidos",
             "Los envíos de la Nación a las provincias subieron 0,5% en octubre",
             "La visita del papa: primer ensayo general en Fadea a días de la llegada de León "
           ]
         },
-        "otro país": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El Papa León XIV votó por correo en las elecciones de EE UU desde el Vaticano",
-            "Exportar a Estados Unidos: las claves comerciales y regulatorias para las pymes",
-            "Bausili dijo que “no proyecta una corrida” para 2027 y defendió la gestión del o"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 49,
+          "cantidad": 67,
           "ejemplos": [
-            "Lanzaron una guía con 15 pasos para intervenir ante la violencia digital en las ",
-            "Mes de sensibilización sobre el cáncer de mama: SanCor Salud realizó chequeos gr",
-            "Fepuc defendió la colegiación profesional ante los planteos de desregulación de "
+            "El TSJ actualizó el valor de las cédulas de notificación para ujieres en Córdoba",
+            "El Gobierno postergó el aumento de impuestos a los combustibles correspondiente ",
+            "El Papa León XIV votó por correo en las elecciones de EE UU desde el Vaticano"
           ]
         }
       }
@@ -137,14 +137,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 18,
           "ejemplos": [
-            "Colapinto le apuntó a Gasly por una maniobra que lo complicó en México",
-            "Un grande de Brasil anunció a Messi como refuerzo, pero todo terminó en una desi",
-            "Madame Bovary, de Gustave Flaubert, será el eje de un encuentro virtual"
+            "Vaca Muerta Ediciones: la invención como forma de hacer",
+            "A propósito del encuentro con un bovino (muerto él), y eso que llamamos libro",
+            "El texto es mío, el libro es de ambos"
           ]
         }
       }
