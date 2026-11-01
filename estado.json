@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-31T20:26:33-03:00",
+  "actualizado": "2026-11-01T08:24:52-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,36 +9,45 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 31 de octubre: a jovenci",
-            "Lali Espósito y Pedro Rosemblat se casaron en San Telmo: quiénes son los invitad",
-            "Llaneros vs. Junior, en vivo - Liga BetPlay: siga el minuto a minuto del bicampe"
+            "Renfe mantiene activo su plan de asistencia a los familiares de las víctimas del",
+            "Localizada una embarcación con cuatro migrantes a punto de hundirse en aguas del",
+            "Putin vuelve a colarse en unas elecciones en Estados Unidos"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 9,
+      "leidas": 95,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 81,
+          "cantidad": 76,
           "ejemplos": [
-            "Se casaron Lali Espósito y Pedro Rosemblat: del primer mensaje en Instagram a da",
-            "Son argentinos, fundaron un club en EE.UU. que sueña con competir contra Messi y",
-            "Roberto Siguero, maquillador: “Para disimular las arrugas de los labios después "
+            "U.Natural: el método de entrenamiento que utiliza el peso corporal para optimiza",
+            "Hay alertas por tormentas, lluvias y vientos fuertes para este domingo 1 de novi",
+            "La vuelta de las cartas: escribir a mano, un ritual que revive en la era digital"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Un diputado opositor solicitó a la AGN una auditoría integral de la privatizació"
+            "Estiman que la inflación de octubre se habría ubicado entre el 1,8% y el 2%",
+            "Qué se puede hacer para reactivar la economía sin modificar el rumbo"
           ]
         },
         "titular sin tema de política/economía": {
+          "cantidad": 9,
+          "ejemplos": [
+            "La AFA ordenó transferencias a 10 sociedades bajo sospecha con la firma de un ex",
+            "Opinión: perdimos un 36% del rodeo vacuno y nadie se hace cargo",
+            "Thiago tiene 14 años, construyó un tractor y ahora quiere automatizarlo: “Lo hic"
+          ]
+        },
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Aumenta el transporte público: cómo queda el boleto de colectivos y subte a part"
+            "El Gobierno busca evitar fricciones en la visita del papa León XIV y envía señal"
           ]
         }
       }
@@ -68,15 +77,13 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 2,
+      "leidas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 1,
           "ejemplos": [
-            "La visita del papa León XIV a la Argentina ya comenzó",
-            "Marco Rubio negó la intervención de Washington en la fuga de Bolsonaro",
-            "Autodestrucción"
+            "Un agente de la SIDE coordinó la fuga de Flavio Bolsonaro"
           ]
         }
       }
@@ -84,14 +91,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 16,
           "ejemplos": [
-            "Colapinto no superó la Q2 y largará decimosegundo en el GP de México",
-            "La guía del terror: diez películas para ver en Halloween y disponibles en stream",
-            "Clausuraron 22 comercios y una fiesta clandestina con 290 menores"
+            "Domingo inestable en Córdoba con una máxima de 25°C y probabilidad de tormentas",
+            "Cortes de luz en Córdoba: localidades y barrios afectados este domingo",
+            "Instituto empató 3 a 3 con Estudiantes en La Plata en un partidazo"
           ]
         }
       }
@@ -99,14 +106,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 17,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 12,
           "ejemplos": [
+            "El canciller Quirno ratificó el pleno alineamiento con Estados Unidos",
             "Los envíos de la Nación a las provincias subieron 0,5% en octubre",
-            "La visita del papa: primer ensayo general en Fadea a días de la llegada de León ",
-            "Nueva prórroga: contribuyentes tendrán más tiempo para presentar las declaracion"
+            "La visita del papa: primer ensayo general en Fadea a días de la llegada de León "
           ]
         },
         "otro país": {
@@ -118,11 +125,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 46,
+          "cantidad": 49,
           "ejemplos": [
-            "Recuento final en Israel: el Likud de Netanyahu fue el partido más votado, pero ",
-            "Puerto Iguazú: desestimaron denuncias por el ingreso de Flávio Bolsonaro al país",
-            "Prórroga en el régimen de Factura de Crédito Electrónica Mipymes hasta 2027"
+            "Lanzaron una guía con 15 pasos para intervenir ante la violencia digital en las ",
+            "Mes de sensibilización sobre el cáncer de mama: SanCor Salud realizó chequeos gr",
+            "Fepuc defendió la colegiación profesional ante los planteos de desregulación de "
           ]
         }
       }
