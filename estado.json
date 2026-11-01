@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-01T13:28:01-03:00",
+  "actualizado": "2026-11-01T20:27:38-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,47 +7,26 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 100,
           "ejemplos": [
-            "Turco Mohamed se lanza contra el América tras empatar de manera polémica",
-            "Confirman 11 mexicanos lesionados tras el choque de trenes en España: la SRE sig",
-            "Gran Desfile de Día de Muertos en CDMX reúne a más de 1.6 millones de personas"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Cuánto aumentarán la luz, el gas y el agua en noviembre y qué nuevos ajustes est"
+            "EN VIVO | Calles cerradas y bloqueos en CDMX y Edomex hoy 1 de noviembre: operat",
+            "Cómo saber si alguien espía su WhatsApp y los pasos para recuperarlo",
+            "Operativo en Ezeiza: atendieron a un grupo de turistas que llegó en un vuelo des"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 98,
-      "aceptadas": 9,
+      "leidas": 94,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 88,
           "ejemplos": [
-            "Boca vs. River, en vivo: horario, TV y formaciones",
-            "La muerte de Marcela Giorgi: Cormillot, Tarico, Feinmann y otras figuras despidi",
-            "Deportaciones masivas: son inmigrantes y eligieron el encierro por temor a las r"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 12,
-          "ejemplos": [
-            "El Niño: anticipan focos de 200 milímetros en una región del país",
-            "Calendario AUH de Anses: cuándo se cobra la Asignación Universal por Hijo en nov",
-            "De cuánto es el bono de noviembre 2026 para jubilados y a quiénes les correspond"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q",
-            "Estiman que la inflación de octubre se habría ubicado entre el 1,8% y el 2%"
+            "Gran Premio de México: Kimi Antonelli se consagró campeón a los 20 años y Franco",
+            "Silvana, empleada, volvió a la chacra de sus abuelos junto a su marido: “Si tené",
+            "La semilla que aporta nutrientes y ayuda a cuidar la masa muscular"
           ]
         }
       }
@@ -78,14 +57,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "Un agente de la SIDE coordinó la fuga de Flavio Bolsonaro",
-            "Autodestrucción",
-            "Noé"
+            "La operación para acercar a los represores al papa León XIV",
+            "El guionista argentino",
+            "Boca ganó el Superclásico porque River solo quiso pelear"
           ]
         }
       }
@@ -93,14 +72,27 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 11,
           "ejemplos": [
-            "Argentina encabeza el uso de inteligencia artificial a nivel mundial",
-            "La agenda de fútbol para este domingo",
-            "Irán declaró a las fuerzas navales y aéreas del Reino Unido como «organizaciones"
+            "Kimi Antonelli se consagró campeón y Colapinto terminó octavo en el GP de México",
+            "Mientras las motos rozan récords históricos, cae la venta de autos 0km",
+            "Diego Palma, el campeón del mundo que sueña con formar a su propio campeón"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Passerini está dulce: con dos golazos suyos, Belgrano vence 2-0 a Barracas Centr"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Trump cierra la campaña mientras los sondeos anticipan una derrota republicana",
+            "Flávio Bolsonaro reapareció desde Estados Unidos y prometió liderar la oposición"
           ]
         }
       }
@@ -108,7 +100,7 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 7,
+      "aceptadas": 4,
       "descartadas": {
         "otro país": {
           "cantidad": 1,
@@ -117,7 +109,7 @@
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 4,
           "ejemplos": [
             "El canciller Quirno ratificó el pleno alineamiento con Estados Unidos",
             "Los envíos de la Nación a las provincias subieron 0,5% en octubre",
@@ -125,11 +117,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 67,
+          "cantidad": 71,
           "ejemplos": [
-            "El TSJ actualizó el valor de las cédulas de notificación para ujieres en Córdoba",
-            "El Gobierno postergó el aumento de impuestos a los combustibles correspondiente ",
-            "El Papa León XIV votó por correo en las elecciones de EE UU desde el Vaticano"
+            "Con 790 puntos, el riesgo país tocó un nuevo máximo en lo que va del año",
+            "“Cubriremos todas las pérdidas económicas”, dijo Richard Teng, CEO de Binance, t",
+            "$LIBRA: una fiscalía especializada apeló el sobreseimiento de Milei"
           ]
         }
       }
@@ -137,14 +129,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 15,
           "ejemplos": [
-            "Vaca Muerta Ediciones: la invención como forma de hacer",
-            "A propósito del encuentro con un bovino (muerto él), y eso que llamamos libro",
-            "El texto es mío, el libro es de ambos"
+            "De promesa a campeón del mundo: Kimi Antonelli se metió en la historia grande de",
+            "Colapinto volvió a los puntos en México y Antonelli hizo historia: es campeón de",
+            "Boca venció a River en un superclásico cargado de polémica"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "EN VIVO: Belgrano le gana a Barracas con un doblete de Passerini"
           ]
         }
       }
