@@ -1,32 +1,60 @@
 {
-  "actualizado": "2026-11-01T20:27:38-03:00",
+  "actualizado": "2026-11-02T08:44:31-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 97,
           "ejemplos": [
-            "EN VIVO | Calles cerradas y bloqueos en CDMX y Edomex hoy 1 de noviembre: operat",
-            "Cómo saber si alguien espía su WhatsApp y los pasos para recuperarlo",
-            "Operativo en Ezeiza: atendieron a un grupo de turistas que llegó en un vuelo des"
+            "Quién es el sastre argentino que vestirá al Papa León XIV en su visita al país",
+            "El director ejecutivo de Nvidia calculó en USD 2.000 por chip al año la licencia",
+            "Cris Morena celebró la primera victoria de Valentín Yankelevich en el TC2000 con"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "CyberMonday 2026: cómo aprovechar los descuentos, las cuotas y el envío gratis a"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Dólar, plazo fijo, acciones o cripto: cuál fue la mejor inversión en octubre"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 6,
+      "leidas": 87,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 88,
+          "cantidad": 68,
           "ejemplos": [
-            "Gran Premio de México: Kimi Antonelli se consagró campeón a los 20 años y Franco",
-            "Silvana, empleada, volvió a la chacra de sus abuelos junto a su marido: “Si tené",
-            "La semilla que aporta nutrientes y ayuda a cuidar la masa muscular"
+            "El plan demócrata para reformar la Corte Suprema que podría avanzar después de l",
+            "Elecciones en Florida 2026: quiénes son los candidatos a la gobernación y qué se",
+            "Día de Todos los Muertos: qué se celebra hoy y cómo es la tradición en la Argent"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Récord: la agroexportación registró el mejor octubre de los últimos 25 años con ",
+            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q",
+            "Los conflictos de intereses que frenan la nueva ley de Biocombustibles"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 9,
+          "ejemplos": [
+            "Calendario AUH de Anses: cuándo se cobra la Asignación Universal por Hijo en nov",
+            "De cuánto es el bono de noviembre 2026 para jubilados y a quiénes les correspond",
+            "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026"
           ]
         }
       }
@@ -62,7 +90,7 @@
         "titular sin tema de política/economía": {
           "cantidad": 5,
           "ejemplos": [
-            "La operación para acercar a los represores al papa León XIV",
+            "La fábrica donde trabajan cerró, no consiguen changas y no llegan al día 20 del ",
             "El guionista argentino",
             "Boca ganó el Superclásico porque River solo quiso pelear"
           ]
@@ -72,27 +100,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 12,
           "ejemplos": [
-            "Kimi Antonelli se consagró campeón y Colapinto terminó octavo en el GP de México",
-            "Mientras las motos rozan récords históricos, cae la venta de autos 0km",
+            "Alertas meteorológicas: cómo recibir las notificaciones en tiempo real a través ",
+            "La cuarta jornada de la Feria estará colmada de encuentros literarios y novedade",
             "Diego Palma, el campeón del mundo que sueña con formar a su propio campeón"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Passerini está dulce: con dos golazos suyos, Belgrano vence 2-0 a Barracas Centr"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Trump cierra la campaña mientras los sondeos anticipan una derrota republicana",
-            "Flávio Bolsonaro reapareció desde Estados Unidos y prometió liderar la oposición"
+            "Trump cierra la campaña mientras los sondeos anticipan una derrota republicana"
           ]
         }
       }
@@ -100,28 +121,28 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 15,
+          "ejemplos": [
+            "Arrancó el Cyber Monday: tres días de descuentos masivos, cuotas y más de 15.000",
+            "Nace una cooperativa para impulsar la innovación y la soberanía tecnológica en s",
+            "De Córdoba al mundo: Gabriel Rabinovich recibirá el Doctor Honoris Causa de la B"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "El Congreso ingresa en etapa de hiperactividad con proyectos claves para el Gobi"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 4,
-          "ejemplos": [
-            "El canciller Quirno ratificó el pleno alineamiento con Estados Unidos",
-            "Los envíos de la Nación a las provincias subieron 0,5% en octubre",
-            "La visita del papa: primer ensayo general en Fadea a días de la llegada de León "
-          ]
-        },
         "muy vieja": {
-          "cantidad": 71,
+          "cantidad": 59,
           "ejemplos": [
-            "Con 790 puntos, el riesgo país tocó un nuevo máximo en lo que va del año",
-            "“Cubriremos todas las pérdidas económicas”, dijo Richard Teng, CEO de Binance, t",
-            "$LIBRA: una fiscalía especializada apeló el sobreseimiento de Milei"
+            "Los mercados siguen en negativo, ahora por balances corporativos en rojo",
+            "Nueva prórroga: contribuyentes tendrán más tiempo para presentar las declaracion",
+            "Finalizó el Primer Congreso Internacional sobre crimen Organizado y Lucha contra"
           ]
         }
       }
@@ -129,20 +150,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 17,
           "ejemplos": [
-            "De promesa a campeón del mundo: Kimi Antonelli se metió en la historia grande de",
-            "Colapinto volvió a los puntos en México y Antonelli hizo historia: es campeón de",
-            "Boca venció a River en un superclásico cargado de polémica"
+            "Cecilia Dieleke hizo historia con su oro en Dakar 2026",
+            "Qué cambios se introducen en el calendario de vacunación obligatoria en el país",
+            "Alertas meteorológicas en Córdoba: cómo recibir las notificaciones en tiempo rea"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "EN VIVO: Belgrano le gana a Barracas con un doblete de Passerini"
+            "Passerini estalló contra el árbitro tras la igualdad de Belgrano: “Se jugó hasta"
           ]
         }
       }
