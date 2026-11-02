@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-02T13:54:15-03:00",
+  "actualizado": "2026-11-02T20:29:48-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,49 +7,54 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 98,
           "ejemplos": [
-            "La Catrina monumental no se va del Zócalo: hasta qué día de noviembre podrás ver",
-            "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 2 de noviembre: detienen",
-            "Un incendio forestal en Velefique (Almería) obliga a movilizar un amplio disposi"
+            "El truco de Amal Clooney para transformar sus looks: así elige el calzado según ",
+            "Atlético Bucaramanga vs. Atlético Nacional - en vivo HOY: siga aquí el partido d",
+            "Richard Pellejero indica que “los muchachos están ilusionados” con hacer histori"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "El Papamóvil argentino ya está listo para León XIV: los detalles de un vehículo ",
-            "Tras 35 años en la Patagonia, Benetton vendió sus 900.000 hectáreas en la Argent",
-            "Se dispara el negocio de los alquileres en Luján por la visita del Papa: cuánto "
+            "El Papa León XIV en Luján: cómo llegar, horarios, cortes de rutas, accesos y qué"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 85,
-      "aceptadas": 12,
+      "leidas": 87,
+      "aceptadas": 10,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 64,
+          "cantidad": 66,
           "ejemplos": [
-            "Tras sus cruces con Milei, Pedro Sánchez advirtió que España “no se gobierna des",
-            "Se aproxima un frente de baja presión que traerá tormentas fuertes, lluvias abun",
-            "Qué se sabe de la visita del Papa León XIV a la Argentina: cuándo son los feriad"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El Gobierno se queda sin tiempo para eliminar las PASO y todavía no consigue des",
-            "El salario pretendido promedio aumentó 2,19% en el tercer trimestre y quedó por "
+            "Quilmes Rock 2027: se anunció el line up completo del festival, con grandes figu",
+            "Brad Pitt compró una finca de 500 hectáreas por 60 millones de dólares y la tran",
+            "Planta cebra: la suculenta de hojas rayadas que es fácil de cuidar e ideal para "
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 7,
           "ejemplos": [
-            "El día que allanaron sus oficinas, Vallejo transfirió $2100 millones a una empre",
-            "Visec: cuestionan las condiciones del sistema de trazabilidad para exportar a Eu",
-            "ATE anunció protestas en 27 aeropuertos para el viernes y podrían registrarse de"
+            "El poderío chino que abre oportunidades para la Argentina en un sector estratégi",
+            "El Renatre ya certificó a 17 empresas por sus prácticas laborales y otras 15 bus",
+            "La Mesa de Enlace participará de un encuentro con León XIV junto a sindicalistas"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "La recaudación tributaria creció 0,7% en octubre y acumuló cuatro meses sin caíd",
+            "Dólares del colchón: la UIF reglamentó los controles antilavado y completó el es",
+            "Dólares: pese al récord de octubre, en 2026 las cerealeras ingresarán, con US$28"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Senado con poca actividad: sin sesión esta semana, podría haber dictamen de d"
           ]
         }
       }
@@ -80,13 +85,19 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La situación económica es la principal preocupación de los jóvenes y afecta su s"
+          ]
+        },
         "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "La fábrica donde trabajan cerró, no consiguen changas y no llegan al día 20 del ",
-            "El estremecedor audio de la tripulación del avión que se estrelló en Palm Beach"
+            "Subastan el vestuario que Moria Casán usó en la serie en beneficio de Fundación ",
+            "Likes, trends y nuevas olas: Adepa premia una nota de Página|12 sobre el present"
           ]
         }
       }
@@ -94,14 +105,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 13,
           "ejemplos": [
-            "Francia suma bajas por lesión antes de enfrentar a Los Pumas",
-            "Córdoba XV se quedó con el subcampeonato en Junín",
-            "Mariah Carey anunció el inicio de la Navidad con su clásico video anual"
+            "Argentina se ubica entre los líderes globales en más de 50 productos agroindustr",
+            "Aumentaron las multas: cruzar un semáforo en rojo en Córdoba cuesta hasta $1,7 m",
+            "Las Rabonas: propuesta turística con naturaleza, cultura y sabores de Traslasier"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Trump endureció sus críticas a los demócratas en la previa de las elecciones leg"
           ]
         }
       }
@@ -109,14 +126,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 9,
+      "aceptadas": 11,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 22,
           "ejemplos": [
-            "Apross: oficializan un aumento en las cuotas para afiliados voluntarios",
-            "Arrancó el Cyber Monday: tres días de descuentos masivos, cuotas y más de 15.000",
-            "Nace una cooperativa para impulsar la innovación y la soberanía tecnológica en s"
+            "Rosario, entre los diez destinos que serán tendencia global en 2027",
+            "Santo Domingo: historia, paisajes y sabores imperdibles en el corazón del Caribe",
+            "Casa Lucia se incorpora a la selección de hoteles recomendados por la Guía MICHE"
           ]
         },
         "otro país": {
@@ -126,11 +143,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 55,
+          "cantidad": 46,
           "ejemplos": [
+            "Los envíos de la Nación a las provincias subieron 0,5% en octubre",
             "La visita del papa: primer ensayo general en Fadea a días de la llegada de León ",
-            "Paritarias: Llaryora, obligado a negociar con la UEPC para evitar un cierre del ",
-            "Los mercados siguen en negativo, ahora por balances corporativos en rojo"
+            "Paritarias: Llaryora, obligado a negociar con la UEPC para evitar un cierre del "
           ]
         }
       }
@@ -138,20 +155,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 12,
           "ejemplos": [
-            "Estados del Arte: música y memoria",
-            "La movilidad eléctrica se sumó a Cuotazas y podrá financiarse en 20 cuotas sin i",
-            "Tras el femicidio de Nancy Godoy, la desprotección en las escuelas rurales de Ar"
+            "Conmoción en el fútbol español: un jugador sufrió un paro cardíaco tras un rodil",
+            "Día negro para Nueva Chicago: cayó ante Chacarita y jugará en la B Metro",
+            "La UNC es la sede del Premio Mundial de Ciencia “Albert Einstein”: transmite SRT"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Passerini estalló contra el árbitro tras la igualdad de Belgrano: “Se jugó hasta"
+            "Elecciones de medio término en EE. UU.: \"Trump está a las puertas de recibir una"
           ]
         }
       }
