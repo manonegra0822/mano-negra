@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-02T08:44:31-03:00",
+  "actualizado": "2026-11-02T13:54:15-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,54 +7,49 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 96,
           "ejemplos": [
-            "Quién es el sastre argentino que vestirá al Papa León XIV en su visita al país",
-            "El director ejecutivo de Nvidia calculó en USD 2.000 por chip al año la licencia",
-            "Cris Morena celebró la primera victoria de Valentín Yankelevich en el TC2000 con"
+            "La Catrina monumental no se va del Zócalo: hasta qué día de noviembre podrás ver",
+            "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 2 de noviembre: detienen",
+            "Un incendio forestal en Velefique (Almería) obliga a movilizar un amplio disposi"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "CyberMonday 2026: cómo aprovechar los descuentos, las cuotas y el envío gratis a"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Dólar, plazo fijo, acciones o cripto: cuál fue la mejor inversión en octubre"
+            "El Papamóvil argentino ya está listo para León XIV: los detalles de un vehículo ",
+            "Tras 35 años en la Patagonia, Benetton vendió sus 900.000 hectáreas en la Argent",
+            "Se dispara el negocio de los alquileres en Luján por la visita del Papa: cuánto "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 87,
-      "aceptadas": 7,
+      "leidas": 85,
+      "aceptadas": 12,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 68,
+          "cantidad": 64,
           "ejemplos": [
-            "El plan demócrata para reformar la Corte Suprema que podría avanzar después de l",
-            "Elecciones en Florida 2026: quiénes son los candidatos a la gobernación y qué se",
-            "Día de Todos los Muertos: qué se celebra hoy y cómo es la tradición en la Argent"
+            "Tras sus cruces con Milei, Pedro Sánchez advirtió que España “no se gobierna des",
+            "Se aproxima un frente de baja presión que traerá tormentas fuertes, lluvias abun",
+            "Qué se sabe de la visita del Papa León XIV a la Argentina: cuándo son los feriad"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "Récord: la agroexportación registró el mejor octubre de los últimos 25 años con ",
-            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q",
-            "Los conflictos de intereses que frenan la nueva ley de Biocombustibles"
+            "El Gobierno se queda sin tiempo para eliminar las PASO y todavía no consigue des",
+            "El salario pretendido promedio aumentó 2,19% en el tercer trimestre y quedó por "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 7,
           "ejemplos": [
-            "Calendario AUH de Anses: cuándo se cobra la Asignación Universal por Hijo en nov",
-            "De cuánto es el bono de noviembre 2026 para jubilados y a quiénes les correspond",
-            "SUAF de Anses: el monto de las asignaciones familiares en noviembre de 2026"
+            "El día que allanaron sus oficinas, Vallejo transfirió $2100 millones a una empre",
+            "Visec: cuestionan las condiciones del sistema de trazabilidad para exportar a Eu",
+            "ATE anunció protestas en 27 aeropuertos para el viernes y podrían registrarse de"
           ]
         }
       }
@@ -65,15 +60,15 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
+            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, ",
             "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
-            "¿Qué puede hacer la escuela con las deepfakes sexuales?",
-            "China de la A a la Z"
+            "¿Qué puede hacer la escuela con las deepfakes sexuales?"
           ]
         },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 6,
           "ejemplos": [
             "Un paisaje que se derrama: notas sobre la muestra “Argentina” de Mondongo",
             "Solamente muero los 21 y los 1° ya me siento bien",
@@ -85,14 +80,13 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 2,
           "ejemplos": [
             "La fábrica donde trabajan cerró, no consiguen changas y no llegan al día 20 del ",
-            "El guionista argentino",
-            "Boca ganó el Superclásico porque River solo quiso pelear"
+            "El estremecedor audio de la tripulación del avión que se estrelló en Palm Beach"
           ]
         }
       }
@@ -100,20 +94,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 16,
           "ejemplos": [
-            "Alertas meteorológicas: cómo recibir las notificaciones en tiempo real a través ",
-            "La cuarta jornada de la Feria estará colmada de encuentros literarios y novedade",
-            "Diego Palma, el campeón del mundo que sueña con formar a su propio campeón"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Trump cierra la campaña mientras los sondeos anticipan una derrota republicana"
+            "Francia suma bajas por lesión antes de enfrentar a Los Pumas",
+            "Córdoba XV se quedó con el subcampeonato en Junín",
+            "Mariah Carey anunció el inicio de la Navidad con su clásico video anual"
           ]
         }
       }
@@ -121,14 +109,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 5,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
+            "Apross: oficializan un aumento en las cuotas para afiliados voluntarios",
             "Arrancó el Cyber Monday: tres días de descuentos masivos, cuotas y más de 15.000",
-            "Nace una cooperativa para impulsar la innovación y la soberanía tecnológica en s",
-            "De Córdoba al mundo: Gabriel Rabinovich recibirá el Doctor Honoris Causa de la B"
+            "Nace una cooperativa para impulsar la innovación y la soberanía tecnológica en s"
           ]
         },
         "otro país": {
@@ -138,11 +126,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 59,
+          "cantidad": 55,
           "ejemplos": [
-            "Los mercados siguen en negativo, ahora por balances corporativos en rojo",
-            "Nueva prórroga: contribuyentes tendrán más tiempo para presentar las declaracion",
-            "Finalizó el Primer Congreso Internacional sobre crimen Organizado y Lucha contra"
+            "La visita del papa: primer ensayo general en Fadea a días de la llegada de León ",
+            "Paritarias: Llaryora, obligado a negociar con la UEPC para evitar un cierre del ",
+            "Los mercados siguen en negativo, ahora por balances corporativos en rojo"
           ]
         }
       }
@@ -150,14 +138,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 15,
           "ejemplos": [
-            "Cecilia Dieleke hizo historia con su oro en Dakar 2026",
-            "Qué cambios se introducen en el calendario de vacunación obligatoria en el país",
-            "Alertas meteorológicas en Córdoba: cómo recibir las notificaciones en tiempo rea"
+            "Estados del Arte: música y memoria",
+            "La movilidad eléctrica se sumó a Cuotazas y podrá financiarse en 20 cuotas sin i",
+            "Tras el femicidio de Nancy Godoy, la desprotección en las escuelas rurales de Ar"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
