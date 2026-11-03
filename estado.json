@@ -1,47 +1,64 @@
 {
-  "actualizado": "2026-11-03T13:45:33-03:00",
+  "actualizado": "2026-11-03T20:32:06-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 98,
           "ejemplos": [
-            "Quién es Marcia, la jefa narco prófuga que chocó a un patrullero para intentar e",
-            "Perú vs Bolivia: día, hora y canal TV del amistoso internacional por la fecha FI",
-            "Una joven cubana denuncia que la arrastraron, la amenazaron y le cortaron el cab"
+            "Hansi Flick: \"Era muy importante que hoy defendiéramos juntos\"",
+            "VÍDEO: Calviño afirma que los proyectos del BEI en Latam por 7.000 millones bene",
+            "Luis Enrique: \"No hay equipo que soporte encajar 3 goles en 15 minutos ante otro"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Un argentino se presentó para ser alcalde en una de las zonas más exclusivas de "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Hugo Passalacqua logró en Misiones la sanción de una ley de transparencia que au"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
-      "aceptadas": 9,
+      "leidas": 91,
+      "aceptadas": 12,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 69,
+        "titular sin tema de política/economía": {
+          "cantidad": 7,
           "ejemplos": [
-            "Elecciones Estados Unidos 2026: qué pronostica para la de medio término la encue",
-            "Qué anticipan los mercados de predicción sobre las elecciones de medio término E",
-            "Así fue la impactante erupción del volcán Kilaueai: expulsión de lava a 1200 met"
+            "Un supermercado podrá exportar a Europa un subproducto bovino que sirve para fab",
+            "Encuesta: ocho de cada diez productores agropecuarios que incorporaron tecnologí",
+            "Belén, veterinaria, eligió un tractor rosa: “Vamos a hacer algo muy disruptivo”"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 9,
+        "sección no permitida": {
+          "cantidad": 70,
           "ejemplos": [
-            "Antes de la visita del Papa, empresarios cristianos pidieron construir una “Arge",
-            "Para los argentinos es importante que el papa León XIV aborde una agenda social ",
-            "Algodonera en quiebra: hay cinco interesados en los activos de la empresa que de"
+            "Tras equivocarse en Brasil, los sitios de apuestas políticas se enfrentan a una ",
+            "Qué se sabe de los resultados de las elecciones de Estados Unidos 2026 hoy, mart",
+            "Estrellas de la Ópera de París: “El gran desafío es seguir sorprendiéndonos”"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "“Campaña sofisticada”: Binance reveló que los hackers hicieron entrevistas de tr"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "La Iglesia y la oposición presionan para salvar la ley que prohíbe la publicidad",
-            "Lanzan una campaña cívica para reclamar cambios en los concursos judiciales"
+            "“Se queda corto”: CAME respaldó la suspensión de embargos a las pymes en el agro"
           ]
         }
       }
@@ -71,13 +88,19 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
-        "titular sin tema de política/economía": {
+        "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "A días de la Marcha del Orgullo, atacaron a palazos a mujeres trans en los lagos",
-            "Murió Jesús de Miguel, el futbolista que recibió un rodillazo en pleno partido"
+            "Trump dice que cortará 4.000 millones de dólares en ayuda militar a Israel",
+            "Dimite el ministro de Transportes español tras las dos tragedias ferroviarias"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cómo se orquestó el ataque transfóbico en Palermo y quiénes están detrás"
           ]
         }
       }
@@ -85,21 +108,26 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 8,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 14,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "El «Canto brocheriano» de Carlos Di Fulvio volverá a sonar en Córdoba",
-            "La SIDE abrió un concurso público para ingresar al Cuerpo de Inteligencia de la ",
-            "Women in Data Science: un encuentro sobre ciencia de datos e inteligencia artifi"
+            "Estados Unidos vota en unas elecciones clave para el futuro político de Trump"
           ]
         },
-        "otro país": {
-          "cantidad": 2,
+        "titular sin tema de política/economía": {
+          "cantidad": 10,
           "ejemplos": [
-            "Ravier anunció medidas sobre pensiones, inversiones y educación",
-            "Elecciones de medio término en Estados Unidos, a qué hora se conocerán los prime"
+            "Metalfor pidió el concurso preventivo y busca evitar el cierre de sus plantas",
+            "Súper martes cordobés: Instituto y Atenas defienden la localía en simultáneo",
+            "Se mantiene la toma de la planta de Pauny en Las Varillas"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Renunció el ministro de Transporte tras los dos accidentes ferroviarios"
           ]
         }
       }
@@ -107,14 +135,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 15,
+      "aceptadas": 21,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 33,
+          "cantidad": 34,
           "ejemplos": [
+            "Rentas de Córdoba reprograma los vencimientos de Ingresos Brutos por el feriado ",
             "Creó uno de los hoteles más icónicos de Dubai y hoy presenta sus lofts de montañ",
-            "Refuerzan trenes, colectivos y subtes para la visita del papa León XIV a la Arge",
-            "El Papa en Córdoba: la Provincia ya puso $9 mil millones y la iglesia busca “soc"
+            "Refuerzan trenes, colectivos y subtes para la visita del papa León XIV a la Arge"
           ]
         },
         "otro país": {
@@ -124,7 +152,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 31,
+          "cantidad": 24,
           "ejemplos": [
             "El Congreso ingresa en etapa de hiperactividad con proyectos claves para el Gobi",
             "El canciller Quirno ratificó el pleno alineamiento con Estados Unidos",
@@ -138,12 +166,18 @@
       "leidas": 20,
       "aceptadas": 5,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 15,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Un pedacito de Córdoba para el Papa: la historia del poncho hecho en las sierras",
-            "Lollapalooza Argentina 2027, día por día: revelan el lineup y todos los artistas",
-            "¡Estalló la joya de Nueva Chicago! Thiago Ocampo amenazó a su DT"
+            "Martín Llaryora homenajeó a las víctimas de la Fábrica Militar de Río Tercero, a"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 14,
+          "ejemplos": [
+            "“La serenata perdida” llega al Centro Cultural de la UNC con funciones el 7 y 8 ",
+            "Haas despidió a Ocon de su equipo y un sudamericano ocupará su lugar",
+            "Córdoba bajo alerta: tormentas y granizo en diferentes zonas de la provincia"
           ]
         }
       }
@@ -162,7 +196,18 @@
     },
     {
       "medio": "Perfil",
-      "error": "no se pudo leer el feed (HTTP Error 404: Not Found)"
+      "leidas": 50,
+      "aceptadas": 0,
+      "descartadas": {
+        "muy vieja": {
+          "cantidad": 50,
+          "ejemplos": [
+            "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
+            "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil ",
+            "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil "
+          ]
+        }
+      }
     }
   ]
 }
