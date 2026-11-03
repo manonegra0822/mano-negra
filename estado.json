@@ -1,23 +1,23 @@
 {
-  "actualizado": "2026-11-02T20:29:48-03:00",
+  "actualizado": "2026-11-03T08:42:55-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 97,
           "ejemplos": [
-            "El truco de Amal Clooney para transformar sus looks: así elige el calzado según ",
-            "Atlético Bucaramanga vs. Atlético Nacional - en vivo HOY: siga aquí el partido d",
-            "Richard Pellejero indica que “los muchachos están ilusionados” con hacer histori"
+            "Óscar Puente comparece en el Congreso por el accidente de trenes de Urda, en dir",
+            "Precio del dólar bajó en Perú: Cotización del tipo de cambio hoy 2 de noviembre",
+            "Quién es Adam Robinson, el empresario tecnológico que se encuentra entre los 9 m"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "El Papa León XIV en Luján: cómo llegar, horarios, cortes de rutas, accesos y qué"
+            "Mariana Camino, CEO de Abeceb, advirtió sobre el riesgo de esperar para invertir"
           ]
         }
       }
@@ -25,36 +25,30 @@
     {
       "medio": "La Nación",
       "leidas": 87,
-      "aceptadas": 10,
+      "aceptadas": 7,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 66,
-          "ejemplos": [
-            "Quilmes Rock 2027: se anunció el line up completo del festival, con grandes figu",
-            "Brad Pitt compró una finca de 500 hectáreas por 60 millones de dólares y la tran",
-            "Planta cebra: la suculenta de hojas rayadas que es fácil de cuidar e ideal para "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 7,
-          "ejemplos": [
-            "El poderío chino que abre oportunidades para la Argentina en un sector estratégi",
-            "El Renatre ya certificó a 17 empresas por sus prácticas laborales y otras 15 bus",
-            "La Mesa de Enlace participará de un encuentro con León XIV junto a sindicalistas"
-          ]
-        },
         "sin ancla argentina": {
           "cantidad": 3,
           "ejemplos": [
-            "La recaudación tributaria creció 0,7% en octubre y acumuló cuatro meses sin caíd",
-            "Dólares del colchón: la UIF reglamentó los controles antilavado y completó el es",
-            "Dólares: pese al récord de octubre, en 2026 las cerealeras ingresarán, con US$28"
+            "Día del Bancario: cómo funcionan los bancos el viernes 6 de noviembre",
+            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q",
+            "Teo Zorraquín, consultor, sobre el momento del agro: “Se necesita financiamiento"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "sección no permitida": {
+          "cantidad": 66,
           "ejemplos": [
-            "El Senado con poca actividad: sin sesión esta semana, podría haber dictamen de d"
+            "Julieta Prandi cargó sin filtro contra Juan Alberto Mateyko tras su polémico pos",
+            "De qué murió Jesús de Miguel, el futbolista de Tenerife que tuvo un accidente du",
+            "Conrado Estol, neurólogo: “Cuando la ansiedad no se puede controlar, es importan"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 11,
+          "ejemplos": [
+            "Calendario de pagos de Anses: cuándo se cobra la PUAM de noviembre de 2026",
+            "Calendario AUH de Anses: cuándo se cobra la Asignación Universal por Hijo en nov",
+            "De cuánto es el bono de noviembre 2026 para jubilados y a quiénes les correspond"
           ]
         }
       }
@@ -85,40 +79,26 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
-      "descartadas": {
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La situación económica es la principal preocupación de los jóvenes y afecta su s"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Subastan el vestuario que Moria Casán usó en la serie en beneficio de Fundación ",
-            "Likes, trends y nuevas olas: Adepa premia una nota de Página|12 sobre el present"
-          ]
-        }
-      }
+      "aceptadas": 6,
+      "descartadas": {}
     },
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 14,
           "ejemplos": [
-            "Argentina se ubica entre los líderes globales en más de 50 productos agroindustr",
-            "Aumentaron las multas: cruzar un semáforo en rojo en Córdoba cuesta hasta $1,7 m",
-            "Las Rabonas: propuesta turística con naturaleza, cultura y sabores de Traslasier"
+            "La política al ritmo del Vaticano",
+            "Salud mental en las aulas: Córdoba necesita reforzar sus equipos profesionales",
+            "El personal universitario nodocente realiza un paro por 24 horas"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Trump endureció sus críticas a los demócratas en la previa de las elecciones leg"
+            "La Cámara Federal convocó a una audiencia clave por los procesamientos del caso "
           ]
         }
       }
@@ -126,52 +106,36 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 11,
+      "aceptadas": 13,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 22,
+          "cantidad": 30,
           "ejemplos": [
-            "Rosario, entre los diez destinos que serán tendencia global en 2027",
-            "Santo Domingo: historia, paisajes y sabores imperdibles en el corazón del Caribe",
-            "Casa Lucia se incorpora a la selección de hoteles recomendados por la Guía MICHE"
+            "El Papa en Córdoba: la Provincia ya puso $9 mil millones y la iglesia busca “soc",
+            "En octubre, la FPA hizo 220 allanamientos y detuvo a 166 narcomenudistas",
+            "La querella no podrá revisar todos los archivos secuestrados"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "La crisis de Volkswagen se profundiza: perdió US$6.600 millones en tres meses y ",
             "El Congreso ingresa en etapa de hiperactividad con proyectos claves para el Gobi"
           ]
         },
         "muy vieja": {
-          "cantidad": 46,
+          "cantidad": 35,
           "ejemplos": [
-            "Los envíos de la Nación a las provincias subieron 0,5% en octubre",
-            "La visita del papa: primer ensayo general en Fadea a días de la llegada de León ",
-            "Paritarias: Llaryora, obligado a negociar con la UEPC para evitar un cierre del "
+            "El canciller Quirno ratificó el pleno alineamiento con Estados Unidos",
+            "Milei ratificó que no flexibilizará ninguno de los ejes macro para sumar chances",
+            "Los envíos de la Nación a las provincias subieron 0,5% en octubre"
           ]
         }
       }
     },
     {
       "medio": "Cba24n",
-      "leidas": 20,
-      "aceptadas": 7,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 12,
-          "ejemplos": [
-            "Conmoción en el fútbol español: un jugador sufrió un paro cardíaco tras un rodil",
-            "Día negro para Nueva Chicago: cayó ante Chacarita y jugará en la B Metro",
-            "La UNC es la sede del Premio Mundial de Ciencia “Albert Einstein”: transmite SRT"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Elecciones de medio término en EE. UU.: \"Trump está a las puertas de recibir una"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (The read operation timed out)"
     },
     {
       "medio": "Bunker Media",
