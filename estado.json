@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03T08:42:55-03:00",
+  "actualizado": "2026-11-03T13:45:33-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,48 +7,41 @@
       "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 98,
           "ejemplos": [
-            "Óscar Puente comparece en el Congreso por el accidente de trenes de Urda, en dir",
-            "Precio del dólar bajó en Perú: Cotización del tipo de cambio hoy 2 de noviembre",
-            "Quién es Adam Robinson, el empresario tecnológico que se encuentra entre los 9 m"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Mariana Camino, CEO de Abeceb, advirtió sobre el riesgo de esperar para invertir"
+            "Quién es Marcia, la jefa narco prófuga que chocó a un patrullero para intentar e",
+            "Perú vs Bolivia: día, hora y canal TV del amistoso internacional por la fecha FI",
+            "Una joven cubana denuncia que la arrastraron, la amenazaron y le cortaron el cab"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 87,
-      "aceptadas": 7,
+      "leidas": 89,
+      "aceptadas": 9,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Día del Bancario: cómo funcionan los bancos el viernes 6 de noviembre",
-            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q",
-            "Teo Zorraquín, consultor, sobre el momento del agro: “Se necesita financiamiento"
-          ]
-        },
         "sección no permitida": {
-          "cantidad": 66,
+          "cantidad": 69,
           "ejemplos": [
-            "Julieta Prandi cargó sin filtro contra Juan Alberto Mateyko tras su polémico pos",
-            "De qué murió Jesús de Miguel, el futbolista de Tenerife que tuvo un accidente du",
-            "Conrado Estol, neurólogo: “Cuando la ansiedad no se puede controlar, es importan"
+            "Elecciones Estados Unidos 2026: qué pronostica para la de medio término la encue",
+            "Qué anticipan los mercados de predicción sobre las elecciones de medio término E",
+            "Así fue la impactante erupción del volcán Kilaueai: expulsión de lava a 1200 met"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 9,
           "ejemplos": [
-            "Calendario de pagos de Anses: cuándo se cobra la PUAM de noviembre de 2026",
-            "Calendario AUH de Anses: cuándo se cobra la Asignación Universal por Hijo en nov",
-            "De cuánto es el bono de noviembre 2026 para jubilados y a quiénes les correspond"
+            "Antes de la visita del Papa, empresarios cristianos pidieron construir una “Arge",
+            "Para los argentinos es importante que el papa León XIV aborde una agenda social ",
+            "Algodonera en quiebra: hay cinco interesados en los activos de la empresa que de"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "La Iglesia y la oposición presionan para salvar la ley que prohíbe la publicidad",
+            "Lanzan una campaña cívica para reclamar cambios en los concursos judiciales"
           ]
         }
       }
@@ -59,19 +52,18 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 2,
           "ejemplos": [
-            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, ",
-            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
-            "¿Qué puede hacer la escuela con las deepfakes sexuales?"
+            "Paro nacional de las trabajadoras sexuales",
+            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, "
           ]
         },
         "muy vieja": {
-          "cantidad": 6,
+          "cantidad": 8,
           "ejemplos": [
-            "Un paisaje que se derrama: notas sobre la muestra “Argentina” de Mondongo",
-            "Solamente muero los 21 y los 1° ya me siento bien",
-            "El mes de la salud mental: entre festejos, vulneraciones de derechos y ajustes"
+            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
+            "¿Qué puede hacer la escuela con las deepfakes sexuales?",
+            "China de la A a la Z"
           ]
         }
       }
@@ -79,26 +71,35 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 6,
-      "descartadas": {}
+      "aceptadas": 4,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "A días de la Marcha del Orgullo, atacaron a palazos a mujeres trans en los lagos",
+            "Murió Jesús de Miguel, el futbolista que recibió un rodillazo en pleno partido"
+          ]
+        }
+      }
     },
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 14,
           "ejemplos": [
-            "La política al ritmo del Vaticano",
-            "Salud mental en las aulas: Córdoba necesita reforzar sus equipos profesionales",
-            "El personal universitario nodocente realiza un paro por 24 horas"
+            "El «Canto brocheriano» de Carlos Di Fulvio volverá a sonar en Córdoba",
+            "La SIDE abrió un concurso público para ingresar al Cuerpo de Inteligencia de la ",
+            "Women in Data Science: un encuentro sobre ciencia de datos e inteligencia artifi"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "La Cámara Federal convocó a una audiencia clave por los procesamientos del caso "
+            "Ravier anunció medidas sobre pensiones, inversiones y educación",
+            "Elecciones de medio término en Estados Unidos, a qué hora se conocerán los prime"
           ]
         }
       }
@@ -106,36 +107,46 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 13,
+      "aceptadas": 15,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 30,
+          "cantidad": 33,
           "ejemplos": [
-            "El Papa en Córdoba: la Provincia ya puso $9 mil millones y la iglesia busca “soc",
-            "En octubre, la FPA hizo 220 allanamientos y detuvo a 166 narcomenudistas",
-            "La querella no podrá revisar todos los archivos secuestrados"
+            "Creó uno de los hoteles más icónicos de Dubai y hoy presenta sus lofts de montañ",
+            "Refuerzan trenes, colectivos y subtes para la visita del papa León XIV a la Arge",
+            "El Papa en Córdoba: la Provincia ya puso $9 mil millones y la iglesia busca “soc"
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "La crisis de Volkswagen se profundiza: perdió US$6.600 millones en tres meses y ",
-            "El Congreso ingresa en etapa de hiperactividad con proyectos claves para el Gobi"
+            "La crisis de Volkswagen se profundiza: perdió US$6.600 millones en tres meses y "
           ]
         },
         "muy vieja": {
-          "cantidad": 35,
+          "cantidad": 31,
           "ejemplos": [
+            "El Congreso ingresa en etapa de hiperactividad con proyectos claves para el Gobi",
             "El canciller Quirno ratificó el pleno alineamiento con Estados Unidos",
-            "Milei ratificó que no flexibilizará ninguno de los ejes macro para sumar chances",
-            "Los envíos de la Nación a las provincias subieron 0,5% en octubre"
+            "Milei ratificó que no flexibilizará ninguno de los ejes macro para sumar chances"
           ]
         }
       }
     },
     {
       "medio": "Cba24n",
-      "error": "no se pudo leer el feed (The read operation timed out)"
+      "leidas": 20,
+      "aceptadas": 5,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 15,
+          "ejemplos": [
+            "Un pedacito de Córdoba para el Papa: la historia del poncho hecho en las sierras",
+            "Lollapalooza Argentina 2027, día por día: revelan el lineup y todos los artistas",
+            "¡Estalló la joya de Nueva Chicago! Thiago Ocampo amenazó a su DT"
+          ]
+        }
+      }
     },
     {
       "medio": "Bunker Media",
@@ -151,18 +162,7 @@
     },
     {
       "medio": "Perfil",
-      "leidas": 50,
-      "aceptadas": 0,
-      "descartadas": {
-        "muy vieja": {
-          "cantidad": 50,
-          "ejemplos": [
-            "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
-            "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil ",
-            "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil "
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (HTTP Error 404: Not Found)"
     }
   ]
 }
