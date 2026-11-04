@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03T20:32:06-03:00",
+  "actualizado": "2026-11-04T08:49:26-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,56 +9,51 @@
         "sección no permitida": {
           "cantidad": 98,
           "ejemplos": [
-            "Hansi Flick: \"Era muy importante que hoy defendiéramos juntos\"",
-            "VÍDEO: Calviño afirma que los proyectos del BEI en Latam por 7.000 millones bene",
-            "Luis Enrique: \"No hay equipo que soporte encajar 3 goles en 15 minutos ante otro"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Un argentino se presentó para ser alcalde en una de las zonas más exclusivas de "
+            "El calendario 2027 de 'Hard Enduro' aumenta hasta nueve pruebas puntuables",
+            "Herzog pide \"paciencia\" mientras se investiga una supuesta \"interferencia extran",
+            "Las ausencias de Sarco y Pablo García marcan el arranque de semana en el Sportin"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Hugo Passalacqua logró en Misiones la sanción de una ley de transparencia que au"
+            "El crédito no despega: los préstamos para el consumo cayeron en octubre por sext"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "“Me encomiendo a sus oraciones”: el mensaje del papa León XIV en la previa a su "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 12,
+      "leidas": 92,
+      "aceptadas": 9,
       "descartadas": {
+        "sección no permitida": {
+          "cantidad": 65,
+          "ejemplos": [
+            "California tendrá su primer gobernador de origen latino: quién es Xavier Becerra",
+            "Conrado Estol, neurólogo, advirtió sobre los riesgos de la pasividad en la vejez",
+            "¿Cuál es la mejor posición para dormir? Lo que aconsejan los expertos sobre la “"
+          ]
+        },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 16,
           "ejemplos": [
             "Un supermercado podrá exportar a Europa un subproducto bovino que sirve para fab",
-            "Encuesta: ocho de cada diez productores agropecuarios que incorporaron tecnologí",
-            "Belén, veterinaria, eligió un tractor rosa: “Vamos a hacer algo muy disruptivo”"
-          ]
-        },
-        "sección no permitida": {
-          "cantidad": 70,
-          "ejemplos": [
-            "Tras equivocarse en Brasil, los sitios de apuestas políticas se enfrentan a una ",
-            "Qué se sabe de los resultados de las elecciones de Estados Unidos 2026 hoy, mart",
-            "Estrellas de la Ópera de París: “El gran desafío es seguir sorprendiéndonos”"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "“Campaña sofisticada”: Binance reveló que los hackers hicieron entrevistas de tr"
+            "Menos productores salen a “pelear” por alquilar tierras y los más grandes proyec",
+            "Teo Zorraquín: qué dice sobre la situación del agro uno de los consultores más e"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "“Se queda corto”: CAME respaldó la suspensión de embargos a las pymes en el agro"
+            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q",
+            "Día del Bancario: cómo funcionan los bancos el viernes 6 de noviembre"
           ]
         }
       }
@@ -93,14 +88,14 @@
         "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "Trump dice que cortará 4.000 millones de dólares en ayuda militar a Israel",
-            "Dimite el ministro de Transportes español tras las dos tragedias ferroviarias"
+            "Los demócratas toman el control total del Congreso de EE.UU. en un duro golpe a ",
+            "De la derrota republicana en Texas al primer senador musulmán: seis hitos de las"
           ]
         },
-        "titular sin tema de política/economía": {
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Cómo se orquestó el ataque transfóbico en Palermo y quiénes están detrás"
+            "La caída del Ueno Bank en Paraguay hace tambalear al presidente Santiago Peña"
           ]
         }
       }
@@ -108,26 +103,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 6,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 13,
+          "ejemplos": [
+            "¿Por qué creer?",
+            "Corral de Bustos: La Provincia trabaja en el drenaje del agua tras la intensa ll",
+            "La Iglesia refuerza su preocupación social a días de la llegada de León XIV"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Estados Unidos vota en unas elecciones clave para el futuro político de Trump"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 10,
-          "ejemplos": [
-            "Metalfor pidió el concurso preventivo y busca evitar el cierre de sus plantas",
-            "Súper martes cordobés: Instituto y Atenas defienden la localía en simultáneo",
-            "Se mantiene la toma de la planta de Pauny en Las Varillas"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Renunció el ministro de Transporte tras los dos accidentes ferroviarios"
           ]
         }
       }
@@ -135,14 +124,20 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 21,
+      "aceptadas": 25,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 34,
+          "cantidad": 53,
           "ejemplos": [
-            "Rentas de Córdoba reprograma los vencimientos de Ingresos Brutos por el feriado ",
-            "Creó uno de los hoteles más icónicos de Dubai y hoy presenta sus lofts de montañ",
-            "Refuerzan trenes, colectivos y subtes para la visita del papa León XIV a la Arge"
+            "Vaca Muerta cerrará 2026 produciendo el cuádruple que una década atrás",
+            "El Colegio de Escribanos de Córdoba presentó su Portal Académico Notarial: más f",
+            "En octubre, el Salvador registró una reducción del 98% en los homicidios vincula"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Justifican auto despido por descuentos salariales y traslado abusivo"
           ]
         },
         "otro país": {
@@ -150,34 +145,32 @@
           "ejemplos": [
             "La crisis de Volkswagen se profundiza: perdió US$6.600 millones en tres meses y "
           ]
-        },
-        "muy vieja": {
-          "cantidad": 24,
-          "ejemplos": [
-            "El Congreso ingresa en etapa de hiperactividad con proyectos claves para el Gobi",
-            "El canciller Quirno ratificó el pleno alineamiento con Estados Unidos",
-            "Milei ratificó que no flexibilizará ninguno de los ejes macro para sumar chances"
-          ]
         }
       }
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 14,
+          "ejemplos": [
+            "Choque múltiple en Córdoba: rescataron a una conductora herida y hay corte total",
+            "Franco Colapinto busca revancha en el GP de Brasil de F1",
+            "Mundial de pádel: Argentina avanza a cuartos"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Elecciones en EEUU: el Gobierno pierde la Cámara de Representantes y el Senado"
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "Martín Llaryora homenajeó a las víctimas de la Fábrica Militar de Río Tercero, a"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 14,
-          "ejemplos": [
-            "“La serenata perdida” llega al Centro Cultural de la UNC con funciones el 7 y 8 ",
-            "Haas despidió a Ocon de su equipo y un sudamericano ocupará su lugar",
-            "Córdoba bajo alerta: tormentas y granizo en diferentes zonas de la provincia"
           ]
         }
       }

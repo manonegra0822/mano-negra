@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-03T20:32:06-03:00",
+  "actualizado": "2026-11-04T08:49:26-03:00",
   "notas": [
     {
       "id": "2a5d797eb7",
@@ -23,10 +23,38 @@
           "url": "https://www.infobae.com/economia/2026/11/03/la-union-industrial-argentina-celebra-su-32-conferencia-industrial/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.197,
         "y1": 0.574
+      }
+    },
+    {
+      "id": "62576b8edc",
+      "seccion": "cordoba",
+      "rel": 33.5,
+      "relevancia": 33.5,
+      "fecha": "2026-11-03T19:30:31-03:00",
+      "hora": "19:30",
+      "titulo": "Competitividad financiera: el Gobierno impulsa una reforma del mercado de capitales",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/competitividad-reforma-mercado-capitales/",
+      "acceso": "abierto",
+      "resumen": "El proyecto modifica más de 200 artículos, habilita operaciones con activos digitales y pagarés ajustables, y amplía las garantías para acceder al crédito. La oposición anticipó su rechazo.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-Gobierno-impulsa-una-amplia-reforma-del-mercado-de-capitales-optimized.webp",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [
+        {
+          "fuente": "Comercio y Justicia",
+          "titulo": "El Gobierno envió al Congreso un proyecto reforma financiera",
+          "url": "https://comercioyjusticia.info/justicia/el-gobierno-envio-al-congreso-un-proyecto-reforma-financiera/"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.026,
+        "y1": 0.584
       }
     },
     {
@@ -45,7 +73,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/O5LH4PURLRAL7ERABTVWDWD3RQ.jpg?auth=fbcfaa36ffa959c84906055a85efadd6953aefa0b110a701e8497011cc5a360a&smart=true&width=4160&height=2773",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.112,
         "y1": 0.476
@@ -67,7 +95,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/KLZ7EA3GIZFBRIW6ED5U5BHAUI.JPG?auth=5270c146e90ec0dceb1267f76801ceff8f87bc1923c070660bb1e015d249db44&smart=true&width=5302&height=3535",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -92,30 +120,27 @@
           "url": "https://www.infobae.com/economia/2026/11/03/nueva-banda-cambiaria-hasta-que-precio-puede-subir-el-dolar-en-noviembre-sin-que-intervenga-el-bcra/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "4626daf554",
+      "id": "c26aa355c7",
       "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-11-03T08:38:31-03:00",
-      "hora": "08:38",
-      "titulo": "El peronismo oficializó su disputa electoral: del anuncio de Cristina Kirchner a la postura inquebrantable de Kicillof",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/03/el-peronismo-oficializo-su-disputa-electoral-del-anuncio-de-cristina-kirchner-a-la-postura-inquebrantable-de-kicillof/",
-      "acceso": "abierto",
-      "resumen": "La coalición opositora empieza a desandar un recorrido cada vez más vertiginoso hacia las elecciones del 2027. El encuentro de Massa y la ex presidenta con los asesores de Lula Da Silva",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-04T08:31:25-03:00",
+      "hora": "08:31",
+      "titulo": "Javier Milei y sus medidas, en vivo: el Presidente viaja a España y guarda silencio tras la elección intermedia en EE.UU.",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-viaja-a-espana-y-guarda-silencio-tras-la-eleccion-nid04112026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/NXIQSICJRRB4XBRULS6VQ7Z3R4.jpg?auth=55517b5edec678d3a00d6b6ac549369105642178dcf7486ce5c084c4aa4194bd&smart=true&width=1920&height=1080",
-      "imagen_credito": "Infobae",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/RSGTNEQ7HNBPVMOKGONT4XVI34.png?auth=9c8394e1b8a1d16f9d1b1b22791fd2a1254599d8ff3ccfe6cb104a3cd5d88ddd&smart=true&width=1586&height=1000",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.414
-      }
+      "rostros": null
     },
     {
       "id": "53eb67b24c",
@@ -133,7 +158,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/PZGMVWHJEVAEXJADNAMNE4CQTE.jpeg?auth=0fc4698a3221c5563159e96f62e97c50ffcf90ec50961c5ca02251042e95c990&smart=true&width=849&height=637",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -152,26 +177,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/La-recaudacion-crecio-337-en-octubre-pero-el-IVA-volvio-a-caer-optimized.webp",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "b4dd55f1ab",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-03T19:49:30-03:00",
-      "hora": "19:49",
-      "titulo": "Córdoba fue la sede del IV Fórum PyME 2026 que reunió a más de 1.000 empresarios",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/cordoba-fue-la-sede-del-iv-forum-pyme-2026-que-reunio-a-mas-de-1-000-empresarios_a6aea6300fd9a277ed0d0fee1",
-      "acceso": "abierto",
-      "resumen": "Se escucharon distintas miradas políticas y económicas en el evento organizado por la Cámara Argentina de la Micro, Pequeña y Mediana Empresa.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6aea630bfd9a277ed0d0ff57/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -190,58 +196,77 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/7335XI4H5NATRMKTDBVLWFP6TQ.jpg?auth=38163213fba87a7e8261f37e487da9ba5ac9bfebb874dcc22db7cd35da98dea6&smart=true&width=6000&height=4000",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.073,
         "y1": 0.472
       }
     },
     {
-      "id": "6902cf0231",
+      "id": "0375f3a815",
       "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-03T18:29:40-03:00",
-      "hora": "18:29",
-      "titulo": "El dólar subió a $1.570 y el riesgo país trepó a 834 puntos, su nivel más alto en más de un año",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/dolar-riesgo-pais-suba-mercados/",
-      "acceso": "abierto",
-      "resumen": "La divisa marcó un nuevo récord nominal en el Banco Nación, mientras los bonos argentinos retrocedieron y el indicador de JP Morgan alcanzó su valor más elevado desde octubre de 2025.",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-04T07:31:11-03:00",
+      "hora": "07:31",
+      "titulo": "Calendario de jubilaciones de la Anses: cuándo cobro en noviembre 2026 con el bono oficial y el aumento confirmado",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/calendario-de-jubilaciones-de-la-anses-cuando-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-nid28102026/",
+      "acceso": "suscripcion",
+      "resumen": "Los haberes previsionales ya tienen establecido el cronograma de pagos para el penúltimo mes del año, cómo es la entrega diaria según el DNI",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-riesgo-pais-Dolar-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "El dólar alcanza un nuevo valor más alto del año, mientras el riesgo país se mantiene en máximos desde las elecciones de 2025",
-          "url": "https://www.lanacion.com.ar/economia/el-riesgo-pais-se-mantiene-e-los-niveles-de-tension-previos-a-las-elecciones-de-2025-nid03112026/"
-        }
-      ],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/ODXEEMRWL5C5PEXRG6ZIHEMFRA.jpg?auth=a8ceb49f629fad1a2053b626de569f377724d28a35cb000a0b2da5f011304867&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "dce9cadbe2",
-      "seccion": "cordoba",
+      "id": "0877e211fb",
+      "seccion": "argentina",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-11-03T19:33:20-03:00",
-      "hora": "19:33",
-      "titulo": "Llaryora pidió que las grandes inversiones del RIGI promuevan el desarrollo de proveedores locales",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/hoy-cordoba/llaryora-pidio-que-las-grandes-inversiones-del-rigi-promuevan-el-desarrollo-de-proveedores-locales/",
-      "acceso": "abierto",
-      "resumen": "El gobernador acompañó a empresarios cordobeses en la primera Ronda de Negocios del RIGI, en Rosario. Reclamó una estrategia de largo plazo que incluya financiamiento para incorporar maquinaria y equipamiento. “Desarrollar al proveedor local es desarrollar tu competitividad”, afirmó. La convocatoria reunió a 43 operadoras y más de 1.800 empresas proveedoras de todo el país, con más de 2.100 reuniones de negocios.",
+      "fecha": "2026-11-04T07:29:27-03:00",
+      "hora": "07:29",
+      "titulo": "Dónde voto: publicaron el padrón provisorio para las elecciones de Argentina 2027",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
+      "acceso": "suscripcion",
+      "resumen": "El año que viene los argentinos elegirán a su próximo presidente, y es importante para los que van a votar conocer previamente el lugar en el que ejercerán el sufragio para agilizar el trámite electoral",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/RIGIInversiones-Principal-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/K6FY2PGOZBFGZBXUIOPB5MFU24.jpg?auth=7806600ea6fa8a117b63c855234abf0afa9c626833509eadb98e8629cee69269&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "Elecciones 2027: habilitaron el padrón provisorio para consultar datos",
+          "url": "https://www.cba24n.com.ar/argentina/elecciones-2027--habilitaron-el-padron-provisorio-para-consultar-datos-_a6ae9ba31a768f88a20d321ca"
+        }
+      ],
       "dia": 0,
       "rostros": {
-        "y0": 0.313,
-        "y1": 0.526
+        "y0": 0.009,
+        "y1": 0.345
       }
+    },
+    {
+      "id": "76dda18ad9",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-04T07:29:07-03:00",
+      "hora": "07:29",
+      "titulo": "Qué día de noviembre no habrá bancos por el Día del Bancario en la Argentina 2026",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/que-dia-de-noviembre-no-habra-bancos-por-el-dia-del-bancario-en-la-argentina-2026-nid27102026/",
+      "acceso": "suscripcion",
+      "resumen": "En el penúltimo mes del año se suman varias jornadas sin atención al público; cuáles son los días exactos y qué herramientas estarán disponibles",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/VEMQN7MZ6JB45PASVS56T6TJ7Y.jpg?auth=568e7ecf497bb699d07f5062d05d96acce9085ddd7a066915138664b867ef871&smart=true&width=5760&height=3840",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "f0110852b3",
@@ -259,7 +284,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Bullrich-se-atribuyo-el-reclamo-por-los-embargos-a-las-pymes-Lo-plantee-durante-mucho-tiempo-optimized.jpeg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.253,
         "y1": 0.715
@@ -281,7 +306,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/Y24D3Q5YNFD23I4FLPVFEWB7CI.jpg?auth=2215c08c6f028d53b96c2d9671b22c3465b6dd373cbf58c4586210b4081eeab4&smart=true&width=1600&height=1200",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.144,
         "y1": 0.605
@@ -309,7 +334,7 @@
           "url": "https://www.cba24n.com.ar/internacionales/pedro-sanchez-a-javier-milei---espana-se-gobierna-desde-espana--no-desde-buenos-aires-_a6ae903803d32ae215c94e69f"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.425,
         "y1": 0.764
@@ -331,68 +356,24 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/kristalina-optimized.png",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "9e3c72089a",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-03T11:51:49-03:00",
-      "hora": "11:51",
-      "titulo": "Calendario Anses: cuándo cobro la jubilación de noviembre si mi DNI termina en 1",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/calendario-anses-cuando-cobro-la-jubilacion-de-noviembre-si-mi-dni-termina-en-1-nid03112026/",
-      "acceso": "suscripcion",
-      "resumen": "El organismo previsional paga las jubilaciones a los DNI terminados en 1 en fechas diferentes, según cobren el haber mínimo, superior o una pensión",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/S43SL5XFQVH27DVJDVP3C3DZLM.jpg?auth=31c6f8709c36964ac1a1898ff5b803dfa978ffb44888ae2e576b2e13086e561b&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "049c56c5d5",
+      "id": "42c8859af8",
       "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-03T08:03:27-03:00",
-      "hora": "08:03",
-      "titulo": "Elecciones 2027: habilitaron el padrón provisorio para consultar datos",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-11-04T07:12:25-03:00",
+      "hora": "07:12",
+      "titulo": "Intendentes reclaman la quita de subsidios al transporte y del Plan Remediar: van a Diputados",
       "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/elecciones-2027--habilitaron-el-padron-provisorio-para-consultar-datos-_a6ae9ba31a768f88a20d321ca",
+      "url": "https://www.cba24n.com.ar/cordoba/intendentes-reclaman-la-quita-de-subsidios-al-transporte-y-del-plan-remediar--van-a-diputados_a6aeafe7f910a3e2b497be006",
       "acceso": "abierto",
-      "resumen": "La Justicia Electoral habilitó la nómina provisoria para los próximos comicios. Cómo gestionar correcciones antes del 30 de noviembre.",
+      "resumen": "Daniel Passerini y mandatarios locales de la provincia y el país asistirán este miércoles a la Comisión de Asuntos Municipales del Congreso para exigir al Gobierno nacional el fin de la inequidad en los fondos de colectivos frente al AMBA y la restitución de los medicamentos esenciales.",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ae9be80a768f88a20d3462f/720.jpeg",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6aeb067a910a3e2b497c283a/720.jpeg",
       "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Dónde voto: publicaron el padrón provisorio para las elecciones de Argentina 2027",
-          "url": "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "76dda18ad9",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-03T07:23:14-03:00",
-      "hora": "07:23",
-      "titulo": "Qué día de noviembre no habrá bancos por el Día del Bancario en la Argentina 2026",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/que-dia-de-noviembre-no-habra-bancos-por-el-dia-del-bancario-en-la-argentina-2026-nid27102026/",
-      "acceso": "suscripcion",
-      "resumen": "En el penúltimo mes del año se suman varias jornadas sin atención al público; cuáles son los días exactos y qué herramientas estarán disponibles",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/VEMQN7MZ6JB45PASVS56T6TJ7Y.jpg?auth=568e7ecf497bb699d07f5062d05d96acce9085ddd7a066915138664b867ef871&smart=true&width=5760&height=3840",
-      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -413,7 +394,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/GHSZNGFV4FBN7D6V3AYV4H6RTU.jpg?auth=d9c8fd22de8f9f8455c0d6610ecd246b61fdc09688eb4385a24c4611144e9133&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.225,
         "y1": 0.646
@@ -435,26 +416,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/QYVCRJ4SQBCRXFIZXCLAPHBWUY.png?auth=e96a6ae71f92e35779a03dbd6977ac42f5ea00fb5a1a692431f26dde2931986a&smart=true&width=729&height=375",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "b2cd6db507",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-03T18:47:36-03:00",
-      "hora": "18:47",
-      "titulo": "Caputo anunció la suspensión de embargos de ARCA a pymes hasta mayo de 2027",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/caputo-embargos-arca-pymes/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno suspenderá embargos de ARCA hasta mayo de 2027 y ampliará los planes de pago. Los industriales pidieron reducir impuestos y mejorar la competitividad.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -473,7 +435,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/A7BILE24MFFPDLYPRK5YOJL7T4.jpg?auth=f54f16f1b0bcb95addcf3ff7013c091604cd318bd618fe08e8964d9e0f2185bd&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -492,46 +454,36 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/KAME3G5E4VEXVKJ4PADKL2HOHQ.jpg?auth=e9881a6ee4e48f77c684aab1f6c9eee3a7bca84559871e08fd4a9f5562369886&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "06faa769c9",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-03T06:38:19-03:00",
-      "hora": "06:38",
-      "titulo": "Milei invitó a todos los diputados y senadores al agasajo a León XIV en el Palacio Libertad",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-invito-a-todos-los-diputados-y-senadores-al-agasajo-a-leon-xiv-en-el-palacio-libertad/",
-      "acceso": "abierto",
-      "resumen": "La Casa Rosada le hizo llegar oficialmente la invitación a los representantes de todas las bancadas del Congreso nacional.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "35e1da86f4",
+      "id": "3c12ccd2d9",
       "seccion": "cordoba",
       "rel": 21.6,
       "relevancia": 21.6,
-      "fecha": "2026-11-03T18:18:27-03:00",
-      "hora": "18:18",
-      "titulo": "Milei no invitó a los ex presidentes a la recepción oficial del papa León XIV",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-no-invito-a-los-ex-presidentes-a-la-recepcion-oficial-del-papa-leon-xiv/",
+      "fecha": "2026-11-03T21:44:32-03:00",
+      "hora": "21:44",
+      "titulo": "El gobierno amagó con cobrar Ganancias a las inversiones en CEDEARs, pero dio marcha atrás",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/el-gobierno-amago-con-cobrar-ganancias-a-las-inversiones-en-cedears--pero-dio-marcha-atras_a6aea7dc3fd9a277ed0d1f47b",
       "acceso": "abierto",
-      "resumen": "Pese al pedido explícito de la Iglesia, dejó afuera de la invitación a los mandatarios que lo precedieron. Sí irán los 24 gobernadores, los senadores y diputados nacionales.",
+      "resumen": "Este martes ingresó a la Cámara de Diputados el proyecto de Ley de Competitividad Financiera que incluía esa modificación. Sin embargo, luego aclararon que se trataba de un borrador viejo.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
+      "imagen": "https://srt-assets.tadevel-cdn.com/6aea7e0cfd9a277ed0d1f84a/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "El Gobierno retirará, tras la polémica, el artículo que proponía cobrar Ganancias por la venta de cedears",
+          "url": "https://www.lanacion.com.ar/economia/el-gobierno-impulsa-una-reforma-clave-del-mercado-de-capitales-que-incluye-cobrar-ganancias-por-la-nid03112026/"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.088,
+        "y1": 0.486
+      }
     },
     {
       "id": "1eb2516a97",
@@ -549,30 +501,8 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/I2T3QFYPLFC3DKV2HUHWGKYQDM.jpg?auth=7081f8f65073c3f089de0ea094e77c4ccb62f8f89db932997426622fe56c6b39&smart=true&width=480&height=304",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "1783937077",
-      "seccion": "economia",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-03T17:52:37-03:00",
-      "hora": "17:52",
-      "titulo": "El Gobierno retirará, tras la polémica, el artículo que proponía cobrar Ganancias por la venta de cedears",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/el-gobierno-impulsa-una-reforma-clave-del-mercado-de-capitales-que-incluye-cobrar-ganancias-por-la-nid03112026/",
-      "acceso": "suscripcion",
-      "resumen": "Economía confirmó la decisión a LA NACION; un asesor de Luis Caputo atribuyó la inclusión de la medida a un “borrador viejo” que fue ingresado por error; la reforma también prevé cambios en plazos fijos y financiamiento para comercios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/ZI3RM5BSDRFHZLOR4CHPSOVNZQ.jpeg?auth=578d8802edbcfabfb50db1c4b0defc272b4726099dc49012059d1954bcaa09e4&smart=true&width=1600&height=1058",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.152,
-        "y1": 0.621
-      }
     },
     {
       "id": "a4898ff57e",
@@ -590,7 +520,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae9f06ca768f88a20d5e24d/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.12,
         "y1": 0.722
@@ -612,7 +542,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/6BVL2MGJHRAG7CK6M6HMHUZJUQ.jpg?auth=96d304001ddbaededac3b69d38273602e2545ec5c85adcd2b6b50c5c738fe3cc&smart=true&width=1620&height=1080",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.127,
         "y1": 0.493
@@ -634,7 +564,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/BAEHBYGDPVFVND2B2GLJLY6NPQ?auth=355a48e39968cc073f689e9d48c90419b6a0b34d3a7fe169e0ab4b8d1455271b&smart=true&width=6161&height=4107",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -653,7 +583,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae9ec33a768f88a20d56426/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -672,7 +602,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aea299da768f88a20d790c1/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.009,
         "y1": 0.436
@@ -694,26 +624,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6ae9caeda768f88a20d3b171/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "644ca48fd5",
-      "seccion": "cordoba",
-      "rel": 21.1,
-      "relevancia": 21.1,
-      "fecha": "2026-11-03T15:11:58-03:00",
-      "hora": "15:11",
-      "titulo": "Ingresos Brutos en Córdoba: Rentas aprobó los padrones y alícuotas de retención para noviembre 2026",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/ingresos-brutos-en-cordoba-rentas-aprobo-los-padrones-y-alicuotas-de-retencion-para-noviembre-2026/",
-      "acceso": "abierto",
-      "resumen": "La Dirección General de Rentas (DGR) de la Provincia de Córdoba oficializó la aprobación y remisión a la Comisión Arbitral del Convenio Multilateral del listado de contribuyentes —tanto locales como de Convenio Multilateral— alcanzados por los distintos regímenes de retención, percepción y recaudación para el período noviembre de 2026. El organismo recordó que los contribuyentes […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -732,78 +643,119 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aea1447a768f88a20d6faa9/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "fb949bb7fa",
-      "seccion": "economia",
-      "rel": 20.7,
-      "relevancia": 20.7,
-      "fecha": "2026-11-03T12:38:33-03:00",
-      "hora": "12:38",
-      "titulo": "Caputo anunció medidas para pymes en la UIA: alivio fiscal, créditos para autos y rechazo a devaluar",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/caputo-anuncio-medidas-para-pymes-en-la-uia-alivio-fiscal-creditos-para-autos-y-rechazo-a-devaluar/",
-      "acceso": "abierto",
-      "resumen": "El ministro de Economía, Luis Caputo, anunció este martes una serie de medidas de alivio impositivo para pymes y lanzó una propuesta para que las provincias eliminen el impuesto a los sellos. Asimismo, confirmó que habrá una línea especial de crédito del Banco Nación para incentivar la compra de automóviles y volvió a rechazar las […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "80a8c511f0",
-      "seccion": "economia",
-      "rel": 20.7,
-      "relevancia": 20.7,
-      "fecha": "2026-11-03T12:30:24-03:00",
-      "hora": "12:30",
-      "titulo": "La ARCA implementa el uso obligatorio del SIRE para informar retenciones y percepciones de IVA",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/factor/la-arca-implementa-el-uso-obligatorio-del-sire-para-informar-retenciones-y-percepciones-de-iva/",
-      "acceso": "abierto",
-      "resumen": "La Agencia de Recaudación y Control Aduanero (ARCA) formalizó la implementación obligatoria de utilizar el Sistema Integral de Retenciones Electrónicas (SIRE) para la determinación e ingreso de las retenciones y percepciones del Impuesto al Valor Agregado (IVA). La instrumentación de la medida, dispuesta por el organismo, se dio a través de la Resolución General 5921/26 […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "d423ae51d3",
-      "seccion": "argentina",
+      "id": "a06be5bf06",
+      "seccion": "cordoba",
       "rel": 20.6,
       "relevancia": 20.6,
-      "fecha": "2026-11-03T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Nadia Márquez, la pastora que podría ser candidata a vicepresidenta de Milei",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/02/nadia-marquez-la-pastora-que-podria-ser-candidata-a-vicepresidenta-de-milei/",
-      "acceso": "suscripcion",
-      "resumen": "La senadora de Neuquén aparece como alternativa luego de que Patricia Bullrich esquivara una definición. Su trayectoria incluye una causa por estafa que le impide una candidatura provincial.",
+      "fecha": "2026-11-04T00:21:00-03:00",
+      "hora": "00:21",
+      "titulo": "Más herramientas y nuevos mercados: la apuesta de Córdoba para potenciar sus exportaciones",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/contenido-institucional-87-aniversario/mas-herramientas-y-nuevos-mercados-la-apuesta-de-cordoba-para-potenciar-sus-exportaciones/",
+      "acceso": "abierto",
+      "resumen": "Con capacitación, asistencia técnica, financiamiento, misiones comerciales e inteligencia de datos, ProCórdoba busca fortalecer las capacidades exportadoras de las pymes y ampliar la presencia provincial en el mundo. La internacionalización requiere más que encontrar un comprador en el exterior. Las empresas deben conocer cada mercado, adecuar sus procesos y responder a exigencias comerciales. Para acompañarlas, […]",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GPV65OKKYNHJPPQFIMBEC3NYAU.jpg?auth=678b39d977565c11f33be4e87f049a595b400ab0adb79596776fb1afa83544c5&smart=true&width=1440&height=941",
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "a27fbd3408",
+      "seccion": "economia",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-11-04T00:11:00-03:00",
+      "hora": "00:11",
+      "titulo": "Cuando pagar ya no alcanza: el crédito digital y la espiral de las deudas de las familias",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/aniversario-87-comercio-y-justicia/cuando-pagar-ya-no-alcanza-el-credito-digital-y-la-espiral-de-las-deudas-de-las-familias/",
+      "acceso": "abierto",
+      "resumen": "El sobreendeudamiento de los hogares argentinos se convirtió en uno de los problemas socioeconómicos más acuciantes del escenario actual. Con una morosidad en aumento impulsada por la pérdida de poder adquisitivo, la caída de ingresos y el uso cotidiano de créditos de consumo, plataformas digitales y tarjetas, miles de familias destinan gran parte de sus […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "e30ff24e11",
+      "seccion": "cordoba",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-11-04T00:09:00-03:00",
+      "hora": "00:09",
+      "titulo": "Con Grido como anfitrión, Córdoba fue la sede internacional del helado",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/contenido-institucional-87-aniversario/con-grido-como-anfitrion-cordoba-fue-la-sede-internacional-del-helado/",
+      "acceso": "abierto",
+      "resumen": "Durante semana del 11 al 18 de octubre Córdoba se convirtió en la sede del IICC (International Ice Cream Consortium), en la que Productores y fabricantes de helados independientes de distintas partes del mundo se reunieron para debatir sobre el futuro de la industria, compartir innovaciones, conocimientos y experiencias, y celebrar los International Ice Cream […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "04edcb0005",
+      "seccion": "argentina",
+      "rel": 20.5,
+      "relevancia": 20.5,
+      "fecha": "2026-11-04T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Máximo Kirchner y Axel Kicillof se reunieron para ordenar el PJ bonaerense",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/04/maximo-kirchner-y-axel-kicillof-se-reunieron-para-ordenar-el-pj-bonaerense/",
+      "acceso": "suscripcion",
+      "resumen": "En la antesala de una reunión del Consejo del Partido, el gobernador y el diputado acercaron posiciones. La pulseada por las reelecciones indefinidas.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/DDG73KGVINEBFHLSTJ36WQPLWU.jpg?auth=c13cfc801f2a8aa85ea85ab799c3dc2ae0266a7e7c92898f3cde4b1754f94948&smart=true&width=3000&height=2000",
       "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "9f259f1078",
+      "id": "4773c7e0c4",
+      "seccion": "argentina",
+      "rel": 20.5,
+      "relevancia": 20.5,
+      "fecha": "2026-11-04T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Bullrich muestra los dientes y amenaza a Milei con bloquearle el Congreso",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/03/bullrich-muestra-los-dientes-y-amenaza-a-milei-con-bloquearle-el-congreso/",
+      "acceso": "suscripcion",
+      "resumen": "La senadora, que todavía preside el bloque de LLA, reunió para la foto a su tropa legislativa, en un claro gesto de advertencia a la Rosada sobre su poder de fuego.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/2ACOYIMZTBDQNN62C6ZK2ZSH2M.jpeg?auth=8773c9f1c437e5d323508452df0b1fb1af107b95a5eb345e1661e3529fe6b01e&smart=true&width=1600&height=1200",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.15,
+        "y1": 0.612
+      }
+    },
+    {
+      "id": "f562cdc548",
       "seccion": "cordoba",
-      "rel": 20.2,
-      "relevancia": 20.2,
-      "fecha": "2026-11-02T22:01:43-03:00",
-      "hora": "22:01",
-      "titulo": "Milei defendió su militancia por Israel y felicitó a Netanyahu",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-defendio-su-militancia-por-israel-y-felicito-a-netanyahu/",
+      "rel": 20.4,
+      "relevancia": 20.4,
+      "fecha": "2026-11-03T23:06:00-03:00",
+      "hora": "23:06",
+      "titulo": "Discusión estéril: Caputo pidió eliminar Sellos y Llaryora, frente a industriales, reclamó derogar el impuesto al cheque",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/discusion-esteril-caputo-pidio-eliminar-sellos-y-llaryora-redoblo-la-apuesta-frente-a-industriales-reclamo-derogar-el-impuesto-al-cheque/",
       "acceso": "abierto",
-      "resumen": "El Presidente brindó un discurso en “la Noche de la Celebración por Israel” y reafirmó su alianza con el Gobierno israelí.",
+      "resumen": "El ministro disertó en una nueva edición del coloquio organizado por la UIA. Hubo anuncios y también reclamos a las provincias y municipios para que reduzcan la presión fiscal. Minutos más tarde, el gobernador de Córdoba, también como expositor en el evento, coincidió en la necesidad de bajar impuestos. Sin embargo, discrepó con Caputo y […]",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
@@ -812,26 +764,80 @@
       "rostros": null
     },
     {
-      "id": "f3e17b4d06",
-      "seccion": "argentina",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-11-03T08:18:11-03:00",
-      "hora": "08:18",
-      "titulo": "Elecciones en Estados Unidos: un test sobre el gobierno de Donald Trump y un dolor de cabeza para Javier Milei",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/03/elecciones-en-estados-unidos-un-test-sobre-el-gobierno-de-donald-trump-y-un-dolor-de-cabeza-para-javier-milei/",
-      "acceso": "suscripcion",
-      "resumen": "Las encuestas vaticinan una derrota para los republicanos y para el presidente de EEUU a dos años de dejar el poder.",
+      "id": "b2cd6db507",
+      "seccion": "economia",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-11-03T20:10:36-03:00",
+      "hora": "20:10",
+      "titulo": "Caputo anunció la suspensión de embargos de ARCA a pymes hasta mayo de 2027",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/caputo-embargos-arca-pymes/",
+      "acceso": "abierto",
+      "resumen": "El Gobierno suspenderá embargos de ARCA hasta mayo de 2027 y ampliará los planes de pago. Los industriales pidieron reducir impuestos y mejorar la competitividad.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LZFTMS5BTVD6RDLZW4JCDRCYYQ.jpg?auth=8c4a9c46daaa5b63bcc759dfb9122e3f2b1aa1d42fb6f1678cb72675ef59df6f&smart=true&width=4480&height=2984",
-      "imagen_credito": "Página/12",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.088,
-        "y1": 0.481
-      }
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "6902cf0231",
+      "seccion": "economia",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-11-03T20:01:40-03:00",
+      "hora": "20:01",
+      "titulo": "El dólar subió a $1.570 y el riesgo país trepó a 834 puntos, su nivel más alto en más de un año",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/dolar-riesgo-pais-suba-mercados/",
+      "acceso": "abierto",
+      "resumen": "La divisa marcó un nuevo récord nominal en el Banco Nación, mientras los bonos argentinos retrocedieron y el indicador de JP Morgan alcanzó su valor más elevado desde octubre de 2025.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "b4dd55f1ab",
+      "seccion": "cordoba",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-11-03T19:49:30-03:00",
+      "hora": "19:49",
+      "titulo": "Córdoba fue la sede del IV Fórum PyME 2026 que reunió a más de 1.000 empresarios",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/cordoba-fue-la-sede-del-iv-forum-pyme-2026-que-reunio-a-mas-de-1-000-empresarios_a6aea6300fd9a277ed0d0fee1",
+      "acceso": "abierto",
+      "resumen": "Se escucharon distintas miradas políticas y económicas en el evento organizado por la Cámara Argentina de la Micro, Pequeña y Mediana Empresa.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6aea630bfd9a277ed0d0ff57/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "35e1da86f4",
+      "seccion": "cordoba",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-11-03T19:40:27-03:00",
+      "hora": "19:40",
+      "titulo": "Milei no invitó a los ex presidentes a la recepción oficial del papa León XIV",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/milei-no-invito-a-los-ex-presidentes-a-la-recepcion-oficial-del-papa-leon-xiv/",
+      "acceso": "abierto",
+      "resumen": "Pese al pedido explícito de la Iglesia, dejó afuera de la invitación a los mandatarios que lo precedieron. Sí irán los 24 gobernadores, los senadores y diputados nacionales.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
     }
   ],
   "opinion": []
