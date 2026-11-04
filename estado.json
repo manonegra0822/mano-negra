@@ -1,81 +1,114 @@
 {
-  "actualizado": "2026-11-04T13:47:54-03:00",
+  "actualizado": "2026-11-04T20:36:19-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 98,
           "ejemplos": [
-            "Triunfazo histórico de Ignacio Buse ante Daniil Medvédev, top 5 del mundo, en Ma",
-            "EN VIVO | Los demócratas controlarán la Cámara de Representantes y el Senado tra",
-            "AEK Atenas - Real Madrid, en directo el partido de la Champions League: Vinicius"
+            "Art of Play llevará ‘Bill & Ted’s Excellent Adventure Arcade’ a PC y consolas",
+            "Fallece a los 77 años María Alicia Delgado, reconocida actriz y comediante de Te",
+            "Sector del automóvil pide incluir al R. Unido en 'Made in Europe' para competir "
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
+        "sin ancla argentina": {
+          "cantidad": 1,
           "ejemplos": [
-            "ANSES: cuándo cobro en noviembre 2026 si mi DNI termina en 2",
-            "Cuánto cuestan las pick ups compactas en Argentina tras el lanzamiento de la nue",
-            "“Es volver a casa”: la definición del Vaticano sobre la gira que emprenderá el p"
+            "Se frenó el repunte de la actividad automotriz: la producción y las exportacione"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 9,
+      "leidas": 93,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 73,
+          "cantidad": 74,
           "ejemplos": [
-            "Proverbio africano: “Los pájaros cantan no porque tengan respuestas, sino porque",
-            "Mareos y desmayos: cuándo son una señal de alarma y qué hacer, según Jorge Tarta",
-            "Se aproxima el “Pampero”, un fenómeno que traerá frío invernal con temperaturas "
+            "El elenco de Matilda celebró los 30 años de la película con un reencuentro que e",
+            "Un funcionario alemán fue encontrado muerto en un hotel de Berlín: tenía 55 años",
+            "Albert Einstein: “La madurez comienza a manifestarse cuando sentimos que nuestra"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 8,
           "ejemplos": [
-            "Los enemigos del auxilio de Trump a la Argentina toman el control del Capitolio",
-            "Qué pasó con Ueno Bank en Paraguay: todos los detalles del colapso que puso en a",
-            "Shock chino, energía cara y menos trabajadores, el diagnóstico europeo que deja "
+            "El poderío chino que abre oportunidades para la Argentina en un sector estratégi",
+            "Javier Álvarez Bento denuncia la pérdida de más de 5000 hectáreas en una estanci",
+            "Volatilidad en los granos: había que blindarse para navegar la incertidumbre"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "Ley de semillas: la federación de distribuidores de insumos reclama un lugar en ",
-            "Roberto Baradel ganó la elección de la CTA y reemplazará a Hugo Yasky"
+            "Senado: a pesar de las críticas al texto y al Gobierno, oficialismo y oposición ",
+            "Movimientos inusuales: fuerte rebote de los bonos en pesos que venían más castig"
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "El escándalo de un banco digital ligado al presidente amenaza la reputación de P",
-            "El Gobierno autorizó el derribo de “aeronaves hostiles” durante la visita del pa"
+            "Cóctel bajista: la soja cayó a su menor precio en casi tres meses en el mercado "
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Axel Kicillof invitó al “Chiqui” Tapia a la misa con el Papa en Luján"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "La cacería en Palermo y la risa de la manada",
+            "Paro nacional de las trabajadoras sexuales",
+            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, "
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 6,
+          "ejemplos": [
+            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
+            "¿Qué puede hacer la escuela con las deepfakes sexuales?",
+            "China de la A a la Z"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
       "leidas": 6,
       "aceptadas": 3,
       "descartadas": {
-        "otro país": {
-          "cantidad": 3,
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
           "ejemplos": [
-            "Los demócratas toman el control total del Congreso de EE.UU. en un duro golpe a ",
-            "De la derrota republicana en Texas al primer senador musulmán: seis hitos de las",
-            "El mapa con todos los resultados de las elecciones de Estados Unidos 2026"
+            "Trump va de salida",
+            "Mujeres trans atacadas en Palermo presentaron una denuncia: “Somos personas y qu"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "“Cae mal”: el Gobierno no puede disimular el impacto de la derrota de Trump"
           ]
         }
       }
@@ -83,46 +116,78 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 13,
           "ejemplos": [
-            "Visita del Papa León XIV: recomendaciones de salud para peregrinos",
-            "Casación revisará si dos damnificados pueden ser querellantes en la causa $LIBRA",
-            "La Maratón Belgrano 10K tiene nueva fecha"
+            "Presentaron un amparo colectivo por el desmantelamiento del Programa Remediar",
+            "El reclamo argentino por Malvinas obtuvo un apoyo unánime en la cumbre iberoamer",
+            "La derrota de Trump tuvo eco en todo el mundo"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Pierde Trump: los demócratas recuperaron el control de ambas cámaras del Congres"
+            "Una ola azul dejó a Trump sin el control del Congreso estadounidense"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "error": "no se pudo leer el feed (HTTP Error 503: Service Unavailable)"
+      "leidas": 80,
+      "aceptadas": 27,
+      "descartadas": {
+        "otro país": {
+          "cantidad": 4,
+          "ejemplos": [
+            "Al menos 17 mujeres dirigirán gobiernos estatales en Estados Unidos, récord hist",
+            "El riesgo país perfora los 830 puntos",
+            "Ola azul en Estados Unidos: los demócratas recuperan el control de ambas cámaras"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 46,
+          "ejemplos": [
+            "Control antilavado societario: la IGJ simplifica trámites de capital y unifica l",
+            "Vaca Muerta cerrará 2026 produciendo el cuádruple que una década atrás",
+            "El Colegio de Escribanos de Córdoba presentó su Portal Académico Notarial: más f"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Justifican auto despido por descuentos salariales y traslado abusivo"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Rosario, entre los diez destinos que serán tendencia global en 2027",
+            "Santo Domingo: historia, paisajes y sabores imperdibles en el corazón del Caribe"
+          ]
+        }
+      }
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 14,
           "ejemplos": [
-            "Rafa Nadal se muda al mundo del fútbol: integrará la directiva de un gigante eur",
-            "Peugeot lanzó un nuevo utilitario en Argentina: cuánto cuesta y qué capacidad de",
-            "“Yo no estaba en la boleta”: Donald Trump se despegó de la derrota republicana"
+            "Causa $LIBRA: Casación revisará si dos damnificados pueden ser querellantes",
+            "Cortes programados de luz en Córdoba para este jueves: ocho localidades afectada",
+            "Córdoba: multan a un ginecólogo por usar anteojos con cámara en una consulta"
           ]
         },
         "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "“Libros en movimiento”: una campaña solidaria para acercar la lectura a niños y ",
-            "Elecciones en EEUU: el Gobierno pierde la Cámara de Representantes y el Senado"
+            "JD Vance, vicepresidente de los Estados Unidos: \"Perdimos por la guerra\"",
+            "Bancor abre su museo antes de la llegada del Papa, con la muestra de Eugenio Zan"
           ]
         }
       }
