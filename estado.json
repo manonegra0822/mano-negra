@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-04T08:49:26-03:00",
+  "actualizado": "2026-11-04T13:47:54-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,78 +7,63 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 97,
           "ejemplos": [
-            "El calendario 2027 de 'Hard Enduro' aumenta hasta nueve pruebas puntuables",
-            "Herzog pide \"paciencia\" mientras se investiga una supuesta \"interferencia extran",
-            "Las ausencias de Sarco y Pablo García marcan el arranque de semana en el Sportin"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El crédito no despega: los préstamos para el consumo cayeron en octubre por sext"
+            "Triunfazo histórico de Ignacio Buse ante Daniil Medvédev, top 5 del mundo, en Ma",
+            "EN VIVO | Los demócratas controlarán la Cámara de Representantes y el Senado tra",
+            "AEK Atenas - Real Madrid, en directo el partido de la Champions League: Vinicius"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "“Me encomiendo a sus oraciones”: el mensaje del papa León XIV en la previa a su "
+            "ANSES: cuándo cobro en noviembre 2026 si mi DNI termina en 2",
+            "Cuánto cuestan las pick ups compactas en Argentina tras el lanzamiento de la nue",
+            "“Es volver a casa”: la definición del Vaticano sobre la gira que emprenderá el p"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
+      "leidas": 91,
       "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 65,
+          "cantidad": 73,
           "ejemplos": [
-            "California tendrá su primer gobernador de origen latino: quién es Xavier Becerra",
-            "Conrado Estol, neurólogo, advirtió sobre los riesgos de la pasividad en la vejez",
-            "¿Cuál es la mejor posición para dormir? Lo que aconsejan los expertos sobre la “"
+            "Proverbio africano: “Los pájaros cantan no porque tengan respuestas, sino porque",
+            "Mareos y desmayos: cuándo son una señal de alarma y qué hacer, según Jorge Tarta",
+            "Se aproxima el “Pampero”, un fenómeno que traerá frío invernal con temperaturas "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 5,
           "ejemplos": [
-            "Un supermercado podrá exportar a Europa un subproducto bovino que sirve para fab",
-            "Menos productores salen a “pelear” por alquilar tierras y los más grandes proyec",
-            "Teo Zorraquín: qué dice sobre la situación del agro uno de los consultores más e"
+            "Los enemigos del auxilio de Trump a la Argentina toman el control del Capitolio",
+            "Qué pasó con Ueno Bank en Paraguay: todos los detalles del colapso que puso en a",
+            "Shock chino, energía cara y menos trabajadores, el diagnóstico europeo que deja "
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "Con una garantía de inversión de US$200 millones: así es el megaplan eléctrico q",
-            "Día del Bancario: cómo funcionan los bancos el viernes 6 de noviembre"
+            "Ley de semillas: la federación de distribuidores de insumos reclama un lugar en ",
+            "Roberto Baradel ganó la elección de la CTA y reemplazará a Hugo Yasky"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "El escándalo de un banco digital ligado al presidente amenaza la reputación de P",
+            "El Gobierno autorizó el derribo de “aeronaves hostiles” durante la visita del pa"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Paro nacional de las trabajadoras sexuales",
-            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, "
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 8,
-          "ejemplos": [
-            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
-            "¿Qué puede hacer la escuela con las deepfakes sexuales?",
-            "China de la A a la Z"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
@@ -86,16 +71,11 @@
       "aceptadas": 3,
       "descartadas": {
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
             "Los demócratas toman el control total del Congreso de EE.UU. en un duro golpe a ",
-            "De la derrota republicana en Texas al primer senador musulmán: seis hitos de las"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La caída del Ueno Bank en Paraguay hace tambalear al presidente Santiago Peña"
+            "De la derrota republicana en Texas al primer senador musulmán: seis hitos de las",
+            "El mapa con todos los resultados de las elecciones de Estados Unidos 2026"
           ]
         }
       }
@@ -103,74 +83,46 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 16,
           "ejemplos": [
-            "¿Por qué creer?",
-            "Corral de Bustos: La Provincia trabaja en el drenaje del agua tras la intensa ll",
-            "La Iglesia refuerza su preocupación social a días de la llegada de León XIV"
+            "Visita del Papa León XIV: recomendaciones de salud para peregrinos",
+            "Casación revisará si dos damnificados pueden ser querellantes en la causa $LIBRA",
+            "La Maratón Belgrano 10K tiene nueva fecha"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Estados Unidos vota en unas elecciones clave para el futuro político de Trump"
+            "Pierde Trump: los demócratas recuperaron el control de ambas cámaras del Congres"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "leidas": 80,
-      "aceptadas": 25,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 53,
-          "ejemplos": [
-            "Vaca Muerta cerrará 2026 produciendo el cuádruple que una década atrás",
-            "El Colegio de Escribanos de Córdoba presentó su Portal Académico Notarial: más f",
-            "En octubre, el Salvador registró una reducción del 98% en los homicidios vincula"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Justifican auto despido por descuentos salariales y traslado abusivo"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La crisis de Volkswagen se profundiza: perdió US$6.600 millones en tres meses y "
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (HTTP Error 503: Service Unavailable)"
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 15,
           "ejemplos": [
-            "Choque múltiple en Córdoba: rescataron a una conductora herida y hay corte total",
-            "Franco Colapinto busca revancha en el GP de Brasil de F1",
-            "Mundial de pádel: Argentina avanza a cuartos"
+            "Rafa Nadal se muda al mundo del fútbol: integrará la directiva de un gigante eur",
+            "Peugeot lanzó un nuevo utilitario en Argentina: cuánto cuesta y qué capacidad de",
+            "“Yo no estaba en la boleta”: Donald Trump se despegó de la derrota republicana"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "“Libros en movimiento”: una campaña solidaria para acercar la lectura a niños y ",
             "Elecciones en EEUU: el Gobierno pierde la Cámara de Representantes y el Senado"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Martín Llaryora homenajeó a las víctimas de la Fábrica Militar de Río Tercero, a"
           ]
         }
       }
@@ -190,10 +142,10 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "muy vieja": {
-          "cantidad": 50,
+          "cantidad": 49,
           "ejemplos": [
             "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
             "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil ",
