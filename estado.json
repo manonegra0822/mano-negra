@@ -1,99 +1,71 @@
 {
-  "actualizado": "2026-11-05T13:59:23-03:00",
+  "actualizado": "2026-11-05T20:37:34-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 96,
           "ejemplos": [
-            "Chernóbil, 40 años después: los perros que sobrevivieron al desastre nuclear son",
-            "Con Francesco Andrealli de Como de Italia, las novedades de la convocatoria de P",
-            "Operan de urgencia a un futbolista de 20 años tras un fuerte golpe en la mandíbu"
+            "México ordena expedir pasaporte a sacerdote que denunció discriminación por su v",
+            "El atacante que disparó y mató en una sede de Citibank apuntó a la compañía por ",
+            "Alerta migratoria podría ser activada contra Guadalupe Taddei y hermanos Hernánd"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "El expresidente español Mariano Rajoy pidió regular las redes sociales: \"Es el p",
-            "Daniel Schteingart presentó su nuevo libro: cómo está la Argentina y qué futuro ",
-            "ANSES: cuándo cobro en noviembre 2026 si mi DNI termina en 4"
+            "Gran Día: McDonald's volverá a destinar el 100% de las ventas de Big Mac a dos f"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Se derrumba 4% el índice tecnológico de Wall Street por la fuerte caída de accio"
+            "Marcelo Mindlin encabezó el segundo plenario de la Alianza Internacional para el"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 10,
+      "leidas": 93,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 71,
+          "cantidad": 75,
           "ejemplos": [
-            "Qué significan las luces del router y cuándo indican un problema de conexión",
-            "Qué se sabe de la renuncia del presidente de Paraguay, Santiago Peña",
-            "El video de la renuncia de Santiago Peña por la crisis de Ueno Bank: “Quiero ped"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Una fiscal de Comodoro Py pidió investigar si hubo algún delito en el escape de ",
-            "Sin intervenir el dólar desde 2021, el ministro de Economía de Uruguay explicó l"
+            "Detuvieron en Moreno al “Gordo Tilín”, el azote de Fuerte Apache",
+            "Barbie Simons reveló que sufrió una estafa millonaria y perdió la herencia de su",
+            "Tiene 111 años y contó qué alimentos nunca faltan en su dieta para mantenerse sa"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 10,
           "ejemplos": [
-            "Mercado Libre cae en Wall Street tras presentar sus resultados del tercer trimes",
-            "La agenda de León XIV: la vigilia con los jóvenes en Palermo, el único acto que ",
-            "Maíz tardío: genética para sostener los pisos y empujar los techos"
+            "Virginia Gallardo compartió la invitación oficial que recibió para asistir al en",
+            "Las empresas estadounidenses alertaron que la derrota de Trump puede condicionar",
+            "Otra derrota para Tapia: la Corte anuló el fallo que le impedía a la Inspección "
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La Corte Suprema confirmó la condena de un exdirectivo de Ford por crímenes de l"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "“El crédito tiene un largo camino por recorrer”: qué ve el CEO de Supervielle pa"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 4,
-          "ejemplos": [
-            "«La palabra amenazada», Ivonne Bordelois",
-            "La cacería en Palermo y la risa de la manada",
-            "Paro nacional de las trabajadoras sexuales"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La visita de León XIV como gesto político: católicas feministas piden poner en a"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 4,
-          "ejemplos": [
-            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
-            "¿Qué puede hacer la escuela con las deepfakes sexuales?",
-            "China de la A a la Z"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
@@ -101,17 +73,17 @@
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "Crisis en Paraguay: Santiago Peña presentó su renuncia a la Presidencia",
-            "El video de Santiago Peña con el anuncio de su renuncia",
-            "Ciudad sitiada: los cortes de tránsito por la visita del Papa León XIV"
+            "Crisis en Paraguay: Santiago Peña renunció a la Presidencia",
+            "Santiago Peña: el ascenso, los negocios familiares y la caída del expresidente p"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+        "otro país": {
+          "cantidad": 2,
           "ejemplos": [
-            "Murió Patricia Walsh, la exdiputada que impulsó la nulidad de las leyes de la im"
+            "El banco se llevó puesto al presidente de Paraguay",
+            "Marcha del Orgullo 2026: así será el recorrido hacia el Congreso"
           ]
         }
       }
@@ -119,20 +91,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 9,
           "ejemplos": [
-            "Instituto se prepara para el clásico ante Atenas: tres partidos y una gira exige",
-            "Córdoba tendrá cinco puntos de atención para recibir denuncias durante la noche",
-            "Plaza de la Música apuesta a un nuevo teatro"
+            "Cómo funcionarán los servicios durante los feriados por la visita del Papa",
+            "Investigan a Petro por presuntos favores sexuales a cambio de contratos públicos",
+            "Belgrano entró dormido y pierde 1-2 de visitante con Gimnasia de La Plata"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Renunció Santiago Peña, presidente de Paraguay: «Quiero pedir disculpas al puebl"
+            "El riesgo país de Paraguay subió 21% y el guaraní sufrió una devaluación del 12%",
+            "Pedro Alliana, el vicepresidente que podría asumir en Paraguay"
           ]
         }
       }
@@ -140,14 +113,22 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 29,
+      "aceptadas": 27,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 46,
           "ejemplos": [
+            "Estatuto municipal: endurecen los filtros de ingreso y controles éticos para el ",
             "Juicio contra la Toretto: declararon un policía, dos testigos y familiares de la",
-            "Con una pequeña muestra, se presentó el primer informe sobre discapacitados dete",
-            "Nvidia recupera el título de empresa más valiosa del mundo y vuelve a superar a "
+            "Con una pequeña muestra, se presentó el primer informe sobre discapacitados dete"
+          ]
+        },
+        "otro país": {
+          "cantidad": 4,
+          "ejemplos": [
+            "El presidente de Paraguay Santiago Peña renunció en medio de un escándalo bancar",
+            "Al menos 17 mujeres dirigirán gobiernos estatales en Estados Unidos, récord hist",
+            "El riesgo país perfora los 830 puntos"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -157,12 +138,10 @@
             "Justifican auto despido por descuentos salariales y traslado abusivo"
           ]
         },
-        "otro país": {
-          "cantidad": 3,
+        "muy vieja": {
+          "cantidad": 1,
           "ejemplos": [
-            "Al menos 17 mujeres dirigirán gobiernos estatales en Estados Unidos, récord hist",
-            "El riesgo país perfora los 830 puntos",
-            "Ola azul en Estados Unidos: los demócratas recuperan el control de ambas cámaras"
+            "La UIA respaldó el rumbo económico que tomó el Gobierno"
           ]
         }
       }
@@ -170,20 +149,28 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 17,
+        "otro país": {
+          "cantidad": 3,
           "ejemplos": [
-            "Canto solidario: la música como encuentro y compromiso con las personas mayores",
-            "Las 10 cosas que necesitas saber si vas a ver al papa León XIV en Córdoba",
-            "Recorrido de SRT Media: el escenario principal y el predio de FAdeA donde estará"
+            "Paraguay: el Congreso no aceptó la renuncia de Santiago Peña",
+            "Flávio Bolsonaro será juzgado por usar el escudo de armas y autoproclamarse pres",
+            "Paraguay: la Cámara de Diputados aprobó el juicio político contra Santiago Peña"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 15,
+          "ejemplos": [
+            "Santiago Peña: \"Mi suerte personal no está por encima del Paraguay\"",
+            "Córdoba: cómo funcionarán los servicios durante los feriados por la visita del P",
+            "El SUV híbrido que amplió su ventaja sobre el Toyota Corolla Cross: cuáles son l"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Córdoba: amenazaron de muerte al ministro Juan Pablo Quinteros"
+            "Cine Arte Córdoba: películas nacionales e internacionales en la cartelera de nov"
           ]
         }
       }
