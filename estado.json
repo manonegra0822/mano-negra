@@ -1,65 +1,46 @@
 {
-  "actualizado": "2026-11-04T20:36:19-03:00",
+  "actualizado": "2026-11-05T08:48:44-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 97,
           "ejemplos": [
-            "Art of Play llevará ‘Bill & Ted’s Excellent Adventure Arcade’ a PC y consolas",
-            "Fallece a los 77 años María Alicia Delgado, reconocida actriz y comediante de Te",
-            "Sector del automóvil pide incluir al R. Unido en 'Made in Europe' para competir "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Se frenó el repunte de la actividad automotriz: la producción y las exportacione"
+            "El comentado encuentro de la reina Leticia y Aitana Sánchez-Gijón en la Cumbre I",
+            "La familia de Jesús de Miguel rompe su silencio tras la muerte del jugador: “Nec",
+            "Lluvias en Perú EN VIVO: precipitaciones por el Fenómeno El Niño en el sur de Li"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 7,
+      "leidas": 96,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 74,
+          "cantidad": 75,
           "ejemplos": [
-            "El elenco de Matilda celebró los 30 años de la película con un reencuentro que e",
-            "Un funcionario alemán fue encontrado muerto en un hotel de Berlín: tenía 55 años",
-            "Albert Einstein: “La madurez comienza a manifestarse cuando sentimos que nuestra"
+            "Se aproxima el “Pampero”, un fenómeno que traerá frío invernal con temperaturas ",
+            "Conrado Estol, médico: “Tener 75 años no significa quedarse mirando televisión t",
+            "Jorge Tartaglione, médico, alertó sobre el brote que viene por el avance del Súp"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 11,
           "ejemplos": [
-            "El poderío chino que abre oportunidades para la Argentina en un sector estratégi",
-            "Javier Álvarez Bento denuncia la pérdida de más de 5000 hectáreas en una estanci",
-            "Volatilidad en los granos: había que blindarse para navegar la incertidumbre"
+            "Pablo Della Lucía, productor de ajo del Valle de Uco, sobre la crisis: cultivar ",
+            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de n",
+            "Calendario de pagos de Anses: cuándo se cobra la PUAM de noviembre de 2026"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Senado: a pesar de las críticas al texto y al Gobierno, oficialismo y oposición ",
-            "Movimientos inusuales: fuerte rebote de los bonos en pesos que venían más castig"
-          ]
-        },
-        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Cóctel bajista: la soja cayó a su menor precio en casi tres meses en el mercado "
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Axel Kicillof invitó al “Chiqui” Tapia a la misa con el Papa en Luján"
+            "Día del Bancario: cómo funcionan los bancos el viernes 6 de noviembre"
           ]
         }
       }
@@ -96,19 +77,13 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "Trump va de salida",
-            "Mujeres trans atacadas en Palermo presentaron una denuncia: “Somos personas y qu"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "“Cae mal”: el Gobierno no puede disimular el impacto de la derrota de Trump"
+            "Impacto por la crisis bancaria en Paraguay",
+            "Cristiano Ronaldo anunció su retiro de la Selección de Portugal"
           ]
         }
       }
@@ -116,19 +91,26 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 13,
           "ejemplos": [
-            "Presentaron un amparo colectivo por el desmantelamiento del Programa Remediar",
-            "El reclamo argentino por Malvinas obtuvo un apoyo unánime en la cumbre iberoamer",
-            "La derrota de Trump tuvo eco en todo el mundo"
+            "Comienzan las jornadas de prevención del ACV en el Nuevo Hospital San Roque",
+            "Cristiano Ronaldo anunció su retiro de la selección de Portugal",
+            "Belgrano va por un triunfo en el Bosque que le asegure la localía: hora, TV y fo"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Gobierno aplazó la licitación del Belgrano Cargas y flexibilizó las condicion"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "La crisis bancaria sacude el Gobierno de Santiago Peña",
             "Una ola azul dejó a Trump sin el control del Congreso estadounidense"
           ]
         }
@@ -137,35 +119,29 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 27,
+      "aceptadas": 29,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 46,
+          "ejemplos": [
+            "Juicio contra la Toretto: declararon un policía, dos testigos y familiares de la",
+            "Con una pequeña muestra, se presentó el primer informe sobre discapacitados dete",
+            "Nvidia recupera el título de empresa más valiosa del mundo y vuelve a superar a "
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Río Negro moderniza su sistema de farmacias: receta electrónica, delivery y tele",
+            "Justifican auto despido por descuentos salariales y traslado abusivo"
+          ]
+        },
         "otro país": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "Al menos 17 mujeres dirigirán gobiernos estatales en Estados Unidos, récord hist",
             "El riesgo país perfora los 830 puntos",
             "Ola azul en Estados Unidos: los demócratas recuperan el control de ambas cámaras"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 46,
-          "ejemplos": [
-            "Control antilavado societario: la IGJ simplifica trámites de capital y unifica l",
-            "Vaca Muerta cerrará 2026 produciendo el cuádruple que una década atrás",
-            "El Colegio de Escribanos de Córdoba presentó su Portal Académico Notarial: más f"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Justifican auto despido por descuentos salariales y traslado abusivo"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Rosario, entre los diez destinos que serán tendencia global en 2027",
-            "Santo Domingo: historia, paisajes y sabores imperdibles en el corazón del Caribe"
           ]
         }
       }
@@ -173,21 +149,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 15,
           "ejemplos": [
-            "Causa $LIBRA: Casación revisará si dos damnificados pueden ser querellantes",
-            "Cortes programados de luz en Córdoba para este jueves: ocho localidades afectada",
-            "Córdoba: multan a un ginecólogo por usar anteojos con cámara en una consulta"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "JD Vance, vicepresidente de los Estados Unidos: \"Perdimos por la guerra\"",
-            "Bancor abre su museo antes de la llegada del Papa, con la muestra de Eugenio Zan"
+            "Germán Scelso llega al Cineclub Municipal con tres películas sobre memoria, viol",
+            "Relatos de un fotógrafo de aves: Guillermo Galliano presenta su nuevo libro",
+            "Cristiano Ronaldo le puso punto final a su historia con la selección de Portugal"
           ]
         }
       }
