@@ -1,46 +1,61 @@
 {
-  "actualizado": "2026-11-05T08:48:44-03:00",
+  "actualizado": "2026-11-05T13:59:23-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 95,
           "ejemplos": [
-            "El comentado encuentro de la reina Leticia y Aitana Sánchez-Gijón en la Cumbre I",
-            "La familia de Jesús de Miguel rompe su silencio tras la muerte del jugador: “Nec",
-            "Lluvias en Perú EN VIVO: precipitaciones por el Fenómeno El Niño en el sur de Li"
+            "Chernóbil, 40 años después: los perros que sobrevivieron al desastre nuclear son",
+            "Con Francesco Andrealli de Como de Italia, las novedades de la convocatoria de P",
+            "Operan de urgencia a un futbolista de 20 años tras un fuerte golpe en la mandíbu"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El expresidente español Mariano Rajoy pidió regular las redes sociales: \"Es el p",
+            "Daniel Schteingart presentó su nuevo libro: cómo está la Argentina y qué futuro ",
+            "ANSES: cuándo cobro en noviembre 2026 si mi DNI termina en 4"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Se derrumba 4% el índice tecnológico de Wall Street por la fuerte caída de accio"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 9,
+      "leidas": 90,
+      "aceptadas": 10,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 71,
           "ejemplos": [
-            "Se aproxima el “Pampero”, un fenómeno que traerá frío invernal con temperaturas ",
-            "Conrado Estol, médico: “Tener 75 años no significa quedarse mirando televisión t",
-            "Jorge Tartaglione, médico, alertó sobre el brote que viene por el avance del Súp"
+            "Qué significan las luces del router y cuándo indican un problema de conexión",
+            "Qué se sabe de la renuncia del presidente de Paraguay, Santiago Peña",
+            "El video de la renuncia de Santiago Peña por la crisis de Ueno Bank: “Quiero ped"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Una fiscal de Comodoro Py pidió investigar si hubo algún delito en el escape de ",
+            "Sin intervenir el dólar desde 2021, el ministro de Economía de Uruguay explicó l"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 7,
           "ejemplos": [
-            "Pablo Della Lucía, productor de ajo del Valle de Uco, sobre la crisis: cultivar ",
-            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de n",
-            "Calendario de pagos de Anses: cuándo se cobra la PUAM de noviembre de 2026"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Día del Bancario: cómo funcionan los bancos el viernes 6 de noviembre"
+            "Mercado Libre cae en Wall Street tras presentar sus resultados del tercer trimes",
+            "La agenda de León XIV: la vigilia con los jóvenes en Palermo, el único acto que ",
+            "Maíz tardío: genética para sostener los pisos y empujar los techos"
           ]
         }
       }
@@ -50,22 +65,28 @@
       "leidas": 10,
       "aceptadas": 0,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "«La palabra amenazada», Ivonne Bordelois",
+            "La cacería en Palermo y la risa de la manada",
+            "Paro nacional de las trabajadoras sexuales"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La visita de León XIV como gesto político: católicas feministas piden poner en a"
+          ]
+        },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
             "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "La cacería en Palermo y la risa de la manada",
-            "Paro nacional de las trabajadoras sexuales",
-            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, "
-          ]
-        },
         "muy vieja": {
-          "cantidad": 6,
+          "cantidad": 4,
           "ejemplos": [
             "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
             "¿Qué puede hacer la escuela con las deepfakes sexuales?",
@@ -77,13 +98,20 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "Impacto por la crisis bancaria en Paraguay",
-            "Cristiano Ronaldo anunció su retiro de la Selección de Portugal"
+            "Crisis en Paraguay: Santiago Peña presentó su renuncia a la Presidencia",
+            "El video de Santiago Peña con el anuncio de su renuncia",
+            "Ciudad sitiada: los cortes de tránsito por la visita del Papa León XIV"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Murió Patricia Walsh, la exdiputada que impulsó la nulidad de las leyes de la im"
           ]
         }
       }
@@ -91,27 +119,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 14,
           "ejemplos": [
-            "Comienzan las jornadas de prevención del ACV en el Nuevo Hospital San Roque",
-            "Cristiano Ronaldo anunció su retiro de la selección de Portugal",
-            "Belgrano va por un triunfo en el Bosque que le asegure la localía: hora, TV y fo"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno aplazó la licitación del Belgrano Cargas y flexibilizó las condicion"
+            "Instituto se prepara para el clásico ante Atenas: tres partidos y una gira exige",
+            "Córdoba tendrá cinco puntos de atención para recibir denuncias durante la noche",
+            "Plaza de la Música apuesta a un nuevo teatro"
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "La crisis bancaria sacude el Gobierno de Santiago Peña",
-            "Una ola azul dejó a Trump sin el control del Congreso estadounidense"
+            "Renunció Santiago Peña, presidente de Paraguay: «Quiero pedir disculpas al puebl"
           ]
         }
       }
@@ -149,14 +170,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 17,
           "ejemplos": [
-            "Germán Scelso llega al Cineclub Municipal con tres películas sobre memoria, viol",
-            "Relatos de un fotógrafo de aves: Guillermo Galliano presenta su nuevo libro",
-            "Cristiano Ronaldo le puso punto final a su historia con la selección de Portugal"
+            "Canto solidario: la música como encuentro y compromiso con las personas mayores",
+            "Las 10 cosas que necesitas saber si vas a ver al papa León XIV en Córdoba",
+            "Recorrido de SRT Media: el escenario principal y el predio de FAdeA donde estará"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Córdoba: amenazaron de muerte al ministro Juan Pablo Quinteros"
           ]
         }
       }
