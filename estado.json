@@ -1,59 +1,60 @@
 {
-  "actualizado": "2026-11-06T08:44:45-03:00",
+  "actualizado": "2026-11-06T13:42:44-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 96,
           "ejemplos": [
-            "EN VIVO | Juicio político en Paraguay: el presidente del Congreso rechazó el ped",
-            "Nithya Raman gana la alcaldía de Los Ángeles y derrota a Karen Bass",
-            "Opinión que resta"
+            "EN VIVO | El Senado de Paraguay reinició la sesión del juicio político a Peña au",
+            "EN VIVO | Clima CDMX y resto de México hoy viernes 6 de noviembre: se esperan ll",
+            "Un estudio mostró que trabajar con recuerdos de infancia redujo el miedo al frac"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "El viaje del papa León XIV a la Argentina, en vivo: cuándo llega, actividades co"
+            "La gira latinoamericana de León XIV: el papa se encuentra en el tramo final de s"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 3,
+      "leidas": 91,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 76,
+          "cantidad": 70,
           "ejemplos": [
-            "Feriados por la visita del papa León XIV: uno por uno, estos son los días de nov",
-            "Edad del papa León XIV: cuántos años tiene el Sumo Pontífice en su visita a la A",
-            "Itinerario del papa León XIV en la Argentina: días y horarios de la agenda del S"
+            "Franco Colapinto en la Fórmula 1, en vivo",
+            "Persecución de película: escaparon a los tiros de la policía y terminaron deteni",
+            "Larissa Riquelme, sobre la crisis en Paraguay: “Los sueños pueden detenerse por "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 7,
           "ejemplos": [
-            "Vino como presbítero, recorrió las pampas y a los pocos años fue nombrado Papa",
-            "“Pasaporte digital de la vaca”: una revolucionaria tecnología ayuda a estimar la",
-            "El Niño. Las lluvias no dan tregua y en el sur bonaerense hay hasta 20 días de a"
+            "Qué pasó con Ueno Bank y cómo sigue la crisis en Paraguay hoy, viernes 6 de novi",
+            "Los cultivos transgénicos generaron en el país beneficios brutos por unos US$197",
+            "Un punto negro en el mar: crónica del rescate a un muerto en el Mediterráneo y e"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 4,
           "ejemplos": [
-            "La receta de las pymes industriales que siguen dando pelea"
+            "Malvinas: el Gobierno envía la misión para las audiencias ante el Tribunal del M",
+            "Bitcoins vendidos a escondidas y ahorros en negro: la explicación de Adorni que ",
+            "El fiscal Pollicita dijo que no hay pruebas para sostener que Adorni se enriquec"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Los hermanos Passaglia suman a Oscar Ahumada a Hechos, el exmediocampista de Riv",
-            "León vs. león: una coincidencia y muchas diferencias: así piensan Milei y el Pap"
+            "Pese a la invitación de Jorge Macri, Mauricio Macri no asistirá a la misa del pa"
           ]
         }
       }
@@ -64,11 +65,11 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 6,
           "ejemplos": [
-            "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de",
-            "«La palabra amenazada», Ivonne Bordelois",
-            "La cacería en Palermo y la risa de la manada"
+            "La noche que un pueblo argentino corrió a tres ingleses",
+            "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
+            "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -84,11 +85,10 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
-            "¿Qué puede hacer la escuela con las deepfakes sexuales?",
-            "China de la A a la Z"
+            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, ",
+            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo"
           ]
         }
       }
@@ -99,10 +99,15 @@
       "aceptadas": 4,
       "descartadas": {
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Crisis en Paraguay: Santiago Peña intentó renunciar pero el Senado avanza con el",
-            "El Ueno Bank se llevó puesto al presidente de Paraguay"
+            "El Senado de Paraguay avanza con el juicio político a Santiago Peña"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Paro de colectivos en el AMBA: qué líneas están afectadas"
           ]
         }
       }
@@ -110,20 +115,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 17,
           "ejemplos": [
-            "El papa León XIV inicia su histórica gira por Sudamérica: Uruguay, el primer des",
-            "Personal reforzó su red en Córdoba ante la visita del Papa",
-            "La rosca infinita / Empresarios preocupados / Pasando la gorra"
+            "La causa contra Adorni podría cambiar de fuero por falta de pruebas de enriqueci",
+            "Siete consejos simples para mejorar el Wi-Fi en casa sin pagar más por internet",
+            "Los Pumas visitan a Irlanda, Colapinto corre en Interlagos y la última fecha del"
           ]
         },
-        "otro país": {
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Pedro Alliana, el vicepresidente que podría asumir en Paraguay"
+            "Fue detenido el hombre acusado de amenazar al ministro de Seguridad Quinteros"
           ]
         }
       }
@@ -134,7 +139,7 @@
       "aceptadas": 20,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 18,
           "ejemplos": [
             "La gente dice “dame”",
             "Lejos del freno: Renault planea producir 40 mil vehículos en 2027",
@@ -142,11 +147,10 @@
           ]
         },
         "otro país": {
-          "cantidad": 4,
+          "cantidad": 2,
           "ejemplos": [
             "El presidente de Paraguay Santiago Peña renunció en medio de un escándalo bancar",
-            "Al menos 17 mujeres dirigirán gobiernos estatales en Estados Unidos, récord hist",
-            "El riesgo país perfora los 830 puntos"
+            "Al menos 17 mujeres dirigirán gobiernos estatales en Estados Unidos, récord hist"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -156,11 +160,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 35,
+          "cantidad": 39,
           "ejemplos": [
-            "La Justicia denegó reducir el aporte extra de 6% a la Caja; alivio para Llaryora",
-            "El Gobierno envió al Congreso un proyecto reforma financiera",
-            "Vaca Muerta cerrará 2026 produciendo el cuádruple que una década atrás"
+            "Control antilavado societario: la IGJ simplifica trámites de capital y unifica l",
+            "El riesgo país perfora los 830 puntos",
+            "El calendario completo de Anses de noviembre 2026"
           ]
         }
       }
@@ -168,27 +172,26 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 10,
           "ejemplos": [
-            "Todos los cortes de energía programados para el fin de semana en Córdoba",
-            "Ersep habilitó un aumento de casi 12% en la boleta de Aguas Cordobesas",
-            "Insumo odontológico se vendía sin autorización y fue prohibido por ANMAT"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Paraguay: el Congreso no aceptó la renuncia de Santiago Peña",
-            "Flávio Bolsonaro será juzgado por usar el escudo de armas y autoproclamarse pres"
+            "Un feroz temporal azotó el sur de Córdoba y destrozó móviles policiales",
+            "Llega la tercera edición de “Las Otras”, un festival solidario para mujeres y di",
+            "Hacemos Unidos por Córdoba definió su estrategia para 2027: retener municipios y"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Cine Arte Córdoba: películas nacionales e internacionales en la cartelera de nov"
+            "“Te voy a matar”: detuvieron al hombre que amenazó de muerte al ministro Quinter"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cuánto dinero tenía depositado la Conmebol en el banco intervenido en Paraguay"
           ]
         }
       }
@@ -199,7 +202,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
+      "error": "no se pudo leer el feed (The read operation timed out)"
     },
     {
       "medio": "Cadena 3",
@@ -208,13 +211,13 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "muy vieja": {
-          "cantidad": 49,
+          "cantidad": 50,
           "ejemplos": [
+            "Operativo de seguridad por León XIV: qué establece el decreto sobre el control d",
             "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
-            "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil ",
             "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil "
           ]
         }
