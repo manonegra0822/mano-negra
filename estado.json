@@ -1,23 +1,25 @@
 {
-  "actualizado": "2026-11-06T13:42:44-03:00",
+  "actualizado": "2026-11-06T20:29:37-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 96,
           "ejemplos": [
-            "EN VIVO | El Senado de Paraguay reinició la sesión del juicio político a Peña au",
-            "EN VIVO | Clima CDMX y resto de México hoy viernes 6 de noviembre: se esperan ll",
-            "Un estudio mostró que trabajar con recuerdos de infancia redujo el miedo al frac"
+            "Independiente vence a Riestra y avanza a los octavos del Torneo Clausura, mientr",
+            "Sorteo Superior 2903: Resultados viernes 6 de noviembre del 2026 de la Lotería N",
+            "Medicina Legal pidió modificar decreto sobre levantamiento de cuerpos en operaci"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "La gira latinoamericana de León XIV: el papa se encuentra en el tramo final de s"
+            "Andrés Malamud: “El problema de la Argentina no es cultural: es un Estado que no",
+            "Valo y PPI firmaron una fusión e integrarán sus servicios financieros",
+            "El papa León XIV llegó a Uruguay para iniciar su gira latinoamericana"
           ]
         }
       }
@@ -25,36 +27,28 @@
     {
       "medio": "La Nación",
       "leidas": 91,
-      "aceptadas": 9,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 70,
+          "cantidad": 81,
           "ejemplos": [
-            "Franco Colapinto en la Fórmula 1, en vivo",
-            "Persecución de película: escaparon a los tiros de la policía y terminaron deteni",
-            "Larissa Riquelme, sobre la crisis en Paraguay: “Los sueños pueden detenerse por "
+            "Las revelaciones de León XIV a 10.000 metros de altura: Francisco, su salud y el",
+            "Crisis en Paraguay, EN VIVO: Santiago Peña fue destituido y ordenan su detención",
+            "Matt Damon reveló el dramático problema de salud de su esposa argentina: “Sufrió"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 7,
           "ejemplos": [
-            "Qué pasó con Ueno Bank y cómo sigue la crisis en Paraguay hoy, viernes 6 de novi",
-            "Los cultivos transgénicos generaron en el país beneficios brutos por unos US$197",
-            "Un punto negro en el mar: crónica del rescate a un muerto en el Mediterráneo y e"
+            "Prisión preventiva y embargo millonario para Ariel Vallejo, el financista de la ",
+            "Envases vacíos de agroquímicos: el 44% del plástico recuperado se usa para fabri",
+            "El Niño: las lluvias no dan tregua y en el sur bonaerense hay hasta 20 días de a"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 4,
-          "ejemplos": [
-            "Malvinas: el Gobierno envía la misión para las audiencias ante el Tribunal del M",
-            "Bitcoins vendidos a escondidas y ahorros en negro: la explicación de Adorni que ",
-            "El fiscal Pollicita dijo que no hay pruebas para sostener que Adorni se enriquec"
-          ]
-        },
-        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Pese a la invitación de Jorge Macri, Mauricio Macri no asistirá a la misa del pa"
+            "El presidente de OpenAI confirmó que la compañía podría salir a la Bolsa en 2027"
           ]
         }
       }
@@ -96,18 +90,21 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "El Senado de Paraguay avanza con el juicio político a Santiago Peña"
+            "El Congreso de Paraguay destituyó a Santiago Peña por unanimidad",
+            "Tensión familiar y faltazo: Mauricio Macri no asistirá a la misa del papa León X"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Paro de colectivos en el AMBA: qué líneas están afectadas"
+            "La visita del papa León XIV a la Argentina: su paso por Uruguay y los preparativ",
+            "“No tomen por idiota al pueblo”",
+            "El FAL es un agujero en la sostenibilidad previsional"
           ]
         }
       }
@@ -115,20 +112,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 19,
           "ejemplos": [
-            "La causa contra Adorni podría cambiar de fuero por falta de pruebas de enriqueci",
-            "Siete consejos simples para mejorar el Wi-Fi en casa sin pagar más por internet",
-            "Los Pumas visitan a Irlanda, Colapinto corre en Interlagos y la última fecha del"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Fue detenido el hombre acusado de amenazar al ministro de Seguridad Quinteros"
+            "León XIV recordó a Francisco y aseguró que su visita a Argentina es un «homenaje",
+            "Feriados y asueto administrativo: cómo será la actividad en Córdoba la próxima s",
+            "Los Pumas cayeron 42-12 ante Irlanda en el inicio de la segunda fase"
           ]
         }
       }
@@ -136,14 +127,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 20,
+      "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 19,
           "ejemplos": [
             "La gente dice “dame”",
-            "Lejos del freno: Renault planea producir 40 mil vehículos en 2027",
-            "La justicia no es un algoritmo: el peligro de juzgar sin comprender"
+            "Chile habilita a ofrecer internet satelital a competidor directo de Starlink",
+            "Lejos del freno: Renault planea producir 40 mil vehículos en 2027"
           ]
         },
         "otro país": {
@@ -162,9 +153,9 @@
         "muy vieja": {
           "cantidad": 39,
           "ejemplos": [
-            "Control antilavado societario: la IGJ simplifica trámites de capital y unifica l",
-            "El riesgo país perfora los 830 puntos",
-            "El calendario completo de Anses de noviembre 2026"
+            "Prorrogan la suspensión de juicios de ejecución fiscal y cautelares para pymes, ",
+            "La UIF flexibiliza controles antilavado para incentivar el ingreso de dólares in",
+            "Intendentes reclamaron por subsidios al transporte y recortes al Plan Remediar"
           ]
         }
       }
@@ -172,26 +163,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 10,
+          "cantidad": 13,
           "ejemplos": [
-            "Un feroz temporal azotó el sur de Córdoba y destrozó móviles policiales",
-            "Llega la tercera edición de “Las Otras”, un festival solidario para mujeres y di",
-            "Hacemos Unidos por Córdoba definió su estrategia para 2027: retener municipios y"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "“Te voy a matar”: detuvieron al hombre que amenazó de muerte al ministro Quinter"
+            "Maria Bethânia celebra sus 60 años de carrera con un nuevo disco en vivo",
+            "Fernando Rambaldi inauguró la repavimentación de la avenida Simón Bolívar en La ",
+            "Carlos Di Fulvio vuelve a cantarle a Brochero, a diez años de una presentación h"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Cuánto dinero tenía depositado la Conmebol en el banco intervenido en Paraguay"
+            "Crisis en Paraguay: el Senado destituyó al presidente Santiago Peña"
           ]
         }
       }
@@ -202,7 +187,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (The read operation timed out)"
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
     },
     {
       "medio": "Cadena 3",
