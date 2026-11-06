@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-05T20:37:34-03:00",
+  "actualizado": "2026-11-06T08:44:45-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,83 +7,102 @@
       "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 97,
           "ejemplos": [
-            "México ordena expedir pasaporte a sacerdote que denunció discriminación por su v",
-            "El atacante que disparó y mató en una sede de Citibank apuntó a la compañía por ",
-            "Alerta migratoria podría ser activada contra Guadalupe Taddei y hermanos Hernánd"
+            "EN VIVO | Juicio político en Paraguay: el presidente del Congreso rechazó el ped",
+            "Nithya Raman gana la alcaldía de Los Ángeles y derrota a Karen Bass",
+            "Opinión que resta"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Gran Día: McDonald's volverá a destinar el 100% de las ventas de Big Mac a dos f"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Marcelo Mindlin encabezó el segundo plenario de la Alianza Internacional para el"
+            "El viaje del papa León XIV a la Argentina, en vivo: cuándo llega, actividades co"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 6,
+      "leidas": 95,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 76,
           "ejemplos": [
-            "Detuvieron en Moreno al “Gordo Tilín”, el azote de Fuerte Apache",
-            "Barbie Simons reveló que sufrió una estafa millonaria y perdió la herencia de su",
-            "Tiene 111 años y contó qué alimentos nunca faltan en su dieta para mantenerse sa"
+            "Feriados por la visita del papa León XIV: uno por uno, estos son los días de nov",
+            "Edad del papa León XIV: cuántos años tiene el Sumo Pontífice en su visita a la A",
+            "Itinerario del papa León XIV en la Argentina: días y horarios de la agenda del S"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 10,
+          "cantidad": 13,
           "ejemplos": [
-            "Virginia Gallardo compartió la invitación oficial que recibió para asistir al en",
-            "Las empresas estadounidenses alertaron que la derrota de Trump puede condicionar",
-            "Otra derrota para Tapia: la Corte anuló el fallo que le impedía a la Inspección "
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La Corte Suprema confirmó la condena de un exdirectivo de Ford por crímenes de l"
+            "Vino como presbítero, recorrió las pampas y a los pocos años fue nombrado Papa",
+            "“Pasaporte digital de la vaca”: una revolucionaria tecnología ayuda a estimar la",
+            "El Niño. Las lluvias no dan tregua y en el sur bonaerense hay hasta 20 días de a"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "“El crédito tiene un largo camino por recorrer”: qué ve el CEO de Supervielle pa"
+            "La receta de las pymes industriales que siguen dando pelea"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Los hermanos Passaglia suman a Oscar Ahumada a Hechos, el exmediocampista de Riv",
+            "León vs. león: una coincidencia y muchas diferencias: así piensan Milei y el Pap"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de",
+            "«La palabra amenazada», Ivonne Bordelois",
+            "La cacería en Palermo y la risa de la manada"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La visita de León XIV como gesto político: católicas feministas piden poner en a"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo",
+            "¿Qué puede hacer la escuela con las deepfakes sexuales?",
+            "China de la A a la Z"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Crisis en Paraguay: Santiago Peña renunció a la Presidencia",
-            "Santiago Peña: el ascenso, los negocios familiares y la caída del expresidente p"
-          ]
-        },
         "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "El banco se llevó puesto al presidente de Paraguay",
-            "Marcha del Orgullo 2026: así será el recorrido hacia el Congreso"
+            "Crisis en Paraguay: Santiago Peña intentó renunciar pero el Senado avanza con el",
+            "El Ueno Bank se llevó puesto al presidente de Paraguay"
           ]
         }
       }
@@ -91,20 +110,19 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 9,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 13,
           "ejemplos": [
-            "Cómo funcionarán los servicios durante los feriados por la visita del Papa",
-            "Investigan a Petro por presuntos favores sexuales a cambio de contratos públicos",
-            "Belgrano entró dormido y pierde 1-2 de visitante con Gimnasia de La Plata"
+            "El papa León XIV inicia su histórica gira por Sudamérica: Uruguay, el primer des",
+            "Personal reforzó su red en Córdoba ante la visita del Papa",
+            "La rosca infinita / Empresarios preocupados / Pasando la gorra"
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "El riesgo país de Paraguay subió 21% y el guaraní sufrió una devaluación del 12%",
             "Pedro Alliana, el vicepresidente que podría asumir en Paraguay"
           ]
         }
@@ -113,14 +131,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 27,
+      "aceptadas": 20,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 46,
+          "cantidad": 20,
           "ejemplos": [
-            "Estatuto municipal: endurecen los filtros de ingreso y controles éticos para el ",
-            "Juicio contra la Toretto: declararon un policía, dos testigos y familiares de la",
-            "Con una pequeña muestra, se presentó el primer informe sobre discapacitados dete"
+            "La gente dice “dame”",
+            "Lejos del freno: Renault planea producir 40 mil vehículos en 2027",
+            "La justicia no es un algoritmo: el peligro de juzgar sin comprender"
           ]
         },
         "otro país": {
@@ -132,16 +150,17 @@
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Río Negro moderniza su sistema de farmacias: receta electrónica, delivery y tele",
-            "Justifican auto despido por descuentos salariales y traslado abusivo"
+            "Río Negro moderniza su sistema de farmacias: receta electrónica, delivery y tele"
           ]
         },
         "muy vieja": {
-          "cantidad": 1,
+          "cantidad": 35,
           "ejemplos": [
-            "La UIA respaldó el rumbo económico que tomó el Gobierno"
+            "La Justicia denegó reducir el aporte extra de 6% a la Caja; alivio para Llaryora",
+            "El Gobierno envió al Congreso un proyecto reforma financiera",
+            "Vaca Muerta cerrará 2026 produciendo el cuádruple que una década atrás"
           ]
         }
       }
@@ -149,22 +168,21 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
-        "otro país": {
-          "cantidad": 3,
+        "titular sin tema de política/economía": {
+          "cantidad": 17,
           "ejemplos": [
-            "Paraguay: el Congreso no aceptó la renuncia de Santiago Peña",
-            "Flávio Bolsonaro será juzgado por usar el escudo de armas y autoproclamarse pres",
-            "Paraguay: la Cámara de Diputados aprobó el juicio político contra Santiago Peña"
+            "Todos los cortes de energía programados para el fin de semana en Córdoba",
+            "Ersep habilitó un aumento de casi 12% en la boleta de Aguas Cordobesas",
+            "Insumo odontológico se vendía sin autorización y fue prohibido por ANMAT"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 15,
+        "otro país": {
+          "cantidad": 2,
           "ejemplos": [
-            "Santiago Peña: \"Mi suerte personal no está por encima del Paraguay\"",
-            "Córdoba: cómo funcionarán los servicios durante los feriados por la visita del P",
-            "El SUV híbrido que amplió su ventaja sobre el Toyota Corolla Cross: cuáles son l"
+            "Paraguay: el Congreso no aceptó la renuncia de Santiago Peña",
+            "Flávio Bolsonaro será juzgado por usar el escudo de armas y autoproclamarse pres"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
