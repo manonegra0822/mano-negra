@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-06T20:29:37-03:00",
+  "actualizado": "2026-11-07T08:27:34-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,48 +7,34 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 99,
           "ejemplos": [
-            "Independiente vence a Riestra y avanza a los octavos del Torneo Clausura, mientr",
-            "Sorteo Superior 2903: Resultados viernes 6 de noviembre del 2026 de la Lotería N",
-            "Medicina Legal pidió modificar decreto sobre levantamiento de cuerpos en operaci"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Andrés Malamud: “El problema de la Argentina no es cultural: es un Estado que no",
-            "Valo y PPI firmaron una fusión e integrarán sus servicios financieros",
-            "El papa León XIV llegó a Uruguay para iniciar su gira latinoamericana"
+            "Cómo crear limites para que WhatsApp, YouTube y más apps no consuman demasiada b",
+            "Victoria Ruffo reacciona a los rumores que vinculan a José Eduardo en investigac",
+            "Desembarcan en El Hierro a 314 personas de tres cayucos rescatados en las última"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
+      "leidas": 95,
       "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 81,
+          "cantidad": 89,
           "ejemplos": [
-            "Las revelaciones de León XIV a 10.000 metros de altura: Francisco, su salud y el",
-            "Crisis en Paraguay, EN VIVO: Santiago Peña fue destituido y ordenan su detención",
-            "Matt Damon reveló el dramático problema de salud de su esposa argentina: “Sufrió"
+            "Visita del Papa León XIV, EN VIVO: su paso por Uruguay y las últimas noticias de",
+            "Fin de semana largo: por qué es feriado el lunes 9 de noviembre",
+            "Partidos de hoy del Torneo Clausura 2026, sábado 7 de noviembre"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 4,
           "ejemplos": [
-            "Prisión preventiva y embargo millonario para Ariel Vallejo, el financista de la ",
+            "Ramona Casas tiene 74 años, fue elegida para hacer quesillos para el papa León X",
             "Envases vacíos de agroquímicos: el 44% del plástico recuperado se usa para fabri",
-            "El Niño: las lluvias no dan tregua y en el sur bonaerense hay hasta 20 días de a"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El presidente de OpenAI confirmó que la compañía podría salir a la Bolsa en 2027"
+            "Maíz tardío: las claves del nitrógeno para destrabar el rinde"
           ]
         }
       }
@@ -92,19 +78,18 @@
       "leidas": 6,
       "aceptadas": 1,
       "descartadas": {
-        "otro país": {
-          "cantidad": 2,
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
           "ejemplos": [
-            "El Congreso de Paraguay destituyó a Santiago Peña por unanimidad",
-            "Tensión familiar y faltazo: Mauricio Macri no asistirá a la misa del papa León X"
+            "La Policía de Paraguay detuvo al expresidente Santiago Peña tras su destitución",
+            "La fiesta de la impunidad: Bettina Angeletti registra gastos de $18 millones en ",
+            "El papa León XIV pide atención ante los suicidios y defiende una salud para todo"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
+        "muy vieja": {
+          "cantidad": 1,
           "ejemplos": [
-            "La visita del papa León XIV a la Argentina: su paso por Uruguay y los preparativ",
-            "“No tomen por idiota al pueblo”",
-            "El FAL es un agujero en la sostenibilidad previsional"
+            "Cómo se prepara la marcha del orgullo"
           ]
         }
       }
@@ -117,9 +102,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 19,
           "ejemplos": [
+            "Ordenan la detención de Peña tras ser destituido y asume Alliaga",
             "León XIV recordó a Francisco y aseguró que su visita a Argentina es un «homenaje",
-            "Feriados y asueto administrativo: cómo será la actividad en Córdoba la próxima s",
-            "Los Pumas cayeron 42-12 ante Irlanda en el inicio de la segunda fase"
+            "Feriados y asueto administrativo: cómo será la actividad en Córdoba la próxima s"
           ]
         }
       }
@@ -127,35 +112,29 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 19,
+      "aceptadas": 12,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 8,
           "ejemplos": [
+            "El papa León XIV inició en Uruguay su primera gira por América Latina",
             "La gente dice “dame”",
-            "Chile habilita a ofrecer internet satelital a competidor directo de Starlink",
-            "Lejos del freno: Renault planea producir 40 mil vehículos en 2027"
+            "Chile habilita a ofrecer internet satelital a competidor directo de Starlink"
           ]
         },
         "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "El presidente de Paraguay Santiago Peña renunció en medio de un escándalo bancar",
-            "Al menos 17 mujeres dirigirán gobiernos estatales en Estados Unidos, récord hist"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Río Negro moderniza su sistema de farmacias: receta electrónica, delivery y tele"
+            "El Congreso paraguayo destituyó a Santiago Peña y la Fiscalía ordena su detenció",
+            "El presidente de Paraguay Santiago Peña renunció en medio de un escándalo bancar"
           ]
         },
         "muy vieja": {
-          "cantidad": 39,
+          "cantidad": 58,
           "ejemplos": [
-            "Prorrogan la suspensión de juicios de ejecución fiscal y cautelares para pymes, ",
-            "La UIF flexibiliza controles antilavado para incentivar el ingreso de dólares in",
-            "Intendentes reclamaron por subsidios al transporte y recortes al Plan Remediar"
+            "Juicio contra la Toretto: declararon un policía, dos testigos y familiares de la",
+            "Las jubilaciones en Córdoba siguen en negativo aunque en octubre frenaron la caí",
+            "Nvidia recupera el título de empresa más valiosa del mundo y vuelve a superar a "
           ]
         }
       }
@@ -163,14 +142,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 15,
           "ejemplos": [
-            "Maria Bethânia celebra sus 60 años de carrera con un nuevo disco en vivo",
-            "Fernando Rambaldi inauguró la repavimentación de la avenida Simón Bolívar en La ",
-            "Carlos Di Fulvio vuelve a cantarle a Brochero, a diez años de una presentación h"
+            "Qué hacer en Córdoba este fin de semana: la agenda cultural, entre la visita pap",
+            "El hito invisible de la acequia de Alta Gracia: un recorrido para recuperar la m",
+            "Autopartista Magna deja Córdoba y Renault asume el control"
           ]
         },
         "otro país": {

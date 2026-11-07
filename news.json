@@ -1,46 +1,33 @@
 {
-  "actualizado": "2026-11-06T20:29:37-03:00",
+  "actualizado": "2026-11-07T08:27:34-03:00",
   "notas": [
     {
-      "id": "ec2229744e",
+      "id": "665fc97b63",
       "seccion": "economia",
-      "rel": 33.9,
-      "relevancia": 33.9,
-      "fecha": "2026-11-06T15:29:24-03:00",
-      "hora": "15:29",
-      "titulo": "El riesgo país cede a 895 puntos",
+      "rel": 32.1,
+      "relevancia": 32.1,
+      "fecha": "2026-11-06T15:52:13-03:00",
+      "hora": "15:52",
+      "titulo": "Lorenzatti presentó el proyecto de Presupuesto 2027: déficit cero e incremento de partidas para la prestación de servicios y la ejecución de obras",
       "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/el-riesgo-pais-cede-a-895-puntos/",
+      "url": "https://comercioyjusticia.info/economia/lorenzatti-presento-el-proyecto-de-presupuesto-2027-deficit-cero-e-incremento-de-partidas-para-la-prestacion-de-servicios-y-la-ejecucion-de-obras/",
       "acceso": "abierto",
-      "resumen": "El riesgo país desciende a 895 puntos básicos como consecuencia de un rebote en el precio de los bonos de la deuda argentina de hasta 1,1%, al promediar la rueda de este viernes. La cotización corresponde a las operaciones que se están realizando en Wall Street, mientras que la Bolsa de Buenos Aires permanece cerrada […]",
+      "resumen": "La inversión en materia social crecerá un 10,4% real respecto de 2026.Se mantendrán las alícuotas del presente período en materia tributaria, con actualización de montos mínimos y tasas. También se mantienen los beneficios para las actividades comerciales, industriales y de servicios. Durante la jornada del viernes, el secretario de Administración Pública y Capital Humano de […]",
       "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/07/riesgo-pais.jpg",
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/IMG-20261106-WA0011.jpg",
       "imagen_credito": "Comercio y Justicia",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "El riesgo país desciende a 895 puntos básicos",
-          "url": "https://hoydia.com.ar/economia/el-riesgo-pais-desciende-a-895-puntos-basicos/"
-        },
-        {
-          "fuente": "Infobae",
-          "titulo": "El riesgo país argentino cae debajo de los 900 puntos, mientras que Wall Street insinúa un rebote",
-          "url": "https://www.infobae.com/economia/2026/11/06/el-riesgo-pais-argentino-cae-debajo-de-los-900-puntos-mientras-que-wall-street-insinua-un-rebote/"
-        },
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "El riesgo país trepó a 927 puntos y duplicó su valor en cuatro meses",
-          "url": "https://hoydia.com.ar/economia/riesgo-pais-927-puntos/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.134,
+        "y1": 0.503
+      }
     },
     {
       "id": "32f3eb4e80",
       "seccion": "cordoba",
-      "rel": 33.2,
-      "relevancia": 33.2,
+      "rel": 31.2,
+      "relevancia": 31.2,
       "fecha": "2026-11-06T15:43:50-03:00",
       "hora": "15:43",
       "titulo": "Córdoba compensará deudas con Nación por casi $143 mil millones y mantendrá sus reclamos por la Caja",
@@ -58,8 +45,74 @@
           "url": "https://www.cba24n.com.ar/cordoba/cordoba-compensara-deudas-con-nacion-y-mantendra-sus-reclamos-por-la-caja_a6aee342f566f8a6f7fcad8de"
         }
       ],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "ec2229744e",
+      "seccion": "economia",
+      "rel": 31.2,
+      "relevancia": 31.2,
+      "fecha": "2026-11-06T15:29:24-03:00",
+      "hora": "15:29",
+      "titulo": "El riesgo país cede a 895 puntos",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/el-riesgo-pais-cede-a-895-puntos/",
+      "acceso": "abierto",
+      "resumen": "El riesgo país desciende a 895 puntos básicos como consecuencia de un rebote en el precio de los bonos de la deuda argentina de hasta 1,1%, al promediar la rueda de este viernes. La cotización corresponde a las operaciones que se están realizando en Wall Street, mientras que la Bolsa de Buenos Aires permanece cerrada […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/07/riesgo-pais.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "El riesgo país desciende a 895 puntos básicos",
+          "url": "https://hoydia.com.ar/economia/el-riesgo-pais-desciende-a-895-puntos-basicos/"
+        }
+      ],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "d6f8610ff0",
+      "seccion": "economia",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-11-07T08:16:48-03:00",
+      "hora": "08:16",
+      "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este sábado 7 de noviembre",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-sabado-7-de-noviembre-nid07112026/",
+      "acceso": "suscripcion",
+      "resumen": "La cotización de la moneda estadounidense se mantiene igual que el último día hábil; cómo fue el comportamiento de la divisa informal y los dólares financieros",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/QUDT2VA32RDRPL7GALCC7ZALTY.png?auth=d1f85f9286f5ec590c9afecfb366e32f6cbb7173b2d41364b6f7e63cc678fb8a&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
       "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "6001d33992",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-07T07:45:07-03:00",
+      "hora": "07:45",
+      "titulo": "Los proyectos en el Congreso de Estados Unidos que podrían presionar sobre una eventual asistencia financiera de Trump a Milei",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/11/07/los-proyectos-en-el-congreso-de-estados-unidos-que-podrian-presionar-sobre-una-eventual-asistencia-financiera-de-trump-a-milei/",
+      "acceso": "abierto",
+      "resumen": "Legisladores demócratas mantienen iniciativas para bloquear o auditar el rescate de USD 20.000 millones que el Tesoro de Trump desplegó en favor de la Argentina. Las alertas de las cámaras empresarias",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/HCQKVHXUG5CWXPU5EL4RNHMJHQ.JPG?auth=01efb46efbcb8336c35ac8f3c38c37c0a7f3980f99e8f620518d88630a63a4bf&smart=true&width=5500&height=3700",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.142,
+        "y1": 0.432
+      }
     },
     {
       "id": "da3a32c7f2",
@@ -77,7 +130,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/AFJR2DD4O5HZFN2VVBPO5ILOJY.jpg?auth=ed4f829da6f9a5227cf3be2399379b4d68ed6cdb6064e902e94a799dda2266a2&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.032,
         "y1": 0.302
@@ -99,58 +152,8 @@
       "imagen": "https://www.infobae.com/resizer/v2/TSVIYMK5TJCMNPDFVVEBYZLF5I.jpg?auth=8eeccf01573461b7edb5fbd8a1b22e9f28813108d9d8fd3755afa3d0916dc09f&smart=true&width=1920&height=1280",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "8dede1d022",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-06T08:15:05-03:00",
-      "hora": "08:15",
-      "titulo": "Visita del papa León XIV: cuándo se reunirá con Javier Milei y qué se sabe del encuentro",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/06/visita-del-papa-leon-xiv-cuando-se-reunira-con-javier-milei-y-que-se-sabe-del-encuentro/",
-      "acceso": "abierto",
-      "resumen": "El pontífice llegará el domingo 8 de noviembre a Buenos Aires, procedente de Uruguay. Su paso por la Casa Rosada será una de las primeras actividades de una gira que también incluirá Córdoba y Luján, antes de continuar hacia Perú",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/UXD3QR4KZFHWDIYABRWFE73OEU.jpg?auth=72638c26791c034e887d067c6906e73417655fbd6449251b6b25cb9fdfbe8f6a&smart=true&width=7087&height=4725",
-      "imagen_credito": "Infobae",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Javier Milei y sus medidas, en vivo: el Presidente le envió un mensaje al papa León XIV antes de su viaje a la Argentina",
-          "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-le-envio-un-mensaje-al-papa-leon-xiv-antes-de-su-nid05112026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.062,
-        "y1": 0.485
-      }
-    },
-    {
-      "id": "d1c9a7e823",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-06T08:10:24-03:00",
-      "hora": "08:10",
-      "titulo": "El acuerdo entre Kicillof y Máximo Kirchner aplacó la interna y abrió una vía para el armado electoral",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/06/el-acuerdo-entre-kicillof-y-maximo-kirchner-aplaco-la-interna-y-abrio-una-via-para-el-armado-electoral/",
-      "acceso": "abierto",
-      "resumen": "En ambos sectores del peronismo se quedaron conformes con el resultado de la reunión. Sigue la desconfianza, pero baja la tensión. La necesidad de un acuerdo político para el 2027",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/W5IFU5V7AJEL5LMHUWVYS2C6KU.jpg?auth=9f45e9f91daf8583a5a220127ffa2e64a10c7f532e61697129fc6a69f9a07bba&smart=true&width=1920&height=1080",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.042,
-        "y1": 0.419
-      }
     },
     {
       "id": "607a28a244",
@@ -168,32 +171,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/PDNQOYIARRDJLG4AQNSZ4QHS3M.jpg?auth=fe8da564e0b92f22d91abcdfd70033ec45c070ac15ff0ed06e6c134de2bc143e&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.208,
         "y1": 0.575
-      }
-    },
-    {
-      "id": "a6b2b824fa",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-06T18:36:17-03:00",
-      "hora": "18:36",
-      "titulo": "La carta de jubilados a León XIV: justicia social, mejores jubilaciones y protección de derechos",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/la-carta-de-jubilados-a-leon-xiv--justicia-social--mejores-jubilaciones-y-proteccion-de-derechos_a6aee477c566f8a6f7fcb8abb",
-      "acceso": "abierto",
-      "resumen": "Organizaciones de jubilados de alcance nacional y de Córdoba escribieron cartas al pontífice ante su próxima visita a la Argentina. En los documentos advierten sobre el deterioro de las condiciones de vida, las dificultades para acceder a medicamentos y la pérdida de derechos previsionales. También proponen abrir espacios de diálogo y reclaman mayor participación en las decisiones que afectan al sector.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6aee47fb566f8a6f7fcb8eb2/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.252,
-        "y1": 0.476
       }
     },
     {
@@ -212,7 +193,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/AYTPP6AFT5GR5INRMMHGBU2UKU.jpg?auth=df103ebbc6752955b990611171d182c50527e28b5f72ad63e3f1ffa4c1a8869e&smart=true&width=2373&height=1582",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.161,
         "y1": 0.65
@@ -234,32 +215,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/XKRVTZYNRJGIRDAULU7YYRIDAE.jpg?auth=bd359ddec5926dac331ff4480086cb499884924e61e92db404da1419943fa995&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.575,
         "y1": 0.843
-      }
-    },
-    {
-      "id": "ca10249e44",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-06T11:40:53-03:00",
-      "hora": "11:40",
-      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este viernes 6 de noviembre, minuto a minuto",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-viernes-6-de-noviembre-nid06112026/",
-      "acceso": "suscripcion",
-      "resumen": "El dólar oficial opera a $1579 para la venta, mientras que el blue se ubica en $1555; cómo se mueven las distintas cotizaciones",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/GHSZNGFV4FBN7D6V3AYV4H6RTU.jpg?auth=d9c8fd22de8f9f8455c0d6610ecd246b61fdc09688eb4385a24c4611144e9133&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.225,
-        "y1": 0.646
       }
     },
     {
@@ -278,32 +237,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/EZ2632WGIBH6VBZNA6C5V6UG3U.jpg?auth=68b2382dcca6c144c9139dd772b27906652ab726a6210acc3fd2a2af8f8a2d5e&smart=true&width=2048&height=1813",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.105,
         "y1": 0.427
-      }
-    },
-    {
-      "id": "fd4514d673",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-06T07:14:45-03:00",
-      "hora": "07:14",
-      "titulo": "El Gobierno de Milei niega que Santiago Peña haya entrado a la Argentina",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-de-milei-niega-que-santiago-pena-haya-entrado-a-la-argentina/",
-      "acceso": "abierto",
-      "resumen": "Ante versiones de que el mandatario paraguayo hubiera seguido el mismo camino de Bolsonaro para escapar de la Justicia de su país.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-Gobierno-de-Milei-niega-que-Santiago-Pena-haya-entrado-a-la-Argentina-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.117,
-        "y1": 0.533
       }
     },
     {
@@ -322,7 +259,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/WG5OQ22GMFGQFJZBZQQR3TJAGU.jpg?auth=17d1b657a0f8926a4968581e0e1b269bf7bce2339d0b2e230943a72c930e9ff8&smart=true&width=428&height=321",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.09,
         "y1": 0.549
@@ -344,7 +281,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aeddce1566f8a6f7fc7d82d/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -363,7 +300,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/FNDTKDGYVFFHNPRIO72AF6PCYA.jpeg?auth=c6d9d2d6efb860e27dc2aa5744344cb0312145555724352013ea3d1e1b351eb7&smart=true&width=2560&height=1707",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.024,
         "y1": 0.451
@@ -385,7 +322,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aee292c566f8a6f7fca6b8f/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -404,30 +341,11 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aedc38f566f8a6f7fc6a15c/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.207,
         "y1": 0.631
       }
-    },
-    {
-      "id": "665fc97b63",
-      "seccion": "economia",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-11-06T15:52:13-03:00",
-      "hora": "15:52",
-      "titulo": "Lorenzatti presentó el proyecto de Presupuesto 2027: déficit cero e incremento de partidas para la prestación de servicios y la ejecución de obras",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/lorenzatti-presento-el-proyecto-de-presupuesto-2027-deficit-cero-e-incremento-de-partidas-para-la-prestacion-de-servicios-y-la-ejecucion-de-obras/",
-      "acceso": "abierto",
-      "resumen": "La inversión en materia social crecerá un 10,4% real respecto de 2026.Se mantendrán las alícuotas del presente período en materia tributaria, con actualización de montos mínimos y tasas. También se mantienen los beneficios para las actividades comerciales, industriales y de servicios. Durante la jornada del viernes, el secretario de Administración Pública y Capital Humano de […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "f9246ddc63",
@@ -445,7 +363,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aedbd24566f8a6f7fc660de/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.166,
         "y1": 0.554
@@ -467,7 +385,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aeb321a910a3e2b497e3648/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -486,7 +404,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aeb331e910a3e2b497e44f9/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.806,
         "y1": 1.0
@@ -508,10 +426,32 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/SJAVXIM2MRHENDEBIJR3P2SOSI.jpg?auth=4166ac5a1e5d2a1ee73046202fc67f17bd477ec67d3a8166a044c191c9ef617f&smart=true&width=1011&height=674",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.084,
         "y1": 0.333
+      }
+    },
+    {
+      "id": "f740827f17",
+      "seccion": "argentina",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-11-07T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Elecciones 2027: Carlos Pagni analizó la apuesta electoral de Massa, el plan de Bullrich y la incógnita de Kicillof frente a Cristina",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/elecciones-2027-carlos-pagni-analizo-la-apuesta-electoral-de-massa-el-plan-de-bullrich-y-la-nid07112026/",
+      "acceso": "suscripcion",
+      "resumen": "En un nuevo encuentro para LA NACION +cerca, José Del Rio conversó con el periodista sobre las estrategias de los posibles candidatos con miras a los próximos comicios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/RKHMJELA25GJRO4JEJIBVZPNPY.jpg?auth=aae09a9e7fbc251a6574008ac2b01dd540dd7e353ad6c5a955c1860c58188017&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.204,
+        "y1": 0.781
       }
     },
     {
@@ -530,68 +470,49 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aedf07f566f8a6f7fc88649/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "d732d20d81",
-      "seccion": "cordoba",
-      "rel": 20.5,
-      "relevancia": 20.5,
-      "fecha": "2026-11-06T11:44:00-03:00",
-      "hora": "11:44",
-      "titulo": "Integración y desarrollo: el éxito histórico de un congreso que redefine el futuro del Mercosur desde Córdoba",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/agronegocios/integracion-y-desarrollo-el-exito-historico-de-un-congreso-que-redefine-el-futuro-del-mercosur-desde-cordoba/",
-      "acceso": "abierto",
-      "resumen": "Con una convocatoria específica que superó 500 asistentes, la participación estelar de referentes políticos, académicos y cooperativos, y una importante comitiva brasileña, el campus de la Universidad Siglo 21 fue el escenario de un encuentro internacional que superó ampliamente las expectativas La provincia de Córdoba se afianza como el epicentro del cooperativismo regional. Durante los […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "82d197248e",
-      "seccion": "argentina",
-      "rel": 20.5,
-      "relevancia": 20.5,
-      "fecha": "2026-11-06T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Efecto dominó: la oposición salió a cruzar a Milei por su vínculo con Peña",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/05/efecto-domino-la-oposicion-salio-a-cruzar-a-milei-por-su-vinculo-con-pena/",
-      "acceso": "suscripcion",
-      "resumen": "El archivo de declaraciones del libertario elogiando al renunciado presidente de Paraguay fue protagonista en las redes, que no tuvieron piedad: le remarcan a Milei que no trae precisamente buena suerte.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/5C5REDITPBHHVBMLLWHI4YN354.jpg?auth=e05883c0b0f51dc500afb2eb1a1893dc9c87796c3170bd8f5e9fbcce28a105f3&smart=true&width=900&height=600",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "52f2e49d4d",
+      "id": "d5419a6dbc",
       "seccion": "economia",
-      "rel": 20.5,
-      "relevancia": 20.5,
-      "fecha": "2026-11-06T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Títulos de deuda en caída y vuela el riesgo país",
+      "rel": 20.1,
+      "relevancia": 20.1,
+      "fecha": "2026-11-06T21:16:13-03:00",
+      "hora": "21:16",
+      "titulo": "Cuidado con el cepo",
       "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/06/titulos-de-deuda-en-caida-y-vuela-el-riesgo-pais/",
+      "url": "https://www.pagina12.com.ar/2026/11/07/cuidado-con-el-cepo/",
       "acceso": "suscripcion",
-      "resumen": "La venta masiva de activos argentinos derrumba los precios y es señal de la fuga de divisas tras la desconfianza generada por la derrota de Trump en las legislativas de Estados Unidos",
+      "resumen": "Con Luis Caputo en el manejo de la economía en ambos gobiernos, Macri y Milei abrieron el cepo cambiario para generar confianza y atraer inversiones.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/E6XHDTTZGBE7XGWVRKUNEFHWCM.jpg?auth=af4ed79467384f748abd579d8a6ca3028adf332a64dde3ae8841268a27f11f85&smart=true&width=1887&height=1257",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/OVYEFQIFJRADBBWOJAEY64LJ5Y.jpg?auth=9301d876d3fdda599818cffb36e4dbb708a1978bf4cdddf025c39eebc9d9da72&smart=true&width=1191&height=794",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
-        "y0": 0.056,
-        "y1": 0.532
+        "y0": 0.071,
+        "y1": 0.62
       }
+    },
+    {
+      "id": "3b57948f54",
+      "seccion": "cordoba",
+      "rel": 20.1,
+      "relevancia": 20.1,
+      "fecha": "2026-11-06T21:02:32-03:00",
+      "hora": "21:02",
+      "titulo": "El Gobierno cerrará 72 registros automotores en el país: cuáles son los 10 de Córdoba",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba-motor/el-gobierno-cerrara-72-registros-automotores-en-el-pais--cuales-son-los-10-de-cordoba_a6aee6448566f8a6f7fccdda5",
+      "acceso": "abierto",
+      "resumen": "La medida fue oficializada por el Ministerio de Justicia y contempla un plazo de 60 días hábiles para completar el proceso. En Córdoba, alcanza a dependencias de diez localidades.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6aee6498566f8a6f7fcce276/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
     },
     {
       "id": "a397743c6e",
@@ -609,10 +530,32 @@
       "imagen": "https://www.infobae.com/resizer/v2/JPLYMDV3SNGMRCVFLJSQ7JKTQI.png?auth=137245852adade0904f5b62b18a50c95d479a746e167d41172a4e8bf500c6e3a&smart=true&width=1108&height=627",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.112,
         "y1": 0.373
+      }
+    },
+    {
+      "id": "a6b2b824fa",
+      "seccion": "cordoba",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-11-06T18:36:17-03:00",
+      "hora": "18:36",
+      "titulo": "La carta de jubilados a León XIV: justicia social, mejores jubilaciones y protección de derechos",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/la-carta-de-jubilados-a-leon-xiv--justicia-social--mejores-jubilaciones-y-proteccion-de-derechos_a6aee477c566f8a6f7fcb8abb",
+      "acceso": "abierto",
+      "resumen": "Organizaciones de jubilados de alcance nacional y de Córdoba escribieron cartas al pontífice ante su próxima visita a la Argentina. En los documentos advierten sobre el deterioro de las condiciones de vida, las dificultades para acceder a medicamentos y la pérdida de derechos previsionales. También proponen abrir espacios de diálogo y reclaman mayor participación en las decisiones que afectan al sector.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6aee47fb566f8a6f7fcb8eb2/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.252,
+        "y1": 0.476
       }
     },
     {
@@ -631,29 +574,29 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/MVRTSMZQGBSTKNZZHA4DSOJSGQ.jpg?auth=950ca45aa357779d80f45b07f65fbf41b8802111b2b161faff964d733f8c5e8b&smart=true&width=2100&height=1401",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.462,
         "y1": 0.717
       }
     },
     {
-      "id": "87c0c3093e",
+      "id": "d732d20d81",
       "seccion": "cordoba",
-      "rel": 19.5,
-      "relevancia": 19.5,
-      "fecha": "2026-11-06T05:19:00-03:00",
-      "hora": "05:19",
-      "titulo": "Senado dio media sanción al proyecto de mercados de carbono",
+      "rel": 18.5,
+      "relevancia": 18.5,
+      "fecha": "2026-11-06T11:44:00-03:00",
+      "hora": "11:44",
+      "titulo": "Integración y desarrollo: el éxito histórico de un congreso que redefine el futuro del Mercosur desde Córdoba",
       "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/negocios/senado-dio-media-sancion-al-proyecto-de-mercados-de-carbono/",
+      "url": "https://comercioyjusticia.info/agronegocios/integracion-y-desarrollo-el-exito-historico-de-un-congreso-que-redefine-el-futuro-del-mercosur-desde-cordoba/",
       "acceso": "abierto",
-      "resumen": "El Senado de la Nación aprobó con 60 votos a favor y 2 en contra el proyecto de ley que regula los mercados de carbono en Argentina. La iniciativa, que ahora pasa a la Cámara de Diputados, crea un Registro Nacional de Reducción de Emisiones (ReNaRe) y otorga estabilidad fiscal de 30 años a los […]",
+      "resumen": "Con una convocatoria específica que superó 500 asistentes, la participación estelar de referentes políticos, académicos y cooperativos, y una importante comitiva brasileña, el campus de la Universidad Siglo 21 fue el escenario de un encuentro internacional que superó ampliamente las expectativas La provincia de Córdoba se afianza como el epicentro del cooperativismo regional. Durante los […]",
       "impacto": null,
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -672,7 +615,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/KU7O36VZYRDO5KUQ6C4YOLO2BE.jpeg?auth=3a9f843f8ebb90d975e87a6fda2d39ad4ffc65d79868e9b8d0f2b853a491e75a&smart=true&width=7049&height=3971",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -691,7 +634,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/JBEA2ZWU4ZCXRFED4V3TVGSG74.jpg?auth=062d8e4092689e45113daa501a2b64edefc2394853b4ccd469067126e4cd3732&smart=true&width=5000&height=3333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -710,26 +653,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aedf5f3566f8a6f7fc8ac57/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "926102b3d1",
-      "seccion": "cordoba",
-      "rel": 15.3,
-      "relevancia": 15.3,
-      "fecha": "2026-11-06T04:00:00-03:00",
-      "hora": "04:00",
-      "titulo": "Anulan por bigamia internacional un matrimonio celebrado en España",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/anulan-por-bigamia-matrimonio-celebrado-en-espana-internacional/",
-      "acceso": "abierto",
-      "resumen": "El hombre contrajo nuevas nupcias cuando todavía estaba casado en Argentina. La Justicia también anuló la inscripción del matrimonio extranjero en Córdoba, consideró acreditada su mala fe y reconoció la buena fe de la mujer",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -748,30 +672,11 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aee1fe9566f8a6f7fca1821/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.75,
         "y1": 1.0
       }
-    },
-    {
-      "id": "0af97d4002",
-      "seccion": "cordoba",
-      "rel": 13.3,
-      "relevancia": 13.3,
-      "fecha": "2026-11-06T04:02:00-03:00",
-      "hora": "04:02",
-      "titulo": "Descartan retroactividad de la Ley Bases y reducen indemnización",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/descartan-retroactividad-de-la-ley-bases-y-reducen-indemnizacion/",
-      "acceso": "abierto",
-      "resumen": "Los empleadores no lograron revertir la condena por despido indirecto ni aplicar retroactivamente la reforma laboral. Sin embargo, la Justicia excluyó un incremento indemnizatorio porque consideró razonable que hubieran resistido el reclamo ante las controversias existentes",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "d58b8eb373",
@@ -789,10 +694,60 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/TBDSD7S3GRHAXFZHSZAEPPQJDE.jpg?auth=faef9678a564cad289851254a774aa3e785985859e8ab4a7ea6d0161ae68bb85&smart=true&width=600&height=600",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.118,
         "y1": 0.423
+      }
+    },
+    {
+      "id": "8dede1d022",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": -478.1,
+      "fecha": "2026-11-06T08:15:05-03:00",
+      "hora": "08:15",
+      "titulo": "Visita del papa León XIV: cuándo se reunirá con Javier Milei y qué se sabe del encuentro",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/11/06/visita-del-papa-leon-xiv-cuando-se-reunira-con-javier-milei-y-que-se-sabe-del-encuentro/",
+      "acceso": "abierto",
+      "resumen": "El pontífice llegará el domingo 8 de noviembre a Buenos Aires, procedente de Uruguay. Su paso por la Casa Rosada será una de las primeras actividades de una gira que también incluirá Córdoba y Luján, antes de continuar hacia Perú",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/UXD3QR4KZFHWDIYABRWFE73OEU.jpg?auth=72638c26791c034e887d067c6906e73417655fbd6449251b6b25cb9fdfbe8f6a&smart=true&width=7087&height=4725",
+      "imagen_credito": "Infobae",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Javier Milei y sus medidas, en vivo: el Presidente le envió un mensaje al papa León XIV antes de su viaje a la Argentina",
+          "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-le-envio-un-mensaje-al-papa-leon-xiv-antes-de-su-nid05112026/"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.062,
+        "y1": 0.485
+      }
+    },
+    {
+      "id": "d1c9a7e823",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": -478.1,
+      "fecha": "2026-11-06T08:10:24-03:00",
+      "hora": "08:10",
+      "titulo": "El acuerdo entre Kicillof y Máximo Kirchner aplacó la interna y abrió una vía para el armado electoral",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/11/06/el-acuerdo-entre-kicillof-y-maximo-kirchner-aplaco-la-interna-y-abrio-una-via-para-el-armado-electoral/",
+      "acceso": "abierto",
+      "resumen": "En ambos sectores del peronismo se quedaron conformes con el resultado de la reunión. Sigue la desconfianza, pero baja la tensión. La necesidad de un acuerdo político para el 2027",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/W5IFU5V7AJEL5LMHUWVYS2C6KU.jpg?auth=9f45e9f91daf8583a5a220127ffa2e64a10c7f532e61697129fc6a69f9a07bba&smart=true&width=1920&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.042,
+        "y1": 0.419
       }
     },
     {
@@ -811,7 +766,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/5ROGEQ7WSRHEFH2LTXKAI5VO64.jpg?auth=f96f7f0a2b82ac0a66372a0d43a1c03dcd87ef582f7a4c0bb5c5da68fdd837cd&smart=true&width=4032&height=2688",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -830,7 +785,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/44RU7ZEJKFGJBGUAGKNZYIPTOQ.JPG?auth=29fddfc649720544afa7063bc466dba25463fd154edbe4d063b641418c4e8829&smart=true&width=5500&height=3668",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.112,
         "y1": 0.468
@@ -852,11 +807,52 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/Y7ANXMVJHNHBVKSLM2G34MHIXY.jpg?auth=aa42858d2b90f83185f8e096e710880c1907efa223c8e202f3098b56ca315bad&smart=true&width=3120&height=2080",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.114,
         "y1": 0.431
       }
+    },
+    {
+      "id": "fd4514d673",
+      "seccion": "cordoba",
+      "rel": 21.7,
+      "relevancia": -478.3,
+      "fecha": "2026-11-06T07:14:45-03:00",
+      "hora": "07:14",
+      "titulo": "El Gobierno de Milei niega que Santiago Peña haya entrado a la Argentina",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-de-milei-niega-que-santiago-pena-haya-entrado-a-la-argentina/",
+      "acceso": "abierto",
+      "resumen": "Ante versiones de que el mandatario paraguayo hubiera seguido el mismo camino de Bolsonaro para escapar de la Justicia de su país.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-Gobierno-de-Milei-niega-que-Santiago-Pena-haya-entrado-a-la-Argentina-optimized.jpeg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.117,
+        "y1": 0.533
+      }
+    },
+    {
+      "id": "82d197248e",
+      "seccion": "argentina",
+      "rel": 20.5,
+      "relevancia": -479.5,
+      "fecha": "2026-11-06T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Efecto dominó: la oposición salió a cruzar a Milei por su vínculo con Peña",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/05/efecto-domino-la-oposicion-salio-a-cruzar-a-milei-por-su-vinculo-con-pena/",
+      "acceso": "suscripcion",
+      "resumen": "El archivo de declaraciones del libertario elogiando al renunciado presidente de Paraguay fue protagonista en las redes, que no tuvieron piedad: le remarcan a Milei que no trae precisamente buena suerte.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/5C5REDITPBHHVBMLLWHI4YN354.jpg?auth=e05883c0b0f51dc500afb2eb1a1893dc9c87796c3170bd8f5e9fbcce28a105f3&smart=true&width=900&height=600",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
     }
   ],
   "opinion": []
