@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-07T08:27:34-03:00",
+  "actualizado": "2026-11-07T13:28:42-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,81 +9,51 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Cómo crear limites para que WhatsApp, YouTube y más apps no consuman demasiada b",
-            "Victoria Ruffo reacciona a los rumores que vinculan a José Eduardo en investigac",
-            "Desembarcan en El Hierro a 314 personas de tres cayucos rescatados en las última"
+            "Beijing vetó un acuerdo entre SoftBank y ABB: las empresas evalúan crear una ent",
+            "Once Caldas vs. Águilas Doradas - EN VIVO Liga BetPlay: siga el minuto a minuto ",
+            "Un libro al mes y una hora diaria de lectura: las medidas que se aplicarán en lo"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 2,
+      "leidas": 93,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 89,
+          "cantidad": 84,
           "ejemplos": [
-            "Visita del Papa León XIV, EN VIVO: su paso por Uruguay y las últimas noticias de",
-            "Fin de semana largo: por qué es feriado el lunes 9 de noviembre",
-            "Partidos de hoy del Torneo Clausura 2026, sábado 7 de noviembre"
+            "Ignacio Pereira nació en Chaco, tiene 16 años y firmó su primer contrato profesi",
+            "Colapinto quedó en el puesto 14 en el último entrenamiento, antes de la clasific",
+            "La impensada foto de la China Suárez y Martín Migueles en medio del nuevo escánd"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 6,
           "ejemplos": [
+            "Alfredo Di Costanzo, de la Universidad de Minnesota, y una pregunta incómoda en ",
             "Ramona Casas tiene 74 años, fue elegida para hacer quesillos para el papa León X",
-            "Envases vacíos de agroquímicos: el 44% del plástico recuperado se usa para fabri",
-            "Maíz tardío: las claves del nitrógeno para destrabar el rinde"
+            "Radiografía: el avance de la labranza, bajo un análisis crítico de cinco experto"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 6,
-          "ejemplos": [
-            "La noche que un pueblo argentino corrió a tres ingleses",
-            "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
-            "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La visita de León XIV como gesto político: católicas feministas piden poner en a"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 2,
-          "ejemplos": [
-            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, ",
-            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 5,
           "ejemplos": [
-            "La Policía de Paraguay detuvo al expresidente Santiago Peña tras su destitución",
             "La fiesta de la impunidad: Bettina Angeletti registra gastos de $18 millones en ",
-            "El papa León XIV pide atención ante los suicidios y defiende una salud para todo"
+            "La Policía de Paraguay detuvo al expresidente Santiago Peña tras su destitución",
+            "La visita del papa León XIV a la Argentina: su paso por Uruguay y los preparativ"
           ]
         },
         "muy vieja": {
@@ -99,12 +69,18 @@
       "leidas": 20,
       "aceptadas": 1,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 19,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Ordenan la detención de Peña tras ser destituido y asume Alliaga",
-            "León XIV recordó a Francisco y aseguró que su visita a Argentina es un «homenaje",
-            "Feriados y asueto administrativo: cómo será la actividad en Córdoba la próxima s"
+            "Lanzan un concurso internacional de fotografía sobre la crisis climática"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 18,
+          "ejemplos": [
+            "Femicidio de Agostina Vega: seis acusados irán a juicio tras el rechazo de las a",
+            "Santa María de Punilla: investigan la muerte de una mujer y su hijo de 6 años",
+            "León XIV celebró su primera misa en Sudamérica y habló del valor del mate"
           ]
         }
       }
@@ -115,11 +91,11 @@
       "aceptadas": 12,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 11,
           "ejemplos": [
-            "El papa León XIV inició en Uruguay su primera gira por América Latina",
-            "La gente dice “dame”",
-            "Chile habilita a ofrecer internet satelital a competidor directo de Starlink"
+            "Menor facturación real y caída de marcas: el balance agridulce que dejó el Cyber",
+            "Traslado de urgencia y declaración indagatoria para Santiago Peña en medio de la",
+            "“Constructores de puentes y de mate”: la emotiva despedida del papa León XIV ant"
           ]
         },
         "otro país": {
@@ -130,7 +106,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 58,
+          "cantidad": 55,
           "ejemplos": [
             "Juicio contra la Toretto: declararon un policía, dos testigos y familiares de la",
             "Las jubilaciones en Córdoba siguen en negativo aunque en octubre frenaron la caí",
@@ -142,20 +118,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 19,
           "ejemplos": [
-            "Qué hacer en Córdoba este fin de semana: la agenda cultural, entre la visita pap",
-            "El hito invisible de la acequia de Alta Gracia: un recorrido para recuperar la m",
-            "Autopartista Magna deja Córdoba y Renault asume el control"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Crisis en Paraguay: el Senado destituyó al presidente Santiago Peña"
+            "Incendio en una carpintería de Ampliación Residencial América",
+            "“Bienvenidos todos”: voluntarios entregarán pulseras para ubicarse en el predio ",
+            "El Papa en Uruguay: “El mate nos enseña a compartir y estar juntos, a estrechar "
           ]
         }
       }
