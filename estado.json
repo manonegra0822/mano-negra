@@ -1,40 +1,64 @@
 {
-  "actualizado": "2026-11-07T13:28:42-03:00",
+  "actualizado": "2026-11-07T20:27:12-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 98,
           "ejemplos": [
-            "Beijing vetó un acuerdo entre SoftBank y ABB: las empresas evalúan crear una ent",
-            "Once Caldas vs. Águilas Doradas - EN VIVO Liga BetPlay: siga el minuto a minuto ",
-            "Un libro al mes y una hora diaria de lectura: las medidas que se aplicarán en lo"
+            "Gaseosas, snacks y comidas listas: un estudio vinculó los ultraprocesados con le",
+            "EN VIVO | Clima CDMX y resto de México hoy sábado 7 de noviembre: frente frío 4 ",
+            "Gabriela Muñoz perdió batalla judicial contra Angie Rodríguez: Juez negó tutela "
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Celebra Río Negro: comenzó la soldadura del gasoducto que conectará Vaca Muerta "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Moody’s otorgó al Banco Ciudad la máxima calificación crediticia local"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 3,
+      "leidas": 89,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 84,
+          "cantidad": 76,
           "ejemplos": [
-            "Ignacio Pereira nació en Chaco, tiene 16 años y firmó su primer contrato profesi",
-            "Colapinto quedó en el puesto 14 en el último entrenamiento, antes de la clasific",
-            "La impensada foto de la China Suárez y Martín Migueles en medio del nuevo escánd"
+            "¡Boca es campeón de la tabla anual! El gol agónico de Enner Valencia le arrebató",
+            "Así está el cuadro de 8vos de final del Torneo Clausura 2026",
+            "El capitán lideró a Inter Miami, que ganaba 3 a 0, pero se derrumbó y empató 3 a"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 9,
           "ejemplos": [
-            "Alfredo Di Costanzo, de la Universidad de Minnesota, y una pregunta incómoda en ",
-            "Ramona Casas tiene 74 años, fue elegida para hacer quesillos para el papa León X",
-            "Radiografía: el avance de la labranza, bajo un análisis crítico de cinco experto"
+            "Súper Niño: pronostican más de 40 grados y tormentas intensas en una región",
+            "Súper Niño: miles de hectáreas fueron alcanzadas por violentas tormentas y hay c",
+            "Ramona Casas tiene 74 años, fue elegida para hacer quesillos para el papa León X"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El ajuste fiscal se profundizó en octubre: el gasto público cayó 5,4% real y acu"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cuál será la cotización del dólar este lunes 9 de noviembre"
           ]
         }
       }
@@ -48,18 +72,18 @@
       "leidas": 6,
       "aceptadas": 0,
       "descartadas": {
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "León XIV llegará al país en un clima de tensión entre Milei y la jerarquía de la"
+          ]
+        },
         "titular sin tema de política/economía": {
           "cantidad": 5,
           "ejemplos": [
-            "La fiesta de la impunidad: Bettina Angeletti registra gastos de $18 millones en ",
-            "La Policía de Paraguay detuvo al expresidente Santiago Peña tras su destitución",
-            "La visita del papa León XIV a la Argentina: su paso por Uruguay y los preparativ"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Cómo se prepara la marcha del orgullo"
+            "Las mejores fotos de la 35º Marcha del Orgullo",
+            "La Marcha del Orgullo pasó por San José 1111",
+            "Boca ganó en el último minuto y se consagró campeón de la Tabla Anual"
           ]
         }
       }
@@ -67,20 +91,27 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 17,
+          "ejemplos": [
+            "Feriados y asueto administrativo: cómo será la actividad en Córdoba",
+            "Boca le ganó de manera agónica a Defensa y Justicia y se consagró Campeón de Lig",
+            "Rosario Central le ganó 2-0 a Estudiantes de Río Cuarto, pero no le alcanzó"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Paraguay: imputaron al ex presidente Peña y la fiscalía solicitó la prisión prev",
+            "El flamante presidente de Paraguay garantiza el pago a los jubilados afectados p"
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "Lanzan un concurso internacional de fotografía sobre la crisis climática"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 18,
-          "ejemplos": [
-            "Femicidio de Agostina Vega: seis acusados irán a juicio tras el rechazo de las a",
-            "Santa María de Punilla: investigan la muerte de una mujer y su hijo de 6 años",
-            "León XIV celebró su primera misa en Sudamérica y habló del valor del mate"
           ]
         }
       }
@@ -88,29 +119,28 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 12,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 12,
           "ejemplos": [
-            "Menor facturación real y caída de marcas: el balance agridulce que dejó el Cyber",
-            "Traslado de urgencia y declaración indagatoria para Santiago Peña en medio de la",
-            "“Constructores de puentes y de mate”: la emotiva despedida del papa León XIV ant"
+            "Fuerte mensaje del papa León XIV contra la exclusión social en su recorrida por ",
+            "Un tiroteo en Cracovia, Polonia, deja cinco muertos y 12 heridos",
+            "Menor facturación real y caída de marcas: el balance agridulce que dejó el Cyber"
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "El Congreso paraguayo destituyó a Santiago Peña y la Fiscalía ordena su detenció",
-            "El presidente de Paraguay Santiago Peña renunció en medio de un escándalo bancar"
+            "El Congreso paraguayo destituyó a Santiago Peña y la Fiscalía ordena su detenció"
           ]
         },
         "muy vieja": {
-          "cantidad": 55,
+          "cantidad": 58,
           "ejemplos": [
-            "Juicio contra la Toretto: declararon un policía, dos testigos y familiares de la",
-            "Las jubilaciones en Córdoba siguen en negativo aunque en octubre frenaron la caí",
-            "Nvidia recupera el título de empresa más valiosa del mundo y vuelve a superar a "
+            "Prorrogan la moratoria de ARCA y permiten regularizar deudas vencidas a octubre",
+            "Prórroga fiscal: suspenden embargos y juicios de ejecución de ARCA para empresas",
+            "Estatuto municipal: endurecen los filtros de ingreso y controles éticos para el "
           ]
         }
       }
@@ -121,11 +151,17 @@
       "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 18,
           "ejemplos": [
-            "Incendio en una carpintería de Ampliación Residencial América",
-            "“Bienvenidos todos”: voluntarios entregarán pulseras para ubicarse en el predio ",
-            "El Papa en Uruguay: “El mate nos enseña a compartir y estar juntos, a estrechar "
+            "El insólito festejo de Rosario Central: celebró el título, pero Boca terminó sie",
+            "Boca campeón: Valencia apareció en la última jugada y desató el festejo",
+            "Una clasificación pasada por agua: Franco Colapinto largará desde atrás en Brasi"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Paraguay: el expresidente Santiago Peña llegó ante la Fiscalía para declarar tra"
           ]
         }
       }
