@@ -1,40 +1,46 @@
 {
-  "actualizado": "2026-11-08T08:28:22-03:00",
+  "actualizado": "2026-11-08T13:28:58-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 99,
           "ejemplos": [
-            "Polémica de startalents alcanza a Netflix: tráiler con Lesslie Polinesia desata ",
-            "Un muerto y once heridos en un incendio en un bloque de viviendas en Guadarrama ",
-            "Detienen a un hombre por acoso fuera de la casa de LeBron James en Los Ángeles: "
+            "Detuvieron a un hombre a metros del escenario donde estará el Papa León XIV en P",
+            "La ruta canaria registra una semana trágica durante el repunte de llegadas de ca",
+            "La confesión de Hernán Drago sobre la importancia del amor en su vida: “No es un"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 4,
+      "leidas": 97,
+      "aceptadas": 6,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 14,
+        "sección no permitida": {
+          "cantidad": 79,
           "ejemplos": [
-            "Radiografía de uno de los números que más le preocupan al papa León XIV",
-            "“Borrá todo”. Los mensajes de trasnoche en la financiera ligada a la AFA, antes ",
-            "Pese al fallo de la Corte, podría demorarse el envío de veedores a la AFA"
+            "Papa León XIV en la Argentina, EN VIVO: a qué hora llega, la agenda del domingo ",
+            "A qué hora llega el papa León XIV a la Argentina hoy, domingo 8 de noviembre",
+            "Franco Colapinto, en el Gran Premio de Brasil de Fórmula 1: el minuto a minuto"
           ]
         },
-        "sección no permitida": {
-          "cantidad": 77,
+        "sin ancla argentina": {
+          "cantidad": 1,
           "ejemplos": [
-            "Mario Alonso Puig, cirujano especialista en emociones: “Las creencias limitantes",
-            "Visita del Papa León XIV, EN VIVO: su llegada a la Argentina y las últimas notic",
-            "Qué es la glucemia, cómo influye en el organismo y por qué es importante control"
+            "Marcelo Longobardi contó que se sintió amenazado en una reunión con Sergio Berni"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 11,
+          "ejemplos": [
+            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de n",
+            "Calendario de pagos de Anses: cuándo se cobra la PUAM de noviembre de 2026",
+            "Calendario AUH de Anses: cuándo se cobra la Asignación Universal por Hijo en nov"
           ]
         }
       }
@@ -45,7 +51,7 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 4,
           "ejemplos": [
             "La noche que un pueblo argentino corrió a tres ingleses",
             "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
@@ -58,38 +64,33 @@
             "La visita de León XIV como gesto político: católicas feministas piden poner en a"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "Paro nacional de las trabajadoras sexuales",
-            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, ",
-            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo"
+            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada",
+            "La cacería en Palermo y la risa de la manada",
+            "Paro nacional de las trabajadoras sexuales"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
+      "leidas": 6,
       "aceptadas": 1,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "“¡El orgullo al poder! ¡El odio al carajo!”",
-            "Roces y codazos por la visita papal"
-          ]
-        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "León XIV llegará al país en un clima de tensión entre Milei y la jerarquía de la"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "Adiós a la camioneta MAGA de Elon Musk",
+            "Volver siempre a Laclau",
+            "Roces y codazos por la visita papal"
           ]
         }
       }
@@ -97,14 +98,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
-            "Liberaron a los cinco imputados por el manejo de la Caja de Previsión de profesi",
-            "Iosfa: ATE advierte que 450 trabajadores podrían quedarse sin empleo en Córdoba",
-            "“El papa León hablará de la santidad, en una tierra de santos”"
+            "Una empleada municipal está grave tras ser atropellada mientras recolectaba resi",
+            "Ucrania busca una salida a la guerra con negociaciones trilaterales en Abu Dabi",
+            "La princesa Ana visitará las Malvinas en medio de la disputa por la explotación "
           ]
         },
         "otro país": {
@@ -112,12 +113,6 @@
           "ejemplos": [
             "Paraguay: imputaron al ex presidente Peña y la fiscalía solicitó la prisión prev",
             "El flamante presidente de Paraguay garantiza el pago a los jubilados afectados p"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Lanzan un concurso internacional de fotografía sobre la crisis climática"
           ]
         }
       }
@@ -128,11 +123,11 @@
       "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 8,
           "ejemplos": [
-            "Fuerte mensaje del papa León XIV contra la exclusión social en su recorrida por ",
-            "Un tiroteo en Cracovia, Polonia, deja cinco muertos y 12 heridos",
-            "Menor facturación real y caída de marcas: el balance agridulce que dejó el Cyber"
+            "Un terremoto de magnitud 5,7 sacudió Japón y dejó al menos 23 heridos",
+            "Visita histórica: el Papa León XIV inicia su gira por Argentina",
+            "Fuerte mensaje del papa León XIV contra la exclusión social en su recorrida por "
           ]
         },
         "otro país": {
@@ -142,11 +137,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 69,
+          "cantidad": 67,
           "ejemplos": [
+            "Integración y desarrollo: el éxito histórico de un congreso que redefine el futu",
             "Día negro para los mercados: el riesgo país ya roza mil puntos pero los bonos de",
-            "La gente dice “dame”",
-            "Senado dio media sanción al proyecto de mercados de carbono"
+            "La gente dice “dame”"
           ]
         }
       }
@@ -154,14 +149,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 19,
           "ejemplos": [
-            "Instituto lo rescató sobre el final: empató con Newell’s y terminó líder de la Z",
-            "Unquillo será sede de la segunda Fiesta Nacional de la Animación",
-            "Cómo Franco Colapinto hizo tomar mate a Hamilton en F1"
+            "Ventas minoristas: leve suba mensual con caída interanual",
+            "León XIV destacó el rol de las familias en la transmisión de la fe",
+            "Subastan la Kawasaki ZX-7R campeona de Superbike de 1993"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
