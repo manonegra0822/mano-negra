@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-07T20:27:12-03:00",
+  "actualizado": "2026-11-08T08:28:22-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,83 +7,89 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 100,
           "ejemplos": [
-            "Gaseosas, snacks y comidas listas: un estudio vinculó los ultraprocesados con le",
-            "EN VIVO | Clima CDMX y resto de México hoy sábado 7 de noviembre: frente frío 4 ",
-            "Gabriela Muñoz perdió batalla judicial contra Angie Rodríguez: Juez negó tutela "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Celebra Río Negro: comenzó la soldadura del gasoducto que conectará Vaca Muerta "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Moody’s otorgó al Banco Ciudad la máxima calificación crediticia local"
+            "Polémica de startalents alcanza a Netflix: tráiler con Lesslie Polinesia desata ",
+            "Un muerto y once heridos en un incendio en un bloque de viviendas en Guadarrama ",
+            "Detienen a un hombre por acoso fuera de la casa de LeBron James en Los Ángeles: "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
-      "aceptadas": 2,
+      "leidas": 95,
+      "aceptadas": 4,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 76,
-          "ejemplos": [
-            "¡Boca es campeón de la tabla anual! El gol agónico de Enner Valencia le arrebató",
-            "Así está el cuadro de 8vos de final del Torneo Clausura 2026",
-            "El capitán lideró a Inter Miami, que ganaba 3 a 0, pero se derrumbó y empató 3 a"
-          ]
-        },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 14,
           "ejemplos": [
-            "Súper Niño: pronostican más de 40 grados y tormentas intensas en una región",
-            "Súper Niño: miles de hectáreas fueron alcanzadas por violentas tormentas y hay c",
-            "Ramona Casas tiene 74 años, fue elegida para hacer quesillos para el papa León X"
+            "Radiografía de uno de los números que más le preocupan al papa León XIV",
+            "“Borrá todo”. Los mensajes de trasnoche en la financiera ligada a la AFA, antes ",
+            "Pese al fallo de la Corte, podría demorarse el envío de veedores a la AFA"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 1,
+        "sección no permitida": {
+          "cantidad": 77,
           "ejemplos": [
-            "El ajuste fiscal se profundizó en octubre: el gasto público cayó 5,4% real y acu"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Cuál será la cotización del dólar este lunes 9 de noviembre"
+            "Mario Alonso Puig, cirujano especialista en emociones: “Las creencias limitantes",
+            "Visita del Papa León XIV, EN VIVO: su llegada a la Argentina y las últimas notic",
+            "Qué es la glucemia, cómo influye en el organismo y por qué es importante control"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
+          "ejemplos": [
+            "La noche que un pueblo argentino corrió a tres ingleses",
+            "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
+            "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La visita de León XIV como gesto político: católicas feministas piden poner en a"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Paro nacional de las trabajadoras sexuales",
+            "“No vamos a callar”: la carta de un científico del CONICET a Virginia Aparicio, ",
+            "Ofrenda, la vida en el monte en Reserva Natural Alto Lindo"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 0,
+      "leidas": 4,
+      "aceptadas": 1,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "“¡El orgullo al poder! ¡El odio al carajo!”",
+            "Roces y codazos por la visita papal"
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
             "León XIV llegará al país en un clima de tensión entre Milei y la jerarquía de la"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Las mejores fotos de la 35º Marcha del Orgullo",
-            "La Marcha del Orgullo pasó por San José 1111",
-            "Boca ganó en el último minuto y se consagró campeón de la Tabla Anual"
           ]
         }
       }
@@ -96,9 +102,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
-            "Feriados y asueto administrativo: cómo será la actividad en Córdoba",
-            "Boca le ganó de manera agónica a Defensa y Justicia y se consagró Campeón de Lig",
-            "Rosario Central le ganó 2-0 a Estudiantes de Río Cuarto, pero no le alcanzó"
+            "Liberaron a los cinco imputados por el manejo de la Caja de Previsión de profesi",
+            "Iosfa: ATE advierte que 450 trabajadores podrían quedarse sin empleo en Córdoba",
+            "“El papa León hablará de la santidad, en una tierra de santos”"
           ]
         },
         "otro país": {
@@ -119,10 +125,10 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 9,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 6,
           "ejemplos": [
             "Fuerte mensaje del papa León XIV contra la exclusión social en su recorrida por ",
             "Un tiroteo en Cracovia, Polonia, deja cinco muertos y 12 heridos",
@@ -136,11 +142,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 58,
+          "cantidad": 69,
           "ejemplos": [
-            "Prorrogan la moratoria de ARCA y permiten regularizar deudas vencidas a octubre",
-            "Prórroga fiscal: suspenden embargos y juicios de ejecución de ARCA para empresas",
-            "Estatuto municipal: endurecen los filtros de ingreso y controles éticos para el "
+            "Día negro para los mercados: el riesgo país ya roza mil puntos pero los bonos de",
+            "La gente dice “dame”",
+            "Senado dio media sanción al proyecto de mercados de carbono"
           ]
         }
       }
@@ -153,9 +159,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "El insólito festejo de Rosario Central: celebró el título, pero Boca terminó sie",
-            "Boca campeón: Valencia apareció en la última jugada y desató el festejo",
-            "Una clasificación pasada por agua: Franco Colapinto largará desde atrás en Brasi"
+            "Instituto lo rescató sobre el final: empató con Newell’s y terminó líder de la Z",
+            "Unquillo será sede de la segunda Fiesta Nacional de la Animación",
+            "Cómo Franco Colapinto hizo tomar mate a Hamilton en F1"
           ]
         },
         "deportes/policiales/clima/espectáculos": {

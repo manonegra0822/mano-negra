@@ -1,26 +1,70 @@
 {
-  "actualizado": "2026-11-07T20:27:12-03:00",
+  "actualizado": "2026-11-08T08:28:22-03:00",
   "notas": [
     {
-      "id": "6001d33992",
+      "id": "6b637ed4b0",
       "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-07T07:45:07-03:00",
-      "hora": "07:45",
-      "titulo": "Los proyectos en el Congreso de Estados Unidos que podrían presionar sobre una eventual asistencia financiera de Trump a Milei",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/07/los-proyectos-en-el-congreso-de-estados-unidos-que-podrian-presionar-sobre-una-eventual-asistencia-financiera-de-trump-a-milei/",
-      "acceso": "abierto",
-      "resumen": "Legisladores demócratas mantienen iniciativas para bloquear o auditar el rescate de USD 20.000 millones que el Tesoro de Trump desplegó en favor de la Argentina. Las alertas de las cámaras empresarias",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-08T07:24:30-03:00",
+      "hora": "07:24",
+      "titulo": "Bullrich lleva al límite la interna con Menem y Karina: incómodos y leales en LLA",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/bullrich-lleva-al-limite-la-interna-con-menem-y-karina-incomodos-y-leales-en-lla-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "La imagen de la jefa del bloque libertario en el Senado con 15 diputados desató la furia de la Casa Rosada; disputa por el control de los legisladores",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/HCQKVHXUG5CWXPU5EL4RNHMJHQ.JPG?auth=01efb46efbcb8336c35ac8f3c38c37c0a7f3980f99e8f620518d88630a63a4bf&smart=true&width=5500&height=3700",
-      "imagen_credito": "Infobae",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/Y24D3Q5YNFD23I4FLPVFEWB7CI.jpg?auth=2215c08c6f028d53b96c2d9671b22c3465b6dd373cbf58c4586210b4081eeab4&smart=true&width=1600&height=1200",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.142,
-        "y1": 0.432
+        "y0": 0.144,
+        "y1": 0.605
+      }
+    },
+    {
+      "id": "f545541771",
+      "seccion": "argentina",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-08T07:03:42-03:00",
+      "hora": "07:03",
+      "titulo": "Uno a uno, los puntos sensibles de la visita del Papa para el gobierno de Javier Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/uno-a-uno-los-puntos-sensibles-de-la-visita-del-papa-para-el-gobierno-de-javier-milei-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "La llegada del Papa al Cottolengo Don Orione es la parte más complicada de la gira para la Casa Rosada; se suman otras cuestiones, como la seguridad y la misa en Luján, donde predominará el peronismo",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/3YHWBVANXFFARK6CW4F3WVOTPQ.jpg?auth=4d981140ff581e34fd83768ea066bc9822a52f3a2c02a69a662eadf45dec85a0&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.354,
+        "y1": 0.848
+      }
+    },
+    {
+      "id": "a7bd31d20c",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-08T07:02:00-03:00",
+      "hora": "07:02",
+      "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este domingo 8 de noviembre",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-domingo-8-de-noviembre-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "La cotización de la moneda estadounidense se mantiene igual que el último día hábil; cómo fue el comportamiento de la divisa informal y los dólares financieros",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/PQENGZMKEVGHXHFU5JPFQAPY5I.JPG?auth=c83cef53bba62c51c7373fc9e494ef50eaa42d9a3342bc59c109d91f9798eff0&smart=true&width=2000&height=1125",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.263,
+        "y1": 0.541
       }
     },
     {
@@ -39,7 +83,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/GLTGCPBPYBDTJJGA7WY57GTJNM.jpg?auth=903944dca2eacb8ad3fb10d3c71bdfff87f216d14e5fc6b59b983548a8dbf95c&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.084,
         "y1": 0.571
@@ -61,7 +105,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/LCOB5YF26ZAHPPOGNGXO7HDHWE.jpg?auth=ed3c2e0cb5d50ff2ff09fc0814eafad0965deb2d090e3444b9e343ffde267b97&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -80,7 +124,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/KYZ57AMHO5CKVEX42GELMZXDZE.jpeg?auth=8064ee1982cbf8151283a7d7c52247be9302957f609ad6f5a045f8b5b38f7415&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.11,
         "y1": 0.388
@@ -102,115 +146,33 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/HB2H33ZW7FCRRKRT6CR32GXPOM.jpeg?auth=65db919b46a3d691a6213033f282dbf8f1a32440e77fe0127e8a32b64541fb0d&smart=true&width=1280&height=851",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.054,
         "y1": 0.959
       }
     },
     {
-      "id": "d6f8610ff0",
+      "id": "baa7ea7e34",
       "seccion": "economia",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-11-07T08:32:30-03:00",
-      "hora": "08:32",
-      "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este sábado 7 de noviembre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-sabado-7-de-noviembre-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "La cotización de la moneda estadounidense se mantiene igual que el último día hábil; cómo fue el comportamiento de la divisa informal y los dólares financieros",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/QUDT2VA32RDRPL7GALCC7ZALTY.png?auth=d1f85f9286f5ec590c9afecfb366e32f6cbb7173b2d41364b6f7e63cc678fb8a&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "f740827f17",
-      "seccion": "argentina",
       "rel": 20.6,
       "relevancia": 20.6,
-      "fecha": "2026-11-07T00:01:00-03:00",
+      "fecha": "2026-11-08T00:01:00-03:00",
       "hora": "00:01",
-      "titulo": "Elecciones 2027: Carlos Pagni analizó la apuesta electoral de Massa, el plan de Bullrich y la incógnita de Kicillof frente a Cristina",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/elecciones-2027-carlos-pagni-analizo-la-apuesta-electoral-de-massa-el-plan-de-bullrich-y-la-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "En un nuevo encuentro para LA NACION +cerca, José Del Rio conversó con el periodista sobre las estrategias de los posibles candidatos con miras a los próximos comicios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RKHMJELA25GJRO4JEJIBVZPNPY.jpg?auth=aae09a9e7fbc251a6574008ac2b01dd540dd7e353ad6c5a955c1860c58188017&smart=true&width=3000&height=2000",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.204,
-        "y1": 0.781
-      }
-    },
-    {
-      "id": "498a61acad",
-      "seccion": "cordoba",
-      "rel": 20.4,
-      "relevancia": 20.4,
-      "fecha": "2026-11-07T10:53:09-03:00",
-      "hora": "10:53",
-      "titulo": "La oposición se mostró junta: Luis Juez y Gabriel Bornoroni en La Falda",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/la-oposicion-se-mostro-junta--luis-juez-y-gabriel-bornoroni-en-la-falda_a6aef2ae8b72c2cb0485089ac",
-      "acceso": "abierto",
-      "resumen": "En un encuentro que tuvo casi 300 personas, se presentó a Leonardo Gribaudo como precandidato a intendente. Además de La Libertad Avanza, hubo referentes del PRO, Primero la Gente, legisladores provinciales, intendentes y dirigentes de distintos puntos de Córdoba. La actividad representa una de las primeras muestras del acuerdo provincial entre estos espacios políticos.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6aef2afab72c2cb048508a3b/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.51
-      }
-    },
-    {
-      "id": "d5419a6dbc",
-      "seccion": "economia",
-      "rel": 20.1,
-      "relevancia": 20.1,
-      "fecha": "2026-11-06T21:16:13-03:00",
-      "hora": "21:16",
-      "titulo": "Cuidado con el cepo",
+      "titulo": "El sistema le picó el boleto a Javier Milei",
       "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/07/cuidado-con-el-cepo/",
+      "url": "https://www.pagina12.com.ar/2026/11/08/el-sistema-le-pico-el-boleto-a-javier-milei-2/",
       "acceso": "suscripcion",
-      "resumen": "Con Luis Caputo en el manejo de la economía en ambos gobiernos, Macri y Milei abrieron el cepo cambiario para generar confianza y atraer inversiones.",
+      "resumen": "Los empresarios le piden a Caputo que devalúe y los sojeros bajaron 50 por ciento el ritmo de ventas en sólo una semana especulando con precios.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/OVYEFQIFJRADBBWOJAEY64LJ5Y.jpg?auth=9301d876d3fdda599818cffb36e4dbb708a1978bf4cdddf025c39eebc9d9da72&smart=true&width=1191&height=794",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VGUXAGM4HBG6DK33ZJFXLSDY3I.jpg?auth=4b82193f5c46b005a09668d78aa33466ecd9a0e3e4e775505aa1cb0fd8a54b0e&smart=true&width=3962&height=2642",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.071,
-        "y1": 0.62
+        "y0": 0.105,
+        "y1": 0.405
       }
-    },
-    {
-      "id": "3b57948f54",
-      "seccion": "cordoba",
-      "rel": 20.1,
-      "relevancia": 20.1,
-      "fecha": "2026-11-06T21:02:32-03:00",
-      "hora": "21:02",
-      "titulo": "El Gobierno cerrará 72 registros automotores en el país: cuáles son los 10 de Córdoba",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba-motor/el-gobierno-cerrara-72-registros-automotores-en-el-pais--cuales-son-los-10-de-cordoba_a6aee6448566f8a6f7fccdda5",
-      "acceso": "abierto",
-      "resumen": "La medida fue oficializada por el Ministerio de Justicia y contempla un plazo de 60 días hábiles para completar el proceso. En Córdoba, alcanza a dependencias de diez localidades.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6aee6498566f8a6f7fcce276/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
     },
     {
       "id": "cb48c8518c",
@@ -228,29 +190,73 @@
       "imagen": "https://www.infobae.com/resizer/v2/IHZTISW3WNGA5JF3J5JNSXOQQQ.JPG?auth=1193a32f6bf142c2859567ebb516f48c010d0732bd7f4157581d76799883be00&smart=true&width=5436&height=3583",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "d58b8eb373",
-      "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": -478.0,
-      "fecha": "2026-11-05T20:27:35-03:00",
-      "hora": "20:27",
-      "titulo": "Larreta sugirió que Milei trae mala suerte y compartió una foto junto a Jorge Macri: “Solo te pido uno más”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/larreta-sugirio-que-milei-trae-mala-suerte-y-compartio-una-foto-junto-a-jorge-macri-solo-te-pido-uno-nid05112026/",
-      "acceso": "suscripcion",
-      "resumen": "Con ironía, el legislador porteño hizo alusión a las derrotas de Bolsonaro, Trump y Netanyahu, aliados del mandatario; también mencionó la reciente renuncia de Peña",
+      "id": "498a61acad",
+      "seccion": "cordoba",
+      "rel": 18.4,
+      "relevancia": 18.4,
+      "fecha": "2026-11-07T10:53:09-03:00",
+      "hora": "10:53",
+      "titulo": "La oposición se mostró junta: Luis Juez y Gabriel Bornoroni en La Falda",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/la-oposicion-se-mostro-junta--luis-juez-y-gabriel-bornoroni-en-la-falda_a6aef2ae8b72c2cb0485089ac",
+      "acceso": "abierto",
+      "resumen": "En un encuentro que tuvo casi 300 personas, se presentó a Leonardo Gribaudo como precandidato a intendente. Además de La Libertad Avanza, hubo referentes del PRO, Primero la Gente, legisladores provinciales, intendentes y dirigentes de distintos puntos de Córdoba. La actividad representa una de las primeras muestras del acuerdo provincial entre estos espacios políticos.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/TBDSD7S3GRHAXFZHSZAEPPQJDE.jpg?auth=faef9678a564cad289851254a774aa3e785985859e8ab4a7ea6d0161ae68bb85&smart=true&width=600&height=600",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6aef2afab72c2cb048508a3b/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.51
+      }
+    },
+    {
+      "id": "db4b6545c5",
+      "seccion": "argentina",
+      "rel": 15.8,
+      "relevancia": 15.8,
+      "fecha": "2026-11-08T07:21:06-03:00",
+      "hora": "07:21",
+      "titulo": "¿Un giro hacia la moderación? Luego de la derrota de los aliados, expertos piden a Milei un replanteo de su política exterior",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/un-giro-hacia-la-moderacion-luego-de-la-derrota-de-los-aliados-expertos-piden-a-milei-un-replanteo-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "Distintos referentes piden diálogo con presidentes y opositores de signo contrario par superar el “aislamiento”, y ampliar el abanico de aliados, hoy reducido a Estados Unidos e Israel",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/Z5SMKBQ4K5ARJBRIHZN3O3UXTM.jpg?auth=4fc0339dbf9e25fa49e7a760ce2140d2d0cac2e07df412e82c3c3318ac57ea63&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 2,
+      "dia": 0,
       "rostros": {
-        "y0": 0.118,
+        "y0": 0.116,
         "y1": 0.423
+      }
+    },
+    {
+      "id": "6001d33992",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": -478.1,
+      "fecha": "2026-11-07T07:45:07-03:00",
+      "hora": "07:45",
+      "titulo": "Los proyectos en el Congreso de Estados Unidos que podrían presionar sobre una eventual asistencia financiera de Trump a Milei",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/11/07/los-proyectos-en-el-congreso-de-estados-unidos-que-podrian-presionar-sobre-una-eventual-asistencia-financiera-de-trump-a-milei/",
+      "acceso": "abierto",
+      "resumen": "Legisladores demócratas mantienen iniciativas para bloquear o auditar el rescate de USD 20.000 millones que el Tesoro de Trump desplegó en favor de la Argentina. Las alertas de las cámaras empresarias",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/HCQKVHXUG5CWXPU5EL4RNHMJHQ.JPG?auth=01efb46efbcb8336c35ac8f3c38c37c0a7f3980f99e8f620518d88630a63a4bf&smart=true&width=5500&height=3700",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.142,
+        "y1": 0.432
       }
     },
     {
@@ -269,7 +275,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/AFJR2DD4O5HZFN2VVBPO5ILOJY.jpg?auth=ed4f829da6f9a5227cf3be2399379b4d68ed6cdb6064e902e94a799dda2266a2&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.032,
         "y1": 0.302
@@ -291,58 +297,8 @@
       "imagen": "https://www.infobae.com/resizer/v2/TSVIYMK5TJCMNPDFVVEBYZLF5I.jpg?auth=8eeccf01573461b7edb5fbd8a1b22e9f28813108d9d8fd3755afa3d0916dc09f&smart=true&width=1920&height=1280",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
-    },
-    {
-      "id": "8dede1d022",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": -478.1,
-      "fecha": "2026-11-06T08:15:05-03:00",
-      "hora": "08:15",
-      "titulo": "Visita del papa León XIV: cuándo se reunirá con Javier Milei y qué se sabe del encuentro",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/06/visita-del-papa-leon-xiv-cuando-se-reunira-con-javier-milei-y-que-se-sabe-del-encuentro/",
-      "acceso": "abierto",
-      "resumen": "El pontífice llegará el domingo 8 de noviembre a Buenos Aires, procedente de Uruguay. Su paso por la Casa Rosada será una de las primeras actividades de una gira que también incluirá Córdoba y Luján, antes de continuar hacia Perú",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/UXD3QR4KZFHWDIYABRWFE73OEU.jpg?auth=72638c26791c034e887d067c6906e73417655fbd6449251b6b25cb9fdfbe8f6a&smart=true&width=7087&height=4725",
-      "imagen_credito": "Infobae",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Javier Milei y sus medidas, en vivo: el Presidente le envió un mensaje al papa León XIV antes de su viaje a la Argentina",
-          "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-le-envio-un-mensaje-al-papa-leon-xiv-antes-de-su-nid05112026/"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.062,
-        "y1": 0.485
-      }
-    },
-    {
-      "id": "d1c9a7e823",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": -478.1,
-      "fecha": "2026-11-06T08:10:24-03:00",
-      "hora": "08:10",
-      "titulo": "El acuerdo entre Kicillof y Máximo Kirchner aplacó la interna y abrió una vía para el armado electoral",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/06/el-acuerdo-entre-kicillof-y-maximo-kirchner-aplaco-la-interna-y-abrio-una-via-para-el-armado-electoral/",
-      "acceso": "abierto",
-      "resumen": "En ambos sectores del peronismo se quedaron conformes con el resultado de la reunión. Sigue la desconfianza, pero baja la tensión. La necesidad de un acuerdo político para el 2027",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/W5IFU5V7AJEL5LMHUWVYS2C6KU.jpg?auth=9f45e9f91daf8583a5a220127ffa2e64a10c7f532e61697129fc6a69f9a07bba&smart=true&width=1920&height=1080",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.042,
-        "y1": 0.419
-      }
     },
     {
       "id": "607a28a244",
@@ -360,7 +316,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/PDNQOYIARRDJLG4AQNSZ4QHS3M.jpg?auth=fe8da564e0b92f22d91abcdfd70033ec45c070ac15ff0ed06e6c134de2bc143e&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.208,
         "y1": 0.575
@@ -382,7 +338,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/AYTPP6AFT5GR5INRMMHGBU2UKU.jpg?auth=df103ebbc6752955b990611171d182c50527e28b5f72ad63e3f1ffa4c1a8869e&smart=true&width=2373&height=1582",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.161,
         "y1": 0.65
@@ -404,7 +360,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/XKRVTZYNRJGIRDAULU7YYRIDAE.jpg?auth=bd359ddec5926dac331ff4480086cb499884924e61e92db404da1419943fa995&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.575,
         "y1": 0.843
@@ -426,32 +382,10 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/EZ2632WGIBH6VBZNA6C5V6UG3U.jpg?auth=68b2382dcca6c144c9139dd772b27906652ab726a6210acc3fd2a2af8f8a2d5e&smart=true&width=2048&height=1813",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.105,
         "y1": 0.427
-      }
-    },
-    {
-      "id": "fd4514d673",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": -478.3,
-      "fecha": "2026-11-06T07:14:45-03:00",
-      "hora": "07:14",
-      "titulo": "El Gobierno de Milei niega que Santiago Peña haya entrado a la Argentina",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-de-milei-niega-que-santiago-pena-haya-entrado-a-la-argentina/",
-      "acceso": "abierto",
-      "resumen": "Ante versiones de que el mandatario paraguayo hubiera seguido el mismo camino de Bolsonaro para escapar de la Justicia de su país.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-Gobierno-de-Milei-niega-que-Santiago-Pena-haya-entrado-a-la-Argentina-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.117,
-        "y1": 0.533
       }
     },
     {
@@ -470,7 +404,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/WG5OQ22GMFGQFJZBZQQR3TJAGU.jpg?auth=17d1b657a0f8926a4968581e0e1b269bf7bce2339d0b2e230943a72c930e9ff8&smart=true&width=428&height=321",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.09,
         "y1": 0.549
@@ -492,7 +426,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aeddce1566f8a6f7fc7d82d/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -511,7 +445,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/FNDTKDGYVFFHNPRIO72AF6PCYA.jpeg?auth=c6d9d2d6efb860e27dc2aa5744344cb0312145555724352013ea3d1e1b351eb7&smart=true&width=2560&height=1707",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.024,
         "y1": 0.451
@@ -533,7 +467,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aee292c566f8a6f7fca6b8f/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -552,7 +486,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aedc38f566f8a6f7fc6a15c/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.207,
         "y1": 0.631
@@ -574,7 +508,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aedbd24566f8a6f7fc660de/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.166,
         "y1": 0.554
@@ -596,7 +530,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aeb321a910a3e2b497e3648/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -615,7 +549,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aeb331e910a3e2b497e44f9/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.806,
         "y1": 1.0
@@ -637,10 +571,32 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/SJAVXIM2MRHENDEBIJR3P2SOSI.jpg?auth=4166ac5a1e5d2a1ee73046202fc67f17bd477ec67d3a8166a044c191c9ef617f&smart=true&width=1011&height=674",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.084,
         "y1": 0.333
+      }
+    },
+    {
+      "id": "f740827f17",
+      "seccion": "argentina",
+      "rel": 20.6,
+      "relevancia": -479.4,
+      "fecha": "2026-11-07T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Elecciones 2027: Carlos Pagni analizó la apuesta electoral de Massa, el plan de Bullrich y la incógnita de Kicillof frente a Cristina",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/elecciones-2027-carlos-pagni-analizo-la-apuesta-electoral-de-massa-el-plan-de-bullrich-y-la-nid07112026/",
+      "acceso": "suscripcion",
+      "resumen": "En un nuevo encuentro para LA NACION +cerca, José Del Rio conversó con el periodista sobre las estrategias de los posibles candidatos con miras a los próximos comicios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/RKHMJELA25GJRO4JEJIBVZPNPY.jpg?auth=aae09a9e7fbc251a6574008ac2b01dd540dd7e353ad6c5a955c1860c58188017&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.204,
+        "y1": 0.781
       }
     },
     {
@@ -659,26 +615,48 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aedf07f566f8a6f7fc88649/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
-      "id": "82d197248e",
-      "seccion": "argentina",
-      "rel": 20.5,
-      "relevancia": -479.5,
-      "fecha": "2026-11-06T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Efecto dominó: la oposición salió a cruzar a Milei por su vínculo con Peña",
+      "id": "d5419a6dbc",
+      "seccion": "economia",
+      "rel": 20.1,
+      "relevancia": -479.9,
+      "fecha": "2026-11-06T21:16:13-03:00",
+      "hora": "21:16",
+      "titulo": "Cuidado con el cepo",
       "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/05/efecto-domino-la-oposicion-salio-a-cruzar-a-milei-por-su-vinculo-con-pena/",
+      "url": "https://www.pagina12.com.ar/2026/11/07/cuidado-con-el-cepo/",
       "acceso": "suscripcion",
-      "resumen": "El archivo de declaraciones del libertario elogiando al renunciado presidente de Paraguay fue protagonista en las redes, que no tuvieron piedad: le remarcan a Milei que no trae precisamente buena suerte.",
+      "resumen": "Con Luis Caputo en el manejo de la economía en ambos gobiernos, Macri y Milei abrieron el cepo cambiario para generar confianza y atraer inversiones.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/5C5REDITPBHHVBMLLWHI4YN354.jpg?auth=e05883c0b0f51dc500afb2eb1a1893dc9c87796c3170bd8f5e9fbcce28a105f3&smart=true&width=900&height=600",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/OVYEFQIFJRADBBWOJAEY64LJ5Y.jpg?auth=9301d876d3fdda599818cffb36e4dbb708a1978bf4cdddf025c39eebc9d9da72&smart=true&width=1191&height=794",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
+      "rostros": {
+        "y0": 0.071,
+        "y1": 0.62
+      }
+    },
+    {
+      "id": "3b57948f54",
+      "seccion": "cordoba",
+      "rel": 20.1,
+      "relevancia": -479.9,
+      "fecha": "2026-11-06T21:02:32-03:00",
+      "hora": "21:02",
+      "titulo": "El Gobierno cerrará 72 registros automotores en el país: cuáles son los 10 de Córdoba",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba-motor/el-gobierno-cerrara-72-registros-automotores-en-el-pais--cuales-son-los-10-de-cordoba_a6aee6448566f8a6f7fccdda5",
+      "acceso": "abierto",
+      "resumen": "La medida fue oficializada por el Ministerio de Justicia y contempla un plazo de 60 días hábiles para completar el proceso. En Córdoba, alcanza a dependencias de diez localidades.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6aee6498566f8a6f7fcce276/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 2,
       "rostros": null
     },
     {
@@ -697,7 +675,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/JPLYMDV3SNGMRCVFLJSQ7JKTQI.png?auth=137245852adade0904f5b62b18a50c95d479a746e167d41172a4e8bf500c6e3a&smart=true&width=1108&height=627",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.112,
         "y1": 0.373
@@ -719,7 +697,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aee47fb566f8a6f7fcb8eb2/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.252,
         "y1": 0.476
@@ -741,14 +719,14 @@
       "imagen": "https://www.infobae.com/resizer/v2/KU7O36VZYRDO5KUQ6C4YOLO2BE.jpeg?auth=3a9f843f8ebb90d975e87a6fda2d39ad4ffc65d79868e9b8d0f2b853a491e75a&smart=true&width=7049&height=3971",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
       "id": "665fc97b63",
       "seccion": "economia",
-      "rel": 17.2,
-      "relevancia": -482.8,
+      "rel": 16.0,
+      "relevancia": -484.0,
       "fecha": "2026-11-06T15:52:13-03:00",
       "hora": "15:52",
       "titulo": "Lorenzatti presentó el proyecto de Presupuesto 2027: déficit cero e incremento de partidas para la prestación de servicios y la ejecución de obras",
@@ -760,14 +738,14 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
       "id": "32f3eb4e80",
       "seccion": "cordoba",
-      "rel": 17.2,
-      "relevancia": -482.8,
+      "rel": 16.0,
+      "relevancia": -484.0,
       "fecha": "2026-11-06T15:43:50-03:00",
       "hora": "15:43",
       "titulo": "Córdoba compensará deudas con Nación por casi $143 mil millones y mantendrá sus reclamos por la Caja",
@@ -779,14 +757,14 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
       "id": "ec2229744e",
       "seccion": "economia",
-      "rel": 17.2,
-      "relevancia": -482.8,
+      "rel": 16.0,
+      "relevancia": -484.0,
       "fecha": "2026-11-06T15:29:24-03:00",
       "hora": "15:29",
       "titulo": "El riesgo país cede a 895 puntos",
@@ -798,14 +776,14 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
       "id": "d732d20d81",
       "seccion": "cordoba",
-      "rel": 16.5,
-      "relevancia": -483.5,
+      "rel": 16.0,
+      "relevancia": -484.0,
       "fecha": "2026-11-06T11:44:00-03:00",
       "hora": "11:44",
       "titulo": "Integración y desarrollo: el éxito histórico de un congreso que redefine el futuro del Mercosur desde Córdoba",
@@ -817,26 +795,7 @@
       "imagen": null,
       "imagen_credito": null,
       "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "87c0c3093e",
-      "seccion": "cordoba",
-      "rel": 16.0,
-      "relevancia": -484.0,
-      "fecha": "2026-11-06T05:19:00-03:00",
-      "hora": "05:19",
-      "titulo": "Senado dio media sanción al proyecto de mercados de carbono",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/negocios/senado-dio-media-sancion-al-proyecto-de-mercados-de-carbono/",
-      "acceso": "abierto",
-      "resumen": "El Senado de la Nación aprobó con 60 votos a favor y 2 en contra el proyecto de ley que regula los mercados de carbono en Argentina. La iniciativa, que ahora pasa a la Cámara de Diputados, crea un Registro Nacional de Reducción de Emisiones (ReNaRe) y otorga estabilidad fiscal de 30 años a los […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     }
   ],
