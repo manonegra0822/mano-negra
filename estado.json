@@ -1,17 +1,29 @@
 {
-  "actualizado": "2026-11-08T13:28:58-03:00",
+  "actualizado": "2026-11-08T20:28:08-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 96,
           "ejemplos": [
-            "Detuvieron a un hombre a metros del escenario donde estará el Papa León XIV en P",
-            "La ruta canaria registra una semana trágica durante el repunte de llegadas de ca",
-            "La confesión de Hernán Drago sobre la importancia del amor en su vida: “No es un"
+            "EN VIVO | Clima CDMX y resto de México hoy domingo 8 de noviembre: activan alert",
+            "Álvaro Uribe busca eliminar dos impuestos: uno fue culpable de que Falcao no sig",
+            "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 8 de noviembre: Harfuch "
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El discurso completo del papa León XIV en el Palaco Libertad: “La corrupción ero"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El mensaje del papa León XIV en el Palacio Libertad: habló de corrupción, rechaz"
           ]
         }
       }
@@ -19,28 +31,29 @@
     {
       "medio": "La Nación",
       "leidas": 97,
-      "aceptadas": 6,
+      "aceptadas": 7,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 79,
+        "titular sin tema de política/economía": {
+          "cantidad": 12,
           "ejemplos": [
-            "Papa León XIV en la Argentina, EN VIVO: a qué hora llega, la agenda del domingo ",
-            "A qué hora llega el papa León XIV a la Argentina hoy, domingo 8 de noviembre",
-            "Franco Colapinto, en el Gran Premio de Brasil de Fórmula 1: el minuto a minuto"
+            "Las palabras de León XIV: un pacificador, pero sin concesiones",
+            "El Papa en el Palacio Libertad: un mensaje ante todo el arco político, en el que",
+            "El Papa pidió “reconocer al que piensa distinto” y abogó por “el cuidado de la p"
+          ]
+        },
+        "sección no permitida": {
+          "cantidad": 76,
+          "ejemplos": [
+            "La boda de Pepito Cibrián y Ana María Cores: el matrimonio que sacudió al espect",
+            "Papa León XIV en la Argentina, EN VIVO: el arribo al país, la agenda del domingo",
+            "Así se vivió entre los fieles la visita de León XIV a la plaza San Martín"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Marcelo Longobardi contó que se sintió amenazado en una reunión con Sergio Berni"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 11,
-          "ejemplos": [
-            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de n",
-            "Calendario de pagos de Anses: cuándo se cobra la PUAM de noviembre de 2026",
-            "Calendario AUH de Anses: cuándo se cobra la Asignación Universal por Hijo en nov"
+            "El discurso completo de León XIV en el Palacio Libertad: un mensaje de fuerte co",
+            "Senado: Patricia Bullrich dice que no hay ruptura a la vista, pero sus desafíos "
           ]
         }
       }
@@ -76,21 +89,14 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 1,
+      "leidas": 4,
+      "aceptadas": 2,
       "descartadas": {
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "León XIV llegará al país en un clima de tensión entre Milei y la jerarquía de la"
-          ]
-        },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 2,
           "ejemplos": [
-            "Adiós a la camioneta MAGA de Elon Musk",
-            "Volver siempre a Laclau",
-            "Roces y codazos por la visita papal"
+            "Carta al Papa León XIV",
+            "El discurso completo del papa León XIV en el CCK"
           ]
         }
       }
@@ -98,21 +104,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 11,
           "ejemplos": [
-            "Una empleada municipal está grave tras ser atropellada mientras recolectaba resi",
-            "Ucrania busca una salida a la guerra con negociaciones trilaterales en Abu Dabi",
-            "La princesa Ana visitará las Malvinas en medio de la disputa por la explotación "
+            "Allanaron la casa de Mauro Icardi en Nordelta por la causa de lesiones",
+            "Cinco monjas volcaron cuando viajaban a Luján para ver al Papa",
+            "Sur Finanzas, bajo la lupa por presuntos intentos de borrar pruebas"
           ]
         },
         "otro país": {
           "cantidad": 2,
           "ejemplos": [
-            "Paraguay: imputaron al ex presidente Peña y la fiscalía solicitó la prisión prev",
-            "El flamante presidente de Paraguay garantiza el pago a los jubilados afectados p"
+            "El mensaje del papa León XIV: recordó a Francisco, pidió diálogo y una economía ",
+            "El Banco Central de Paraguay comenzó a devolver los ahorros de Ueno Bank"
           ]
         }
       }
@@ -120,7 +126,7 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 8,
@@ -137,11 +143,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 67,
+          "cantidad": 69,
           "ejemplos": [
-            "Integración y desarrollo: el éxito histórico de un congreso que redefine el futu",
-            "Día negro para los mercados: el riesgo país ya roza mil puntos pero los bonos de",
-            "La gente dice “dame”"
+            "Lorenzatti presentó el proyecto de Presupuesto 2027: déficit cero e incremento d",
+            "Córdoba compensará deudas con Nación por casi $143 mil millones y mantendrá sus ",
+            "El riesgo país cede a 895 puntos"
           ]
         }
       }
@@ -149,20 +155,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 18,
           "ejemplos": [
-            "Ventas minoristas: leve suba mensual con caída interanual",
-            "León XIV destacó el rol de las familias en la transmisión de la fe",
-            "Subastan la Kawasaki ZX-7R campeona de Superbike de 1993"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Paraguay: el expresidente Santiago Peña llegó ante la Fiscalía para declarar tra"
+            "José Hernández, Borges y Gardel: los guiños del Papa León XIV a la identidad y l",
+            "El Papa inició la segunda etapa de su viaje por América Latina",
+            "León XIV llegó a Buenos Aires para su histórica visita a la Argentina"
           ]
         }
       }

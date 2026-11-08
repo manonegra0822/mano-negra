@@ -1,6 +1,153 @@
 {
-  "actualizado": "2026-11-08T13:28:58-03:00",
+  "actualizado": "2026-11-08T20:28:08-03:00",
   "notas": [
+    {
+      "id": "0b79752fea",
+      "seccion": "argentina",
+      "rel": 69.9,
+      "relevancia": 69.9,
+      "fecha": "2026-11-08T18:07:46-03:00",
+      "hora": "18:07",
+      "titulo": "Milei recibió al Papa en la Casa Rosada: una foto en un minuto y los detalles de la presentación de los ministros",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-recibio-al-papa-en-la-casa-rosada-una-foto-en-un-minuto-y-presentacion-de-los-ministros-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente hizo el saludo formal en el Salón Blanco; después hubo una reunión bilateral “de cortesía”, en la que también participó Karina Milei",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/DXXCIM4JRRD4ZELSYGXDHE6D3U.JPG?auth=470c771bfacc454a0e7af075c238c777b6db0b16a671dea5e49da69a629043d1&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "El Papa y Milei se encontraron en Casa Rosada antes de su reunión privada",
+          "url": "https://hoydia.com.ar/politica/nacional/papa-milei-casa-rosada/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.03,
+        "y1": 0.33
+      }
+    },
+    {
+      "id": "1b67c691a7",
+      "seccion": "cordoba",
+      "rel": 33.4,
+      "relevancia": 33.4,
+      "fecha": "2026-11-08T17:08:34-03:00",
+      "hora": "17:08",
+      "titulo": "El Papa llegó a Buenos Aires: León XIV pisó suelo argentino y fue recibido por el presidente Milei",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/el-papa-en-argentina/el-papa-llego-a-buenos-aires-leon-xiv-piso-suelo-argentino-y-fue-recibido-por-el-presidente-milei/",
+      "acceso": "abierto",
+      "resumen": "A las 16:33, el Papa León XIV aterrizó en el Aeroparque Jorge Newbery, proveniente de Montevideo, Uruguay. A bordo de un avión de Aerolíneas Argentinas, el Santo Padre llegó junto a su comitiva para iniciar una histórica visita. Tras descender al territorio argentino con un avión de Aerolíneas Argentinas, el papa León XIV salió de […]",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6af100812aec752ba0ca1238/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "Papa León XIV en Buenos Aires “La economía debe estar al servicio de la persona”",
+          "url": "https://www.cba24n.com.ar/argentina/papa-leon-xiv-en-buenos-aires--la-economia-debe-estar-al-servicio-de-la-persona-_a6af0fde12aec752ba0c9fc47"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.096,
+        "y1": 0.442
+      }
+    },
+    {
+      "id": "13d655876b",
+      "seccion": "economia",
+      "rel": 22.7,
+      "relevancia": 22.7,
+      "fecha": "2026-11-08T12:42:03-03:00",
+      "hora": "12:42",
+      "titulo": "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la caída con un leve repunte mensual",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/ventas-minoristas-pymes-cayeron-16-interanual-en-octubre-pero-frenaron-la-caida-con-un-leve-repunte-mensual/",
+      "acceso": "abierto",
+      "resumen": "Los comercios de cercanía exhibieron una dinámica dual marcada por restricciones en los ingresos familiares y compras focalizadas en productos esenciales de menor valor Las ventas minoristas de las pymes cayeron 1,6% interanual, pero mejoraron 0,3% mensual en octubre, acumulando una caída del 2% en lo que va del año, de acuerdo con un relevamiento […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/03/Ventas-Minoristas.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "Las ventas minoristas pyme cayeron 1,6% interanual en octubre",
+          "url": "https://hoydia.com.ar/economia/ventas-minoristas-pyme-octubre/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.143,
+        "y1": 0.46
+      }
+    },
+    {
+      "id": "293407c4a6",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-08T19:25:59-03:00",
+      "hora": "19:25",
+      "titulo": "Llaryora participó del encuentro en el Palacio Libertad y celebró su llegada en las redes",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-encuentro-papa-redes/",
+      "acceso": "abierto",
+      "resumen": "El gobernador estuvo presente en el acto del Palacio Libertad, junto a Milei y dirigentes de todo el arco político. También publicó un mensaje de bienvenida en el que expresó la expectativa por la llegada del Pontífice a la provincia.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Llaryora-participo-en-Palacio-Libertad-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.601
+      }
+    },
+    {
+      "id": "b9d1565ccb",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-08T19:12:51-03:00",
+      "hora": "19:12",
+      "titulo": "Milei recordó a Francisco y lo definió como «el argentino más importante de la historia»",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/milei-recordo-a-francisco-ante-el-papa-y-lo-definio-como-el-argentino-mas-importante-de-la-historia/",
+      "acceso": "abierto",
+      "resumen": "En el encuentro con León XIV en el Palacio Libertad (ex CCK), el Presidente valoró la participación de dirigentes de distintos espacios. El Pontífice habla ahora por cadena nacional.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-recordo-a-Francisco-y-lo-definio-como-el-argentino-mas-importante-de-la-historia-optimized.jpeg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.106,
+        "y1": 0.454
+      }
+    },
+    {
+      "id": "4805ce4868",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-08T19:00:59-03:00",
+      "hora": "19:00",
+      "titulo": "León XIV recibió las llaves de Buenos Aires y se reúne con Milei en el Palacio Libertad",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/leon-xiv-papa-llaves-buenos-aires/",
+      "acceso": "abierto",
+      "resumen": "El jefe de Gobierno porteño, Jorge Macri, le entregó las llaves de la Ciudad al Pontífice durante su primera jornada en el país. Luego, el Papa participará de un encuentro institucional junto al Presidente, gobernadores y representantes de distintos sectores.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Leon-XIV-recibio-las-llaves-de-Buenos-Aires-y-se-reune-con-Milei-en-el-Palacio-Libertad-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
     {
       "id": "d65279f015",
       "seccion": "economia",
@@ -87,28 +234,6 @@
       }
     },
     {
-      "id": "f061924efd",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-07T19:21:24-03:00",
-      "hora": "19:21",
-      "titulo": "Los aumentos en las tarifas eléctricas bonaerenses alimentan la tensión entre Kicillof y La Cámpora",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/los-aumentos-en-las-tarifas-electricas-bonaerenses-alimentan-la-tension-entre-kicillof-y-la-campora-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "El defensor del Pueblo pidió una medida cautelar para frenar una resolución que aprobó nuevos valores: la organización que responde a Máximo Kirchner apoya el reclamo",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/GLTGCPBPYBDTJJGA7WY57GTJNM.jpg?auth=903944dca2eacb8ad3fb10d3c71bdfff87f216d14e5fc6b59b983548a8dbf95c&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.084,
-        "y1": 0.571
-      }
-    },
-    {
       "id": "66743c5afd",
       "seccion": "economia",
       "rel": 21.6,
@@ -128,6 +253,28 @@
       "rostros": {
         "y0": 0.343,
         "y1": 0.856
+      }
+    },
+    {
+      "id": "9fbda67d9f",
+      "seccion": "cordoba",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-11-08T17:39:24-03:00",
+      "hora": "17:39",
+      "titulo": "León XIV homenajeó al general José de San Martín antes de reunirse con Milei",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/hoypais/leon-xiv-papa-homenaje-san-martin/",
+      "acceso": "abierto",
+      "resumen": "Tras realizar una ofrenda floral en homenaje al Libertador, el Pontífice se trasladó hacia la sede del Gobierno nacional. Allí tendrá una ceremonia de bienvenida y un encuentro con el Presidente.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Leon-XIV-llego-a-Plaza-San-Martin-y-homenajeo-al-procer-antes-de-reunirse-con-Milei-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.103,
+        "y1": 0.312
       }
     },
     {
@@ -153,25 +300,44 @@
       }
     },
     {
-      "id": "77b1711420",
-      "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
-      "fecha": "2026-11-07T16:08:10-03:00",
-      "hora": "16:08",
-      "titulo": "La visita del papa León XIV podría movilizar más de 3 millones de turistas nacionales e internacionales",
+      "id": "8769675e34",
+      "seccion": "economia",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-11-08T15:45:30-03:00",
+      "hora": "15:45",
+      "titulo": "Calendario semanal de Anses: qué pasa con los pagos de jubilaciones y AUH durante los feriados por la visita del papa León XIV a la Argentina",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/la-visita-del-papa-leon-xiv-podria-movilizar-mas-de-3-millones-de-turistas-nacionales-e-nid07112026/",
+      "url": "https://www.lanacion.com.ar/economia/calendario-semanal-de-anses-que-pasa-con-los-pagos-de-jubilaciones-y-auh-durante-los-feriados-por-la-nid08112026/",
       "acceso": "suscripcion",
-      "resumen": "La Cámara Argentina de Turismo anticipa un importante movimiento de viajeros nacionales e internacionales; Buenos Aires, Luján y Córdoba concentran las mayores expectativas de convocatoria y ocupación hotelera",
+      "resumen": "El organismo nacional difundió el cronograma de pagos de todas las prestaciones sociales del penúltimo mes del año y detalló cómo será el calendario del lunes 9 al viernes 13 de noviembre",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/HB2H33ZW7FCRRKRT6CR32GXPOM.jpeg?auth=65db919b46a3d691a6213033f282dbf8f1a32440e77fe0127e8a32b64541fb0d&smart=true&width=1280&height=851",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/ICGFXVKLD5AMBGHSQZWSGG5NUU.png?auth=d4e3feff04abe24373a249744a049d560dc8940326b419e5b8939f30ec893fe8&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "c70023c159",
+      "seccion": "argentina",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-11-08T19:06:30-03:00",
+      "hora": "19:06",
+      "titulo": "Jorge Macri le entregó las llaves de la ciudad de Buenos Aires al papa León XIV",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/jorge-macri-le-entrego-las-llaves-de-la-ciudad-de-buenos-aires-al-papa-leon-xiv-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "El jefe de gobierno porteño recibió al Sumo Pontífice junto a su esposa, su hijo y parte del gabinete",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/7X3WSNFZRBFJTCBLRCDK4KE7DE.JPG?auth=cc28b5a21ba36b3782a3e8655568d4bc58022c4098e38056c55562571974f4c1&smart=true&width=3000&height=1999",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
       "rostros": {
-        "y0": 0.054,
-        "y1": 0.959
+        "y0": 0.275,
+        "y1": 0.502
       }
     },
     {
@@ -235,6 +401,28 @@
       "rostros": null
     },
     {
+      "id": "5a0a7ac240",
+      "seccion": "argentina",
+      "rel": 15.9,
+      "relevancia": 15.9,
+      "fecha": "2026-11-08T20:00:53-03:00",
+      "hora": "20:00",
+      "titulo": "Javier Milei resaltó la visita de León XIV, recordó a Francisco y destacó “la presencia de todo el arco político”",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/11/08/javier-milei-resalto-la-visita-de-leon-xiv-recordo-a-francisco-y-destaco-la-presencia-de-todo-el-arco-politico/",
+      "acceso": "abierto",
+      "resumen": "El Presidente habló en el acto en el Palacio Libertad ante autoridades de los tres poderes. Sostuvo que la llegada del pontífice debe convocar a creyentes y no creyentes alrededor de valores compartidos por encima de diferencias partidarias",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/T4YYSVWUERG7LM6HFF3GQNOFII.png?auth=89aaf13c4aff30648069d0d47aa2eb29b325d7b7a9a11d9d426c6bceb2184837&smart=true&width=1920&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.075,
+        "y1": 0.32
+      }
+    },
+    {
       "id": "db4b6545c5",
       "seccion": "argentina",
       "rel": 15.8,
@@ -257,6 +445,28 @@
       }
     },
     {
+      "id": "7789b67fe0",
+      "seccion": "economia",
+      "rel": 15.7,
+      "relevancia": 15.7,
+      "fecha": "2026-11-08T18:57:26-03:00",
+      "hora": "18:57",
+      "titulo": "Radiografía económica ante la visita del Papa",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/08/radiografia-economica-ante-la-visita-del-papa/",
+      "acceso": "suscripcion",
+      "resumen": "Las políticas de ajuste de Milei no tienen en el centro al trabajo y a las personas, como predica León XIV. Por el contrario, destruyen industrias y empleos, y favorecen la concentración de la riqueza.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/TJKTEJ6ECZHQBKLKTRCESKTFTQ.jpg?auth=4d4c11e3e042000516aeeffaa86c168ec0513f7ba772f3790ab4d9a01bd65951&smart=true&width=1488&height=992",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.766,
+        "y1": 0.985
+      }
+    },
+    {
       "id": "73b7e39cf9",
       "seccion": "economia",
       "rel": 13.4,
@@ -271,25 +481,6 @@
       "impacto": null,
       "imagen": "https://resizer.glanacion.com/resizer/v2/SVMKC5YGEJD3PNAOF7Z6DMSPOY.jpg?auth=dae6f6342feb17b66970b8cac882f5b4653ca4333679c671dfcd41effdf99a19&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "13d655876b",
-      "seccion": "economia",
-      "rel": 11.9,
-      "relevancia": 11.9,
-      "fecha": "2026-11-08T12:42:03-03:00",
-      "hora": "12:42",
-      "titulo": "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la caída con un leve repunte mensual",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/ventas-minoristas-pymes-cayeron-16-interanual-en-octubre-pero-frenaron-la-caida-con-un-leve-repunte-mensual/",
-      "acceso": "abierto",
-      "resumen": "Los comercios de cercanía exhibieron una dinámica dual marcada por restricciones en los ingresos familiares y compras focalizadas en productos esenciales de menor valor Las ventas minoristas de las pymes cayeron 1,6% interanual, pero mejoraron 0,3% mensual en octubre, acumulando una caída del 2% en lo que va del año, de acuerdo con un relevamiento […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -317,25 +508,25 @@
       }
     },
     {
-      "id": "607a28a244",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": -478.3,
-      "fecha": "2026-11-06T18:40:31-03:00",
-      "hora": "18:40",
-      "titulo": "Javier Milei y sus medidas, en vivo: “El espíritu liberal sigue vivo”, dijo el Presidente en la Cumbre Iberoamericana",
+      "id": "f061924efd",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": -478.2,
+      "fecha": "2026-11-07T19:21:24-03:00",
+      "hora": "19:21",
+      "titulo": "Los aumentos en las tarifas eléctricas bonaerenses alimentan la tensión entre Kicillof y La Cámpora",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-espiritu-liberal-sigue-vivo-dijo-el-presidente-en-la-cumbre-nid06112026/",
+      "url": "https://www.lanacion.com.ar/politica/los-aumentos-en-las-tarifas-electricas-bonaerenses-alimentan-la-tension-entre-kicillof-y-la-campora-nid07112026/",
       "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, todas las reacciones de la oposición y las declaraciones de los funcionarios",
+      "resumen": "El defensor del Pueblo pidió una medida cautelar para frenar una resolución que aprobó nuevos valores: la organización que responde a Máximo Kirchner apoya el reclamo",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/PDNQOYIARRDJLG4AQNSZ4QHS3M.jpg?auth=fe8da564e0b92f22d91abcdfd70033ec45c070ac15ff0ed06e6c134de2bc143e&smart=true&width=2000&height=1333",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/GLTGCPBPYBDTJJGA7WY57GTJNM.jpg?auth=903944dca2eacb8ad3fb10d3c71bdfff87f216d14e5fc6b59b983548a8dbf95c&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 2,
+      "dia": 1,
       "rostros": {
-        "y0": 0.208,
-        "y1": 0.575
+        "y0": 0.084,
+        "y1": 0.571
       }
     },
     {
@@ -380,66 +571,25 @@
       }
     },
     {
-      "id": "51fe5aff85",
-      "seccion": "argentina",
-      "rel": 21.5,
-      "relevancia": -478.5,
-      "fecha": "2026-11-06T17:25:05-03:00",
-      "hora": "17:25",
-      "titulo": "Mahiques despeja los problemas judiciales del Gobierno y allana el camino para ser el jefe de los fiscales",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/mahiques-despeja-los-problemas-judiciales-del-gobierno-y-presiona-para-ser-el-jefe-de-los-fiscales-nid06112026/",
-      "acceso": "suscripcion",
-      "resumen": "El ministro de Justicia conservó su llegada a los jueces de Comodoro Py y logró que se cierren causas incómodas para los hermanos Milei; designaciones polémicas y las negociaciones para ser Procurador",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/WG5OQ22GMFGQFJZBZQQR3TJAGU.jpg?auth=17d1b657a0f8926a4968581e0e1b269bf7bce2339d0b2e230943a72c930e9ff8&smart=true&width=428&height=321",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 2,
-      "rostros": {
-        "y0": 0.09,
-        "y1": 0.549
-      }
-    },
-    {
-      "id": "98d9480498",
-      "seccion": "economia",
+      "id": "77b1711420",
+      "seccion": "cordoba",
       "rel": 21.3,
       "relevancia": -478.7,
-      "fecha": "2026-11-06T16:23:40-03:00",
-      "hora": "16:23",
-      "titulo": "Banco Nación reduce al 25% la tasa para financiar autos usados y 0 km",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/banco-nacion-reduce-al-25--la-tasa-para-financiar-autos-usados-y-0-km_a6aee28f0566f8a6f7fca69b6",
-      "acceso": "abierto",
-      "resumen": "El Banco Nación de la República Argentina redujo las condiciones financieras de su programa “+Autos con BNA”, fijando una tasa nominal anual (TNA) del 25% fija y en pesos.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6aee292c566f8a6f7fca6b8f/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 2,
-      "rostros": null
-    },
-    {
-      "id": "ca9908571b",
-      "seccion": "economia",
-      "rel": 21.0,
-      "relevancia": -479.0,
-      "fecha": "2026-11-06T14:20:06-03:00",
-      "hora": "14:20",
-      "titulo": "Milei ratificó el rumbo económico y negó que vaya a devaular",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/06/milei-ratifico-el-rumbo-economico-y-nego-que-vaya-a-devaular/",
+      "fecha": "2026-11-07T16:08:10-03:00",
+      "hora": "16:08",
+      "titulo": "La visita del papa León XIV podría movilizar más de 3 millones de turistas nacionales e internacionales",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/la-visita-del-papa-leon-xiv-podria-movilizar-mas-de-3-millones-de-turistas-nacionales-e-nid07112026/",
       "acceso": "suscripcion",
-      "resumen": "El Presidente desairó una vez más a los ruralistas y aseguró que mantendrá el tipo de cambio. El campo, que presiona para que se eliminen las retenciones, le reclama al Ejecutivo una flexibilización monetaria o actualización del dólar.",
+      "resumen": "La Cámara Argentina de Turismo anticipa un importante movimiento de viajeros nacionales e internacionales; Buenos Aires, Luján y Córdoba concentran las mayores expectativas de convocatoria y ocupación hotelera",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/SJAVXIM2MRHENDEBIJR3P2SOSI.jpg?auth=4166ac5a1e5d2a1ee73046202fc67f17bd477ec67d3a8166a044c191c9ef617f&smart=true&width=1011&height=674",
-      "imagen_credito": "Página/12",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/HB2H33ZW7FCRRKRT6CR32GXPOM.jpeg?auth=65db919b46a3d691a6213033f282dbf8f1a32440e77fe0127e8a32b64541fb0d&smart=true&width=1280&height=851",
+      "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 2,
+      "dia": 1,
       "rostros": {
-        "y0": 0.084,
-        "y1": 0.333
+        "y0": 0.054,
+        "y1": 0.959
       }
     },
     {
@@ -525,28 +675,6 @@
       "rostros": null
     },
     {
-      "id": "a6b2b824fa",
-      "seccion": "cordoba",
-      "rel": 19.7,
-      "relevancia": -480.3,
-      "fecha": "2026-11-06T18:36:17-03:00",
-      "hora": "18:36",
-      "titulo": "La carta de jubilados a León XIV: justicia social, mejores jubilaciones y protección de derechos",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/la-carta-de-jubilados-a-leon-xiv--justicia-social--mejores-jubilaciones-y-proteccion-de-derechos_a6aee477c566f8a6f7fcb8abb",
-      "acceso": "abierto",
-      "resumen": "Organizaciones de jubilados de alcance nacional y de Córdoba escribieron cartas al pontífice ante su próxima visita a la Argentina. En los documentos advierten sobre el deterioro de las condiciones de vida, las dificultades para acceder a medicamentos y la pérdida de derechos previsionales. También proponen abrir espacios de diálogo y reclaman mayor participación en las decisiones que afectan al sector.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6aee47fb566f8a6f7fcb8eb2/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 2,
-      "rostros": {
-        "y0": 0.252,
-        "y1": 0.476
-      }
-    },
-    {
       "id": "498a61acad",
       "seccion": "cordoba",
       "rel": 18.4,
@@ -567,82 +695,6 @@
         "y0": 0.0,
         "y1": 0.51
       }
-    },
-    {
-      "id": "e66a2f3c91",
-      "seccion": "economia",
-      "rel": 17.9,
-      "relevancia": -482.1,
-      "fecha": "2026-11-06T19:59:31-03:00",
-      "hora": "19:59",
-      "titulo": "Futuros Mejores presentó su programa económico tras tres años de debate multisectorial",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/economia/networking/2026/11/06/futuros-mejores-presento-su-programa-economico-tras-tres-anos-de-debate-multisectorial/",
-      "acceso": "abierto",
-      "resumen": "La iniciativa fue lanzada en Buenos Aires con apoyo de la Fundación Friedrich Ebert y propone reparar los efectos atribuidos a la administración de Javier Milei mediante un proyecto de desarrollo sostenible",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/KU7O36VZYRDO5KUQ6C4YOLO2BE.jpeg?auth=3a9f843f8ebb90d975e87a6fda2d39ad4ffc65d79868e9b8d0f2b853a491e75a&smart=true&width=7049&height=3971",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 2,
-      "rostros": null
-    },
-    {
-      "id": "665fc97b63",
-      "seccion": "economia",
-      "rel": 16.0,
-      "relevancia": -484.0,
-      "fecha": "2026-11-06T15:52:13-03:00",
-      "hora": "15:52",
-      "titulo": "Lorenzatti presentó el proyecto de Presupuesto 2027: déficit cero e incremento de partidas para la prestación de servicios y la ejecución de obras",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/lorenzatti-presento-el-proyecto-de-presupuesto-2027-deficit-cero-e-incremento-de-partidas-para-la-prestacion-de-servicios-y-la-ejecucion-de-obras/",
-      "acceso": "abierto",
-      "resumen": "La inversión en materia social crecerá un 10,4% real respecto de 2026.Se mantendrán las alícuotas del presente período en materia tributaria, con actualización de montos mínimos y tasas. También se mantienen los beneficios para las actividades comerciales, industriales y de servicios. Durante la jornada del viernes, el secretario de Administración Pública y Capital Humano de […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 2,
-      "rostros": null
-    },
-    {
-      "id": "32f3eb4e80",
-      "seccion": "cordoba",
-      "rel": 16.0,
-      "relevancia": -484.0,
-      "fecha": "2026-11-06T15:43:50-03:00",
-      "hora": "15:43",
-      "titulo": "Córdoba compensará deudas con Nación por casi $143 mil millones y mantendrá sus reclamos por la Caja",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/cordoba-compensara-deudas-con-nacion-por-casi-143-mil-millones-y-mantendra-sus-reclamos-por-la-caja/",
-      "acceso": "abierto",
-      "resumen": "El convenio reconoce acreencias provinciales por anticipos de Anses y ajustes del Consenso Fiscal. El saldo a favor de Nación se pagará con un cronograma que se extenderá hasta diciembre de 2027, con una tasa del 15% nominal anual. Quedan resguardadas las diferencias por el déficit previsional de 2025 y 2026 y dos causas que […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 2,
-      "rostros": null
-    },
-    {
-      "id": "ec2229744e",
-      "seccion": "economia",
-      "rel": 16.0,
-      "relevancia": -484.0,
-      "fecha": "2026-11-06T15:29:24-03:00",
-      "hora": "15:29",
-      "titulo": "El riesgo país cede a 895 puntos",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/el-riesgo-pais-cede-a-895-puntos/",
-      "acceso": "abierto",
-      "resumen": "El riesgo país desciende a 895 puntos básicos como consecuencia de un rebote en el precio de los bonos de la deuda argentina de hasta 1,1%, al promediar la rueda de este viernes. La cotización corresponde a las operaciones que se están realizando en Wall Street, mientras que la Bolsa de Buenos Aires permanece cerrada […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 2,
-      "rostros": null
     }
   ],
   "opinion": []
