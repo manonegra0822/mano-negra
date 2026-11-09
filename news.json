@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T20:28:08-03:00",
+  "actualizado": "2026-11-09T08:48:24-03:00",
   "notas": [
     {
       "id": "0b79752fea",
@@ -23,7 +23,7 @@
           "url": "https://hoydia.com.ar/politica/nacional/papa-milei-casa-rosada/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.03,
         "y1": 0.33
@@ -32,8 +32,8 @@
     {
       "id": "1b67c691a7",
       "seccion": "cordoba",
-      "rel": 33.4,
-      "relevancia": 33.4,
+      "rel": 31.4,
+      "relevancia": 31.4,
       "fecha": "2026-11-08T17:08:34-03:00",
       "hora": "17:08",
       "titulo": "El Papa llegó a Buenos Aires: León XIV pisó suelo argentino y fue recibido por el presidente Milei",
@@ -51,99 +51,46 @@
           "url": "https://www.cba24n.com.ar/argentina/papa-leon-xiv-en-buenos-aires--la-economia-debe-estar-al-servicio-de-la-persona-_a6af0fde12aec752ba0c9fc47"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.096,
         "y1": 0.442
       }
     },
     {
-      "id": "13d655876b",
+      "id": "d831969ed4",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-09T07:58:38-03:00",
+      "hora": "07:58",
+      "titulo": "La moral, la fe y regalos oficiales: la trastienda del encuentro a solas de Milei con León XIV",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/la-moral-la-fe-y-regalos-oficiales-la-trastienda-del-encuentro-a-solas-de-milei-con-leon-xiv/",
+      "acceso": "abierto",
+      "resumen": "La moral, la fe y regalos oficiales: la trastienda del encuentro a solas de Milei con León XIV en Casa Rosada",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-junto-a-Leon-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "8430e6bdb0",
       "seccion": "economia",
-      "rel": 22.7,
-      "relevancia": 22.7,
-      "fecha": "2026-11-08T12:42:03-03:00",
-      "hora": "12:42",
-      "titulo": "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la caída con un leve repunte mensual",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/ventas-minoristas-pymes-cayeron-16-interanual-en-octubre-pero-frenaron-la-caida-con-un-leve-repunte-mensual/",
-      "acceso": "abierto",
-      "resumen": "Los comercios de cercanía exhibieron una dinámica dual marcada por restricciones en los ingresos familiares y compras focalizadas en productos esenciales de menor valor Las ventas minoristas de las pymes cayeron 1,6% interanual, pero mejoraron 0,3% mensual en octubre, acumulando una caída del 2% en lo que va del año, de acuerdo con un relevamiento […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/03/Ventas-Minoristas.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Las ventas minoristas pyme cayeron 1,6% interanual en octubre",
-          "url": "https://hoydia.com.ar/economia/ventas-minoristas-pyme-octubre/"
-        }
-      ],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.143,
-        "y1": 0.46
-      }
-    },
-    {
-      "id": "293407c4a6",
-      "seccion": "cordoba",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-11-08T19:25:59-03:00",
-      "hora": "19:25",
-      "titulo": "Llaryora participó del encuentro en el Palacio Libertad y celebró su llegada en las redes",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-encuentro-papa-redes/",
+      "fecha": "2026-11-09T07:52:13-03:00",
+      "hora": "07:52",
+      "titulo": "Creación y destrucción de empresas y de empleo: el riesgo de que la economía argentina se termine pareciendo al Deportivo La Coruña",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/11/09/creacion-y-destruccion-de-empresas-y-de-empleo-el-riesgo-de-que-la-economia-argentina-se-termine-pareciendo-al-deportivo-la-coruna/",
       "acceso": "abierto",
-      "resumen": "El gobernador estuvo presente en el acto del Palacio Libertad, junto a Milei y dirigentes de todo el arco político. También publicó un mensaje de bienvenida en el que expresó la expectativa por la llegada del Pontífice a la provincia.",
+      "resumen": "Datos y estudios sobre la evolución del número de firmas y su efecto sobre el trabajo y la productividad permiten asimilar el caso argentino a la experiencia del club gallego, reflejado en su capacidad goleadora. Vaca Muerta y “el efecto derrame”",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Llaryora-participo-en-Palacio-Libertad-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.601
-      }
-    },
-    {
-      "id": "b9d1565ccb",
-      "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-08T19:12:51-03:00",
-      "hora": "19:12",
-      "titulo": "Milei recordó a Francisco y lo definió como «el argentino más importante de la historia»",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-recordo-a-francisco-ante-el-papa-y-lo-definio-como-el-argentino-mas-importante-de-la-historia/",
-      "acceso": "abierto",
-      "resumen": "En el encuentro con León XIV en el Palacio Libertad (ex CCK), el Presidente valoró la participación de dirigentes de distintos espacios. El Pontífice habla ahora por cadena nacional.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-recordo-a-Francisco-y-lo-definio-como-el-argentino-mas-importante-de-la-historia-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.106,
-        "y1": 0.454
-      }
-    },
-    {
-      "id": "4805ce4868",
-      "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-08T19:00:59-03:00",
-      "hora": "19:00",
-      "titulo": "León XIV recibió las llaves de Buenos Aires y se reúne con Milei en el Palacio Libertad",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/leon-xiv-papa-llaves-buenos-aires/",
-      "acceso": "abierto",
-      "resumen": "El jefe de Gobierno porteño, Jorge Macri, le entregó las llaves de la Ciudad al Pontífice durante su primera jornada en el país. Luego, el Papa participará de un encuentro institucional junto al Presidente, gobernadores y representantes de distintos sectores.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Leon-XIV-recibio-las-llaves-de-Buenos-Aires-y-se-reune-con-Milei-en-el-Palacio-Libertad-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": "https://www.infobae.com/resizer/v2/6U5BBS35YVCN7F4OGA3N7BCMVY.png?auth=e1ccdc7e0b5460feaeb9c509c3b2461558edbbde7addf6f60422a0adc76f5f60&smart=true&width=2752&height=1536",
+      "imagen_credito": "Infobae",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -164,7 +111,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/TYWEKS6JNNAY5CT4L77LBERDHI.png?auth=a081b49c370ddd7e3c0d7175f9c4a0a6aa15dafa8c489d4bc19a058728d8d489&smart=true&width=2752&height=1536",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -183,55 +130,52 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/ORXUTKNLMFAM7LHEPZIJBYO3DA.jpg?auth=63c3db1eaf4e4cb7b5ab13f1bc9e1ca441402ce57d62a5aa7e9876530b86cc76&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.412,
         "y1": 0.71
       }
     },
     {
-      "id": "6b637ed4b0",
+      "id": "0877e211fb",
       "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-08T07:24:30-03:00",
-      "hora": "07:24",
-      "titulo": "Bullrich lleva al límite la interna con Menem y Karina: incómodos y leales en LLA",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-11-09T07:13:20-03:00",
+      "hora": "07:13",
+      "titulo": "Dónde voto: publicaron el padrón provisorio para las elecciones de Argentina 2027",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/bullrich-lleva-al-limite-la-interna-con-menem-y-karina-incomodos-y-leales-en-lla-nid08112026/",
+      "url": "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
       "acceso": "suscripcion",
-      "resumen": "La imagen de la jefa del bloque libertario en el Senado con 15 diputados desató la furia de la Casa Rosada; disputa por el control de los legisladores",
+      "resumen": "El año que viene los argentinos elegirán a su próximo presidente, y es importante para los que van a votar conocer previamente el lugar en el que ejercerán el sufragio para agilizar el trámite electoral",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/Y24D3Q5YNFD23I4FLPVFEWB7CI.jpg?auth=2215c08c6f028d53b96c2d9671b22c3465b6dd373cbf58c4586210b4081eeab4&smart=true&width=1600&height=1200",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/K6FY2PGOZBFGZBXUIOPB5MFU24.jpg?auth=7806600ea6fa8a117b63c855234abf0afa9c626833509eadb98e8629cee69269&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.144,
-        "y1": 0.605
+        "y0": 0.009,
+        "y1": 0.345
       }
     },
     {
-      "id": "f545541771",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-08T07:03:42-03:00",
-      "hora": "07:03",
-      "titulo": "Uno a uno, los puntos sensibles de la visita del Papa para el gobierno de Javier Milei",
+      "id": "8769675e34",
+      "seccion": "economia",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-11-09T07:06:56-03:00",
+      "hora": "07:06",
+      "titulo": "Calendario semanal de Anses: qué pasa con los pagos de jubilaciones y AUH durante los feriados por la visita del papa León XIV a la Argentina",
       "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/uno-a-uno-los-puntos-sensibles-de-la-visita-del-papa-para-el-gobierno-de-javier-milei-nid08112026/",
+      "url": "https://www.lanacion.com.ar/economia/calendario-semanal-de-anses-que-pasa-con-los-pagos-de-jubilaciones-y-auh-durante-los-feriados-por-la-nid08112026/",
       "acceso": "suscripcion",
-      "resumen": "La llegada del Papa al Cottolengo Don Orione es la parte más complicada de la gira para la Casa Rosada; se suman otras cuestiones, como la seguridad y la misa en Luján, donde predominará el peronismo",
+      "resumen": "El organismo nacional difundió el cronograma de pagos de todas las prestaciones sociales del penúltimo mes del año y detalló cómo será el calendario del lunes 9 al viernes 13 de noviembre",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/3YHWBVANXFFARK6CW4F3WVOTPQ.jpg?auth=4d981140ff581e34fd83768ea066bc9822a52f3a2c02a69a662eadf45dec85a0&smart=true&width=2000&height=1333",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/ICGFXVKLD5AMBGHSQZWSGG5NUU.png?auth=d4e3feff04abe24373a249744a049d560dc8940326b419e5b8939f30ec893fe8&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "y0": 0.354,
-        "y1": 0.848
-      }
+      "rostros": null
     },
     {
       "id": "66743c5afd",
@@ -249,7 +193,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/milei-1-optimized.png",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.343,
         "y1": 0.856
@@ -271,51 +215,101 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Leon-XIV-llego-a-Plaza-San-Martin-y-homenajeo-al-procer-antes-de-reunirse-con-Milei-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.103,
         "y1": 0.312
       }
     },
     {
-      "id": "0877e211fb",
-      "seccion": "argentina",
-      "rel": 21.4,
-      "relevancia": 21.4,
-      "fecha": "2026-11-08T09:58:53-03:00",
-      "hora": "09:58",
-      "titulo": "Dónde voto: publicaron el padrón provisorio para las elecciones de Argentina 2027",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
-      "acceso": "suscripcion",
-      "resumen": "El año que viene los argentinos elegirán a su próximo presidente, y es importante para los que van a votar conocer previamente el lugar en el que ejercerán el sufragio para agilizar el trámite electoral",
+      "id": "13d655876b",
+      "seccion": "economia",
+      "rel": 20.6,
+      "relevancia": 20.6,
+      "fecha": "2026-11-08T12:42:03-03:00",
+      "hora": "12:42",
+      "titulo": "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la caída con un leve repunte mensual",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/ventas-minoristas-pymes-cayeron-16-interanual-en-octubre-pero-frenaron-la-caida-con-un-leve-repunte-mensual/",
+      "acceso": "abierto",
+      "resumen": "Los comercios de cercanía exhibieron una dinámica dual marcada por restricciones en los ingresos familiares y compras focalizadas en productos esenciales de menor valor Las ventas minoristas de las pymes cayeron 1,6% interanual, pero mejoraron 0,3% mensual en octubre, acumulando una caída del 2% en lo que va del año, de acuerdo con un relevamiento […]",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/K6FY2PGOZBFGZBXUIOPB5MFU24.jpg?auth=7806600ea6fa8a117b63c855234abf0afa9c626833509eadb98e8629cee69269&smart=true&width=2000&height=1333",
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/03/Ventas-Minoristas.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "Las ventas minoristas pyme cayeron 1,6% interanual en octubre",
+          "url": "https://hoydia.com.ar/economia/ventas-minoristas-pyme-octubre/"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.143,
+        "y1": 0.46
+      }
+    },
+    {
+      "id": "27d5a3f105",
+      "seccion": "cordoba",
+      "rel": 20.5,
+      "relevancia": 20.5,
+      "fecha": "2026-11-09T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Milei pierde margen en el Congreso: los gobernadores aliados toman distancia y endurecen sus exigencias",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-pierde-margen-en-el-congreso-los-gobernadores-aliados-toman-distancia-y-endurecen-sus-nid09112026/",
+      "acceso": "suscripcion",
+      "resumen": "Las dificultades del Gobierno y las disputas electorales alejan a Sáenz, Llaryora, Jaldo, Jalil y Passalacqua del oficialismo; Cornejo espera un guiño de la Casa Rosada y Pullaro sostiene sus exigencias pese al acercamiento con los libertarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/LUO6D5XQRNE6ZP3SX64QTVX5XY.jpg?auth=ad58c7b3b1ebf706df9bc413b55911dc2384d4fa303b59f4ef68399f393de3aa&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": {
-        "y0": 0.009,
-        "y1": 0.345
+        "y0": 0.013,
+        "y1": 0.369
       }
     },
     {
-      "id": "8769675e34",
-      "seccion": "economia",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-11-08T15:45:30-03:00",
-      "hora": "15:45",
-      "titulo": "Calendario semanal de Anses: qué pasa con los pagos de jubilaciones y AUH durante los feriados por la visita del papa León XIV a la Argentina",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/calendario-semanal-de-anses-que-pasa-con-los-pagos-de-jubilaciones-y-auh-durante-los-feriados-por-la-nid08112026/",
+      "id": "590984dc2c",
+      "seccion": "argentina",
+      "rel": 20.5,
+      "relevancia": 20.5,
+      "fecha": "2026-11-09T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "La calma que antecede el huracán entre Patricia Bullrich y Javier Milei",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/08/bullrich-se-mueve-como-si-estuviera-lista-para-su-siguiente-salto/",
       "acceso": "suscripcion",
-      "resumen": "El organismo nacional difundió el cronograma de pagos de todas las prestaciones sociales del penúltimo mes del año y detalló cómo será el calendario del lunes 9 al viernes 13 de noviembre",
+      "resumen": "La tensión entre la senadora y el Gobierno escaló a un punto de difícil retorno, pero la interna entró en una tregua obligada con la llegada del Papa.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/ICGFXVKLD5AMBGHSQZWSGG5NUU.png?auth=d4e3feff04abe24373a249744a049d560dc8940326b419e5b8939f30ec893fe8&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/AC3DMM62DJCZTAIYBRQNDS43YU.jpg?auth=d3a9b35d6a05906782cb832c7dac220da1959db2970e37cf6a4cd6911cbd8032&smart=true&width=1240&height=826",
+      "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
+      "rostros": {
+        "y0": 0.092,
+        "y1": 0.373
+      }
+    },
+    {
+      "id": "293407c4a6",
+      "seccion": "cordoba",
+      "rel": 19.8,
+      "relevancia": 19.8,
+      "fecha": "2026-11-08T19:25:59-03:00",
+      "hora": "19:25",
+      "titulo": "Llaryora participó del encuentro en el Palacio Libertad y celebró su llegada en las redes",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-encuentro-papa-redes/",
+      "acceso": "abierto",
+      "resumen": "El gobernador estuvo presente en el acto del Palacio Libertad, junto a Milei y dirigentes de todo el arco político. También publicó un mensaje de bienvenida en el que expresó la expectativa por la llegada del Pontífice a la provincia.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
       "rostros": null
     },
     {
@@ -334,60 +328,57 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/7X3WSNFZRBFJTCBLRCDK4KE7DE.JPG?auth=cc28b5a21ba36b3782a3e8655568d4bc58022c4098e38056c55562571974f4c1&smart=true&width=3000&height=1999",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.275,
         "y1": 0.502
       }
     },
     {
-      "id": "baa7ea7e34",
-      "seccion": "economia",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-11-08T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "El sistema le picó el boleto a Javier Milei",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/08/el-sistema-le-pico-el-boleto-a-javier-milei-2/",
-      "acceso": "suscripcion",
-      "resumen": "Los empresarios le piden a Caputo que devalúe y los sojeros bajaron 50 por ciento el ritmo de ventas en sólo una semana especulando con precios.",
+      "id": "b9d1565ccb",
+      "seccion": "cordoba",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-11-08T19:12:51-03:00",
+      "hora": "19:12",
+      "titulo": "Milei recordó a Francisco y lo definió como «el argentino más importante de la historia»",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/milei-recordo-a-francisco-ante-el-papa-y-lo-definio-como-el-argentino-mas-importante-de-la-historia/",
+      "acceso": "abierto",
+      "resumen": "En el encuentro con León XIV en el Palacio Libertad (ex CCK), el Presidente valoró la participación de dirigentes de distintos espacios. El Pontífice habla ahora por cadena nacional.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VGUXAGM4HBG6DK33ZJFXLSDY3I.jpg?auth=4b82193f5c46b005a09668d78aa33466ecd9a0e3e4e775505aa1cb0fd8a54b0e&smart=true&width=3962&height=2642",
-      "imagen_credito": "Página/12",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.105,
-        "y1": 0.405
-      }
+      "dia": 1,
+      "rostros": null
     },
     {
-      "id": "c77bcc7210",
-      "seccion": "economia",
-      "rel": 17.4,
-      "relevancia": 17.4,
-      "fecha": "2026-11-08T09:58:55-03:00",
-      "hora": "09:58",
-      "titulo": "Cuándo se cobra el aguinaldo de diciembre 2026 en la Argentina: fecha de pago y a quiénes les corresponde",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/cuando-se-cobra-el-aguinaldo-de-diciembre-2026-en-la-argentina-fecha-de-pago-y-a-quienes-les-nid02112026/",
-      "acceso": "suscripcion",
-      "resumen": "La legislación establece una fecha límite para abonar el SAC de la segunda mitad del año; a quiénes les corresponde y cómo se calcula este concepto",
+      "id": "4805ce4868",
+      "seccion": "cordoba",
+      "rel": 19.7,
+      "relevancia": 19.7,
+      "fecha": "2026-11-08T19:00:59-03:00",
+      "hora": "19:00",
+      "titulo": "León XIV recibió las llaves de Buenos Aires y se reúne con Milei en el Palacio Libertad",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/leon-xiv-papa-llaves-buenos-aires/",
+      "acceso": "abierto",
+      "resumen": "El jefe de Gobierno porteño, Jorge Macri, le entregó las llaves de la Ciudad al Pontífice durante su primera jornada en el país. Luego, el Papa participará de un encuentro institucional junto al Presidente, gobernadores y representantes de distintos sectores.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/GFMASHZ6YFB37LBNODMP53YNYM.jpg?auth=f037835c4a74ca27556b8a7b8866ef0e87daf0ddaed3aa5fb665d1c0c261112d&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
+      "imagen": null,
+      "imagen_credito": null,
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
       "id": "0375f3a815",
       "seccion": "economia",
-      "rel": 17.4,
-      "relevancia": 17.4,
-      "fecha": "2026-11-08T09:56:36-03:00",
-      "hora": "09:56",
+      "rel": 17.7,
+      "relevancia": 17.7,
+      "fecha": "2026-11-09T07:13:47-03:00",
+      "hora": "07:13",
       "titulo": "Calendario de jubilaciones de la Anses: cuándo cobro en noviembre 2026 con el bono oficial y el aumento confirmado",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/economia/calendario-de-jubilaciones-de-la-anses-cuando-cobro-en-noviembre-2026-con-el-bono-oficial-y-el-nid28102026/",
@@ -395,6 +386,25 @@
       "resumen": "Los haberes previsionales ya tienen establecido el cronograma de pagos para el penúltimo mes del año, cómo es la entrega diaria según el DNI",
       "impacto": null,
       "imagen": "https://resizer.glanacion.com/resizer/v2/ODXEEMRWL5C5PEXRG6ZIHEMFRA.jpg?auth=a8ceb49f629fad1a2053b626de569f377724d28a35cb000a0b2da5f011304867&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "c77bcc7210",
+      "seccion": "economia",
+      "rel": 17.7,
+      "relevancia": 17.7,
+      "fecha": "2026-11-09T07:13:18-03:00",
+      "hora": "07:13",
+      "titulo": "Cuándo se cobra el aguinaldo de diciembre 2026 en la Argentina: fecha de pago y a quiénes les corresponde",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/cuando-se-cobra-el-aguinaldo-de-diciembre-2026-en-la-argentina-fecha-de-pago-y-a-quienes-les-nid02112026/",
+      "acceso": "suscripcion",
+      "resumen": "La legislación establece una fecha límite para abonar el SAC de la segunda mitad del año; a quiénes les corresponde y cómo se calcula este concepto",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/GFMASHZ6YFB37LBNODMP53YNYM.jpg?auth=f037835c4a74ca27556b8a7b8866ef0e87daf0ddaed3aa5fb665d1c0c261112d&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
@@ -416,32 +426,10 @@
       "imagen": "https://www.infobae.com/resizer/v2/T4YYSVWUERG7LM6HFF3GQNOFII.png?auth=89aaf13c4aff30648069d0d47aa2eb29b325d7b7a9a11d9d426c6bceb2184837&smart=true&width=1920&height=1080",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.075,
         "y1": 0.32
-      }
-    },
-    {
-      "id": "db4b6545c5",
-      "seccion": "argentina",
-      "rel": 15.8,
-      "relevancia": 15.8,
-      "fecha": "2026-11-08T07:21:06-03:00",
-      "hora": "07:21",
-      "titulo": "¿Un giro hacia la moderación? Luego de la derrota de los aliados, expertos piden a Milei un replanteo de su política exterior",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/un-giro-hacia-la-moderacion-luego-de-la-derrota-de-los-aliados-expertos-piden-a-milei-un-replanteo-nid08112026/",
-      "acceso": "suscripcion",
-      "resumen": "Distintos referentes piden diálogo con presidentes y opositores de signo contrario par superar el “aislamiento”, y ampliar el abanico de aliados, hoy reducido a Estados Unidos e Israel",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/Z5SMKBQ4K5ARJBRIHZN3O3UXTM.jpg?auth=4fc0339dbf9e25fa49e7a760ce2140d2d0cac2e07df412e82c3c3318ac57ea63&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "y0": 0.116,
-        "y1": 0.423
       }
     },
     {
@@ -460,7 +448,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/TJKTEJ6ECZHQBKLKTRCESKTFTQ.jpg?auth=4d4c11e3e042000516aeeffaa86c168ec0513f7ba772f3790ab4d9a01bd65951&smart=true&width=1488&height=992",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "y0": 0.766,
         "y1": 0.985
@@ -469,10 +457,10 @@
     {
       "id": "73b7e39cf9",
       "seccion": "economia",
-      "rel": 13.4,
-      "relevancia": 13.4,
-      "fecha": "2026-11-08T09:56:00-03:00",
-      "hora": "09:56",
+      "rel": 13.7,
+      "relevancia": 13.7,
+      "fecha": "2026-11-09T07:13:27-03:00",
+      "hora": "07:13",
       "titulo": "Nueva paritaria de octubre a diciembre: cuánto cobran los empleados de comercio con el aumento confirmado",
       "fuente": "La Nación",
       "url": "https://www.lanacion.com.ar/economia/nueva-paritaria-de-octubre-a-diciembre-cuanto-cobran-los-empleados-de-comercio-con-el-aumento-nid28102026/",
@@ -486,25 +474,85 @@
       "rostros": null
     },
     {
-      "id": "6001d33992",
+      "id": "9dc2f7050e",
       "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": -478.1,
-      "fecha": "2026-11-07T07:45:07-03:00",
-      "hora": "07:45",
-      "titulo": "Los proyectos en el Congreso de Estados Unidos que podrían presionar sobre una eventual asistencia financiera de Trump a Milei",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/07/los-proyectos-en-el-congreso-de-estados-unidos-que-podrian-presionar-sobre-una-eventual-asistencia-financiera-de-trump-a-milei/",
-      "acceso": "abierto",
-      "resumen": "Legisladores demócratas mantienen iniciativas para bloquear o auditar el rescate de USD 20.000 millones que el Tesoro de Trump desplegó en favor de la Argentina. Las alertas de las cámaras empresarias",
+      "rel": 10.5,
+      "relevancia": 10.5,
+      "fecha": "2026-11-09T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "La oposición disfrutó del discurso de León XIV",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/09/la-oposicion-disfruto-del-discurso-de-leon-xiv/",
+      "acceso": "suscripcion",
+      "resumen": "El oficialismo optó por no hacer comentarios sobre los tópicos de discapacidad, universidad y trabajo que desarrolló el jefe de la Iglesia Católica.",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/HCQKVHXUG5CWXPU5EL4RNHMJHQ.JPG?auth=01efb46efbcb8336c35ac8f3c38c37c0a7f3980f99e8f620518d88630a63a4bf&smart=true&width=5500&height=3700",
-      "imagen_credito": "Infobae",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/7Q7HTW72DFHVFBVVVITUGER5VI.jpg?auth=54c8fb33c045243734ebace983d35aa7fb308b0af5107e059920e99ce86efbbc&smart=true&width=2057&height=1371",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "ea08214a54",
+      "seccion": "cordoba",
+      "rel": 7.7,
+      "relevancia": 7.7,
+      "fecha": "2026-11-08T18:48:19-03:00",
+      "hora": "18:48",
+      "titulo": "Villarruel tras el discurso de León XIV: “Sabe que no somos un país unido”",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/villarruel-tras-el-discurso-de-leon-xiv-sabe-que-no-somos-un-pais-unido/",
+      "acceso": "abierto",
+      "resumen": "La vicepresidenta aseguró que el Sumo Pontífice es consciente de la fractura política. Al retirarse del Palacio Libertad, lamentó la falta de consensos y apostó por acercar posiciones.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "6b637ed4b0",
+      "seccion": "argentina",
+      "rel": 21.8,
+      "relevancia": -478.2,
+      "fecha": "2026-11-08T07:24:30-03:00",
+      "hora": "07:24",
+      "titulo": "Bullrich lleva al límite la interna con Menem y Karina: incómodos y leales en LLA",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/bullrich-lleva-al-limite-la-interna-con-menem-y-karina-incomodos-y-leales-en-lla-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "La imagen de la jefa del bloque libertario en el Senado con 15 diputados desató la furia de la Casa Rosada; disputa por el control de los legisladores",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/Y24D3Q5YNFD23I4FLPVFEWB7CI.jpg?auth=2215c08c6f028d53b96c2d9671b22c3465b6dd373cbf58c4586210b4081eeab4&smart=true&width=1600&height=1200",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 1,
       "rostros": {
-        "y0": 0.142,
-        "y1": 0.432
+        "y0": 0.144,
+        "y1": 0.605
+      }
+    },
+    {
+      "id": "f545541771",
+      "seccion": "argentina",
+      "rel": 21.8,
+      "relevancia": -478.2,
+      "fecha": "2026-11-08T07:03:42-03:00",
+      "hora": "07:03",
+      "titulo": "Uno a uno, los puntos sensibles de la visita del Papa para el gobierno de Javier Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/uno-a-uno-los-puntos-sensibles-de-la-visita-del-papa-para-el-gobierno-de-javier-milei-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "La llegada del Papa al Cottolengo Don Orione es la parte más complicada de la gira para la Casa Rosada; se suman otras cuestiones, como la seguridad y la misa en Luján, donde predominará el peronismo",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/3YHWBVANXFFARK6CW4F3WVOTPQ.jpg?auth=4d981140ff581e34fd83768ea066bc9822a52f3a2c02a69a662eadf45dec85a0&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.354,
+        "y1": 0.848
       }
     },
     {
@@ -523,7 +571,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/GLTGCPBPYBDTJJGA7WY57GTJNM.jpg?auth=903944dca2eacb8ad3fb10d3c71bdfff87f216d14e5fc6b59b983548a8dbf95c&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.084,
         "y1": 0.571
@@ -545,7 +593,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/LCOB5YF26ZAHPPOGNGXO7HDHWE.jpg?auth=ed3c2e0cb5d50ff2ff09fc0814eafad0965deb2d090e3444b9e343ffde267b97&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
     },
     {
@@ -564,7 +612,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/KYZ57AMHO5CKVEX42GELMZXDZE.jpeg?auth=8064ee1982cbf8151283a7d7c52247be9302957f609ad6f5a045f8b5b38f7415&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.11,
         "y1": 0.388
@@ -586,74 +634,11 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/HB2H33ZW7FCRRKRT6CR32GXPOM.jpeg?auth=65db919b46a3d691a6213033f282dbf8f1a32440e77fe0127e8a32b64541fb0d&smart=true&width=1280&height=851",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.054,
         "y1": 0.959
       }
-    },
-    {
-      "id": "f740827f17",
-      "seccion": "argentina",
-      "rel": 20.6,
-      "relevancia": -479.4,
-      "fecha": "2026-11-07T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Elecciones 2027: Carlos Pagni analizó la apuesta electoral de Massa, el plan de Bullrich y la incógnita de Kicillof frente a Cristina",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/elecciones-2027-carlos-pagni-analizo-la-apuesta-electoral-de-massa-el-plan-de-bullrich-y-la-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "En un nuevo encuentro para LA NACION +cerca, José Del Rio conversó con el periodista sobre las estrategias de los posibles candidatos con miras a los próximos comicios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RKHMJELA25GJRO4JEJIBVZPNPY.jpg?auth=aae09a9e7fbc251a6574008ac2b01dd540dd7e353ad6c5a955c1860c58188017&smart=true&width=3000&height=2000",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.204,
-        "y1": 0.781
-      }
-    },
-    {
-      "id": "d5419a6dbc",
-      "seccion": "economia",
-      "rel": 20.1,
-      "relevancia": -479.9,
-      "fecha": "2026-11-06T21:16:13-03:00",
-      "hora": "21:16",
-      "titulo": "Cuidado con el cepo",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/07/cuidado-con-el-cepo/",
-      "acceso": "suscripcion",
-      "resumen": "Con Luis Caputo en el manejo de la economía en ambos gobiernos, Macri y Milei abrieron el cepo cambiario para generar confianza y atraer inversiones.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/OVYEFQIFJRADBBWOJAEY64LJ5Y.jpg?auth=9301d876d3fdda599818cffb36e4dbb708a1978bf4cdddf025c39eebc9d9da72&smart=true&width=1191&height=794",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 2,
-      "rostros": {
-        "y0": 0.071,
-        "y1": 0.62
-      }
-    },
-    {
-      "id": "3b57948f54",
-      "seccion": "cordoba",
-      "rel": 20.1,
-      "relevancia": -479.9,
-      "fecha": "2026-11-06T21:02:32-03:00",
-      "hora": "21:02",
-      "titulo": "El Gobierno cerrará 72 registros automotores en el país: cuáles son los 10 de Córdoba",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba-motor/el-gobierno-cerrara-72-registros-automotores-en-el-pais--cuales-son-los-10-de-cordoba_a6aee6448566f8a6f7fccdda5",
-      "acceso": "abierto",
-      "resumen": "La medida fue oficializada por el Ministerio de Justicia y contempla un plazo de 60 días hábiles para completar el proceso. En Córdoba, alcanza a dependencias de diez localidades.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6aee6498566f8a6f7fcce276/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 2,
-      "rostros": null
     },
     {
       "id": "cb48c8518c",
@@ -671,8 +656,30 @@
       "imagen": "https://www.infobae.com/resizer/v2/IHZTISW3WNGA5JF3J5JNSXOQQQ.JPG?auth=1193a32f6bf142c2859567ebb516f48c010d0732bd7f4157581d76799883be00&smart=true&width=5436&height=3583",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": null
+    },
+    {
+      "id": "baa7ea7e34",
+      "seccion": "economia",
+      "rel": 19.8,
+      "relevancia": -480.2,
+      "fecha": "2026-11-08T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "El sistema le picó el boleto a Javier Milei",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/08/el-sistema-le-pico-el-boleto-a-javier-milei-2/",
+      "acceso": "suscripcion",
+      "resumen": "Los empresarios le piden a Caputo que devalúe y los sojeros bajaron 50 por ciento el ritmo de ventas en sólo una semana especulando con precios.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/VGUXAGM4HBG6DK33ZJFXLSDY3I.jpg?auth=4b82193f5c46b005a09668d78aa33466ecd9a0e3e4e775505aa1cb0fd8a54b0e&smart=true&width=3962&height=2642",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.105,
+        "y1": 0.405
+      }
     },
     {
       "id": "498a61acad",
@@ -690,10 +697,32 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6aef2afab72c2cb048508a3b/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
+      "dia": 2,
       "rostros": {
         "y0": 0.0,
         "y1": 0.51
+      }
+    },
+    {
+      "id": "db4b6545c5",
+      "seccion": "argentina",
+      "rel": 15.8,
+      "relevancia": -484.2,
+      "fecha": "2026-11-08T07:21:06-03:00",
+      "hora": "07:21",
+      "titulo": "¿Un giro hacia la moderación? Luego de la derrota de los aliados, expertos piden a Milei un replanteo de su política exterior",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/un-giro-hacia-la-moderacion-luego-de-la-derrota-de-los-aliados-expertos-piden-a-milei-un-replanteo-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "Distintos referentes piden diálogo con presidentes y opositores de signo contrario par superar el “aislamiento”, y ampliar el abanico de aliados, hoy reducido a Estados Unidos e Israel",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/Z5SMKBQ4K5ARJBRIHZN3O3UXTM.jpg?auth=4fc0339dbf9e25fa49e7a760ce2140d2d0cac2e07df412e82c3c3318ac57ea63&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.116,
+        "y1": 0.423
       }
     }
   ],

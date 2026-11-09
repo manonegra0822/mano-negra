@@ -1,59 +1,47 @@
 {
-  "actualizado": "2026-11-08T20:28:08-03:00",
+  "actualizado": "2026-11-09T08:48:24-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 97,
           "ejemplos": [
-            "EN VIVO | Clima CDMX y resto de México hoy domingo 8 de noviembre: activan alert",
-            "Álvaro Uribe busca eliminar dos impuestos: uno fue culpable de que Falcao no sig",
-            "EN VIVO| Seguridad, narcotráfico y crimen en México hoy 8 de noviembre: Harfuch "
+            "La visita del papa León XIV a la Argentina, en vivo: cientos de fieles esperan l",
+            "¿Nueva llovizna en Lima? El Senamhi revela su pronóstico para hoy, lunes 9 de no",
+            "La emotiva despedida de Arturo Pérez-Reverte a su perro Sherlock: “El mundo será"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "El discurso completo del papa León XIV en el Palaco Libertad: “La corrupción ero"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El mensaje del papa León XIV en el Palacio Libertad: habló de corrupción, rechaz"
+            "Mapa de la minería: a qué países van el oro, la plata y el litio que produce la ",
+            "“El Papa León XIV conoció de primera mano las inquietudes de Francisco y las tra"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 97,
+      "leidas": 95,
       "aceptadas": 7,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 12,
-          "ejemplos": [
-            "Las palabras de León XIV: un pacificador, pero sin concesiones",
-            "El Papa en el Palacio Libertad: un mensaje ante todo el arco político, en el que",
-            "El Papa pidió “reconocer al que piensa distinto” y abogó por “el cuidado de la p"
-          ]
-        },
         "sección no permitida": {
-          "cantidad": 76,
+          "cantidad": 75,
           "ejemplos": [
-            "La boda de Pepito Cibrián y Ana María Cores: el matrimonio que sacudió al espect",
-            "Papa León XIV en la Argentina, EN VIVO: el arribo al país, la agenda del domingo",
-            "Así se vivió entre los fieles la visita de León XIV a la plaza San Martín"
+            "Confirman fallo a favor de Mamdani por el impuesto a viviendas de lujo en Nueva ",
+            "Esperan hasta 2 millones de personas en la misa del Papa, quien al llegar al paí",
+            "Papa León XIV en la Argentina, EN VIVO: la misa en Buenos Aires, la agenda del d"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 2,
+        "titular sin tema de política/economía": {
+          "cantidad": 13,
           "ejemplos": [
-            "El discurso completo de León XIV en el Palacio Libertad: un mensaje de fuerte co",
-            "Senado: Patricia Bullrich dice que no hay ruptura a la vista, pero sus desafíos "
+            "Gonzalo Goñi, sobre un desarrollo argentino innovador: “Esto me va a decir cuánt",
+            "Las palabras de León XIV: un pacificador, pero sin concesiones",
+            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de n"
           ]
         }
       }
@@ -89,14 +77,15 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
+      "leidas": 6,
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 4,
           "ejemplos": [
-            "Carta al Papa León XIV",
-            "El discurso completo del papa León XIV en el CCK"
+            "El papa León XIV en Argentina: agenda, la visita al Cottolengo de Don Orione y s",
+            "León XIV defendió a los jubilados, a las personas con discapacidad y a las unive",
+            "Esto recién empieza"
           ]
         }
       }
@@ -109,9 +98,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 11,
           "ejemplos": [
-            "Allanaron la casa de Mauro Icardi en Nordelta por la causa de lesiones",
-            "Cinco monjas volcaron cuando viajaban a Luján para ver al Papa",
-            "Sur Finanzas, bajo la lupa por presuntos intentos de borrar pruebas"
+            "La UEPC distinguió al papa León XIV como afiliado de honor",
+            "Allanaron la mansión del expresidente Peña en Paraguay y descubrieron una bóveda",
+            "Este lunes al mediodía comienzan los cortes de calles y rutas en Córdoba"
           ]
         },
         "otro país": {
@@ -131,23 +120,17 @@
         "titular sin tema de política/economía": {
           "cantidad": 8,
           "ejemplos": [
+            "El papa León XIV reclamó cuidar la democracia, límites al poder y “convivir en l",
             "Un terremoto de magnitud 5,7 sacudió Japón y dejó al menos 23 heridos",
-            "Visita histórica: el Papa León XIV inicia su gira por Argentina",
-            "Fuerte mensaje del papa León XIV contra la exclusión social en su recorrida por "
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Congreso paraguayo destituyó a Santiago Peña y la Fiscalía ordena su detenció"
+            "Visita histórica: el Papa León XIV inicia su gira por Argentina"
           ]
         },
         "muy vieja": {
-          "cantidad": 69,
+          "cantidad": 70,
           "ejemplos": [
-            "Lorenzatti presentó el proyecto de Presupuesto 2027: déficit cero e incremento d",
-            "Córdoba compensará deudas con Nación por casi $143 mil millones y mantendrá sus ",
-            "El riesgo país cede a 895 puntos"
+            "El papa León XIV inició en Uruguay su primera gira por América Latina",
+            "El Congreso paraguayo destituyó a Santiago Peña y la Fiscalía ordena su detenció",
+            "Lorenzatti presentó el proyecto de Presupuesto 2027: déficit cero e incremento d"
           ]
         }
       }
@@ -160,9 +143,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "José Hernández, Borges y Gardel: los guiños del Papa León XIV a la identidad y l",
-            "El Papa inició la segunda etapa de su viaje por América Latina",
-            "León XIV llegó a Buenos Aires para su histórica visita a la Argentina"
+            "La Córdoba cotidiana, bajo la mirada del Gato Ludueña",
+            "La nueva Isuzu D-Max llega a Argentina para desafiar a la Hilux",
+            "Una maratón de lectura para recorrer “El juguete rabioso”, de Roberto Arlt"
           ]
         }
       }
