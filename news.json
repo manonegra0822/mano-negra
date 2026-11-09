@@ -1,60 +1,32 @@
 {
-  "actualizado": "2026-11-09T13:56:19-03:00",
+  "actualizado": "2026-11-09T20:31:50-03:00",
   "notas": [
     {
-      "id": "0b79752fea",
-      "seccion": "argentina",
-      "rel": 69.9,
-      "relevancia": 69.9,
-      "fecha": "2026-11-08T18:07:46-03:00",
-      "hora": "18:07",
-      "titulo": "Milei recibió al Papa en la Casa Rosada: una foto en un minuto y los detalles de la presentación de los ministros",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/milei-recibio-al-papa-en-la-casa-rosada-una-foto-en-un-minuto-y-presentacion-de-los-ministros-nid08112026/",
-      "acceso": "suscripcion",
-      "resumen": "El Presidente hizo el saludo formal en el Salón Blanco; después hubo una reunión bilateral “de cortesía”, en la que también participó Karina Milei",
+      "id": "596f544d96",
+      "seccion": "cordoba",
+      "rel": 33.3,
+      "relevancia": 33.3,
+      "fecha": "2026-11-09T16:30:09-03:00",
+      "hora": "16:30",
+      "titulo": "Villarruel confirmó que no fue invitada a la misa del Papa y le pegó al Milei desde las redes",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/villarruel-confirmo-que-no-fue-invitada-a-la-misa-del-papa-y-le-pego-al-milei-desde-las-redes/",
+      "acceso": "abierto",
+      "resumen": "La Vicepresidenta volvió a tomar distancia del jefe de Estado a reivindicar el concepto de Justicia social y citar el discurso del Sumo Pontífice sobre la discapacidad.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/DXXCIM4JRRD4ZELSYGXDHE6D3U.JPG?auth=470c771bfacc454a0e7af075c238c777b6db0b16a671dea5e49da69a629043d1&smart=true&width=3000&height=2000",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/3R4ISJTAP5DSBF7SC6QHC4GQJQ.JPG?auth=b90bbc5e8bacd0209474d5cde3ae37723fb9ff2aa065210bebe0e970442006a7&smart=true&width=1280&height=853",
       "imagen_credito": "La Nación",
       "otros": [
         {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "El Papa y Milei se encontraron en Casa Rosada antes de su reunión privada",
-          "url": "https://hoydia.com.ar/politica/nacional/papa-milei-casa-rosada/"
+          "fuente": "La Nación",
+          "titulo": "Tras la misa del Papa, Victoria Villarruel volvió a diferenciarse de Milei y exaltó la “justicia social”",
+          "url": "https://www.lanacion.com.ar/politica/tras-la-misa-del-papa-victoria-villarruel-volvio-a-diferenciarse-de-milei-y-exalto-la-justicia-nid09112026/"
         }
       ],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.03,
-        "y1": 0.33
-      }
-    },
-    {
-      "id": "1b67c691a7",
-      "seccion": "cordoba",
-      "rel": 30.5,
-      "relevancia": 30.5,
-      "fecha": "2026-11-08T17:08:34-03:00",
-      "hora": "17:08",
-      "titulo": "El Papa llegó a Buenos Aires: León XIV pisó suelo argentino y fue recibido por el presidente Milei",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/el-papa-en-argentina/el-papa-llego-a-buenos-aires-leon-xiv-piso-suelo-argentino-y-fue-recibido-por-el-presidente-milei/",
-      "acceso": "abierto",
-      "resumen": "A las 16:33, el Papa León XIV aterrizó en el Aeroparque Jorge Newbery, proveniente de Montevideo, Uruguay. A bordo de un avión de Aerolíneas Argentinas, el Santo Padre llegó junto a su comitiva para iniciar una histórica visita. Tras descender al territorio argentino con un avión de Aerolíneas Argentinas, el papa León XIV salió de […]",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6af100812aec752ba0ca1238/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Cba24n",
-          "titulo": "Papa León XIV en Buenos Aires “La economía debe estar al servicio de la persona”",
-          "url": "https://www.cba24n.com.ar/argentina/papa-leon-xiv-en-buenos-aires--la-economia-debe-estar-al-servicio-de-la-persona-_a6af0fde12aec752ba0c9fc47"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.096,
-        "y1": 0.442
+        "y0": 0.064,
+        "y1": 0.511
       }
     },
     {
@@ -80,6 +52,25 @@
       }
     },
     {
+      "id": "413225b530",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-09T19:13:45-03:00",
+      "hora": "19:13",
+      "titulo": "Un recargo heredado del kirchnerismo: el dólar tarjeta ya supera los $2000",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/un-recargo-heredado-del-kirchnerismo-el-dolar-tarjeta-ya-supera-los-2000-nid09112026/",
+      "acceso": "suscripcion",
+      "resumen": "Aunque el Gobierno eliminó el impuesto PAIS y levantó el cepo para los ahorristas, se mantiene la percepción del 30% a cuenta de Ganancias para los gastos en el exterior",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/5PHC3CUUHVEDRGCN57FVYRK7OY.JPG?auth=78c48ea9106ba89ddc212de62063df76072d6fbd5be31f8f7788fa7cf9c97223&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "8430e6bdb0",
       "seccion": "economia",
       "rel": 21.8,
@@ -97,6 +88,50 @@
       "otros": [],
       "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "b349b5ad0f",
+      "seccion": "economia",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-11-09T18:49:39-03:00",
+      "hora": "18:49",
+      "titulo": "¿El Papa León, el Círculo Rojo y el ajuste de Milei son lo mismo?",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/09/el-papa-leon-el-circulo-rojo-y-el-ajuste-de-milei-son-lo-mismo/",
+      "acceso": "suscripcion",
+      "resumen": "El Grupo de los Seis, la UIA y la Cámara de Comercio pidieron un acuerdo intersectorial basado en el mensaje de la Iglesia ¿Esa postura es sincera?",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/EF72CSFV4JDN5DCB27IOQLCG4Y.jpg?auth=67df778b5ad4567c8906f72b03a1ad78d29bb587e83867c49bff81a8e7826ebc&smart=true&width=1488&height=992",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.146,
+        "y1": 0.476
+      }
+    },
+    {
+      "id": "ca6b9026f8",
+      "seccion": "cordoba",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-11-09T18:45:09-03:00",
+      "hora": "18:45",
+      "titulo": "Los medios internacionales destacaron las «críticas» del Papa al Gobierno de Milei",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/los-medios-internacionales-destacaron-las-criticas-del-papa-al-gobierno-de-milei/",
+      "acceso": "abierto",
+      "resumen": "Prestigiosos medios de Estados Unidos y Europa se refirieron a los cuestionamientos por las políticas de recortes y también al instar al “uso cuidadoso de las palabras”.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Los-medios-internacionales-destacaron-las-22criticas22-del-Papa-al-Gobierno-de-Milei.avif",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.0,
+        "y1": 0.386
+      }
     },
     {
       "id": "0877e211fb",
@@ -140,26 +175,23 @@
       "rostros": null
     },
     {
-      "id": "9fbda67d9f",
-      "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-11-08T17:39:24-03:00",
-      "hora": "17:39",
-      "titulo": "León XIV homenajeó al general José de San Martín antes de reunirse con Milei",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/hoypais/leon-xiv-papa-homenaje-san-martin/",
-      "acceso": "abierto",
-      "resumen": "Tras realizar una ofrenda floral en homenaje al Libertador, el Pontífice se trasladó hacia la sede del Gobierno nacional. Allí tendrá una ceremonia de bienvenida y un encuentro con el Presidente.",
+      "id": "be9fb23c63",
+      "seccion": "economia",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-11-09T18:06:05-03:00",
+      "hora": "18:06",
+      "titulo": "Alivio en el exterior: el riesgo país perforó los 900 puntos y las acciones argentinas rebotaron 4% en Wall Street",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/alivio-en-el-exterior-el-riesgo-pais-perfora-los-900-puntos-y-las-acciones-argentinas-rebotan-3-en-nid09112026/",
+      "acceso": "suscripcion",
+      "resumen": "En una jornada sin operaciones en la Bolsa porteña por el feriado nacional, los ADR acompañaron la recuperación de los índices de EE.UU.; el indicador del JP Morgan retrocedió hasta los 872 puntos",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Leon-XIV-llego-a-Plaza-San-Martin-y-homenajeo-al-procer-antes-de-reunirse-con-Milei-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/E6PNZYSWKNCSRKE22TMGELQBLM.jpg?auth=4c9907139e53e2786dc4b0600409c359dc9216a1a5dce3a6bb672948176021b4&smart=true&width=5410&height=3607",
+      "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.103,
-        "y1": 0.312
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "93ec1bdbe2",
@@ -247,85 +279,6 @@
       }
     },
     {
-      "id": "293407c4a6",
-      "seccion": "cordoba",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-11-08T19:25:59-03:00",
-      "hora": "19:25",
-      "titulo": "Llaryora participó del encuentro en el Palacio Libertad y celebró su llegada en las redes",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-encuentro-papa-redes/",
-      "acceso": "abierto",
-      "resumen": "El gobernador estuvo presente en el acto del Palacio Libertad, junto a Milei y dirigentes de todo el arco político. También publicó un mensaje de bienvenida en el que expresó la expectativa por la llegada del Pontífice a la provincia.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Llaryora-participo-del-encuentro-en-el-Palacio-Libertad-y-celebro-su-llegada-en-las-redes-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "c70023c159",
-      "seccion": "argentina",
-      "rel": 19.8,
-      "relevancia": 19.8,
-      "fecha": "2026-11-08T19:06:30-03:00",
-      "hora": "19:06",
-      "titulo": "Jorge Macri le entregó las llaves de la ciudad de Buenos Aires al papa León XIV",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/jorge-macri-le-entrego-las-llaves-de-la-ciudad-de-buenos-aires-al-papa-leon-xiv-nid08112026/",
-      "acceso": "suscripcion",
-      "resumen": "El jefe de gobierno porteño recibió al Sumo Pontífice junto a su esposa, su hijo y parte del gabinete",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/7X3WSNFZRBFJTCBLRCDK4KE7DE.JPG?auth=cc28b5a21ba36b3782a3e8655568d4bc58022c4098e38056c55562571974f4c1&smart=true&width=3000&height=1999",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.275,
-        "y1": 0.502
-      }
-    },
-    {
-      "id": "b9d1565ccb",
-      "seccion": "cordoba",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-11-08T19:12:51-03:00",
-      "hora": "19:12",
-      "titulo": "Milei recordó a Francisco y lo definió como «el argentino más importante de la historia»",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-recordo-a-francisco-ante-el-papa-y-lo-definio-como-el-argentino-mas-importante-de-la-historia/",
-      "acceso": "abierto",
-      "resumen": "En el encuentro con León XIV en el Palacio Libertad (ex CCK), el Presidente valoró la participación de dirigentes de distintos espacios. El Pontífice habla ahora por cadena nacional.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "4805ce4868",
-      "seccion": "cordoba",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-11-08T19:00:59-03:00",
-      "hora": "19:00",
-      "titulo": "León XIV recibió las llaves de Buenos Aires y se reúne con Milei en el Palacio Libertad",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/leon-xiv-papa-llaves-buenos-aires/",
-      "acceso": "abierto",
-      "resumen": "El jefe de Gobierno porteño, Jorge Macri, le entregó las llaves de la Ciudad al Pontífice durante su primera jornada en el país. Luego, el Papa participará de un encuentro institucional junto al Presidente, gobernadores y representantes de distintos sectores.",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "3ac2b72558",
       "seccion": "argentina",
       "rel": 19.5,
@@ -370,26 +323,23 @@
       "rostros": null
     },
     {
-      "id": "6307d10ae2",
-      "seccion": "cordoba",
-      "rel": 18.9,
-      "relevancia": 18.9,
-      "fecha": "2026-11-08T19:17:42-03:00",
-      "hora": "19:17",
-      "titulo": "Tras la reunión con Milei el Papa fue agasajado por Macri",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/tras-la-reunion-con-milei-el-papa-fue-agasajado-por-macri_a6af0e7612aec752ba0c95880",
-      "acceso": "abierto",
-      "resumen": "Con el Presidente estuvo en Casa Rosada mientras que con el Jefe de Gobierno porteño compartió un momento en las afueras del edificio. Luego el Papa y el Presidente compartieron el uso de la palabra en el Palacio Libertad.",
+      "id": "1500f9fc1b",
+      "seccion": "argentina",
+      "rel": 17.8,
+      "relevancia": 17.8,
+      "fecha": "2026-11-09T19:22:01-03:00",
+      "hora": "19:22",
+      "titulo": "El Gobierno salió a desmentir a Villarruel por la invitación a la misa del Papa en Palermo",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/el-gobierno-salio-a-desmentir-a-villarruel-por-la-invitacion-a-la-misa-del-papa-en-palermo-nid09112026/",
+      "acceso": "suscripcion",
+      "resumen": "La vicepresidenta dijo que no le mandaron el QR para ingresar a la celebración en el Monumento de los españoles; la Casa Rosada exhibió un correo electrónico con la convocatoria",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6af0efd42aec752ba0c99736/720.jpeg",
-      "imagen_credito": "Cba24n",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/GQ5NOKMG5ZERRJN2NOKMOSZGIQ.jpg?auth=d240909eb26916db8872f5048ac0b96318644e531b6a24bde3ea7a334198e72b&smart=true&width=3000&height=1996",
+      "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.37,
-        "y1": 0.873
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "0375f3a815",
@@ -449,25 +399,25 @@
       "rostros": null
     },
     {
-      "id": "7789b67fe0",
-      "seccion": "economia",
-      "rel": 15.7,
-      "relevancia": 15.7,
-      "fecha": "2026-11-08T18:57:26-03:00",
-      "hora": "18:57",
-      "titulo": "Radiografía económica ante la visita del Papa",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/08/radiografia-economica-ante-la-visita-del-papa/",
+      "id": "8288d297d9",
+      "seccion": "argentina",
+      "rel": 15.6,
+      "relevancia": 15.6,
+      "fecha": "2026-11-09T18:12:40-03:00",
+      "hora": "18:12",
+      "titulo": "Un mes después de haber sido agraviado por Milei, Fernando Bravo leyó un pasaje en la misa de León XIV en Palermo",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/un-mes-despues-de-haber-sido-agraviado-por-milei-fernando-bravo-leyo-un-pasaje-en-la-misa-de-leon-nid09112026/",
       "acceso": "suscripcion",
-      "resumen": "Las políticas de ajuste de Milei no tienen en el centro al trabajo y a las personas, como predica León XIV. Por el contrario, destruyen industrias y empleos, y favorecen la concentración de la riqueza.",
+      "resumen": "El pasado mes de octubre, el periodista había cuestionado las descalificaciones del Presidente contra distintos referentes de la prensa; durante la ceremonia religiosa, recitó la profecía de Ezequiel",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/TJKTEJ6ECZHQBKLKTRCESKTFTQ.jpg?auth=4d4c11e3e042000516aeeffaa86c168ec0513f7ba772f3790ab4d9a01bd65951&smart=true&width=1488&height=992",
-      "imagen_credito": "Página/12",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/DP3IPVRLCFE5DBGDDZTZH5FWSQ.jpg?auth=38b4d3c1f0b451cebbbb0b5b63212fd7ca59656ae5c810554f6862bb20b6334e&smart=true&width=1200&height=800",
+      "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": {
-        "y0": 0.766,
-        "y1": 0.985
+        "y0": 0.107,
+        "y1": 0.433
       }
     },
     {
@@ -509,23 +459,65 @@
       "rostros": null
     },
     {
-      "id": "ea08214a54",
-      "seccion": "cordoba",
-      "rel": 7.7,
-      "relevancia": 7.7,
-      "fecha": "2026-11-08T18:48:19-03:00",
-      "hora": "18:48",
-      "titulo": "Villarruel tras el discurso de León XIV: “Sabe que no somos un país unido”",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/villarruel-tras-el-discurso-de-leon-xiv-sabe-que-no-somos-un-pais-unido/",
-      "acceso": "abierto",
-      "resumen": "La vicepresidenta aseguró que el Sumo Pontífice es consciente de la fractura política. Al retirarse del Palacio Libertad, lamentó la falta de consensos y apostó por acercar posiciones.",
+      "id": "0b79752fea",
+      "seccion": "argentina",
+      "rel": 69.9,
+      "relevancia": -430.1,
+      "fecha": "2026-11-08T18:07:46-03:00",
+      "hora": "18:07",
+      "titulo": "Milei recibió al Papa en la Casa Rosada: una foto en un minuto y los detalles de la presentación de los ministros",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-recibio-al-papa-en-la-casa-rosada-una-foto-en-un-minuto-y-presentacion-de-los-ministros-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente hizo el saludo formal en el Salón Blanco; después hubo una reunión bilateral “de cortesía”, en la que también participó Karina Milei",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
+      "imagen": "https://resizer.glanacion.com/resizer/v2/DXXCIM4JRRD4ZELSYGXDHE6D3U.JPG?auth=470c771bfacc454a0e7af075c238c777b6db0b16a671dea5e49da69a629043d1&smart=true&width=3000&height=2000",
+      "imagen_credito": "La Nación",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "El Papa y Milei se encontraron en Casa Rosada antes de su reunión privada",
+          "url": "https://hoydia.com.ar/politica/nacional/papa-milei-casa-rosada/"
+        }
+      ],
       "dia": 1,
-      "rostros": null
+      "rostros": {
+        "y0": 0.03,
+        "y1": 0.33
+      }
+    },
+    {
+      "id": "1b67c691a7",
+      "seccion": "cordoba",
+      "rel": 41.4,
+      "relevancia": -458.6,
+      "fecha": "2026-11-08T17:08:34-03:00",
+      "hora": "17:08",
+      "titulo": "El Papa llegó a Buenos Aires: León XIV pisó suelo argentino y fue recibido por el presidente Milei",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/el-papa-en-argentina/el-papa-llego-a-buenos-aires-leon-xiv-piso-suelo-argentino-y-fue-recibido-por-el-presidente-milei/",
+      "acceso": "abierto",
+      "resumen": "A las 16:33, el Papa León XIV aterrizó en el Aeroparque Jorge Newbery, proveniente de Montevideo, Uruguay. A bordo de un avión de Aerolíneas Argentinas, el Santo Padre llegó junto a su comitiva para iniciar una histórica visita. Tras descender al territorio argentino con un avión de Aerolíneas Argentinas, el papa León XIV salió de […]",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6af100812aec752ba0ca1238/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Cba24n",
+          "titulo": "Papa León XIV en Buenos Aires “La economía debe estar al servicio de la persona”",
+          "url": "https://www.cba24n.com.ar/argentina/papa-leon-xiv-en-buenos-aires--la-economia-debe-estar-al-servicio-de-la-persona-_a6af0fde12aec752ba0c9fc47"
+        },
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "El Papa reivindicó al trabajo digno en la UCA y dijo que la “economía debe estar al servicio de las personas»",
+          "url": "https://hoydia.com.ar/politica/nacional/el-papa-reivindico-al-trabajo-en-la-uca-y-dijo-que-la-economia-debe-estar-al-servicio-de-las-personas/"
+        }
+      ],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.096,
+        "y1": 0.442
+      }
     },
     {
       "id": "d65279f015",
@@ -591,28 +583,6 @@
       }
     },
     {
-      "id": "f061924efd",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": -478.2,
-      "fecha": "2026-11-07T19:21:24-03:00",
-      "hora": "19:21",
-      "titulo": "Los aumentos en las tarifas eléctricas bonaerenses alimentan la tensión entre Kicillof y La Cámpora",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/los-aumentos-en-las-tarifas-electricas-bonaerenses-alimentan-la-tension-entre-kicillof-y-la-campora-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "El defensor del Pueblo pidió una medida cautelar para frenar una resolución que aprobó nuevos valores: la organización que responde a Máximo Kirchner apoya el reclamo",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/GLTGCPBPYBDTJJGA7WY57GTJNM.jpg?auth=903944dca2eacb8ad3fb10d3c71bdfff87f216d14e5fc6b59b983548a8dbf95c&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 2,
-      "rostros": {
-        "y0": 0.084,
-        "y1": 0.571
-      }
-    },
-    {
       "id": "66743c5afd",
       "seccion": "economia",
       "rel": 21.6,
@@ -635,51 +605,67 @@
       }
     },
     {
-      "id": "77b1711420",
+      "id": "9fbda67d9f",
       "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": -478.7,
-      "fecha": "2026-11-07T16:08:10-03:00",
-      "hora": "16:08",
-      "titulo": "La visita del papa León XIV podría movilizar más de 3 millones de turistas nacionales e internacionales",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/la-visita-del-papa-leon-xiv-podria-movilizar-mas-de-3-millones-de-turistas-nacionales-e-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "La Cámara Argentina de Turismo anticipa un importante movimiento de viajeros nacionales e internacionales; Buenos Aires, Luján y Córdoba concentran las mayores expectativas de convocatoria y ocupación hotelera",
+      "rel": 21.5,
+      "relevancia": -478.5,
+      "fecha": "2026-11-08T17:39:24-03:00",
+      "hora": "17:39",
+      "titulo": "León XIV homenajeó al general José de San Martín antes de reunirse con Milei",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/hoypais/leon-xiv-papa-homenaje-san-martin/",
+      "acceso": "abierto",
+      "resumen": "Tras realizar una ofrenda floral en homenaje al Libertador, el Pontífice se trasladó hacia la sede del Gobierno nacional. Allí tendrá una ceremonia de bienvenida y un encuentro con el Presidente.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/HB2H33ZW7FCRRKRT6CR32GXPOM.jpeg?auth=65db919b46a3d691a6213033f282dbf8f1a32440e77fe0127e8a32b64541fb0d&smart=true&width=1280&height=851",
-      "imagen_credito": "La Nación",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Leon-XIV-llego-a-Plaza-San-Martin-y-homenajeo-al-procer-antes-de-reunirse-con-Milei-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 2,
+      "dia": 1,
       "rostros": {
-        "y0": 0.054,
-        "y1": 0.959
+        "y0": 0.103,
+        "y1": 0.312
       }
     },
     {
-      "id": "13d655876b",
-      "seccion": "economia",
+      "id": "293407c4a6",
+      "seccion": "cordoba",
       "rel": 19.8,
       "relevancia": -480.2,
-      "fecha": "2026-11-08T12:42:03-03:00",
-      "hora": "12:42",
-      "titulo": "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la caída con un leve repunte mensual",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/ventas-minoristas-pymes-cayeron-16-interanual-en-octubre-pero-frenaron-la-caida-con-un-leve-repunte-mensual/",
+      "fecha": "2026-11-08T19:25:59-03:00",
+      "hora": "19:25",
+      "titulo": "Llaryora participó del encuentro en el Palacio Libertad y celebró su llegada en las redes",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/cordoba/llaryora-encuentro-papa-redes/",
       "acceso": "abierto",
-      "resumen": "Los comercios de cercanía exhibieron una dinámica dual marcada por restricciones en los ingresos familiares y compras focalizadas en productos esenciales de menor valor Las ventas minoristas de las pymes cayeron 1,6% interanual, pero mejoraron 0,3% mensual en octubre, acumulando una caída del 2% en lo que va del año, de acuerdo con un relevamiento […]",
+      "resumen": "El gobernador estuvo presente en el acto del Palacio Libertad, junto a Milei y dirigentes de todo el arco político. También publicó un mensaje de bienvenida en el que expresó la expectativa por la llegada del Pontífice a la provincia.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Las ventas minoristas pyme cayeron 1,6% interanual en octubre",
-          "url": "https://hoydia.com.ar/economia/ventas-minoristas-pyme-octubre/"
-        }
-      ],
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Llaryora-participo-del-encuentro-en-el-Palacio-Libertad-y-celebro-su-llegada-en-las-redes-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
       "dia": 1,
       "rostros": null
+    },
+    {
+      "id": "c70023c159",
+      "seccion": "argentina",
+      "rel": 19.8,
+      "relevancia": -480.2,
+      "fecha": "2026-11-08T19:06:30-03:00",
+      "hora": "19:06",
+      "titulo": "Jorge Macri le entregó las llaves de la ciudad de Buenos Aires al papa León XIV",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/jorge-macri-le-entrego-las-llaves-de-la-ciudad-de-buenos-aires-al-papa-leon-xiv-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "El jefe de gobierno porteño recibió al Sumo Pontífice junto a su esposa, su hijo y parte del gabinete",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/7X3WSNFZRBFJTCBLRCDK4KE7DE.JPG?auth=cc28b5a21ba36b3782a3e8655568d4bc58022c4098e38056c55562571974f4c1&smart=true&width=3000&height=1999",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.275,
+        "y1": 0.502
+      }
     },
     {
       "id": "baa7ea7e34",
@@ -704,6 +690,66 @@
       }
     },
     {
+      "id": "b9d1565ccb",
+      "seccion": "cordoba",
+      "rel": 19.7,
+      "relevancia": -480.3,
+      "fecha": "2026-11-08T19:12:51-03:00",
+      "hora": "19:12",
+      "titulo": "Milei recordó a Francisco y lo definió como «el argentino más importante de la historia»",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/milei-recordo-a-francisco-ante-el-papa-y-lo-definio-como-el-argentino-mas-importante-de-la-historia/",
+      "acceso": "abierto",
+      "resumen": "En el encuentro con León XIV en el Palacio Libertad (ex CCK), el Presidente valoró la participación de dirigentes de distintos espacios. El Pontífice habla ahora por cadena nacional.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "4805ce4868",
+      "seccion": "cordoba",
+      "rel": 19.7,
+      "relevancia": -480.3,
+      "fecha": "2026-11-08T19:00:59-03:00",
+      "hora": "19:00",
+      "titulo": "León XIV recibió las llaves de Buenos Aires y se reúne con Milei en el Palacio Libertad",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/leon-xiv-papa-llaves-buenos-aires/",
+      "acceso": "abierto",
+      "resumen": "El jefe de Gobierno porteño, Jorge Macri, le entregó las llaves de la Ciudad al Pontífice durante su primera jornada en el país. Luego, el Papa participará de un encuentro institucional junto al Presidente, gobernadores y representantes de distintos sectores.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "6307d10ae2",
+      "seccion": "cordoba",
+      "rel": 17.8,
+      "relevancia": -482.2,
+      "fecha": "2026-11-08T19:17:42-03:00",
+      "hora": "19:17",
+      "titulo": "Tras la reunión con Milei el Papa fue agasajado por Macri",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/tras-la-reunion-con-milei-el-papa-fue-agasajado-por-macri_a6af0e7612aec752ba0c95880",
+      "acceso": "abierto",
+      "resumen": "Con el Presidente estuvo en Casa Rosada mientras que con el Jefe de Gobierno porteño compartió un momento en las afueras del edificio. Luego el Papa y el Presidente compartieron el uso de la palabra en el Palacio Libertad.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6af0efd42aec752ba0c99736/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.37,
+        "y1": 0.873
+      }
+    },
+    {
       "id": "db4b6545c5",
       "seccion": "argentina",
       "rel": 15.8,
@@ -724,6 +770,66 @@
         "y0": 0.116,
         "y1": 0.423
       }
+    },
+    {
+      "id": "7789b67fe0",
+      "seccion": "economia",
+      "rel": 15.7,
+      "relevancia": -484.3,
+      "fecha": "2026-11-08T18:57:26-03:00",
+      "hora": "18:57",
+      "titulo": "Radiografía económica ante la visita del Papa",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/08/radiografia-economica-ante-la-visita-del-papa/",
+      "acceso": "suscripcion",
+      "resumen": "Las políticas de ajuste de Milei no tienen en el centro al trabajo y a las personas, como predica León XIV. Por el contrario, destruyen industrias y empleos, y favorecen la concentración de la riqueza.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/TJKTEJ6ECZHQBKLKTRCESKTFTQ.jpg?auth=4d4c11e3e042000516aeeffaa86c168ec0513f7ba772f3790ab4d9a01bd65951&smart=true&width=1488&height=992",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.766,
+        "y1": 0.985
+      }
+    },
+    {
+      "id": "ea08214a54",
+      "seccion": "cordoba",
+      "rel": 7.7,
+      "relevancia": -492.3,
+      "fecha": "2026-11-08T18:48:19-03:00",
+      "hora": "18:48",
+      "titulo": "Villarruel tras el discurso de León XIV: “Sabe que no somos un país unido”",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/villarruel-tras-el-discurso-de-leon-xiv-sabe-que-no-somos-un-pais-unido/",
+      "acceso": "abierto",
+      "resumen": "La vicepresidenta aseguró que el Sumo Pontífice es consciente de la fractura política. Al retirarse del Palacio Libertad, lamentó la falta de consensos y apostó por acercar posiciones.",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "13d655876b",
+      "seccion": "economia",
+      "rel": 6.7,
+      "relevancia": -493.3,
+      "fecha": "2026-11-08T12:42:03-03:00",
+      "hora": "12:42",
+      "titulo": "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la caída con un leve repunte mensual",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/ventas-minoristas-pymes-cayeron-16-interanual-en-octubre-pero-frenaron-la-caida-con-un-leve-repunte-mensual/",
+      "acceso": "abierto",
+      "resumen": "Los comercios de cercanía exhibieron una dinámica dual marcada por restricciones en los ingresos familiares y compras focalizadas en productos esenciales de menor valor Las ventas minoristas de las pymes cayeron 1,6% interanual, pero mejoraron 0,3% mensual en octubre, acumulando una caída del 2% en lo que va del año, de acuerdo con un relevamiento […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 1,
+      "rostros": null
     }
   ],
   "opinion": []

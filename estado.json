@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-09T13:56:19-03:00",
+  "actualizado": "2026-11-09T20:31:50-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,52 +7,60 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 95,
           "ejemplos": [
-            "La visita del Papa León XIV: más de dos millones de personas asistieron a la mis",
-            "El mensaje del Santo Padre nos recuerda que la convivencia pacífica es una tarea",
-            "La historia del Poncho Bandera de La Sole, la prenda artesanal que une al papa L"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Las acciones de Nvidia caen 5% en Wall Street y se disparan las de sus competido"
+            "Tabla de posiciones de la Liga BetPlay 2026-II, después de la derrota de Millona",
+            "Por esta razón Daniel Radcliffe no está seguro de ver la nueva serie de ‘Harry P",
+            "Boeing recortará 5% de su plantilla de aviones comerciales por el retraso en la "
           ]
         },
         "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "El Papa encabezó una misa en la Catedral Metropolitana y le realizó un emotivo h",
+            "“Nos sentimos representados”: fuerte impacto en el sindicalismo por el discurso ",
+            "Quiénes son los empresarios y sindicalistas que estuvieron esta tarde con el pap"
+          ]
+        },
+        "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "ANSES: cuándo cobro en noviembre 2026 si mi DNI termina en 7"
+            "Victoria Villarruel dijo que no fue invitada a la misa del Papa: “Nunca recibimo"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
+      "leidas": 89,
       "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 84,
+          "cantidad": 74,
           "ejemplos": [
-            "Cambios en Los Pumas: se lesionó Juan Cruz Mallía, se aguarda por Julián Montoya",
-            "La vestimenta del papa León XIV: cuál es el atuendo elegido para la misa en el M",
-            "Papa León XIV en la Argentina, EN VIVO: León XIV encabezó una histórica misa en "
+            "Chau ruido y rayas: el truco casero para limpiar las gomas de los limpiaparabris",
+            "Papa León XIV en la Argentina, EN VIVO: El Pontífice cierra la jornada con una c",
+            "Expertos en coloración confirman: “Quienes tienen canas no necesitan retocar tod"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 8,
           "ejemplos": [
-            "León XIV encabezó una histórica misa en el Monumento de los Españoles",
-            "Cómo se armó la venta de recuerdos del Papa, entre los puestos oficiales y el re",
-            "El manual de Marcos Galperin para construir su sueño llamado Mercado Libre"
+            "El Papa reivindicó a Angelelli y les encargó a los obispos ocuparse de los pobre",
+            "La izquierda toma distancia del papa León XIV y cuestiona los ejes centrales de ",
+            "La Mesa de Enlace participó del encuentro con el Papa en la UCA y valoró positiv"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Crecieron las exportaciones de cítricos: se movilizaron 90.000 toneladas de frut"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "El intendente de Rafaela se filmó echando a un lavacoches de una plaza y tuvo qu"
+            "El Papa habló del “drama” del desempleo, reivindicó la justicia social y apoyó e"
           ]
         }
       }
@@ -82,15 +90,15 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 0,
+      "leidas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 3,
           "ejemplos": [
+            "León XIV y una defensa encendida de la doctrina social de la Iglesia en la UCA",
             "El papa León XIV en Argentina: agenda, la visita al Cottolengo de Don Orione y s",
-            "La visita del papa León XIV a la Argentina, en fotos",
-            "La homilía de León XIV durante la misa en el Monumento de los Españoles"
+            "León XIV se reunió con víctimas de abusos eclesiales"
           ]
         }
       }
@@ -98,14 +106,22 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 14,
           "ejemplos": [
-            "Si vas en auto a la Santa Misa, conocé dónde estacionar",
-            "Detienen a dos hombres por el homicidio de un joven en La Cumbre",
-            "Una multitud en la misa del Papa León XIV en Palermo tras su visita al Cottoleng"
+            "León XIV evocó los paisajes y la fe de los argentinos durante su homilía",
+            "Un hombre de 75 años murió tras descompensarse en el ingreso al predio de FAdeA",
+            "León XIV destacó el diálogo interreligioso y la identidad plural de Argentina"
+          ]
+        },
+        "otro país": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Referentes del oficialismo y de la oposición destacaron el impacto de la visita ",
+            "Alliana reorganiza el Gobierno tras la destitución de Peña",
+            "Trump cuestionó las elecciones tras la derrota republicana y reconoció errores e"
           ]
         }
       }
@@ -116,19 +132,19 @@
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 8,
           "ejemplos": [
+            "León XIV en la UCA: “El trabajo no es un instrumento de conflicto sino que ayuda",
             "León XIV: “La familia es la fuente de los valores fundamentales de la Argentina”",
-            "Arajet alcanzó los cinco millones de pasajeros transportados",
-            "Los argentinos encabezan la adopción digital financiera: casi 70% utiliza más se"
+            "Arajet alcanzó los cinco millones de pasajeros transportados"
           ]
         },
         "muy vieja": {
-          "cantidad": 69,
+          "cantidad": 70,
           "ejemplos": [
-            "Menor facturación real y caída de marcas: el balance agridulce que dejó el Cyber",
-            "Traslado de urgencia y declaración indagatoria para Santiago Peña en medio de la",
-            "“Constructores de puentes y de mate”: la emotiva despedida del papa León XIV ant"
+            "Fuerte mensaje del papa León XIV contra la exclusión social en su recorrida por ",
+            "Un tiroteo en Cracovia, Polonia, deja cinco muertos y 12 heridos",
+            "Menor facturación real y caída de marcas: el balance agridulce que dejó el Cyber"
           ]
         }
       }
@@ -141,9 +157,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "León XIV encabezó la misa en Palermo ante dos millones de fieles",
-            "SRT Media transmitirá en vivo la histórica vigilia por la visita del Papa León X",
-            "Visita del Papa León XIV a Córdoba: recorridos, cortes y remoción de vehículos e"
+            "“Tierra, techo y trabajo”: el mensaje de León XIV ante empresarios, sindicalista",
+            "Cómo será el recibimiento que Córdoba preparó para el Papa León XIV",
+            "El Papa presidió un encuentro interreligioso en el Palacio San Martín"
           ]
         }
       }
