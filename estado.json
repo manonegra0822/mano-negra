@@ -1,47 +1,58 @@
 {
-  "actualizado": "2026-11-09T08:48:24-03:00",
+  "actualizado": "2026-11-09T13:56:19-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 98,
           "ejemplos": [
-            "La visita del papa León XIV a la Argentina, en vivo: cientos de fieles esperan l",
-            "¿Nueva llovizna en Lima? El Senamhi revela su pronóstico para hoy, lunes 9 de no",
-            "La emotiva despedida de Arturo Pérez-Reverte a su perro Sherlock: “El mundo será"
+            "La visita del Papa León XIV: más de dos millones de personas asistieron a la mis",
+            "El mensaje del Santo Padre nos recuerda que la convivencia pacífica es una tarea",
+            "La historia del Poncho Bandera de La Sole, la prenda artesanal que une al papa L"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Las acciones de Nvidia caen 5% en Wall Street y se disparan las de sus competido"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Mapa de la minería: a qué países van el oro, la plata y el litio que produce la ",
-            "“El Papa León XIV conoció de primera mano las inquietudes de Francisco y las tra"
+            "ANSES: cuándo cobro en noviembre 2026 si mi DNI termina en 7"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 7,
+      "leidas": 96,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 84,
           "ejemplos": [
-            "Confirman fallo a favor de Mamdani por el impuesto a viviendas de lujo en Nueva ",
-            "Esperan hasta 2 millones de personas en la misa del Papa, quien al llegar al paí",
-            "Papa León XIV en la Argentina, EN VIVO: la misa en Buenos Aires, la agenda del d"
+            "Cambios en Los Pumas: se lesionó Juan Cruz Mallía, se aguarda por Julián Montoya",
+            "La vestimenta del papa León XIV: cuál es el atuendo elegido para la misa en el M",
+            "Papa León XIV en la Argentina, EN VIVO: León XIV encabezó una histórica misa en "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 6,
           "ejemplos": [
-            "Gonzalo Goñi, sobre un desarrollo argentino innovador: “Esto me va a decir cuánt",
-            "Las palabras de León XIV: un pacificador, pero sin concesiones",
-            "Calendario PNC de la Anses: cuándo se cobran las Pensiones no Contributivas de n"
+            "León XIV encabezó una histórica misa en el Monumento de los Españoles",
+            "Cómo se armó la venta de recuerdos del Papa, entre los puestos oficiales y el re",
+            "El manual de Marcos Galperin para construir su sueño llamado Mercado Libre"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El intendente de Rafaela se filmó echando a un lavacoches de una plaza y tuvo qu"
           ]
         }
       }
@@ -52,25 +63,19 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "La noche que un pueblo argentino corrió a tres ingleses",
             "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
             "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La visita de León XIV como gesto político: católicas feministas piden poner en a"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 5,
+          "cantidad": 7,
           "ejemplos": [
-            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada",
-            "La cacería en Palermo y la risa de la manada",
-            "Paro nacional de las trabajadoras sexuales"
+            "«La palabra amenazada», Ivonne Bordelois",
+            "La visita de León XIV como gesto político: católicas feministas piden poner en a",
+            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
           ]
         }
       }
@@ -78,14 +83,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 6,
           "ejemplos": [
             "El papa León XIV en Argentina: agenda, la visita al Cottolengo de Don Orione y s",
-            "León XIV defendió a los jubilados, a las personas con discapacidad y a las unive",
-            "Esto recién empieza"
+            "La visita del papa León XIV a la Argentina, en fotos",
+            "La homilía de León XIV durante la misa en el Monumento de los Españoles"
           ]
         }
       }
@@ -93,21 +98,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 18,
           "ejemplos": [
-            "La UEPC distinguió al papa León XIV como afiliado de honor",
-            "Allanaron la mansión del expresidente Peña en Paraguay y descubrieron una bóveda",
-            "Este lunes al mediodía comienzan los cortes de calles y rutas en Córdoba"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El mensaje del papa León XIV: recordó a Francisco, pidió diálogo y una economía ",
-            "El Banco Central de Paraguay comenzó a devolver los ahorros de Ueno Bank"
+            "Si vas en auto a la Santa Misa, conocé dónde estacionar",
+            "Detienen a dos hombres por el homicidio de un joven en La Cumbre",
+            "Una multitud en la misa del Papa León XIV en Palermo tras su visita al Cottoleng"
           ]
         }
       }
@@ -118,19 +116,19 @@
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 9,
           "ejemplos": [
-            "El papa León XIV reclamó cuidar la democracia, límites al poder y “convivir en l",
-            "Un terremoto de magnitud 5,7 sacudió Japón y dejó al menos 23 heridos",
-            "Visita histórica: el Papa León XIV inicia su gira por Argentina"
+            "León XIV: “La familia es la fuente de los valores fundamentales de la Argentina”",
+            "Arajet alcanzó los cinco millones de pasajeros transportados",
+            "Los argentinos encabezan la adopción digital financiera: casi 70% utiliza más se"
           ]
         },
         "muy vieja": {
-          "cantidad": 70,
+          "cantidad": 69,
           "ejemplos": [
-            "El papa León XIV inició en Uruguay su primera gira por América Latina",
-            "El Congreso paraguayo destituyó a Santiago Peña y la Fiscalía ordena su detenció",
-            "Lorenzatti presentó el proyecto de Presupuesto 2027: déficit cero e incremento d"
+            "Menor facturación real y caída de marcas: el balance agridulce que dejó el Cyber",
+            "Traslado de urgencia y declaración indagatoria para Santiago Peña en medio de la",
+            "“Constructores de puentes y de mate”: la emotiva despedida del papa León XIV ant"
           ]
         }
       }
@@ -143,9 +141,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "La Córdoba cotidiana, bajo la mirada del Gato Ludueña",
-            "La nueva Isuzu D-Max llega a Argentina para desafiar a la Hilux",
-            "Una maratón de lectura para recorrer “El juguete rabioso”, de Roberto Arlt"
+            "León XIV encabezó la misa en Palermo ante dos millones de fieles",
+            "SRT Media transmitirá en vivo la histórica vigilia por la visita del Papa León X",
+            "Visita del Papa León XIV a Córdoba: recorridos, cortes y remoción de vehículos e"
           ]
         }
       }

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-09T08:48:24-03:00",
+  "actualizado": "2026-11-09T13:56:19-03:00",
   "notas": [
     {
       "id": "0b79752fea",
@@ -32,8 +32,8 @@
     {
       "id": "1b67c691a7",
       "seccion": "cordoba",
-      "rel": 31.4,
-      "relevancia": 31.4,
+      "rel": 30.5,
+      "relevancia": 30.5,
       "fecha": "2026-11-08T17:08:34-03:00",
       "hora": "17:08",
       "titulo": "El Papa llegó a Buenos Aires: León XIV pisó suelo argentino y fue recibido por el presidente Milei",
@@ -58,23 +58,26 @@
       }
     },
     {
-      "id": "d831969ed4",
-      "seccion": "cordoba",
+      "id": "6f50095014",
+      "seccion": "economia",
       "rel": 21.9,
       "relevancia": 21.9,
-      "fecha": "2026-11-09T07:58:38-03:00",
-      "hora": "07:58",
-      "titulo": "La moral, la fe y regalos oficiales: la trastienda del encuentro a solas de Milei con León XIV",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/la-moral-la-fe-y-regalos-oficiales-la-trastienda-del-encuentro-a-solas-de-milei-con-leon-xiv/",
-      "acceso": "abierto",
-      "resumen": "La moral, la fe y regalos oficiales: la trastienda del encuentro a solas de Milei con León XIV en Casa Rosada",
+      "fecha": "2026-11-09T13:05:53-03:00",
+      "hora": "13:05",
+      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este lunes 9 de noviembre, minuto a minuto",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-lunes-9-de-noviembre-nid09112026/",
+      "acceso": "suscripcion",
+      "resumen": "Por el feriado de hoy no hay actividad en el mercado financiero y, para el dólar oficial y el dólar blue se toman como referencia los valores del último cierre",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-junto-a-Leon-optimized.png",
-      "imagen_credito": "Hoy Día Córdoba",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/CJIIXWR5DBACRAR67SPZP446CE.png?auth=4e03d168b399d8b0c482bfa87d84845ab22d13a8bc67887d80296f3ce2fd36ad&smart=true&width=1264&height=848",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.624,
+        "y1": 0.855
+      }
     },
     {
       "id": "8430e6bdb0",
@@ -94,47 +97,6 @@
       "otros": [],
       "dia": 0,
       "rostros": null
-    },
-    {
-      "id": "d65279f015",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-08T12:28:24-03:00",
-      "hora": "12:28",
-      "titulo": "El salto en las importaciones del RIGI que reabre la discusión sobre el lugar de las pyme argentinas",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/economia/2026/11/08/el-salto-en-las-importaciones-del-rigi-que-reabre-la-discusion-sobre-el-lugar-de-las-pyme-argentinas/",
-      "acceso": "abierto",
-      "resumen": "El récord de octubre con USD 140 millones llega justo cuando cámaras empresariales y funcionarios buscan definir cuánto de la actividad de los grandes proyectos termina beneficiando a la industria nacional",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/TYWEKS6JNNAY5CT4L77LBERDHI.png?auth=a081b49c370ddd7e3c0d7175f9c4a0a6aa15dafa8c489d4bc19a058728d8d489&smart=true&width=2752&height=1536",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "e894b00822",
-      "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-08T09:49:29-03:00",
-      "hora": "09:49",
-      "titulo": "A cuánto abre el dólar este lunes 9 de noviembre",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/cual-sera-la-cotizacion-del-dolar-este-lunes-9-de-noviembre-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "La cotización de la divisa oficial mantendrá los mismos valores que en su último día de cierre por el feriado nacional de la visita del papa León XIV; así se posicionó el último día hábil",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/ORXUTKNLMFAM7LHEPZIJBYO3DA.jpg?auth=63c3db1eaf4e4cb7b5ab13f1bc9e1ca441402ce57d62a5aa7e9876530b86cc76&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.412,
-        "y1": 0.71
-      }
     },
     {
       "id": "0877e211fb",
@@ -178,28 +140,6 @@
       "rostros": null
     },
     {
-      "id": "66743c5afd",
-      "seccion": "economia",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-08T10:52:24-03:00",
-      "hora": "10:52",
-      "titulo": "La agenda de Milei para noviembre entre tensiones políticas y económicas",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/la-agenda-de-milei-para-noviembre-entre-tensiones-politicas-y-economicas/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno busca reordenar su estrategia de cara a noviembre, en medio de la incertidumbre de los mercados, las negociaciones por el Presupuesto 2027 y las diferencias dentro del oficialismo.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/milei-1-optimized.png",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.343,
-        "y1": 0.856
-      }
-    },
-    {
       "id": "9fbda67d9f",
       "seccion": "cordoba",
       "rel": 21.5,
@@ -222,32 +162,45 @@
       }
     },
     {
-      "id": "13d655876b",
-      "seccion": "economia",
-      "rel": 20.6,
-      "relevancia": 20.6,
-      "fecha": "2026-11-08T12:42:03-03:00",
-      "hora": "12:42",
-      "titulo": "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la caída con un leve repunte mensual",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/ventas-minoristas-pymes-cayeron-16-interanual-en-octubre-pero-frenaron-la-caida-con-un-leve-repunte-mensual/",
-      "acceso": "abierto",
-      "resumen": "Los comercios de cercanía exhibieron una dinámica dual marcada por restricciones en los ingresos familiares y compras focalizadas en productos esenciales de menor valor Las ventas minoristas de las pymes cayeron 1,6% interanual, pero mejoraron 0,3% mensual en octubre, acumulando una caída del 2% en lo que va del año, de acuerdo con un relevamiento […]",
+      "id": "93ec1bdbe2",
+      "seccion": "argentina",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-11-09T09:34:57-03:00",
+      "hora": "09:34",
+      "titulo": "Milei, sobre el pedido de diálogo del Papa: “En la Argentina, los debates no son honestos intelectualmente”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-sobre-el-pedido-de-consensos-del-papa-en-la-argentina-los-debates-no-son-honestos-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "El presidente dijo que él está dispuesto al diálogo “pero la oposición votó 40 leyes para destruir el equilibrio”; relató cómo vivió la llegada de León XIV y de qué hablaron en la Casa Rosada",
       "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/03/Ventas-Minoristas.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Las ventas minoristas pyme cayeron 1,6% interanual en octubre",
-          "url": "https://hoydia.com.ar/economia/ventas-minoristas-pyme-octubre/"
-        }
-      ],
-      "dia": 1,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/G7T27PQZE5COTCGSQX5KB4KXJQ.jpg?auth=6c6590370c1ad84b79b61349ab585fef859a4d0ca6081c0e1eff73fa305ddcc9&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
       "rostros": {
-        "y0": 0.143,
-        "y1": 0.46
+        "y0": 0.092,
+        "y1": 0.388
       }
+    },
+    {
+      "id": "d831969ed4",
+      "seccion": "cordoba",
+      "rel": 21.0,
+      "relevancia": 21.0,
+      "fecha": "2026-11-09T07:58:38-03:00",
+      "hora": "07:58",
+      "titulo": "La moral, la fe y regalos oficiales: la trastienda del encuentro a solas de Milei con León XIV",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/la-moral-la-fe-y-regalos-oficiales-la-trastienda-del-encuentro-a-solas-de-milei-con-leon-xiv/",
+      "acceso": "abierto",
+      "resumen": "La moral, la fe y regalos oficiales: la trastienda del encuentro a solas de Milei con León XIV en Casa Rosada",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-junto-a-Leon-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "27d5a3f105",
@@ -306,8 +259,8 @@
       "acceso": "abierto",
       "resumen": "El gobernador estuvo presente en el acto del Palacio Libertad, junto a Milei y dirigentes de todo el arco político. También publicó un mensaje de bienvenida en el que expresó la expectativa por la llegada del Pontífice a la provincia.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Llaryora-participo-del-encuentro-en-el-Palacio-Libertad-y-celebro-su-llegada-en-las-redes-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
       "dia": 1,
       "rostros": null
@@ -373,6 +326,72 @@
       "rostros": null
     },
     {
+      "id": "3ac2b72558",
+      "seccion": "argentina",
+      "rel": 19.5,
+      "relevancia": 19.5,
+      "fecha": "2026-11-09T10:56:19-03:00",
+      "hora": "10:56",
+      "titulo": "Clara llega a la Argentina: el unicornio mexicano que apuesta por la inteligencia artificial para gestionar gastos",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/negocios/clara-llega-a-la-argentina-el-unicornio-mexicano-que-apuesta-por-la-inteligencia-artificial-para-nid09112026/",
+      "acceso": "suscripcion",
+      "resumen": "Clara, la plataforma de gestión de gastos corporativos que opera en México, Brasil y Colombia, abrió su operación comercial en el país; ya tiene un equipo de 30 personas y busca country manager",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/O6QGRRUETVE2HKXTY3ZLBZH2EE.jpg?auth=e1f08e5d828f39b56d3b79fa4056b4b96750aba9800200a187d44a35979e1f46&smart=true&width=8192&height=5464",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "ef3cd09df3",
+      "seccion": "argentina",
+      "rel": 19.3,
+      "relevancia": 19.3,
+      "fecha": "2026-11-09T09:33:31-03:00",
+      "hora": "09:33",
+      "titulo": "Milei y su discurso ante el papa León XIV: “Me alegra ver a dirigentes de todo el arco político”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-en-la-visita-del-papa-leon-xiv-me-alegra-ver-dirigentes-de-todo-el-arco-politico-nid08112026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente brindó un discurso delante del Sumo Pontífice, que llegó a la Argentina el domingo; Robert Prevost permanecerá en el país hasta el 11 de noviembre",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/ZYSKUCBSLZAYTEKHJ66KTK5QTE.jpg?auth=11cd3cbbe50ab050d3419a9986dc43c43279995817d0989f25f969c9956b6d50&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [
+        {
+          "fuente": "Infobae",
+          "titulo": "Javier Milei resaltó la visita de León XIV, recordó a Francisco y destacó “la presencia de todo el arco político”",
+          "url": "https://www.infobae.com/politica/2026/11/08/javier-milei-resalto-la-visita-de-leon-xiv-recordo-a-francisco-y-destaco-la-presencia-de-todo-el-arco-politico/"
+        }
+      ],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "6307d10ae2",
+      "seccion": "cordoba",
+      "rel": 18.9,
+      "relevancia": 18.9,
+      "fecha": "2026-11-08T19:17:42-03:00",
+      "hora": "19:17",
+      "titulo": "Tras la reunión con Milei el Papa fue agasajado por Macri",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/tras-la-reunion-con-milei-el-papa-fue-agasajado-por-macri_a6af0e7612aec752ba0c95880",
+      "acceso": "abierto",
+      "resumen": "Con el Presidente estuvo en Casa Rosada mientras que con el Jefe de Gobierno porteño compartió un momento en las afueras del edificio. Luego el Papa y el Presidente compartieron el uso de la palabra en el Palacio Libertad.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6af0efd42aec752ba0c99736/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "y0": 0.37,
+        "y1": 0.873
+      }
+    },
+    {
       "id": "0375f3a815",
       "seccion": "economia",
       "rel": 17.7,
@@ -411,26 +430,23 @@
       "rostros": null
     },
     {
-      "id": "5a0a7ac240",
+      "id": "ccf9b92f5e",
       "seccion": "argentina",
-      "rel": 15.9,
-      "relevancia": 15.9,
-      "fecha": "2026-11-08T20:00:53-03:00",
-      "hora": "20:00",
-      "titulo": "Javier Milei resaltó la visita de León XIV, recordó a Francisco y destacó “la presencia de todo el arco político”",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/08/javier-milei-resalto-la-visita-de-leon-xiv-recordo-a-francisco-y-destaco-la-presencia-de-todo-el-arco-politico/",
-      "acceso": "abierto",
-      "resumen": "El Presidente habló en el acto en el Palacio Libertad ante autoridades de los tres poderes. Sostuvo que la llegada del pontífice debe convocar a creyentes y no creyentes alrededor de valores compartidos por encima de diferencias partidarias",
+      "rel": 17.3,
+      "relevancia": 17.3,
+      "fecha": "2026-11-09T09:49:43-03:00",
+      "hora": "09:49",
+      "titulo": "Así fue el saludo entre el papa León XIV y el gobernador Axel Kicillof",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/asi-fue-el-saludo-entre-el-papa-leon-xiv-y-el-gobernador-axel-kicillof-nid09112026/",
+      "acceso": "suscripcion",
+      "resumen": "Tras cruzar algunas palabras, el Sumo Pontífice y el mandatario provincial se intercambiaron regalos",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/T4YYSVWUERG7LM6HFF3GQNOFII.png?auth=89aaf13c4aff30648069d0d47aa2eb29b325d7b7a9a11d9d426c6bceb2184837&smart=true&width=1920&height=1080",
-      "imagen_credito": "Infobae",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/LLJWMTCZ3ZFWVARMPVUSKYZVMA.png?auth=67cb85796e026293665e75b921d088da1446e726a69493acbc23bea4b9b66bb4&smart=true&width=1360&height=910",
+      "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "y0": 0.075,
-        "y1": 0.32
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "7789b67fe0",
@@ -512,6 +528,25 @@
       "rostros": null
     },
     {
+      "id": "d65279f015",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": -478.2,
+      "fecha": "2026-11-08T12:28:24-03:00",
+      "hora": "12:28",
+      "titulo": "El salto en las importaciones del RIGI que reabre la discusión sobre el lugar de las pyme argentinas",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/11/08/el-salto-en-las-importaciones-del-rigi-que-reabre-la-discusion-sobre-el-lugar-de-las-pyme-argentinas/",
+      "acceso": "abierto",
+      "resumen": "El récord de octubre con USD 140 millones llega justo cuando cámaras empresariales y funcionarios buscan definir cuánto de la actividad de los grandes proyectos termina beneficiando a la industria nacional",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/TYWEKS6JNNAY5CT4L77LBERDHI.png?auth=a081b49c370ddd7e3c0d7175f9c4a0a6aa15dafa8c489d4bc19a058728d8d489&smart=true&width=2752&height=1536",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
       "id": "6b637ed4b0",
       "seccion": "argentina",
       "rel": 21.8,
@@ -578,44 +613,25 @@
       }
     },
     {
-      "id": "524f02a9c0",
+      "id": "66743c5afd",
       "seccion": "economia",
       "rel": 21.6,
       "relevancia": -478.4,
-      "fecha": "2026-11-07T11:18:16-03:00",
-      "hora": "11:18",
-      "titulo": "La CAME le pidió a Caputo modificar las condiciones del plan de facilidades de pago de ARCA",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/la-came-le-pidio-a-caputo-modificar-las-condiciones-del-plan-de-facilidades-de-pago-de-arca-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "La entidad solicitó eliminar el anticipo del 5% y extender hasta 48 las cuotas para regularizar deudas; argumentó una “delicada situación económica” y falta de liquidez en el sector productivo",
+      "fecha": "2026-11-08T10:52:24-03:00",
+      "hora": "10:52",
+      "titulo": "La agenda de Milei para noviembre entre tensiones políticas y económicas",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/la-agenda-de-milei-para-noviembre-entre-tensiones-politicas-y-economicas/",
+      "acceso": "abierto",
+      "resumen": "El Gobierno busca reordenar su estrategia de cara a noviembre, en medio de la incertidumbre de los mercados, las negociaciones por el Presupuesto 2027 y las diferencias dentro del oficialismo.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/LCOB5YF26ZAHPPOGNGXO7HDHWE.jpg?auth=ed3c2e0cb5d50ff2ff09fc0814eafad0965deb2d090e3444b9e343ffde267b97&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/milei-1-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 2,
-      "rostros": null
-    },
-    {
-      "id": "32203e1a56",
-      "seccion": "argentina",
-      "rel": 21.5,
-      "relevancia": -478.5,
-      "fecha": "2026-11-07T10:21:16-03:00",
-      "hora": "10:21",
-      "titulo": "En el Gobierno esperan un mensaje breve y conciliador de Milei en el Palacio Libertad tras un pedido del Vaticano",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/en-el-gobierno-esperan-un-mensaje-breve-y-conciliador-de-milei-en-el-palacio-libertad-tras-un-pedido-nid07112026/",
-      "acceso": "suscripcion",
-      "resumen": "El domingo el mandatario estará junto al Papa y hablará frente a distintos actores del arco político; habrá una audiencia previa en la Casa Rosada",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/KYZ57AMHO5CKVEX42GELMZXDZE.jpeg?auth=8064ee1982cbf8151283a7d7c52247be9302957f609ad6f5a045f8b5b38f7415&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 2,
+      "dia": 1,
       "rostros": {
-        "y0": 0.11,
-        "y1": 0.388
+        "y0": 0.343,
+        "y1": 0.856
       }
     },
     {
@@ -641,22 +657,28 @@
       }
     },
     {
-      "id": "cb48c8518c",
+      "id": "13d655876b",
       "seccion": "economia",
-      "rel": 19.9,
-      "relevancia": -480.1,
-      "fecha": "2026-11-07T12:45:03-03:00",
-      "hora": "12:45",
-      "titulo": "La SEC confirmó que recibió la denuncia de Dalbón por las operaciones con oro del BCRA",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/economia/2026/11/07/la-sec-confirmo-que-recibio-la-denuncia-de-dalbon-por-las-operaciones-con-oro-del-bcra/",
+      "rel": 19.8,
+      "relevancia": -480.2,
+      "fecha": "2026-11-08T12:42:03-03:00",
+      "hora": "12:42",
+      "titulo": "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la caída con un leve repunte mensual",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/ventas-minoristas-pymes-cayeron-16-interanual-en-octubre-pero-frenaron-la-caida-con-un-leve-repunte-mensual/",
       "acceso": "abierto",
-      "resumen": "El organismo estadounidense informó que registrará la presentación sobre reservas y Deutsche Bank, aunque advirtió que no divulgará datos sobre posibles actuaciones internas",
+      "resumen": "Los comercios de cercanía exhibieron una dinámica dual marcada por restricciones en los ingresos familiares y compras focalizadas en productos esenciales de menor valor Las ventas minoristas de las pymes cayeron 1,6% interanual, pero mejoraron 0,3% mensual en octubre, acumulando una caída del 2% en lo que va del año, de acuerdo con un relevamiento […]",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/IHZTISW3WNGA5JF3J5JNSXOQQQ.JPG?auth=1193a32f6bf142c2859567ebb516f48c010d0732bd7f4157581d76799883be00&smart=true&width=5436&height=3583",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 2,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "Las ventas minoristas pyme cayeron 1,6% interanual en octubre",
+          "url": "https://hoydia.com.ar/economia/ventas-minoristas-pyme-octubre/"
+        }
+      ],
+      "dia": 1,
       "rostros": null
     },
     {
@@ -679,28 +701,6 @@
       "rostros": {
         "y0": 0.105,
         "y1": 0.405
-      }
-    },
-    {
-      "id": "498a61acad",
-      "seccion": "cordoba",
-      "rel": 18.4,
-      "relevancia": -481.6,
-      "fecha": "2026-11-07T10:53:09-03:00",
-      "hora": "10:53",
-      "titulo": "La oposición se mostró junta: Luis Juez y Gabriel Bornoroni en La Falda",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/la-oposicion-se-mostro-junta--luis-juez-y-gabriel-bornoroni-en-la-falda_a6aef2ae8b72c2cb0485089ac",
-      "acceso": "abierto",
-      "resumen": "En un encuentro que tuvo casi 300 personas, se presentó a Leonardo Gribaudo como precandidato a intendente. Además de La Libertad Avanza, hubo referentes del PRO, Primero la Gente, legisladores provinciales, intendentes y dirigentes de distintos puntos de Córdoba. La actividad representa una de las primeras muestras del acuerdo provincial entre estos espacios políticos.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6aef2afab72c2cb048508a3b/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 2,
-      "rostros": {
-        "y0": 0.0,
-        "y1": 0.51
       }
     },
     {
