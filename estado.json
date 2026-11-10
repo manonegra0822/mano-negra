@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-09T20:31:50-03:00",
+  "actualizado": "2026-11-10T15:29:07-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,60 +7,40 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 99,
           "ejemplos": [
-            "Tabla de posiciones de la Liga BetPlay 2026-II, después de la derrota de Millona",
-            "Por esta razón Daniel Radcliffe no está seguro de ver la nueva serie de ‘Harry P",
-            "Boeing recortará 5% de su plantilla de aviones comerciales por el retraso en la "
+            "Perú registró 3,9 millones de hectáreas quemadas en 36 años: más de 400 mil solo",
+            "Regraban doblaje mexicano de Wildwood: Macarena García, Ibarreche y Natalia Téll",
+            "León XIV se reúne con religiosos y seminaristas en la Catedral de Córdoba"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
-          "ejemplos": [
-            "El Papa encabezó una misa en la Catedral Metropolitana y le realizó un emotivo h",
-            "“Nos sentimos representados”: fuerte impacto en el sindicalismo por el discurso ",
-            "Quiénes son los empresarios y sindicalistas que estuvieron esta tarde con el pap"
-          ]
-        },
-        "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Victoria Villarruel dijo que no fue invitada a la misa del Papa: “Nunca recibimo"
+            "\"Los isleños no pueden apropiarse de los recursos de la plataforma continental e"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
-      "aceptadas": 5,
+      "leidas": 91,
+      "aceptadas": 8,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 74,
+          "cantidad": 76,
           "ejemplos": [
-            "Chau ruido y rayas: el truco casero para limpiar las gomas de los limpiaparabris",
-            "Papa León XIV en la Argentina, EN VIVO: El Pontífice cierra la jornada con una c",
-            "Expertos en coloración confirman: “Quienes tienen canas no necesitan retocar tod"
+            "Papa León XIV en la Argentina, EN VIVO: visita a la Catedral en Córdoba y todo s",
+            "Se viene otro “veranito”, que traerá temperaturas en aumento, un pico de calor d",
+            "El cálido encuentro entre el Papa León XIV y una joven con “piel de cristal” ant"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 7,
           "ejemplos": [
-            "El Papa reivindicó a Angelelli y les encargó a los obispos ocuparse de los pobre",
-            "La izquierda toma distancia del papa León XIV y cuestiona los ejes centrales de ",
-            "La Mesa de Enlace participó del encuentro con el Papa en la UCA y valoró positiv"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Crecieron las exportaciones de cítricos: se movilizaron 90.000 toneladas de frut"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Papa habló del “drama” del desempleo, reivindicó la justicia social y apoyó e"
+            "Comienzo de semana con altibajos en el Mercado Agroganadero de Cañuelas",
+            "De la luz a la nafta: Edenor desembarca en el negocio de los combustibles con el",
+            "Visec: una entidad ligada a CRA sube la apuesta en un conflicto abierto con la S"
           ]
         }
       }
@@ -70,35 +50,32 @@
       "leidas": 10,
       "aceptadas": 0,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
+        "muy vieja": {
+          "cantidad": 10,
           "ejemplos": [
             "La noche que un pueblo argentino corrió a tres ingleses",
             "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
             "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 7,
-          "ejemplos": [
-            "«La palabra amenazada», Ivonne Bordelois",
-            "La visita de León XIV como gesto político: católicas feministas piden poner en a",
-            "El gobierno insiste con el modelo: el presupuesto 2027 no soluciona nada"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 1,
+      "leidas": 6,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "León XIV y una defensa encendida de la doctrina social de la Iglesia en la UCA",
-            "El papa León XIV en Argentina: agenda, la visita al Cottolengo de Don Orione y s",
-            "León XIV se reunió con víctimas de abusos eclesiales"
+            "El papa León XIV en Argentina: la misa en Córdoba y la Vigilia con los jóvenes, ",
+            "Desde Córdoba, el Papa León XIV valoró la identidad solidaria del país y rindió "
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Milei armó una carpa VIP para famosos durante la misa del papa León XIV en el Mo"
           ]
         }
       }
@@ -106,22 +83,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 14,
           "ejemplos": [
-            "León XIV evocó los paisajes y la fe de los argentinos durante su homilía",
-            "Un hombre de 75 años murió tras descompensarse en el ingreso al predio de FAdeA",
-            "León XIV destacó el diálogo interreligioso y la identidad plural de Argentina"
+            "Córdoba le regaló al papa León XIV un poncho artesanal",
+            "El Papa llegó al Arzobispado de Córdoba tras una multitudinaria misa en FAdeA",
+            "Perú inauguró una estatua de 14 metros del papa León XIV antes de su llegada al "
           ]
         },
         "otro país": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "Referentes del oficialismo y de la oposición destacaron el impacto de la visita ",
-            "Alliana reorganiza el Gobierno tras la destitución de Peña",
-            "Trump cuestionó las elecciones tras la derrota republicana y reconoció errores e"
+            "Un diputado pidió explicaciones al Gobierno por la carpa VIP en la misa del papa",
+            "Referentes del oficialismo y de la oposición destacaron el impacto de la visita "
           ]
         }
       }
@@ -129,22 +105,22 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 20,
           "ejemplos": [
-            "León XIV en la UCA: “El trabajo no es un instrumento de conflicto sino que ayuda",
-            "León XIV: “La familia es la fuente de los valores fundamentales de la Argentina”",
-            "Arajet alcanzó los cinco millones de pasajeros transportados"
+            "León XIV en Córdoba: misa multitudinaria y saludo desde el balcón del Arzobispad",
+            "Un año del Mirador Obelisco: nuevas formas de vivir un ícono porteño",
+            "Cinco curiosidades sobre los pingüinos de Magallanes para descubrir en la Patago"
           ]
         },
         "muy vieja": {
-          "cantidad": 70,
+          "cantidad": 59,
           "ejemplos": [
-            "Fuerte mensaje del papa León XIV contra la exclusión social en su recorrida por ",
-            "Un tiroteo en Cracovia, Polonia, deja cinco muertos y 12 heridos",
-            "Menor facturación real y caída de marcas: el balance agridulce que dejó el Cyber"
+            "Un terremoto de magnitud 5,7 sacudió Japón y dejó al menos 23 heridos",
+            "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la ca",
+            "Visita histórica: el Papa León XIV inicia su gira por Argentina"
           ]
         }
       }
@@ -152,14 +128,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 17,
           "ejemplos": [
-            "“Tierra, techo y trabajo”: el mensaje de León XIV ante empresarios, sindicalista",
-            "Cómo será el recibimiento que Córdoba preparó para el Papa León XIV",
-            "El Papa presidió un encuentro interreligioso en el Palacio San Martín"
+            "León XIV mantuvo un encuentro privado con 20 cordobeses: las historias de los el",
+            "El regalo que recibió León XIV en Córdoba: la historia detrás del poncho de Tras",
+            "El encuentro entre León XIV y una joven con piel de cristal en el predio de FAde"
           ]
         }
       }
