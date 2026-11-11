@@ -1,81 +1,71 @@
 {
-  "actualizado": "2026-11-10T15:29:07-03:00",
+  "actualizado": "2026-11-10T23:32:55-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 98,
           "ejemplos": [
-            "Perú registró 3,9 millones de hectáreas quemadas en 36 años: más de 400 mil solo",
-            "Regraban doblaje mexicano de Wildwood: Macarena García, Ibarreche y Natalia Téll",
-            "León XIV se reúne con religiosos y seminaristas en la Catedral de Córdoba"
+            "Van más allá del reality show, Natalia Alcocer y Pablo Montero planean reencuent",
+            "Honduras: hallan desmembrado en el río Guayape a joven de 24 años y capturan a s",
+            "Banco de la Nación modifica horarios de atención en Lima y Lambayeque por visita"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "\"Los isleños no pueden apropiarse de los recursos de la plataforma continental e"
+            "Fuerte advertencia del Papa a los jóvenes por las redes, el dinero y la pornogra"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 8,
+      "leidas": 87,
+      "aceptadas": 2,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 76,
+        "titular sin tema de política/economía": {
+          "cantidad": 9,
           "ejemplos": [
-            "Papa León XIV en la Argentina, EN VIVO: visita a la Catedral en Córdoba y todo s",
-            "Se viene otro “veranito”, que traerá temperaturas en aumento, un pico de calor d",
-            "El cálido encuentro entre el Papa León XIV y una joven con “piel de cristal” ant"
+            "Alejandra Monteoliva mostró cómo se monitorea el despliegue de fuerzas de seguri",
+            "El emotivo discurso de León XIV ante una multitud de jóvenes: “No permitan que n",
+            "Lo que dejará la exitosa gira papal"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 7,
+        "sección no permitida": {
+          "cantidad": 75,
           "ejemplos": [
-            "Comienzo de semana con altibajos en el Mercado Agroganadero de Cañuelas",
-            "De la luz a la nafta: Edenor desembarca en el negocio de los combustibles con el",
-            "Visec: una entidad ligada a CRA sube la apuesta en un conflicto abierto con la S"
+            "Papa León XIV en la Argentina, EN VIVO: visita a la Catedral en Córdoba y todo s",
+            "Se fugó Leonardo Bertulazzi, exmiembro de las Brigadas Rojas italianas, mientras",
+            "“La juventud está muy necesitada”: tienen entre 15 y 35, y dan la bienvenida al "
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Se disparó la soja: el precio en el mercado internacional aumentó US$14,6 por to"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "muy vieja": {
-          "cantidad": 10,
-          "ejemplos": [
-            "La noche que un pueblo argentino corrió a tres ingleses",
-            "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
-            "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 3,
+      "leidas": 7,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 6,
           "ejemplos": [
             "El papa León XIV en Argentina: la misa en Córdoba y la Vigilia con los jóvenes, ",
-            "Desde Córdoba, el Papa León XIV valoró la identidad solidaria del país y rindió "
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Milei armó una carpa VIP para famosos durante la misa del papa León XIV en el Mo"
+            "León XIV, como Francisco, pidió “una Iglesia que siga haciendo lío”",
+            "Más de un millón de jóvenes se encontraron con el papa León XIV"
           ]
         }
       }
@@ -83,21 +73,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 15,
           "ejemplos": [
-            "Córdoba le regaló al papa León XIV un poncho artesanal",
-            "El Papa llegó al Arzobispado de Córdoba tras una multitudinaria misa en FAdeA",
-            "Perú inauguró una estatua de 14 metros del papa León XIV antes de su llegada al "
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Un diputado pidió explicaciones al Gobierno por la carpa VIP en la misa del papa",
-            "Referentes del oficialismo y de la oposición destacaron el impacto de la visita "
+            "Música, fe y picardía cordobesa en el recibimiento a León XIV",
+            "Un millón de jóvenes escuchó al Papa, quien pidió “permanecer de pie ante los íd",
+            "La Selección arrancó la preparación para el amistoso del viernes frente a Urugua"
           ]
         }
       }
@@ -110,17 +93,17 @@
         "titular sin tema de política/economía": {
           "cantidad": 20,
           "ejemplos": [
+            "León XIV dejó Córdoba y volvió a destacar las figuras de Brochero y Mama Antula",
             "León XIV en Córdoba: misa multitudinaria y saludo desde el balcón del Arzobispad",
-            "Un año del Mirador Obelisco: nuevas formas de vivir un ícono porteño",
-            "Cinco curiosidades sobre los pingüinos de Magallanes para descubrir en la Patago"
+            "Un año del Mirador Obelisco: nuevas formas de vivir un ícono porteño"
           ]
         },
         "muy vieja": {
           "cantidad": 59,
           "ejemplos": [
-            "Un terremoto de magnitud 5,7 sacudió Japón y dejó al menos 23 heridos",
-            "Ventas minoristas pymes: cayeron 1,6% interanual en octubre, pero frenaron la ca",
-            "Visita histórica: el Papa León XIV inicia su gira por Argentina"
+            "El papa León XIV reclamó cuidar la democracia, límites al poder y “convivir en l",
+            "El Papa llegó a Buenos Aires: León XIV pisó suelo argentino y fue recibido por e",
+            "Un terremoto de magnitud 5,7 sacudió Japón y dejó al menos 23 heridos"
           ]
         }
       }
@@ -133,9 +116,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
-            "León XIV mantuvo un encuentro privado con 20 cordobeses: las historias de los el",
-            "El regalo que recibió León XIV en Córdoba: la historia detrás del poncho de Tras",
-            "El encuentro entre León XIV y una joven con piel de cristal en el predio de FAde"
+            "Una referente de los DDHH fue parte del encuentro privado con León XIV en Córdob",
+            "Emoción, alegría y recuerdos: así se vivió en Córdoba el paso de León XIV",
+            "El testimonio del padre Martín Carranza conmovió a León XIV y a los fieles en Có"
           ]
         }
       }
@@ -157,8 +140,14 @@
       "leidas": 50,
       "aceptadas": 0,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "“Bendecime a mí y a mi familia”, el pedido conmovedor de un niño a León XIV en C"
+          ]
+        },
         "muy vieja": {
-          "cantidad": 50,
+          "cantidad": 49,
           "ejemplos": [
             "Operativo de seguridad por León XIV: qué establece el decreto sobre el control d",
             "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
