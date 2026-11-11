@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-10T23:32:55-03:00",
+  "actualizado": "2026-11-11T15:23:57-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,65 +7,96 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 97,
           "ejemplos": [
-            "Van más allá del reality show, Natalia Alcocer y Pablo Montero planean reencuent",
-            "Honduras: hallan desmembrado en el río Guayape a joven de 24 años y capturan a s",
-            "Banco de la Nación modifica horarios de atención en Lima y Lambayeque por visita"
+            "Miles de personas vuelven a las calles en Euskadi por el derecho a la vivienda",
+            "Anif anunció que respalda la ley de rescate fiscal, pero pide al Congreso amplia",
+            "Canal Sur Televisión se va a 'negro' por segunda vez en el día por la huelga gen"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Crece la demanda por las acciones de Anthropic antes de su salida a bolsa: cuánt"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Fuerte advertencia del Papa a los jóvenes por las redes, el dinero y la pornogra"
+            "Reunión reservada del papa León XIV con empresarios argentinos y diplomáticos: d"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 87,
-      "aceptadas": 2,
+      "leidas": 90,
+      "aceptadas": 8,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 9,
+        "sin ancla argentina": {
+          "cantidad": 2,
           "ejemplos": [
-            "Alejandra Monteoliva mostró cómo se monitorea el despliegue de fuerzas de seguri",
-            "El emotivo discurso de León XIV ante una multitud de jóvenes: “No permitan que n",
-            "Lo que dejará la exitosa gira papal"
+            "Oficialismo y oposición coincidieron en la celebración de la figura de León XIV:",
+            "En el Gobierno admiten desorden en la gestión y preocupa el cortocircuito con Bu"
           ]
         },
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 76,
           "ejemplos": [
-            "Papa León XIV en la Argentina, EN VIVO: visita a la Catedral en Córdoba y todo s",
-            "Se fugó Leonardo Bertulazzi, exmiembro de las Brigadas Rojas italianas, mientras",
-            "“La juventud está muy necesitada”: tienen entre 15 y 35, y dan la bienvenida al "
+            "Rating: cuánto midió la transmisión de la multitudinaria misa del papa León XIV ",
+            "Papa León XIV en la Argentina, EN VIVO: la misa en Luján y la despedida en Ezeiz",
+            "Rusia anunció que murió “repentinamente” su embajador en Estados Unidos, Alexand"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
           "ejemplos": [
-            "Se disparó la soja: el precio en el mercado internacional aumentó US$14,6 por to"
+            "El Papa celebró su última misa ante una multitud en Luján y se despidió con una ",
+            "“Salimos de la calle”. De vender pan a criar búfalos: la historia del comerciant",
+            "Una plataforma global de e-commerce llega a la Argentina para integrar ventas, s"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 0,
+      "descartadas": {
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Del colapso bancario a la caída presidencial: el entramado detrás de la crisis e"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Comenzó la I edición de Vabieka Fest en Argentina y, esta semana, es el turno de",
+            "Pensiones suspendidas y salud recortada: el panorama de la discapacidad que enco"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 7,
+          "ejemplos": [
+            "La noche que un pueblo argentino corrió a tres ingleses",
+            "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
+            "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
-      "leidas": 7,
-      "aceptadas": 1,
+      "leidas": 4,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 4,
           "ejemplos": [
-            "El papa León XIV en Argentina: la misa en Córdoba y la Vigilia con los jóvenes, ",
-            "León XIV, como Francisco, pidió “una Iglesia que siga haciendo lío”",
-            "Más de un millón de jóvenes se encontraron con el papa León XIV"
+            "Último día del papa León XIV en Argentina: la visita a la cárcel de Devoto, la m",
+            "“Gracias por recibirme con los brazos abiertos”: la despedida de León XIV de la ",
+            "La homilía completa de León XIV en la misa en Luján"
           ]
         }
       }
@@ -73,52 +104,39 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 17,
           "ejemplos": [
-            "Música, fe y picardía cordobesa en el recibimiento a León XIV",
-            "Un millón de jóvenes escuchó al Papa, quien pidió “permanecer de pie ante los íd",
-            "La Selección arrancó la preparación para el amistoso del viernes frente a Urugua"
+            "Luquitas Rodríguez sorprendió al papa León XIV con su discurso: «el arte nos hac",
+            "La Academia Nacional de Ciencias abrirá sus puertas para la Noche de los Museos",
+            "Un automovilista atropelló a un peatón y chocó contra un cantero central"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Lanzan un concurso internacional de fotografía sobre la crisis climática"
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "leidas": 80,
-      "aceptadas": 1,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 20,
-          "ejemplos": [
-            "León XIV dejó Córdoba y volvió a destacar las figuras de Brochero y Mama Antula",
-            "León XIV en Córdoba: misa multitudinaria y saludo desde el balcón del Arzobispad",
-            "Un año del Mirador Obelisco: nuevas formas de vivir un ícono porteño"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 59,
-          "ejemplos": [
-            "El papa León XIV reclamó cuidar la democracia, límites al poder y “convivir en l",
-            "El Papa llegó a Buenos Aires: León XIV pisó suelo argentino y fue recibido por e",
-            "Un terremoto de magnitud 5,7 sacudió Japón y dejó al menos 23 heridos"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (IncompleteRead(64245 bytes read))"
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 20,
           "ejemplos": [
-            "Una referente de los DDHH fue parte del encuentro privado con León XIV en Córdob",
-            "Emoción, alegría y recuerdos: así se vivió en Córdoba el paso de León XIV",
-            "El testimonio del padre Martín Carranza conmovió a León XIV y a los fieles en Có"
+            "El papa León XIV se despidió de la Argentina y partió rumbo a Perú",
+            "Irán declaró terroristas a la Armada y la Fuerza Aérea argentinas",
+            "DNI y pasaporte más caros: los nuevos valores y desde cuándo habrá que pagarlos"
           ]
         }
       }
