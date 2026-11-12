@@ -1,59 +1,47 @@
 {
-  "actualizado": "2026-11-11T15:23:57-03:00",
+  "actualizado": "2026-11-12T00:37:45-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 100,
           "ejemplos": [
-            "Miles de personas vuelven a las calles en Euskadi por el derecho a la vivienda",
-            "Anif anunció que respalda la ley de rescate fiscal, pero pide al Congreso amplia",
-            "Canal Sur Televisión se va a 'negro' por segunda vez en el día por la huelga gen"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Crece la demanda por las acciones de Anthropic antes de su salida a bolsa: cuánt"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Reunión reservada del papa León XIV con empresarios argentinos y diplomáticos: d"
+            "Qué ocurrió con los 31 migrantes dominicanos interceptados por la Guardia Coster",
+            "El botón HD no basta: así se envían fotos en calidad real por WhatsApp",
+            "Comercios chinos suelen irrespetar la ley, afirmó el ministro de Trabajo dominic"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 8,
+      "leidas": 95,
+      "aceptadas": 1,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 2,
+        "sección no permitida": {
+          "cantidad": 86,
           "ejemplos": [
-            "Oficialismo y oposición coincidieron en la celebración de la figura de León XIV:",
-            "En el Gobierno admiten desorden en la gestión y preocupa el cortocircuito con Bu"
+            "La agenda de la TV del jueves: Italia, Francia, España e Inglaterra en la Liga d",
+            "Poetas de la buena mesa",
+            "Malvinas: el valor de la prudencia"
           ]
         },
-        "sección no permitida": {
-          "cantidad": 76,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
           "ejemplos": [
-            "Rating: cuánto midió la transmisión de la multitudinaria misa del papa León XIV ",
-            "Papa León XIV en la Argentina, EN VIVO: la misa en Luján y la despedida en Ezeiz",
-            "Rusia anunció que murió “repentinamente” su embajador en Estados Unidos, Alexand"
+            "Ecos de una visita histórica: lo que dijo el Papa en la Argentina vs. lo que pie",
+            "Condenaron al policía que gaseó a una niña de 10 años en una manifestación frent"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 6,
           "ejemplos": [
-            "El Papa celebró su última misa ante una multitud en Luján y se despidió con una ",
-            "“Salimos de la calle”. De vender pan a criar búfalos: la historia del comerciant",
-            "Una plataforma global de e-commerce llega a la Argentina para integrar ventas, s"
+            "Los elegidos del Papa. Marcados por el abandono, la enfermedad o la tragedia, Le",
+            "Emigraron a España en 2001 y hoy tienen un restaurante y dos alojamientos en un ",
+            "El líder tímido que transformó el ánimo colectivo"
           ]
         }
       }
@@ -94,9 +82,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
-            "Último día del papa León XIV en Argentina: la visita a la cárcel de Devoto, la m",
-            "“Gracias por recibirme con los brazos abiertos”: la despedida de León XIV de la ",
-            "La homilía completa de León XIV en la misa en Luján"
+            "El Papa que camina sobre la huella de Francisco",
+            "“Su mensaje habla por los necesitados del pueblo”",
+            "El conurbano oeste también salió a saludar a León XIV"
           ]
         }
       }
@@ -104,39 +92,71 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 15,
           "ejemplos": [
-            "Luquitas Rodríguez sorprendió al papa León XIV con su discurso: «el arte nos hac",
-            "La Academia Nacional de Ciencias abrirá sus puertas para la Noche de los Museos",
-            "Un automovilista atropelló a un peatón y chocó contra un cantero central"
+            "Instituto y Belgrano ya conocen cuándo jugarán por los octavos de final",
+            "Una práctica y muchas dudas: Scaloni perfila el once para el amistoso ante Urugu",
+            "León XIV llegó a Perú para una visita marcada por la emoción y el reencuentro"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Lanzan un concurso internacional de fotografía sobre la crisis climática"
+            "La Iglesia manifestó su “sorpresa” por la “carpa VIP” dispuesta por el Gobierno "
           ]
         }
       }
     },
     {
       "medio": "Comercio y Justicia",
-      "error": "no se pudo leer el feed (IncompleteRead(64245 bytes read))"
+      "leidas": 80,
+      "aceptadas": 10,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 28,
+          "ejemplos": [
+            "Detuvieron en el aeropuerto de Ezeiza a la pareja de Lázaro Báez",
+            "Sancor Seguros lanzó Asistencia al Viajero y lleva su respuesta a todo el mundo",
+            "Desarrollan nueva tecnología para la plantación de precisión de caña de azúcar"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Caso Rudnev: juez rechazó suspender nueva internación y ordenó al Ministerio con"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 41,
+          "ejemplos": [
+            "IA y Justicia: la técnica, subordinada",
+            "El doble cerrojo de la arbitrariedad en las instituciones cristianas",
+            "León XIV en la UCA: “El trabajo no es un instrumento de conflicto sino que ayuda"
+          ]
+        }
+      }
     },
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 17,
           "ejemplos": [
-            "El papa León XIV se despidió de la Argentina y partió rumbo a Perú",
-            "Irán declaró terroristas a la Armada y la Fuerza Aérea argentinas",
-            "DNI y pasaporte más caros: los nuevos valores y desde cuándo habrá que pagarlos"
+            "Willy Easdale llega a Córdoba con su espectáculo «Cosmos - Duo Loop Set»",
+            "Débora Koraj trabaja en la construcción y formó parte de la reunión con el papa ",
+            "Estudiantes cordobeses buscan soluciones para los desafíos de la movilidad del f"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Crisis en Paraguay: “Ueno Bank”, vaciamiento financiero y renuncia del president",
+            "El Gobierno rechazó que Irán declare terroristas a la Armada y la Fuerza Aérea"
           ]
         }
       }
