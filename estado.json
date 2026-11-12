@@ -1,47 +1,60 @@
 {
-  "actualizado": "2026-11-12T00:37:45-03:00",
+  "actualizado": "2026-11-12T15:41:52-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 98,
           "ejemplos": [
-            "Qué ocurrió con los 31 migrantes dominicanos interceptados por la Guardia Coster",
-            "El botón HD no basta: así se envían fotos en calidad real por WhatsApp",
-            "Comercios chinos suelen irrespetar la ley, afirmó el ministro de Trabajo dominic"
+            "Universitario habría fichado jugador de Sport Boys para el 2027: el segundo refu",
+            "Lionel Scaloni explicó por qué cambió de opinión y decidió renovar con la selecc",
+            "El golpe más duro para el ciclismo español: el calvario de Joan Roca que le obli"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El trasfondo de la fuerte discusión entre Pettovello y Barrionuevo antes del dis"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 1,
+      "leidas": 96,
+      "aceptadas": 8,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 86,
+          "cantidad": 75,
           "ejemplos": [
-            "La agenda de la TV del jueves: Italia, Francia, España e Inglaterra en la Liga d",
-            "Poetas de la buena mesa",
-            "Malvinas: el valor de la prudencia"
+            "Un jugador quedó inconsciente tras recibir un violento golpe en un partido de ho",
+            "República Checa vs. España: horario y dónde ver el partido de la Nations League ",
+            "Lionel Scaloni, en vivo"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+        "sin ancla argentina": {
+          "cantidad": 5,
           "ejemplos": [
-            "Ecos de una visita histórica: lo que dijo el Papa en la Argentina vs. lo que pie",
-            "Condenaron al policía que gaseó a una niña de 10 años en una manifestación frent"
+            "Bullrich avisa que el oficialismo “está listo” para tratar la ley de Discapacida",
+            "Inflación de octubre, EN VIVO: cuál es el IPC acumulado y qué proyectan las cons",
+            "Estatuto del Periodista: se acerca el plazo para su derogación y las iniciativas"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Consiguieron varios millones y quieren ser el banco más grande de Latinoamérica"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 7,
           "ejemplos": [
-            "Los elegidos del Papa. Marcados por el abandono, la enfermedad o la tragedia, Le",
-            "Emigraron a España en 2001 y hoy tienen un restaurante y dos alojamientos en un ",
-            "El líder tímido que transformó el ánimo colectivo"
+            "La Corte falló a favor de una madre que reclama educación inclusiva para su hija",
+            "Tras nueve meses: reemplazan un puente de 1930 que se derrumbó por tubos de ceme",
+            "Quién es “Budín”, la mano derecha de Lázaro Báez salpicado por una causa de lava"
           ]
         }
       }
@@ -76,15 +89,15 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 0,
+      "leidas": 6,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 5,
           "ejemplos": [
-            "El Papa que camina sobre la huella de Francisco",
-            "“Su mensaje habla por los necesitados del pueblo”",
-            "El conurbano oeste también salió a saludar a León XIV"
+            "Retirada multinacional y traspaso a grupos locales",
+            "Lionel Scaloni seguirá como DT de la Selección hasta 2030",
+            "Renunció el CEO de Nvidia tras el escándalo por su romance con una supuesta espí"
           ]
         }
       }
@@ -92,20 +105,22 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 15,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 3,
           "ejemplos": [
-            "Instituto y Belgrano ya conocen cuándo jugarán por los octavos de final",
-            "Una práctica y muchas dudas: Scaloni perfila el once para el amistoso ante Urugu",
-            "León XIV llegó a Perú para una visita marcada por la emoción y el reencuentro"
+            "El Festival Internacional de Jazz de Córdoba celebrará su 17ª edición con artist",
+            "Femicidio Micaela García: la Fiscalía pidió perpetua para Pavón",
+            "Instituto y la UTN Córdoba avanzan en un proyecto de sustentabilidad"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 14,
           "ejemplos": [
-            "La Iglesia manifestó su “sorpresa” por la “carpa VIP” dispuesta por el Gobierno "
+            "La maratón de Racing por sus 120 años: cómo anotarse para participar gratis",
+            "De encargado en una panadería a crear «Mi Bolsillo»: una app cordobesa para orde",
+            "Argentina ganó el Oro en los Juegos Olímpicos de la Juventud 2026"
           ]
         }
       }
@@ -113,28 +128,29 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 10,
+      "aceptadas": 17,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 28,
+          "cantidad": 26,
           "ejemplos": [
-            "Detuvieron en el aeropuerto de Ezeiza a la pareja de Lázaro Báez",
-            "Sancor Seguros lanzó Asistencia al Viajero y lleva su respuesta a todo el mundo",
-            "Desarrollan nueva tecnología para la plantación de precisión de caña de azúcar"
+            "La ARCA reglamentó la reducción del 50% en multas por deberes formales para mipy",
+            "Córdoba: asesinaron a un repartidor que defendió a dos adolescentes de un robo",
+            "Tiroteo en Washington: al menos cinco personas heridas"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "El Gobierno sorprende y busca aprobar en dos semanas la suspensión de las PASO e",
             "Caso Rudnev: juez rechazó suspender nueva internación y ordenó al Ministerio con"
           ]
         },
         "muy vieja": {
-          "cantidad": 41,
+          "cantidad": 35,
           "ejemplos": [
-            "IA y Justicia: la técnica, subordinada",
-            "El doble cerrojo de la arbitrariedad en las instituciones cristianas",
-            "León XIV en la UCA: “El trabajo no es un instrumento de conflicto sino que ayuda"
+            "León XIV en Córdoba: misa multitudinaria y saludo desde el balcón del Arzobispad",
+            "Un año del Mirador Obelisco: nuevas formas de vivir un ícono porteño",
+            "Cinco curiosidades sobre los pingüinos de Magallanes para descubrir en la Patago"
           ]
         }
       }
@@ -142,21 +158,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
-            "Willy Easdale llega a Córdoba con su espectáculo «Cosmos - Duo Loop Set»",
-            "Débora Koraj trabaja en la construcción y formó parte de la reunión con el papa ",
-            "Estudiantes cordobeses buscan soluciones para los desafíos de la movilidad del f"
+            "Fuerte operativo policial en Córdoba por el show de Romeo Santos y Prince Royce",
+            "Violencia en Córdoba: repartidores atacaron un auto en pleno centro",
+            "Cuánto cuesta la Yamaha NMAX en Argentina y qué novedades trae la versión 2027 p"
           ]
         },
-        "otro país": {
-          "cantidad": 2,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Crisis en Paraguay: “Ueno Bank”, vaciamiento financiero y renuncia del president",
-            "El Gobierno rechazó que Irán declare terroristas a la Armada y la Fuerza Aérea"
+            "La UTN analizará el consumo de Instituto para reducir sus gastos de funcionamien"
           ]
         }
       }
@@ -178,18 +193,12 @@
       "leidas": 50,
       "aceptadas": 0,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "“Bendecime a mí y a mi familia”, el pedido conmovedor de un niño a León XIV en C"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 49,
+          "cantidad": 50,
           "ejemplos": [
+            "“Bendecime a mí y a mi familia”, el pedido conmovedor de un niño a León XIV en C",
             "Operativo de seguridad por León XIV: qué establece el decreto sobre el control d",
-            "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: ",
-            "Dante Sica, tras la reelección de Lula: “Lo que tenemos que rogar es que Brasil "
+            "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: "
           ]
         }
       }
