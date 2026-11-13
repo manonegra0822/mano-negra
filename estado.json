@@ -1,23 +1,17 @@
 {
-  "actualizado": "2026-11-12T15:41:52-03:00",
+  "actualizado": "2026-11-13T00:09:51-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 100,
           "ejemplos": [
-            "Universitario habría fichado jugador de Sport Boys para el 2027: el segundo refu",
-            "Lionel Scaloni explicó por qué cambió de opinión y decidió renovar con la selecc",
-            "El golpe más duro para el ciclismo español: el calvario de Joan Roca que le obli"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El trasfondo de la fuerte discusión entre Pettovello y Barrionuevo antes del dis"
+            "Martín Fierro de Cable 2026: todos los ganadores en vivo de la gran noche de la ",
+            "Receta de avena con manzana caramelizada y canela: desayuno saludable listo en 5",
+            "El programa de búfalos en Cuba, entre la caída del rebaño y la falta de datos pú"
           ]
         }
       }
@@ -25,36 +19,30 @@
     {
       "medio": "La Nación",
       "leidas": 96,
-      "aceptadas": 8,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 82,
           "ejemplos": [
-            "Un jugador quedó inconsciente tras recibir un violento golpe en un partido de ho",
-            "República Checa vs. España: horario y dónde ver el partido de la Nations League ",
-            "Lionel Scaloni, en vivo"
+            "Ni departamentos ni casas frente al mar: qué buscan los argentinos que miran pro",
+            "Vive en Alemania pero se hizo una casita en su Mérida natal",
+            "Pablo Quirno, el cruzado de la fe en el león que no es Papa"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 5,
+          "cantidad": 3,
           "ejemplos": [
-            "Bullrich avisa que el oficialismo “está listo” para tratar la ley de Discapacida",
-            "Inflación de octubre, EN VIVO: cuál es el IPC acumulado y qué proyectan las cons",
-            "Estatuto del Periodista: se acerca el plazo para su derogación y las iniciativas"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Consiguieron varios millones y quieren ser el banco más grande de Latinoamérica"
+            "“Los empresarios son benefactores sociales”, dijo el Presidente en la Gala Endea",
+            "El Senado fijó fecha para debatir la suspensión de las PASO, en medio de la tens",
+            "Hubo 82.000 contrataciones con beneficios de la reforma laboral, pero el empleo "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 9,
           "ejemplos": [
-            "La Corte falló a favor de una madre que reclama educación inclusiva para su hija",
-            "Tras nueve meses: reemplazan un puente de 1930 que se derrumbó por tubos de ceme",
-            "Quién es “Budín”, la mano derecha de Lázaro Báez salpicado por una causa de lava"
+            "Una empresa agropecuaria de Tandil acumula cheques rechazados por más de $2200 m",
+            "“Kiosco de la casta”: productores autoconvocados de todo el país apuntaron contr",
+            "León XIV caminó en la Argentina sobre las huellas del papa Francisco"
           ]
         }
       }
@@ -90,14 +78,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 3,
           "ejemplos": [
-            "Retirada multinacional y traspaso a grupos locales",
-            "Lionel Scaloni seguirá como DT de la Selección hasta 2030",
-            "Renunció el CEO de Nvidia tras el escándalo por su romance con una supuesta espí"
+            "Ya ni el desodorante y la lavandina se venden",
+            "La Corte falló a favor de la educación inclusiva para una niña con discapacidad",
+            "Leon XIV pidió “verdad, justicia, perdón y reparación”"
           ]
         }
       }
@@ -105,22 +93,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 7,
       "descartadas": {
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 3,
+        "titular sin tema de política/economía": {
+          "cantidad": 12,
           "ejemplos": [
-            "El Festival Internacional de Jazz de Córdoba celebrará su 17ª edición con artist",
-            "Femicidio Micaela García: la Fiscalía pidió perpetua para Pavón",
-            "Instituto y la UTN Córdoba avanzan en un proyecto de sustentabilidad"
+            "Tragedia en las Altas Cumbres: determinan responsabilidad compartida de González",
+            "Los obispos argentinos le enviaron una carta de agradecimiento al papa LeónXIV",
+            "Detuvieron al profesor de rugby acusado de golpear brutalmente a un cliente"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 14,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "La maratón de Racing por sus 120 años: cómo anotarse para participar gratis",
-            "De encargado en una panadería a crear «Mi Bolsillo»: una app cordobesa para orde",
-            "Argentina ganó el Oro en los Juegos Olímpicos de la Juventud 2026"
+            "Condenaron al hijo de Lázaro Báez y exfuncionarios por corrupción en la obra púb"
           ]
         }
       }
@@ -128,14 +114,20 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 17,
+      "aceptadas": 18,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 26,
           "ejemplos": [
+            "El empleo asalariado privado sumó 15 meses seguidos en baja",
             "La ARCA reglamentó la reducción del 50% en multas por deberes formales para mipy",
-            "Córdoba: asesinaron a un repartidor que defendió a dos adolescentes de un robo",
-            "Tiroteo en Washington: al menos cinco personas heridas"
+            "Córdoba: asesinaron a un repartidor que defendió a dos adolescentes de un robo"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Vialidad II: condenaron al hijo de Lázaro Báez y a exfuncionarios por corrupción"
           ]
         },
         "otro país": {
@@ -146,11 +138,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 35,
+          "cantidad": 33,
           "ejemplos": [
-            "León XIV en Córdoba: misa multitudinaria y saludo desde el balcón del Arzobispad",
-            "Un año del Mirador Obelisco: nuevas formas de vivir un ícono porteño",
-            "Cinco curiosidades sobre los pingüinos de Magallanes para descubrir en la Patago"
+            "El gasto público bajó 9,7%, con mayor incidencia en las transferencias a las pro",
+            "León XIV dejó Córdoba y volvió a destacar las figuras de Brochero y Mama Antula",
+            "León XIV en Córdoba: misa multitudinaria y saludo desde el balcón del Arzobispad"
           ]
         }
       }
@@ -158,20 +150,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
-            "Fuerte operativo policial en Córdoba por el show de Romeo Santos y Prince Royce",
-            "Violencia en Córdoba: repartidores atacaron un auto en pleno centro",
-            "Cuánto cuesta la Yamaha NMAX en Argentina y qué novedades trae la versión 2027 p"
+            "Estudiantes ganó la Supercopa en Córdoba y llega entonado a la final de la Liber",
+            "“Luna Radio Encantamientos”: cuando la radio se convierte en un universo de hist",
+            "Sin el Cuti ni Lautaro: Scaloni definió quién llevará la cinta en la Selección"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "La UTN analizará el consumo de Instituto para reducir sus gastos de funcionamien"
+            "De aquel ascenso a jugar una copa internacional: el camino de Instituto, según A"
           ]
         }
       }
