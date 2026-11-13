@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T00:09:51-03:00",
+  "actualizado": "2026-11-13T15:23:48-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,42 +7,46 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 99,
           "ejemplos": [
-            "Martín Fierro de Cable 2026: todos los ganadores en vivo de la gran noche de la ",
-            "Receta de avena con manzana caramelizada y canela: desayuno saludable listo en 5",
-            "El programa de búfalos en Cuba, entre la caída del rebaño y la falta de datos pú"
+            "Jamaica vs México, EN VIVO: cuándo y dónde ver el partido de los cuartos de fina",
+            "Rockstar advierte que demandará a quienes intenten llevar GTA 6 a PC mediante in",
+            "Expulsado a Marruecos un imán radical en Huelva investigado por la Guardia Civil"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Alquilar ya no es una etapa: cada vez más hogares de entre 30 y 49 años no logra"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 2,
+      "leidas": 94,
+      "aceptadas": 8,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 82,
+          "cantidad": 81,
           "ejemplos": [
-            "Ni departamentos ni casas frente al mar: qué buscan los argentinos que miran pro",
-            "Vive en Alemania pero se hizo una casita en su Mérida natal",
-            "Pablo Quirno, el cruzado de la fe en el león que no es Papa"
+            "Gabriel Rolón, sobre la conciencia de la muerte: “Ser humano es vivir con el sen",
+            "River vs. Inter Miami: qué se sabe de la venta de entradas para el amistoso en e",
+            "“Había muchísimo olor a gas”: el dramático relato de los vecinos afectados por l"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "“Los empresarios son benefactores sociales”, dijo el Presidente en la Gala Endea",
-            "El Senado fijó fecha para debatir la suspensión de las PASO, en medio de la tens",
-            "Hubo 82.000 contrataciones con beneficios de la reforma laboral, pero el empleo "
+            "El Banco Central dio de baja la billetera virtual del financista ligado a la AFA"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 4,
           "ejemplos": [
-            "Una empresa agropecuaria de Tandil acumula cheques rechazados por más de $2200 m",
-            "“Kiosco de la casta”: productores autoconvocados de todo el país apuntaron contr",
-            "León XIV caminó en la Argentina sobre las huellas del papa Francisco"
+            "Los audios que complican a Lázaro Báez y revelan cómo operaba desde la cárcel pa",
+            "La CGT y los movimientos sociales pronostican un aumento de la conflictividad so",
+            "Malvinas: la experiencia de un cineasta que se animó a mirar de frente una reali"
           ]
         }
       }
@@ -52,21 +56,22 @@
       "leidas": 10,
       "aceptadas": 0,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Cuando las iglesias evangélicas se tiñen de violeta",
+            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
+            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Del colapso bancario a la caída presidencial: el entramado detrás de la crisis e"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Comenzó la I edición de Vabieka Fest en Argentina y, esta semana, es el turno de",
-            "Pensiones suspendidas y salud recortada: el panorama de la discapacidad que enco"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 4,
           "ejemplos": [
             "La noche que un pueblo argentino corrió a tres ingleses",
             "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
@@ -78,14 +83,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 6,
           "ejemplos": [
-            "Ya ni el desodorante y la lavandina se venden",
-            "La Corte falló a favor de la educación inclusiva para una niña con discapacidad",
-            "Leon XIV pidió “verdad, justicia, perdón y reparación”"
+            "La Corte buscó que pasara bajo el radar su guiño a los represores",
+            "Tragedia en Remedios de Escalada: pincharon un caño de gas y explotó un comercio",
+            "Explosión de un caño de gas en Remedios de Escalada: las imágenes del siniestro"
           ]
         }
       }
@@ -93,20 +98,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 18,
           "ejemplos": [
-            "Tragedia en las Altas Cumbres: determinan responsabilidad compartida de González",
-            "Los obispos argentinos le enviaron una carta de agradecimiento al papa LeónXIV",
-            "Detuvieron al profesor de rugby acusado de golpear brutalmente a un cliente"
+            "León XIV reunió a más de un millón de fieles en una misa en Perú",
+            "Argentina enfrenta a Uruguay en La Bombonera: hora, TV y probables formaciones",
+            "Alerta por tormentas severas en Córdoba: prevén ráfagas de 90 km/h y granizo"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Condenaron al hijo de Lázaro Báez y exfuncionarios por corrupción en la obra púb"
+            "Argentina recibe a Uruguay, Los Pumas enfrentan a Italia y tenis internacional",
+            "Noche de los CPC: una oportunidad de hacer trámites y gestiones municipales"
           ]
         }
       }
@@ -114,35 +120,35 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 18,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 26,
+          "cantidad": 30,
           "ejemplos": [
-            "El empleo asalariado privado sumó 15 meses seguidos en baja",
-            "La ARCA reglamentó la reducción del 50% en multas por deberes formales para mipy",
-            "Córdoba: asesinaron a un repartidor que defendió a dos adolescentes de un robo"
+            "Revés para el exjuez Salmain: rechazaron su pedido para ser sobreseído en una ca",
+            "Aprobaron ordenanza en Malagueño para asesorar a vecinos ante ciberdelitos y hos",
+            "Convocan a audiencia pública para cubrir Registros Notariales en Córdoba"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Llaryora anunció el regreso del Rally Mundial a Córdoba: será en 2028",
             "Vialidad II: condenaron al hijo de Lázaro Báez y a exfuncionarios por corrupción"
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "El Gobierno sorprende y busca aprobar en dos semanas la suspensión de las PASO e",
-            "Caso Rudnev: juez rechazó suspender nueva internación y ordenó al Ministerio con"
+            "El Gobierno sorprende y busca aprobar en dos semanas la suspensión de las PASO e"
           ]
         },
         "muy vieja": {
-          "cantidad": 33,
+          "cantidad": 31,
           "ejemplos": [
-            "El gasto público bajó 9,7%, con mayor incidencia en las transferencias a las pro",
-            "León XIV dejó Córdoba y volvió a destacar las figuras de Brochero y Mama Antula",
-            "León XIV en Córdoba: misa multitudinaria y saludo desde el balcón del Arzobispad"
+            "Visita papal: el impacto económico y turístico por la presencia de León XIV",
+            "Avanza la reforma del Código Civil: una comisión debatirá los derechos de los an",
+            "El Gobierno reordena el acceso gratuito al DNI y regula los operativos de docume"
           ]
         }
       }
@@ -150,20 +156,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 18,
           "ejemplos": [
-            "Estudiantes ganó la Supercopa en Córdoba y llega entonado a la final de la Liber",
-            "“Luna Radio Encantamientos”: cuando la radio se convierte en un universo de hist",
-            "Sin el Cuti ni Lautaro: Scaloni definió quién llevará la cinta en la Selección"
+            "Jornada de Puertas Abiertas en la FCEFyN: cuándo y cómo participar",
+            "Córdoba tendrá la Noche de los CPC para realizar trámites",
+            "El Turismo Carretera vuelve a Río Cuarto tras 14 años y estrena circuito renovad"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "De aquel ascenso a jugar una copa internacional: el camino de Instituto, según A"
+            "Cayó una banda narco en Córdoba: 11 detenidos y millones de pesos incautados"
           ]
         }
       }
