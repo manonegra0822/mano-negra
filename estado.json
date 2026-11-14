@@ -1,54 +1,46 @@
 {
-  "actualizado": "2026-11-13T23:54:59-03:00",
+  "actualizado": "2026-11-14T13:51:35-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Gol de Gianluca Lapadula, con remate potente, en Perú vs Bolivia por amistoso de",
-            "Perú 2-0 Bolivia EN VIVO HOY: minuto a minuto del partido amistoso en Matute por",
-            "La Fiscalía de Paraguay identificó fondos de Ueno Bank en el exterior y prepara "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Demoras y desvío: qué pasa con los vuelos programados para hoy desde Argentina a"
+            "Capturaron en Antioquia a alias ‘Primo Gay’, señalado cabecilla de disidencias d",
+            "El diagnóstico de “precáncer de esófago” que hizo reaccionar a Travis Barker: “P",
+            "Ministro de Hacienda se reunió con representantes del Banco Mundial para exponer"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 96,
-      "aceptadas": 2,
+      "leidas": 88,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 82,
+          "cantidad": 70,
           "ejemplos": [
-            "Una cobertura fuera de la zona de prensa: LA NACION estuvo en la Bombonera en un",
-            "Sobreseyeron al experto en comunicaciones que quiso llegar hasta el escenario de",
-            "Lionel Scaloni habló de la Bombonera semivacía, defendió a los jóvenes y explicó"
+            "Papa León XIV en Perú, EN VIVO: la misa en Santa Cruz de Succhabamba hoy, minuto",
+            "El explosivo mensaje de La China Suárez contra Wanda Nara: “Yo no tengo antecede",
+            "TPS para venezolanos: el Uscis advierte sobre quienes ofrecen presentar formular"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 12,
           "ejemplos": [
-            "Molinos Rio de la Plata anunció la compra de Tía Maruca",
-            "Piden informes a dos empresas vinculadas a los Menem por su contratación en los ",
-            "Se vendió Burger King en la Argentina: Manzano cada vez más cerca"
+            "En agosto hubo 139 empresas registradas menos y ya son 10.234 en el acumulado an",
+            "Con el apoyo de Elon Musk, una petición con casi 90.000 firmas exige que Jensen ",
+            "Nahuel Gallo: “A veces siento que se sacaron la foto y se olvidaron de mí”"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 4,
+          "cantidad": 1,
           "ejemplos": [
-            "Un fallo rechaza la movilidad jubilatoria de Alberto Fernández y ordena aplicar ",
-            "Para más de 50.000 hectáreas: el PRO reclama por un proyecto que permite la siem",
-            "Contraste: cayó un 11,2% el consumo de carne vacuna y, por primera vez en la his"
+            "Para más de 50.000 hectáreas: el PRO reclama por un proyecto que permite la siem"
           ]
         }
       }
@@ -85,14 +77,20 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
-            "EE.UU. suspendió todos los vuelos por razones de seguridad aérea y desató un cao",
-            "Cómo afecta la suspensión de vuelos en Estados Unidos a las salidas programadas ",
-            "Escalada: un muerto y dos desaparecidos por la explosión que “fue como una bomba"
+            "Religión y fútbol",
+            "La Justicia declaró inconstitucional la movilidad jubilatoria de 2021",
+            "Gendarmería jugó a favor de Spagnuolo y la Rosada"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Gobierno de Trump atribuyó el caos aéreo a un sistema obsoleto"
           ]
         }
       }
@@ -100,14 +98,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 15,
           "ejemplos": [
-            "Se suspendió la Noche de los Museos debido a las condiciones climáticas",
-            "Argentina cayó por 2-1 frente a Uruguay en La Bombonera",
-            "Inusual alerta: Estados Unidos suspendió todos los vuelos del país"
+            "De aquí para allá, las propuestas culturales para disfrutar el fin de semana",
+            "Piden investigar contratos de empresas vinculadas a los Menem en actos del Papa",
+            "María Becerra inició el Quimera Tour en el Movistar Arena: nueva era e invitados"
           ]
         }
       }
@@ -115,14 +113,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 15,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 32,
+          "cantidad": 26,
           "ejemplos": [
-            "La FAA suspendió todos los vuelos de salida en Estados Unidos por razones de seg",
-            "Por primera vez en 2026, el uso de la capacidad instalada en la industria superó",
-            "Justicia: presentan hoy el libro Juegos de azar en entornos digitales"
+            "Temporal en Córdoba: cuáles fueron las localidades más castigadas por las lluvia",
+            "Declaran inconstitucional la fórmula jubilatoria de Alberto Fernández y ordenan ",
+            "Levantan la suspensión de vuelos en Estados Unidos y se reanudan las operaciones"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -132,18 +130,12 @@
             "Vialidad II: condenaron al hijo de Lázaro Báez y a exfuncionarios por corrupción"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno sorprende y busca aprobar en dos semanas la suspensión de las PASO e"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 30,
+          "cantidad": 43,
           "ejemplos": [
-            "Economía renovó los vencimientos de deuda pero inyectó liquidez al mercado",
-            "Detuvieron en el aeropuerto de Ezeiza a la pareja de Lázaro Báez",
-            "El riesgo país volvió a bajar: cerró en 860 puntos básicos"
+            "Córdoba: asesinaron a un repartidor que defendió a dos adolescentes de un robo",
+            "Tiroteo en Washington: al menos cinco personas heridas",
+            "Magistratura: piden cambiar con “urgencia” el reglamento de selección de jueces"
           ]
         }
       }
@@ -151,21 +143,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 19,
           "ejemplos": [
-            "Sakura: un viaje musical por el universo de Studio Ghibli",
-            "Canticuénticos llega a Córdoba con un espectáculo para cantar y bailar en famili",
-            "Un SUV logró un resultado inédito en las pruebas de seguridad de Europa"
+            "Córdoba pone “en valor” a la Cañada con una modernización lumínica",
+            "Detienen a un hombre de 28 años en Córdoba, acusado de apuñalar a su padre",
+            "Toyota Hilux 2027: diseño renovado, motor híbrido de 48 V y opción eléctrica"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Fuerte tormenta en el sur de la provincia de Córdoba",
-            "El administrador de una mesa de dinero asesinó a un inversor por una deuda"
+            "Un futbolista de la Primera B Metropolitana fue baleado al intentar separar una "
           ]
         }
       }
