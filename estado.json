@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T15:23:48-03:00",
+  "actualizado": "2026-11-13T23:54:59-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,44 +9,46 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Jamaica vs México, EN VIVO: cuándo y dónde ver el partido de los cuartos de fina",
-            "Rockstar advierte que demandará a quienes intenten llevar GTA 6 a PC mediante in",
-            "Expulsado a Marruecos un imán radical en Huelva investigado por la Guardia Civil"
+            "Gol de Gianluca Lapadula, con remate potente, en Perú vs Bolivia por amistoso de",
+            "Perú 2-0 Bolivia EN VIVO HOY: minuto a minuto del partido amistoso en Matute por",
+            "La Fiscalía de Paraguay identificó fondos de Ueno Bank en el exterior y prepara "
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Alquilar ya no es una etapa: cada vez más hogares de entre 30 y 49 años no logra"
+            "Demoras y desvío: qué pasa con los vuelos programados para hoy desde Argentina a"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 8,
+      "leidas": 96,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 81,
+          "cantidad": 82,
           "ejemplos": [
-            "Gabriel Rolón, sobre la conciencia de la muerte: “Ser humano es vivir con el sen",
-            "River vs. Inter Miami: qué se sabe de la venta de entradas para el amistoso en e",
-            "“Había muchísimo olor a gas”: el dramático relato de los vecinos afectados por l"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Banco Central dio de baja la billetera virtual del financista ligado a la AFA"
+            "Una cobertura fuera de la zona de prensa: LA NACION estuvo en la Bombonera en un",
+            "Sobreseyeron al experto en comunicaciones que quiso llegar hasta el escenario de",
+            "Lionel Scaloni habló de la Bombonera semivacía, defendió a los jóvenes y explicó"
           ]
         },
         "titular sin tema de política/economía": {
+          "cantidad": 8,
+          "ejemplos": [
+            "Molinos Rio de la Plata anunció la compra de Tía Maruca",
+            "Piden informes a dos empresas vinculadas a los Menem por su contratación en los ",
+            "Se vendió Burger King en la Argentina: Manzano cada vez más cerca"
+          ]
+        },
+        "sin ancla argentina": {
           "cantidad": 4,
           "ejemplos": [
-            "Los audios que complican a Lázaro Báez y revelan cómo operaba desde la cárcel pa",
-            "La CGT y los movimientos sociales pronostican un aumento de la conflictividad so",
-            "Malvinas: la experiencia de un cineasta que se animó a mirar de frente una reali"
+            "Un fallo rechaza la movilidad jubilatoria de Alberto Fernández y ordena aplicar ",
+            "Para más de 50.000 hectáreas: el PRO reclama por un proyecto que permite la siem",
+            "Contraste: cayó un 11,2% el consumo de carne vacuna y, por primera vez en la his"
           ]
         }
       }
@@ -83,14 +85,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 0,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 4,
           "ejemplos": [
-            "La Corte buscó que pasara bajo el radar su guiño a los represores",
-            "Tragedia en Remedios de Escalada: pincharon un caño de gas y explotó un comercio",
-            "Explosión de un caño de gas en Remedios de Escalada: las imágenes del siniestro"
+            "EE.UU. suspendió todos los vuelos por razones de seguridad aérea y desató un cao",
+            "Cómo afecta la suspensión de vuelos en Estados Unidos a las salidas programadas ",
+            "Escalada: un muerto y dos desaparecidos por la explosión que “fue como una bomba"
           ]
         }
       }
@@ -98,21 +100,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 17,
           "ejemplos": [
-            "León XIV reunió a más de un millón de fieles en una misa en Perú",
-            "Argentina enfrenta a Uruguay en La Bombonera: hora, TV y probables formaciones",
-            "Alerta por tormentas severas en Córdoba: prevén ráfagas de 90 km/h y granizo"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Argentina recibe a Uruguay, Los Pumas enfrentan a Italia y tenis internacional",
-            "Noche de los CPC: una oportunidad de hacer trámites y gestiones municipales"
+            "Se suspendió la Noche de los Museos debido a las condiciones climáticas",
+            "Argentina cayó por 2-1 frente a Uruguay en La Bombonera",
+            "Inusual alerta: Estados Unidos suspendió todos los vuelos del país"
           ]
         }
       }
@@ -120,14 +115,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 16,
+      "aceptadas": 15,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 30,
+          "cantidad": 32,
           "ejemplos": [
-            "Revés para el exjuez Salmain: rechazaron su pedido para ser sobreseído en una ca",
-            "Aprobaron ordenanza en Malagueño para asesorar a vecinos ante ciberdelitos y hos",
-            "Convocan a audiencia pública para cubrir Registros Notariales en Córdoba"
+            "La FAA suspendió todos los vuelos de salida en Estados Unidos por razones de seg",
+            "Por primera vez en 2026, el uso de la capacidad instalada en la industria superó",
+            "Justicia: presentan hoy el libro Juegos de azar en entornos digitales"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -144,11 +139,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 31,
+          "cantidad": 30,
           "ejemplos": [
-            "Visita papal: el impacto económico y turístico por la presencia de León XIV",
-            "Avanza la reforma del Código Civil: una comisión debatirá los derechos de los an",
-            "El Gobierno reordena el acceso gratuito al DNI y regula los operativos de docume"
+            "Economía renovó los vencimientos de deuda pero inyectó liquidez al mercado",
+            "Detuvieron en el aeropuerto de Ezeiza a la pareja de Lázaro Báez",
+            "El riesgo país volvió a bajar: cerró en 860 puntos básicos"
           ]
         }
       }
@@ -156,20 +151,21 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 14,
           "ejemplos": [
-            "Jornada de Puertas Abiertas en la FCEFyN: cuándo y cómo participar",
-            "Córdoba tendrá la Noche de los CPC para realizar trámites",
-            "El Turismo Carretera vuelve a Río Cuarto tras 14 años y estrena circuito renovad"
+            "Sakura: un viaje musical por el universo de Studio Ghibli",
+            "Canticuénticos llega a Córdoba con un espectáculo para cantar y bailar en famili",
+            "Un SUV logró un resultado inédito en las pruebas de seguridad de Europa"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Cayó una banda narco en Córdoba: 11 detenidos y millones de pesos incautados"
+            "Fuerte tormenta en el sur de la provincia de Córdoba",
+            "El administrador de una mesa de dinero asesinó a un inversor por una deuda"
           ]
         }
       }
