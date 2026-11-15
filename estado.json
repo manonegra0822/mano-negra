@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-14T23:24:54-03:00",
+  "actualizado": "2026-11-15T14:34:19-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,58 +9,78 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Ataque armado deja sin vida a líder del PRI y a su esposa regidora en Veracruz",
-            "‘Stream Fighters 5′ EN VIVO: Cami Pulgarín y Samantha Correa disputan cinturón e",
-            "Alianza Lima 1-2 San Martín EN VIVO HOY: punto a punto del partidazo por fecha 5"
+            "'Jaleos', un documental que explora el origen del flamenco y su influencia ameri",
+            "Rusia advierte contra la reanudación de pruebas nucleares en el mundo",
+            "El papa reza el ángelus en la Plaza de Armas de Cusco, donde concentró a 500.000"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 5,
+      "leidas": 94,
+      "aceptadas": 11,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 81,
+          "cantidad": 65,
           "ejemplos": [
-            "El Masters femenino: Mirra Andreeva venció a Jessica Pegula, accedió a la final ",
-            "San Cirano venció a Curupaytí y volvió a la elite del rugby de Buenos Aires tras",
-            "El estilo “black and white” que eligió Antonela Roccuzzo para ir a Machu Picchu"
+            "Juan Quintero: “Soy el tipo que hace cantar en una ronda”",
+            "En qué canal pasan hoy Godoy Cruz vs. Tristán Suárez por el primer ascenso a la ",
+            "Papa León XIV en Perú, EN VIVO: el viaje a Cusco y Pucallpa hoy, minuto a minuto"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 15,
           "ejemplos": [
+            "Todo empezó con un inmigrante en 1898 y hoy, después de más de 100 años, mantien",
             "Un importante empresario del agro compró 10.000 hectáreas en una zona con condic",
-            "Malvinas: el camino de la diplomacia jurídica para la defensa pacífica de nuestr",
-            "Nahuel Gallo: “A veces siento que se sacaron la foto y se olvidaron de mí”"
+            "Calendario Anses: cuándo cobro la AUH en noviembre 2026 si mi DNI termina en 2"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "Ciclo económico de raíz política: ¿una idea relevante?",
-            "El Gobierno prioriza la negociación para eliminar las PASO y posterga la ofensiv"
+            "Para más de 50.000 hectáreas: el PRO reclama por un proyecto que permite la siem",
+            "Aguinaldo de diciembre 2026: cuándo se paga y el cálculo para saber cuánto se co",
+            "Salario empleo doméstico: cuánto cobran las niñeras y cuidadores de adultos en n"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
-    },
-    {
-      "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 3,
+      "leidas": 10,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "La Justicia declaró inconstitucional la movilidad jubilatoria de 2021",
+            "Cuando las iglesias evangélicas se tiñen de violeta",
+            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
+            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Del colapso bancario a la caída presidencial: el entramado detrás de la crisis e",
+            "Comenzó la I edición de Vabieka Fest en Argentina y, esta semana, es el turno de",
+            "Pensiones suspendidas y salud recortada: el panorama de la discapacidad que enco"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "Página/12",
+      "leidas": 6,
+      "aceptadas": 2,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 4,
+          "ejemplos": [
+            "El daño interno de un Papa bien informado",
             "Boca no se detiene y también jugará la final de la Copa Argentina",
-            "Cristo y lo no matable"
+            "Quiénes son Gustavo Romanello y Agustín Baccega, los dos argentinos detenidos po"
           ]
         }
       }
@@ -68,21 +88,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 14,
+          "ejemplos": [
+            "El 68% de los hogares argentinos no llega al día 20 del mes con sus ingresos",
+            "Argentina cuenta con la comunidad más grande del mundo en apoyo a los refugiados",
+            "Cortes de luz programados para este domingo en toda la provincia"
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 2,
           "ejemplos": [
             "Un obispo bien político / Vuelve el Rally Mundial / Siguen de interna",
             "Milei inaugurará una muestra sobre Belgrano en la Noche de los Museos"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 16,
-          "ejemplos": [
-            "Las fábulas de la Quinta de Olivos",
-            "La soberanía digital es un territorio a defender",
-            "Hallaron con vida a un hombre de 78 años que era buscado en Tinoco"
           ]
         }
       }
@@ -90,52 +110,35 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 7,
+      "aceptadas": 3,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Venta de autos eléctricos se dispara un 654% en 2026 a contramano del sector",
+            "Temporal en Córdoba: cuáles fueron las localidades más castigadas por las lluvia",
+            "Declaran inconstitucional la fórmula jubilatoria de Alberto Fernández y ordenan "
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Italia multó a Meta con casi 900 millones de dólares por acceder a fotos y video"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 24,
-          "ejemplos": [
-            "Temporal en Córdoba: cuáles fueron las localidades más castigadas por las lluvia",
-            "Declaran inconstitucional la fórmula jubilatoria de Alberto Fernández y ordenan ",
-            "Levantan la suspensión de vuelos en Estados Unidos y se reanudan las operaciones"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Llaryora anunció el regreso del Rally Mundial a Córdoba: será en 2028"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 47,
+          "cantidad": 69,
           "ejemplos": [
-            "El empleo asalariado privado sumó 15 meses seguidos en baja",
-            "La inflación del de octubre fue de 2,2%",
-            "Vialidad II: condenaron al hijo de Lázaro Báez y a exfuncionarios por corrupción"
+            "El Gobierno nacional lanzó una licitación para otorgar en concesión por peaje nu",
+            "Revés para el exjuez Salmain: rechazaron su pedido para ser sobreseído en una ca",
+            "Aprobaron ordenanza en Malagueño para asesorar a vecinos ante ciberdelitos y hos"
           ]
         }
       }
     },
     {
       "medio": "Cba24n",
-      "leidas": 20,
-      "aceptadas": 1,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 19,
-          "ejemplos": [
-            "En una final a puro rugby, Tala venció a La Tablada y festejó por duplicado",
-            "Boca no dejó dudas, goleó a Banfield y es finalista de la Copa Argentina",
-            "Informe especial: el camino y la continuidad de Lionel Scaloni en la Selección"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 484, column 0)"
     },
     {
       "medio": "Bunker Media",
