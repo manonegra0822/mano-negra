@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-14T13:51:35-03:00",
+  "actualizado": "2026-11-14T23:24:54-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,88 +9,58 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Capturaron en Antioquia a alias ‘Primo Gay’, señalado cabecilla de disidencias d",
-            "El diagnóstico de “precáncer de esófago” que hizo reaccionar a Travis Barker: “P",
-            "Ministro de Hacienda se reunió con representantes del Banco Mundial para exponer"
+            "Ataque armado deja sin vida a líder del PRI y a su esposa regidora en Veracruz",
+            "‘Stream Fighters 5′ EN VIVO: Cami Pulgarín y Samantha Correa disputan cinturón e",
+            "Alianza Lima 1-2 San Martín EN VIVO HOY: punto a punto del partidazo por fecha 5"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 88,
+      "leidas": 93,
       "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 70,
+          "cantidad": 81,
           "ejemplos": [
-            "Papa León XIV en Perú, EN VIVO: la misa en Santa Cruz de Succhabamba hoy, minuto",
-            "El explosivo mensaje de La China Suárez contra Wanda Nara: “Yo no tengo antecede",
-            "TPS para venezolanos: el Uscis advierte sobre quienes ofrecen presentar formular"
+            "El Masters femenino: Mirra Andreeva venció a Jessica Pegula, accedió a la final ",
+            "San Cirano venció a Curupaytí y volvió a la elite del rugby de Buenos Aires tras",
+            "El estilo “black and white” que eligió Antonela Roccuzzo para ir a Machu Picchu"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 5,
           "ejemplos": [
-            "En agosto hubo 139 empresas registradas menos y ya son 10.234 en el acumulado an",
-            "Con el apoyo de Elon Musk, una petición con casi 90.000 firmas exige que Jensen ",
+            "Un importante empresario del agro compró 10.000 hectáreas en una zona con condic",
+            "Malvinas: el camino de la diplomacia jurídica para la defensa pacífica de nuestr",
             "Nahuel Gallo: “A veces siento que se sacaron la foto y se olvidaron de mí”"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Para más de 50.000 hectáreas: el PRO reclama por un proyecto que permite la siem"
+            "Ciclo económico de raíz política: ¿una idea relevante?",
+            "El Gobierno prioriza la negociación para eliminar las PASO y posterga la ofensiv"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Cuando las iglesias evangélicas se tiñen de violeta",
-            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
-            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Del colapso bancario a la caída presidencial: el entramado detrás de la crisis e"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 4,
-          "ejemplos": [
-            "La noche que un pueblo argentino corrió a tres ingleses",
-            "Regresa una joya de Nintendo: “The Legend of Zelda: Ocarina of Time”",
-            "Llega a Córdoba un espectáculo musical y literario que celebra la vida y obra de"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
-            "Religión y fútbol",
             "La Justicia declaró inconstitucional la movilidad jubilatoria de 2021",
-            "Gendarmería jugó a favor de Spagnuolo y la Rosada"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno de Trump atribuyó el caos aéreo a un sistema obsoleto"
+            "Boca no se detiene y también jugará la final de la Copa Argentina",
+            "Cristo y lo no matable"
           ]
         }
       }
@@ -98,14 +68,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 2,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 15,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
           "ejemplos": [
-            "De aquí para allá, las propuestas culturales para disfrutar el fin de semana",
-            "Piden investigar contratos de empresas vinculadas a los Menem en actos del Papa",
-            "María Becerra inició el Quimera Tour en el Movistar Arena: nueva era e invitados"
+            "Un obispo bien político / Vuelve el Rally Mundial / Siguen de interna",
+            "Milei inaugurará una muestra sobre Belgrano en la Noche de los Museos"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 16,
+          "ejemplos": [
+            "Las fábulas de la Quinta de Olivos",
+            "La soberanía digital es un territorio a defender",
+            "Hallaron con vida a un hombre de 78 años que era buscado en Tinoco"
           ]
         }
       }
@@ -113,10 +90,16 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 9,
+      "aceptadas": 7,
       "descartadas": {
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Italia multó a Meta con casi 900 millones de dólares por acceder a fotos y video"
+          ]
+        },
         "titular sin tema de política/economía": {
-          "cantidad": 26,
+          "cantidad": 24,
           "ejemplos": [
             "Temporal en Córdoba: cuáles fueron las localidades más castigadas por las lluvia",
             "Declaran inconstitucional la fórmula jubilatoria de Alberto Fernández y ordenan ",
@@ -124,18 +107,17 @@
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Llaryora anunció el regreso del Rally Mundial a Córdoba: será en 2028",
-            "Vialidad II: condenaron al hijo de Lázaro Báez y a exfuncionarios por corrupción"
+            "Llaryora anunció el regreso del Rally Mundial a Córdoba: será en 2028"
           ]
         },
         "muy vieja": {
-          "cantidad": 43,
+          "cantidad": 47,
           "ejemplos": [
-            "Córdoba: asesinaron a un repartidor que defendió a dos adolescentes de un robo",
-            "Tiroteo en Washington: al menos cinco personas heridas",
-            "Magistratura: piden cambiar con “urgencia” el reglamento de selección de jueces"
+            "El empleo asalariado privado sumó 15 meses seguidos en baja",
+            "La inflación del de octubre fue de 2,2%",
+            "Vialidad II: condenaron al hijo de Lázaro Báez y a exfuncionarios por corrupción"
           ]
         }
       }
@@ -143,20 +125,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 19,
           "ejemplos": [
-            "Córdoba pone “en valor” a la Cañada con una modernización lumínica",
-            "Detienen a un hombre de 28 años en Córdoba, acusado de apuñalar a su padre",
-            "Toyota Hilux 2027: diseño renovado, motor híbrido de 48 V y opción eléctrica"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Un futbolista de la Primera B Metropolitana fue baleado al intentar separar una "
+            "En una final a puro rugby, Tala venció a La Tablada y festejó por duplicado",
+            "Boca no dejó dudas, goleó a Banfield y es finalista de la Copa Argentina",
+            "Informe especial: el camino y la continuidad de Lionel Scaloni en la Selección"
           ]
         }
       }
