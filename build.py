@@ -294,7 +294,7 @@ except Exception:  # pragma: no cover
 
 
 def detectar_rostros(url):
-    """Devuelve {"y0":…, "y1":…} (fracción de la altura de la foto que ocupan los rostros) o None.
+    """Devuelve {"x0","x1","y0","y1"} (fracción del ancho y de la altura de la foto que ocupan los rostros) o None.
     Solo se baja la imagen para medirla; no se guarda ni se publica copia."""
     if _DETECTOR is None:
         return None
@@ -320,8 +320,11 @@ def detectar_rostros(url):
         cajas = [c for c in cajas if c["height"] * c["width"] >= 0.45 * mayor]
         y0 = min(c["r"] for c in cajas) / alto
         y1 = max(c["r"] + c["height"] for c in cajas) / alto
-        # margen: frente arriba y cuello/mentón abajo
-        return {"y0": round(max(0.0, y0 - 0.06), 3), "y1": round(min(1.0, y1 + 0.06), 3)}
+        x0 = min(c["c"] for c in cajas) / ancho
+        x1 = max(c["c"] + c["width"] for c in cajas) / ancho
+        # margen: frente arriba y cuello/mentón abajo; a los costados, un poco de aire
+        return {"x0": round(max(0.0, x0 - 0.04), 3), "x1": round(min(1.0, x1 + 0.04), 3),
+                "y0": round(max(0.0, y0 - 0.06), 3), "y1": round(min(1.0, y1 + 0.06), 3)}
     except Exception as e:
         print(f"[aviso] no se pudo analizar la imagen {url[:60]} ({e})", file=sys.stderr)
         return None
@@ -656,7 +659,9 @@ def main():
             if img:
                 n["imagen"], n["imagen_credito"] = img, n["fuente"]
     print(f"[ok] {sum(1 for n in notas if n['imagen'])} de {len(notas)} notas con imagen")
-    cache_rostros = {v["imagen"]: v.get("rostros") for v in previo.get("notas", []) if v.get("imagen") and "rostros" in v}
+    # Las mediciones anteriores sin posición horizontal (x0/x1) se vuelven a medir
+    cache_rostros = {v["imagen"]: v.get("rostros") for v in previo.get("notas", [])
+                     if v.get("imagen") and "rostros" in v and (not v.get("rostros") or "x0" in v["rostros"])}
     for img in sin_analisis:  # medios que bloquean lecturas automáticas: no se descarga su imagen
         cache_rostros[img] = None
     # Encuadre: si hay rostros, la página centra la foto en ellos para no cortarlos

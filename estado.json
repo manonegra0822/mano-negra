@@ -1,22 +1,23 @@
 {
-  "actualizado": "2026-11-16T17:24:19-03:00",
+  "actualizado": "2026-11-16T17:27:30-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 95,
           "ejemplos": [
-            "Cardenal Carlos Castillo al papa León XIV: “Perú es un país clave y tú lo has vu",
-            "Nogueras rechaza \"lecciones\" de Rufián: \"Pedir perdón por ser catalán no es ser ",
-            "Temas del día de EFE España del martes 17 de noviembre de 2026"
+            "Receta de licuado de frutos rojos con leche, rápida y fácil",
+            "Grupo 5 y el furor que causó el \"Hosanna\" en versión cumbia tras la misa del pap",
+            "Elecciones generales España 29-N, en directo | Lula da Silva defiende que Sánche"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "La deuda pública registró una leve suba en octubre: los motivos detrás del aumen",
             "Los empleados bancarios tendrán un nuevo aumento en línea con la inflación: en c"
           ]
         },

@@ -179,7 +179,10 @@ def foto(n, clase, ancho, alto, prioridad=False):
     r = n.get("rostros")
     if isinstance(r, dict) and "y0" in r and "y1" in r:
         cy = max(8.0, min(92.0, (float(r["y0"]) + float(r["y1"])) / 2 * 100))
-        pos = f' style="object-position:50% {cy:.0f}%"'
+        cx = 50.0
+        if "x0" in r and "x1" in r:  # centra también en lo ancho, para que no se corten las caras a los costados
+            cx = max(8.0, min(92.0, (float(r["x0"]) + float(r["x1"])) / 2 * 100))
+        pos = f' style="object-position:{cx:.0f}% {cy:.0f}%"'
     carga = 'fetchpriority="high" decoding="async"' if prioridad else 'loading="lazy" decoding="async"'
     credito = f'<figcaption>(Foto: {e(n.get("imagen_credito") or n["fuente"])})</figcaption>' if clase == "foto-principal" else ""
     return (f'<figure class="{clase}"><img src="{e(src)}"{orig} alt="{e(n["titulo"])}" width="{ancho}" height="{alto}" '
