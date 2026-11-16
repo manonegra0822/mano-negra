@@ -1,47 +1,66 @@
 {
-  "actualizado": "2026-11-15T23:34:43-03:00",
+  "actualizado": "2026-11-16T17:13:47-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 97,
           "ejemplos": [
-            "Paola Suárez desata ola de críticas en redes tras hacer el “campanazo” en La Man",
-            "La ola de ataques de Alex Caniggia contra Wanda Nara: “Dignidad es lo que nunca ",
-            "Regatas sorprende a Universitario, lo vence 3-0 y le quita el invicto: así fue e"
+            "La estrella de ‘Bridgerton’, Nicola Coughlan, mantiene su rechazo por la nueva s",
+            "Esposado, con casco y chaleco antibalas: Santiago Peña ingresó a una cárcel mili",
+            "Autoridades capturaron a 492 personas en Bogotá durante una semana de operativos"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El dólar tocó nuevos máximos en todas las franjas del mercado, mientras se profu"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Alejandro Schvartz, fabricante de electrodomésticos: “Romper la industria no tie"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 6,
+      "leidas": 95,
+      "aceptadas": 10,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 80,
+          "cantidad": 72,
           "ejemplos": [
-            "Melconian explicó por qué será candidato y remarcó la importancia de aplicar una",
-            "Abierto de Palermo: La Zeta sorprendió a Las Monjitas y reafirmó su crecimiento ",
-            "“Secure America Act”: la ley que favorece el avance del ICE y la CBP en Estados "
+            "Estanislao Bachrach explica cómo influye la respiración en el dolor y el sufrimi",
+            "Conrado Estol, sobre la importancia del optimismo: “Mantener una visión positiva",
+            "Reportan fallas en los principales bancos de Estados Unidos: miles de usuarios d"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 9,
           "ejemplos": [
-            "Los nuevos huérfanos de la política",
-            "Suspendieron por 30 días un operativo en una estancia de Lázaro Báez porque las ",
-            "Calendario Anses: cuándo cobro la AUH en noviembre 2026 si mi DNI termina en 3"
+            "“En 45 minutos se llevó todo”: una devastadora tormenta con granizo dejó importa",
+            "Invirtió US$20 millones: una empresa familiar inauguró una planta para procesar ",
+            "Renunció el convencional de Bariloche que reivindicó la dictadura de Videla"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "Victoria Villarruel se burló de un video de una diputada libertaria sobre la inf",
-            "JP Morgan prevé que la inflación llegue a las elecciones cerca del 2% mensual y "
+            "La Serenísima volvió a las ganancias en los primeros nueve meses de 2026 y proye",
+            "La defensa de Adorni que aceptó el fiscal abre interrogantes sobre el futuro del",
+            "El Gobierno obtuvo un superávit de $1,58 billones en octubre y acumula un saldo "
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La observación de un economista del Banco Central de México: bajar la inflación "
           ]
         }
       }
@@ -72,14 +91,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
-            "Después del Papa",
-            "Después de su remontada histórica, Lula respalda a Sánchez en Madrid",
-            "La justicia pide saber qué pasa con Tecnópolis"
+            "Renunció el convencional constituyente que reivindicó a Videla",
+            "Es jubilada, la detuvieron por intentar robar comida y pasó 35 días presa: “Lo h",
+            "Tras denuncias de una detención VIP, Santiago Peña es trasladado a una cárcel mi"
           ]
         }
       }
@@ -87,14 +106,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 16,
           "ejemplos": [
-            "El papa León XIV celebró su penúltima misa en Perú y denunció la explotación de ",
-            "Investigan la muerte de un hombre en barrio Centro América y detuvieron a su hij",
-            "El empleo privado perdió 7.573 puestos formales en agosto"
+            "Robert Pattinson es el nuevo James Bond",
+            "Los Pumas se preparan para el desafío más exigente del año ante Francia",
+            "Cine argentino: habrá 24 horas de películas y actividades gratuitas en todo el p"
           ]
         }
       }
@@ -102,35 +121,53 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 3,
+      "aceptadas": 15,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 18,
           "ejemplos": [
-            "Condenaron al administrador de una mesa de dinero que mató a un inversor",
-            "Tía Maruca cambia de dueño luego de atravesar dificultades financieras",
-            "Venta de autos eléctricos se dispara un 654% en 2026 a contramano del sector"
+            "Paraguay: ordenaron el traslado de Santiago Peña a una cárcel militar",
+            "León XIV cerró su gira sudamericana: “Los únicos que no pueden esperar son los p",
+            "Autónomos: la ARCA actualizó los valores de los aportes mensuales con vencimient"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Veto a tecnología china: cooperativas de internet piden abrir diálogo",
             "Italia multó a Meta con casi 900 millones de dólares por acceder a fotos y video"
           ]
         },
         "muy vieja": {
-          "cantidad": 70,
+          "cantidad": 45,
           "ejemplos": [
-            "La FAA suspendió todos los vuelos de salida en Estados Unidos por razones de seg",
-            "Vialidad: Casación rechazó recursos de los Kirchner para frenar ejecución del de",
-            "Por primera vez en 2026, el uso de la capacidad instalada en la industria superó"
+            "Temporal en Córdoba: cuáles fueron las localidades más castigadas por las lluvia",
+            "El Gobierno reformula el programa “Formando Capital Humano” para potenciar la in",
+            "Declaran inconstitucional la fórmula jubilatoria de Alberto Fernández y ordenan "
           ]
         }
       }
     },
     {
       "medio": "Cba24n",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 582, column 0)"
+      "leidas": 20,
+      "aceptadas": 5,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 14,
+          "ejemplos": [
+            "Comienza una nueva semana de paro docente universitario",
+            "El papa León XIV finalizó su agenda latinoamericana y regresó a Roma",
+            "Repartidores en riesgo: señalan zonas rojas en Córdoba"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La curiosa final del fútbol cordobés: dos equipos de la misma localidad se juega"
+          ]
+        }
+      }
     },
     {
       "medio": "Bunker Media",
