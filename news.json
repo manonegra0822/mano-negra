@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T17:43:01-03:00",
+  "actualizado": "2026-11-16T17:48:23-03:00",
   "notas": [
     {
       "id": "e5a62bbd72",
@@ -310,44 +310,6 @@
       }
     },
     {
-      "id": "c3a830058f",
-      "seccion": "economia",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-11-16T14:28:44-03:00",
-      "hora": "14:28",
-      "titulo": "Garantía de depósitos: el BCRA fijó las nuevas tasas de referencia en pesos, dólares y UVA",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/garantia-de-depositos-el-bcra-fijo-las-nuevas-tasas-de-referencia-en-pesos-dolares-y-uva-16/",
-      "acceso": "abierto",
-      "resumen": "Estos valores son determinantes para el sistema de protección de ahorros y entraron en vigencia a partir del 13 de noviembre de 2026. Según el reporte oficial, la tasa nominal anual (TNA) para los depósitos en pesos se fijó en 18,94%. Por su parte, para las colocaciones en moneda extranjera (dólares), la referencia se estableció […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/11/BCRA-jpg.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "892eaa452c",
-      "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-11-16T14:25:03-03:00",
-      "hora": "14:25",
-      "titulo": "Justicia de Córdoba: modernizan la gestión de procesos concursales con IA",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/justicia-de-cordoba-modernizan-la-gestion-de-procesos-concursales-con-ia/",
-      "acceso": "abierto",
-      "resumen": "El Tribunal Superior de Justicia (TSJ) de Córdoba aprobó la incorporación del sistema de Despacho Automático con Inteligencia Artificial (DACIA) y la automatización de la registración ante el Registro Público de Juicios Universales para todos los procesos de concursos y quiebras a partir del próximo 1 de diciembre de 2026. La norma busca optimizar la […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/04/Justicia-IA.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "c3102e8b39",
       "seccion": "argentina",
       "rel": 21.5,
@@ -394,6 +356,44 @@
         "y0": 0.217,
         "y1": 0.697
       }
+    },
+    {
+      "id": "c3a830058f",
+      "seccion": "economia",
+      "rel": 21.4,
+      "relevancia": 21.4,
+      "fecha": "2026-11-16T14:28:44-03:00",
+      "hora": "14:28",
+      "titulo": "Garantía de depósitos: el BCRA fijó las nuevas tasas de referencia en pesos, dólares y UVA",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/garantia-de-depositos-el-bcra-fijo-las-nuevas-tasas-de-referencia-en-pesos-dolares-y-uva-16/",
+      "acceso": "abierto",
+      "resumen": "Estos valores son determinantes para el sistema de protección de ahorros y entraron en vigencia a partir del 13 de noviembre de 2026. Según el reporte oficial, la tasa nominal anual (TNA) para los depósitos en pesos se fijó en 18,94%. Por su parte, para las colocaciones en moneda extranjera (dólares), la referencia se estableció […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/11/BCRA-jpg.webp",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "892eaa452c",
+      "seccion": "cordoba",
+      "rel": 21.4,
+      "relevancia": 21.4,
+      "fecha": "2026-11-16T14:25:03-03:00",
+      "hora": "14:25",
+      "titulo": "Justicia de Córdoba: modernizan la gestión de procesos concursales con IA",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/justicia-de-cordoba-modernizan-la-gestion-de-procesos-concursales-con-ia/",
+      "acceso": "abierto",
+      "resumen": "El Tribunal Superior de Justicia (TSJ) de Córdoba aprobó la incorporación del sistema de Despacho Automático con Inteligencia Artificial (DACIA) y la automatización de la registración ante el Registro Público de Juicios Universales para todos los procesos de concursos y quiebras a partir del próximo 1 de diciembre de 2026. La norma busca optimizar la […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/04/Justicia-IA.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "fa569e2ca4",
@@ -594,8 +594,8 @@
     {
       "id": "d2344f3b1b",
       "seccion": "economia",
-      "rel": 20.9,
-      "relevancia": 20.9,
+      "rel": 20.8,
+      "relevancia": 20.8,
       "fecha": "2026-11-16T10:53:56-03:00",
       "hora": "10:53",
       "titulo": "Las vueltas de Caputo para explicar por qué no llegan “los mejores 18 meses de la historia”",
