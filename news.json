@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T17:13:47-03:00",
+  "actualizado": "2026-11-16T17:17:41-03:00",
   "notas": [
     {
       "id": "e5a62bbd72",
@@ -30,31 +30,6 @@
       }
     },
     {
-      "id": "97ebfd57ba",
-      "seccion": "economia",
-      "rel": 33.6,
-      "relevancia": 33.6,
-      "fecha": "2026-11-16T16:50:21-03:00",
-      "hora": "16:50",
-      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este lunes 16 de noviembre, minuto a minuto",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-lunes-16-de-noviembre-nid16112026/",
-      "acceso": "suscripcion",
-      "resumen": "La divisa oficial operó a $1575 para la venta en el Banco Nación; el dólar blue cotizó a $1580 para esa operación; qué pasó con el MEP y el CCL",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/RIXF5FYGWRDCJI5DEY2FV4NBWE.png?auth=4c484207044b08a445131ed2bc0f086433cc2ed17da5c5481e24da6159eaefcc&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "A cuánto abre el dólar este lunes 16 de noviembre",
-          "url": "https://hoydia.com.ar/economia/cuanto-abre-el-dolar-lunes-16-noviembre/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "211698649e",
       "seccion": "argentina",
       "rel": 22.0,
@@ -79,8 +54,8 @@
     {
       "id": "4419548566",
       "seccion": "economia",
-      "rel": 22.0,
-      "relevancia": 22.0,
+      "rel": 21.9,
+      "relevancia": 21.9,
       "fecha": "2026-11-16T16:59:16-03:00",
       "hora": "16:59",
       "titulo": "El superávit fiscal llegó al 1,4% del PBI y el Gobierno se acerca a la meta del FMI",
@@ -97,6 +72,25 @@
         "y0": 0.253,
         "y1": 0.663
       }
+    },
+    {
+      "id": "97ebfd57ba",
+      "seccion": "economia",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-16T16:50:21-03:00",
+      "hora": "16:50",
+      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este lunes 16 de noviembre, minuto a minuto",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-lunes-16-de-noviembre-nid16112026/",
+      "acceso": "suscripcion",
+      "resumen": "La divisa oficial operó a $1575 para la venta en el Banco Nación; el dólar blue cotizó a $1580 para esa operación; qué pasó con el MEP y el CCL",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/RIXF5FYGWRDCJI5DEY2FV4NBWE.png?auth=4c484207044b08a445131ed2bc0f086433cc2ed17da5c5481e24da6159eaefcc&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "1f7bd44b7b",
@@ -397,8 +391,8 @@
     {
       "id": "61d078d812",
       "seccion": "argentina",
-      "rel": 21.3,
-      "relevancia": 21.3,
+      "rel": 21.2,
+      "relevancia": 21.2,
       "fecha": "2026-11-16T12:44:46-03:00",
       "hora": "12:44",
       "titulo": "Otro golpe a la industria: el Gobierno modificó el “compre nacional” del RIGI",
@@ -415,31 +409,6 @@
         "y0": 0.007,
         "y1": 0.903
       }
-    },
-    {
-      "id": "66e27cd91e",
-      "seccion": "cordoba",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-11-16T01:26:00-03:00",
-      "hora": "01:26",
-      "titulo": "El Senado busca convertir un proyecto de discapacidad en ley",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/el-senado-busca-convertir-un-proyecto-de-discapacidad-en-ley/",
-      "acceso": "abierto",
-      "resumen": "El Senado realizará este jueves una sesión, que tendrá como eje central la sanción definitiva del proyecto de ley de Discapacidad, que tiene el respaldo de todo el arco político dado que mantiene los principales puntos de la emergencia que vence en diciembre. La presidenta del bloque de la Libertad Avanza, Patricia Bullrich, impulsa la […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "El Senado buscará convertir en ley el régimen de Discapacidad con apoyo opositor",
-          "url": "https://hoydia.com.ar/politica/nacional/el-senado-buscara-convertir-en-ley-el-regimen-de-discapacidad-con-un-apoyo-transversal/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "384541c763",
@@ -638,6 +607,25 @@
       "rostros": null
     },
     {
+      "id": "66e27cd91e",
+      "seccion": "cordoba",
+      "rel": 19.4,
+      "relevancia": 19.4,
+      "fecha": "2026-11-16T01:26:00-03:00",
+      "hora": "01:26",
+      "titulo": "El Senado busca convertir un proyecto de discapacidad en ley",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/el-senado-busca-convertir-un-proyecto-de-discapacidad-en-ley/",
+      "acceso": "abierto",
+      "resumen": "El Senado realizará este jueves una sesión, que tendrá como eje central la sanción definitiva del proyecto de ley de Discapacidad, que tiene el respaldo de todo el arco político dado que mantiene los principales puntos de la emergencia que vence en diciembre. La presidenta del bloque de la Libertad Avanza, Patricia Bullrich, impulsa la […]",
+      "impacto": null,
+      "imagen": null,
+      "imagen_credito": null,
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "5de651ef56",
       "seccion": "cordoba",
       "rel": 19.3,
@@ -826,8 +814,8 @@
     {
       "id": "2352f3171c",
       "seccion": "cordoba",
-      "rel": 13.6,
-      "relevancia": 13.6,
+      "rel": 13.5,
+      "relevancia": 13.5,
       "fecha": "2026-11-16T14:33:22-03:00",
       "hora": "14:33",
       "titulo": "Poder Judicial: generalizan el procedimiento oral para prisiones preventivas en delitos comunes",

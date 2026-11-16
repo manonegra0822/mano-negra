@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T17:13:47-03:00",
+  "actualizado": "2026-11-16T17:17:41-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,11 +7,17 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 96,
           "ejemplos": [
-            "La estrella de ‘Bridgerton’, Nicola Coughlan, mantiene su rechazo por la nueva s",
-            "Esposado, con casco y chaleco antibalas: Santiago Peña ingresó a una cárcel mili",
-            "Autoridades capturaron a 492 personas en Bogotá durante una semana de operativos"
+            "Panamá avanza: se clasifica por cuarta vez al Final Four de la Liga de Naciones ",
+            "Clima en CDMX hoy lunes 16 de noviembre: prevén lluvias ligeras, viento y descen",
+            "Kratos vuelve a PlayStation 4 en ‘God of War: Sons of Sparta’ confirmando fecha "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Los empleados bancarios tendrán un nuevo aumento en línea con la inflación: en c"
           ]
         },
         "otro país": {
@@ -106,14 +112,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
+            "Toyota invertirá US$1.341 millones para producir vehículos híbridos en Argentina",
             "Robert Pattinson es el nuevo James Bond",
-            "Los Pumas se preparan para el desafío más exigente del año ante Francia",
-            "Cine argentino: habrá 24 horas de películas y actividades gratuitas en todo el p"
+            "Los Pumas se preparan para el desafío más exigente del año ante Francia"
           ]
         }
       }
@@ -157,8 +163,8 @@
           "cantidad": 14,
           "ejemplos": [
             "Comienza una nueva semana de paro docente universitario",
-            "El papa León XIV finalizó su agenda latinoamericana y regresó a Roma",
-            "Repartidores en riesgo: señalan zonas rojas en Córdoba"
+            "Santiago Peña fue trasladado a una cárcel militar por el colapso de Ueno Bank",
+            "El papa León XIV finalizó su agenda latinoamericana y regresó a Roma"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
