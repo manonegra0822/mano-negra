@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T17:28:42-03:00",
+  "actualizado": "2026-11-16T17:43:01-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,11 +7,11 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 96,
           "ejemplos": [
-            "Receta de licuado de frutos rojos con leche, rápida y fácil",
-            "Grupo 5 y el furor que causó el \"Hosanna\" en versión cumbia tras la misa del pap",
-            "Elecciones generales España 29-N, en directo | Lula da Silva defiende que Sánche"
+            "Elecciones generales España 29-N, en directo | Lula da Silva defiende que Sánche",
+            "Pedro Sánchez anuncia que el Consejo de Ministros aprobará este martes la subida",
+            "Nueva York probará cámaras con inteligencia artificial para detectar personas u "
           ]
         },
         "sin ancla argentina": {
@@ -26,30 +26,24 @@
           "ejemplos": [
             "El dólar tocó nuevos máximos en todas las franjas del mercado, mientras se profu"
           ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Alejandro Schvartz, fabricante de electrodomésticos: “Romper la industria no tie"
-          ]
         }
       }
     },
     {
       "medio": "La Nación",
       "leidas": 94,
-      "aceptadas": 11,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 71,
+          "cantidad": 77,
           "ejemplos": [
-            "UEFA Nations League, en vivo: el minuto a minuto de los partidos del grupo 2",
-            "Estados Unidos recupera la normalidad aérea tras miles de cancelaciones y una fa",
-            "Su hijo murió, sus amigos nunca le devolvieron el dinero prestado y quedó en ban"
+            "Robert Pattinson es el nuevo James Bond: las redes reaccionaron con ingeniosos m",
+            "Encontraron muerto a un trabajador en el Observatorio de La Plata",
+            "UEFA Nations League, en vivo: el minuto a minuto de los partidos del grupo 2"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 7,
           "ejemplos": [
             "“En 45 minutos se llevó todo”: una devastadora tormenta con granizo dejó importa",
             "Invirtió US$20 millones: una empresa familiar inauguró una planta para procesar ",
@@ -113,8 +107,8 @@
           "cantidad": 17,
           "ejemplos": [
             "Toyota invertirá US$1.341 millones para producir vehículos híbridos en Argentina",
-            "Robert Pattinson es el nuevo James Bond",
-            "Los Pumas se preparan para el desafío más exigente del año ante Francia"
+            "Crimen en Alta Córdoba: las hermanas del repartidor piden ser querellantes y agr",
+            "Robert Pattinson es el nuevo James Bond"
           ]
         }
       }
@@ -158,8 +152,8 @@
           "cantidad": 14,
           "ejemplos": [
             "Comienza una nueva semana de paro docente universitario",
-            "Santiago Peña fue trasladado a una cárcel militar por el colapso de Ueno Bank",
-            "El papa León XIV finalizó su agenda latinoamericana y regresó a Roma"
+            "El papa León XIV finalizó su agenda latinoamericana y regresó a Roma",
+            "Repartidores en riesgo: señalan zonas rojas en Córdoba"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -176,7 +170,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
+      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
     },
     {
       "medio": "Cadena 3",

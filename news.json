@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T17:28:42-03:00",
+  "actualizado": "2026-11-16T17:43:01-03:00",
   "notas": [
     {
       "id": "e5a62bbd72",
@@ -32,10 +32,34 @@
       }
     },
     {
-      "id": "0b48cb105f",
+      "id": "1f7bd44b7b",
       "seccion": "argentina",
       "rel": 22.0,
       "relevancia": 22.0,
+      "fecha": "2026-11-16T17:35:33-03:00",
+      "hora": "17:35",
+      "titulo": "Javier Milei y sus medidas, en vivo: Luis Caputo: “Entramos a 2027 más fortalecidos que nunca, más calmo de lo que muchos predicen”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-kicillof-acuso-al-presidente-de-adulterar-la-historia-nid16112026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionario",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/GQRT3DNEMFC4FEBPFFOF556CFI.jpeg?auth=d21658c2a962893f04a6ce6710ed9a0da78418be8132dc5bc41bc2cdfbe07906&smart=true&width=1280&height=956",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.18,
+        "x1": 0.347,
+        "y0": 0.204,
+        "y1": 0.441
+      }
+    },
+    {
+      "id": "0b48cb105f",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
       "fecha": "2026-11-16T17:19:45-03:00",
       "hora": "17:19",
       "titulo": "Quiénes serán parte de la cumbre anti Milei en San Fernando: el PJ mostrará una influyente confluencia de actores",
@@ -58,8 +82,8 @@
     {
       "id": "97ebfd57ba",
       "seccion": "economia",
-      "rel": 22.0,
-      "relevancia": 22.0,
+      "rel": 21.9,
+      "relevancia": 21.9,
       "fecha": "2026-11-16T17:17:16-03:00",
       "hora": "17:17",
       "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este lunes 16 de noviembre, minuto a minuto",
@@ -123,30 +147,6 @@
       }
     },
     {
-      "id": "1f7bd44b7b",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-16T16:48:44-03:00",
-      "hora": "16:48",
-      "titulo": "Javier Milei y sus medidas, en vivo: Luis Caputo: “Entramos a 2027 más fortalecidos que nunca, más calmo de lo que muchos predicen”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-kicillof-acuso-al-presidente-de-adulterar-la-historia-nid16112026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionario",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/GQRT3DNEMFC4FEBPFFOF556CFI.jpeg?auth=d21658c2a962893f04a6ce6710ed9a0da78418be8132dc5bc41bc2cdfbe07906&smart=true&width=1280&height=956",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.18,
-        "x1": 0.347,
-        "y0": 0.204,
-        "y1": 0.441
-      }
-    },
-    {
       "id": "39881e3009",
       "seccion": "economia",
       "rel": 21.9,
@@ -173,8 +173,8 @@
     {
       "id": "4b310ffea7",
       "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
+      "rel": 21.8,
+      "relevancia": 21.8,
       "fecha": "2026-11-16T16:35:20-03:00",
       "hora": "16:35",
       "titulo": "Elecciones 2027: La Libertad Avanza le arrebató un intendente al radicalismo cordobés",
@@ -197,8 +197,8 @@
     {
       "id": "dbe74a9f62",
       "seccion": "economia",
-      "rel": 21.8,
-      "relevancia": 21.8,
+      "rel": 21.7,
+      "relevancia": 21.7,
       "fecha": "2026-11-16T16:09:22-03:00",
       "hora": "16:09",
       "titulo": "RIGI: la estrategia del Gobierno para que el boom de Vaca Muerta derrame",
@@ -243,25 +243,6 @@
       }
     },
     {
-      "id": "3ffa71e1e1",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-16T15:23:47-03:00",
-      "hora": "15:23",
-      "titulo": "La Argentina a dos velocidades: qué provincias ganan y cuáles pierden en la era Milei",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/la-argentina-a-dos-velocidades-que-provincias-ganan-y-cuales-pierden-en-la-era-milei-nid16112026/",
-      "acceso": "suscripcion",
-      "resumen": "El cambio de modelo económico impulsó a las jurisdicciones ligadas al petróleo, el gas y la minería: las más dependientes de la industria, la construcción y el consumo, rezagadas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/5ZRYWJ4DBJFM5CEM4XCP3CQ3QA.JPG?auth=51f3356c31b601d89e306d78799455e809810001f78da0b73eb3562857e53406&smart=true&width=2000&height=1260",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "7849fa8e21",
       "seccion": "argentina",
       "rel": 21.7,
@@ -284,6 +265,25 @@
         "y0": 0.03,
         "y1": 0.775
       }
+    },
+    {
+      "id": "3ffa71e1e1",
+      "seccion": "economia",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-11-16T15:23:47-03:00",
+      "hora": "15:23",
+      "titulo": "La Argentina a dos velocidades: qué provincias ganan y cuáles pierden en la era Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/la-argentina-a-dos-velocidades-que-provincias-ganan-y-cuales-pierden-en-la-era-milei-nid16112026/",
+      "acceso": "suscripcion",
+      "resumen": "El cambio de modelo económico impulsó a las jurisdicciones ligadas al petróleo, el gas y la minería: las más dependientes de la industria, la construcción y el consumo, rezagadas",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/5ZRYWJ4DBJFM5CEM4XCP3CQ3QA.JPG?auth=51f3356c31b601d89e306d78799455e809810001f78da0b73eb3562857e53406&smart=true&width=2000&height=1260",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "c2d1323ac8",
@@ -568,25 +568,6 @@
       "rostros": null
     },
     {
-      "id": "728091e666",
-      "seccion": "argentina",
-      "rel": 21.0,
-      "relevancia": 21.0,
-      "fecha": "2026-11-15T17:35:10-03:00",
-      "hora": "17:35",
-      "titulo": "El Gobierno busca reactivar su agenda, pero afronta el fin de año más complicado para Javier Milei",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/el-gobierno-busca-reactivar-su-agenda-pero-afronta-el-fin-de-ano-mas-complicado-para-milei-nid15112026/",
-      "acceso": "suscripcion",
-      "resumen": "La Casa Rosada mueve fichas para suspender las PASO y fija proyectos prioritarios; convoca a la mesa política, pero no al Gabinete; la inflación, más alta de lo esperado",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/XJWVHARGF5DU5E5FU4YIAN4KYY.jpg?auth=276ca7200d67bfa7cf46ed84a51d643ecc7842ad800b846adf0fce28e70cfc25&smart=true&width=1200&height=800",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "7eb1076349",
       "seccion": "economia",
       "rel": 20.9,
@@ -637,8 +618,8 @@
     {
       "id": "cb1d05478a",
       "seccion": "economia",
-      "rel": 20.7,
-      "relevancia": 20.7,
+      "rel": 20.6,
+      "relevancia": 20.6,
       "fecha": "2026-11-16T09:24:00-03:00",
       "hora": "09:24",
       "titulo": "La preocupación por el desempleo y los bajos salarios llega a su nivel más alto en la “era Milei”",
@@ -661,8 +642,8 @@
     {
       "id": "3304580240",
       "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
+      "rel": 19.9,
+      "relevancia": 19.9,
       "fecha": "2026-11-16T05:17:00-03:00",
       "hora": "05:17",
       "titulo": "¿Qué harán con la Caja de Jubilaciones?",
@@ -699,30 +680,6 @@
         "x1": 0.441,
         "y0": 0.522,
         "y1": 0.968
-      }
-    },
-    {
-      "id": "5de651ef56",
-      "seccion": "cordoba",
-      "rel": 19.3,
-      "relevancia": 19.3,
-      "fecha": "2026-11-16T13:07:00-03:00",
-      "hora": "13:07",
-      "titulo": "Presupuesto municipal 2027: el Frente Cívico cuestionó el manejo de los recursos",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/presupuesto-municipal-2027--el-frente-civico-cuestiono-el-manejo-de-los-recursos_a6afb295754c2d89a3c55019f",
-      "acceso": "abierto",
-      "resumen": "La concejal Graciela Villata opinó sobre el proyecto que se tratará este lunes en el Concejo Deliberante. Advirtió sobre las facultades del Ejecutivo para endeudarse, la reducción del Presupuesto Participativo y el peso del gasto corriente.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6afb2a4354c2d89a3c55089d/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.356,
-        "x1": 0.804,
-        "y0": 0.249,
-        "y1": 0.513
       }
     },
     {
@@ -823,6 +780,30 @@
       }
     },
     {
+      "id": "5de651ef56",
+      "seccion": "cordoba",
+      "rel": 19.2,
+      "relevancia": 19.2,
+      "fecha": "2026-11-16T13:07:00-03:00",
+      "hora": "13:07",
+      "titulo": "Presupuesto municipal 2027: el Frente Cívico cuestionó el manejo de los recursos",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/presupuesto-municipal-2027--el-frente-civico-cuestiono-el-manejo-de-los-recursos_a6afb295754c2d89a3c55019f",
+      "acceso": "abierto",
+      "resumen": "La concejal Graciela Villata opinó sobre el proyecto que se tratará este lunes en el Concejo Deliberante. Advirtió sobre las facultades del Ejecutivo para endeudarse, la reducción del Presupuesto Participativo y el peso del gasto corriente.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6afb2a4354c2d89a3c55089d/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.356,
+        "x1": 0.804,
+        "y0": 0.249,
+        "y1": 0.513
+      }
+    },
+    {
       "id": "82949e7c64",
       "seccion": "economia",
       "rel": 18.8,
@@ -844,8 +825,8 @@
     {
       "id": "b04c823876",
       "seccion": "economia",
-      "rel": 17.5,
-      "relevancia": 17.5,
+      "rel": 17.4,
+      "relevancia": 17.4,
       "fecha": "2026-11-16T14:19:52-03:00",
       "hora": "14:19",
       "titulo": "El Gobierno modificó el RIGI: las empresas extranjeras podrán competir por el cupo de proveedores locales",
@@ -894,6 +875,25 @@
       "impacto": null,
       "imagen": "https://srt-assets.tadevel-cdn.com/6afb0e6308c18f80ee7f72cc/720.jpeg",
       "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "2352f3171c",
+      "seccion": "cordoba",
+      "rel": 13.5,
+      "relevancia": 13.5,
+      "fecha": "2026-11-16T14:33:22-03:00",
+      "hora": "14:33",
+      "titulo": "Poder Judicial: generalizan el procedimiento oral para prisiones preventivas en delitos comunes",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/poder-judicial-generalizan-el-procedimiento-oral-para-prisiones-preventivas-en-delitos-comunes/",
+      "acceso": "abierto",
+      "resumen": "El Tribunal Superior de Justicia (TSJ) de Córdoba aprobó la implementación generalizada del procedimiento oral para el dictado de la prisión preventiva y los recursos de apelación sobre la libertad de los imputados en la Primera Circunscripción Judicial (Capital y alrededores), con vigencia a partir de este 17 de noviembre de 2026. La medida deja […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2022/08/Tribunales-II.jpg",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
       "rostros": null
