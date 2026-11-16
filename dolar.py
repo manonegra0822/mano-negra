@@ -39,6 +39,43 @@ def consultar():
     return compra, venta, fecha
 
 
+EXTRAS = {  # otros indicadores de la barra; cada uno se consulta por separado
+    "blue": "https://dolarapi.com/v1/dolares/blue",
+    "riesgo": "https://api.argentinadatos.com/v1/finanzas/indices/riesgo-pais/ultimo",
+}
+
+
+def pedir(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "ManoNegraBot/1.0", "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def consultar_extras(previo):
+    """Dólar blue y riesgo país. Si uno falla se conserva su último valor, sin afectar a los demás."""
+    viejos = previo.get("indicadores") or {}
+    nuevos = {}
+    for clave, url in EXTRAS.items():
+        try:
+            d = pedir(url)
+            if clave == "riesgo":
+                valor = float(d["valor"])
+                if not 0 < valor < 1e5:
+                    raise ValueError("fuera de rango")
+                nuevos[clave] = {"valor": valor, "fecha": d.get("fecha")}
+            else:
+                compra, venta = float(d["compra"]), float(d["venta"])
+                if not (0 < compra < 1e7 and 0 < venta < 1e7):
+                    raise ValueError("fuera de rango")
+                nuevos[clave] = {"compra": compra, "venta": venta}
+            print(f"[ok] {clave}: {nuevos[clave]}")
+        except Exception as e:
+            if clave in viejos:
+                nuevos[clave] = viejos[clave]
+            print(f"[aviso] No se pudo consultar {clave} ({e}); se mantiene el último valor.", file=sys.stderr)
+    return nuevos
+
+
 HORARIOS = ((10, 30), (15, 0))
 
 
@@ -85,6 +122,9 @@ def main():
             sys.exit(1)
         datos = dict(previo, vigente=False, consultado=ahora)
         print(f"[aviso] Falló la consulta ({e}); se mantiene el último valor guardado.", file=sys.stderr)
+    indicadores = consultar_extras(previo)
+    if indicadores:
+        datos["indicadores"] = indicadores
     ARCHIVO.write_text(json.dumps(datos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     # Rearma la página con la cotización nueva (sin volver a leer los medios)
