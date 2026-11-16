@@ -1,48 +1,47 @@
 {
-  "actualizado": "2026-11-15T14:34:19-03:00",
+  "actualizado": "2026-11-15T23:34:43-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 100,
           "ejemplos": [
-            "'Jaleos', un documental que explora el origen del flamenco y su influencia ameri",
-            "Rusia advierte contra la reanudación de pruebas nucleares en el mundo",
-            "El papa reza el ángelus en la Plaza de Armas de Cusco, donde concentró a 500.000"
+            "Paola Suárez desata ola de críticas en redes tras hacer el “campanazo” en La Man",
+            "La ola de ataques de Alex Caniggia contra Wanda Nara: “Dignidad es lo que nunca ",
+            "Regatas sorprende a Universitario, lo vence 3-0 y le quita el invicto: así fue e"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 11,
+      "leidas": 93,
+      "aceptadas": 6,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 65,
+          "cantidad": 80,
           "ejemplos": [
-            "Juan Quintero: “Soy el tipo que hace cantar en una ronda”",
-            "En qué canal pasan hoy Godoy Cruz vs. Tristán Suárez por el primer ascenso a la ",
-            "Papa León XIV en Perú, EN VIVO: el viaje a Cusco y Pucallpa hoy, minuto a minuto"
+            "Melconian explicó por qué será candidato y remarcó la importancia de aplicar una",
+            "Abierto de Palermo: La Zeta sorprendió a Las Monjitas y reafirmó su crecimiento ",
+            "“Secure America Act”: la ley que favorece el avance del ICE y la CBP en Estados "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 5,
           "ejemplos": [
-            "Todo empezó con un inmigrante en 1898 y hoy, después de más de 100 años, mantien",
-            "Un importante empresario del agro compró 10.000 hectáreas en una zona con condic",
-            "Calendario Anses: cuándo cobro la AUH en noviembre 2026 si mi DNI termina en 2"
+            "Los nuevos huérfanos de la política",
+            "Suspendieron por 30 días un operativo en una estancia de Lázaro Báez porque las ",
+            "Calendario Anses: cuándo cobro la AUH en noviembre 2026 si mi DNI termina en 3"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "Para más de 50.000 hectáreas: el PRO reclama por un proyecto que permite la siem",
-            "Aguinaldo de diciembre 2026: cuándo se paga y el cálculo para saber cuánto se co",
-            "Salario empleo doméstico: cuánto cobran las niñeras y cuidadores de adultos en n"
+            "Victoria Villarruel se burló de un video de una diputada libertaria sobre la inf",
+            "JP Morgan prevé que la inflación llegue a las elecciones cerca del 2% mensual y "
           ]
         }
       }
@@ -78,9 +77,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 4,
           "ejemplos": [
-            "El daño interno de un Papa bien informado",
-            "Boca no se detiene y también jugará la final de la Copa Argentina",
-            "Quiénes son Gustavo Romanello y Agustín Baccega, los dos argentinos detenidos po"
+            "Después del Papa",
+            "Después de su remontada histórica, Lula respalda a Sánchez en Madrid",
+            "La justicia pide saber qué pasa con Tecnópolis"
           ]
         }
       }
@@ -88,21 +87,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 13,
           "ejemplos": [
-            "El 68% de los hogares argentinos no llega al día 20 del mes con sus ingresos",
-            "Argentina cuenta con la comunidad más grande del mundo en apoyo a los refugiados",
-            "Cortes de luz programados para este domingo en toda la provincia"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Un obispo bien político / Vuelve el Rally Mundial / Siguen de interna",
-            "Milei inaugurará una muestra sobre Belgrano en la Noche de los Museos"
+            "El papa León XIV celebró su penúltima misa en Perú y denunció la explotación de ",
+            "Investigan la muerte de un hombre en barrio Centro América y detuvieron a su hij",
+            "El empleo privado perdió 7.573 puestos formales en agosto"
           ]
         }
       }
@@ -113,11 +105,11 @@
       "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 6,
           "ejemplos": [
-            "Venta de autos eléctricos se dispara un 654% en 2026 a contramano del sector",
-            "Temporal en Córdoba: cuáles fueron las localidades más castigadas por las lluvia",
-            "Declaran inconstitucional la fórmula jubilatoria de Alberto Fernández y ordenan "
+            "Condenaron al administrador de una mesa de dinero que mató a un inversor",
+            "Tía Maruca cambia de dueño luego de atravesar dificultades financieras",
+            "Venta de autos eléctricos se dispara un 654% en 2026 a contramano del sector"
           ]
         },
         "otro país": {
@@ -127,18 +119,18 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 69,
+          "cantidad": 70,
           "ejemplos": [
-            "El Gobierno nacional lanzó una licitación para otorgar en concesión por peaje nu",
-            "Revés para el exjuez Salmain: rechazaron su pedido para ser sobreseído en una ca",
-            "Aprobaron ordenanza en Malagueño para asesorar a vecinos ante ciberdelitos y hos"
+            "La FAA suspendió todos los vuelos de salida en Estados Unidos por razones de seg",
+            "Vialidad: Casación rechazó recursos de los Kirchner para frenar ejecución del de",
+            "Por primera vez en 2026, el uso de la capacidad instalada en la industria superó"
           ]
         }
       }
     },
     {
       "medio": "Cba24n",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 484, column 0)"
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 582, column 0)"
     },
     {
       "medio": "Bunker Media",
