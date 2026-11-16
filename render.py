@@ -12,6 +12,7 @@ import html
 import json
 import re
 import unicodedata
+import urllib.parse
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -31,7 +32,8 @@ DIAS_C = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
          "septiembre", "octubre", "noviembre", "diciembre"]
 
-N_GRILLA = 6      # notas destacadas debajo de la principal
+N_SLIDER = 6      # principales del día (slider)
+N_GRILLA = 6      # notas destacadas debajo del slider
 N_SECCION = 4     # notas por bloque de sección
 N_ULTIMAS = 12    # lista de últimas noticias
 
@@ -142,20 +144,37 @@ def volanta(n):
             f'<span class="kicker-sep" aria-hidden="true">/</span><span>{TEMA[n["_tema"]]}</span></p>')
 
 
-def meta(n, ahora):
+def meta(n, ahora, con_otros=True):
     sus = ' <span class="tag-sus">(Con suscripción)</span>' if n.get("acceso") != "abierto" else ""
+    k = len({o.get("fuente") for o in (n.get("otros") or [])} - {n.get("fuente")})   # medios distintos
+    otros = (f' <span class="tag-otros">(+{k} {"medio" if k == 1 else "medios"})</span>'
+             if k and con_otros else "")
     return (f'<p class="meta"><span class="meta-fuente">{e(n["fuente"])}</span>'
-            f'<span class="meta-sep" aria-hidden="true">—</span>{cuando(n["_f"], ahora)}{sus}</p>')
+            f'<span class="meta-sep" aria-hidden="true">—</span>{cuando(n["_f"], ahora)}{otros}{sus}</p>')
 
 
 def indice(i):
     return f'<span class="idx" aria-hidden="true">MN/{i:02d}</span>'
 
 
+# Las fotos de los medios pasan por wsrv.nl (gratuito), que las achica y las convierte a WebP:
+# una foto de 600 KB queda en unos 25 KB. Si el servicio falla, main.js vuelve a la foto original.
+ACHICADOR = "https://wsrv.nl/?url={url}&w={ancho}&output=webp&q=78"
+SIN_ACHICAR = ("comercioyjusticia.info",)  # medios cuyas fotos el servicio no puede leer
+
+
+def achicada(url, ancho):
+    if not url.startswith("http") or any(d in url for d in SIN_ACHICAR):
+        return url
+    return ACHICADOR.format(url=urllib.parse.quote(url, safe=""), ancho=ancho)
+
+
 def foto(n, clase, ancho, alto, prioridad=False):
     img = n.get("imagen")
     if not img:
         return ""
+    src = achicada(img, ancho)
+    orig = f' data-orig="{e(img)}"' if src != img else ""
     pos = ""
     r = n.get("rostros")
     if isinstance(r, dict) and "y0" in r and "y1" in r:
@@ -163,8 +182,13 @@ def foto(n, clase, ancho, alto, prioridad=False):
         pos = f' style="object-position:50% {cy:.0f}%"'
     carga = 'fetchpriority="high" decoding="async"' if prioridad else 'loading="lazy" decoding="async"'
     credito = f'<figcaption>(Foto: {e(n.get("imagen_credito") or n["fuente"])})</figcaption>' if clase == "foto-principal" else ""
-    return (f'<figure class="{clase}"><img src="{e(img)}" alt="{e(n["titulo"])}" width="{ancho}" height="{alto}" '
+    return (f'<figure class="{clase}"><img src="{e(src)}"{orig} alt="{e(n["titulo"])}" width="{ancho}" height="{alto}" '
             f'{carga} referrerpolicy="no-referrer"{pos}>{credito}</figure>')
+
+
+def did(n):
+    """Identificador de la nota; las que piden suscripción llevan data-sus para el filtro."""
+    return f'data-id="{e(n["id"])}"' + (" data-sus" if n.get("acceso") != "abierto" else "")
 
 
 def enlace(n, texto=None, clase="nota-link"):
@@ -172,35 +196,76 @@ def enlace(n, texto=None, clase="nota-link"):
             f'{e(texto or n["titulo"])}</a>')
 
 
-def principal(n, ahora):
-    otros = ""
-    if n.get("otros"):
-        items = "".join(f'<li><a href="{e(o["url"])}" target="_blank" rel="noopener">'
-                        f'<span class="otros-medio">{e(o["fuente"])}</span><span class="otros-tit-n">{e(o["titulo"])}</span>'
-                        f'<span class="flecha" aria-hidden="true">↗</span></a></li>'
-                        for o in n["otros"][:4])
-        otros = f'<div class="otros"><h3 class="etiqueta">(También lo cubren)</h3><ul>{items}</ul></div>'
-    clase = "lead" + ("" if n.get("imagen") else " lead--sin-foto")
-    return f'''<article class="{clase}" data-id="{e(n["id"])}">
-  <div class="lead-txt">
-    <p class="lead-top"><span class="etiqueta">(Nota del día)</span>{indice(1)}</p>
-    {volanta(n)}
-    <h2 class="lead-tit">{enlace(n)}</h2>
-    <p class="lead-bajada">{e(recortar(n.get("resumen"), 60))}</p>
-    {meta(n, ahora)}
-    <a class="btn" href="{e(n["url"])}" target="_blank" rel="noopener"><span>Leer en {e(n["fuente"])}</span><span class="flecha" aria-hidden="true">↗</span></a>
-    {otros}
+def principal(n, ahora, i=1, total=1, relleno=False):
+    """Una tarjeta del carrusel de principales. La primera es la nota del día.
+    relleno: reemplazo sin suscripción, solo visible si el lector oculta las notas con suscripción."""
+    dia = i == 1
+    clase = ("slide" + (" slide--dia" if dia else "") + (" es-activa" if dia and not relleno else "")
+             + (" slide--relleno" if relleno else "") + ("" if n.get("imagen") else " slide--sin-foto"))
+    rotulo = "(Nota del día)" if dia else "(Principal)"
+    cred = f'<p class="slide-cred">(Foto: {e(n.get("imagen_credito") or n["fuente"])})</p>' if n.get("imagen") else ""
+    return f'''<article class="{clase}" {did(n)} aria-roledescription="diapositiva" aria-label="{i} de {total}">
+  <div class="slide-marco">
+    {foto(n, "foto-slide", 900, 1100, prioridad=dia)}
+    <div class="slide-txt">
+      <p class="slide-top"><span>{rotulo}</span>{indice(i)}</p>
+      {volanta(n)}
+      <h2 class="slide-tit">{enlace(n)}</h2>
+      {meta(n, ahora)}
+      {cred}
+    </div>
   </div>
-  {foto(n, "foto-principal", 1200, 900, prioridad=True)}
 </article>'''
 
 
-def tarjeta(n, ahora, i=None, con_foto=True, palabras=26, nivel=3):
+def info_slide(n):
+    """Bajada y botón de la tarjeta del centro (main.js la cambia al pasar de tarjeta)."""
+    sus = " (con suscripción)" if n.get("acceso") != "abierto" else ""
+    return (f'<p class="slider-bajada" data-info="bajada">{e(recortar(n.get("resumen"), 40))}</p>'
+            f'<a class="btn" data-info="link" href="{e(n["url"])}" target="_blank" rel="noopener">'
+            f'<span data-info="medio">Leer en {e(n["fuente"])}{sus}</span><span class="flecha" aria-hidden="true">↗</span></a>')
+
+
+def slider(notas, ahora, reservas=()):
+    """Principales del día: carrusel de tarjetas en perspectiva (flechas en compu, deslizar en el celular).
+    reservas: notas abiertas que reemplazan, en el mismo lugar, a las que piden suscripción
+    cuando el lector activa el filtro; así el carrusel siempre muestra la misma cantidad."""
+    total = len(notas)
+    libres = iter(reservas)
+    slides = ""
+    for i, n in enumerate(notas, 1):
+        slides += principal(n, ahora, i, total)
+        if n.get("acceso") != "abierto":
+            r = next(libres, None)
+            if r:
+                slides += principal(r, ahora, i, total, relleno=True)
+    flechas = "" if total < 2 else '''
+  <button class="slider-flecha slider-prev" type="button" aria-label="Noticia anterior"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M19 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <button class="slider-flecha slider-next" type="button" aria-label="Noticia siguiente"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button>'''
+    pie = "" if total < 2 else f'''
+  <div class="slider-pie">
+    <p class="slider-ayuda"><span class="slider-mano" aria-hidden="true">↔</span><span>Deslizá</span></p>
+    <ol class="slider-puntos" aria-label="Elegir noticia"></ol>
+    <p class="slider-cont" aria-live="polite"><b data-slider-n>01</b> / <span data-slider-t>{total:02d}</span></p>
+  </div>'''
+    return f'''<div class="slider" data-slider>
+  <header class="slider-cab">
+    <h2 class="slider-titulo">Principales del día</h2>
+    <p class="etiqueta">({total:02d} notas · Edición {ahora:%d.%m} · {ahora:%H:%M} h)</p>
+  </header>
+  <div class="slider-escena">
+    <div class="slider-pista" tabindex="0" aria-label="Principales del día. Deslizá o usá las flechas para pasar.">{slides}</div>{flechas}
+  </div>
+  <div class="slider-info" aria-live="polite">{info_slide(notas[0])}</div>{pie}
+</div>'''
+
+
+def tarjeta(n, ahora, i=None, con_foto=True, palabras=26, nivel=3, extra=""):
     f = foto(n, "foto-card", 640, 400) if con_foto else ""
-    clase = "card" + (" card--foto" if f else " card--texto")
+    clase = "card" + (" card--foto" if f else " card--texto") + extra
     bajada = f'<p class="card-bajada">{e(recortar(n.get("resumen"), palabras))}</p>' if palabras else ""
     num = f'<p class="card-top">{indice(i)}<span class="flecha" aria-hidden="true">↗</span></p>' if i else ""
-    return f'''<article class="{clase}" data-id="{e(n["id"])}">
+    return f'''<article class="{clase}" {did(n)}>
   {num}
   {f}
   <div class="card-txt">
@@ -212,14 +277,22 @@ def tarjeta(n, ahora, i=None, con_foto=True, palabras=26, nivel=3):
 </article>'''
 
 
-def bloque_seccion(sid, nombre, notas, resto, total, ahora):
+def bloque_seccion(sid, nombre, notas, resto, total, ahora, ya=frozenset()):
     if not notas:
         cuerpo = '<p class="vacio">No hay notas de esta sección en las últimas 48 horas.</p>'
     else:
-        cuerpo = "".join(tarjeta(n, ahora, con_foto=(i == 0), palabras=(24 if i == 0 else 0)) for i, n in enumerate(notas))
+        # Todas las cartas llevan foto y bajada: con JavaScript la sección se arma como un mazo
+        cuerpo = "".join(tarjeta(n, ahora, con_foto=True, palabras=24) for n in notas)
+        # Relleno: notas abiertas de la lista que solo se ven si el lector oculta las de suscripción,
+        # para que la sección no quede vacía.
+        faltan = len(notas) - sum(1 for n in notas if n.get("acceso") == "abierto")
+        abiertas = [n for n in resto if n.get("acceso") == "abierto"]
+        # primero las que todavía no aparecen en la portada ni en otra sección
+        relleno = ([n for n in abiertas if n["id"] not in ya] + [n for n in abiertas if n["id"] in ya])[:faltan]
+        cuerpo += "".join(tarjeta(n, ahora, con_foto=True, palabras=24, extra=" card--relleno") for n in relleno)
     mas = ""
     if resto:
-        filas = "".join(f'''<li class="mas-fila" data-id="{e(n["id"])}">
+        filas = "".join(f'''<li class="mas-fila" {did(n)}>
   <span class="mas-hora">{cuando(n["_f"], ahora)}</span>
   <h3 class="mas-tit">{enlace(n)}</h3>
   <span class="mas-medio">{e(n["fuente"])}</span>
@@ -242,7 +315,7 @@ def ultimas(notas, ahora):
     items = []
     for i, n in enumerate(notas, 1):
         sus = '<span class="tag-sus">(Con suscripción)</span>' if n.get("acceso") != "abierto" else ""
-        items.append(f'''<li class="fila" data-id="{e(n["id"])}">
+        items.append(f'''<li class="fila" {did(n)}>
   <span class="fila-n" aria-hidden="true">{i:02d}</span>
   <span class="fila-hora">{n["_f"]:%H:%M}</span>
   <span class="fila-sec">{marca(n["_region"])}{REGION[n["_region"]]} / {TEMA[n["_tema"]]}</span>
@@ -251,12 +324,6 @@ def ultimas(notas, ahora):
   <span class="flecha" aria-hidden="true">↗</span>
 </li>''')
     return "".join(items)
-
-
-def cinta(notas):
-    items = "".join(f'<li data-id="{e(n["id"])}"><a class="nota-link" href="{e(n["url"])}" target="_blank" rel="noopener"><b>{n["_f"]:%H:%M}</b> {e(n["titulo"])}</a></li>'
-                    for n in notas)
-    return items
 
 
 def opinion(ops, ahora):
@@ -292,9 +359,24 @@ def tendencia(actual, anterior):
             f'<span class="sr"> ({txt} respecto de la cotización anterior)</span></span>')
 
 
+def indicadores(d):
+    """Dólar blue (venta) y riesgo país, si dolar.py ya los guardó."""
+    ind = d.get("indicadores") or {}
+    partes = []
+    for clave, nombre in (("blue", "Blue"),):
+        v = (ind.get(clave) or {}).get("venta")
+        if v:
+            partes.append(f'<span class="dolar-val dolar-ind">{nombre} <b data-ind="{clave}">${plata(v)}</b></span>')
+    r = (ind.get("riesgo") or {}).get("valor")
+    if r:
+        partes.append(f'<span class="dolar-val dolar-ind">Riesgo país <b data-ind="riesgo">{plata(round(float(r)))}</b></span>')
+    return "".join(partes)
+
+
 def barra_dolar(d):
     if not d.get("venta"):
-        return '<p class="dolar-txt"><span class="etiqueta">(Dólar oficial)</span> <span>Cotización no disponible por el momento.</span></p>'
+        return ('<p class="dolar-txt"><span class="etiqueta">(Dólar oficial)</span> <span>Cotización no disponible por el momento.</span>'
+                f'{indicadores(d)}</p>')
     f = fecha_de(d.get("actualizado"), None)
     cuando_txt = f"{f:%d/%m} {f:%H:%M} h" if f else ""
     viejo = "" if d.get("vigente", True) else ' <span class="dolar-aviso">(último valor disponible)</span>'
@@ -303,6 +385,7 @@ def barra_dolar(d):
             f'<span class="dolar-val">Compra <b data-dolar="compra">${plata(d["compra"])}</b></span>'
             f'<span class="dolar-val">Venta <b data-dolar="venta">${plata(d["venta"])}</b>'
             f'<span data-dolar="tend">{tendencia(d["venta"], ant.get("venta"))}</span></span>'
+            f'{indicadores(d)}'
             f'<span class="dolar-hora">Act. <span data-dolar="hora">{cuando_txt}</span>{viejo}</span></p>')
 
 
@@ -341,9 +424,22 @@ def armar(plantilla, datos, dolar, sitio, kw, fuentes):
         n["_tema"] = cl.tema(n)
         n["_region"] = cl.region(n)
 
-    lead = notas[0] if notas else None
-    grilla = notas[1:1 + N_GRILLA]
-    vistas = {n["id"] for n in ([lead] if lead else []) + grilla}
+    principales = notas[:N_SLIDER]
+    grilla = notas[N_SLIDER:N_SLIDER + N_GRILLA]
+    # Reemplazos sin suscripción para el carrusel: primero las que no están en la portada y tienen foto
+    usadas = {n["id"] for n in principales + grilla}
+    abiertas = [n for n in notas if n.get("acceso") == "abierto" and n["id"] not in usadas]
+    reservas = [n for n in abiertas if n.get("imagen")] + [n for n in abiertas if not n.get("imagen")]
+    libres = iter(reservas)   # se comparte: el carrusel toma primero y Titulares sigue con las que quedan
+    html_slider = slider(principales, ahora, libres) if principales else '<p class="vacio">Todavía no hay notas cargadas.</p>'
+    html_grilla = ""
+    for i, n in enumerate(grilla, N_SLIDER + 1):
+        html_grilla += tarjeta(n, ahora, i=i)
+        if n.get("acceso") != "abierto":
+            r = next(libres, None)
+            if r:
+                html_grilla += tarjeta(r, ahora, i=i, extra=" card--relleno")
+    vistas = {n["id"] for n in principales + grilla}
     por_fecha = sorted(notas, key=lambda n: n["_f"], reverse=True)
 
     bloques = []
@@ -354,7 +450,7 @@ def armar(plantilla, datos, dolar, sitio, kw, fuentes):
         vistas.update(n["id"] for n in elegidas)
         ids = {n["id"] for n in elegidas}
         resto = [n for n in de_sec if n["id"] not in ids]
-        bloques.append(bloque_seccion(sid, nombre, elegidas, resto, len(de_sec), ahora))
+        bloques.append(bloque_seccion(sid, nombre, elegidas, resto, len(de_sec), ahora, frozenset(vistas)))
 
     hoy = f"{DIAS[ahora.weekday()]} {ahora.day} de {MESES[ahora.month - 1]} de {ahora.year}"
     menu_extra = '<li><a href="#opinion"><span class="idx">06</span>Opinión</a></li>' if datos.get("opinion") else ""
@@ -378,9 +474,8 @@ def armar(plantilla, datos, dolar, sitio, kw, fuentes):
         "N_MEDIOS": f"{len(fuentes):02d}",
         "ACTUALIZADO_ISO": ahora.isoformat(timespec="minutes"),
         "MENU_EXTRA": menu_extra,
-        "CINTA": cinta(por_fecha[:10]),
-        "PRINCIPAL": principal(lead, ahora) if lead else '<p class="vacio">Todavía no hay notas cargadas.</p>',
-        "GRILLA": "".join(tarjeta(n, ahora, i=i) for i, n in enumerate(grilla, 2)),
+        "PRINCIPAL": html_slider,
+        "GRILLA": html_grilla,
         "SECCIONES": "".join(bloques),
         "OPINION": opinion(datos.get("opinion"), ahora),
         "ULTIMAS": ultimas(por_fecha[:N_ULTIMAS], ahora),

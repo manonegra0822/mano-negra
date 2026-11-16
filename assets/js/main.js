@@ -114,6 +114,13 @@
         if ((el = document.querySelector("[data-dolar='compra']"))) el.textContent = compra;
         if ((el = document.querySelector("[data-dolar='venta']"))) el.textContent = venta;
         if (hora && (el = document.querySelector("[data-dolar='hora']"))) el.textContent = hora;
+        var ind = d.indicadores || {};
+        ["blue"].forEach(function (k) {
+          var v = ind[k] && plata(ind[k].venta), x = document.querySelector("[data-ind='" + k + "']");
+          if (v && x) x.textContent = v;
+        });
+        var rp = ind.riesgo && Number(ind.riesgo.valor), xr = document.querySelector("[data-ind='riesgo']");
+        if (rp > 0 && xr) xr.textContent = Math.round(rp).toLocaleString("es-AR");
         var t = document.querySelector("[data-dolar='tend']"), ant = d.anterior && Number(d.anterior.venta);
         if (t && ant) {
           var dif = Number(d.venta) - ant, span = document.createElement("span");
@@ -164,9 +171,15 @@
       var art = fig.closest(".card, .lead");
       if (art) art.classList.add(art.classList.contains("lead") ? "lead--sin-foto" : "card--texto");
     }
+    // Si falla la foto achicada, se prueba una vez con la original del medio; si también falla, se oculta.
+    function fallo(img) {
+      var orig = img.getAttribute("data-orig");
+      if (orig && img.getAttribute("src") !== orig) { img.removeAttribute("data-orig"); img.src = orig; return; }
+      ocultar(img);
+    }
     document.querySelectorAll("figure img").forEach(function (img) {
-      if (img.complete && img.naturalWidth === 0 && img.getAttribute("src")) ocultar(img);
-      img.addEventListener("error", function () { ocultar(img); });
+      img.addEventListener("error", function () { fallo(img); });
+      if (img.complete && img.naturalWidth === 0 && img.getAttribute("src")) fallo(img);
     });
   }
 
@@ -255,16 +268,69 @@
       }
       dlg.querySelector(".panel-cuerpo").scrollTop = 0;
     }
-    function abrir(id) {
+    /* El panel nace de la tarjeta tocada: arranca con su tamaño y lugar, crece hasta el suyo y al cerrar vuelve */
+    var animando = false;
+    function sinMovimiento() { return matchMedia("(prefers-reduced-motion: reduce)").matches || typeof dlg.animate !== "function"; }
+    function marcoDe(id, desde) {
+      var el = desde || document.querySelector("main [data-id='" + id + "']");
+      if (!el) return null;
+      el = el.querySelector(".slide-marco") || el;
+      var r = el.getBoundingClientRect();
+      if (r.width < 40 || r.height < 30 || r.bottom < 0 || r.top > innerHeight) return null;   // tiene que estar a la vista
+      return r;
+    }
+    function viaje(r) {
+      var f = dlg.getBoundingClientRect();
+      return "translate(" + (r.left - f.left).toFixed(1) + "px," + (r.top - f.top).toFixed(1) + "px) scale(" + (r.width / f.width).toFixed(4) + "," + (r.height / f.height).toFixed(4) + ")";
+    }
+    function crecer(r) {
+      if (!r || sinMovimiento()) return;
+      dlg.classList.add("nace");
+      var a = dlg.animate([
+        { transformOrigin: "0 0", transform: viaje(r), borderRadius: "16px" },
+        { transformOrigin: "0 0", transform: "none", borderRadius: "0px" }
+      ], { duration: 460, easing: "cubic-bezier(.2,.75,.15,1)" });
+      dlg.querySelector(".panel-in").animate([{ opacity: 0 }, { opacity: 0, offset: .35 }, { opacity: 1 }], { duration: 460, easing: "ease-out" });
+      a.onfinish = a.oncancel = function () { dlg.classList.remove("nace"); };
+      setTimeout(function () { dlg.classList.remove("nace"); }, 700);   // seguro si el navegador frena la animación
+    }
+    function abrir(id, desde) {
       pintar(id);
       if (!dlg.open) {
+        var r = marcoDe(id, desde);
         dlg.showModal();
         raiz.classList.add("con-panel");
         try { history.pushState({ mnPanel: 1 }, ""); enHistorial = true; } catch (e) { enHistorial = false; }
+        crecer(r);
       }
       q("cerrar").focus();
     }
     function cerrar(desdeHistorial) {
+      if (!dlg.open || animando) return;
+      var r = marcoDe(actual);
+      if (r && !sinMovimiento()) {
+        animando = true;
+        dlg.classList.add("nace");
+        dlg.querySelector(".panel-in").animate([{ opacity: 1 }, { opacity: 0 }], { duration: 160, fill: "forwards" });
+        var a = dlg.animate([
+          { transformOrigin: "0 0", transform: "none", borderRadius: "0px" },
+          { transformOrigin: "0 0", transform: viaje(r), borderRadius: "16px", opacity: .4 }
+        ], { duration: 380, easing: "cubic-bezier(.5,0,.2,1)", fill: "forwards" });
+        var listo = false;
+        var terminar = function () {
+          if (listo) return; listo = true;
+          animando = false;
+          dlg.getAnimations({ subtree: true }).forEach(function (x) { x.cancel(); });
+          dlg.classList.remove("nace");
+          cerrarYa(desdeHistorial);
+        };
+        a.onfinish = terminar;
+        setTimeout(terminar, 520);   // seguro: cierra aunque el navegador frene la animación
+        return;
+      }
+      cerrarYa(desdeHistorial);
+    }
+    function cerrarYa(desdeHistorial) {
       if (!dlg.open) return;
       dlg.close();
       raiz.classList.remove("con-panel");
@@ -275,6 +341,7 @@
     }
     function mover(d) {
       var i = orden.indexOf(actual) + d;
+      while (i >= 0 && i < orden.length && sinSus() && NOTAS[orden[i]].s) i += d;   // salta las ocultas por el filtro
       if (i >= 0 && i < orden.length) pintar(orden[i]);
     }
     abrirPanel = abrir;
@@ -329,8 +396,27 @@
       var id = cont && cont.getAttribute("data-id");
       if (!id || !NOTAS[id]) return;
       ev.preventDefault();
-      abrir(id);
+      abrirConZoom(cont, id);
     });
+    /* Tocar cualquier parte de una principal (no solo el título) también la abre, con un pequeño zoom */
+    document.addEventListener("click", function (ev) {
+      if (ev.defaultPrevented || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      var s = ev.target.closest && ev.target.closest(".slider .slide");
+      if (!s || ev.target.closest("a, button")) return;
+      var id = s.getAttribute("data-id");
+      if (id && NOTAS[id]) abrirConZoom(s, id);
+    });
+    function abrirConZoom(cont, id) {
+      // Una tarjeta de costado del carrusel no se abre: se trae al centro
+      if (cont.classList.contains("slide") && !cont.classList.contains("es-activa")) {
+        cont.dispatchEvent(new CustomEvent("mn-centrar", { bubbles: true }));
+        return;
+      }
+      if (!cont.classList.contains("slide") || matchMedia("(prefers-reduced-motion: reduce)").matches) { abrir(id, cont); return; }
+      cont.classList.add("zoom");
+      setTimeout(function () { abrir(id, cont); }, 200);
+      setTimeout(function () { cont.classList.remove("zoom"); }, 650);
+    }
   }
 
   /* ---- Buscador ---- */
@@ -348,7 +434,10 @@
       res.textContent = "";
       if (t.length < 2) { estado.textContent = "Escribí al menos 2 letras. Hay " + lista.length + " notas de las últimas 48 horas."; return; }
       var palabras = t.split(/\s+/);
-      var hallados = lista.filter(function (x) { return palabras.every(function (p) { return x.txt.indexOf(p) >= 0; }); });
+      var hallados = lista.filter(function (x) {
+        if (sinSus() && x.n.s) return false;   // filtro "ocultar notas con suscripción"
+        return palabras.every(function (p) { return x.txt.indexOf(p) >= 0; });
+      });
       estado.textContent = hallados.length ? hallados.length + (hallados.length === 1 ? " nota encontrada" : " notas encontradas") : "No hay notas con esas palabras.";
       hallados.slice(0, 30).forEach(function (x) {
         var li = el("li", "busc-item"), b = el("button", "busc-link");
@@ -410,6 +499,458 @@
     aviso.hidden = false;
   }
 
+  /* ---- Filtro: ocultar las notas con suscripción (se recuerda en el navegador) ---- */
+  function sinSus() { return raiz.hasAttribute("data-sin-sus"); }
+  function iniciarFiltro() {
+    var btns = Array.prototype.slice.call(document.querySelectorAll("[data-filtro-sus]"));
+    if (!btns.length) return;
+    function pintar() {
+      btns.forEach(function (b) { b.setAttribute("aria-pressed", sinSus() ? "true" : "false"); });
+    }
+    // Cuántas notas piden suscripción, al lado del texto del interruptor
+    var cuantas = Object.keys(NOTAS).filter(function (id) { return NOTAS[id].s; }).length;
+    btns.forEach(function (b) {
+      var txt = b.querySelector(".sus-txt");
+      if (txt && cuantas) txt.appendChild(el("span", "sus-cuenta", " (" + cuantas + ")"));
+    });
+    btns.forEach(function (b) { b.addEventListener("click", function () {
+      if (sinSus()) raiz.removeAttribute("data-sin-sus"); else raiz.setAttribute("data-sin-sus", "");
+      try { localStorage.setItem("mn-sus", sinSus() ? "ocultar" : "mostrar"); } catch (e) {}
+      pintar();
+      document.dispatchEvent(new Event("manonegra:filtro"));
+    }); });
+    pintar();
+  }
+
+  /* ---- Principales del día: slider ---- */
+  function iniciarSlider() {
+    var sl = document.querySelector("[data-slider]");
+    if (!sl) return;
+    var pista = sl.querySelector(".slider-pista"), puntos = sl.querySelector(".slider-puntos");
+    var prev = sl.querySelector(".slider-prev"), next = sl.querySelector(".slider-next");
+    var nEl = sl.querySelector("[data-slider-n]"), tEl = sl.querySelector("[data-slider-t]");
+    var info = sl.querySelector(".slider-info");
+    var todas = Array.prototype.slice.call(pista.querySelectorAll(".slide")), visibles = [], actual = 0;
+    var reducido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function dos(n) { return String(n).padStart(2, "0"); }
+
+    // Bajada y botón de la tarjeta del centro
+    var cambio = null;
+    function pintarInfo(id) {
+      var n = NOTAS[id];
+      if (!info || !n) return;
+      var bajada = info.querySelector("[data-info='bajada']"), link = info.querySelector("[data-info='link']"), medio = info.querySelector("[data-info='medio']");
+      var pal = (n.r || "").split(/\s+/).filter(Boolean);
+      function poner() {
+        if (bajada) bajada.textContent = pal.slice(0, 40).join(" ") + (pal.length > 40 ? "…" : "");
+        if (link) link.href = n.u;
+        if (medio) medio.textContent = "Leer en " + n.f + (n.s ? " (con suscripción)" : "");
+        info.classList.remove("cambia");
+      }
+      clearTimeout(cambio);
+      if (reducido) { poner(); return; }
+      info.classList.add("cambia");
+      cambio = setTimeout(poner, 160);
+    }
+    function activa(i) {
+      var antes = visibles[actual];
+      actual = Math.max(0, Math.min(visibles.length - 1, i));
+      todas.forEach(function (s) { s.classList.remove("es-activa"); });
+      var s = visibles[actual];
+      if (s) s.classList.add("es-activa");
+      Array.prototype.forEach.call(puntos ? puntos.children : [], function (li, k) {
+        li.firstChild.setAttribute("aria-current", k === actual ? "true" : "false");
+      });
+      if (nEl) nEl.textContent = dos(actual + 1);
+      if (prev) prev.disabled = actual === 0;
+      if (next) next.disabled = actual >= visibles.length - 1;
+      if (s && s !== antes) { pintarInfo(s.getAttribute("data-id")); luz(s); }
+    }
+
+    // Luz ambiental: detrás del carrusel brilla, difuminada, la foto de la tarjeta del centro
+    var capas = [], capa = 0;
+    var amb = el("div", "slider-luz"); amb.setAttribute("aria-hidden", "true");
+    for (var c = 0; c < 2; c++) capas.push(amb.appendChild(el("span")));
+    sl.insertBefore(amb, sl.firstChild);
+    function luz(s) {
+      var img = s && s.querySelector(".foto-slide img");
+      var src = img && img.style.display !== "none" ? (img.currentSrc || img.src) : "";
+      var sale = capas[capa];
+      if (!src) { sale.classList.remove("prendida"); return; }
+      capa = 1 - capa;
+      var entra = capas[capa];
+      entra.style.backgroundImage = "url(\"" + src.replace(/"/g, "%22") + "\")";
+      entra.classList.add("prendida");
+      sale.classList.remove("prendida");
+    }
+
+    // Efecto en perspectiva: cada tarjeta gira y se aleja según su distancia al centro
+    function perspectiva() {
+      var centro = pista.scrollLeft + pista.clientWidth / 2, mejor = 0, dist = Infinity;
+      visibles.forEach(function (s, k) {
+        var w = s.offsetWidth || 1, paso = w * 0.7;
+        var d = (s.offsetLeft + w / 2 - centro) / paso;
+        var a = Math.min(Math.abs(d), 4.5), sg = d < 0 ? -1 : 1;
+        if (Math.abs(d) < dist) { dist = Math.abs(d); mejor = k; }
+        if (reducido) { s.style.transform = ""; s.style.zIndex = String(100 - Math.round(a * 10)); return; }
+        // El borde de afuera de cada tarjeta lateral se va al fondo, como un mazo abierto en abanico
+        var giro = sg * Math.min(a, 1) * 48;                     // hasta 48° en la vecina; las demás quedan igual de giradas
+        var fondo = -Math.min(a, 1) * 230 - Math.max(0, a - 1) * 70;
+        var junta = -sg * Math.max(0, a - 1) * w * 0.45;         // las lejanas se apilan detrás
+        var escala = 1 - Math.min(a, 1) * 0.06;
+        s.style.transform = "translateX(" + junta.toFixed(1) + "px) translateZ(" + fondo.toFixed(1) + "px) rotateY(" + giro.toFixed(2) + "deg) scale(" + escala.toFixed(3) + ")";
+        s.style.zIndex = String(100 - Math.round(a * 10));
+        s.style.opacity = a > 3.4 ? String(Math.max(0, 4.4 - a)) : "";
+      });
+      if (mejor !== actual) activa(mejor);
+    }
+    function destinoDe(s) { return s.offsetLeft + s.offsetWidth / 2 - pista.clientWidth / 2; }
+    var seguro = null;
+    function ir(i) {
+      var s = visibles[Math.max(0, Math.min(visibles.length - 1, i))];
+      if (!s) return;
+      var suave = !document.hidden && !reducido, destino = destinoDe(s);
+      pista.scrollTo({ left: destino, behavior: suave ? "smooth" : "instant" });
+      clearTimeout(seguro);
+      seguro = setTimeout(function () {
+        // Seguro: si el movimiento suave no llegó, se acomoda en la tarjeta elegida
+        if (Math.abs(pista.scrollLeft - destinoDe(s)) > 2) pista.scrollTo({ left: destinoDe(s), behavior: "instant" });
+        perspectiva();
+      }, suave ? 900 : 30);
+    }
+    function armar() {
+      visibles = todas.filter(function (s) { return s.offsetParent !== null; });
+      if (puntos) {
+        puntos.textContent = "";
+        visibles.forEach(function (s, k) {
+          var li = document.createElement("li"), b = document.createElement("button");
+          b.type = "button"; b.setAttribute("aria-label", "Noticia " + (k + 1) + " de " + visibles.length);
+          b.addEventListener("click", function () { ir(k); });
+          li.appendChild(b); puntos.appendChild(li);
+        });
+      }
+      if (tEl) tEl.textContent = dos(visibles.length);
+      sl.classList.toggle("es-uno", visibles.length < 2);
+      actual = -1;
+      if (visibles[0]) pista.scrollTo({ left: destinoDe(visibles[0]), behavior: "instant" });
+      activa(0);
+      perspectiva();
+    }
+    pista.addEventListener("scroll", perspectiva, { passive: true });
+    pista.addEventListener("scrollend", perspectiva);
+    window.addEventListener("resize", function () { if (visibles[actual]) pista.scrollTo({ left: destinoDe(visibles[actual]), behavior: "instant" }); perspectiva(); });
+    if (prev) prev.addEventListener("click", function () { ir(actual - 1); });
+    if (next) next.addEventListener("click", function () { ir(actual + 1); });
+    pista.addEventListener("keydown", function (ev) {
+      if (ev.key === "ArrowRight") { ir(actual + 1); ev.preventDefault(); }
+      if (ev.key === "ArrowLeft") { ir(actual - 1); ev.preventDefault(); }
+    });
+    // Tocar una tarjeta de costado la trae al centro (la del centro abre la nota)
+    pista.addEventListener("mn-centrar", function (ev) {
+      var k = visibles.indexOf(ev.target);
+      if (k >= 0) ir(k);
+    });
+    document.addEventListener("manonegra:filtro", armar);
+    armar();
+    // Primera visita en el celular: se asoma una vez para mostrar que se desliza
+    var yaVio = null;
+    try { yaVio = localStorage.getItem("mn-slider-visto"); } catch (e) {}
+    if (!yaVio && visibles.length > 1 && matchMedia("(hover: none)").matches && !reducido && "IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (en) {
+        if (!en[0].isIntersecting) return;
+        io.disconnect();
+        pista.classList.add("asoma");
+        pista.addEventListener("animationend", function () { pista.classList.remove("asoma"); }, { once: true });
+        try { localStorage.setItem("mn-slider-visto", "1"); } catch (e) {}
+      }, { threshold: 0.6 });
+      io.observe(pista);
+    }
+  }
+
+  /* ---- Profundidad: cartas que se inclinan con el mouse y aparecen desde el fondo al bajar ---- */
+  function iniciarProfundidad() {
+    var reducido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var cartas = Array.prototype.slice.call(document.querySelectorAll(".destacadas .grilla > .card"));
+    if (!cartas.length || reducido) return;
+
+    // Inclinación: hasta 7° hacia donde está el puntero, con un reflejo de luz
+    if (matchMedia("(hover: hover) and (pointer: fine)").matches) {
+      cartas.forEach(function (c) {
+        c.addEventListener("pointerenter", function () { c.classList.add("inclina"); });
+        c.addEventListener("pointermove", function (ev) {
+          var r = c.getBoundingClientRect();
+          var x = (ev.clientX - r.left) / r.width, y = (ev.clientY - r.top) / r.height;
+          c.style.setProperty("--ry", ((x - 0.5) * 14).toFixed(2) + "deg");
+          c.style.setProperty("--rx", ((0.5 - y) * 10).toFixed(2) + "deg");
+          c.style.setProperty("--gx", (x * 100).toFixed(1) + "%");
+          c.style.setProperty("--gy", (y * 100).toFixed(1) + "%");
+        });
+        c.addEventListener("pointerleave", function () {
+          c.classList.remove("inclina");
+          c.style.setProperty("--rx", "0deg"); c.style.setProperty("--ry", "0deg");
+        });
+      });
+    }
+
+    // Aparición: cada carta sube desde atrás, inclinada, y se endereza al entrar en pantalla
+    if (!("IntersectionObserver" in window)) return;
+    var io = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var c = en.target, k = cartas.indexOf(c);
+        io.unobserve(c);
+        var demora = (k % 3) * 90;
+        c.style.transitionDelay = demora + "ms";
+        c.classList.add("visto");
+        setTimeout(function () { c.classList.remove("revela", "visto"); c.style.transitionDelay = ""; }, 800 + demora);
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
+    cartas.forEach(function (c) {
+      var r = c.getBoundingClientRect();
+      if (r.top < innerHeight && r.bottom > 0) return;   // las que ya se ven al cargar no se animan
+      c.classList.add("revela");
+      io.observe(c);
+    });
+  }
+
+  /* ---- Secciones como mazo: la carta de adelante se va al fondo y aparece la siguiente ---- */
+  function iniciarMazos() {
+    var reducido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    Array.prototype.forEach.call(document.querySelectorAll(".seccion .sec-grid"), function (grid) {
+      var todas = Array.prototype.slice.call(grid.querySelectorAll(":scope > .card"));
+      if (todas.length < 2) return;
+      var zona = el("div", "mazo-zona");
+      grid.parentNode.insertBefore(zona, grid);
+      var escena = el("div", "mazo-escena");
+      zona.appendChild(escena);
+      escena.appendChild(grid);
+      // Flechas redondas a los costados, a la altura del medio de la foto
+      function flecha(clase, etiqueta, d) {
+        var b = el("button", "mazo-flecha " + clase); b.type = "button"; b.setAttribute("aria-label", etiqueta);
+        b.innerHTML = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' + d + '"/></svg>';
+        escena.appendChild(b);
+        return b;
+      }
+      var bAnt = flecha("mazo-prev", "Carta anterior", "M19 12H5M11 6l-6 6 6 6");
+      var bSig = flecha("mazo-next", "Carta siguiente", "M5 12h14M13 6l6 6-6 6");
+      var nav = el("div", "mazo-nav");
+      var cont = el("p", "mazo-cont");
+      nav.appendChild(cont);
+      zona.appendChild(nav);
+      var indice = el("nav", "mazo-indice"); indice.setAttribute("aria-label", "Cartas de esta sección");
+      indice.appendChild(el("span", "etiqueta", "(En este mazo)"));
+      zona.appendChild(indice);
+      grid.classList.add("mazo");
+
+      var orden = [], frente = 0;   // orden: cartas visibles; frente: índice de la que está adelante
+      function pintar() {
+        var n = orden.length;
+        todas.forEach(function (c) { c.classList.remove("al-frente", "lejos"); });
+        orden.forEach(function (c, k) {
+          var p = (k - frente + n) % n;
+          c.style.setProperty("--p", String(p));
+          c.classList.toggle("al-frente", p === 0);
+          c.classList.toggle("lejos", p > 3);
+          c.setAttribute("aria-hidden", p === 0 ? "false" : "true");
+        });
+        cont.textContent = "";
+        cont.appendChild(el("b", "", String(frente + 1).padStart(2, "0")));
+        cont.appendChild(document.createTextNode(" / " + String(n).padStart(2, "0")));
+        Array.prototype.forEach.call(indice.querySelectorAll("button"), function (b, k) {
+          b.setAttribute("aria-current", k === frente ? "true" : "false");
+        });
+        bAnt.disabled = bSig.disabled = n < 2;
+      }
+      function armar() {
+        orden = todas.filter(function (c) { return getComputedStyle(c).display !== "none"; });
+        todas.forEach(function (c) { if (orden.indexOf(c) < 0) c.removeAttribute("aria-hidden"); });
+        frente = 0;
+        Array.prototype.slice.call(indice.querySelectorAll("button")).forEach(function (b) { b.remove(); });
+        orden.forEach(function (c, k) {
+          var t = c.querySelector(".card-tit");
+          var b = el("button", "", t ? t.textContent.trim() : "Nota " + (k + 1)); b.type = "button";
+          b.addEventListener("click", function () { ir(k); });
+          indice.appendChild(b);
+        });
+        nav.hidden = orden.length < 2;
+        escena.classList.toggle("es-uno", orden.length < 2);
+        pintar();
+      }
+      // La que sale vuela hacia un costado y vuelve al fondo del mazo
+      function volar(c, dir) {
+        if (reducido || typeof c.animate !== "function") return;
+        c.animate([
+          { transform: getComputedStyle(c).transform, zIndex: 30 },
+          { transform: "translateX(" + (dir > 0 ? -72 : 72) + "%) rotate(" + (dir > 0 ? -7 : 7) + "deg)", zIndex: 30, offset: .45 }
+        ], { duration: 560, easing: "cubic-bezier(.3,.6,.2,1)" });
+      }
+      function ir(k) {
+        var n = orden.length;
+        if (n < 2) return;
+        k = ((k % n) + n) % n;
+        if (k === frente) return;
+        var sale = orden[frente], adelante = k === (frente + 1) % n;
+        frente = k;
+        if (adelante) volar(sale, 1);          // la de adelante se va al fondo
+        else volar(orden[frente], -1);          // la elegida llega desde el costado
+        pintar();
+      }
+      bSig.addEventListener("click", function () { ir(frente + 1); });
+      bAnt.addEventListener("click", function () { ir(frente - 1); });
+      // Deslizar la carta de adelante con el dedo
+      var x0 = null, y0 = null;
+      grid.addEventListener("pointerdown", function (ev) { x0 = ev.clientX; y0 = ev.clientY; });
+      grid.addEventListener("pointerup", function (ev) {
+        if (x0 === null) return;
+        var dx = ev.clientX - x0, dy = ev.clientY - y0; x0 = null;
+        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.3) {
+          ir(frente + (dx < 0 ? 1 : -1));
+          var frenar = function (e) { e.stopPropagation(); e.preventDefault(); };
+          grid.addEventListener("click", frenar, { capture: true, once: true });
+          setTimeout(function () { grid.removeEventListener("click", frenar, { capture: true }); }, 350);
+        }
+      });
+      document.addEventListener("manonegra:filtro", armar);
+      armar();
+    });
+  }
+
+  /* ---- "Hoy en 60 segundos": resumen tipo historias para el celular ---- */
+  function iniciarResumen() {
+    if (typeof document.createElement("dialog").showModal !== "function" || !Object.keys(NOTAS).length) return;
+    var POR_NOTA = 12000, reducido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var btn = el("button", "resumen-btn"); btn.type = "button";
+    btn.setAttribute("aria-label", "Ver el resumen del día en 60 segundos");
+    btn.appendChild(el("span", "resumen-punto")).setAttribute("aria-hidden", "true");
+    btn.appendChild(el("span", "", "Hoy en 60 s"));
+    var dlg = el("dialog", "resumen"); dlg.setAttribute("aria-label", "Hoy en 60 segundos");
+    dlg.innerHTML =
+      '<div class="res-barras" aria-hidden="true"></div>' +
+      '<p class="res-marca"><span>(Hoy en 60 s)</span><span class="res-n"></span></p>' +
+      '<div class="res-escena" aria-live="polite"></div>' +
+      '<button class="res-zona res-ant" type="button" aria-label="Noticia anterior"></button>' +
+      '<button class="res-zona res-sig" type="button" aria-label="Noticia siguiente"></button>' +
+      '<div class="res-ctrl"><button class="res-pausa" type="button" aria-label="Pausar">❚❚</button>' +
+      '<button class="res-cerrar" type="button" aria-label="Cerrar el resumen">✕</button></div>';
+    document.body.appendChild(btn); document.body.appendChild(dlg);
+    var barras = dlg.querySelector(".res-barras"), escena = dlg.querySelector(".res-escena"), nTxt = dlg.querySelector(".res-n");
+    var pausa = dlg.querySelector(".res-pausa");
+    var ids = [], i = 0, transcurrido = 0, pausado = false, reloj = null, enHistorial = false;
+
+    function sumar(lista, id) {
+      if (lista.length < 5 && NOTAS[id] && lista.indexOf(id) < 0 && !(sinSus() && NOTAS[id].s)) lista.push(id);
+    }
+    function elegir() {   // las principales del slider, en su orden; sin las ocultas por el filtro
+      var lista = [];
+      document.querySelectorAll(".portada [data-id]").forEach(function (n) { if (!sinSus() && n.classList.contains("slide--relleno")) return; sumar(lista, n.getAttribute("data-id")); });
+      document.querySelectorAll(".grilla [data-id]").forEach(function (n) { if (!sinSus() && n.classList.contains("card--relleno")) return; sumar(lista, n.getAttribute("data-id")); });
+      return lista;
+    }
+    function pintarBarras() {
+      Array.prototype.forEach.call(barras.children, function (b, k) {
+        var p = k < i ? 1 : k > i ? 0 : Math.min(1, transcurrido / POR_NOTA);
+        b.firstChild.style.transform = "scaleX(" + p + ")";
+      });
+    }
+    function escenaNota(id) {
+      var n = NOTAS[id], frag = document.createDocumentFragment();
+      if (n.i) {
+        var fig = el("figure", "res-foto"), img = el("img");
+        img.src = n.i; img.alt = ""; img.referrerPolicy = "no-referrer";
+        img.onerror = function () { fig.hidden = true; };
+        fig.appendChild(img); frag.appendChild(fig);
+      }
+      var txt = el("div", "res-txt");
+      var kick = el("p", "res-kick"), mk = el("span", "mk mk-" + n.g); mk.setAttribute("aria-hidden", "true");
+      kick.appendChild(mk); kick.appendChild(el("span", "", n.k));
+      txt.appendChild(kick);
+      txt.appendChild(el("h2", "res-tit", n.t));
+      var pal = (n.r || "").split(/\s+/).filter(Boolean);
+      if (pal.length) txt.appendChild(el("p", "res-baj", pal.slice(0, 28).join(" ") + (pal.length > 28 ? "…" : "")));
+      var a = el("a", "res-leer"); a.href = n.u; a.target = "_blank"; a.rel = "noopener";
+      a.appendChild(el("span", "", "Leer en " + n.f + (n.s ? " (con suscripción)" : "")));
+      a.appendChild(el("span", "flecha", "↗")).setAttribute("aria-hidden", "true");
+      txt.appendChild(a);
+      if (n.i) txt.appendChild(el("p", "res-cred", "(Foto: " + n.c + ")"));
+      frag.appendChild(txt);
+      return frag;
+    }
+    function escenaFin() {
+      var txt = el("div", "res-txt res-fin");
+      txt.appendChild(el("p", "res-kick", "(Fin del resumen)"));
+      txt.appendChild(el("h2", "res-tit", "Eso es lo principal de hoy."));
+      var prox = document.querySelector("[data-prox]");
+      txt.appendChild(el("p", "res-baj", "Próxima actualización: " + (prox ? prox.textContent : "") + " h. Todas las notas siguen en la portada."));
+      var b = el("button", "res-leer", "Ver todas las notas"); b.type = "button";
+      b.addEventListener("click", function () { cerrar(); });
+      txt.appendChild(b);
+      return txt;
+    }
+    function mostrar(k) {
+      i = Math.max(0, Math.min(ids.length, k)); transcurrido = 0;
+      escena.classList.remove("entra"); void escena.offsetWidth;
+      escena.textContent = "";
+      escena.appendChild(i < ids.length ? escenaNota(ids[i]) : escenaFin());
+      escena.classList.add("entra");
+      nTxt.textContent = i < ids.length ? String(i + 1).padStart(2, "0") + " / " + String(ids.length).padStart(2, "0") : "";
+      dlg.classList.toggle("en-fin", i >= ids.length);
+      pintarBarras();
+    }
+    function tic() {
+      if (pausado || document.hidden || i >= ids.length) return;
+      transcurrido += 100;
+      if (transcurrido >= POR_NOTA) mostrar(i + 1); else pintarBarras();
+    }
+    function ponerPausa(v) {
+      pausado = v; dlg.classList.toggle("pausado", v);
+      pausa.textContent = v ? "▶" : "❚❚"; pausa.setAttribute("aria-label", v ? "Seguir" : "Pausar");
+    }
+    function abrir() {
+      ids = elegir();
+      if (!ids.length) return;
+      barras.textContent = "";
+      ids.forEach(function () { var b = el("span", "res-barra"); b.appendChild(el("span", "res-lleno")); barras.appendChild(b); });
+      ponerPausa(reducido);   // con "reducir movimiento" no avanza solo
+      dlg.showModal(); raiz.classList.add("con-panel");
+      try { history.pushState({ mnResumen: 1 }, ""); enHistorial = true; } catch (e) { enHistorial = false; }
+      mostrar(0);
+      clearInterval(reloj); reloj = setInterval(tic, 100);
+    }
+    function cerrar(desdeHistorial) {
+      if (!dlg.open) return;
+      clearInterval(reloj); dlg.close(); raiz.classList.remove("con-panel");
+      if (enHistorial && !desdeHistorial) { enHistorial = false; try { history.back(); } catch (e) {} }
+      enHistorial = false; btn.focus();
+    }
+    function siguiente() { if (i < ids.length) mostrar(i + 1); else cerrar(); }
+    btn.addEventListener("click", abrir);
+    dlg.querySelector(".res-cerrar").addEventListener("click", function () { cerrar(); });
+    dlg.querySelector(".res-ant").addEventListener("click", function () { mostrar(i - 1); });
+    dlg.querySelector(".res-sig").addEventListener("click", siguiente);
+    pausa.addEventListener("click", function () { ponerPausa(!pausado); });
+    dlg.addEventListener("cancel", function (ev) { ev.preventDefault(); cerrar(); });
+    window.addEventListener("popstate", function () { if (dlg.open) { enHistorial = false; cerrar(true); } });
+    dlg.addEventListener("keydown", function (ev) {
+      if (ev.key === "ArrowRight") { siguiente(); ev.preventDefault(); }
+      if (ev.key === "ArrowLeft") { mostrar(i - 1); ev.preventDefault(); }
+      if (ev.key === " " && ev.target.tagName !== "BUTTON" && ev.target.tagName !== "A") { ponerPausa(!pausado); ev.preventDefault(); }
+    });
+    // Deslizar con el dedo: hacia la izquierda = siguiente, hacia la derecha = anterior
+    var x0 = null, y0 = null;
+    dlg.addEventListener("pointerdown", function (ev) { x0 = ev.clientX; y0 = ev.clientY; });
+    dlg.addEventListener("pointerup", function (ev) {
+      if (x0 === null) return;
+      var dx = ev.clientX - x0, dy = ev.clientY - y0; x0 = null;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+        if (dx < 0) siguiente(); else mostrar(i - 1);
+        // que el deslizamiento no cuente además como un toque
+        var frenar = function (e) { e.stopPropagation(); e.preventDefault(); };
+        dlg.addEventListener("click", frenar, { capture: true, once: true });
+        setTimeout(function () { dlg.removeEventListener("click", frenar, { capture: true }); }, 350);
+      }
+    });
+  }
+
   /* ---- Tamaño de letra A− / A+ ---- */
   function iniciarLetra() {
     var botones = document.querySelectorAll(".letra-btn");
@@ -453,7 +994,11 @@
     seguro(iniciarNuevas, "nuevas");
     seguro(iniciarPanel, "panel");
     seguro(iniciarBuscador, "buscador");
-    seguro(iniciarLetra, "letra");
+    seguro(iniciarFiltro, "filtro");
+    seguro(iniciarSlider, "slider");
+    seguro(iniciarResumen, "resumen");
+    seguro(iniciarProfundidad, "profundidad");
+    seguro(iniciarMazos, "mazos");
     seguro(iniciarProxima, "próxima");
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar);
