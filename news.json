@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T17:17:41-03:00",
+  "actualizado": "2026-11-16T17:23:11-03:00",
   "notas": [
     {
       "id": "e5a62bbd72",
@@ -30,10 +30,32 @@
       }
     },
     {
-      "id": "211698649e",
+      "id": "0b48cb105f",
       "seccion": "argentina",
       "rel": 22.0,
       "relevancia": 22.0,
+      "fecha": "2026-11-16T17:19:33-03:00",
+      "hora": "17:19",
+      "titulo": "Quiénes serán parte de la cumbre anti Milei en San Fernando: el PJ mostrará una influyente confluencia de actores",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/11/16/quienes-seran-parte-de-la-cumbre-anti-milei-en-san-fernando-el-pj-mostrara-una-influyente-confluencia-de-actores/",
+      "acceso": "abierto",
+      "resumen": "El encuentro, por el Día de la Militancia, será este martes, a las 18:30, y contará con la presencia de distintas tribus justicialistas. Gobernadores, vicegobernadores, intendentes, precandidatos y más de 40 legisladores de todo el país",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/ZYO7HPDCKRGA3GZUWE3RSOYT7E.jpg?auth=06e52a9a10a8e7ffb0fc55f064409b7651a6843b830d2bd58526bb464b28390e&smart=true&width=1920&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.082,
+        "y1": 0.437
+      }
+    },
+    {
+      "id": "211698649e",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
       "fecha": "2026-11-16T17:04:50-03:00",
       "hora": "17:04",
       "titulo": "El kicillofismo relativiza la foto justicialista que prepara Massa y sigue su armado propio de cara a 2027",
@@ -183,8 +205,8 @@
     {
       "id": "322f123ff4",
       "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
+      "rel": 21.7,
+      "relevancia": 21.7,
       "fecha": "2026-11-16T15:52:26-03:00",
       "hora": "15:52",
       "titulo": "Presupuesto 2027: los gobernadores negocian y condicionan el respaldo en el Congreso",
@@ -246,8 +268,8 @@
     {
       "id": "c2d1323ac8",
       "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
+      "rel": 21.5,
+      "relevancia": 21.5,
       "fecha": "2026-11-16T14:40:11-03:00",
       "hora": "14:40",
       "titulo": "Martín Llaryora sobre el Presupuesto 2027: «Ponemos la economía al servicio de las personas como nos pidió León XIV»",
@@ -278,8 +300,8 @@
       "acceso": "abierto",
       "resumen": "Estos valores son determinantes para el sistema de protección de ahorros y entraron en vigencia a partir del 13 de noviembre de 2026. Según el reporte oficial, la tasa nominal anual (TNA) para los depósitos en pesos se fijó en 18,94%. Por su parte, para las colocaciones en moneda extranjera (dólares), la referencia se estableció […]",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/11/BCRA-jpg.webp",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -297,8 +319,8 @@
       "acceso": "abierto",
       "resumen": "El Tribunal Superior de Justicia (TSJ) de Córdoba aprobó la incorporación del sistema de Despacho Automático con Inteligencia Artificial (DACIA) y la automatización de la registración ante el Registro Público de Juicios Universales para todos los procesos de concursos y quiebras a partir del próximo 1 de diciembre de 2026. La norma busca optimizar la […]",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/04/Justicia-IA.jpg",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -350,8 +372,8 @@
     {
       "id": "fa569e2ca4",
       "seccion": "economia",
-      "rel": 21.4,
-      "relevancia": 21.4,
+      "rel": 21.3,
+      "relevancia": 21.3,
       "fecha": "2026-11-16T13:27:00-03:00",
       "hora": "13:27",
       "titulo": "Otra jornada complicada para los mercados: suben el dólar y el riesgo país",
@@ -387,6 +409,28 @@
       "otros": [],
       "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "528389716b",
+      "seccion": "economia",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-11-16T13:03:21-03:00",
+      "hora": "13:03",
+      "titulo": "Un economista del Banco Central de México dice que la Argentina está “bien parada” para una reelección",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/la-advertencia-de-un-economista-del-banco-central-de-mexico-bajar-la-inflacion-no-garantiza-la-nid16112026/",
+      "acceso": "suscripcion",
+      "resumen": "Martín Tobal, economista del Banco de México, comparó en las jornadas del BCRA el plan de Milei con programas de 55 países; los gobiernos reelegidos bajaron menos la inflación y crecieron más",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/KFWUCLB3WZHH5ER3WZFXFBUS3E.jpeg?auth=735880c81a3c070dac4a96ce84d3091809e0678570a73ae848e83b02451e3274&smart=true&width=1600&height=1087",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.224,
+        "y1": 0.456
+      }
     },
     {
       "id": "61d078d812",
@@ -445,8 +489,8 @@
       "acceso": "abierto",
       "resumen": "Fue solicitada por el jefe del bloque de La Libertad Avanza, Gabriel Bornoroni, para el próximo miércoles a las 12.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/tty_1794515908-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -464,29 +508,10 @@
       "acceso": "abierto",
       "resumen": "La resistencia del partido amarillo arroja dudas sobre las chances de aprobación de la iniciativa en el Congreso.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-kirchnerismo-y-el-PRO-critican-el-pryecto-oficial-para-suspender-las-Paso-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
       "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "7eb1076349",
-      "seccion": "economia",
-      "rel": 21.0,
-      "relevancia": 21.0,
-      "fecha": "2026-11-16T11:00:00-03:00",
-      "hora": "11:00",
-      "titulo": "Caputo admitió que la economía creció menos de lo esperado",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/caputo-admitio-que-la-economia-crecio-menos-de-lo-esperado/",
-      "acceso": "abierto",
-      "resumen": "El ministro de Economía, Luis Caputo, reconoció que no se cumplió su pronóstico de que la Argentina tendría parte de este año y del 2027 los mejores meses de las últimas décadas para consolidar el repunte de la actividad económica. A menos de sies meses de haber prometido ingresar en “los mejores 18 meses de […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
-      "otros": [],
-      "dia": 0,
       "rostros": null
     },
     {
@@ -502,8 +527,8 @@
       "acceso": "abierto",
       "resumen": "La Libertad Avanza ultima las negociaciones con los bloques aliados para la sesión clave del próximo miércoles. Los cambios que aceptó a la iniciativa.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-oficialismo-termina-de-pulir-el-proyecto-de-Malvinas-para-apurar-su-aprobacion-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
       "dia": 1,
       "rostros": null
@@ -526,6 +551,28 @@
       "otros": [],
       "dia": 1,
       "rostros": null
+    },
+    {
+      "id": "7eb1076349",
+      "seccion": "economia",
+      "rel": 20.9,
+      "relevancia": 20.9,
+      "fecha": "2026-11-16T11:00:00-03:00",
+      "hora": "11:00",
+      "titulo": "Caputo admitió que la economía creció menos de lo esperado",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/caputo-admitio-que-la-economia-crecio-menos-de-lo-esperado/",
+      "acceso": "abierto",
+      "resumen": "El ministro de Economía, Luis Caputo, reconoció que no se cumplió su pronóstico de que la Argentina tendría parte de este año y del 2027 los mejores meses de las últimas décadas para consolidar el repunte de la actividad económica. A menos de sies meses de haber prometido ingresar en “los mejores 18 meses de […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/02/Apyme-operario-industria.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.324,
+        "y1": 0.548
+      }
     },
     {
       "id": "d2344f3b1b",
@@ -562,11 +609,14 @@
       "acceso": "abierto",
       "resumen": "La mitad de los argentinos están preocupados porque sus ingresos no les alcanzan para llegar a fin de mes y 44% dice sentirse triste, angustiado o con incertidumbre sobre lo que pasará en los últimos 50 días del año",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2025/11/caputo.jpg",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.103,
+        "y1": 0.709
+      }
     },
     {
       "id": "3304580240",
@@ -581,8 +631,8 @@
       "acceso": "abierto",
       "resumen": "Por Carlos Emanuel Cafure Abogado ​La Caja de Jubilaciones, Pensiones y Retiros de Córdoba atraviesa una de las crisis estructurales más severas de su historia. El desequilibrio financiero dejó de ser un simple debate presupuestario, para transformarse en una encrucijada que afecta de forma directa el bolsillo de los trabajadores activos y la calidad de […]",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/03/Caja-de-Jubilaciones.jpg",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -600,11 +650,14 @@
       "acceso": "abierto",
       "resumen": "El ministro Caputo informó que el resultado implicó una suba interanual del 204,9%",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/01/caputo.webp",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "y0": 0.522,
+        "y1": 0.968
+      }
     },
     {
       "id": "66e27cd91e",
@@ -648,6 +701,28 @@
       }
     },
     {
+      "id": "66e27cd91e",
+      "seccion": "cordoba",
+      "rel": 19.3,
+      "relevancia": 19.3,
+      "fecha": "2026-11-16T01:26:00-03:00",
+      "hora": "01:26",
+      "titulo": "El Senado busca convertir un proyecto de discapacidad en ley",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/el-senado-busca-convertir-un-proyecto-de-discapacidad-en-ley/",
+      "acceso": "abierto",
+      "resumen": "El Senado realizará este jueves una sesión, que tendrá como eje central la sanción definitiva del proyecto de ley de Discapacidad, que tiene el respaldo de todo el arco político dado que mantiene los principales puntos de la emergencia que vence en diciembre. La presidenta del bloque de la Libertad Avanza, Patricia Bullrich, impulsa la […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/12/bullrich-jpg.webp",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "y0": 0.11,
+        "y1": 0.692
+      }
+    },
+    {
       "id": "de4e42a996",
       "seccion": "cordoba",
       "rel": 19.3,
@@ -660,8 +735,8 @@
       "acceso": "abierto",
       "resumen": "El Presidente recibirá a directivos de Toyota, será distinguido por dos universidades y participará el viernes del lanzamiento oficial de Tesla en Argentina.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-tendra-una-semana-de-agenda-empresarial-y-academica-con-Tesla-como-cierre.avif",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
       "dia": 1,
       "rostros": null
@@ -719,8 +794,8 @@
     {
       "id": "82949e7c64",
       "seccion": "economia",
-      "rel": 18.9,
-      "relevancia": 18.9,
+      "rel": 18.8,
+      "relevancia": 18.8,
       "fecha": "2026-11-15T22:24:20-03:00",
       "hora": "22:24",
       "titulo": "JP Morgan estima que Argentina llegará a las elecciones con una inflación aún en torno a 2%",
@@ -729,8 +804,8 @@
       "acceso": "abierto",
       "resumen": "La entidad global proyecta un IPC de 31% para este año y de 23% para 2027. Sin embargo, advirtió que la suba de tarifas y una eventual corrida cambiaria podrían presionar al alza la cifra final del índice de precios frente al año electoral JP Morgan prevé que la Argentina llegue a las próximas elecciones […]",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2021/02/JP-Morgan.jpg",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 1,
       "rostros": null
@@ -748,8 +823,8 @@
       "acceso": "abierto",
       "resumen": "Entre los ejes principales, la normativa redefine el concepto de “proveedor local”: ahora bastará con que una persona jurídica esté constituida y domiciliada en el país, eliminando las restricciones previas sobre la nacionalidad o residencia de sus accionistas, con el fin de potenciar el encadenamiento productivo nacional. Asimismo, se establecieron pautas claras sobre los plazos […]",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/10/RIGI-2.jpg",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -767,8 +842,8 @@
       "acceso": "abierto",
       "resumen": "Marcelo Colombo descartó que la emoción del presidente Milei ante el Papa haya sido fingida y pidió abordar la pobreza sin tintes partidarios.",
       "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-jefe-del-Episcopado-le-reclamo-al-Gobierno-que-haga-foco-en-la-situacion-social-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
       "dia": 1,
       "rostros": null
@@ -788,44 +863,6 @@
       "impacto": null,
       "imagen": "https://srt-assets.tadevel-cdn.com/6afb0e6308c18f80ee7f72cc/720.jpeg",
       "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "94dab5d7a4",
-      "seccion": "argentina",
-      "rel": 15.3,
-      "relevancia": 15.3,
-      "fecha": "2026-11-16T13:16:25-03:00",
-      "hora": "13:16",
-      "titulo": "Javier Milei empieza una semana de definiciones con una agenda “amigable” y reuniones con entidades aliadas",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-empieza-una-semana-de-definiciones-con-una-agenda-amigable-con-reuniones-con-entidades-nid16112026/",
-      "acceso": "suscripcion",
-      "resumen": "El Presidente expondrá ante empresarios, recibirá premios de entidades judías y participará de un encuentro de polo; delegó en su hermana las definiciones políticas",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/3WJCKZOC6ZHEBKUTUS4D3ZYLPI.jpg?auth=6159ddea9e4b46d869cf80864c2cd7dbe7c968ce6807b832121d2a6f8b89cc7a&smart=true&width=1200&height=800",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "2352f3171c",
-      "seccion": "cordoba",
-      "rel": 13.5,
-      "relevancia": 13.5,
-      "fecha": "2026-11-16T14:33:22-03:00",
-      "hora": "14:33",
-      "titulo": "Poder Judicial: generalizan el procedimiento oral para prisiones preventivas en delitos comunes",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/poder-judicial-generalizan-el-procedimiento-oral-para-prisiones-preventivas-en-delitos-comunes/",
-      "acceso": "abierto",
-      "resumen": "El Tribunal Superior de Justicia (TSJ) de Córdoba aprobó la implementación generalizada del procedimiento oral para el dictado de la prisión preventiva y los recursos de apelación sobre la libertad de los imputados en la Primera Circunscripción Judicial (Capital y alrededores), con vigencia a partir de este 17 de noviembre de 2026. La medida deja […]",
-      "impacto": null,
-      "imagen": null,
-      "imagen_credito": null,
       "otros": [],
       "dia": 0,
       "rostros": null

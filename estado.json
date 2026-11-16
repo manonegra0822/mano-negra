@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-16T17:17:41-03:00",
+  "actualizado": "2026-11-16T17:23:11-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 95,
           "ejemplos": [
-            "Panamá avanza: se clasifica por cuarta vez al Final Four de la Liga de Naciones ",
-            "Clima en CDMX hoy lunes 16 de noviembre: prevén lluvias ligeras, viento y descen",
-            "Kratos vuelve a PlayStation 4 en ‘God of War: Sons of Sparta’ confirmando fecha "
+            "Cardenal Carlos Castillo al papa León XIV: “Perú es un país clave y tú lo has vu",
+            "Nogueras rechaza \"lecciones\" de Rufián: \"Pedir perdón por ser catalán no es ser ",
+            "Temas del día de EFE España del martes 17 de noviembre de 2026"
           ]
         },
         "sin ancla argentina": {
@@ -36,15 +36,15 @@
     },
     {
       "medio": "La Nación",
-      "leidas": 95,
-      "aceptadas": 10,
+      "leidas": 94,
+      "aceptadas": 11,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 72,
+          "cantidad": 71,
           "ejemplos": [
-            "Estanislao Bachrach explica cómo influye la respiración en el dolor y el sufrimi",
-            "Conrado Estol, sobre la importancia del optimismo: “Mantener una visión positiva",
-            "Reportan fallas en los principales bancos de Estados Unidos: miles de usuarios d"
+            "Súper Niño 2026 en Argentina, EN VIVO: el río Paraná sigue creciendo y superó el",
+            "Sofía “Jujuy” Jiménez está embarazada: anunció que será mamá por primera vez en ",
+            "El Papa León XIV cerró su gira en Perú, EN VIVO: “Los únicos que no pueden esper"
           ]
         },
         "titular sin tema de política/economía": {
@@ -61,12 +61,6 @@
             "La Serenísima volvió a las ganancias en los primeros nueve meses de 2026 y proye",
             "La defensa de Adorni que aceptó el fiscal abre interrogantes sobre el futuro del",
             "El Gobierno obtuvo un superávit de $1,58 billones en octubre y acumula un saldo "
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La observación de un economista del Banco Central de México: bajar la inflación "
           ]
         }
       }
@@ -163,8 +157,8 @@
           "cantidad": 14,
           "ejemplos": [
             "Comienza una nueva semana de paro docente universitario",
-            "Santiago Peña fue trasladado a una cárcel militar por el colapso de Ueno Bank",
-            "El papa León XIV finalizó su agenda latinoamericana y regresó a Roma"
+            "Toneladas de restos cárnicos fueron arrojadas en la ciudad de Córdoba",
+            "Santiago Peña fue trasladado a una cárcel militar por el colapso de Ueno Bank"
           ]
         },
         "deportes/policiales/clima/espectáculos": {

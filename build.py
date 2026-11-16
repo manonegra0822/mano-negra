@@ -649,8 +649,8 @@ def main():
             if buscar in normalizar(n["titulo"]) or buscar in n["url"].lower():
                 n["imagen"], n["imagen_credito"] = archivo, f.get("credito") or "Foto propia"
 
-    # Las notas más importantes que no traen imagen en el feed: se busca la de la propia página
-    for n in notas[:12]:
+    # Toda nota que no trae imagen en el feed: se busca la que la propia página declara (og:image)
+    for n in notas:
         if not n["imagen"]:
             img = imagen_de_la_pagina(n["url"])
             if img:
