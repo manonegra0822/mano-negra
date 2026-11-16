@@ -477,6 +477,9 @@ def armar(plantilla, datos, dolar, sitio, kw, fuentes):
         "N_MEDIOS": f"{len(fuentes):02d}",
         "ACTUALIZADO_ISO": ahora.isoformat(timespec="minutes"),
         "MENU_EXTRA": menu_extra,
+        "RIEL_EXTRA": ('<li class="riel-sec"><a class="riel-btn" href="#opinion" data-tip="Opinión" aria-label="Opinión">'
+                       '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.5 12a8.5 8.5 0 0 1-12.4 7.5L3.5 21l1.4-4.4A8.5 8.5 0 1 1 20.5 12z"/></svg></a></li>'
+                       if datos.get("opinion") else ""),
         "PRINCIPAL": html_slider,
         "GRILLA": html_grilla,
         "SECCIONES": "".join(bloques),

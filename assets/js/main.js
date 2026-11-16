@@ -19,6 +19,7 @@
       var etiqueta = oscuro ? "Claro" : "Oscuro";
       if (txt) txt.textContent = etiqueta;
       btn.setAttribute("aria-label", oscuro ? "Cambiar a fondo blanco" : "Cambiar a fondo negro");
+      btn.setAttribute("data-tip", oscuro ? "Fondo claro" : "Fondo oscuro");
     }
     btn.addEventListener("click", function () {
       var nuevo = raiz.getAttribute("data-tema") === "oscuro" ? "claro" : "oscuro";
@@ -79,14 +80,14 @@
   /* ---- Marcar la sección visible en el menú ---- */
   function iniciarSeccionActual() {
     if (!("IntersectionObserver" in window)) return;
-    var enlaces = document.querySelectorAll(".menu-lista a[href^='#']");
+    var enlaces = document.querySelectorAll(".menu-lista a[href^='#'], .riel-lista a[href^='#']");
     var mapa = {};
-    enlaces.forEach(function (a) { mapa[a.getAttribute("href").slice(1)] = a; });
+    enlaces.forEach(function (a) { var id = a.getAttribute("href").slice(1); (mapa[id] = mapa[id] || []).push(a); });
     var io = new IntersectionObserver(function (entradas) {
       entradas.forEach(function (en) {
         if (!en.isIntersecting || !mapa[en.target.id]) return;
         enlaces.forEach(function (a) { a.removeAttribute("aria-current"); });
-        mapa[en.target.id].setAttribute("aria-current", "page");
+        mapa[en.target.id].forEach(function (a) { a.setAttribute("aria-current", "page"); });
       });
     }, { rootMargin: "-40% 0px -55% 0px", threshold: 0 });
     Object.keys(mapa).forEach(function (id) { var s = document.getElementById(id); if (s) io.observe(s); });
@@ -982,7 +983,42 @@
     span.textContent = String(prox).padStart(2, "0") + ":00";
   }
 
+  /* ---- Barra lateral (computadora) / barra inferior (celular) ---- */
+  function iniciarRiel() {
+    var riel = document.getElementById("riel");
+    if (!riel) return;
+    var mas = riel.querySelector(".riel-mas");
+    var tinta = riel.querySelector(".riel-tinta");
+    var abrirTinta = tinta && tinta.querySelector(".riel-abrir");
+    function ponerMas(v) {
+      if (!mas) return;
+      riel.classList.toggle("riel-abierto", v);
+      mas.setAttribute("aria-expanded", v ? "true" : "false");
+      mas.setAttribute("aria-label", v ? "Cerrar opciones" : "Más opciones");
+    }
+    function ponerTinta(v) {
+      if (!tinta) return;
+      tinta.classList.toggle("abierta", v);
+      abrirTinta.setAttribute("aria-expanded", v ? "true" : "false");
+    }
+    if (mas) mas.addEventListener("click", function () { ponerMas(!riel.classList.contains("riel-abierto")); });
+    if (abrirTinta) abrirTinta.addEventListener("click", function () { ponerTinta(!tinta.classList.contains("abierta")); });
+    // Al elegir un color, se cierra el menú de la tinta
+    if (tinta) tinta.addEventListener("click", function (ev) { if (ev.target.closest(".tinta-btn")) setTimeout(function () { ponerTinta(false); }, 150); });
+    riel.addEventListener("click", function (ev) { if (ev.target.closest("a[href^='#']")) ponerMas(false); });
+    document.addEventListener("click", function (ev) {
+      if (!riel.contains(ev.target)) { ponerMas(false); ponerTinta(false); }
+      else if (tinta && !tinta.contains(ev.target)) ponerTinta(false);
+    });
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key !== "Escape") return;
+      if (tinta && tinta.classList.contains("abierta")) { ponerTinta(false); abrirTinta.focus(); }
+      else if (riel.classList.contains("riel-abierto")) { ponerMas(false); mas.focus(); }
+    });
+  }
+
   function iniciar() {
+    seguro(iniciarRiel, "barra lateral");
     seguro(iniciarTema, "tema");
     seguro(iniciarMenu, "menú");
     seguro(iniciarMarca, "marca");
