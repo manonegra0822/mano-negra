@@ -2,9 +2,9 @@
   "nombre": "Dólar oficial",
   "compra": 1525.0,
   "venta": 1575.0,
-  "actualizado": "2026-11-16T19:58-03:00",
-  "consultado": "2026-11-16T19:58-03:00",
-  "fecha_fuente": "2026-11-16T15:00-03:00",
+  "actualizado": "2026-11-17T18:50-03:00",
+  "consultado": "2026-11-17T18:50-03:00",
+  "fecha_fuente": "2026-11-17T15:00-03:00",
   "fuente": "dolarapi.com",
   "vigente": true,
   "anterior": {
@@ -14,12 +14,12 @@
   },
   "indicadores": {
     "blue": {
-      "compra": 1580.0,
-      "venta": 1600.0
+      "compra": 1585.0,
+      "venta": 1605.0
     },
     "riesgo": {
-      "valor": 830.0,
-      "fecha": "2026-11-13"
+      "valor": 855.0,
+      "fecha": "2026-11-16"
     }
   }
 }
