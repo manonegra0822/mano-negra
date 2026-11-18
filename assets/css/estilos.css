@@ -1195,3 +1195,8 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .flecha--grande { font-size: 1.1rem; }
   .etiqueta, .idx, .cab-etiquetas, .tag-sus, .tag-otros, .kicker-sep, .fila-n, .fila-sec, .slider-cont, .mazo-cont { font-size: max(11px, .8125rem); }
 }
+
+/* Aviso de notas nuevas: un 30% más chico (sin bajar la letra de 11 px) */
+.aviso-nuevas { margin-top: 11px; padding: 6px 10px; gap: 4px 12px; }
+.aviso-nuevas .etiqueta { font-size: max(11px, calc(.8125rem * .7)); }
+.aviso-link { min-height: 31px; gap: 6px; font-size: max(11px, calc(.9375rem * .7)); }
