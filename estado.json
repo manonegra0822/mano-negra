@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:46:15-03:00",
+  "actualizado": "2026-11-18T17:48:08-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -193,7 +193,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
+      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
     },
     {
       "medio": "Cadena 3",
