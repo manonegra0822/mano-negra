@@ -1,29 +1,23 @@
 {
-  "actualizado": "2026-11-18T19:49:09-03:00",
+  "actualizado": "2026-11-18T19:58:16-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 95,
-          "ejemplos": [
-            "Tribunal dominicano confirmó 20 años de prisión para médica y militar que decapi",
-            "El enigmático maletín nuclear de Putin quedó al descubierto en China antes de su",
-            "Avioneta se desploma en carretera de Nuevo León: pilotos y pasajeros sobreviven "
-          ]
-        },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
             "Suspensión de las PASO: el oficialismo admitió que faltan dos firmas para asegur"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+        "sección no permitida": {
+          "cantidad": 97,
           "ejemplos": [
-            "Los motivos que esgrime el Gobierno para no haber votado en la ONU en contra de "
+            "Alianza Lima 0-0 Deportivo Wanka EN VIVO HOY: punto a punto del partido por fech",
+            "Ricardo Monreal reconoce falta de acuerdos para renovar la presidencia del INE r",
+            "La final de la Copa Colombia moverá la tabla de la reclasificación de la Liga Be"
           ]
         }
       }
@@ -31,37 +25,37 @@
     {
       "medio": "La Nación",
       "leidas": 86,
-      "aceptadas": 8,
+      "aceptadas": 7,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Invirtió US$20 millones: una empresa familiar inauguró una planta para procesar ",
-            "Reunión: CRA recibió a Iraeta, reclamó por un lugar en el INTA y apuntó sobre la",
-            "Debe más de $15.000 millones: se presentó en concurso de acreedores Agro de Souz"
-          ]
-        },
         "sección no permitida": {
-          "cantidad": 68,
+          "cantidad": 69,
           "ejemplos": [
-            "Gabriel Rolón, sobre las decisiones: “Muchas veces estamos solo cumpliendo un ma",
-            "Le sacaron el útero por un cáncer, pasó por más de diez cirugías y ahora cumplir",
-            "Qué ver en Netflix si te gustó Gordon: cuatro series y películas sobre crímenes "
+            "“Limbo total”: en una carta abierta, la periodista Cristina Mucci reclama por la",
+            "Qué hace que las personas cambien con los años y cómo influyen las experiencias,",
+            "Olvidate del agua: un estudio descubrió cuál es la bebida más hidratante que seg"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
+            "En medio de la crisis del consumo masivo, las alimenticias buscan crecer en el e",
             "Patricia Bullrich, antes del dictamen: “Es un hecho que se suspenden las PASO, ¡",
             "“Nefasta cláusula”: el presidente de Acopiadores fustigó prácticas de los molino"
           ]
         },
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Quirno descartó tensiones con Chile por el buque que viajará a Malvinas",
+            "Invirtió US$20 millones: una empresa familiar inauguró una planta para procesar ",
+            "Reunión: CRA recibió a Iraeta, reclamó por un lugar en el INTA y apuntó sobre la"
+          ]
+        },
         "otro país": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "“Mercado paralelo”: diputados y senadores apoyaron a los productores frente a un",
-            "Alineado con Trump, el Gobierno se abstuvo de votar en la ONU una resolución par",
-            "La incertidumbre empieza a contagiar al mercado cambiario y hay señales de menos"
+            "Alineado con Trump, el Gobierno se abstuvo de votar en la ONU una resolución par"
           ]
         }
       }
@@ -116,9 +110,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 14,
           "ejemplos": [
+            "UEPC negocia la ampliación de los cargos docentes a 28 horas semanales",
             "Quirno habló del inminente fallo del Tribunal del Mar de la ONU por Malvinas",
-            "Los constitucionalistas rechazan el sistema de colectoras por su falta de transp",
-            "Trump llegó a China y se prepara para una cumbre clave con Xi y Putin"
+            "Los constitucionalistas rechazan el sistema de colectoras por su falta de transp"
           ]
         }
       }
