@@ -1176,3 +1176,22 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .riel-btn { width: 40px; height: 44px; }
   .ico { width: 24px; height: 24px; }
 }
+
+/* Celular: más compacto sin perder lectura.
+   - Cabecera: solo el logo y la fecha, centrados.
+   - Toda la letra baja un 15% (base de 13,6 px); los títulos de sección, a la mitad.
+   - Ningún texto queda por debajo de 11 px y las bajadas no bajan de 14 px. */
+@media (max-width: 639.98px) {
+  html { font-size: 85%; }
+  .cab-etiquetas { display: none; }
+  .cabecera .envoltura { grid-template-columns: 1fr; justify-items: center; padding-block: 14px 12px; }
+  .cab-marca { grid-column: 1; justify-self: center; }
+  .cab-pie { grid-column: 1; justify-items: center; text-align: center; padding-top: 8px; }
+  .cab-fecha { text-align: center; font-size: 11px; }
+  .sec-tit { font-size: 1.55rem; }
+  .slider-titulo { font-size: 1.35rem; }
+  .pie-nombre { font-size: 1.9rem; }
+  .card-bajada, .slider-bajada { font-size: 14px; }
+  .flecha--grande { font-size: 1.1rem; }
+  .etiqueta, .idx, .cab-etiquetas, .tag-sus, .tag-otros, .kicker-sep, .fila-n, .fila-sec, .slider-cont, .mazo-cont { font-size: max(11px, .8125rem); }
+}
