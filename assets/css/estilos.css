@@ -1229,3 +1229,10 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
 @media (min-width: 960px) {
   .cab-pie { display: none; }
 }
+
+/* Computadora: la marca del pie un 40% más chica y centrada (no se sale de la página) */
+@media (min-width: 960px) {
+  .pie-marca { justify-content: center; gap: 1.2vw; }
+  .pie-nombre { font-size: min(7.44vw, 6.6rem); }
+  .pie-logo { height: calc(min(7.44vw, 6.6rem) * .8); }
+}
