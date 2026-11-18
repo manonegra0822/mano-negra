@@ -1224,3 +1224,8 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .cab-pie { padding: 0; }
   .cab-fecha { line-height: 1; }
 }
+
+/* Computadora: sin Buscar (ya está en la barra lateral) ni fecha; la cabecera queda en etiquetas + marca */
+@media (min-width: 960px) {
+  .cab-pie { display: none; }
+}
