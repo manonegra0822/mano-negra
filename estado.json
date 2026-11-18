@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:51:26-03:00",
+  "actualizado": "2026-11-18T17:54:13-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -67,7 +67,32 @@
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 1,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El delito de tener la heladera vacía",
+            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
+            "Marcos López se presenta en Córdoba incursionando en el teatro por primera vez"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Cuando las iglesias evangélicas se tiñen de violeta",
+            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
+            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
@@ -105,11 +130,11 @@
       "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 36,
+          "cantidad": 37,
           "ejemplos": [
+            "Argentina presidirá durante un año la comisión antidrogas de la OEA",
             "Una localidad cordobesa usa lombrices para tratar efluentes cloacales",
-            "El Tribunal Superior de Justicia suma nuevos peritos oficiales en Córdoba",
-            "El costo de construir en Córdoba superó los $1,06 millones por metro cuadrado y "
+            "El Tribunal Superior de Justicia suma nuevos peritos oficiales en Córdoba"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -125,7 +150,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 23,
+          "cantidad": 22,
           "ejemplos": [
             "Paraguay: ordenaron el traslado de Santiago Peña a una cárcel militar",
             "El Gobierno volvió a conseguir superávit financiero en octubre",

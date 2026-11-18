@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:51:26-03:00",
+  "actualizado": "2026-11-18T17:54:13-03:00",
   "notas": [
     {
       "id": "5727c1a19d",
@@ -538,25 +538,6 @@
       "rostros": null
     },
     {
-      "id": "cc88d5a19a",
-      "seccion": "cordoba",
-      "rel": 21.4,
-      "relevancia": 21.4,
-      "fecha": "2026-11-18T13:57:56-03:00",
-      "hora": "13:57",
-      "titulo": "Diputados: por falta de quórum se cayó el debate sobre la Carta Orgánica del Banco Central y soberanía",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/diputados-por-falta-de-quorum-se-cayo-el-debate-sobre-la-carta-organica-del-banco-central-y-soberania/",
-      "acceso": "abierto",
-      "resumen": "Contra todo pronóstico, se cayó hoy por falta de quórum la sesión especial en la Cámara de Diputados en la que iba a tratarse un menú de proyectos impulsados por el Gobierno, entre los que se destacaban la Ley de Defensa de la Soberanía Nacional y la reforma de la Carta Orgánica del Banco Central. […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/sesion.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "357631f2eb",
       "seccion": "economia",
       "rel": 21.4,
@@ -627,6 +608,25 @@
         "y0": 0.09,
         "y1": 0.577
       }
+    },
+    {
+      "id": "cc88d5a19a",
+      "seccion": "cordoba",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-11-18T13:57:56-03:00",
+      "hora": "13:57",
+      "titulo": "Diputados: por falta de quórum se cayó el debate sobre la Carta Orgánica del Banco Central y soberanía",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/diputados-por-falta-de-quorum-se-cayo-el-debate-sobre-la-carta-organica-del-banco-central-y-soberania/",
+      "acceso": "abierto",
+      "resumen": "Contra todo pronóstico, se cayó hoy por falta de quórum la sesión especial en la Cámara de Diputados en la que iba a tratarse un menú de proyectos impulsados por el Gobierno, entre los que se destacaban la Ley de Defensa de la Soberanía Nacional y la reforma de la Carta Orgánica del Banco Central. […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/sesion.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "8ac6315cfd",
