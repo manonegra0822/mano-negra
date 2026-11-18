@@ -565,7 +565,20 @@
       if (nEl) nEl.textContent = dos(actual + 1);
       if (prev) prev.disabled = actual === 0;
       if (next) next.disabled = actual >= visibles.length - 1;
-      if (s && s !== antes) { pintarInfo(s.getAttribute("data-id")); luz(s); }
+      if (s && s !== antes) alDetenerse(s);
+    }
+    // La bajada y la luz del fondo (pesada de dibujar) cambian recién cuando el carrusel se detiene,
+    // no a mitad del gesto: así el deslizamiento no se traba en el celular.
+    var espera = null, pendienteInfo = null;
+    function alDetenerse(s) {
+      pendienteInfo = s;
+      clearTimeout(espera);
+      espera = setTimeout(aplicarInfo, 140);
+    }
+    function aplicarInfo() {
+      clearTimeout(espera);
+      var s = pendienteInfo; pendienteInfo = null;
+      if (s) { pintarInfo(s.getAttribute("data-id")); luz(s); }
     }
 
     // Luz ambiental: detrás del carrusel brilla, difuminada, la foto de la tarjeta del centro
@@ -586,22 +599,77 @@
     }
 
     // Efecto en perspectiva: cada tarjeta gira y se aleja según su distancia al centro
-    function perspectiva() {
-      var centro = pista.scrollLeft + pista.clientWidth / 2, mejor = 0, dist = Infinity;
+    // Las medidas de cada tarjeta se guardan (no cambian al deslizar) para no recalcular la página en cada cuadro
+    var medidas = [], anchoPista = 0;
+    function medir() {
+      anchoPista = pista.clientWidth;
+      medidas = visibles.map(function (s) { return { izq: s.offsetLeft, w: s.offsetWidth || 1 }; });
+    }
+    var cuadro = 0;
+    function pedirPerspectiva() { if (!cuadro) cuadro = requestAnimationFrame(function () { cuadro = 0; perspectiva(); }); }
+    // Estado de una tarjeta según su distancia al centro (d, en "pasos" de tarjeta)
+    function estado(d, w) {
+      var a = Math.min(Math.abs(d), 4.5), sg = d < 0 ? -1 : 1;
+      // El borde de afuera de cada tarjeta lateral se va al fondo, como un mazo abierto en abanico
+      var giro = sg * Math.min(a, 1) * 48;                     // hasta 48° en la vecina; las demás quedan igual de giradas
+      var fondo = -Math.min(a, 1) * 230 - Math.max(0, a - 1) * 70;
+      var junta = -sg * Math.max(0, a - 1) * w * 0.45;         // las lejanas se apilan detrás
+      var escala = 1 - Math.min(a, 1) * 0.06;
+      return {
+        tr: "translateX(" + junta.toFixed(1) + "px) translateZ(" + fondo.toFixed(1) + "px) rotateY(" + giro.toFixed(2) + "deg) scale(" + escala.toFixed(3) + ")",
+        z: String(100 - Math.round(a * 10)),
+        op: a > 3.4 ? String(Math.max(0, 4.4 - a)) : ""
+      };
+    }
+
+    // Donde el navegador lo permite, el abanico lo anima el propio navegador atado al desplazamiento
+    // (animaciones ligadas al scroll): va pegado al dedo, sin pasar por este programa en cada cuadro.
+    var porCSS = false;
+    try { porCSS = !reducido && !!(window.CSS && CSS.supports("(animation-timeline: scroll()) and (scroll-timeline-name: --mn)")); } catch (e) {}
+    var hoja = null;
+    function animacionesCSS() {
+      if (!porCSS) return;
+      if (!hoja) { hoja = document.createElement("style"); document.head.appendChild(hoja); pista.style.scrollTimeline = "--mn-pista inline"; }
+      var max = pista.scrollWidth - pista.clientWidth, css = "";
+      if (max <= 0) { hoja.textContent = ""; return; }
       visibles.forEach(function (s, k) {
-        var w = s.offsetWidth || 1, paso = w * 0.7;
-        var d = (s.offsetLeft + w / 2 - centro) / paso;
-        var a = Math.min(Math.abs(d), 4.5), sg = d < 0 ? -1 : 1;
+        var w = medidas[k].w, paso = w * 0.7, c = medidas[k].izq + w / 2 - anchoPista / 2;
+        // Puntos donde cambia la forma del movimiento: centro, vecinas, apiladas y desvanecidas
+        var pts = [0, max];
+        [0, 1, -1, 3.4, -3.4, 4.4, -4.4, 4.5, -4.5].forEach(function (dd) { var L = c - dd * paso; if (L > 0 && L < max) pts.push(L); });
+        pts.sort(function (x, y) { return x - y; });
+        var kf = "", kz = "";
+        pts.forEach(function (L) {
+          var e = estado((c - L) / paso, w), pc = (L / max * 100).toFixed(3) + "%";
+          kf += pc + "{transform:" + e.tr + ";opacity:" + (e.op === "" ? 1 : e.op) + "}";
+          kz += pc + "{z-index:" + e.z + "}";
+        });
+        css += "@keyframes mn-s" + k + "{" + kf + "}@keyframes mn-z" + k + "{" + kz + "}";
+        s.style.transform = ""; s.style.opacity = ""; s.style.zIndex = ""; s._tr = s._z = s._op = null;
+        // El movimiento (transform y opacidad) y el orden de apilado van en animaciones separadas,
+        // para que el navegador pueda mover las tarjetas sin esperar al resto de la página
+        s.style.animation = "mn-s" + k + " linear both, mn-z" + k + " linear both";
+        s.style.animationTimeline = "--mn-pista, --mn-pista";
+      });
+      todas.forEach(function (s) { if (visibles.indexOf(s) < 0) { s.style.animation = ""; s.style.animationTimeline = ""; } });
+      hoja.textContent = css;
+    }
+
+    function perspectiva() {
+      if (medidas.length !== visibles.length) medir();
+      var centro = pista.scrollLeft + anchoPista / 2, mejor = 0, dist = Infinity;
+      visibles.forEach(function (s, k) {
+        var w = medidas[k].w, paso = w * 0.7;
+        var d = (medidas[k].izq + w / 2 - centro) / paso;
+        var a = Math.min(Math.abs(d), 4.5);
         if (Math.abs(d) < dist) { dist = Math.abs(d); mejor = k; }
+        if (porCSS) return;   // el navegador ya mueve la tarjeta
         if (reducido) { s.style.transform = ""; s.style.zIndex = String(100 - Math.round(a * 10)); return; }
-        // El borde de afuera de cada tarjeta lateral se va al fondo, como un mazo abierto en abanico
-        var giro = sg * Math.min(a, 1) * 48;                     // hasta 48° en la vecina; las demás quedan igual de giradas
-        var fondo = -Math.min(a, 1) * 230 - Math.max(0, a - 1) * 70;
-        var junta = -sg * Math.max(0, a - 1) * w * 0.45;         // las lejanas se apilan detrás
-        var escala = 1 - Math.min(a, 1) * 0.06;
-        s.style.transform = "translateX(" + junta.toFixed(1) + "px) translateZ(" + fondo.toFixed(1) + "px) rotateY(" + giro.toFixed(2) + "deg) scale(" + escala.toFixed(3) + ")";
-        s.style.zIndex = String(100 - Math.round(a * 10));
-        s.style.opacity = a > 3.4 ? String(Math.max(0, 4.4 - a)) : "";
+        var e = estado(d, w), tr = e.tr, z = e.z, op = e.op;
+        // Solo se escribe lo que cambió
+        if (s._tr !== tr) { s.style.transform = tr; s._tr = tr; }
+        if (s._z !== z) { s.style.zIndex = z; s._z = z; }
+        if (s._op !== op) { s.style.opacity = op; s._op = op; }
       });
       if (mejor !== actual) activa(mejor);
     }
@@ -632,14 +700,17 @@
       }
       if (tEl) tEl.textContent = dos(visibles.length);
       sl.classList.toggle("es-uno", visibles.length < 2);
+      medir();
+      animacionesCSS();
       actual = -1;
       if (visibles[0]) pista.scrollTo({ left: destinoDe(visibles[0]), behavior: "instant" });
       activa(0);
       perspectiva();
+      aplicarInfo();
     }
-    pista.addEventListener("scroll", perspectiva, { passive: true });
-    pista.addEventListener("scrollend", perspectiva);
-    window.addEventListener("resize", function () { if (visibles[actual]) pista.scrollTo({ left: destinoDe(visibles[actual]), behavior: "instant" }); perspectiva(); });
+    pista.addEventListener("scroll", pedirPerspectiva, { passive: true });
+    pista.addEventListener("scrollend", function () { perspectiva(); aplicarInfo(); });
+    window.addEventListener("resize", function () { medir(); animacionesCSS(); if (visibles[actual]) pista.scrollTo({ left: destinoDe(visibles[actual]), behavior: "instant" }); perspectiva(); });
     if (prev) prev.addEventListener("click", function () { ir(actual - 1); });
     if (next) next.addEventListener("click", function () { ir(actual + 1); });
     pista.addEventListener("keydown", function (ev) {

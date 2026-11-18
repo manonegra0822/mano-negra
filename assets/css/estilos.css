@@ -1271,3 +1271,10 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .riel { padding-top: 22px; }
   .cab-marca { margin-block: -4px 0; }
 }
+
+/* Carrusel más fluido en el celular: luz de fondo más liviana y sin animar sombras durante el gesto */
+@media (max-width: 639.98px) {
+  .slider-luz span { filter: blur(36px) saturate(2) contrast(1.05); transform: scale(1.06); transition-duration: .7s; }
+  .slide-marco { transition: transform .3s cubic-bezier(.2,.7,.2,1); }
+  .slider .slide { backface-visibility: hidden; }
+}
