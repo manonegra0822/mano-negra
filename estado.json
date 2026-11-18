@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:26:25-03:00",
+  "actualizado": "2026-11-18T17:30:14-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,9 +9,9 @@
         "sección no permitida": {
           "cantidad": 95,
           "ejemplos": [
-            "Edgar Lastre, goleador de CD Moquegua, habla de la posibilidad de vincularse con",
-            "La FDA autorizó el uso de un relleno óseo elaborado con nácar de ostras que ayud",
-            "Llega ‘GTA VI’, un retrato social salvaje y despiadado convertido en fenómeno mu"
+            "Revelan que el sobrino de Jorge Nieto trabaja con el presidente de la Cámara de ",
+            "Selva peruana soportará hasta 38 °C: Once regiones entre las perjudicadas, según",
+            "Anitta debuta en GTA VI como la Dra. Nita en un pódcast exclusivo sobre relacion"
           ]
         },
         "otro país": {
@@ -33,22 +33,28 @@
     {
       "medio": "La Nación",
       "leidas": 90,
-      "aceptadas": 6,
+      "aceptadas": 8,
       "descartadas": {
+        "sección no permitida": {
+          "cantidad": 71,
+          "ejemplos": [
+            "El islam superará al cristianismo en 2035 y cambiará el mapa religioso del mundo",
+            "El príncipe Harry reveló que volvería a alistarse en el Ejército británico para ",
+            "Un club reclama que le devuelvan terrenos que le había cedido a la excárcel de D"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La incertidumbre ya contagió al mercado cambiario y hay señales de menos oferta "
+          ]
+        },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 6,
           "ejemplos": [
             "Alfonso Prat-Gay le contestó a las críticas por el derrame de Vaca Muerta: “Bien",
             "Una compañía de IA levantó US$550 millones y apuesta por crecer en América Latin",
             "Un gigante de la maquinaria agrícola de Brasil eligió a una empresa argentina pa"
-          ]
-        },
-        "sección no permitida": {
-          "cantidad": 73,
-          "ejemplos": [
-            "Boca, Maradona y un estadio especial: el partido en Barranquilla que cambió el r",
-            "Susto en el Abierto de Palermo: la impactante caída de un polista, que quedó apr",
-            "La mujer que le hace bajar la cabeza al Presidente"
           ]
         },
         "sin ancla argentina": {
@@ -182,7 +188,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
     },
     {
       "medio": "Cadena 3",

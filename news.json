@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:26:25-03:00",
+  "actualizado": "2026-11-18T17:30:14-03:00",
   "notas": [
     {
       "id": "d1565c15e3",
@@ -115,6 +115,49 @@
         "y0": 0.0,
         "y1": 0.352
       }
+    },
+    {
+      "id": "54bb988934",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-11-18T17:25:24-03:00",
+      "hora": "17:25",
+      "titulo": "Cambios en la reforma electoral: el Gobierno admite desprolijidad y asegura tener los votos para suspender las PASO",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/11/18/cambios-en-la-reforma-electoral-el-gobierno-admite-desprolijidad-y-asegura-tener-los-votos-para-suspender-las-paso/",
+      "acceso": "abierto",
+      "resumen": "Tras las modificaciones anunciadas por Bullrich, en Casa Rosada sostienen que cuentan con los apoyos para postergar las primarias. Los números que manejan, el contrapunto con la UCR y las lecturas de especulación política",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/UWDIV7PTWBCZ5JCGMBGPJNXH5U.jpg?auth=a53d0fb15d40a2857b5d853b957d241750044eedf046d268348a73e8ad13f1c2&smart=true&width=1600&height=1200",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.624,
+        "x1": 0.949,
+        "y0": 0.376,
+        "y1": 0.822
+      }
+    },
+    {
+      "id": "f72f19a856",
+      "seccion": "economia",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-11-18T17:21:48-03:00",
+      "hora": "17:21",
+      "titulo": "Informe privado: los préstamos personales en la Argentina tienen la carga impositiva más alta del mundo",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/informe-privado-los-prestamos-personales-en-la-argentina-tienen-la-carga-impositiva-mas-alta-del-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "Un estudio realizado de BDO para la ONG Lógica comparó 30 países y concluyó que los impuestos encarecen un 39% el costo financiero de un crédito",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/YC2T4UXXL5BOVDJDJYOZVQEHPY.JPG?auth=022b0417c5a792aeeb6783079af0ad8274bf6713585d5722260a0f1687d89178&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "0d1bda9264",
@@ -289,30 +332,6 @@
       "rostros": null
     },
     {
-      "id": "16e2a136b7",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-18T15:23:18-03:00",
-      "hora": "15:23",
-      "titulo": "Un aliado de Baradel selló una alianza electoral con Sobisch, que era gobernador de Neuquén cuando asesinaron al docente Fuentealba",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/un-aliado-de-baradel-sello-una-alianza-electoral-con-sobisch-que-era-gobernador-de-neuquen-cuando-nid18112026/",
-      "acceso": "suscripcion",
-      "resumen": "Quintriqueo, que ganó las elecciones provinciales de la CTA con la lista del exjefe del Suteba, presentó un acuerdo que propone como candidato al exmandatario; los sindicatos de maestros y judiciales le exigen la dimisión a la central obrera",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/H6PJOMZQ3RHEZIFUJEQ5P5QU7M.jpg?auth=a51c66153c6738addc49686885ce7e183cfe796a7c98dfe935d1347b72ba8efb&smart=true&width=1154&height=679",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.731,
-        "x1": 0.919,
-        "y0": 0.0,
-        "y1": 0.279
-      }
-    },
-    {
       "id": "85583d6735",
       "seccion": "argentina",
       "rel": 21.7,
@@ -334,6 +353,30 @@
         "x1": 0.453,
         "y0": 0.12,
         "y1": 0.487
+      }
+    },
+    {
+      "id": "16e2a136b7",
+      "seccion": "argentina",
+      "rel": 21.6,
+      "relevancia": 21.6,
+      "fecha": "2026-11-18T15:23:18-03:00",
+      "hora": "15:23",
+      "titulo": "Un aliado de Baradel selló una alianza electoral con Sobisch, que era gobernador de Neuquén cuando asesinaron al docente Fuentealba",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/un-aliado-de-baradel-sello-una-alianza-electoral-con-sobisch-que-era-gobernador-de-neuquen-cuando-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "Quintriqueo, que ganó las elecciones provinciales de la CTA con la lista del exjefe del Suteba, presentó un acuerdo que propone como candidato al exmandatario; los sindicatos de maestros y judiciales le exigen la dimisión a la central obrera",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/H6PJOMZQ3RHEZIFUJEQ5P5QU7M.jpg?auth=a51c66153c6738addc49686885ce7e183cfe796a7c98dfe935d1347b72ba8efb&smart=true&width=1154&height=679",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.731,
+        "x1": 0.919,
+        "y0": 0.0,
+        "y1": 0.279
       }
     },
     {
@@ -865,49 +908,6 @@
         "x1": 0.776,
         "y0": 0.115,
         "y1": 0.841
-      }
-    },
-    {
-      "id": "3b0f849dba",
-      "seccion": "cordoba",
-      "rel": 19.1,
-      "relevancia": 19.1,
-      "fecha": "2026-11-18T12:17:51-03:00",
-      "hora": "12:17",
-      "titulo": "El Gobierno aumentó 2,20% las prestaciones por discapacidad",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-gobierno-aumento-220-las-prestaciones-por-discapacidad/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno aumentó un 2,20% los aranceles de las prestaciones para personas con discapacidad desde noviembre, en línea con la inflación de octubre. La medida, implementada por la Secretaría Nacional de Discapacidad del Ministerio de Salud, alcanza a los valores del Sistema de Prestaciones Básicas de Atención Integral y ratifica además la vigencia del adicional […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/11/DISCAPACIDAD-1-jpg.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "5951673c33",
-      "seccion": "cordoba",
-      "rel": 19.0,
-      "relevancia": 19.0,
-      "fecha": "2026-11-17T23:25:24-03:00",
-      "hora": "23:25",
-      "titulo": "Dujovne respaldó la apertura económica en la Bolsa de Comercio",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/dujovne-respaldo-la-apertura-economica-en-la-bolsa-de-comercio/",
-      "acceso": "abierto",
-      "resumen": "Nicolás Dujovne, ex ministro de Hacienda de Mauricio Macri, analizó el rumbo económico del Gobierno nacional y respaldó la política de apertura de importaciones, durante un encuentro en la Bolsa de Comercio de Córdoba. En ese contexto, Guillermo Dietrich, también ministro de Transporte durante la gestión del titular del PRO, disertó en el mismo evento […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-17-at-3.34.00-PM.jpeg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.04,
-        "x1": 0.95,
-        "y0": 0.172,
-        "y1": 0.527
       }
     }
   ],
