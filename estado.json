@@ -1,17 +1,23 @@
 {
-  "actualizado": "2026-11-18T17:42:39-03:00",
+  "actualizado": "2026-11-18T17:46:15-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 94,
           "ejemplos": [
-            "EN VIVO | Clima CDMX y resto de México hoy miércoles 18 de noviembre: Frente Frí",
-            "Clima en Lima HOY, EN VIVO: Temperaturas altas, olas de calor, lluvias y últimas",
-            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 18 de noviembre: cerrada la"
+            "Dirigente denuncia que contratos de Cancillería para misa de León XIV en Las Pal",
+            "El grupo empresarial de Blessd es el nuevo propietario del Deportivo Pereira: as",
+            "¿Qué está pasando en el Metro y Metrobús hoy miércoles 18 de noviembre? Estación"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "España como puerta de entrada a Europa: la apuesta de las empresas argentinas en"
           ]
         },
         "otro país": {
@@ -37,9 +43,9 @@
         "sección no permitida": {
           "cantidad": 71,
           "ejemplos": [
+            "Susto en el Abierto de Palermo: la impactante caída de un polista, que quedó apr",
             "El GTA 6 logró un récord en reseñas y ya lleva más de 17 millones de copias vend",
-            "Altura de los ríos en la Argentina, según Prefectura: esta es la situación en el",
-            "Súper Niño en Argentina: el fenómeno se intensifica y rigen alertas meteorológic"
+            "Altura de los ríos en la Argentina, según Prefectura: esta es la situación en el"
           ]
         },
         "otro país": {
@@ -163,14 +169,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 16,
           "ejemplos": [
-            "Otro caso de violencia involucra al exrugbier Martín Díaz: una víctima sufrió un",
-            "Vuelco de un camión en Circunvalación: la carga cayó sobre un utilitario",
-            "Pochettino asumió en el Manchester United y ya dirigió su primer entrenamiento"
+            "Córdoba: rescatan a una puma adulta que estaba en cautiverio",
+            "Baja natalidad: advierten una caída del 40% en las matrículas del nivel inicial",
+            "Otro caso de violencia involucra al exrugbier Martín Díaz: una víctima sufrió un"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
