@@ -1264,3 +1264,10 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
 /* Compensa el espaciado negativo de la última letra para que la tinta quede centrada */
 .cab-nombre, .pie-nombre { padding-right: .1em; }
 @media (min-width: 640px) { .cab-marca { margin-block: -2px; } }
+
+/* Computadora: "Mano Negra" de la cabecera un 15% más grande; la barra lateral arranca directo con Inicio */
+@media (min-width: 960px) {
+  .cab-nombre { font-size: clamp(2.3rem, 5.75vw, 5.52rem); }
+  .riel { padding-top: 22px; }
+  .cab-marca { margin-block: -4px 0; }
+}
