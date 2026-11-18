@@ -1200,3 +1200,13 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
 .aviso-nuevas { margin-top: 11px; padding: 6px 10px; gap: 4px 12px; }
 .aviso-nuevas .etiqueta { font-size: max(11px, calc(.8125rem * .7)); }
 .aviso-link { min-height: 31px; gap: 6px; font-size: max(11px, calc(.9375rem * .7)); }
+
+/* Pie de la cabecera más liviano: sin el lema, Buscar y la fecha un 30% más chicos */
+.cab-lema { display: none !important; }
+@media (min-width: 960px) {
+  .buscar-cab { min-height: 31px; padding: 0 11px; gap: 6px; font-size: max(11px, calc(.8125rem * .7)); }
+  .buscar-cab .lupa { width: 11px; height: 11px; border-width: 1.5px; margin: -2px 2px 0 0; }
+  .buscar-cab .lupa::after { width: 1.5px; height: 6px; right: -3px; bottom: -4px; }
+  .cab-fecha { grid-column: 3; }
+}
+.cab-fecha { font-size: max(10.5px, calc(.9375rem * .7)); }
