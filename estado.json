@@ -1,76 +1,118 @@
 {
-  "actualizado": "2026-11-18T01:01:51-03:00",
+  "actualizado": "2026-11-18T16:14:42-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 95,
           "ejemplos": [
-            "Triple lesbicidio en Barracas: se conocerá hoy el veredicto contra el único acus",
-            "México vs Jamaica EN VIVO vuelta de cuartos de final Concacaf Nations League: el",
-            "FMF rinde homenaje a Javier “El Abuelo” Cruz, histórico jugador que llevó a Méxi"
+            "Temblor hoy en Perú EN VIVO: últimos sismos, epicentro y reporte del IGP del mié",
+            "Costa Rica logra reconocimiento internacional por calidad del servicio eléctrico",
+            "EN VIVO | Seguridad, narcotráfico y crimen en México hoy 18 de noviembre: exigen"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Economía recibió a la UIA para tratar medidas de alivio fiscal para el sector",
+            "Reforma Política: el oficialismo anunció la eliminación de las colectoras y el d"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Fernando Gorbarán, el hombre detrás de las ferias que crecen con el petróleo, el"
+            "Guerra de “ladrillitos”: el dueño de una empresa local cuestionó el desembarco d",
+            "Suspensión de las PASO: cómo fue la negociación y cuáles fueron los últimos camb"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 5,
+      "leidas": 89,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 77,
+          "cantidad": 66,
           "ejemplos": [
-            "Mano de obra noviembre 2026: cuánto cobran albañiles, oficiales y ayudantes, con",
-            "Agustín Giay consoló a la hija de Eugenia Quevedo, la artista que cantó el himno",
-            "Bajo Belgrano: la zona que levanta el perfil con desarrollos de más metros cuadr"
+            "Sin disparar ni un tiro: cómo fue el robo de 21 millones de dólares al banco de ",
+            "Mauricio Macri, 67 años, sobre su rutina de entrenamiento: “Descubrí algo increí",
+            "Mariano Chihade, esposo de Mariana Fabbiani, fue operado con éxito: “Seguimos re"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 5,
+          "ejemplos": [
+            "De la corrida de 2019 a la crisis de 2025: por qué las PASO pueden desestabiliza",
+            "Propuesta a los acreedores: Los Grobo ofrece pagar el 15% de su millonaria deuda",
+            "El Gobierno retiró las listas colectoras para asegurarse el apoyo para suspender"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 5,
+          "cantidad": 7,
           "ejemplos": [
-            "Premian por su excelencia judicial a un juzgado contencioso administrativo feder",
-            "Horacio Marín planteó los objetivos de YPF para 2027",
-            "En fotos: así fue la gran noche del Premio LA NACION-Galicia a la Excelencia Agr"
+            "La investigación judicial contra Federico Beligoy se demora por una disputa sobr",
+            "Swiss Medical toma el control de Grupo Oroño y amplía su red de clínicas en el i",
+            "Los dos récords que dejarán la minería y la energía este año"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "El Gobierno rechazó las actividades de la princesa Ana, hermana del rey Carlos I"
+            "Alineado con Trump, el Gobierno se abstuvo de votar en la ONU una resolución par"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 2,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Senado: la resistencia a las listas colectoras complica el objetivo del Gobierno",
-            "Jubilaciones: una nueva sentencia rechaza la movilidad del gobierno anterior y o"
+            "Un disruptivo video de Larreta a favor de integrar la Ciudad con el conurbano de"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error _ssl.c:994: The handshake operation timed out>)"
+      "leidas": 10,
+      "aceptadas": 1,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El delito de tener la heladera vacía",
+            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
+            "Marcos López se presenta en Córdoba incursionando en el teatro por primera vez"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Cuando las iglesias evangélicas se tiñen de violeta",
+            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
+            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
+      "leidas": 6,
       "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "La caída de los sistemas expone la fragilidad tecnológica en Estados Unidos"
+            "Lesbicidio de Barracas: condenaron a prisión perpetua al único acusado por el tr",
+            "Argentina se negó a condenar la violencia contra mujeres y niñas en la ONU",
+            "“Lo que quieren es amedrentar a la gente, silenciarnos”"
           ]
         }
       }
@@ -78,21 +120,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 15,
           "ejemplos": [
-            "Tapa 18-11-26",
-            "Viñeta de Díaz – 18-11-26",
-            "Iván Tabella será trasladado a Córdoba por el femicidio de Daniela Villalba"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "La oposición le arrebató a Netanyahu la presidencia del Parlamento",
-            "Renunció el fiscal general de Paraguay en medio del escándalo de Ueno Bank"
+            "El Festival del Acordeón tendrá su quinta edición",
+            "Cómo es el Bondi Urbano Digital que pretenden copiar de Curitiba",
+            "La Noche de los Teatros alcanzará su décima edición"
           ]
         }
       }
@@ -100,14 +135,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 22,
+      "aceptadas": 18,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 36,
           "ejemplos": [
-            "El mes pasado subió la confianza del consumidor",
-            "Asistencia por daños climáticos: declaran zona de desastre a General Roca en Mar",
-            "Comercio exterior: el Senasa moderniza el sistema de supervisión de fumigaciones"
+            "Una localidad cordobesa usa lombrices para tratar efluentes cloacales",
+            "El Tribunal Superior de Justicia suma nuevos peritos oficiales en Córdoba",
+            "El costo de construir en Córdoba superó los $1,06 millones por metro cuadrado y "
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -117,18 +152,17 @@
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Fiscalía de Paraguay pide a la ciudadanía aportar datos en la causa penal contra",
-            "Veto a tecnología china: cooperativas de internet piden abrir diálogo"
+            "Fiscalía de Paraguay pide a la ciudadanía aportar datos en la causa penal contra"
           ]
         },
         "muy vieja": {
-          "cantidad": 19,
+          "cantidad": 24,
           "ejemplos": [
-            "Condenaron al administrador de una mesa de dinero que mató a un inversor",
-            "JP Morgan estima que Argentina llegará a las elecciones con una inflación aún en",
-            "Tía Maruca cambia de dueño luego de atravesar dificultades financieras"
+            "Paraguay: ordenaron el traslado de Santiago Peña a una cárcel militar",
+            "El Gobierno volvió a conseguir superávit financiero en octubre",
+            "León XIV cerró su gira sudamericana: “Los únicos que no pueden esperar son los p"
           ]
         }
       }
@@ -136,14 +170,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 16,
           "ejemplos": [
-            "Myrian Prunotto: “Soy de las pocas que siguen peleando por los valores del radic",
-            "Lucas Viano fue premiado por su trabajo de divulgación científica en UNCiencia",
-            "Tabella volverá a Córdoba para declarar por el femicidio de Daniela Villalba"
+            "Vuelco de un camión en Circunvalación: la carga cayó sobre un utilitario",
+            "Pochettino asumió en el Manchester United y ya dirigió su primer entrenamiento",
+            "Gustavo Coleoni renovó contrato y continuará como DT de Racing de Córdoba en 202"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Manifestación y festival en Córdoba por la recuperación y defensa del PAMI"
           ]
         }
       }
