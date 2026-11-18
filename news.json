@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-11-18T17:54:13-03:00",
+  "actualizado": "2026-11-18T18:02:54-03:00",
   "notas": [
     {
       "id": "5727c1a19d",
       "seccion": "cordoba",
-      "rel": 34.0,
-      "relevancia": 34.0,
+      "rel": 33.9,
+      "relevancia": 33.9,
       "fecha": "2026-11-18T17:41:50-03:00",
       "hora": "17:41",
       "titulo": "Las razones detrás del cortocircuito entre el Gobierno y Provincias Unidas que hizo fracasar la sesión en Diputados",
@@ -119,8 +119,8 @@
     {
       "id": "54bb988934",
       "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
+      "rel": 21.9,
+      "relevancia": 21.9,
       "fecha": "2026-11-18T17:38:59-03:00",
       "hora": "17:38",
       "titulo": "Cambios en la reforma electoral: el Gobierno admite desprolijidad y asegura tener los votos para suspender las PASO",
@@ -208,44 +208,6 @@
       "rostros": null
     },
     {
-      "id": "0d1bda9264",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-18T17:07:00-03:00",
-      "hora": "17:07",
-      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este miércoles 18 de noviembre, minuto a minuto",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-miercoles-18-de-nid18112026/",
-      "acceso": "suscripcion",
-      "resumen": "La divisa oficial operó a $1580 para la venta en el Banco Nación; el dólar blue cotizó a $1605 para esa operación; qué pasó con el MEP y el CCL; balance de las reservas del BCRA",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/3PXUYV36CBDEBAMBTIGHJBKV34.JPG?auth=57e0fc2050d9be7bc1ce576f2f5e28754f39a314235afac325d910cf55e9fb39&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "d1565c15e3",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-18T17:04:01-03:00",
-      "hora": "17:04",
-      "titulo": "No hubo quórum y se cayó la sesión de este miércoles en la Cámara de Diputados",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/no-hubo-quorum-y-se-cayo-la-sesion-de-este-miercoles-en-la-camara-de-diputados_a6afdfd812935c8aa80cef795",
-      "acceso": "abierto",
-      "resumen": "El objetivo del oficialismo era que se trataran la ley de Defensa de la Soberanía Nacional y el proyecto que reforma la Carta Orgánica del BCRA.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6afdfde52935c8aa80cefc9c/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "5a62e71a67",
       "seccion": "argentina",
       "rel": 21.9,
@@ -292,6 +254,44 @@
         "y0": 0.292,
         "y1": 0.541
       }
+    },
+    {
+      "id": "0d1bda9264",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-18T17:07:00-03:00",
+      "hora": "17:07",
+      "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este miércoles 18 de noviembre, minuto a minuto",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-miercoles-18-de-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "La divisa oficial operó a $1580 para la venta en el Banco Nación; el dólar blue cotizó a $1605 para esa operación; qué pasó con el MEP y el CCL; balance de las reservas del BCRA",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/3PXUYV36CBDEBAMBTIGHJBKV34.JPG?auth=57e0fc2050d9be7bc1ce576f2f5e28754f39a314235afac325d910cf55e9fb39&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "d1565c15e3",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-18T17:04:01-03:00",
+      "hora": "17:04",
+      "titulo": "No hubo quórum y se cayó la sesión de este miércoles en la Cámara de Diputados",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/no-hubo-quorum-y-se-cayo-la-sesion-de-este-miercoles-en-la-camara-de-diputados_a6afdfd812935c8aa80cef795",
+      "acceso": "abierto",
+      "resumen": "El objetivo del oficialismo era que se trataran la ley de Defensa de la Soberanía Nacional y el proyecto que reforma la Carta Orgánica del BCRA.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6afdfde52935c8aa80cefc9c/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "cc895c98bc",
@@ -734,25 +734,6 @@
       }
     },
     {
-      "id": "5671b5c841",
-      "seccion": "economia",
-      "rel": 21.1,
-      "relevancia": 21.1,
-      "fecha": "2026-11-18T12:12:30-03:00",
-      "hora": "12:12",
-      "titulo": "La UIA propuso un pacto fiscal a seis años para bajar impuestos y frenar la caída del empleo industrial",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/la-uia-propuso-un-pacto-fiscal-a-seis-anos-para-bajar-impuestos-y-frenar-la-caida-del-empleo-industrial/",
-      "acceso": "abierto",
-      "resumen": "La Unión Industrial Argentina (UIA) presentó propuestas para reducir impuestos por seis años, en busca de fortalecer la competitividad para reactivar la actividad y el empleo, que acumula casi dos años seguidos en declive. La Junta Directiva de la entidad propone concretar un “Pacto Fiscal Federal para la Competitividad Industrial”, con el objetivo de coordinar […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/uia.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "7aa83caaea",
       "seccion": "cordoba",
       "rel": 21.1,
@@ -820,6 +801,25 @@
       }
     },
     {
+      "id": "5671b5c841",
+      "seccion": "economia",
+      "rel": 21.0,
+      "relevancia": 21.0,
+      "fecha": "2026-11-18T12:12:30-03:00",
+      "hora": "12:12",
+      "titulo": "La UIA propuso un pacto fiscal a seis años para bajar impuestos y frenar la caída del empleo industrial",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/la-uia-propuso-un-pacto-fiscal-a-seis-anos-para-bajar-impuestos-y-frenar-la-caida-del-empleo-industrial/",
+      "acceso": "abierto",
+      "resumen": "La Unión Industrial Argentina (UIA) presentó propuestas para reducir impuestos por seis años, en busca de fortalecer la competitividad para reactivar la actividad y el empleo, que acumula casi dos años seguidos en declive. La Junta Directiva de la entidad propone concretar un “Pacto Fiscal Federal para la Competitividad Industrial”, con el objetivo de coordinar […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/uia.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
       "id": "29c40b9fce",
       "seccion": "cordoba",
       "rel": 20.9,
@@ -842,6 +842,25 @@
         "y0": 0.0,
         "y1": 0.681
       }
+    },
+    {
+      "id": "b625d7bff6",
+      "seccion": "cordoba",
+      "rel": 20.0,
+      "relevancia": 20.0,
+      "fecha": "2026-11-18T18:00:41-03:00",
+      "hora": "18:00",
+      "titulo": "El Senado tratará este jueves la sanción definitiva de la Ley de Discapacidad",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/el-senado-tratara-este-jueves-la-sancion-definitiva-de-la-ley-de-discapacidad/",
+      "acceso": "abierto",
+      "resumen": "El oficialismo convocó a la sesión para mañana. Bullrich aseguró que \"el rumbo es el correcto, pero necesita un refuerzo\".",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-Senado-tratara-la-sancion-definitiva-de-la-Ley-de-Discapacidad-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "07e0af9e55",
@@ -880,30 +899,6 @@
       "otros": [],
       "dia": 0,
       "rostros": null
-    },
-    {
-      "id": "e9c24fafd9",
-      "seccion": "argentina",
-      "rel": 19.9,
-      "relevancia": 19.9,
-      "fecha": "2026-11-18T17:32:01-03:00",
-      "hora": "17:32",
-      "titulo": "Javier Milei y sus medidas, en vivo: “Voy a ser reelecto: no tengan dudas de que vamos a ganar en primera”, dijo el Presidente",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-cito-a-pablo-picasso-y-dijo-me-voy-a-encargar-de-lo-nid18112026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/6ZMV2DHKZ5ECVJE55QCYWW6AJM.png?auth=d6cb725187ad9d5fde5481f3775aa5167626b8b70b96879ce2940fffb6c370b5&smart=true&width=762&height=504",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.236,
-        "x1": 0.776,
-        "y0": 0.115,
-        "y1": 0.841
-      }
     }
   ],
   "opinion": []
