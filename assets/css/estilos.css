@@ -1248,3 +1248,19 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
 /* Ícono a color (bandera argentina) en la barra lateral */
 .ico-color { width: 26px; height: 26px; display: block; }
 @media (max-width: 374.98px) { .ico-color { width: 24px; height: 24px; } }
+
+/* Sin el puño junto al nombre: "Mano Negra" va en una sola línea y centrado, en la cabecera y en el pie */
+.cab-marca, .pie-marca { justify-content: center; }
+.cab-nombre span { display: inline; }
+.cab-nombre { white-space: nowrap; text-align: center; }
+@media (max-width: 639.98px) {
+  .cab-nombre { font-size: 11vw; }
+  .pie-marca { padding-bottom: 2px; }
+  .pie-nombre { font-size: 2.4rem; }
+}
+@media (min-width: 640px) and (max-width: 959.98px) {
+  .cab-nombre { font-size: 8vw; }
+}
+/* Compensa el espaciado negativo de la última letra para que la tinta quede centrada */
+.cab-nombre, .pie-nombre { padding-right: .1em; }
+@media (min-width: 640px) { .cab-marca { margin-block: -2px; } }
