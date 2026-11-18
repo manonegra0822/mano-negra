@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T18:02:54-03:00",
+  "actualizado": "2026-11-18T18:06:20-03:00",
   "notas": [
     {
       "id": "5727c1a19d",
@@ -423,30 +423,6 @@
       "rostros": null
     },
     {
-      "id": "16e2a136b7",
-      "seccion": "argentina",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-18T15:23:18-03:00",
-      "hora": "15:23",
-      "titulo": "Un aliado de Baradel selló una alianza electoral con Sobisch, que era gobernador de Neuquén cuando asesinaron al docente Fuentealba",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/un-aliado-de-baradel-sello-una-alianza-electoral-con-sobisch-que-era-gobernador-de-neuquen-cuando-nid18112026/",
-      "acceso": "suscripcion",
-      "resumen": "Quintriqueo, que ganó las elecciones provinciales de la CTA con la lista del exjefe del Suteba, presentó un acuerdo que propone como candidato al exmandatario; los sindicatos de maestros y judiciales le exigen la dimisión a la central obrera",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/H6PJOMZQ3RHEZIFUJEQ5P5QU7M.jpg?auth=a51c66153c6738addc49686885ce7e183cfe796a7c98dfe935d1347b72ba8efb&smart=true&width=1154&height=679",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.731,
-        "x1": 0.919,
-        "y0": 0.0,
-        "y1": 0.279
-      }
-    },
-    {
       "id": "359150dbed",
       "seccion": "argentina",
       "rel": 21.6,
@@ -492,6 +468,30 @@
         "x1": 1.0,
         "y0": 0.131,
         "y1": 0.811
+      }
+    },
+    {
+      "id": "16e2a136b7",
+      "seccion": "argentina",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-11-18T15:23:18-03:00",
+      "hora": "15:23",
+      "titulo": "Un aliado de Baradel selló una alianza electoral con Sobisch, que era gobernador de Neuquén cuando asesinaron al docente Fuentealba",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/un-aliado-de-baradel-sello-una-alianza-electoral-con-sobisch-que-era-gobernador-de-neuquen-cuando-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "Quintriqueo, que ganó las elecciones provinciales de la CTA con la lista del exjefe del Suteba, presentó un acuerdo que propone como candidato al exmandatario; los sindicatos de maestros y judiciales le exigen la dimisión a la central obrera",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/H6PJOMZQ3RHEZIFUJEQ5P5QU7M.jpg?auth=a51c66153c6738addc49686885ce7e183cfe796a7c98dfe935d1347b72ba8efb&smart=true&width=1154&height=679",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.731,
+        "x1": 0.919,
+        "y0": 0.0,
+        "y1": 0.279
       }
     },
     {
