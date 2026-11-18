@@ -1244,3 +1244,7 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
 @media (min-width: 960px) and (max-width: 1439px) {
   #t-politica, #t-economia, #t-cordoba, #t-argentina, #t-ultimas { font-size: clamp(2.55rem, .75rem + 3.45vw, 3.9rem); }
 }
+
+/* Ícono a color (bandera argentina) en la barra lateral */
+.ico-color { width: 26px; height: 26px; display: block; }
+@media (max-width: 374.98px) { .ico-color { width: 24px; height: 24px; } }
