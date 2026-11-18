@@ -1210,3 +1210,17 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .cab-fecha { grid-column: 3; }
 }
 .cab-fecha { font-size: max(10.5px, calc(.9375rem * .7)); }
+
+/* Cabecera armónica: el mismo espacio entre cada franja (borde, etiquetas, marca, Buscar/fecha, borde) */
+@media (min-width: 640px) {
+  .cabecera .envoltura { display: flex; flex-direction: column; gap: 22px; padding-block: 20px; }
+  .cab-etiquetas { padding: 0; line-height: 1; }
+  .cab-marca { margin-block: 0; }
+  .cab-pie { padding: 0; align-items: center; }
+  .cab-fecha { line-height: 1; }
+}
+@media (max-width: 639.98px) {
+  .cabecera .envoltura { row-gap: 12px; padding-block: 14px 11px; }
+  .cab-pie { padding: 0; }
+  .cab-fecha { line-height: 1; }
+}
