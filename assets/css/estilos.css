@@ -1236,3 +1236,11 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .pie-nombre { font-size: min(7.44vw, 6.6rem); }
   .pie-logo { height: calc(min(7.44vw, 6.6rem) * .8); }
 }
+
+/* Títulos de Política, Economía, Córdoba, Argentina y Últimas un 25% más chicos (Titulares queda igual) */
+@media (min-width: 640px) {
+  #t-politica, #t-economia, #t-cordoba, #t-argentina, #t-ultimas { font-size: clamp(1.8rem, .675rem + 5.25vw, 4.875rem); }
+}
+@media (min-width: 960px) and (max-width: 1439px) {
+  #t-politica, #t-economia, #t-cordoba, #t-argentina, #t-ultimas { font-size: clamp(2.55rem, .75rem + 3.45vw, 3.9rem); }
+}
