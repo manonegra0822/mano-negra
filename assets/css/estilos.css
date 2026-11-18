@@ -1140,3 +1140,17 @@ html body .seccion .sec-grid.mazo > article.card--texto::before { aspect-ratio: 
 .no-js .riel-mas { display: none !important; }
 html:has(.riel-abierto) .resumen-btn { display: none; }
 @media print { .riel { display: none !important; } body { padding: 0 !important; } }
+
+/* Cabecera más compacta: el nombre del medio a la mitad de su tamaño, centrado */
+.cab-nombre { font-size: 6vw; }
+.cab-logo { height: calc(6vw * .8 * 2); }
+.cab-marca { gap: 1.5vw; }
+@media (min-width: 640px) {
+  .cab-nombre { font-size: 5.2vw; }
+  .cab-logo { height: calc(5.2vw * .8 * 2); }
+}
+@media (min-width: 960px) {
+  .cab-marca { gap: .8vw; }
+  .cab-nombre { font-size: clamp(2rem, 5vw, 4.8rem); }
+  .cab-logo { height: calc(clamp(2rem, 5vw, 4.8rem) * .8); }
+}
