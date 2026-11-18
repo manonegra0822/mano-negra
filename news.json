@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:48:08-03:00",
+  "actualizado": "2026-11-18T17:51:26-03:00",
   "notas": [
     {
       "id": "5727c1a19d",
@@ -143,8 +143,8 @@
     {
       "id": "e3c105a46f",
       "seccion": "cordoba",
-      "rel": 22.0,
-      "relevancia": 22.0,
+      "rel": 21.9,
+      "relevancia": 21.9,
       "fecha": "2026-11-18T17:30:47-03:00",
       "hora": "17:30",
       "titulo": "Se cayó la sesión para tratar la Ley Malvinas y la reforma del Banco Central",
@@ -844,30 +844,6 @@
       }
     },
     {
-      "id": "e9c24fafd9",
-      "seccion": "argentina",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-11-18T17:32:01-03:00",
-      "hora": "17:32",
-      "titulo": "Javier Milei y sus medidas, en vivo: “Voy a ser reelecto: no tengan dudas de que vamos a ganar en primera”, dijo el Presidente",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-cito-a-pablo-picasso-y-dijo-me-voy-a-encargar-de-lo-nid18112026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/6ZMV2DHKZ5ECVJE55QCYWW6AJM.png?auth=d6cb725187ad9d5fde5481f3775aa5167626b8b70b96879ce2940fffb6c370b5&smart=true&width=762&height=504",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.236,
-        "x1": 0.776,
-        "y0": 0.115,
-        "y1": 0.841
-      }
-    },
-    {
       "id": "07e0af9e55",
       "seccion": "cordoba",
       "rel": 20.0,
@@ -904,6 +880,30 @@
       "otros": [],
       "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "e9c24fafd9",
+      "seccion": "argentina",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-11-18T17:32:01-03:00",
+      "hora": "17:32",
+      "titulo": "Javier Milei y sus medidas, en vivo: “Voy a ser reelecto: no tengan dudas de que vamos a ganar en primera”, dijo el Presidente",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-cito-a-pablo-picasso-y-dijo-me-voy-a-encargar-de-lo-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/6ZMV2DHKZ5ECVJE55QCYWW6AJM.png?auth=d6cb725187ad9d5fde5481f3775aa5167626b8b70b96879ce2940fffb6c370b5&smart=true&width=762&height=504",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.236,
+        "x1": 0.776,
+        "y0": 0.115,
+        "y1": 0.841
+      }
     }
   ],
   "opinion": []

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:48:08-03:00",
+  "actualizado": "2026-11-18T17:51:26-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,11 +7,11 @@
       "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 94,
+          "cantidad": 96,
           "ejemplos": [
-            "Dirigente denuncia que contratos de Cancillería para misa de León XIV en Las Pal",
-            "El grupo empresarial de Blessd es el nuevo propietario del Deportivo Pereira: as",
-            "¿Qué está pasando en el Metro y Metrobús hoy miércoles 18 de noviembre? Estación"
+            "La hora de la verdad para Aleksandre Topuria en la UFC tras dejar la esquina de ",
+            "María Antonia García se pronunció tras la imputación de cargos contra Hollman Mo",
+            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 18 de noviembre: cerrada la"
           ]
         },
         "titular sin tema de política/economía": {
@@ -25,23 +25,16 @@
           "ejemplos": [
             "Dos sectores en pleno boom marcarán récords de producción y exportación: cuándos"
           ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El Senado sesiona mañana para sancionar las leyes de discapacidad, propiedad pri",
-            "Reforma Política: el oficialismo busca dictamen para llevar al recinto del Senad"
-          ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
+      "leidas": 89,
       "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 71,
+          "cantidad": 70,
           "ejemplos": [
             "Susto en el Abierto de Palermo: la impactante caída de un polista, que quedó apr",
             "El GTA 6 logró un récord en reseñas y ya lleva más de 17 millones de copias vend",
@@ -74,32 +67,7 @@
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 1,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El delito de tener la heladera vacía",
-            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
-            "Marcos López se presenta en Córdoba incursionando en el teatro por primera vez"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Cuando las iglesias evangélicas se tiñen de violeta",
-            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
-            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
@@ -193,7 +161,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
     },
     {
       "medio": "Cadena 3",
