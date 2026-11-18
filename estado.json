@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:32:56-03:00",
+  "actualizado": "2026-11-18T17:40:02-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,11 +7,11 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 96,
           "ejemplos": [
-            "Revelan que el sobrino de Jorge Nieto trabaja con el presidente de la Cámara de ",
-            "Selva peruana soportará hasta 38 °C: Once regiones entre las perjudicadas, según",
-            "Anitta debuta en GTA VI como la Dra. Nita en un pódcast exclusivo sobre relacion"
+            "EN VIVO | Clima CDMX y resto de México hoy miércoles 18 de noviembre: Frente Frí",
+            "Clima en Lima HOY, EN VIVO: Temperaturas altas, olas de calor, lluvias y últimas",
+            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 18 de noviembre: cerrada la"
           ]
         },
         "otro país": {
@@ -21,11 +21,10 @@
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "El Senado sesiona mañana para sancionar las leyes de discapacidad, propiedad pri",
-            "Reforma Política: el oficialismo busca dictamen para llevar al recinto del Senad",
-            "Economía recibió a la UIA para tratar medidas de alivio fiscal para el sector"
+            "Reforma Política: el oficialismo busca dictamen para llevar al recinto del Senad"
           ]
         }
       }
@@ -33,24 +32,24 @@
     {
       "medio": "La Nación",
       "leidas": 90,
-      "aceptadas": 8,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 71,
           "ejemplos": [
-            "El islam superará al cristianismo en 2035 y cambiará el mapa religioso del mundo",
-            "El príncipe Harry reveló que volvería a alistarse en el Ejército británico para ",
-            "Un club reclama que le devuelvan terrenos que le había cedido a la excárcel de D"
+            "El GTA 6 logró un récord en reseñas y ya lleva más de 17 millones de copias vend",
+            "Altura de los ríos en la Argentina, según Prefectura: esta es la situación en el",
+            "Súper Niño en Argentina: el fenómeno se intensifica y rigen alertas meteorológic"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "La incertidumbre ya contagió al mercado cambiario y hay señales de menos oferta "
+            "La incertidumbre empieza a contagiar al mercado cambiario y hay señales de menos"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 5,
           "ejemplos": [
             "Alfonso Prat-Gay le contestó a las críticas por el derrame de Vaca Muerta: “Bien",
             "Una compañía de IA levantó US$550 millones y apuesta por crecer en América Latin",
@@ -69,32 +68,7 @@
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 1,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El delito de tener la heladera vacía",
-            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
-            "Marcos López se presenta en Córdoba incursionando en el teatro por primera vez"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Cuando las iglesias evangélicas se tiñen de violeta",
-            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
-            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
     },
     {
       "medio": "Página/12",
@@ -119,9 +93,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 14,
           "ejemplos": [
+            "UEPC negocia la ampliación de los cargos docentes a 28 horas semanales",
             "El Festival del Acordeón tendrá su quinta edición",
-            "Coleoni renovó con Racing de Nueva Italia y ya piensa en la próxima temporada",
-            "Cómo es el Bondi Urbano Digital que pretenden copiar de Curitiba"
+            "Coleoni renovó con Racing de Nueva Italia y ya piensa en la próxima temporada"
           ]
         }
       }
@@ -164,14 +138,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 16,
           "ejemplos": [
-            "Otro caso de violencia involucra al exrugbier Martín Díaz: una víctima sufrió un",
-            "Vuelco de un camión en Circunvalación: la carga cayó sobre un utilitario",
-            "Pochettino asumió en el Manchester United y ya dirigió su primer entrenamiento"
+            "Córdoba: rescatan a una puma adulta que estaba en cautiverio",
+            "Baja natalidad: advierten una caída del 40% en las matrículas del nivel inicial",
+            "Otro caso de violencia involucra al exrugbier Martín Díaz: una víctima sufrió un"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
