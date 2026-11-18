@@ -5,12 +5,13 @@ on:
   # de Argentina (13:30 y 18:00 UTC).
   # GitHub puede demorar unos minutos en arrancar las tareas programadas.
   schedule:
-    - cron: "30 13 * * *"   # 10:30
-    - cron: "10 14 * * *"   # respaldo 11:10 (solo corre si la anterior no llegó a ejecutarse)
-    - cron: "50 14 * * *"   # respaldo 11:50
-    - cron: "0 18 * * *"    # 15:00
-    - cron: "40 18 * * *"   # respaldo 15:40
-    - cron: "20 19 * * *"   # respaldo 16:20
+    - cron: "37 13 * * *"   # 10:37
+    - cron: "17 14 * * *"   # respaldo 11:17 (solo corre si la anterior no llegó a ejecutarse)
+    - cron: "57 14 * * *"   # respaldo 11:57
+    - cron: "7 18 * * *"    # 15:07
+    - cron: "47 18 * * *"   # respaldo 15:47
+    - cron: "13 21 * * *"   # 18:13, cierre del día (riesgo país)
+    - cron: "53 21 * * *"   # respaldo 18:53
   # Botón "Run workflow" en la pestaña Actions
   workflow_dispatch:
 

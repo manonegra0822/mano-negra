@@ -76,7 +76,7 @@ def consultar_extras(previo):
     return nuevos
 
 
-HORARIOS = ((10, 30), (15, 0))
+HORARIOS = ((10, 37), (15, 7), (18, 13))
 
 
 def ya_actualizado(previo, ahora):
