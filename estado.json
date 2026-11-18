@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:40:02-03:00",
+  "actualizado": "2026-11-18T17:42:39-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -68,7 +68,32 @@
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+      "leidas": 10,
+      "aceptadas": 1,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El delito de tener la heladera vacía",
+            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
+            "Marcos López se presenta en Córdoba incursionando en el teatro por primera vez"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Cuando las iglesias evangélicas se tiñen de violeta",
+            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
+            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
+          ]
+        }
+      }
     },
     {
       "medio": "Página/12",
@@ -138,14 +163,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
-            "Córdoba: rescatan a una puma adulta que estaba en cautiverio",
-            "Baja natalidad: advierten una caída del 40% en las matrículas del nivel inicial",
-            "Otro caso de violencia involucra al exrugbier Martín Díaz: una víctima sufrió un"
+            "Otro caso de violencia involucra al exrugbier Martín Díaz: una víctima sufrió un",
+            "Vuelco de un camión en Circunvalación: la carga cayó sobre un utilitario",
+            "Pochettino asumió en el Manchester United y ya dirigió su primer entrenamiento"
           ]
         },
         "deportes/policiales/clima/espectáculos": {

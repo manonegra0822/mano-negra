@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:40:02-03:00",
+  "actualizado": "2026-11-18T17:42:39-03:00",
   "notas": [
     {
       "id": "d1565c15e3",
@@ -227,25 +227,6 @@
       }
     },
     {
-      "id": "cc895c98bc",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-18T16:48:12-03:00",
-      "hora": "16:48",
-      "titulo": "Córdoba impulsa el desarrollo industrial con un nuevo régimen de incentivos",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/cordoba-impulsa-el-desarrollo-industrial-con-un-nuevo-regimen-de-incentivos/",
-      "acceso": "abierto",
-      "resumen": "La ley 11160 que crea el “Régimen de Incentivo a las Inversiones, la Innovación y el Empleo” otorga exenciones impositivas en los impuestos de Ingresos Brutos, Sellos e Inmobiliario hasta 10 o 15 años, según localización o radicación en parques industriales. También ofrece estímulos a la capacitación para nuevos trabajadores contratados y beneficios diferenciales según […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/innovacion.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "497eeb8e75",
       "seccion": "economia",
       "rel": 21.9,
@@ -268,6 +249,25 @@
         "y0": 0.292,
         "y1": 0.541
       }
+    },
+    {
+      "id": "cc895c98bc",
+      "seccion": "cordoba",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-18T16:48:12-03:00",
+      "hora": "16:48",
+      "titulo": "Córdoba impulsa el desarrollo industrial con un nuevo régimen de incentivos",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/cordoba-impulsa-el-desarrollo-industrial-con-un-nuevo-regimen-de-incentivos/",
+      "acceso": "abierto",
+      "resumen": "La ley 11160 que crea el “Régimen de Incentivo a las Inversiones, la Innovación y el Empleo” otorga exenciones impositivas en los impuestos de Ingresos Brutos, Sellos e Inmobiliario hasta 10 o 15 años, según localización o radicación en parques industriales. También ofrece estímulos a la capacitación para nuevos trabajadores contratados y beneficios diferenciales según […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/innovacion.webp",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "32d2801a42",
@@ -825,25 +825,6 @@
       }
     },
     {
-      "id": "07e0af9e55",
-      "seccion": "cordoba",
-      "rel": 20.1,
-      "relevancia": 20.1,
-      "fecha": "2026-11-18T06:00:00-03:00",
-      "hora": "06:00",
-      "titulo": "Presupuesto 2027: si Anses mejora el flujo, Llaryora aún deberá aportar $293 mil millones",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/presupuesto-2027-si-anses-mejora-el-flujo-llaryora-aun-debera-aportar-293-mil-millones/",
-      "acceso": "abierto",
-      "resumen": "Los datos surgen del proyecto que giró el Ejecutivo a la Legislatura. Si bien el texto informa un quebranto total de $773 mil millones, supone que la Nación aportará poco más de $240 mil millones como anticipo a cuenta de una futura auditoría. Es inminente el anuncio del Gobernador de una flexibilización de la emergencia […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2021/05/legislatura-de-cordoba-2-e1620948533766.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "e9c24fafd9",
       "seccion": "argentina",
       "rel": 20.0,
@@ -866,6 +847,25 @@
         "y0": 0.115,
         "y1": 0.841
       }
+    },
+    {
+      "id": "07e0af9e55",
+      "seccion": "cordoba",
+      "rel": 20.0,
+      "relevancia": 20.0,
+      "fecha": "2026-11-18T06:00:00-03:00",
+      "hora": "06:00",
+      "titulo": "Presupuesto 2027: si Anses mejora el flujo, Llaryora aún deberá aportar $293 mil millones",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/presupuesto-2027-si-anses-mejora-el-flujo-llaryora-aun-debera-aportar-293-mil-millones/",
+      "acceso": "abierto",
+      "resumen": "Los datos surgen del proyecto que giró el Ejecutivo a la Legislatura. Si bien el texto informa un quebranto total de $773 mil millones, supone que la Nación aportará poco más de $240 mil millones como anticipo a cuenta de una futura auditoría. Es inminente el anuncio del Gobernador de una flexibilización de la emergencia […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2021/05/legislatura-de-cordoba-2-e1620948533766.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "a4d224b5bc",
