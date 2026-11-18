@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T18:06:20-03:00",
+  "actualizado": "2026-11-18T18:09:01-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -32,22 +32,22 @@
     {
       "medio": "La Nación",
       "leidas": 87,
-      "aceptadas": 9,
+      "aceptadas": 10,
       "descartadas": {
+        "sección no permitida": {
+          "cantidad": 65,
+          "ejemplos": [
+            "Abierto de Palermo: Las Monjitas se recuperó a expensas de La Aguada",
+            "El celular en las aulas: después de años de debate, aparece evidencia de que las",
+            "Vino de Napoli por amor, fundó un bar en honor al argentino más famoso y ahora q"
+          ]
+        },
         "sin ancla argentina": {
           "cantidad": 5,
           "ejemplos": [
             "“Nefasta cláusula”: el presidente de Acopiadores fustigó prácticas de los molino",
             "El Gobierno retiró las listas colectoras para asegurarse el apoyo para suspender",
             "Vacunos: oferta muy moderada y precios con bajas en el Mercado Agroganadero de C"
-          ]
-        },
-        "sección no permitida": {
-          "cantidad": 66,
-          "ejemplos": [
-            "Vino de Napoli por amor, fundó un bar en honor al argentino más famoso y ahora q",
-            "Cumbre de EEUU, China y Rusia: qué se sabe del histórico encuentro entre Trump, ",
-            "El celular en las aulas: después de años de debate, aparecen señales de que las "
           ]
         },
         "otro país": {

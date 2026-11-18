@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T18:06:20-03:00",
+  "actualizado": "2026-11-18T18:09:01-03:00",
   "notas": [
     {
       "id": "5727c1a19d",
@@ -29,8 +29,8 @@
     {
       "id": "d1626d1759",
       "seccion": "cordoba",
-      "rel": 33.5,
-      "relevancia": 33.5,
+      "rel": 33.4,
+      "relevancia": 33.4,
       "fecha": "2026-11-18T14:49:37-03:00",
       "hora": "14:49",
       "titulo": "Reforma electoral: el oficialismo retira las colectoras para acordar la suspensión de las PASO",
@@ -114,6 +114,30 @@
         "x1": 0.646,
         "y0": 0.0,
         "y1": 0.352
+      }
+    },
+    {
+      "id": "82f99430ed",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-11-18T18:04:49-03:00",
+      "hora": "18:04",
+      "titulo": "Milei publicó su propia versión de GTA en la previa de un nuevo lanzamiento del juego",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-publico-su-propia-version-de-gta-en-la-previa-de-un-nuevo-lanzamiento-del-juego-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente difundió un video inspirado en la estética del famoso videojuego; aparece junto a Karina Milei y destruyen carteles de “gasto público”, “impuestos” y “regulaciones”",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/Y5NBMNIQKZEDLOZO6NNVHSLATI.jpg?auth=003a5881292b4d729e110d23e00ec8ddb7f0d91d94d7445faae1286042fe2de1&smart=true&width=484&height=344",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.274,
+        "x1": 0.461,
+        "y0": 0.594,
+        "y1": 0.865
       }
     },
     {
@@ -672,25 +696,6 @@
       }
     },
     {
-      "id": "62d44f69de",
-      "seccion": "economia",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-11-18T13:00:52-03:00",
-      "hora": "13:00",
-      "titulo": "El dólar oficial llegó a los $1.580 y alcanzó un nuevo máximo nominal del año",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/el-dolar-oficial-llego-a-los-1-580-y-alcanzo-un-nuevo-maximo-nominal-del-ano/",
-      "acceso": "abierto",
-      "resumen": "El tipo de cambio minorista avanzó $5 este miércoles en el Banco Nación y acumula un incremento de $10 en los últimos tres días. En lo que va de noviembre, la suba alcanza los $20, equivalente al 1,3%.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/images-2026-11-18T125920.612-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "915c4e487c",
       "seccion": "cordoba",
       "rel": 21.2,
@@ -707,6 +712,25 @@
       "imagen_credito": "Cba24n",
       "otros": [],
       "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "62d44f69de",
+      "seccion": "economia",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-11-18T13:00:52-03:00",
+      "hora": "13:00",
+      "titulo": "El dólar oficial llegó a los $1.580 y alcanzó un nuevo máximo nominal del año",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/el-dolar-oficial-llego-a-los-1-580-y-alcanzo-un-nuevo-maximo-nominal-del-ano/",
+      "acceso": "abierto",
+      "resumen": "El tipo de cambio minorista avanzó $5 este miércoles en el Banco Nación y acumula un incremento de $10 en los últimos tres días. En lo que va de noviembre, la suba alcanza los $20, equivalente al 1,3%.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/images-2026-11-18T125920.612-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
       "rostros": null
     },
     {
@@ -844,6 +868,30 @@
       }
     },
     {
+      "id": "e9c24fafd9",
+      "seccion": "argentina",
+      "rel": 20.0,
+      "relevancia": 20.0,
+      "fecha": "2026-11-18T18:03:14-03:00",
+      "hora": "18:03",
+      "titulo": "Javier Milei y sus medidas, en vivo: “Voy a ser reelecto: no tengan dudas de que vamos a ganar en primera”, dijo el Presidente",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-cito-a-pablo-picasso-y-dijo-me-voy-a-encargar-de-lo-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/6ZMV2DHKZ5ECVJE55QCYWW6AJM.png?auth=d6cb725187ad9d5fde5481f3775aa5167626b8b70b96879ce2940fffb6c370b5&smart=true&width=762&height=504",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.236,
+        "x1": 0.776,
+        "y0": 0.115,
+        "y1": 0.841
+      }
+    },
+    {
       "id": "b625d7bff6",
       "seccion": "cordoba",
       "rel": 20.0,
@@ -858,44 +906,6 @@
       "impacto": null,
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-Senado-tratara-la-sancion-definitiva-de-la-Ley-de-Discapacidad-optimized.png",
       "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "07e0af9e55",
-      "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-11-18T06:00:00-03:00",
-      "hora": "06:00",
-      "titulo": "Presupuesto 2027: si Anses mejora el flujo, Llaryora aún deberá aportar $293 mil millones",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/presupuesto-2027-si-anses-mejora-el-flujo-llaryora-aun-debera-aportar-293-mil-millones/",
-      "acceso": "abierto",
-      "resumen": "Los datos surgen del proyecto que giró el Ejecutivo a la Legislatura. Si bien el texto informa un quebranto total de $773 mil millones, supone que la Nación aportará poco más de $240 mil millones como anticipo a cuenta de una futura auditoría. Es inminente el anuncio del Gobernador de una flexibilización de la emergencia […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2021/05/legislatura-de-cordoba-2-e1620948533766.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "a4d224b5bc",
-      "seccion": "cordoba",
-      "rel": 20.0,
-      "relevancia": 20.0,
-      "fecha": "2026-11-18T05:57:00-03:00",
-      "hora": "05:57",
-      "titulo": "El RIGI amplía los beneficios para proveedores locales y flexibiliza el ingreso de capitales",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/negocios/el-rigi-amplia-los-beneficios-para-proveedores-locales-y-flexibiliza-el-ingreso-de-capitales/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno introdujo cambios en el Régimen de Incentivo para Grandes Inversiones (RIGI) mediante el decreto 1366, publicado en el Boletín Oficial. La norma, firmada por el presidente Javier Milei, el jefe de Gabinete Diego Santilli y el ministro de Economía Luis Caputo, busca ampliar la participación de empresas locales, simplificar operaciones financieras y societarias, […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/04/mineria-.jpg",
-      "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
       "rostros": null
