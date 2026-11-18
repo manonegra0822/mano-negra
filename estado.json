@@ -1,110 +1,76 @@
 {
-  "actualizado": "2026-11-17T16:38:31-03:00",
+  "actualizado": "2026-11-18T01:01:51-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 94,
+          "cantidad": 99,
           "ejemplos": [
-            "La Semana Cuadernos reúne a escritores para debatir cómo la ficción cuestiona la",
-            "Pedro Sánchez a Lecturas: \"No imagino mi vida sin Begoña\"",
-            "Estas son las conversaciones, pruebas y testigos que tienen en problemas con la "
+            "Triple lesbicidio en Barracas: se conocerá hoy el veredicto contra el único acus",
+            "México vs Jamaica EN VIVO vuelta de cuartos de final Concacaf Nations League: el",
+            "FMF rinde homenaje a Javier “El Abuelo” Cruz, histórico jugador que llevó a Méxi"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 3,
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
           "ejemplos": [
-            "La inflación mayorista en octubre fue de 1,6% y acumuló 29,8% en los últimos doc",
-            "Las acciones de Nvidia ampliaron las pérdidas antes de un reporte clave para los",
-            "Reforma política: el oficialismo pidió un cuarto intermedio por falta de firmas "
+            "Fernando Gorbarán, el hombre detrás de las ferias que crecen con el petróleo, el"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 8,
+      "leidas": 90,
+      "aceptadas": 5,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Senado: se reúne una comisión clave para tratar la reforma electoral, pero el Go",
-            "Hernán Lacunza se desmarca de Pro, defiende las PASO y mantiene su candidatura: ",
-            "La inflación mayorista se desaceleró y fue de 1,6% en octubre"
-          ]
-        },
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 77,
           "ejemplos": [
-            "Reportan fallas en iCloud, la App Store, Apple Pay y otros servicios de Apple",
-            "La Fundación Esteban Bullrich presentó sus logros e impacto del 2026 en su encue",
-            "El ICE detuvo en Texas a Jorge Linares, extricampeón mundial venezolano de boxeo"
+            "Mano de obra noviembre 2026: cuánto cobran albañiles, oficiales y ayudantes, con",
+            "Agustín Giay consoló a la hija de Eugenia Quevedo, la artista que cantó el himno",
+            "Bajo Belgrano: la zona que levanta el perfil con desarrollos de más metros cuadr"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 5,
           "ejemplos": [
-            "“La razón más probable por la que morirán es por un accidente de IA” : la alarma",
-            "Roberto Baratta fue autorizado a recibir el año nuevo en las playas brasileñas d",
-            "Los pagos con stablecoins superaron las 1000 millones de operaciones y crecieron"
+            "Premian por su excelencia judicial a un juzgado contencioso administrativo feder",
+            "Horacio Marín planteó los objetivos de YPF para 2027",
+            "En fotos: así fue la gran noche del Premio LA NACION-Galicia a la Excelencia Agr"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Crecen los Cedears: se lanzan cuatro nuevos ETF y ya hay más de 400 opciones par"
+            "El Gobierno rechazó las actividades de la princesa Ana, hermana del rey Carlos I"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Senado: la resistencia a las listas colectoras complica el objetivo del Gobierno",
+            "Jubilaciones: una nueva sentencia rechaza la movilidad del gobierno anterior y o"
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 1,
-      "descartadas": {
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Marcos López se presenta en Córdoba incursionando en el teatro por primera vez"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 7,
-          "ejemplos": [
-            "Cuando las iglesias evangélicas se tiñen de violeta",
-            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
-            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
-          ]
-        }
-      }
+      "error": "no se pudo leer el feed (<urlopen error _ssl.c:994: The handshake operation timed out>)"
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 2,
+      "leidas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "“No veo contradicción”: el vocero presidencial volvió a forzar una interpretació",
-            "Tras el favor de Gendarmería, Spagnuolo pidió excluir los audios de la causa AND",
-            "El precio mayorista de la electricidad subió hasta 5,8 por ciento para la indust"
-          ]
-        },
-        "muy vieja": {
           "cantidad": 1,
           "ejemplos": [
-            "El ocaso de Don Huang"
+            "La caída de los sistemas expone la fragilidad tecnológica en Estados Unidos"
           ]
         }
       }
@@ -112,14 +78,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 11,
           "ejemplos": [
-            "Renault Argentina sumará la distribución de autos eléctricos chinos en Argentina",
-            "Cómo anotarse para terminar la secundaria y primaria en Córdoba 2027",
-            "«Mis padeceres por Anita» debuta en el escenario cordobés"
+            "Tapa 18-11-26",
+            "Viñeta de Díaz – 18-11-26",
+            "Iván Tabella será trasladado a Córdoba por el femicidio de Daniela Villalba"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "La oposición le arrebató a Netanyahu la presidencia del Parlamento",
+            "Renunció el fiscal general de Paraguay en medio del escándalo de Ueno Bank"
           ]
         }
       }
@@ -127,14 +100,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 21,
+      "aceptadas": 22,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 37,
+          "cantidad": 36,
           "ejemplos": [
+            "El mes pasado subió la confianza del consumidor",
             "Asistencia por daños climáticos: declaran zona de desastre a General Roca en Mar",
-            "Comercio exterior: el Senasa moderniza el sistema de supervisión de fumigaciones",
-            "Show inconcluso de Shakira: la justicia comenzó a tramitar la demanda como “proc"
+            "Comercio exterior: el Senasa moderniza el sistema de supervisión de fumigaciones"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -153,9 +126,9 @@
         "muy vieja": {
           "cantidad": 19,
           "ejemplos": [
-            "Vaca Muerta en la cima: el crudo lidera las exportaciones y deja un superávit en",
-            "Venta de autos eléctricos se dispara un 654% en 2026 a contramano del sector",
-            "Italia multó a Meta con casi 900 millones de dólares por acceder a fotos y video"
+            "Condenaron al administrador de una mesa de dinero que mató a un inversor",
+            "JP Morgan estima que Argentina llegará a las elecciones con una inflación aún en",
+            "Tía Maruca cambia de dueño luego de atravesar dificultades financieras"
           ]
         }
       }
@@ -163,14 +136,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 1,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 12,
           "ejemplos": [
-            "La canasta alimentaria para diabéticos resulta un 40% más cara",
-            "Semana inestable: Córdoba bajo alerta por el avance de tormentas hacia la capita",
-            "Córdoba se prepara para una cita especial por el futuro de 1.500 jóvenes"
+            "Myrian Prunotto: “Soy de las pocas que siguen peleando por los valores del radic",
+            "Lucas Viano fue premiado por su trabajo de divulgación científica en UNCiencia",
+            "Tabella volverá a Córdoba para declarar por el femicidio de Daniela Villalba"
           ]
         }
       }
