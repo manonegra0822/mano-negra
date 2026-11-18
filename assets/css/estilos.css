@@ -1278,3 +1278,16 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .slide-marco { transition: transform .3s cubic-bezier(.2,.7,.2,1); }
   .slider .slide { backface-visibility: hidden; }
 }
+
+/* Celular (pantallas táctiles): el carrusel sin efectos pesados de dibujar mientras se desliza.
+   - Sin la luz difuminada de fondo (un desenfoque enorme que el teléfono redibuja con cada tarjeta que pasa por encima).
+   - El paso de blanco y negro a color de la foto es instantáneo (antes era una transición de filtro de 0,6 s
+     que obligaba a recalcular las fotos cuadro por cuadro justo durante el gesto).
+   - Sombras más chicas y fijas. */
+@media (hover: none), (pointer: coarse) {
+  .slider-luz { display: none !important; }
+  .slider .slide .foto-slide img { transition: none !important; }
+  .slider .slide-marco, .js .slider .slide:not(.es-activa) .slide-marco { box-shadow: 0 10px 22px -12px rgba(0,0,0,.45); transition: transform .3s cubic-bezier(.2,.7,.2,1); }
+  .slider .slide-txt { transition: opacity .2s linear; }
+  .slider .slide { contain: layout paint style; will-change: auto; }
+}
