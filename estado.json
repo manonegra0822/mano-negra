@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T16:14:42-03:00",
+  "actualizado": "2026-11-18T17:21:18-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,66 +9,54 @@
         "sección no permitida": {
           "cantidad": 95,
           "ejemplos": [
-            "Temblor hoy en Perú EN VIVO: últimos sismos, epicentro y reporte del IGP del mié",
-            "Costa Rica logra reconocimiento internacional por calidad del servicio eléctrico",
-            "EN VIVO | Seguridad, narcotráfico y crimen en México hoy 18 de noviembre: exigen"
+            "Acuerdos con narcos en EEUU podrían provocar reincidencias, advierte exagente de",
+            "La expansión del Homo sapiens determinó la desaparición del neandertal, según un",
+            "Mariana Enríquez sobre el terror en Argentina: \"Lo macabro se presenta en lo cot"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Dos sectores en pleno boom marcarán récords de producción y exportación: cuándos"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "Economía recibió a la UIA para tratar medidas de alivio fiscal para el sector",
-            "Reforma Política: el oficialismo anunció la eliminación de las colectoras y el d"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Guerra de “ladrillitos”: el dueño de una empresa local cuestionó el desembarco d",
-            "Suspensión de las PASO: cómo fue la negociación y cuáles fueron los últimos camb"
+            "El Senado sesiona mañana para sancionar las leyes de discapacidad, propiedad pri",
+            "Reforma Política: el oficialismo busca dictamen para llevar al recinto del Senad",
+            "Economía recibió a la UIA para tratar medidas de alivio fiscal para el sector"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
-      "aceptadas": 9,
+      "leidas": 90,
+      "aceptadas": 7,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 66,
+          "cantidad": 73,
           "ejemplos": [
-            "Sin disparar ni un tiro: cómo fue el robo de 21 millones de dólares al banco de ",
-            "Mauricio Macri, 67 años, sobre su rutina de entrenamiento: “Descubrí algo increí",
-            "Mariano Chihade, esposo de Mariana Fabbiani, fue operado con éxito: “Seguimos re"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 5,
-          "ejemplos": [
-            "De la corrida de 2019 a la crisis de 2025: por qué las PASO pueden desestabiliza",
-            "Propuesta a los acreedores: Los Grobo ofrece pagar el 15% de su millonaria deuda",
-            "El Gobierno retiró las listas colectoras para asegurarse el apoyo para suspender"
+            "Susto en el Abierto de Palermo: la impactante caída de un polista, que quedó apr",
+            "La mujer que le hace bajar la cabeza al Presidente",
+            "Prisión perpetua para el hombre que asesinó a tres mujeres en un hotel de Barrac"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 6,
           "ejemplos": [
-            "La investigación judicial contra Federico Beligoy se demora por una disputa sobr",
-            "Swiss Medical toma el control de Grupo Oroño y amplía su red de clínicas en el i",
-            "Los dos récords que dejarán la minería y la energía este año"
+            "Mercado Libre cierra un acuerdo con Carrefour y suma entregas de supermercado en",
+            "Un gigante de la maquinaria agrícola de Brasil eligió a una empresa argentina pa",
+            "“Celebramos esta decisión”: cierran una contradicción normativa y prohíben el us"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "sin ancla argentina": {
+          "cantidad": 4,
           "ejemplos": [
-            "Alineado con Trump, el Gobierno se abstuvo de votar en la ONU una resolución par"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Un disruptivo video de Larreta a favor de integrar la Ciudad con el conurbano de"
+            "El Gobierno retiró las listas colectoras para asegurarse el apoyo para suspender",
+            "Vacunos: oferta muy moderada y precios con bajas en el Mercado Agroganadero de C",
+            "De la corrida de 2019 a la crisis de 2025: por qué las PASO pueden desestabiliza"
           ]
         }
       }
@@ -120,14 +108,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 14,
           "ejemplos": [
             "El Festival del Acordeón tendrá su quinta edición",
-            "Cómo es el Bondi Urbano Digital que pretenden copiar de Curitiba",
-            "La Noche de los Teatros alcanzará su décima edición"
+            "Coleoni renovó con Racing de Nueva Italia y ya piensa en la próxima temporada",
+            "Cómo es el Bondi Urbano Digital que pretenden copiar de Curitiba"
           ]
         }
       }
@@ -135,7 +123,7 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 18,
+      "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 36,
@@ -158,7 +146,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 24,
+          "cantidad": 23,
           "ejemplos": [
             "Paraguay: ordenaron el traslado de Santiago Peña a una cárcel militar",
             "El Gobierno volvió a conseguir superávit financiero en octubre",
@@ -170,14 +158,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
+            "Otro caso de violencia involucra al exrugbier Martín Díaz: una víctima sufrió un",
             "Vuelco de un camión en Circunvalación: la carga cayó sobre un utilitario",
-            "Pochettino asumió en el Manchester United y ya dirigió su primer entrenamiento",
-            "Gustavo Coleoni renovó contrato y continuará como DT de Racing de Córdoba en 202"
+            "Pochettino asumió en el Manchester United y ya dirigió su primer entrenamiento"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -194,7 +182,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
+      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
     },
     {
       "medio": "Cadena 3",
