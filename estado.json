@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T17:21:18-03:00",
+  "actualizado": "2026-11-18T17:26:25-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,9 +9,9 @@
         "sección no permitida": {
           "cantidad": 95,
           "ejemplos": [
-            "Acuerdos con narcos en EEUU podrían provocar reincidencias, advierte exagente de",
-            "La expansión del Homo sapiens determinó la desaparición del neandertal, según un",
-            "Mariana Enríquez sobre el terror en Argentina: \"Lo macabro se presenta en lo cot"
+            "Edgar Lastre, goleador de CD Moquegua, habla de la posibilidad de vincularse con",
+            "La FDA autorizó el uso de un relleno óseo elaborado con nácar de ostras que ayud",
+            "Llega ‘GTA VI’, un retrato social salvaje y despiadado convertido en fenómeno mu"
           ]
         },
         "otro país": {
@@ -33,22 +33,22 @@
     {
       "medio": "La Nación",
       "leidas": 90,
-      "aceptadas": 7,
+      "aceptadas": 6,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Alfonso Prat-Gay le contestó a las críticas por el derrame de Vaca Muerta: “Bien",
+            "Una compañía de IA levantó US$550 millones y apuesta por crecer en América Latin",
+            "Un gigante de la maquinaria agrícola de Brasil eligió a una empresa argentina pa"
+          ]
+        },
         "sección no permitida": {
           "cantidad": 73,
           "ejemplos": [
+            "Boca, Maradona y un estadio especial: el partido en Barranquilla que cambió el r",
             "Susto en el Abierto de Palermo: la impactante caída de un polista, que quedó apr",
-            "La mujer que le hace bajar la cabeza al Presidente",
-            "Prisión perpetua para el hombre que asesinó a tres mujeres en un hotel de Barrac"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 6,
-          "ejemplos": [
-            "Mercado Libre cierra un acuerdo con Carrefour y suma entregas de supermercado en",
-            "Un gigante de la maquinaria agrícola de Brasil eligió a una empresa argentina pa",
-            "“Celebramos esta decisión”: cierran una contradicción normativa y prohíben el us"
+            "La mujer que le hace bajar la cabeza al Presidente"
           ]
         },
         "sin ancla argentina": {

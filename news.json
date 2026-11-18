@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-11-18T17:21:18-03:00",
+  "actualizado": "2026-11-18T17:26:25-03:00",
   "notas": [
     {
       "id": "d1565c15e3",
       "seccion": "cordoba",
-      "rel": 34.0,
-      "relevancia": 34.0,
+      "rel": 33.9,
+      "relevancia": 33.9,
       "fecha": "2026-11-18T17:04:01-03:00",
       "hora": "17:04",
       "titulo": "No hubo quórum y se cayó la sesión de este miércoles en la Cámara de Diputados",
@@ -119,8 +119,8 @@
     {
       "id": "0d1bda9264",
       "seccion": "economia",
-      "rel": 22.0,
-      "relevancia": 22.0,
+      "rel": 21.9,
+      "relevancia": 21.9,
       "fecha": "2026-11-18T17:07:00-03:00",
       "hora": "17:07",
       "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este miércoles 18 de noviembre, minuto a minuto",
@@ -870,8 +870,8 @@
     {
       "id": "3b0f849dba",
       "seccion": "cordoba",
-      "rel": 19.2,
-      "relevancia": 19.2,
+      "rel": 19.1,
+      "relevancia": 19.1,
       "fecha": "2026-11-18T12:17:51-03:00",
       "hora": "12:17",
       "titulo": "El Gobierno aumentó 2,20% las prestaciones por discapacidad",
