@@ -1,68 +1,67 @@
 {
-  "actualizado": "2026-11-18T18:09:01-03:00",
+  "actualizado": "2026-11-18T19:49:09-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 95,
           "ejemplos": [
-            "Perú declara en emergencia las actividades de hidrocarburos por el fenómeno de E",
-            "Vox lanza el videojuego del \"sentido común\" para explicar sus propuestas con \"mi",
-            "Ortega y Murillo nombran vicecanciller de Nicaragua al exdirigente estudiantil L"
+            "Tribunal dominicano confirmó 20 años de prisión para médica y militar que decapi",
+            "El enigmático maletín nuclear de Putin quedó al descubierto en China antes de su",
+            "Avioneta se desploma en carretera de Nuevo León: pilotos y pasajeros sobreviven "
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Suspensión de las PASO: los libertarios buscan destrabar el dictamen y llevar el",
-            "Economía recibió a la UIA para tratar medidas de alivio fiscal para el sector"
-          ]
-        },
-        "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "España como puerta de entrada a Europa: la apuesta de las empresas argentinas en"
+            "Suspensión de las PASO: el oficialismo admitió que faltan dos firmas para asegur"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Los motivos que esgrime el Gobierno para no haber votado en la ONU en contra de "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 87,
-      "aceptadas": 10,
+      "leidas": 86,
+      "aceptadas": 8,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 65,
-          "ejemplos": [
-            "Abierto de Palermo: Las Monjitas se recuperó a expensas de La Aguada",
-            "El celular en las aulas: después de años de debate, aparece evidencia de que las",
-            "Vino de Napoli por amor, fundó un bar en honor al argentino más famoso y ahora q"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 5,
-          "ejemplos": [
-            "“Nefasta cláusula”: el presidente de Acopiadores fustigó prácticas de los molino",
-            "El Gobierno retiró las listas colectoras para asegurarse el apoyo para suspender",
-            "Vacunos: oferta muy moderada y precios con bajas en el Mercado Agroganadero de C"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Alineado con Trump, el Gobierno se abstuvo de votar en la ONU una resolución par",
-            "La incertidumbre empieza a contagiar al mercado cambiario y hay señales de menos"
-          ]
-        },
         "titular sin tema de política/economía": {
           "cantidad": 5,
           "ejemplos": [
-            "Alfonso Prat-Gay le contestó a las críticas por el derrame de Vaca Muerta: “Bien",
-            "Una compañía de IA levantó US$550 millones y apuesta por crecer en América Latin",
-            "Un gigante de la maquinaria agrícola de Brasil eligió a una empresa argentina pa"
+            "Invirtió US$20 millones: una empresa familiar inauguró una planta para procesar ",
+            "Reunión: CRA recibió a Iraeta, reclamó por un lugar en el INTA y apuntó sobre la",
+            "Debe más de $15.000 millones: se presentó en concurso de acreedores Agro de Souz"
+          ]
+        },
+        "sección no permitida": {
+          "cantidad": 68,
+          "ejemplos": [
+            "Gabriel Rolón, sobre las decisiones: “Muchas veces estamos solo cumpliendo un ma",
+            "Le sacaron el útero por un cáncer, pasó por más de diez cirugías y ahora cumplir",
+            "Qué ver en Netflix si te gustó Gordon: cuatro series y películas sobre crímenes "
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Patricia Bullrich, antes del dictamen: “Es un hecho que se suspenden las PASO, ¡",
+            "“Nefasta cláusula”: el presidente de Acopiadores fustigó prácticas de los molino"
+          ]
+        },
+        "otro país": {
+          "cantidad": 3,
+          "ejemplos": [
+            "“Mercado paralelo”: diputados y senadores apoyaron a los productores frente a un",
+            "Alineado con Trump, el Gobierno se abstuvo de votar en la ONU una resolución par",
+            "La incertidumbre empieza a contagiar al mercado cambiario y hay señales de menos"
           ]
         }
       }
@@ -99,14 +98,12 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "Lesbicidio de Barracas: condenaron a prisión perpetua al único acusado por el tr",
-            "Argentina se negó a condenar la violencia contra mujeres y niñas en la ONU",
-            "“Lo que quieren es amedrentar a la gente, silenciarnos”"
+            "Lesbicidio de Barracas: condenaron a prisión perpetua al único acusado por el tr"
           ]
         }
       }
@@ -119,9 +116,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 14,
           "ejemplos": [
-            "Otro revés para la maquinaria agrícola: Agro de Souza pidió el concurso preventi",
-            "Trump se reunió con los mandatarios de Canadá y México",
-            "Los 24 preseleccionados por Prigioni para los cruces ante Bahamas y Canadá"
+            "Quirno habló del inminente fallo del Tribunal del Mar de la ONU por Malvinas",
+            "Los constitucionalistas rechazan el sistema de colectoras por su falta de transp",
+            "Trump llegó a China y se prepara para una cumbre clave con Xi y Putin"
           ]
         }
       }
@@ -129,14 +126,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 19,
+      "aceptadas": 21,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 37,
+          "cantidad": 38,
           "ejemplos": [
+            "Confirman aumento en los valores del nomenclador para prestaciones de discapacid",
             "Argentina presidirá durante un año la comisión antidrogas de la OEA",
-            "Una localidad cordobesa usa lombrices para tratar efluentes cloacales",
-            "El Tribunal Superior de Justicia suma nuevos peritos oficiales en Córdoba"
+            "Una localidad cordobesa usa lombrices para tratar efluentes cloacales"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -152,7 +149,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 22,
+          "cantidad": 19,
           "ejemplos": [
             "Paraguay: ordenaron el traslado de Santiago Peña a una cárcel militar",
             "El Gobierno volvió a conseguir superávit financiero en octubre",
@@ -167,17 +164,11 @@
       "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
-            "Camioneta incendiada: identifican el cuerpo calcinado e investigan un presunto h",
-            "“Indómita Luz”: un viaje para descubrir el mundo desde otra mirada",
-            "Córdoba: rescatan a una puma adulta que estaba en cautiverio"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Manifestación y festival en Córdoba por la recuperación y defensa del PAMI"
+            "Epec informó una serie de cortes de luz para este jueves en Córdoba",
+            "Nueva Córdoba: corte total en San Lorenzo entre Obispo Salguero y Chacabuco",
+            "Fue compañero de Messi en un Mundial, ganó la Libertadores y ahora anunció su re"
           ]
         }
       }
