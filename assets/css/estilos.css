@@ -1154,3 +1154,25 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .cab-nombre { font-size: clamp(2rem, 5vw, 4.8rem); }
   .cab-logo { height: calc(clamp(2rem, 5vw, 4.8rem) * .8); }
 }
+
+/* Celular: cabecera en dos columnas. A la izquierda "(El medio de medios)"; a la derecha
+   el logo y, justo debajo, la fecha en chico. Sin "(Córdoba — Argentina)" ni el lema. */
+@media (max-width: 639.98px) {
+  .cabecera .envoltura { display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: 12px; padding-block: 14px 12px; }
+  .cab-etiquetas { grid-column: 1; grid-row: 1; padding: 0; align-self: center; }
+  .cab-etiquetas li:nth-child(2) { display: none; }
+  .cab-marca { grid-column: 2; grid-row: 1; margin: 0; justify-self: end; }
+  .cab-nombre { font-size: 7.5vw; }
+  .cab-logo { height: calc(7.5vw * .8 * 2); }
+  .cab-pie { grid-column: 1 / -1; grid-row: 2; padding: 6px 0 0; justify-items: end; text-align: right; gap: 0; }
+  .cab-etiquetas li { white-space: nowrap; font-size: .75rem; }
+  .cab-lema { display: none; }
+  .cab-fecha { font-size: .625rem; letter-spacing: .02em; text-align: right; white-space: nowrap; }
+}
+@media (max-width: 374.98px) {
+  .cab-etiquetas li { white-space: normal; }
+  /* Celulares chicos: los íconos de la barra de abajo entran en una sola fila */
+  .riel { padding-inline: 2px; }
+  .riel-btn { width: 40px; height: 44px; }
+  .ico { width: 24px; height: 24px; }
+}
