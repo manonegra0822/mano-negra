@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-11-19T18:24:27-03:00",
+  "actualizado": "2026-11-19T18:35:42-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 94,
+          "cantidad": 95,
           "ejemplos": [
-            "Anthropic debuta en Wall Street con la mayor oferta pública inicial de la histor",
-            "Debate cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo, en directo | El c",
-            "Cómo crear itinerarios diarios de viaje, guardar lugares en Google Maps y usar A"
+            "Alejo Igoa, el canal argentino más grande de YouTube en español: ya van 125 mill",
+            "Feijóo a Sánchez en el cara a cara: “Conoce más a Jessica que a Mari Carmen; hay",
+            "Sánchez inicia el debate reconociendo errores pero promete avances frente a PP y"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "Las acciones de Anthropic empezaron a cotizar en Wall Street: subieron 17% despu",
-            "El Senado comenzó a tratar la ley de discapacidad y se espera un extenso debate"
+            "Senado: avanza el debate por la ley de discapacidad y hay consenso para aprobarl",
+            "Las acciones de Anthropic empezaron a cotizar en Wall Street: subieron 17% despu"
           ]
         },
         "titular sin tema de política/economía": {
@@ -32,14 +32,14 @@
     {
       "medio": "La Nación",
       "leidas": 89,
-      "aceptadas": 8,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 67,
+          "cantidad": 66,
           "ejemplos": [
             "Kompany vuelve a dirigir a Bayern Munich luego de haberse desplomado en un entre",
-            "“Shacá la bashura de 18 a 20”: la curiosa campaña de la Municipalidad de “Shan I",
-            "La conferencia de un polémico académico desata un escándalo en una de las univer"
+            "Cómo hacer las famosas croquetas saludables de avena y aceite de oliva en pocos ",
+            "Murió a los 38 años Alexander Haskin, actor de You y The Rookie"
           ]
         },
         "sin ancla argentina": {
@@ -98,7 +98,7 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "otro país": {
           "cantidad": 1,
@@ -107,10 +107,9 @@
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "El genocidio infinito",
-            "Pleamar, un nuevo encuentro con la vanguardia cerca de las olas"
+            "El genocidio infinito"
           ]
         }
       }
@@ -118,20 +117,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 12,
           "ejemplos": [
+            "La música en vivo se consolida como motor turístico de Buenos Aires",
             "La escena teatral indaga en la exaltación de lo común",
-            "Mundial Sub 17: Argentina falló en las áreas y cayó 2-0 ante Australia",
-            "Comenzó la reconstrucción: La era pos Messi tiene artistas para volver a enamora"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Atenas e Instituto vuelven a cruzarse: precios, venta de entradas y todo lo que "
+            "Mundial Sub 17: Argentina falló en las áreas y cayó 2-0 ante Australia"
           ]
         }
       }
@@ -162,14 +155,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 13,
           "ejemplos": [
+            "Encapuchados vaciaron un local de ropa en Córdoba",
             "Eugenia Almeida presenta Un dios sacude la casa: La ficción sigue siendo liberad",
-            "La Campagnola cierra su planta en Mar del Plata y es incierto el futuro de 80 tr",
-            "Show de la Reserva de Talleres: cuatro goles de Chiavassa y goleada ante Racing"
+            "La Campagnola cierra su planta en Mar del Plata y es incierto el futuro de 80 tr"
           ]
         }
       }

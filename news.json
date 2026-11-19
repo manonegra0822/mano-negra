@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-11-19T18:24:27-03:00",
+  "actualizado": "2026-11-19T18:35:42-03:00",
   "notas": [
     {
       "id": "388eb185ba",
       "seccion": "cordoba",
-      "rel": 45.6,
-      "relevancia": 45.6,
+      "rel": 45.5,
+      "relevancia": 45.5,
       "fecha": "2026-11-19T16:54:08-03:00",
       "hora": "16:54",
       "titulo": "Por impulso de la oposición, el Senado tratará la próxima semana la Ley contra la Ludopatía",
@@ -39,8 +39,8 @@
     {
       "id": "8724691f57",
       "seccion": "economia",
-      "rel": 34.0,
-      "relevancia": 34.0,
+      "rel": 33.9,
+      "relevancia": 33.9,
       "fecha": "2026-11-19T18:12:44-03:00",
       "hora": "18:12",
       "titulo": "Las acciones y los bonos argentinos volvieron a caer muy fuerte y el riesgo país superó los 900 puntos básicos",
@@ -56,6 +56,31 @@
           "fuente": "Comercio y Justicia",
           "titulo": "Caen bonos y acciones y sube el riesgo país",
           "url": "https://comercioyjusticia.info/economia/caen-bonos-y-acciones-y-sube-el-riesgo-pais/"
+        }
+      ],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "e9f1c2bedd",
+      "seccion": "economia",
+      "rel": 33.9,
+      "relevancia": 33.9,
+      "fecha": "2026-11-19T17:29:09-03:00",
+      "hora": "17:29",
+      "titulo": "El riesgo país trepó a 930 puntos y el dólar alcanzó un récord anual",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/riesgo-pais-dolar-record/",
+      "acceso": "abierto",
+      "resumen": "El tipo de cambio minorista cerró a $1.585, mientras que el indicador de JP Morgan saltó 82 unidades. Las acciones argentinas también sufrieron fuertes pérdidas, con retrocesos de hasta 10,2% en Wall Street.",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/AMUF444MNVE7LPMYI6VYKBBLZU.JPG?auth=24e6264f71709069acb4d4b1ddfbed4cd928cc2cbba6a0a503233941fd0e60b6&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "El riesgo país trepó hasta los 930 puntos y el dólar alcanzó su valor más alto del año",
+          "url": "https://www.lanacion.com.ar/economia/el-dolar-volvio-a-subir-hasta-su-valor-mas-alto-del-ano-y-el-riesgo-pais-roza-los-900-puntos-nid19112026/"
         }
       ],
       "dia": 0,
@@ -167,6 +192,30 @@
       "rostros": null
     },
     {
+      "id": "d146eaf0d8",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-11-19T18:28:14-03:00",
+      "hora": "18:28",
+      "titulo": "Axel Kicillof, en modo campaña: “Cuatro años más de Milei serían una calamidad”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/axel-kicillof-en-modo-campana-cuatro-anos-mas-de-milei-serian-una-calamidad-nid19112026/",
+      "acceso": "suscripcion",
+      "resumen": "Tras la cumbre del peronismo en San Fernando, a la que no asistió, el gobernador se mostró junto a uno de los aspirantes a sucederlo desde el Movimiento Derecho al Futuro",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/PHZ7EL73ARDNDJRA7DCXL4KG3M.jpg?auth=885e6f721253e43d6201d98c767550d2870abb7890e84bbbf1d584135c190134&smart=true&width=898&height=599",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.273,
+        "x1": 0.484,
+        "y0": 0.0,
+        "y1": 0.302
+      }
+    },
+    {
       "id": "16afeb53ad",
       "seccion": "cordoba",
       "rel": 22.0,
@@ -186,23 +235,52 @@
       "rostros": null
     },
     {
-      "id": "140652b617",
+      "id": "42153c2500",
       "seccion": "economia",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-11-19T18:10:55-03:00",
-      "hora": "18:10",
-      "titulo": "El riesgo país trepó hasta los 930 puntos y el dólar alcanzó su valor más alto del año",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/el-dolar-volvio-a-subir-hasta-su-valor-mas-alto-del-ano-y-el-riesgo-pais-roza-los-900-puntos-nid19112026/",
-      "acceso": "suscripcion",
-      "resumen": "El tipo de cambio minorista anotó su segundo avance consecutivo y operó a $1585; el indicador elaborado por JP Morgan saltó más de 80 unidades, mientras que las acciones argentinas cayeron hasta 9% en Wall Street",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-19T18:13:30-03:00",
+      "hora": "18:13",
+      "titulo": "La brecha entre el dólar oficial y los financieros superó el 10%",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/la-brecha-entre-el-dolar-oficial-y-los-financieros-supero-el-10-_a6aff6562db21c1f8316a4b58",
+      "acceso": "abierto",
+      "resumen": "El contado con liquidación cerró por encima de los $1.700 y el riesgo país superó los 900 puntos básicos.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/AMUF444MNVE7LPMYI6VYKBBLZU.JPG?auth=24e6264f71709069acb4d4b1ddfbed4cd928cc2cbba6a0a503233941fd0e60b6&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6afb2eb854c2d89a3c552913/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [],
       "dia": 0,
-      "rostros": null
+      "rostros": {
+        "x0": 0.334,
+        "x1": 0.614,
+        "y0": 0.41,
+        "y1": 0.797
+      }
+    },
+    {
+      "id": "960718c519",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-19T18:10:47-03:00",
+      "hora": "18:10",
+      "titulo": "Aún sin las PASO, el calendario electoral habilitaría a la oposición a hacer internas partidarias",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/19/aun-sin-las-paso-el-calendario-electoral-habilitaria-a-la-oposicion-a-hacer-internas-partidarias/",
+      "acceso": "suscripcion",
+      "resumen": "Si el Gobierno logra su objetivo de cambiar las reglas para 2027, los partidos tendrían hasta agosto para inscribir alianzas y candidatos.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GU4TIYZTMRSTSOJVGNTDGNRYMM.jpg?auth=a9ee92681f2d72cbd3f1b347496ccf7d7c5267307d18dc143897fbc2daa0fb1e&smart=true&width=630&height=450",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.354,
+        "x1": 0.5,
+        "y0": 0.278,
+        "y1": 0.491
+      }
     },
     {
       "id": "982a9324bc",
@@ -460,8 +538,8 @@
     {
       "id": "cbfcb915d6",
       "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
+      "rel": 21.6,
+      "relevancia": 21.6,
       "fecha": "2026-11-19T16:24:31-03:00",
       "hora": "16:24",
       "titulo": "El Gobierno de Córdoba oficializó la designación de jueces de paz para el interior provincial",
@@ -480,25 +558,6 @@
         "y0": 0.15,
         "y1": 0.624
       }
-    },
-    {
-      "id": "22194fe8ea",
-      "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-19T15:48:01-03:00",
-      "hora": "15:48",
-      "titulo": "Córdoba volvió a conseguir 100 puntos en el ranking nacional de responsabilidad fiscal",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/hoy-cordoba/cordoba-volvio-a-conseguir-100-puntos-en-el-ranking-nacional-de-responsabilidad-fiscal/",
-      "acceso": "abierto",
-      "resumen": "Al igual que en marzo pasado, la provincia alcanzó el puntaje máximo en el Índice de Cumplimiento de la Ley de Responsabilidad Fiscal que elabora la Asociación Argentina de Presupuesto y Administración Financiera Pública (ASAP).",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2024/09/panal-centro-civico-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "82f99430ed",
@@ -523,6 +582,25 @@
         "y0": 0.594,
         "y1": 0.865
       }
+    },
+    {
+      "id": "22194fe8ea",
+      "seccion": "cordoba",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-11-19T15:48:01-03:00",
+      "hora": "15:48",
+      "titulo": "Córdoba volvió a conseguir 100 puntos en el ranking nacional de responsabilidad fiscal",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/hoy-cordoba/cordoba-volvio-a-conseguir-100-puntos-en-el-ranking-nacional-de-responsabilidad-fiscal/",
+      "acceso": "abierto",
+      "resumen": "Al igual que en marzo pasado, la provincia alcanzó el puntaje máximo en el Índice de Cumplimiento de la Ley de Responsabilidad Fiscal que elabora la Asociación Argentina de Presupuesto y Administración Financiera Pública (ASAP).",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2024/09/panal-centro-civico-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "b28cbb0fde",
@@ -785,8 +863,8 @@
     {
       "id": "e3e255206c",
       "seccion": "cordoba",
-      "rel": 20.6,
-      "relevancia": 20.6,
+      "rel": 20.5,
+      "relevancia": 20.5,
       "fecha": "2026-11-19T09:49:00-03:00",
       "hora": "09:49",
       "titulo": "Qué establece la reforma que busca cambiar las reglas de las próximas elecciones nacionales",
@@ -804,8 +882,8 @@
     {
       "id": "932fea930e",
       "seccion": "argentina",
-      "rel": 20.0,
-      "relevancia": 20.0,
+      "rel": 19.9,
+      "relevancia": 19.9,
       "fecha": "2026-11-19T18:15:00-03:00",
       "hora": "18:15",
       "titulo": "Javier Milei y sus medidas, en vivo: “Hoy discutimos si crecemos un punto más o menos”, dijo el Presidente",
@@ -823,73 +901,6 @@
         "x1": 0.591,
         "y0": 0.174,
         "y1": 0.446
-      }
-    },
-    {
-      "id": "620c8c260b",
-      "seccion": "cordoba",
-      "rel": 19.9,
-      "relevancia": 19.9,
-      "fecha": "2026-11-19T06:00:00-03:00",
-      "hora": "06:00",
-      "titulo": "Llaryora habilita mejora a estatales: sube base de 82% a pasivos, bono navideño y estudia margen para para aumento extra",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/llaryora-habilita-mejora-a-estatales-sube-base-de-82-a-pasivos-bono-navideno-y-estudia-margen-para-para-aumento-extra/",
-      "acceso": "abierto",
-      "resumen": "El Gobernador dio luz verde para ofrecer beneficios “homeopáticos” en el marco de la reapertura de las paritarias. Consciente de los límites fiscales, busca cerrar acuerdos al menos hasta mayo o junio, esto es después de los comicios en los que irá por la reelección. Apunta a lograr “paz social” para evitar conflictos en plena […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/10/Centro-Civico-coparticipacion-jpg.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "2f62189286",
-      "seccion": "economia",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-11-19T16:37:41-03:00",
-      "hora": "16:37",
-      "titulo": "Anthropic salió a la Bolsa: cómo se puede invertir desde la Argentina, paso a paso",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/anthropic-sale-a-la-bolsa-hoy-como-se-puede-invertir-desde-la-argentina-paso-a-paso-nid19112026/",
-      "acceso": "suscripcion",
-      "resumen": "La desarrolladora de Claude recaudó US$81.300 millones en su debut bursátil y superó el récord de SpaceX; desde hoy se puede operar desde el mercado local a través de Cedears",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/LD3ODWY7D5BVNKWAP32YPDFW2Q.png?auth=5fdd3e324d0cfa7df092253a1e2275b592fec254c1b08398261f43b95e273a20&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.367,
-        "x1": 0.971,
-        "y0": 0.163,
-        "y1": 0.453
-      }
-    },
-    {
-      "id": "195061d178",
-      "seccion": "economia",
-      "rel": 19.3,
-      "relevancia": 19.3,
-      "fecha": "2026-11-19T02:20:00-03:00",
-      "hora": "02:20",
-      "titulo": "Efecto riesgo país: por la suba del indicador, las empresas colocaron menos deuda en octubre",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/efecto-riesgo-pais-por-la-suba-del-indicador-las-empresas-colocaron-menos-deuda-en-octubre/",
-      "acceso": "abierto",
-      "resumen": "Por el marcado aumento del riesgo país argentino en octubre, la emisión de deuda de las empresas sufrió una contracción en cuanto al monto nominal y al volumen colocado. El riesgo país funciona como un indicador que mide el riesgo que representa un país para los inversores. Es decir, si el indicador se ubica en […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/09/riesgopais-1024x768-1.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.717,
-        "x1": 0.876,
-        "y0": 0.29,
-        "y1": 0.515
       }
     }
   ],
