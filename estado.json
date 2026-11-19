@@ -1,61 +1,59 @@
 {
-  "actualizado": "2026-11-18T19:58:16-03:00",
+  "actualizado": "2026-11-18T21:07:14-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
+        "sección no permitida": {
+          "cantidad": 96,
+          "ejemplos": [
+            "Colombia rechaza plan conjunto con Estados Unidos para combatir a los narcotrafi",
+            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 18 de noviembre: reabre Cir",
+            "Las Estrellas de Buena Vista llegan a Bogotá a celebrar 30 años de historia con "
+          ]
+        },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Suspensión de las PASO: el oficialismo admitió que faltan dos firmas para asegur"
-          ]
-        },
-        "sección no permitida": {
-          "cantidad": 97,
-          "ejemplos": [
-            "Alianza Lima 0-0 Deportivo Wanka EN VIVO HOY: punto a punto del partido por fech",
-            "Ricardo Monreal reconoce falta de acuerdos para renovar la presidencia del INE r",
-            "La final de la Copa Colombia moverá la tabla de la reclasificación de la Liga Be"
+            "El Gobierno debió ceder más de lo previsto, pero obtuvo el dictamen en el Senado"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 86,
-      "aceptadas": 7,
+      "leidas": 92,
+      "aceptadas": 8,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 69,
+          "cantidad": 74,
           "ejemplos": [
-            "“Limbo total”: en una carta abierta, la periodista Cristina Mucci reclama por la",
-            "Qué hace que las personas cambien con los años y cómo influyen las experiencias,",
-            "Olvidate del agua: un estudio descubrió cuál es la bebida más hidratante que seg"
+            "Turbulencias: por qué una ruta aérea argentina quedó primera en un ranking mundi",
+            "Descartes y la frase que resume su filosofía: “Pienso, luego existo”",
+            "Arthur C. Brooks, profesor de Harvard: “Si querés que tus hijos sean buenos, hon"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Revuelo en una provincia por una prohibición al uso de drones",
+            "Las alimenticias buscan crecer en el exterior",
+            "Quirno descartó tensiones con Chile por el buque que viajará a Malvinas"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "En medio de la crisis del consumo masivo, las alimenticias buscan crecer en el e",
             "Patricia Bullrich, antes del dictamen: “Es un hecho que se suspenden las PASO, ¡",
             "“Nefasta cláusula”: el presidente de Acopiadores fustigó prácticas de los molino"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
-          "ejemplos": [
-            "Quirno descartó tensiones con Chile por el buque que viajará a Malvinas",
-            "Invirtió US$20 millones: una empresa familiar inauguró una planta para procesar ",
-            "Reunión: CRA recibió a Iraeta, reclamó por un lugar en el INTA y apuntó sobre la"
-          ]
-        },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "“Mercado paralelo”: diputados y senadores apoyaron a los productores frente a un",
-            "Alineado con Trump, el Gobierno se abstuvo de votar en la ONU una resolución par"
+            "“Mercado paralelo”: diputados y senadores apoyaron a los productores frente a un"
           ]
         }
       }
@@ -97,7 +95,7 @@
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Lesbicidio de Barracas: condenaron a prisión perpetua al único acusado por el tr"
+            "Prisión perpetua para el acusado del triple lesbicidio en Barracas"
           ]
         }
       }
@@ -105,14 +103,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 13,
           "ejemplos": [
-            "UEPC negocia la ampliación de los cargos docentes a 28 horas semanales",
-            "Quirno habló del inminente fallo del Tribunal del Mar de la ONU por Malvinas",
-            "Los constitucionalistas rechazan el sistema de colectoras por su falta de transp"
+            "Hallaron un proyectil de mortero en un descampado de Villa María",
+            "SL Teatro, el nuevo espacio para las artes escénicas",
+            "Un Messi por día, del fútbol a las pinceladas de Sofía Wiñazki"
           ]
         }
       }
