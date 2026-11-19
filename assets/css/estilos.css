@@ -1291,3 +1291,6 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .slider .slide-txt { transition: opacity .2s linear; }
   .slider .slide { contain: layout paint style; will-change: auto; }
 }
+
+/* Aviso de notas nuevas en una sola línea: la cantidad y, al lado, "Ver las nuevas" */
+.aviso-nuevas { flex-wrap: nowrap; white-space: nowrap; }

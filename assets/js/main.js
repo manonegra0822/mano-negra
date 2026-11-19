@@ -487,15 +487,14 @@
     });
     var aviso = document.querySelector("[data-nuevas]");
     if (!aviso) return;
-    var hora = new Date(previa).toLocaleTimeString("es-AR", { timeZone: TZ, hour: "2-digit", minute: "2-digit", hour12: false });
     aviso.textContent = "";
     if (nuevas) {
-      aviso.appendChild(el("span", "etiqueta", "(" + String(nuevas).padStart(2, "0") + (nuevas === 1 ? " nota nueva" : " notas nuevas") + " desde tu última visita, a las " + hora + " h)"));
+      aviso.appendChild(el("span", "etiqueta", "(" + String(nuevas).padStart(2, "0") + (nuevas === 1 ? " nota nueva)" : " notas nuevas)")));
       var a = el("a", "aviso-link", "Ver las nuevas "); a.href = "#ultimas";
       var fl = el("span", "flecha", "↘"); fl.setAttribute("aria-hidden", "true"); a.appendChild(fl);
       aviso.appendChild(a);
     } else {
-      aviso.appendChild(el("span", "etiqueta", "(Sin notas nuevas desde tu última visita, a las " + hora + " h)"));
+      aviso.appendChild(el("span", "etiqueta", "(Sin notas nuevas)"));
     }
     aviso.hidden = false;
   }
