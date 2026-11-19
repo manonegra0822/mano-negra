@@ -1,54 +1,67 @@
 {
-  "actualizado": "2026-11-19T16:21:50-03:00",
+  "actualizado": "2026-11-19T18:24:27-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 94,
           "ejemplos": [
-            "VidantaWorld presenta a Soluma, el animatrónico exterior más grande del mundo, y",
-            "Dólar hoy en Bolivia: cotización de cierre del 19 de noviembre",
-            "Santi López: \"El partido contra Sevilla no es una final, pero sí un partido clav"
+            "Anthropic debuta en Wall Street con la mayor oferta pública inicial de la histor",
+            "Debate cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo, en directo | El c",
+            "Cómo crear itinerarios diarios de viaje, guardar lugares en Google Maps y usar A"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "El Senado comenzó a tratar la ley de discapacidad y se espera un extenso debate",
-            "Tomás Karagozian: “Necesitamos más dólares y más trabajo, no más dólares y más p"
+            "Las acciones de Anthropic empezaron a cotizar en Wall Street: subieron 17% despu",
+            "El Senado comenzó a tratar la ley de discapacidad y se espera un extenso debate"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Anthropic ya cotiza en Wall Street: cómo invertir en la acción del gigante de la",
-            "La misteriosa visita de Bill Gates a la Argentina: qué lugares visitó el magnate"
+            "“Changuito federal”: cuánto sale hacer la compra del supermercado en cada provin"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 10,
+      "leidas": 89,
+      "aceptadas": 8,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 77,
+          "cantidad": 67,
           "ejemplos": [
-            "Ivana, la hermana de Mauro Icardi, arremetió sin filtro contra Wanda Nara y fue ",
-            "Tomás Gill, ingeniero en alimentos: “El asado que sobra no va ni al horno, ni al",
-            "Cuál es el futuro del TPS para los venezolanos en EE.UU., según un abogado de in"
+            "Kompany vuelve a dirigir a Bayern Munich luego de haberse desplomado en un entre",
+            "“Shacá la bashura de 18 a 20”: la curiosa campaña de la Municipalidad de “Shan I",
+            "La conferencia de un polémico académico desata un escándalo en una de las univer"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 4,
+          "cantidad": 5,
           "ejemplos": [
-            "Qué inversiones le ganan a la inflación en lo que va de 2026",
-            "Costantini cuestionó la falta de inversión estatal en arte y propuso renovar el ",
-            "El Senado se encamina a sancionar una nueva ley de discapacidad pese a las resis"
+            "Villarruel volvió a distanciarse del Gobierno ante el cierre de una fábrica: “Si",
+            "Frenaron el peritaje de los videos de los dólares que grabó Jésica Cirio en el v",
+            "Sin déficit, pero con menos colchón: el Gobierno resignó $7,5 billones de superá"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Las exportaciones volvieron a batir un récord, pero las importaciones encienden "
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 8,
+          "ejemplos": [
+            "Tras una fuerte polémica, una provincia levantó una prohibición para aplicar fit",
+            "El Deutsche Bank detectó movimientos sospechosos del empresario De Achával vincu",
+            "Apuestas, estafas y consejos de la IA: los nuevos riesgos financieros que enfren"
           ]
         }
       }
@@ -96,8 +109,8 @@
         "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "Xi, Trump y Putin se comprometieron a reducir los riesgos nucleares",
-            "Identificaron al primer fallecido por la explosión en Remedios de Escalada: era "
+            "El genocidio infinito",
+            "Pleamar, un nuevo encuentro con la vanguardia cerca de las olas"
           ]
         }
       }
@@ -105,14 +118,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 12,
           "ejemplos": [
-            "Comenzó la reconstrucción: La era pos Messi tiene artistas para volver a enamora",
-            "Cine argentino: habrá 24 horas de películas y actividades gratuitas en todo el p",
-            "Caso Daniela Villalba: trasladaron a Iván Tabella desde Buenos Aires a Córdoba"
+            "La escena teatral indaga en la exaltación de lo común",
+            "Mundial Sub 17: Argentina falló en las áreas y cayó 2-0 ante Australia",
+            "Comenzó la reconstrucción: La era pos Messi tiene artistas para volver a enamora"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -126,22 +139,22 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 24,
+      "aceptadas": 27,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 30,
+          "cantidad": 31,
           "ejemplos": [
-            "El Ministerio de Justicia aprueba un plan de digitalización e interoperabilidad ",
-            "El Índice de Confianza del Consumidor cayó 1,27% en noviembre",
-            "El agro en alerta por El Niño: cómo se prepara para reducir el impacto en la pro"
+            "Femicidio de Daniela Villalba: imputaron a Iván Tabella y fue trasladado Bouwer",
+            "Pago Electrónico Comarb: unifican los canales de cobro y actualizan el pago en S",
+            "El Ministerio de Justicia aprueba un plan de digitalización e interoperabilidad "
           ]
         },
         "muy vieja": {
-          "cantidad": 26,
+          "cantidad": 22,
           "ejemplos": [
-            "Garantía de depósitos: el BCRA fijó las nuevas tasas de referencia en pesos, dól",
-            "Asistencia por daños climáticos: declaran zona de desastre a General Roca en Mar",
-            "Comercio exterior: el Senasa moderniza el sistema de supervisión de fumigaciones"
+            "El mes pasado subió la confianza del consumidor",
+            "Los precios mayoristas subieron un 1,6% en octubre",
+            "Garantía de depósitos: el BCRA fijó las nuevas tasas de referencia en pesos, dól"
           ]
         }
       }
@@ -149,14 +162,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 14,
           "ejemplos": [
-            "La Selección Argentina cayó en el debut del Mundial Sub-17 de Qatar 2026",
-            "Cuenta regresiva para la Fiesta Nacional de la Pelota de Fútbol en Bell Ville",
-            "Crimen en La Cumbre: el hombre hallado calcinado había sido denunciado por abuso"
+            "Eugenia Almeida presenta Un dios sacude la casa: La ficción sigue siendo liberad",
+            "La Campagnola cierra su planta en Mar del Plata y es incierto el futuro de 80 tr",
+            "Show de la Reserva de Talleres: cuatro goles de Chiavassa y goleada ante Racing"
           ]
         }
       }
