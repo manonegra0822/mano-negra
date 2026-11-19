@@ -887,7 +887,7 @@
     });
   }
 
-  /* ---- "Hoy en 60 segundos": resumen tipo historias para el celular ---- */
+  /* ---- "Hoy en 60 segundos": resumen tipo historias (desactivado: no se muestra) ---- */
   function iniciarResumen() {
     if (typeof document.createElement("dialog").showModal !== "function" || !Object.keys(NOTAS).length) return;
     var POR_NOTA = 12000, reducido = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -1103,7 +1103,6 @@
     seguro(iniciarBuscador, "buscador");
     seguro(iniciarFiltro, "filtro");
     seguro(iniciarSlider, "slider");
-    seguro(iniciarResumen, "resumen");
     seguro(iniciarProfundidad, "profundidad");
     seguro(iniciarMazos, "mazos");
     seguro(iniciarProxima, "próxima");
