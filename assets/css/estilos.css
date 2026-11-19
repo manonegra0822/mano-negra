@@ -1308,3 +1308,9 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
   .cab-nombre { font-size: 8.6vw; }
   .cab-mano { --mano-alto: calc(8.6vw * 2); }
 }
+
+/* Celular y tablet: sin la fecha debajo del nombre (la cabecera queda solo con la mano 3D y "Mano Negra") */
+@media (max-width: 959.98px) {
+  .cab-pie { display: none; }
+  .cabecera .envoltura { padding-block: 12px; }
+}
