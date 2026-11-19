@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T21:07:14-03:00",
+  "actualizado": "2026-11-18T21:17:13-03:00",
   "notas": [
     {
       "id": "3bb0412ce1",
@@ -40,6 +40,36 @@
         "y0": 0.225,
         "y1": 0.485
       }
+    },
+    {
+      "id": "b28cbb0fde",
+      "seccion": "cordoba",
+      "rel": 46.0,
+      "relevancia": 46.0,
+      "fecha": "2026-11-18T20:01:49-03:00",
+      "hora": "20:01",
+      "titulo": "Milei negó que exista una pelea interna con Bullrich y ratificó su plan económico",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/milei-nego-que-exista-una-interna-con-bullrich-y-ratifico-su-plan-economico/",
+      "acceso": "abierto",
+      "resumen": "Si bien admitió que “hay gente que experimenta privaciones”, insistió con la idea de que “hay 12 millones de pobres menos”",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/TE4O4O5HEJGEFCINNYCFDFSWYY.jpg?auth=7f9672c464aefd93c22bc5e88836316bdd66db34c300bb88259f5fd9c8cd6bc1&smart=true&width=1177&height=734",
+      "imagen_credito": "Página/12",
+      "otros": [
+        {
+          "fuente": "Página/12",
+          "titulo": "Milei negó la interna con Bullrich y reconoció que hay gente que “experimenta privaciones”",
+          "url": "https://www.pagina12.com.ar/2026/11/19/milei-nego-la-interna-con-bullrich-y-reconocio-que-hay-gente-que-experimenta-privaciones/"
+        },
+        {
+          "fuente": "La Nación",
+          "titulo": "Milei negó las versiones de una interna con Patricia Bullrich: “Cómo voy a echarla si es mi socia política”",
+          "url": "https://www.lanacion.com.ar/politica/milei-hablo-de-las-versiones-de-una-interna-con-bullrich-echarla-es-el-deseo-del-circulo-rojo-nid18112026/"
+        }
+      ],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "5727c1a19d",
@@ -94,8 +124,8 @@
     {
       "id": "34b50b73f8",
       "seccion": "argentina",
-      "rel": 22.0,
-      "relevancia": 22.0,
+      "rel": 21.9,
+      "relevancia": 21.9,
       "fecha": "2026-11-18T20:57:24-03:00",
       "hora": "20:57",
       "titulo": "Derrota del Gobierno en Diputados: sin quórum para soberanía y reforma del BCRA",
@@ -154,58 +184,34 @@
       "impacto": null,
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Argentina-tiene-los-impuestos-mas-altos-del-mundo-sobre-los-prestamos-personales-optimized.jpeg",
       "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "f94dc59150",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-18T20:18:14-03:00",
+      "hora": "20:18",
+      "titulo": "Javier Milei admitió que hay gente que no llega a fin de mes y descartó una pelea con Bullrich",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/javier-milei-admitio-que-hay-gente-que-no-llega-a-fin-de-mes-y-descarto-una-pelea-con-bullrich_a6afe2f482935c8aa80d0f7a4",
+      "acceso": "abierto",
+      "resumen": "El mandatario nacional brindó una entrevista este miércoles en la que defendió su plan económico y aseguró que la senadora seguirá siendo la jefa del bloque de La Libertad Avanza.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6afe2f572935c8aa80d0f8bf/720.jpeg",
+      "imagen_credito": "Cba24n",
       "otros": [
         {
-          "fuente": "La Nación",
-          "titulo": "Los préstamos personales en la Argentina tienen la carga impositiva más alta del mundo",
-          "url": "https://www.lanacion.com.ar/economia/informe-privado-los-prestamos-personales-en-la-argentina-tienen-la-carga-impositiva-mas-alta-del-nid18112026/"
+          "fuente": "Infobae",
+          "titulo": "Milei negó una interna con Bullrich y habló de la economía: “Está claro que hay gente que no llega a fin de mes”",
+          "url": "https://www.infobae.com/politica/2026/11/18/milei-nego-una-interna-con-bullrich-y-hablo-de-la-economia-esta-claro-que-hay-gente-que-no-llega-a-fin-de-mes/"
         }
       ],
       "dia": 0,
       "rostros": null
-    },
-    {
-      "id": "155f59b1db",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-18T20:17:13-03:00",
-      "hora": "20:17",
-      "titulo": "Milei negó las versiones de una interna con Patricia Bullrich: “Cómo voy a echarla si es mi socia política”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/milei-hablo-de-las-versiones-de-una-interna-con-bullrich-echarla-es-el-deseo-del-circulo-rojo-nid18112026/",
-      "acceso": "suscripcion",
-      "resumen": "El Presidente dijo que ese es “el deseo del círculo rojo”; atribuyó la suba de inflación a un “shock externo negativo” y admitió que la sociedad “experimenta privaciones”",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/KUKVRQN5FRCX7OTHMRYQHUGGSI.jpg?auth=c13580e7aa794a9640a986ff1bdf2bc26c053bceff5c411a74e38ab586790b7b&smart=true&width=2000&height=1334",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "6a93319e2a",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-18T19:36:15-03:00",
-      "hora": "19:36",
-      "titulo": "Milei negó una interna con Bullrich y habló de la economía: “Está claro que hay gente que no llega a fin de mes”",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/18/milei-nego-una-interna-con-bullrich-y-hablo-de-la-economia-esta-claro-que-hay-gente-que-no-llega-a-fin-de-mes/",
-      "acceso": "abierto",
-      "resumen": "El Presidente dijo que la senadora es su “socia política” y que no será removida como jefa de bloque. Además, defendió su frase sobre quienes “no pueden vivir 10 días sin comer ni beber”, pero reconoció que la ciudadanía “experimenta privaciones”",
-      "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/VHFF42FCHFHCDI3TCCMVL6RZDQ.png?auth=23de0d16dee9f9e58dc835b1269932518d39a7d335cc96632cda82ae20ef58e6&smart=true&width=1920&height=1080",
-      "imagen_credito": "Infobae",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.374,
-        "x1": 0.613,
-        "y0": 0.235,
-        "y1": 0.638
-      }
     },
     {
       "id": "34655a8239",
@@ -337,49 +343,6 @@
       "rostros": null
     },
     {
-      "id": "b28cbb0fde",
-      "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-18T20:01:49-03:00",
-      "hora": "20:01",
-      "titulo": "Milei negó que exista una pelea interna con Bullrich y ratificó su plan económico",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-nego-que-exista-una-interna-con-bullrich-y-ratifico-su-plan-economico/",
-      "acceso": "abierto",
-      "resumen": "Si bien admitió que “hay gente que experimenta privaciones”, insistió con la idea de que “hay 12 millones de pobres menos”",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-nego-que-exista-una-interna-con-Bullrich-y-ratifico-su-plan-economico-optimized.png",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.374,
-        "x1": 0.614,
-        "y0": 0.233,
-        "y1": 0.638
-      }
-    },
-    {
-      "id": "06acd63870",
-      "seccion": "cordoba",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-18T19:38:01-03:00",
-      "hora": "19:38",
-      "titulo": "El tráfico aéreo alcanzó un récord en octubre y Córdoba sumó más vuelos internacionales",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/trafico-aereo-record-octubre/",
-      "acceso": "abierto",
-      "resumen": "Más de 4,3 millones de pasajeros utilizaron los aeropuertos argentinos. La terminal cordobesa registró una suba interanual del 8% en vuelos internacionales.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-trafico-aereo-marco-un-record-en-octubre-y-Cordoba-crecio-8-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
       "id": "919dc2b504",
       "seccion": "economia",
       "rel": 21.8,
@@ -459,6 +422,25 @@
         "y0": 0.554,
         "y1": 0.927
       }
+    },
+    {
+      "id": "06acd63870",
+      "seccion": "cordoba",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-11-18T19:38:01-03:00",
+      "hora": "19:38",
+      "titulo": "El tráfico aéreo alcanzó un récord en octubre y Córdoba sumó más vuelos internacionales",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/trafico-aereo-record-octubre/",
+      "acceso": "abierto",
+      "resumen": "Más de 4,3 millones de pasajeros utilizaron los aeropuertos argentinos. La terminal cordobesa registró una suba interanual del 8% en vuelos internacionales.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-trafico-aereo-marco-un-record-en-octubre-y-Cordoba-crecio-8-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "c35b3288b5",
@@ -882,28 +864,42 @@
       }
     },
     {
-      "id": "cc6cd6acf3",
+      "id": "d1565c15e3",
       "seccion": "cordoba",
-      "rel": 21.4,
-      "relevancia": 21.4,
-      "fecha": "2026-11-17T21:13:19-03:00",
-      "hora": "21:13",
-      "titulo": "Día de la Militancia: en Córdoba se realizó un acto con fuerte respaldo a Axel Kicillof",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-11-18T17:04:01-03:00",
+      "hora": "17:04",
+      "titulo": "No hubo quórum y se cayó la sesión de este miércoles en la Cámara de Diputados",
       "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/cordoba/dia-de-la-militancia--en-cordoba-se-realizo-un-acto-con-fuerte-respaldo-a-axel-kicillof_a6afce8b773529e80963b2d36",
+      "url": "https://www.cba24n.com.ar/argentina/no-hubo-quorum-y-se-cayo-la-sesion-de-este-miercoles-en-la-camara-de-diputados_a6afdfd812935c8aa80cef795",
       "acceso": "abierto",
-      "resumen": "Se llevó a cabo en la sede del Sindicato de Luz y Fuerza y contó con la presencia de figuras como Carlos Caserio, Hilda Bustos y Federico Corteletti.",
+      "resumen": "El objetivo del oficialismo era que se trataran la ley de Defensa de la Soberanía Nacional y el proyecto que reforma la Carta Orgánica del BCRA.",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6afce8ee73529e80963b2f59/720.jpeg",
+      "imagen": "https://srt-assets.tadevel-cdn.com/6afdfde52935c8aa80cefc9c/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.643,
-        "x1": 0.789,
-        "y0": 0.694,
-        "y1": 0.918
-      }
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "cc895c98bc",
+      "seccion": "cordoba",
+      "rel": 21.3,
+      "relevancia": 21.3,
+      "fecha": "2026-11-18T16:48:12-03:00",
+      "hora": "16:48",
+      "titulo": "Córdoba impulsa el desarrollo industrial con un nuevo régimen de incentivos",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/cordoba-impulsa-el-desarrollo-industrial-con-un-nuevo-regimen-de-incentivos/",
+      "acceso": "abierto",
+      "resumen": "La ley 11160 que crea el “Régimen de Incentivo a las Inversiones, la Innovación y el Empleo” otorga exenciones impositivas en los impuestos de Ingresos Brutos, Sellos e Inmobiliario hasta 10 o 15 años, según localización o radicación en parques industriales. También ofrece estímulos a la capacitación para nuevos trabajadores contratados y beneficios diferenciales según […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/innovacion.webp",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     }
   ],
   "opinion": []

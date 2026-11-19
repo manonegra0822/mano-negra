@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T21:07:14-03:00",
+  "actualizado": "2026-11-18T21:17:13-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,9 +9,9 @@
         "sección no permitida": {
           "cantidad": 96,
           "ejemplos": [
-            "Colombia rechaza plan conjunto con Estados Unidos para combatir a los narcotrafi",
-            "EN VIVO | Bloqueos, accidentes y manifestaciones hoy 18 de noviembre: reabre Cir",
-            "Las Estrellas de Buena Vista llegan a Bogotá a celebrar 30 años de historia con "
+            "Colombia recaudó USD 43.205 millones de inversiones en el Milagro Week: José Man",
+            "PAN demanda a la Cámara de Diputados por frenar la convocatoria para elegir a la",
+            "Detienen en Coyoacán a “El Tavo”, objetivo prioritario vinculado con la quema de"
           ]
         },
         "sin ancla argentina": {
@@ -28,11 +28,11 @@
       "aceptadas": 8,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 74,
+          "cantidad": 75,
           "ejemplos": [
-            "Turbulencias: por qué una ruta aérea argentina quedó primera en un ranking mundi",
-            "Descartes y la frase que resume su filosofía: “Pienso, luego existo”",
-            "Arthur C. Brooks, profesor de Harvard: “Si querés que tus hijos sean buenos, hon"
+            "Récord en Buenos Aires para una artista argentina: 345.000 dólares",
+            "Nuevo top ten de las obras de arte vendidas en subastas más caras de la historia",
+            "Turbulencias: por qué una ruta aérea argentina quedó primera en un ranking mundi"
           ]
         },
         "titular sin tema de política/economía": {
@@ -44,10 +44,9 @@
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Patricia Bullrich, antes del dictamen: “Es un hecho que se suspenden las PASO, ¡",
-            "“Nefasta cláusula”: el presidente de Acopiadores fustigó prácticas de los molino"
+            "Patricia Bullrich, antes del dictamen: “Es un hecho que se suspenden las PASO, ¡"
           ]
         },
         "otro país": {
@@ -90,11 +89,12 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Repudio absoluto a la abstención argentina en la ONU",
             "Prisión perpetua para el acusado del triple lesbicidio en Barracas"
           ]
         }
@@ -153,10 +153,10 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
             "Epec informó una serie de cortes de luz para este jueves en Córdoba",
             "Nueva Córdoba: corte total en San Lorenzo entre Obispo Salguero y Chacabuco",
