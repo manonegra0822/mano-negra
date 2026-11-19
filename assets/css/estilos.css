@@ -1294,3 +1294,23 @@ html:has(.riel-abierto) .resumen-btn { display: none; }
 
 /* Aviso de notas nuevas en una sola línea: la cantidad y, al lado, "Ver las nuevas" */
 .aviso-nuevas { flex-wrap: nowrap; white-space: nowrap; }
+
+/* Mano 3D al lado del nombre (cabecera). Mientras carga, o si no hay 3D, se ve la imagen fija.
+   --mano-alto regula el tamaño de la mano. */
+.cab-marca { display: flex; align-items: center; justify-content: center; gap: .6vw; }
+.cab-mano { --mano-alto: calc(clamp(2.3rem, 5.75vw, 5.52rem) * 1.9); flex: none; display: block; height: var(--mano-alto); width: calc(var(--mano-alto) * .66);
+  background: url("../3d/mano-fija.webp") center / contain no-repeat; }
+.cab-mano.en-3d { background: none; }
+.cab-mano canvas { display: block; width: 100%; height: 100%; }
+@media (min-width: 640px) and (max-width: 959.98px) { .cab-mano { --mano-alto: calc(8vw * 1.9); } }
+@media (max-width: 639.98px) {
+  .cab-marca { gap: 1.5vw; }
+  .cab-nombre { font-size: 8.6vw; }
+  .cab-mano { --mano-alto: calc(8.6vw * 2); }
+}
+
+/* Celular y tablet: sin la fecha debajo del nombre (la cabecera queda solo con la mano 3D y "Mano Negra") */
+@media (max-width: 959.98px) {
+  .cab-pie { display: none; }
+  .cabecera .envoltura { padding-block: 12px; }
+}
