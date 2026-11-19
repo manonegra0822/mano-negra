@@ -1,75 +1,50 @@
 {
-  "actualizado": "2026-11-18T21:17:13-03:00",
+  "actualizado": "2026-11-19T00:58:52-03:00",
   "notas": [
     {
-      "id": "3bb0412ce1",
-      "seccion": "argentina",
+      "id": "88034ebe4e",
+      "seccion": "cordoba",
       "rel": 57.8,
       "relevancia": 57.8,
-      "fecha": "2026-11-18T20:08:27-03:00",
-      "hora": "20:08",
-      "titulo": "Suspensión de las PASO: tras arduas negociaciones, el oficialismo logró dictamen y avanza el proyecto",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/politica/2026/11/18/congreso-en-vivo-el-debate-sobre-la-suspension-de-las-paso-en-la-comision-de-asuntos-constitucionales/",
+      "fecha": "2026-11-19T00:15:28-03:00",
+      "hora": "00:15",
+      "titulo": "El oficialismo logró eliminar el sistema de colectoras y avanza con la suspensión de las PASO",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/el-oficialismo-logro-eliminar-el-sistema-de-colectoras-y-avanza-con-la-suspension-de-las-paso/",
       "acceso": "abierto",
-      "resumen": "La Libertad Avanza consiguió finalmente las firmas en la Comisión de Asuntos Constitucionales para llevar al recinto el proyecto que suspenderá las elecciones primarias en 2027. La sesión sería la próxima semana",
+      "resumen": "Tras largas horas de tensión y acalorados debates, el oficialismo libertario logró sellar a aliados y dictaminó la reforma política que el Gobierno quiere, por sobre todas las cosas, para suspender las PASO 2027. Al final, no habrá colectoras y, como suele ocurrir con la actual administración, la iniciativa original llega al recinto y, aún, […]",
       "impacto": null,
-      "imagen": "https://www.infobae.com/resizer/v2/P2ML4ODNIJC6JDXCLWOZ6O66VE.jpg?auth=30cbee4f53ad7f68c10f276cfab023c80103333f4e0f0c36668f6ef0b7af2563&smart=true&width=1920&height=1280",
-      "imagen_credito": "Infobae",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/PHPHHB5EYJHOJACCLBLEVIWQ6E.jpg?auth=16e083c651cd6be18b24e5b637c44c23135781d4b04ef882aa17c0bf74db4b25&smart=true&width=2560&height=1707",
+      "imagen_credito": "Página/12",
       "otros": [
         {
-          "fuente": "Cba24n",
-          "titulo": "Suspensión de las PASO: el Gobierno eliminó las colectoras y logró firmar dictamen",
-          "url": "https://www.cba24n.com.ar/cordoba/suspension-de-las-paso--el-gobierno-elimino-las-colectoras-y-logro-firmar-dictamen_a6afded2d2935c8aa80ce6bd4"
-        },
-        {
-          "fuente": "La Nación",
-          "titulo": "El Gobierno consiguió el dictamen para suspender las PASO tras la eliminación de las listas colectoras",
-          "url": "https://www.lanacion.com.ar/politica/el-gobierno-retiro-las-listas-colectoras-para-asegurarse-el-apoyo-para-suspender-las-paso-nid18112026/"
+          "fuente": "Página/12",
+          "titulo": "Una reforma electoral que al gobierno le costó unas colectoras",
+          "url": "https://www.pagina12.com.ar/2026/11/19/una-reforma-electoral-que-al-gobierno-le-costo-unas-colectoras/"
         },
         {
           "fuente": "Hoy Día Córdoba",
           "titulo": "El Gobierno logró avanzar con la suspensión de las Paso tras resignar las listas colectoras",
           "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-logro-avanzar-con-la-suspension-de-las-paso-tras-resignar-las-colectoras/"
+        },
+        {
+          "fuente": "Infobae",
+          "titulo": "Suspensión de las PASO: tras arduas negociaciones, el oficialismo logró dictamen y avanza el proyecto",
+          "url": "https://www.infobae.com/politica/2026/11/18/congreso-en-vivo-el-debate-sobre-la-suspension-de-las-paso-en-la-comision-de-asuntos-constitucionales/"
+        },
+        {
+          "fuente": "Cba24n",
+          "titulo": "Suspensión de las PASO: el Gobierno eliminó las colectoras y logró firmar dictamen",
+          "url": "https://www.cba24n.com.ar/cordoba/suspension-de-las-paso--el-gobierno-elimino-las-colectoras-y-logro-firmar-dictamen_a6afded2d2935c8aa80ce6bd4"
         }
       ],
       "dia": 0,
       "rostros": {
-        "x0": 0.383,
-        "x1": 1.0,
-        "y0": 0.225,
-        "y1": 0.485
+        "x0": 0.316,
+        "x1": 0.48,
+        "y0": 0.146,
+        "y1": 0.393
       }
-    },
-    {
-      "id": "b28cbb0fde",
-      "seccion": "cordoba",
-      "rel": 46.0,
-      "relevancia": 46.0,
-      "fecha": "2026-11-18T20:01:49-03:00",
-      "hora": "20:01",
-      "titulo": "Milei negó que exista una pelea interna con Bullrich y ratificó su plan económico",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/milei-nego-que-exista-una-interna-con-bullrich-y-ratifico-su-plan-economico/",
-      "acceso": "abierto",
-      "resumen": "Si bien admitió que “hay gente que experimenta privaciones”, insistió con la idea de que “hay 12 millones de pobres menos”",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/TE4O4O5HEJGEFCINNYCFDFSWYY.jpg?auth=7f9672c464aefd93c22bc5e88836316bdd66db34c300bb88259f5fd9c8cd6bc1&smart=true&width=1177&height=734",
-      "imagen_credito": "Página/12",
-      "otros": [
-        {
-          "fuente": "Página/12",
-          "titulo": "Milei negó la interna con Bullrich y reconoció que hay gente que “experimenta privaciones”",
-          "url": "https://www.pagina12.com.ar/2026/11/19/milei-nego-la-interna-con-bullrich-y-reconocio-que-hay-gente-que-experimenta-privaciones/"
-        },
-        {
-          "fuente": "La Nación",
-          "titulo": "Milei negó las versiones de una interna con Patricia Bullrich: “Cómo voy a echarla si es mi socia política”",
-          "url": "https://www.lanacion.com.ar/politica/milei-hablo-de-las-versiones-de-una-interna-con-bullrich-echarla-es-el-deseo-del-circulo-rojo-nid18112026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "5727c1a19d",
@@ -93,16 +68,16 @@
           "url": "https://www.pagina12.com.ar/2026/11/18/el-gobierno-se-quedo-sin-quorum-en-diputados-y-fracaso-la-sesion/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
       "id": "6dcb15df73",
       "seccion": "cordoba",
-      "rel": 33.8,
-      "relevancia": 33.8,
-      "fecha": "2026-11-18T20:08:07-03:00",
-      "hora": "20:08",
+      "rel": 33.5,
+      "relevancia": 33.5,
+      "fecha": "2026-11-18T21:48:07-03:00",
+      "hora": "21:48",
       "titulo": "Rechazo en la Legislatura: el oficialismo postergó el tratamiento de la «Ley Fede»",
       "fuente": "Hoy Día Córdoba",
       "url": "https://hoydia.com.ar/politica/cordoba/rechazo-en-la-legislatura-el-oficialismo-postergo-el-tratamiento-de-la-ley-fede/",
@@ -118,7 +93,7 @@
           "url": "https://www.cba24n.com.ar/cordoba/unicameral--el-oficialismo-postergo-el-tratamiento-de-la-ley-fede_a6afe21322935c8aa80d07106"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -137,7 +112,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/273HE4JB4JDEDJZ2PAYMYTSGZQ.jpg?auth=3f6508f05391205616f1c0fbbab85bd1260d6641195c59214cc4a6ed670c1c01&smart=true&width=2560&height=1707",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.184,
         "x1": 0.33,
@@ -161,57 +136,13 @@
       "imagen": "https://www.infobae.com/resizer/v2/MYY5NJYWA5ERLMUOFPZXAOZ6AQ.jpg?auth=47a6eceb6421240c7a78499a66db00c9e030de0355cc2a97bf9e2fa97a9354de&smart=true&width=1920&height=1280",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.12,
         "x1": 0.391,
         "y0": 0.288,
         "y1": 0.695
       }
-    },
-    {
-      "id": "8cca487f60",
-      "seccion": "economia",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-18T20:23:23-03:00",
-      "hora": "20:23",
-      "titulo": "Argentina tiene los impuestos más altos del mundo sobre los préstamos personales",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/argentina-ranking-prestamos-personales/",
-      "acceso": "abierto",
-      "resumen": "Un informe de BDO para la ONG Lógica relevó 30 países y calculó que los tributos encarecen un 39% el costo financiero de los préstamos. El país es el único que aplica cuatro gravámenes simultáneos.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Argentina-tiene-los-impuestos-mas-altos-del-mundo-sobre-los-prestamos-personales-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "f94dc59150",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-18T20:18:14-03:00",
-      "hora": "20:18",
-      "titulo": "Javier Milei admitió que hay gente que no llega a fin de mes y descartó una pelea con Bullrich",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/javier-milei-admitio-que-hay-gente-que-no-llega-a-fin-de-mes-y-descarto-una-pelea-con-bullrich_a6afe2f482935c8aa80d0f7a4",
-      "acceso": "abierto",
-      "resumen": "El mandatario nacional brindó una entrevista este miércoles en la que defendió su plan económico y aseguró que la senadora seguirá siendo la jefa del bloque de La Libertad Avanza.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6afe2f572935c8aa80d0f8bf/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Infobae",
-          "titulo": "Milei negó una interna con Bullrich y habló de la economía: “Está claro que hay gente que no llega a fin de mes”",
-          "url": "https://www.infobae.com/politica/2026/11/18/milei-nego-una-interna-con-bullrich-y-hablo-de-la-economia-esta-claro-que-hay-gente-que-no-llega-a-fin-de-mes/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "34655a8239",
@@ -229,7 +160,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/LVZRLNNW5BHADGZCAIRY2IQYTM.jpg?auth=ecd02e9d406d5c679c295ddb7d97f45ef103d1bdd93c6756cd86af9e8d956d5d&smart=true&width=1920&height=1080",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -248,7 +179,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/UWDIV7PTWBCZ5JCGMBGPJNXH5U.jpg?auth=a53d0fb15d40a2857b5d853b957d241750044eedf046d268348a73e8ad13f1c2&smart=true&width=1600&height=1200",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.624,
         "x1": 0.949,
@@ -272,7 +203,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/I3JIB43XN5CIVLRINEUBUP5CME.jpg?auth=2006768b539ca6429c56694801601e7f006c3776fc92b53458f9baa8296b3555&smart=true&width=1280&height=854",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.0,
         "x1": 1.0,
@@ -296,7 +227,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/G5WR5OBLS5DG7DCZ2ULAXRSONU.JPG?auth=2003589bf34e100fa35749c74f58b049345d01272f8109283dbd59f58660e9d4&smart=true&width=4000&height=2668",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.441,
         "x1": 0.607,
@@ -305,23 +236,47 @@
       }
     },
     {
-      "id": "ed037a8c5c",
+      "id": "be93bef8c9",
       "seccion": "argentina",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-11-18T20:11:47-03:00",
-      "hora": "20:11",
-      "titulo": "Reforma electoral: el debate presidencial dejará de ser obligatorio en las elecciones generales si avanza el proyecto de Milei",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/reforma-electoral-el-debate-presidencial-dejara-de-ser-obligatorio-en-las-elecciones-generales-si-nid18112026/",
+      "fecha": "2026-11-19T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Reforma electoral: Cuando el poder del dinero vale más que el voto",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/19/reforma-electoral-cuando-el-poder-del-dinero-vale-mas-que-el-voto/",
       "acceso": "suscripcion",
-      "resumen": "La ley actual impone dos discusiones públicas entre los candidatos previas a la elección general y una antes de un balotaje; la iniciativa del oficialismo dice que la Cámara Electoral “podrá” organizar debates para la segunda vuelta",
+      "resumen": "La nueva ley le pone fin a la jornada de reflexión, menos espacios cedidos y campaña paga en redes: las nuevas reglas favorecen a quien tiene más fondos. La suspensión de las PASO apunta a complicar la interna peronista.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/IQMATZKLIVHMZIGUCMOMR34DV4.JPG?auth=70675461e19424a8c50475beefea373d1df6798b8175ce77ab86dc4db2c0151c&smart=true&width=2500&height=1667",
-      "imagen_credito": "La Nación",
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/QUCHI3Q6UVGWFGIZ4DLLTNRS4Y.jpg?auth=ede59da1d423ecb7b319b5587448270b39eb4f1a394be104795eaf93a5823714&smart=true&width=6000&height=4000",
+      "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "86a5fdb6fe",
+      "seccion": "argentina",
+      "rel": 21.8,
+      "relevancia": 21.8,
+      "fecha": "2026-11-19T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Detrás de la foto: la jugada de Sergio Massa, el aval de Cristina Kirchner y un desafío para Axel Kicillof",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/19/detras-de-la-foto-la-jugada-de-sergio-massa-el-aval-de-cristina-kirchner-y-un-desafio-para-axel-kicillof/",
+      "acceso": "suscripcion",
+      "resumen": "El encuentro comenzó a perfilar una corriente interna que competiría con el gobernador. El tigrense busca construir una alianza federal que trascienda al peronismo. La posible suspensión de las PASO tensa la interna.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GJJKZYCN2ZCVDIKYFG6AUJTZIE.jpg?auth=5c9494f08c42ffd58749852de1d68f798830500e4556b10adf4ecd36e7bded18&smart=true&width=1280&height=856",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.42,
+        "x1": 0.876,
+        "y0": 0.453,
+        "y1": 0.846
+      }
     },
     {
       "id": "1607b41744",
@@ -339,7 +294,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/VPW7NA7EWVEBBO2IKZIEABEFZQ.jpg?auth=152531edbdcf69686cdd03c37da39e5d6ca68de257eafdfad663709ff535d00b&smart=true&width=1920&height=1279",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -358,7 +313,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/ZPUL7DSEZJCDTB7UCXL5SPEGWM.JPG?auth=2056fdbe96152e87a05abc6a753e357e3f6c5a049c8511dbbc15843554b42495&smart=true&width=5615&height=3743",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -377,113 +332,8 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/3PXUYV36CBDEBAMBTIGHJBKV34.JPG?auth=57e0fc2050d9be7bc1ce576f2f5e28754f39a314235afac325d910cf55e9fb39&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "a0e0a68b6c",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-18T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "El peronismo se organiza y crece la competencia interna",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/18/el-peronismo-se-organiza-y-crece-la-competencia-interna/",
-      "acceso": "suscripcion",
-      "resumen": "El acto selló una alianza entre el Frente Renovador y el Peronismo Federal. Participaron referentes del kirchnerismo y figuras nacionales como Uñac y Zamora. Kicillof no fue invitado.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/73MJMJWVZRHJBPON7PJUSK32M4.jpeg?auth=b80b54f704d4646d8abf6acb9b69edc566dc7168093ebca1b126ef57e6f0c5ef&smart=true&width=1379&height=1018",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "ed67574dc8",
-      "seccion": "argentina",
-      "rel": 21.8,
-      "relevancia": 21.8,
-      "fecha": "2026-11-18T00:01:00-03:00",
-      "hora": "00:01",
-      "titulo": "Un presupuesto en clave electoral",
-      "fuente": "Página/12",
-      "url": "https://www.pagina12.com.ar/2026/11/18/un-presupuesto-en-clave-electoral-2/",
-      "acceso": "suscripcion",
-      "resumen": "Mirando las elecciones del próximo año, el bloque libertario suprimió los artículos que derogaban beneficios en discapacidad. Repusieron la actualización automática de la AUH y las asignaciones familiares. El peronismo presentó su propio proyecto.",
-      "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/NRKZIIMJ7REELI62WY2RVBCGE4.jpg?auth=4b1255ae31e03792e1d0bc5b3033652e120c3344d17b5fcd8f1e334998ee1eef&smart=true&width=1440&height=960",
-      "imagen_credito": "Página/12",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.361,
-        "x1": 0.61,
-        "y0": 0.554,
-        "y1": 0.927
-      }
-    },
-    {
-      "id": "06acd63870",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-18T19:38:01-03:00",
-      "hora": "19:38",
-      "titulo": "El tráfico aéreo alcanzó un récord en octubre y Córdoba sumó más vuelos internacionales",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/trafico-aereo-record-octubre/",
-      "acceso": "abierto",
-      "resumen": "Más de 4,3 millones de pasajeros utilizaron los aeropuertos argentinos. La terminal cordobesa registró una suba interanual del 8% en vuelos internacionales.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-trafico-aereo-marco-un-record-en-octubre-y-Cordoba-crecio-8-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "c35b3288b5",
-      "seccion": "cordoba",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-18T19:33:53-03:00",
-      "hora": "19:33",
-      "titulo": "Oficializan por decreto la designación de Jueces de Paz",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/oficializan-por-decreto-la-designacion-de-jueces-de-paz/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno de la Provincia de Córdoba nombró a Carina Paola Chaillol en la sede Vicuña Mackenna y a Nicolás José Morsila en Villa Nueva Decreto N° 109 Córdoba, 16 de noviembre de 2026 VISTO: El acuerdo solicitado a la Legislatura de la Provincia de Córdoba, para designar a la señora Carina Paola Chaillol, en […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2020/06/juzgados-de-pazz.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "a2cf5a7e18",
-      "seccion": "economia",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-18T19:32:38-03:00",
-      "hora": "19:32",
-      "titulo": "El gobierno de Axel Kicillof ajustará los impuestos en 2027, pero da la sorpresa con uno",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/que-pasara-con-los-impuestos-en-la-provincia-de-buenos-aires-en-2027-nid18112026/",
-      "acceso": "suscripcion",
-      "resumen": "La mayoría de los gravámenes patrimoniales se ajustarán un 30%, en línea con la inflación; habrá bajas nominales en patentes y beneficios a cumplidores",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/Q3J5IUWYXZGPDJ7DLS4RHUNUBU.JPG?auth=f3ab41c671573595b5c5b28786b63694d2ecbb687d1f330aef3c68d940939b53&smart=true&width=2500&height=1666",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.39,
-        "x1": 0.647,
-        "y0": 0.165,
-        "y1": 0.551
-      }
     },
     {
       "id": "32d2801a42",
@@ -501,36 +351,12 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/RWLTO5SV3VDEVAZMEF2IMRCKPU.jpg?auth=7710faf2db844a56c6a34ba74ddce8ffbafd60b7877a52f41fcbda84789e2baf&smart=true&width=731&height=488",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.02,
         "x1": 0.967,
         "y0": 0.238,
         "y1": 0.884
-      }
-    },
-    {
-      "id": "85583d6735",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-17T23:22:24-03:00",
-      "hora": "23:22",
-      "titulo": "Patricia Bullrich: “Si hacés todo bien pero perdiste las elecciones, no hiciste todo bien”",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/patricia-bullrich-si-haces-todo-bien-pero-perdiste-las-elecciones-no-hiciste-todo-bien-nid17112026/",
-      "acceso": "suscripcion",
-      "resumen": "Al participar en un seminario financiero, la senadora afirmó que para que Milei logre la reelección el año próximo “la gente debe sentir los beneficios del esfuerzo ahora”; pidió baja de impuestos para las pymes y dijo que no es…",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/5XBQ243QCJGXNM73XNNZ3RKXUA.jpg?auth=049474c3ecc49102c0cb4b4bfc0e73ab83b0b14842b43748e6bd56171c56e8ee&smart=true&width=6000&height=4000",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.209,
-        "x1": 0.453,
-        "y0": 0.12,
-        "y1": 0.487
       }
     },
     {
@@ -549,32 +375,13 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/Y5NBMNIQKZEDLOZO6NNVHSLATI.jpg?auth=003a5881292b4d729e110d23e00ec8ddb7f0d91d94d7445faae1286042fe2de1&smart=true&width=484&height=344",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.274,
         "x1": 0.461,
         "y0": 0.594,
         "y1": 0.865
       }
-    },
-    {
-      "id": "cdf4c81996",
-      "seccion": "economia",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-18T18:50:55-03:00",
-      "hora": "18:50",
-      "titulo": "La carne vacuna subió por encima de la inflación y cada argentino come 5,6 kilos menos al año",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/carne-vacuna-inflacion-consumo/",
-      "acceso": "abierto",
-      "resumen": "El consumo per cápita se ubicó en 44,5 kilos anuales en octubre, un 11,2% menos que un año atrás. La retracción equivale a 5,6 kilos menos por habitante, mientras los precios de la carne aumentaron hasta un 38,9% interanual.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/La-carne-vacuna-subio-por-encima-de-la-inflacion-y-cayo-el-consumo-optimized.webp",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
     },
     {
       "id": "e3c105a46f",
@@ -592,7 +399,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Camara-de-Diputados-1024x632-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.586,
         "x1": 0.796,
@@ -616,7 +423,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/35ZQLLSGWREVVCIFOC6SHVK6FY.JPG?auth=2a24e04045b76070f7768ae15aa412c3eb523c0c1cc4d404445e54949673c4ef&smart=true&width=1241&height=827",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.31,
         "x1": 0.58,
@@ -640,7 +447,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/KFP52GAXCZFXVJGCWNDKF3EM4A.JPG?auth=6dcda9507b73b8cbc0597e6205d5248fc89a58ebb1d22cc8b7c4ee5aa334a131&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -659,7 +466,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/HP7KZSWKDJHHHHXGAP32FQSQMI.jpeg?auth=8a79d7fe066aea470a3bd5ab99d130d5906141a93f352b911601f3798f3e2896&smart=true&width=1600&height=1066",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.414,
         "x1": 0.667,
@@ -668,28 +475,47 @@
       }
     },
     {
-      "id": "58681609fd",
-      "seccion": "argentina",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-17T22:55:49-03:00",
-      "hora": "22:55",
-      "titulo": "Massa se mostró con distintos espacios del peronismo, en un doble mensaje hacia la interna y para Milei",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/massa-se-mostro-con-distintos-espacios-del-peronismo-en-un-mensaje-hacia-la-interna-y-tambien-para-nid17112026/",
-      "acceso": "suscripcion",
-      "resumen": "El exministro de Economía levantó el perfil después de tres años de moverse con sigilo; fue en un acto en San Fernando, rodeado de dirigentes federales, kirchneristas y de las provincias; el gran ausente fue Kicillof",
+      "id": "b28cbb0fde",
+      "seccion": "cordoba",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-11-18T21:45:49-03:00",
+      "hora": "21:45",
+      "titulo": "Milei negó que exista una pelea interna con Bullrich y ratificó su plan económico",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/milei-nego-que-exista-una-interna-con-bullrich-y-ratifico-su-plan-economico/",
+      "acceso": "abierto",
+      "resumen": "Si bien admitió que “hay gente que experimenta privaciones”, insistió con la idea de que “hay 12 millones de pobres menos”",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/W24I4I4BY5H5NEA7KJR7SXRU74.jpg?auth=65a08bbf16c4c117c1e94d2d54b5ed118ad8e0675254082560e193b328342e94&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-nego-que-exista-una-interna-con-Bullrich-y-ratifico-su-plan-economico-optimized.png",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
       "dia": 1,
       "rostros": {
-        "x0": 0.079,
-        "x1": 1.0,
-        "y0": 0.131,
-        "y1": 0.811
+        "x0": 0.374,
+        "x1": 0.614,
+        "y0": 0.233,
+        "y1": 0.638
       }
+    },
+    {
+      "id": "8cca487f60",
+      "seccion": "economia",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-11-18T21:43:23-03:00",
+      "hora": "21:43",
+      "titulo": "Argentina tiene los impuestos más altos del mundo sobre los préstamos personales",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/argentina-ranking-prestamos-personales/",
+      "acceso": "abierto",
+      "resumen": "Un informe de BDO para la ONG Lógica relevó 30 países y calculó que los tributos encarecen un 39% el costo financiero de los préstamos. El país es el único que aplica cuatro gravámenes simultáneos.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Argentina-tiene-los-impuestos-mas-altos-del-mundo-sobre-los-prestamos-personales-optimized.jpeg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
     },
     {
       "id": "72f1001712",
@@ -707,26 +533,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GNTDINTCGUYWGYZYMUZDMY3GMQ.jpg?auth=1480ddb930e7b64b2f97628317d822ae378ebe6cf90b968c3c1bb08c43e0bb46&smart=true&width=7360&height=4912",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "bae96f2888",
-      "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-11-18T18:22:32-03:00",
-      "hora": "18:22",
-      "titulo": "Le ordenaron a la Anses frenar descuentos sobre la pensión por viudez de Cristina Kirchner",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/le-ordenaron-a-la-anses-frenar-descuentos-sobre-la-pension-por-viudez-de-cristina-kirchner/",
-      "acceso": "abierto",
-      "resumen": "Lo dispuso el Juzgado Federal de la Seguridad Social N° 1, a cargo de Karina Alonso Candis",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2021/07/Cristina-Kirchner.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -745,7 +552,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/MBYX4HECEVB5DDDWA7WBA22PSQ.jpeg?auth=14d578ee899310bac2b399b2586b2ba46f80cf68a7bfc482f286700cb5e7a1a4&smart=true&width=1600&height=1066",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.0,
         "x1": 1.0,
@@ -769,7 +576,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/PS52CRZTABBWBMQNOBMVT62ZA4.jpeg?auth=2b4b9d79fc19b32df7448055803a48fac2d556696ba2886c5613a4fcc02ac106&smart=true&width=993&height=745",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -788,7 +595,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/H6PJOMZQ3RHEZIFUJEQ5P5QU7M.jpg?auth=a51c66153c6738addc49686885ce7e183cfe796a7c98dfe935d1347b72ba8efb&smart=true&width=1154&height=679",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.731,
         "x1": 0.919,
@@ -812,7 +619,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/F3PNAEP5YBDUZJMQHHJOUG3ZQQ.jpg?auth=d68fd1fd61b58f9e87f15af7658d93d86a8fe8f2c5f36622fc212d0afcc0f2a1&smart=true&width=3000&height=2000",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.174,
         "x1": 0.539,
@@ -836,7 +643,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/CordobaTechWeek-Principal-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -855,7 +662,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/3T5XSRMOWNCADGZMF2QKMDVLGE.jpg?auth=c76bd0decd99b6acb0a50da58ce30f0e3c6e5656ea4678014b2ecea1b7d93e2b&smart=true&width=5289&height=3526",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.594,
         "x1": 0.737,
@@ -864,10 +671,172 @@
       }
     },
     {
+      "id": "f94dc59150",
+      "seccion": "cordoba",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-11-18T20:18:14-03:00",
+      "hora": "20:18",
+      "titulo": "Javier Milei admitió que hay gente que no llega a fin de mes y descartó una pelea con Bullrich",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/javier-milei-admitio-que-hay-gente-que-no-llega-a-fin-de-mes-y-descarto-una-pelea-con-bullrich_a6afe2f482935c8aa80d0f7a4",
+      "acceso": "abierto",
+      "resumen": "El mandatario nacional brindó una entrevista este miércoles en la que defendió su plan económico y aseguró que la senadora seguirá siendo la jefa del bloque de La Libertad Avanza.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6afe49e22935c8aa80d1d61c/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.336,
+        "x1": 0.53,
+        "y0": 0.204,
+        "y1": 0.542
+      }
+    },
+    {
+      "id": "155f59b1db",
+      "seccion": "argentina",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-11-18T20:17:13-03:00",
+      "hora": "20:17",
+      "titulo": "Milei negó las versiones de una interna con Patricia Bullrich: “Cómo voy a echarla si es mi socia política”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/milei-hablo-de-las-versiones-de-una-interna-con-bullrich-echarla-es-el-deseo-del-circulo-rojo-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "El Presidente dijo que ese es “el deseo del círculo rojo”; atribuyó la suba de inflación a un “shock externo negativo” y admitió que la sociedad “experimenta privaciones”",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/KUKVRQN5FRCX7OTHMRYQHUGGSI.jpg?auth=c13580e7aa794a9640a986ff1bdf2bc26c053bceff5c411a74e38ab586790b7b&smart=true&width=2000&height=1334",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "ed037a8c5c",
+      "seccion": "argentina",
+      "rel": 21.2,
+      "relevancia": 21.2,
+      "fecha": "2026-11-18T20:11:47-03:00",
+      "hora": "20:11",
+      "titulo": "Reforma electoral: el debate presidencial dejará de ser obligatorio en las elecciones generales si avanza el proyecto de Milei",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/reforma-electoral-el-debate-presidencial-dejara-de-ser-obligatorio-en-las-elecciones-generales-si-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "La ley actual impone dos discusiones públicas entre los candidatos previas a la elección general y una antes de un balotaje; la iniciativa del oficialismo dice que la Cámara Electoral “podrá” organizar debates para la segunda vuelta",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/IQMATZKLIVHMZIGUCMOMR34DV4.JPG?auth=70675461e19424a8c50475beefea373d1df6798b8175ce77ab86dc4db2c0151c&smart=true&width=2500&height=1667",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "06acd63870",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-11-18T19:38:01-03:00",
+      "hora": "19:38",
+      "titulo": "El tráfico aéreo alcanzó un récord en octubre y Córdoba sumó más vuelos internacionales",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/trafico-aereo-record-octubre/",
+      "acceso": "abierto",
+      "resumen": "Más de 4,3 millones de pasajeros utilizaron los aeropuertos argentinos. La terminal cordobesa registró una suba interanual del 8% en vuelos internacionales.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-trafico-aereo-marco-un-record-en-octubre-y-Cordoba-crecio-8-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "c35b3288b5",
+      "seccion": "cordoba",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-11-18T19:33:53-03:00",
+      "hora": "19:33",
+      "titulo": "Oficializan por decreto la designación de Jueces de Paz",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/leyes-y-comentarios/oficializan-por-decreto-la-designacion-de-jueces-de-paz/",
+      "acceso": "abierto",
+      "resumen": "El Gobierno de la Provincia de Córdoba nombró a Carina Paola Chaillol en la sede Vicuña Mackenna y a Nicolás José Morsila en Villa Nueva Decreto N° 109 Córdoba, 16 de noviembre de 2026 VISTO: El acuerdo solicitado a la Legislatura de la Provincia de Córdoba, para designar a la señora Carina Paola Chaillol, en […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2020/06/juzgados-de-pazz.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "a2cf5a7e18",
+      "seccion": "economia",
+      "rel": 21.1,
+      "relevancia": 21.1,
+      "fecha": "2026-11-18T19:32:38-03:00",
+      "hora": "19:32",
+      "titulo": "El gobierno de Axel Kicillof ajustará los impuestos en 2027, pero da la sorpresa con uno",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/que-pasara-con-los-impuestos-en-la-provincia-de-buenos-aires-en-2027-nid18112026/",
+      "acceso": "suscripcion",
+      "resumen": "La mayoría de los gravámenes patrimoniales se ajustarán un 30%, en línea con la inflación; habrá bajas nominales en patentes y beneficios a cumplidores",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/Q3J5IUWYXZGPDJ7DLS4RHUNUBU.JPG?auth=f3ab41c671573595b5c5b28786b63694d2ecbb687d1f330aef3c68d940939b53&smart=true&width=2500&height=1666",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.39,
+        "x1": 0.647,
+        "y0": 0.165,
+        "y1": 0.551
+      }
+    },
+    {
+      "id": "cdf4c81996",
+      "seccion": "economia",
+      "rel": 21.0,
+      "relevancia": 21.0,
+      "fecha": "2026-11-18T18:50:55-03:00",
+      "hora": "18:50",
+      "titulo": "La carne vacuna subió por encima de la inflación y cada argentino come 5,6 kilos menos al año",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/carne-vacuna-inflacion-consumo/",
+      "acceso": "abierto",
+      "resumen": "El consumo per cápita se ubicó en 44,5 kilos anuales en octubre, un 11,2% menos que un año atrás. La retracción equivale a 5,6 kilos menos por habitante, mientras los precios de la carne aumentaron hasta un 38,9% interanual.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/La-carne-vacuna-subio-por-encima-de-la-inflacion-y-cayo-el-consumo-optimized.webp",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "bae96f2888",
+      "seccion": "cordoba",
+      "rel": 20.9,
+      "relevancia": 20.9,
+      "fecha": "2026-11-18T18:22:32-03:00",
+      "hora": "18:22",
+      "titulo": "Le ordenaron a la Anses frenar descuentos sobre la pensión por viudez de Cristina Kirchner",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/le-ordenaron-a-la-anses-frenar-descuentos-sobre-la-pension-por-viudez-de-cristina-kirchner/",
+      "acceso": "abierto",
+      "resumen": "Lo dispuso el Juzgado Federal de la Seguridad Social N° 1, a cargo de Karina Alonso Candis",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2021/07/Cristina-Kirchner.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
       "id": "d1565c15e3",
       "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
+      "rel": 20.7,
+      "relevancia": 20.7,
       "fecha": "2026-11-18T17:04:01-03:00",
       "hora": "17:04",
       "titulo": "No hubo quórum y se cayó la sesión de este miércoles en la Cámara de Diputados",
@@ -879,14 +848,14 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6afdfde52935c8aa80cefc9c/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
       "id": "cc895c98bc",
       "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
+      "rel": 20.6,
+      "relevancia": 20.6,
       "fecha": "2026-11-18T16:48:12-03:00",
       "hora": "16:48",
       "titulo": "Córdoba impulsa el desarrollo industrial con un nuevo régimen de incentivos",
@@ -898,7 +867,26 @@
       "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/innovacion.webp",
       "imagen_credito": "Comercio y Justicia",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "cc88d5a19a",
+      "seccion": "cordoba",
+      "rel": 20.2,
+      "relevancia": 20.2,
+      "fecha": "2026-11-18T13:57:56-03:00",
+      "hora": "13:57",
+      "titulo": "Diputados: por falta de quórum se cayó el debate sobre la Carta Orgánica del Banco Central y soberanía",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/diputados-por-falta-de-quorum-se-cayo-el-debate-sobre-la-carta-organica-del-banco-central-y-soberania/",
+      "acceso": "abierto",
+      "resumen": "Contra todo pronóstico, se cayó hoy por falta de quórum la sesión especial en la Cámara de Diputados en la que iba a tratarse un menú de proyectos impulsados por el Gobierno, entre los que se destacaban la Ley de Defensa de la Soberanía Nacional y la reforma de la Carta Orgánica del Banco Central. […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/sesion.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 1,
       "rostros": null
     }
   ],

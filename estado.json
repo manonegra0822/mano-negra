@@ -1,58 +1,40 @@
 {
-  "actualizado": "2026-11-18T21:17:13-03:00",
+  "actualizado": "2026-11-19T00:58:52-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 100,
           "ejemplos": [
-            "Colombia recaudó USD 43.205 millones de inversiones en el Milagro Week: José Man",
-            "PAN demanda a la Cámara de Diputados por frenar la convocatoria para elegir a la",
-            "Detienen en Coyoacán a “El Tavo”, objetivo prioritario vinculado con la quema de"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno debió ceder más de lo previsto, pero obtuvo el dictamen en el Senado"
+            "EN VIVO | Seguridad, narcotráfico y crimen en México hoy 18 de noviembre: exigen",
+            "La planta que resiste el frío extremo y puede sobrevivir a temperaturas bajo cer",
+            "EN VIVO | Clima CDMX y resto de México hoy miércoles 18 de noviembre: se registr"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 8,
+      "leidas": 90,
+      "aceptadas": 6,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 75,
-          "ejemplos": [
-            "Récord en Buenos Aires para una artista argentina: 345.000 dólares",
-            "Nuevo top ten de las obras de arte vendidas en subastas más caras de la historia",
-            "Turbulencias: por qué una ruta aérea argentina quedó primera en un ranking mundi"
-          ]
-        },
         "titular sin tema de política/economía": {
-          "cantidad": 7,
+          "cantidad": 6,
           "ejemplos": [
+            "Una concesión a la casta por la reelección",
             "Revuelo en una provincia por una prohibición al uso de drones",
-            "Las alimenticias buscan crecer en el exterior",
-            "Quirno descartó tensiones con Chile por el buque que viajará a Malvinas"
+            "Las alimenticias buscan crecer en el exterior"
           ]
         },
-        "sin ancla argentina": {
-          "cantidad": 1,
+        "sección no permitida": {
+          "cantidad": 78,
           "ejemplos": [
-            "Patricia Bullrich, antes del dictamen: “Es un hecho que se suspenden las PASO, ¡"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "“Mercado paralelo”: diputados y senadores apoyaron a los productores frente a un"
+            "El golazo desde 60 metros que le hicieron a Agustín Rossi en Flamengo vs. Parana",
+            "Tuvo dos familias que no lo cuidaban y caminó 12 km para volver a un lugar segur",
+            "Lo mejor del vino francés, en una bodega única en el corazón de Chile"
           ]
         }
       }
@@ -88,14 +70,13 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 4,
+      "leidas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Repudio absoluto a la abstención argentina en la ONU",
-            "Prisión perpetua para el acusado del triple lesbicidio en Barracas"
+            "Triple lesbicidio: el precedente histórico y lo que la sentencia dejó afuera"
           ]
         }
       }
@@ -103,14 +84,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 14,
           "ejemplos": [
-            "Hallaron un proyectil de mortero en un descampado de Villa María",
-            "SL Teatro, el nuevo espacio para las artes escénicas",
-            "Un Messi por día, del fútbol a las pinceladas de Sofía Wiñazki"
+            "Colapinto busca agua en el desierto: cronograma y detalles del GP de Las Vegas",
+            "Alejandro Zambra y las formas de construir una familia",
+            "Hallaron un proyectil de mortero en un descampado de Villa María"
           ]
         }
       }
@@ -143,9 +124,9 @@
         "muy vieja": {
           "cantidad": 19,
           "ejemplos": [
+            "Paritarias: el SEP elevó sus planteos y la UEPC ya logró avances en materia labo",
             "Paraguay: ordenaron el traslado de Santiago Peña a una cárcel militar",
-            "El Gobierno volvió a conseguir superávit financiero en octubre",
-            "León XIV cerró su gira sudamericana: “Los únicos que no pueden esperar son los p"
+            "El Gobierno volvió a conseguir superávit financiero en octubre"
           ]
         }
       }
@@ -158,9 +139,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 16,
           "ejemplos": [
+            "Accidente fatal en Ruta 9: un muerto tras el choque entre dos vehículos",
             "Epec informó una serie de cortes de luz para este jueves en Córdoba",
-            "Nueva Córdoba: corte total en San Lorenzo entre Obispo Salguero y Chacabuco",
-            "Fue compañero de Messi en un Mundial, ganó la Libertadores y ahora anunció su re"
+            "Nueva Córdoba: corte total en San Lorenzo entre Obispo Salguero y Chacabuco"
           ]
         }
       }
