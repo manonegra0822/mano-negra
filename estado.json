@@ -1,40 +1,54 @@
 {
-  "actualizado": "2026-11-19T00:58:52-03:00",
+  "actualizado": "2026-11-19T16:21:50-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 95,
           "ejemplos": [
-            "EN VIVO | Seguridad, narcotráfico y crimen en México hoy 18 de noviembre: exigen",
-            "La planta que resiste el frío extremo y puede sobrevivir a temperaturas bajo cer",
-            "EN VIVO | Clima CDMX y resto de México hoy miércoles 18 de noviembre: se registr"
+            "VidantaWorld presenta a Soluma, el animatrónico exterior más grande del mundo, y",
+            "Dólar hoy en Bolivia: cotización de cierre del 19 de noviembre",
+            "Santi López: \"El partido contra Sevilla no es una final, pero sí un partido clav"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 2,
+          "ejemplos": [
+            "El Senado comenzó a tratar la ley de discapacidad y se espera un extenso debate",
+            "Tomás Karagozian: “Necesitamos más dólares y más trabajo, no más dólares y más p"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Anthropic ya cotiza en Wall Street: cómo invertir en la acción del gigante de la",
+            "La misteriosa visita de Bill Gates a la Argentina: qué lugares visitó el magnate"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 6,
+      "leidas": 91,
+      "aceptadas": 10,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 6,
+        "sección no permitida": {
+          "cantidad": 77,
           "ejemplos": [
-            "Una concesión a la casta por la reelección",
-            "Revuelo en una provincia por una prohibición al uso de drones",
-            "Las alimenticias buscan crecer en el exterior"
+            "Ivana, la hermana de Mauro Icardi, arremetió sin filtro contra Wanda Nara y fue ",
+            "Tomás Gill, ingeniero en alimentos: “El asado que sobra no va ni al horno, ni al",
+            "Cuál es el futuro del TPS para los venezolanos en EE.UU., según un abogado de in"
           ]
         },
-        "sección no permitida": {
-          "cantidad": 78,
+        "sin ancla argentina": {
+          "cantidad": 4,
           "ejemplos": [
-            "El golazo desde 60 metros que le hicieron a Agustín Rossi en Flamengo vs. Parana",
-            "Tuvo dos familias que no lo cuidaban y caminó 12 km para volver a un lugar segur",
-            "Lo mejor del vino francés, en una bodega única en el corazón de Chile"
+            "Qué inversiones le ganan a la inflación en lo que va de 2026",
+            "Costantini cuestionó la falta de inversión estatal en arte y propuso renovar el ",
+            "El Senado se encamina a sancionar una nueva ley de discapacidad pese a las resis"
           ]
         }
       }
@@ -70,13 +84,20 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
+      "leidas": 6,
       "aceptadas": 3,
       "descartadas": {
-        "titular sin tema de política/economía": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Triple lesbicidio: el precedente histórico y lo que la sentencia dejó afuera"
+            "Sesión en el Senado: LLA volvió a frenar el debate de la ley de Ludopatía"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Xi, Trump y Putin se comprometieron a reducir los riesgos nucleares",
+            "Identificaron al primer fallecido por la explosión en Remedios de Escalada: era "
           ]
         }
       }
@@ -84,14 +105,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 15,
           "ejemplos": [
-            "Colapinto busca agua en el desierto: cronograma y detalles del GP de Las Vegas",
-            "Alejandro Zambra y las formas de construir una familia",
-            "Hallaron un proyectil de mortero en un descampado de Villa María"
+            "Comenzó la reconstrucción: La era pos Messi tiene artistas para volver a enamora",
+            "Cine argentino: habrá 24 horas de películas y actividades gratuitas en todo el p",
+            "Caso Daniela Villalba: trasladaron a Iván Tabella desde Buenos Aires a Córdoba"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Atenas e Instituto vuelven a cruzarse: precios, venta de entradas y todo lo que "
           ]
         }
       }
@@ -99,34 +126,22 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 21,
+      "aceptadas": 24,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 38,
+          "cantidad": 30,
           "ejemplos": [
-            "Confirman aumento en los valores del nomenclador para prestaciones de discapacid",
-            "Argentina presidirá durante un año la comisión antidrogas de la OEA",
-            "Una localidad cordobesa usa lombrices para tratar efluentes cloacales"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno lanzó un retiro voluntario para reducir la planta del Instituto Naci"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Fiscalía de Paraguay pide a la ciudadanía aportar datos en la causa penal contra"
+            "El Ministerio de Justicia aprueba un plan de digitalización e interoperabilidad ",
+            "El Índice de Confianza del Consumidor cayó 1,27% en noviembre",
+            "El agro en alerta por El Niño: cómo se prepara para reducir el impacto en la pro"
           ]
         },
         "muy vieja": {
-          "cantidad": 19,
+          "cantidad": 26,
           "ejemplos": [
-            "Paritarias: el SEP elevó sus planteos y la UEPC ya logró avances en materia labo",
-            "Paraguay: ordenaron el traslado de Santiago Peña a una cárcel militar",
-            "El Gobierno volvió a conseguir superávit financiero en octubre"
+            "Garantía de depósitos: el BCRA fijó las nuevas tasas de referencia en pesos, dól",
+            "Asistencia por daños climáticos: declaran zona de desastre a General Roca en Mar",
+            "Comercio exterior: el Senasa moderniza el sistema de supervisión de fumigaciones"
           ]
         }
       }
@@ -139,9 +154,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 16,
           "ejemplos": [
-            "Accidente fatal en Ruta 9: un muerto tras el choque entre dos vehículos",
-            "Epec informó una serie de cortes de luz para este jueves en Córdoba",
-            "Nueva Córdoba: corte total en San Lorenzo entre Obispo Salguero y Chacabuco"
+            "La Selección Argentina cayó en el debut del Mundial Sub-17 de Qatar 2026",
+            "Cuenta regresiva para la Fiesta Nacional de la Pelota de Fútbol en Bell Ville",
+            "Crimen en La Cumbre: el hombre hallado calcinado había sido denunciado por abuso"
           ]
         }
       }
