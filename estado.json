@@ -1,67 +1,54 @@
 {
-  "actualizado": "2026-11-19T18:35:42-03:00",
+  "actualizado": "2026-11-20T00:52:38-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 99,
           "ejemplos": [
-            "Alejo Igoa, el canal argentino más grande de YouTube en español: ya van 125 mill",
-            "Feijóo a Sánchez en el cara a cara: “Conoce más a Jessica que a Mari Carmen; hay",
-            "Sánchez inicia el debate reconociendo errores pero promete avances frente a PP y"
+            "Panamá aprueba plan piloto de brazaletes electrónicos duales para casos de viole",
+            "Checo Pérez hace historia para Cadillac y lidera la práctica 1 en Las Vegas por ",
+            "“Haremos historia, otra vez”: Bukele presentó su candidatura presidencial para l"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Senado: avanza el debate por la ley de discapacidad y hay consenso para aprobarl",
-            "Las acciones de Anthropic empezaron a cotizar en Wall Street: subieron 17% despu"
-          ]
-        },
-        "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "“Changuito federal”: cuánto sale hacer la compra del supermercado en cada provin"
+            "El Senado sancionó el Tratado de Patentes y la ley de propiedad privada con tope"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
-      "aceptadas": 9,
+      "leidas": 94,
+      "aceptadas": 6,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 66,
-          "ejemplos": [
-            "Kompany vuelve a dirigir a Bayern Munich luego de haberse desplomado en un entre",
-            "Cómo hacer las famosas croquetas saludables de avena y aceite de oliva en pocos ",
-            "Murió a los 38 años Alexander Haskin, actor de You y The Rookie"
-          ]
-        },
         "sin ancla argentina": {
-          "cantidad": 5,
+          "cantidad": 3,
           "ejemplos": [
-            "Villarruel volvió a distanciarse del Gobierno ante el cierre de una fábrica: “Si",
-            "Frenaron el peritaje de los videos de los dólares que grabó Jésica Cirio en el v",
-            "Sin déficit, pero con menos colchón: el Gobierno resignó $7,5 billones de superá"
+            "El Senado aprobó la reforma del régimen de propiedad privada que restablece la L",
+            "Aprueban la nueva ley de Discapacidad y reclaman que el Gobierno cumpla con su r",
+            "Di Tullio apuntó contra Bullrich: “Hay que ser cobarde y miserable para reprimir"
           ]
         },
-        "otro país": {
-          "cantidad": 1,
+        "sección no permitida": {
+          "cantidad": 82,
           "ejemplos": [
-            "Las exportaciones volvieron a batir un récord, pero las importaciones encienden "
+            "León XIV y la “justicia social”",
+            "La soberanía nacional",
+            "El bodegón con pastas inolvidables y buenos precios que conquistó un barrio port"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 3,
           "ejemplos": [
-            "Tras una fuerte polémica, una provincia levantó una prohibición para aplicar fit",
-            "El Deutsche Bank detectó movimientos sospechosos del empresario De Achával vincu",
-            "Apuestas, estafas y consejos de la IA: los nuevos riesgos financieros que enfren"
+            "El nuevo Consejo de la Magistratura debe empezar a funcionar y no logra completa",
+            "“Condenadas al fracaso”: Gustavo Grobocopatel reveló detalles desconocidos sobre",
+            "La causa que nació alrededor de la mansión de Pilar hoy alcanza a los negocios d"
           ]
         }
       }
@@ -97,34 +84,21 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
+      "leidas": 4,
       "aceptadas": 4,
-      "descartadas": {
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Sesión en el Senado: LLA volvió a frenar el debate de la ley de Ludopatía"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El genocidio infinito"
-          ]
-        }
-      }
+      "descartadas": {}
     },
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 13,
           "ejemplos": [
-            "La música en vivo se consolida como motor turístico de Buenos Aires",
-            "La escena teatral indaga en la exaltación de lo común",
-            "Mundial Sub 17: Argentina falló en las áreas y cayó 2-0 ante Australia"
+            "Belgrano abre los octavos de final ante Vélez: TV, hora y probables formaciones",
+            "La Campagnola cierra su fábrica en Mar del Plata y deja a 80 trabajadores afecta",
+            "Un motociclista atropelló a un niño de 9 años, escapó corriendo y terminó deteni"
           ]
         }
       }
@@ -132,7 +106,7 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 27,
+      "aceptadas": 26,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 31,
@@ -143,11 +117,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 22,
+          "cantidad": 23,
           "ejemplos": [
+            "Dujovne respaldó la apertura económica en la Bolsa de Comercio",
             "El mes pasado subió la confianza del consumidor",
-            "Los precios mayoristas subieron un 1,6% en octubre",
-            "Garantía de depósitos: el BCRA fijó las nuevas tasas de referencia en pesos, dól"
+            "Los precios mayoristas subieron un 1,6% en octubre"
           ]
         }
       }
@@ -160,9 +134,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 13,
           "ejemplos": [
-            "Encapuchados vaciaron un local de ropa en Córdoba",
-            "Eugenia Almeida presenta Un dios sacude la casa: La ficción sigue siendo liberad",
-            "La Campagnola cierra su planta en Mar del Plata y es incierto el futuro de 80 tr"
+            "De La Rivera y Rayos Láser se unen en “El bosque”, una canción sobre los vínculo",
+            "La Trova Coral celebra los 80 años de Silvio Rodríguez con un homenaje en el Tea",
+            "Nueva edición de la Marcha del Orgullo en Córdoba"
           ]
         }
       }
