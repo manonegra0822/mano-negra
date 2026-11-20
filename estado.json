@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T00:52:38-03:00",
+  "actualizado": "2026-11-20T15:58:06-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,48 +7,55 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 98,
           "ejemplos": [
-            "Panamá aprueba plan piloto de brazaletes electrónicos duales para casos de viole",
-            "Checo Pérez hace historia para Cadillac y lidera la práctica 1 en Las Vegas por ",
-            "“Haremos historia, otra vez”: Bukele presentó su candidatura presidencial para l"
+            "EEUU está por cerrar acuerdo comercial con México, pero aún preocupan los cártel",
+            "SCJN ratifica multa de 18.4 millones de pesos contra minera de Germán Larrea, el",
+            "Precio del dólar vuelve a subir hoy en Perú: Así cerró el tipo de cambio del 20 "
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "El Senado sancionó el Tratado de Patentes y la ley de propiedad privada con tope"
+            "El dólar tocó un nuevo récord nominal y el riesgo país se dispara sobre los 1.00",
+            "Fallo de la Corte Suprema sobre prepagas: qué cambia para los afiliados y cómo r"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 6,
+      "leidas": 90,
+      "aceptadas": 7,
       "descartadas": {
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "El Senado aprobó la reforma del régimen de propiedad privada que restablece la L",
-            "Aprueban la nueva ley de Discapacidad y reclaman que el Gobierno cumpla con su r",
-            "Di Tullio apuntó contra Bullrich: “Hay que ser cobarde y miserable para reprimir"
+            "Las acciones de Anthropic se desplomaron después de su debut en la Bolsa",
+            "El dólar sube por tercera rueda consecutiva y el riesgo país llega al nivel más "
           ]
         },
         "sección no permitida": {
-          "cantidad": 82,
+          "cantidad": 73,
           "ejemplos": [
-            "León XIV y la “justicia social”",
-            "La soberanía nacional",
-            "El bodegón con pastas inolvidables y buenos precios que conquistó un barrio port"
+            "Tesla llega a la Argentina: dónde estarán sus primeros cuatro locales y cómo ser",
+            "Nicolás Repetto vs. Marley: ¿la próxima competencia que se viene en la TV?",
+            "Paula Klein, la escritora argentina que explora los límites entre la verdad, las"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Murió la legislsdora porteña del peronismo Noemí Geminiani, dirigente histórica ",
+            "Por qué Anthropic convirtió a Ashton Kutcher en multimillonario tras su salida a"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 6,
           "ejemplos": [
-            "El nuevo Consejo de la Magistratura debe empezar a funcionar y no logra completa",
-            "“Condenadas al fracaso”: Gustavo Grobocopatel reveló detalles desconocidos sobre",
-            "La causa que nació alrededor de la mansión de Pilar hoy alcanza a los negocios d"
+            "Cuánto gasta una familia del AMBA en servicios públicos",
+            "Súper Niño: anticipan focos con más de 100 milímetros, un drástico cambio de tem",
+            "“Condenadas al fracaso”: Gustavo Grobocopatel reveló detalles desconocidos sobre"
           ]
         }
       }
@@ -59,11 +66,11 @@
       "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "El delito de tener la heladera vacía",
-            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
-            "Marcos López se presenta en Córdoba incursionando en el teatro por primera vez"
+            "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
+            "La soberanía es un sueño eterno",
+            "El delito de tener la heladera vacía"
           ]
         },
         "otro país": {
@@ -73,7 +80,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 5,
+          "cantidad": 3,
           "ejemplos": [
             "Cuando las iglesias evangélicas se tiñen de violeta",
             "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
@@ -84,21 +91,36 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 4,
-      "descartadas": {}
+      "leidas": 6,
+      "aceptadas": 2,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El 41% de los hogares con niños y adolescentes no logra cubrir sus gastos corrie",
+            "El “Pity” Álvarez fue condenado a 12 años de prisión por el homicidio de Cristia",
+            "“Plata para reprimir, palo para los laburantes”"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Lo que dejó el debate entre Pedro Sánchez y Feijóo de cara a las elecciones del "
+          ]
+        }
+      }
     },
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 18,
           "ejemplos": [
-            "Belgrano abre los octavos de final ante Vélez: TV, hora y probables formaciones",
-            "La Campagnola cierra su fábrica en Mar del Plata y deja a 80 trabajadores afecta",
-            "Un motociclista atropelló a un niño de 9 años, escapó corriendo y terminó deteni"
+            "Los playoffs del Clausura, definiciones en el rugby y Colapinto en el GP de Las ",
+            "Tala y Newman se disputan la corona nacional en una final con historia",
+            "Los Pumas buscan romper una racha de 12 años ante una Francia que llega en su me"
           ]
         }
       }
@@ -106,22 +128,22 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 26,
+      "aceptadas": 29,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 31,
+          "cantidad": 29,
           "ejemplos": [
-            "Femicidio de Daniela Villalba: imputaron a Iván Tabella y fue trasladado Bouwer",
-            "Pago Electrónico Comarb: unifican los canales de cobro y actualizan el pago en S",
-            "El Ministerio de Justicia aprueba un plan de digitalización e interoperabilidad "
+            "Confirman el procesamiento contra Cositorto y demás integrantes de Generación Zo",
+            "LATAM Airlines reveló la nueva experiencia de largo alcance en sus Airbus A321XL",
+            "Cómo los comercios deben modificar su estrategia digital ante la injerencia de l"
           ]
         },
         "muy vieja": {
-          "cantidad": 23,
+          "cantidad": 22,
           "ejemplos": [
-            "Dujovne respaldó la apertura económica en la Bolsa de Comercio",
-            "El mes pasado subió la confianza del consumidor",
-            "Los precios mayoristas subieron un 1,6% en octubre"
+            "Una localidad cordobesa usa lombrices para tratar efluentes cloacales",
+            "Reforma electoral: el oficialismo retira las colectoras para acordar la suspensi",
+            "El Tribunal Superior de Justicia suma nuevos peritos oficiales en Córdoba"
           ]
         }
       }
@@ -129,14 +151,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 20,
           "ejemplos": [
-            "De La Rivera y Rayos Láser se unen en “El bosque”, una canción sobre los vínculo",
-            "La Trova Coral celebra los 80 años de Silvio Rodríguez con un homenaje en el Tea",
-            "Nueva edición de la Marcha del Orgullo en Córdoba"
+            "Córdoba convoca este viernes la 20° edición de la Marcha de la Gorra",
+            "León Gieco, 75 años de canciones que hicieron historia",
+            "La edad no define el protagonismo: Lula da Silva y León XIV, dos grandes ejemplo"
           ]
         }
       }
