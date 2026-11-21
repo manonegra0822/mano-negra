@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T15:58:06-03:00",
+  "actualizado": "2026-11-21T00:45:56-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,55 +7,34 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 100,
           "ejemplos": [
-            "EEUU está por cerrar acuerdo comercial con México, pero aún preocupan los cártel",
-            "SCJN ratifica multa de 18.4 millones de pesos contra minera de Germán Larrea, el",
-            "Precio del dólar vuelve a subir hoy en Perú: Así cerró el tipo de cambio del 20 "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El dólar tocó un nuevo récord nominal y el riesgo país se dispara sobre los 1.00",
-            "Fallo de la Corte Suprema sobre prepagas: qué cambia para los afiliados y cómo r"
+            "Fuerzas federales y sicarios se enfrentan a balazos en Guasave: autoridades pide",
+            "Temblor hoy en México: se registró un sismo magnitud 4.1 en Guerrero",
+            "El “boom” silencioso de las maestrías en América Latina: cuando el título univer"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 90,
-      "aceptadas": 7,
+      "leidas": 92,
+      "aceptadas": 2,
       "descartadas": {
-        "sin ancla argentina": {
-          "cantidad": 2,
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
           "ejemplos": [
-            "Las acciones de Anthropic se desplomaron después de su debut en la Bolsa",
-            "El dólar sube por tercera rueda consecutiva y el riesgo país llega al nivel más "
+            "Rating: cuánto midió la quinta gala de eliminación de Masterchef Junior",
+            "Ulrike Langer: “En cinco años, todos los medios tendrán que atender a un segundo",
+            "Talerico y el grupo Será Justicia pidieron el juicio político de los camaristas "
           ]
         },
         "sección no permitida": {
-          "cantidad": 73,
+          "cantidad": 85,
           "ejemplos": [
-            "Tesla llega a la Argentina: dónde estarán sus primeros cuatro locales y cómo ser",
-            "Nicolás Repetto vs. Marley: ¿la próxima competencia que se viene en la TV?",
-            "Paula Klein, la escritora argentina que explora los límites entre la verdad, las"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Murió la legislsdora porteña del peronismo Noemí Geminiani, dirigente histórica ",
-            "Por qué Anthropic convirtió a Ashton Kutcher en multimillonario tras su salida a"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 6,
-          "ejemplos": [
-            "Cuánto gasta una familia del AMBA en servicios públicos",
-            "Súper Niño: anticipan focos con más de 100 milímetros, un drástico cambio de tem",
-            "“Condenadas al fracaso”: Gustavo Grobocopatel reveló detalles desconocidos sobre"
+            "12 postales argentinas de otro tiempo",
+            "La exportación de una condena",
+            "El peronismo, hoy: dividido, limitado al conurbano y con el mismo discurso"
           ]
         }
       }
@@ -91,21 +70,14 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
+      "leidas": 4,
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "El 41% de los hogares con niños y adolescentes no logra cubrir sus gastos corrie",
-            "El “Pity” Álvarez fue condenado a 12 años de prisión por el homicidio de Cristia",
-            "“Plata para reprimir, palo para los laburantes”"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Lo que dejó el debate entre Pedro Sánchez y Feijóo de cara a las elecciones del "
+            "La crisis manda",
+            "Liga Profesional: Vélez y Marchiori dejaron a Belgrano de Córdoba con las manos "
           ]
         }
       }
@@ -116,11 +88,17 @@
       "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 17,
           "ejemplos": [
-            "Los playoffs del Clausura, definiciones en el rugby y Colapinto en el GP de Las ",
-            "Tala y Newman se disputan la corona nacional en una final con historia",
-            "Los Pumas buscan romper una racha de 12 años ante una Francia que llega en su me"
+            "Belgrano quedó eliminado ante Vélez por penales tras un intenso empate",
+            "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz",
+            "Trump defendió su relación con Putin y dijo que Irán demora el fin de la guerra"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Talleres se juega una de sus últimas cartas ante River para seguir en carrera po"
           ]
         }
       }
@@ -128,22 +106,22 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 29,
+      "aceptadas": 25,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 29,
           "ejemplos": [
-            "Confirman el procesamiento contra Cositorto y demás integrantes de Generación Zo",
-            "LATAM Airlines reveló la nueva experiencia de largo alcance en sus Airbus A321XL",
-            "Cómo los comercios deben modificar su estrategia digital ante la injerencia de l"
+            "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz",
+            "Tesla abrió en Argentina: qué autos eléctricos vende",
+            "Confirman el procesamiento contra Cositorto y demás integrantes de Generación Zo"
           ]
         },
         "muy vieja": {
-          "cantidad": 22,
+          "cantidad": 26,
           "ejemplos": [
-            "Una localidad cordobesa usa lombrices para tratar efluentes cloacales",
-            "Reforma electoral: el oficialismo retira las colectoras para acordar la suspensi",
-            "El Tribunal Superior de Justicia suma nuevos peritos oficiales en Córdoba"
+            "El oficialismo logró eliminar el sistema de colectoras y avanza con la suspensió",
+            "Confirman aumento en los valores del nomenclador para prestaciones de discapacid",
+            "Oficializan por decreto la designación de Jueces de Paz"
           ]
         }
       }
@@ -151,14 +129,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 0,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 14,
           "ejemplos": [
-            "Córdoba convoca este viernes la 20° edición de la Marcha de la Gorra",
-            "León Gieco, 75 años de canciones que hicieron historia",
-            "La edad no define el protagonismo: Lula da Silva y León XIV, dos grandes ejemplo"
+            "La Estancia Jesuítica de Jesús María recibe un concierto de obras originales",
+            "Un fuerte sismo sacudió el centro de Perú",
+            "Marcha de la Gorra en Córdoba: cientos de personas salieron a la calle a pedir j"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Se registró una suba del dólar y el riesgo país superó los 1.000 puntos"
           ]
         }
       }
