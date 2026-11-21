@@ -1,40 +1,48 @@
 {
-  "actualizado": "2026-11-21T00:45:56-03:00",
+  "actualizado": "2026-11-21T14:52:44-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 99,
           "ejemplos": [
-            "Fuerzas federales y sicarios se enfrentan a balazos en Guasave: autoridades pide",
-            "Temblor hoy en México: se registró un sismo magnitud 4.1 en Guerrero",
-            "El “boom” silencioso de las maestrías en América Latina: cuando el título univer"
+            "Activista de derecha afirmó que Gustavo Petro presentó una tutela en su contra p",
+            "Un ataque con drones deja un barco ruso incendiado y anclado en el golfo de Finl",
+            "Marcelo Ebrard busca equilibrar el comercio entre México y China durante visita "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 2,
+      "leidas": 75,
+      "aceptadas": 6,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
+        "sección no permitida": {
+          "cantidad": 57,
           "ejemplos": [
-            "Rating: cuánto midió la quinta gala de eliminación de Masterchef Junior",
-            "Ulrike Langer: “En cinco años, todos los medios tendrán que atender a un segundo",
-            "Talerico y el grupo Será Justicia pidieron el juicio político de los camaristas "
+            "En qué canal pasan Defensa y Justicia vs. Barracas Central por el Torneo Clausur",
+            "Condecoraron en la embajada de Francia a las científicas argentinas Alicia Dicke",
+            "El detalle de los autos que puede costar 40.000 euros, pero que viene con una cl"
           ]
         },
-        "sección no permitida": {
-          "cantidad": 85,
+        "titular sin tema de política/economía": {
+          "cantidad": 9,
           "ejemplos": [
-            "12 postales argentinas de otro tiempo",
-            "La exportación de una condena",
-            "El peronismo, hoy: dividido, limitado al conurbano y con el mismo discurso"
+            "El Niño y La Niña: un estudio argentino descubrió patrones de recurrencia y plan",
+            "Después de 100 años: el peso promedio de faena de la res bovina superó los 240 k",
+            "Súper Niño: anticipan focos con más de 100 milímetros, un drástico cambio de tem"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Por qué subió el dólar: las causas detrás del salto de las cotizaciones de esta ",
+            "La fiebre por los mercados de predicción dispara alertas por el uso de datos con",
+            "Consumo estancado, compras y más competencia"
           ]
         }
       }
@@ -42,42 +50,37 @@
     {
       "medio": "La tinta",
       "leidas": 10,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 5,
           "ejemplos": [
+            "Córdoba: capital de la música en vivo",
             "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
-            "La soberanía es un sueño eterno",
-            "El delito de tener la heladera vacía"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
+            "La soberanía es un sueño eterno"
           ]
         },
         "muy vieja": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "Cuando las iglesias evangélicas se tiñen de violeta",
-            "Quinografía, el documental del incomparable Joaquín Lavado, llega a la función t",
-            "Volver a mirar el cielo: aves, ciencia ciudadana y el vínculo natural que Córdob"
+            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi",
+            "Topadoras con sello verde: la jugada legislativa para perforar la Ley de Bosques",
+            "Marcos López se presenta en Córdoba incursionando en el teatro por primera vez"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 2,
+      "leidas": 6,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
             "La crisis manda",
-            "Liga Profesional: Vélez y Marchiori dejaron a Belgrano de Córdoba con las manos "
+            "Los ricos ya no son lo que eran",
+            "“Se estimula la sombra, lo más sombrío, lo más morboso”: el crudo editorial de L"
           ]
         }
       }
@@ -85,20 +88,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
-            "Belgrano quedó eliminado ante Vélez por penales tras un intenso empate",
-            "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz",
-            "Trump defendió su relación con Putin y dijo que Irán demora el fin de la guerra"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Talleres se juega una de sus últimas cartas ante River para seguir en carrera po"
+            "Marcha de la Gorra en Córdoba: 20 años de reclamos contra la violencia instituci",
+            "Un sismo de magnitud 6,7 sacudió Perú y se sintió en Ecuador",
+            "Córdoba unificará al equipo de salud: un reclamo histórico que UTS sostiene desd"
           ]
         }
       }
@@ -106,10 +103,16 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 25,
+      "aceptadas": 17,
       "descartadas": {
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Llaryora extiende beneficios y lanzó el Boleto Policial"
+          ]
+        },
         "titular sin tema de política/economía": {
-          "cantidad": 29,
+          "cantidad": 19,
           "ejemplos": [
             "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz",
             "Tesla abrió en Argentina: qué autos eléctricos vende",
@@ -117,11 +120,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 26,
+          "cantidad": 43,
           "ejemplos": [
-            "El oficialismo logró eliminar el sistema de colectoras y avanza con la suspensió",
-            "Confirman aumento en los valores del nomenclador para prestaciones de discapacid",
-            "Oficializan por decreto la designación de Jueces de Paz"
+            "El Índice de Confianza del Consumidor cayó 1,27% en noviembre",
+            "El Senado debate la Ley de Discapacidad en busca de su sanción",
+            "La Bolsa y Cámara de Cereales de Córdoba presentó la plataforma Biocomb y el Por"
           ]
         }
       }
@@ -129,20 +132,26 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 3,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 14,
-          "ejemplos": [
-            "La Estancia Jesuítica de Jesús María recibe un concierto de obras originales",
-            "Un fuerte sismo sacudió el centro de Perú",
-            "Marcha de la Gorra en Córdoba: cientos de personas salieron a la calle a pedir j"
-          ]
-        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Se registró una suba del dólar y el riesgo país superó los 1.000 puntos"
+            "Jair Bolsonaro fue internado debido a “fuertes dolores abdominales”"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 15,
+          "ejemplos": [
+            "Explosión en Remedios de Escalada: ya son cuatro las víctimas fatales",
+            "Accidente en la Panamericana deja tres muertos por un choque entre dos autos y u",
+            "Boca juega la final de la Copa Sudamericana ante Mineiro: hora, TV y formaciones"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Llaryora celebró el aniversario de la Policía de Córdoba y anunció la creación d"
           ]
         }
       }
