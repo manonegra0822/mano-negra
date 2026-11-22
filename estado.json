@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-21T14:52:44-03:00",
+  "actualizado": "2026-11-21T23:50:20-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,40 +9,32 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "Activista de derecha afirmó que Gustavo Petro presentó una tutela en su contra p",
-            "Un ataque con drones deja un barco ruso incendiado y anclado en el golfo de Finl",
-            "Marcelo Ebrard busca equilibrar el comercio entre México y China durante visita "
+            "Este es el precio de la gasolina en Lima hoy sábado 21 de noviembre",
+            "Llegaron los 49ers: San Francisco aterriza en la Ciudad de México para enfrentar",
+            "Once Caldas vs. Atlético Nacional en vivo: los verdolagas van por la revancha y "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 75,
-      "aceptadas": 6,
+      "leidas": 89,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 57,
+          "cantidad": 84,
           "ejemplos": [
-            "En qué canal pasan Defensa y Justicia vs. Barracas Central por el Torneo Clausur",
-            "Condecoraron en la embajada de Francia a las científicas argentinas Alicia Dicke",
-            "El detalle de los autos que puede costar 40.000 euros, pero que viene con una cl"
+            "Rodolfo Arruabarrena ya piensa en el Clausura y desafía a los campeones de Boca:",
+            "Leandro Paredes se desmayó en plena entrevista tras la consagración de Boca en l",
+            "Nacional de Clubes: Tala cumplió su largo anhelo y se quedó con la triple corona"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
-          "ejemplos": [
-            "El Niño y La Niña: un estudio argentino descubrió patrones de recurrencia y plan",
-            "Después de 100 años: el peso promedio de faena de la res bovina superó los 240 k",
-            "Súper Niño: anticipan focos con más de 100 milímetros, un drástico cambio de tem"
-          ]
-        },
-        "sin ancla argentina": {
           "cantidad": 3,
           "ejemplos": [
-            "Por qué subió el dólar: las causas detrás del salto de las cotizaciones de esta ",
-            "La fiebre por los mercados de predicción dispara alertas por el uso de datos con",
-            "Consumo estancado, compras y más competencia"
+            "Un Guernica político y un mercado implacable",
+            "El Niño y La Niña: un estudio argentino descubrió patrones de recurrencia y plan",
+            "Fuerte interés por SanCor: tres empresas quieren producir en plantas de la icóni"
           ]
         }
       }
@@ -75,10 +67,15 @@
       "leidas": 6,
       "aceptadas": 3,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "La crisis manda",
+            "Boca sigue haciendo historia y después de 18 años, ganó un título internacional"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 2,
+          "ejemplos": [
             "Los ricos ya no son lo que eran",
             "“Se estimula la sombra, lo más sombrío, lo más morboso”: el crudo editorial de L"
           ]
@@ -93,9 +90,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
-            "Marcha de la Gorra en Córdoba: 20 años de reclamos contra la violencia instituci",
-            "Un sismo de magnitud 6,7 sacudió Perú y se sintió en Ecuador",
-            "Córdoba unificará al equipo de salud: un reclamo histórico que UTS sostiene desd"
+            "Tala RC hizo historia: remontó un partidazo ante Newman y conquistó su primer Na",
+            "Parásitas, del “interior del interior” a Calle Corrientes",
+            "El femicidio es cosa de hombres"
           ]
         }
       }
@@ -103,16 +100,17 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 17,
+      "aceptadas": 14,
       "descartadas": {
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Boca es el nuevo campeón de la Sudamericana y alzó una copa internacional tras 1",
             "Llaryora extiende beneficios y lanzó el Boleto Policial"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 16,
           "ejemplos": [
             "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz",
             "Tesla abrió en Argentina: qué autos eléctricos vende",
@@ -120,11 +118,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 43,
+          "cantidad": 48,
           "ejemplos": [
-            "El Índice de Confianza del Consumidor cayó 1,27% en noviembre",
-            "El Senado debate la Ley de Discapacidad en busca de su sanción",
-            "La Bolsa y Cámara de Cereales de Córdoba presentó la plataforma Biocomb y el Por"
+            "Las exportaciones argentinas marcaron un nuevo récord",
+            "Caen bonos y acciones y sube el riesgo país",
+            "Femicidio de Daniela Villalba: imputaron a Iván Tabella y fue trasladado Bouwer"
           ]
         }
       }
@@ -132,20 +130,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 1,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 17,
+          "ejemplos": [
+            "Boca derrotó con autoridad al Mineiro y se consagró campeón de la Copa Sudameric",
+            "Franco Colapinto busca sumar en Las Vegas: hora y dónde ver la carrera",
+            "Independiente venció a Argentinos y jugará ante Vélez"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Jair Bolsonaro fue internado debido a “fuertes dolores abdominales”"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 15,
-          "ejemplos": [
-            "Explosión en Remedios de Escalada: ya son cuatro las víctimas fatales",
-            "Accidente en la Panamericana deja tres muertos por un choque entre dos autos y u",
-            "Boca juega la final de la Copa Sudamericana ante Mineiro: hora, TV y formaciones"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
