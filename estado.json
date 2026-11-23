@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-22T15:15:09-03:00",
+  "actualizado": "2026-11-23T00:31:22-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,91 +7,61 @@
       "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 100,
           "ejemplos": [
-            "Franco Navarro rechazó rival favorito para Alianza Lima en las finales de la Lig",
-            "Qué revela el desprecio sobre el riesgo de divorcio",
-            "Explosivas declaraciones de Verstappen contra George Russell tras sus cruces en "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Estiman que más de 500.000 hogares califican para acceder a un crédito hipotecar"
+            "Cómo revisar si tu router tiene la última actualización y cerrar el acceso remot",
+            "EN VIVO | Seguridad, narcotráfico y crimen en México hoy 22 de noviembre: “El Ch",
+            "San Francisco vs Minnesota Vikings EN VIVO NFL en México: empieza el show de med"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 14,
+      "leidas": 92,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 67,
+          "cantidad": 76,
           "ejemplos": [
-            "Carlos Alcaraz ante Alexander Zverev, en la final del ATP Finals en Turín",
-            "Así quedó la tabla de posiciones del grupo de la selección argentina Sub 17 en e",
-            "Quién toca en el Movistar Arena hoy: todos los recitales de la semana del 23 al "
+            "La isla en plena urbe carioca que guarda una joyita gourmet",
+            "Vivía en París, volvió a Argentina y halló una forma de mitigar el choque cultur",
+            "Formosa: fábrica infantil del pensamiento único"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 6,
           "ejemplos": [
-            "Fuerte interés por SanCor: tres empresas quieren producir en plantas de la icóni",
-            "El Niño y La Niña: un estudio argentino descubrió patrones de recurrencia y plan",
-            "Calendario Anses: comienza el pago de las prestaciones sociales que se cobran en"
+            "De la Confederación Diaguita-Calchaquí: Chalimín, el líder indígena que defendió",
+            "Después de afirmar que no impediría el homenaje a Santucho, la UBA analiza puert",
+            "Chalimín, el líder indígena que defendió la tierra y la libertad"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 5,
           "ejemplos": [
-            "Victoria Villarruel embistió contra Quirno y denunció gastos en Cancillería",
-            "Fecha límite: hasta qué día me pueden pagar el aguinaldo en diciembre 2026",
-            "Aguinaldo de diciembre 2026: cuándo se paga y el cálculo para saber cuánto se co"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
+            "El Gobierno le pidió a la UBA que no se realice el homenaje a Mario Roberto Sant",
+            "Nuevos desafíos, con la palabra oficialista devaluada",
+            "Los jueces y fiscales de Comodoro Py esperan la cuarta postergación del sistema "
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "leidas": 10,
-      "aceptadas": 0,
+      "error": "no se pudo leer el feed (<urlopen error timed out>)"
+    },
+    {
+      "medio": "Página/12",
+      "leidas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "Córdoba: capital de la música en vivo",
-            "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
-            "La soberanía es un sueño eterno"
-          ]
-        },
-        "muy vieja": {
-          "cantidad": 7,
-          "ejemplos": [
-            "El delito de tener la heladera vacía",
-            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
-            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
-          ]
-        }
-      }
-    },
-    {
-      "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 4,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Qué le pasó a Leandro Paredes tras la consagración de Boca en la Copa Sudamerica",
-            "El caso de Stella Chaves y la máquina de criminalizar el hambre"
+            "Fuera de servicio: ¿cuán vulnerable es Argentina si su sistema “se cae”?",
+            "“Sin la papelera, se muere una parte del pueblo”",
+            "Liga Profesional: a River le costó, pero se impuso y eliminó a Lanús"
           ]
         }
       }
@@ -99,14 +69,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
-            "Una fuerte tormenta con granizo provocó destrozos y anegamientos",
-            "Un ataque ruso destruyó un edificio en Ucrania y hay 14 personas desaparecidas",
-            "Un detenido por robos registrados en cámaras y una moto incendiada tras un inten"
+            "Con uno menos, Instituto derrotó 2 a 1 a Huracán y pasó a cuartos de final",
+            "Trump confirmó un ciberataque contra la base nacional de datos criminales del FB",
+            "Más de 3.000 personas participaron de la primera edición de UNC Corre"
           ]
         }
       }
@@ -114,8 +84,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Fórmula 1: Colapinto terminó sexto en Las Vegas"
+          ]
+        },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 2,
           "ejemplos": [
@@ -123,19 +99,12 @@
             "Llaryora extiende beneficios y lanzó el Boleto Policial"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz",
-            "Tesla abrió en Argentina: qué autos eléctricos vende"
-          ]
-        },
         "muy vieja": {
           "cantidad": 73,
           "ejemplos": [
-            "La Corte Suprema actualizó su Régimen de Contrataciones y publicó los textos ord",
-            "El Ministerio de Economía reglamenta los acuerdos mutuos por doble imposición",
-            "Trabajador rural: acortan el trámite para extender el seguro de desempleo"
+            "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz",
+            "Tesla abrió en Argentina: qué autos eléctricos vende",
+            "La Corte Suprema actualizó su Régimen de Contrataciones y publicó los textos ord"
           ]
         }
       }
@@ -148,9 +117,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 18,
           "ejemplos": [
-            "River recibe a Lanús por los octavos del Clausura: hora, formaciones y dónde ver",
-            "Argentina consiguió su primera victoria en el Mundial Sub-17 y sigue en carrera",
-            "Lavado de dinero: más denuncias contra Beligoy en la causa AFA"
+            "Instituto derrotó a Huracán y se metió en los cuartos de final del Clausura",
+            "Alcaraz venció a Zverev en Turín y se quedó con el ATP Finals",
+            "River venció a Lanús y está entre los mejores ocho del Clausura"
           ]
         }
       }
