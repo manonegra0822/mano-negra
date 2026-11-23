@@ -1,67 +1,86 @@
 {
-  "actualizado": "2026-11-23T00:31:22-03:00",
+  "actualizado": "2026-11-23T19:27:24-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 99,
           "ejemplos": [
-            "Cómo revisar si tu router tiene la última actualización y cerrar el acceso remot",
-            "EN VIVO | Seguridad, narcotráfico y crimen en México hoy 22 de noviembre: “El Ch",
-            "San Francisco vs Minnesota Vikings EN VIVO NFL en México: empieza el show de med"
+            "Última hora de las elecciones generales del 29-N, en directo | Gabriel Rufían (E",
+            "Así viajan los costarricenses: Guanacaste es el destino favorito, gastan menos d",
+            "Jorge Campos visita a Yolanda Andrade y le levanta el ánimo entre bromas sobre s"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 5,
+      "leidas": 91,
+      "aceptadas": 8,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 76,
+        "titular sin tema de política/economía": {
+          "cantidad": 7,
           "ejemplos": [
-            "La isla en plena urbe carioca que guarda una joyita gourmet",
-            "Vivía en París, volvió a Argentina y halló una forma de mitigar el choque cultur",
-            "Formosa: fábrica infantil del pensamiento único"
+            "Habló el hijo de Mario Santucho y defendió el homenaje a su padre en la UBA",
+            "El Colegio Público de la Abogacía repudió el homenaje a Santucho en la UBA",
+            "Yacobitti cuestionó el homenaje a Santucho en la Facultad de Ciencias Sociales d"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 6,
+        "sección no permitida": {
+          "cantidad": 70,
           "ejemplos": [
-            "De la Confederación Diaguita-Calchaquí: Chalimín, el líder indígena que defendió",
-            "Después de afirmar que no impediría el homenaje a Santucho, la UBA analiza puert",
-            "Chalimín, el líder indígena que defendió la tierra y la libertad"
+            "El emotivo homenaje de Marta Fort a su papá en MasterChef Celebrity: “Fue su últ",
+            "Reintrodujeron tortugas gigantes en una isla y seis meses después ya se había re",
+            "Misterio en Merlo: un ladrón de 16 años murió baleado en un asalto y no se sabe "
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 5,
+          "cantidad": 6,
           "ejemplos": [
-            "El Gobierno le pidió a la UBA que no se realice el homenaje a Mario Roberto Sant",
-            "Nuevos desafíos, con la palabra oficialista devaluada",
-            "Los jueces y fiscales de Comodoro Py esperan la cuarta postergación del sistema "
+            "El Gobierno envió una carta formal a la UBA en la que pidió sancionar a quienes ",
+            "La volatilidad financiera y los bolsillos flacos complican el repunte antes de l",
+            "Mejora en las góndolas: luego de nueve meses de caída, el consumo masivo mostró "
           ]
         }
       }
     },
     {
       "medio": "La tinta",
-      "error": "no se pudo leer el feed (<urlopen error timed out>)"
-    },
-    {
-      "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 1,
+      "leidas": 10,
+      "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 3,
           "ejemplos": [
-            "Fuera de servicio: ¿cuán vulnerable es Argentina si su sistema “se cae”?",
-            "“Sin la papelera, se muere una parte del pueblo”",
-            "Liga Profesional: a River le costó, pero se impuso y eliminó a Lanús"
+            "Córdoba: capital de la música en vivo",
+            "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
+            "La soberanía es un sueño eterno"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 7,
+          "ejemplos": [
+            "El delito de tener la heladera vacía",
+            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
+            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
+          ]
+        }
+      }
+    },
+    {
+      "medio": "Página/12",
+      "leidas": 6,
+      "aceptadas": 1,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 5,
+          "ejemplos": [
+            "Otro modelo para poder vivir mejor",
+            "Sobre la importancia de la presencia de Mario Roberto Santucho en la Facultad de",
+            "España se juega su futuro político este domingo"
           ]
         }
       }
@@ -69,14 +88,26 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 10,
           "ejemplos": [
-            "Con uno menos, Instituto derrotó 2 a 1 a Huracán y pasó a cuartos de final",
-            "Trump confirmó un ciberataque contra la base nacional de datos criminales del FB",
-            "Más de 3.000 personas participaron de la primera edición de UNC Corre"
+            "El Reino Unido esquiva definiciones antes del fallo del Tribunal del Mar por Mal",
+            "Una cantante iraní recibió 74 latigazos por presentarse sin velo durante un conc",
+            "La UOM rechazó la oferta de Pauny y sigue la toma en Las Varillas"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Polémica en la UBA por el homenaje a Santucho: choque con el Gobierno"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Rusia y Ucrania elevan la tensión internacional con operaciones en Libia y amena"
           ]
         }
       }
@@ -84,27 +115,28 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 4,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 4,
           "ejemplos": [
-            "Fórmula 1: Colapinto terminó sexto en Las Vegas"
+            "Chubut, el mejor lugar del mundo para observar el eclipse solar anular de 2027",
+            "Minor Hotels anunció sus nuevas aperturas para 2027",
+            "Turkish Airlines fue reconocida por séptima como aerolínea global cinco estrella"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Boca es el nuevo campeón de la Sudamericana y alzó una copa internacional tras 1",
-            "Llaryora extiende beneficios y lanzó el Boleto Policial"
+            "Boca es el nuevo campeón de la Sudamericana y alzó una copa internacional tras 1"
           ]
         },
         "muy vieja": {
-          "cantidad": 73,
+          "cantidad": 69,
           "ejemplos": [
-            "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz",
-            "Tesla abrió en Argentina: qué autos eléctricos vende",
-            "La Corte Suprema actualizó su Régimen de Contrataciones y publicó los textos ord"
+            "Llaryora extiende beneficios y lanzó el Boleto Policial",
+            "Milei celebró la llegada de Tesla a Argentina y habló del rol del Estado",
+            "Pity Álvarez fue condenado a 12 años de prisión por el crimen de Cristian Díaz"
           ]
         }
       }
@@ -112,14 +144,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 18,
+          "cantidad": 17,
           "ejemplos": [
-            "Instituto derrotó a Huracán y se metió en los cuartos de final del Clausura",
-            "Alcaraz venció a Zverev en Turín y se quedó con el ATP Finals",
-            "River venció a Lanús y está entre los mejores ocho del Clausura"
+            "La Calera: la FPA secuestró tussi, MDMA y cocaína en una fiesta electrónica",
+            "Colapinto y Gasly van por un milagro millonario para Alpine",
+            "El femenino de Talleres bajó a River y se jugará el campeonato ante Boca en la ú"
           ]
         }
       }
