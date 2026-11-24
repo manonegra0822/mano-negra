@@ -1,55 +1,48 @@
 {
-  "actualizado": "2026-11-24T03:46:51-03:00",
+  "actualizado": "2026-11-24T14:28:43-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 9,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 88,
+          "cantidad": 98,
           "ejemplos": [
-            "Qué es de Inés Arrimadas, la exlíder de Ciudadanos que dejó la política y trabaj",
-            "Sorteo Chontico Noche hoy, lunes 23 de noviembre de 2026: verifica aquí el resul",
-            "Abelardo de la Espriella cuestionó el Acuerdo de Paz de La Habana: “La falsa paz"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Alivio para el Gobierno: volvió la calma a los mercados justo cuando empezaban a",
-            "¿El dólar empieza a inquietar?: el mercado vuelve a cubrirse ante una eventual s",
-            "La huella de León XIV: el proyecto sobre ludopatía agrega un tema ineludible y a"
+            "Diez años de la firma del Acuerdo de Paz | Más de 70 parlamentarios británicos l",
+            "EN VIVO| Bloqueos en carreteras, accidentes y manifestaciones hoy 24 de noviembr",
+            "Dónde ver Miss Universo 2026 EN VIVO en Perú: canales de TV y plataformas de str"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 5,
+      "leidas": 87,
+      "aceptadas": 10,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 75,
+          "cantidad": 65,
           "ejemplos": [
-            "Caso Ueno Bank: detuvieron al hermano del expresidente paraguayo Santiago Peña",
-            "Milei ante senderos que se bifurcan",
-            "ICE en aeropuertos: inmigrantes con green card son detenidos por antecedentes de"
+            "La historia de Diego Flores: de traductor de Bielsa a la sensación del Clausura,",
+            "Circuito Mundial de Seven 2026-2027: este es el cronograma de la temporada, con ",
+            "A 90 años del primer Nobel latinoamericano: lecciones (politológicas) de Saavedr"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "El dólar supera los $1600 y el riesgo país pasa los 1100 puntos",
+            "Victoria Villarruel se refirió al homenaje a Santucho en la UBA y apuntó contra ",
+            "Cinco razones por las que la economía podría entrar en recesión"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 9,
           "ejemplos": [
-            "Andrés Malamud, analista político, sobre el homenaje a Santucho: “La universidad",
-            "De la Confederación Diaguita-Calchaquí: Chalimín, el líder indígena que defendió",
-            "Tiene 73 años: comenzó como piloto aéreo, compró una empresa de pulverizaciones "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 2,
-          "ejemplos": [
-            "Arrancó una semana decisiva para la suspensión de las PASO y la reforma electora",
-            "El Gobierno recibió el mensaje de la Iglesia por la ley de ludopatía, pero no va"
+            "Calendario Anses: cuándo cobro la AUH en noviembre 2026 si mi DNI termina en 7",
+            "La Facultad de Ciencias Sociales de la UBA convocó a una reunión extraordinaria ",
+            "Las afiliaciones caen a su nivel más bajo en 27 años y casi el 80% de los electo"
           ]
         }
       }
@@ -60,38 +53,33 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
-            "Córdoba: capital de la música en vivo",
-            "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
-            "La soberanía es un sueño eterno"
+            "San Isidro-La Quintana: un conflicto inmobiliario pone en discusión el ordenamie",
+            "Córdoba: capital de la música en vivo"
           ]
         },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 8,
           "ejemplos": [
-            "El delito de tener la heladera vacía",
-            "Monjas negras electrificadas vs. el súper papa Juan Pablo II",
-            "De las elecciones que estremecen al mundo a las calles que arden contra el malvi"
+            "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
+            "La soberanía es un sueño eterno",
+            "El delito de tener la heladera vacía"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 2,
+      "leidas": 6,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "El montaje oficial por el homenaje a Santucho"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Tras el escándalo por sus romances, Nvidia restituyó a Jensen Huang como preside"
+            "Brasil retira definitivamente a su embajador y se profundiza el deterioro del ví",
+            "El montaje oficial por el homenaje a Santucho",
+            "Las confesiones del papa Francisco en su diario íntimo: los encuentros con el di"
           ]
         }
       }
@@ -99,21 +87,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 15,
           "ejemplos": [
-            "Tapa 24-11-26",
-            "Viñeta de Jericles – 24-11-26",
-            "El festival Pulso Urbano confirmó sedes y horarios de su programación"
+            "«Qué se puede hacer, salvo ver películas» con aires de Charly",
+            "La Copa América 2028 se jugará en Estados Unidos y tendrá un nuevo formato",
+            "Ya están habilitadas las entradas para el Bum Bum"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "La serie argentina División Palermo ganó su segundo Emmy Internacional a mejor c",
-            "Polémica en la UBA por el homenaje a Santucho: choque con el Gobierno"
+            "Talleres prepara una nueva edición de su Campus de verano: fechas, precios e ins"
           ]
         }
       }
@@ -121,22 +108,28 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 7,
+      "aceptadas": 17,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 8,
+          "cantidad": 19,
           "ejemplos": [
-            "Cómo presentarse para un trabajo: capacitarán a jóvenes profesionales para su in",
-            "Finde XXL: el turismo cayó 17,4%, según CAME",
-            "JOY Airline inició sus vuelos entre Córdoba y Jujuy"
+            "El estrés frena la demanda aérea: 4 de cada 10 viajeros dejan de viajar por este",
+            "Coderhouse desembarca en Estados Unidos con una meta de más de 5.000 estudiantes",
+            "Victoria’s Secret inauguró su primer local en Córdoba"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Ueno, viejo pecado bancario con sello digital"
           ]
         },
         "muy vieja": {
-          "cantidad": 65,
+          "cantidad": 43,
           "ejemplos": [
+            "El oficialismo apura la reforma electoral en el Congreso",
             "Boca es el nuevo campeón de la Sudamericana y alzó una copa internacional tras 1",
-            "El consumo masivo creció en octubre por primera vez en el año",
-            "Llaryora extiende beneficios y lanzó el Boleto Policial"
+            "El consumo masivo creció en octubre por primera vez en el año"
           ]
         }
       }
@@ -144,14 +137,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
-            "Batalla campal y tres expulsados en el final de Gimnasia vs. Newell's",
-            "“Herbario del sentimiento”: una muestra sobre plantas y vínculos afectivos en Có",
-            "Julio Bocca dejará la dirección del Ballet Estable del Teatro Colón"
+            "Paro Nacional Universitario este miércoles: cómo será la protesta en la UNC",
+            "Las Leonas y Los Leones en Córdoba: cuánto cuestan las entradas para verlos",
+            "Foro en la UNC: el impacto de la Inteligencia Artificial en cinco áreas clave"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Exitosa edición del Festival Internacional de Jazz de Córdoba"
           ]
         }
       }
