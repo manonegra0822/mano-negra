@@ -39,16 +39,44 @@ jobs:
         with:
           python-version: "3.12"
 
+      # GitHub atrasa mucho sus horarios programados (a veces 6-8 horas). El disparo puntual lo hace
+      # una tarea programada externa; el horario de GitHub queda solo de respaldo y no corre de madrugada
+      # ni si ya hubo una actualización en las últimas 4 horas.
+      - name: Ver si hace falta actualizar
+        id: ver
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, datetime as dt, os
+          from zoneinfo import ZoneInfo
+          ahora = dt.datetime.now(ZoneInfo("America/Argentina/Cordoba"))
+          seguir = "si"
+          if os.environ.get("EVENTO") == "schedule":
+              try:
+                  ult = dt.datetime.fromisoformat(json.load(open("estado.json"))["actualizado"])
+                  reciente = (ahora - ult).total_seconds() < 4 * 3600
+              except Exception:
+                  reciente = False
+              if reciente or not (7 <= ahora.hour < 23):
+                  seguir = "no"
+          print("seguir=" + seguir)
+          PY
+        env:
+          EVENTO: ${{ github.event_name }}
+
       - name: Instalar detector de rostros (para encuadrar las fotos)
+        if: steps.ver.outputs.seguir == 'si'
         run: pip install numpy pillow scikit-image
 
       - name: Actualizar dólar y riesgo país (si la fuente no responde, queda el último valor)
+        if: steps.ver.outputs.seguir == 'si'
         run: python dolar.py || true
 
       - name: Armar las notas del día
+        if: steps.ver.outputs.seguir == 'si'
         run: python build.py
 
       - name: Guardar cambios
+        if: steps.ver.outputs.seguir == 'si'
         run: |
           git config user.name "mano-negra-bot"
           git config user.email "mano-negra-bot@users.noreply.github.com"
