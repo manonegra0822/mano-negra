@@ -1,48 +1,54 @@
 {
-  "actualizado": "2026-11-24T14:28:43-03:00",
+  "actualizado": "2026-11-24T19:53:07-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 96,
           "ejemplos": [
-            "Diez años de la firma del Acuerdo de Paz | Más de 70 parlamentarios británicos l",
-            "EN VIVO| Bloqueos en carreteras, accidentes y manifestaciones hoy 24 de noviembr",
-            "Dónde ver Miss Universo 2026 EN VIVO en Perú: canales de TV y plataformas de str"
+            "Paola Suárez se reconcilia con su mamá en La Mansión VIP 2: la influencer tenía ",
+            "Inés Gómez Mont salió de Estados Unidos de forma voluntaria, según Departamento ",
+            "EN VIVO | Seguridad, narcotráfico y crimen en México hoy 24 de noviembre: “El Ch"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La Facultad de Ciencias Sociales de la UBA suspendió el polémico homenaje al ter"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 87,
-      "aceptadas": 10,
+      "leidas": 85,
+      "aceptadas": 11,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 65,
+          "cantidad": 55,
           "ejemplos": [
-            "La historia de Diego Flores: de traductor de Bielsa a la sensación del Clausura,",
-            "Circuito Mundial de Seven 2026-2027: este es el cronograma de la temporada, con ",
-            "A 90 años del primer Nobel latinoamericano: lecciones (politológicas) de Saavedr"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El dólar supera los $1600 y el riesgo país pasa los 1100 puntos",
-            "Victoria Villarruel se refirió al homenaje a Santucho en la UBA y apuntó contra ",
-            "Cinco razones por las que la economía podría entrar en recesión"
+            "Antonela Roccuzzo abrió el álbum de su noviembre más movido: desde un cumple fam",
+            "Sin términos medios: la nueva película de Brad Pitt pasará de exhibirse en solo ",
+            "Un exluchador de MMA ahorcó y mató a un turista estadounidense tras una discusió"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 9,
+          "cantidad": 12,
           "ejemplos": [
-            "Calendario Anses: cuándo cobro la AUH en noviembre 2026 si mi DNI termina en 7",
-            "La Facultad de Ciencias Sociales de la UBA convocó a una reunión extraordinaria ",
-            "Las afiliaciones caen a su nivel más bajo en 27 años y casi el 80% de los electo"
+            "Vacunos: comenzó la semana con subas en el Mercado Agroganadero de Cañuelas",
+            "Tras un debate interno, la Facultad de Ciencias Sociales canceló el homenaje a M",
+            "Impacto en la causa Andis: uno de los acusados reconoció haber trabajado como lo"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 7,
+          "ejemplos": [
+            "Biocombustibles: venció el plazo para dictaminar y la pelea por el biodiésel sig",
+            "El fiscal Stornelli pidió frenar el homenaje a Santucho y un exjuez denunció a l",
+            "La oposición cargó contra el Gobierno por la recesión técnica de la economía: “N"
           ]
         }
       }
@@ -72,14 +78,12 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 1,
           "ejemplos": [
-            "Brasil retira definitivamente a su embajador y se profundiza el deterioro del ví",
-            "El montaje oficial por el homenaje a Santucho",
-            "Las confesiones del papa Francisco en su diario íntimo: los encuentros con el di"
+            "Brasil retira definitivamente a su embajador y se profundiza el deterioro del ví"
           ]
         }
       }
@@ -87,20 +91,21 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 11,
           "ejemplos": [
-            "«Qué se puede hacer, salvo ver películas» con aires de Charly",
-            "La Copa América 2028 se jugará en Estados Unidos y tendrá un nuevo formato",
-            "Ya están habilitadas las entradas para el Bum Bum"
+            "El 41% de los hogares con niños o adolescentes no llega a cubrir los gastos del ",
+            "Un tribunal europeo frenó la venta de un SUV chino por copiar un diseño clásico",
+            "Solana Sierra se repuso de un inicio adverso y avanzó de ronda en Buenos Aires"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+        "otro país": {
+          "cantidad": 2,
           "ejemplos": [
-            "Talleres prepara una nueva edición de su Campus de verano: fechas, precios e ins"
+            "El Congreso de Brasil aprobó el ajuste fiscal impulsado por Lula",
+            "Malvinas: Santilli ratifica que el Tribunal Internacional del Mar se pronunciará"
           ]
         }
       }
@@ -108,14 +113,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 17,
+      "aceptadas": 24,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 19,
+          "cantidad": 20,
           "ejemplos": [
-            "El estrés frena la demanda aérea: 4 de cada 10 viajeros dejan de viajar por este",
-            "Coderhouse desembarca en Estados Unidos con una meta de más de 5.000 estudiantes",
-            "Victoria’s Secret inauguró su primer local en Córdoba"
+            "Córdoba: 36% de los hogares de la provincia es pobre multidimensional",
+            "Abatieron al jefe del servicio de inteligencia interior de Hamás",
+            "El estrés frena la demanda aérea: 4 de cada 10 viajeros dejan de viajar por este"
           ]
         },
         "otro país": {
@@ -125,11 +130,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 43,
+          "cantidad": 35,
           "ejemplos": [
-            "El oficialismo apura la reforma electoral en el Congreso",
-            "Boca es el nuevo campeón de la Sudamericana y alzó una copa internacional tras 1",
-            "El consumo masivo creció en octubre por primera vez en el año"
+            "Fórmula 1: Colapinto terminó sexto en Las Vegas",
+            "Milei volvió a defender la gestión del oro del Banco Central",
+            "El oficialismo apura la reforma electoral en el Congreso"
           ]
         }
       }
@@ -137,14 +142,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 8,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 11,
           "ejemplos": [
-            "Paro Nacional Universitario este miércoles: cómo será la protesta en la UNC",
-            "Las Leonas y Los Leones en Córdoba: cuánto cuestan las entradas para verlos",
-            "Foro en la UNC: el impacto de la Inteligencia Artificial en cinco áreas clave"
+            "Altas Cumbres: rescataron a una pareja perdida",
+            "Persecución en Córdoba: murió un policía tras el choque contra un camión",
+            "Galperin: poder concentrado y rechazo al Estado"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
