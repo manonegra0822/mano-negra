@@ -1,48 +1,61 @@
 {
-  "actualizado": "2026-11-25T17:23:05-03:00",
+  "actualizado": "2026-11-25T19:53:19-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 5,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
           "cantidad": 95,
           "ejemplos": [
-            "EN VIVO| Bloqueos en carreteras, accidentes y manifestaciones 25 de noviembre",
-            "Lille vs. Bayern Múnich EN VIVO: GOL del Bayern, sin el colombiano Luis Díaz en ",
-            "Atlético de Madrid - Viking, el partido de Champions en directo: Sorloth adelant"
+            "Un juez de Nueva York avaló el congelamiento de alquileres promovido por Mamdani",
+            "EN VIVO| Bloqueos en carreteras, accidentes y manifestaciones 25 de noviembre: I",
+            "45.000 mujeres usan trapos durante la menstruación por falta de dinero: el Congr"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Matías Kulfas alertó por el estancamiento de la economía: “No veo ningún motor q",
+            "Horacio Rodríguez Larreta y el Turco García se mostraron juntos y sumaron una fo",
+            "El Senado debatirá mañana la suspensión de las PASO y la ley de ludopatía"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Después de avisar que podría cerrar sus plantas, el número uno regional de Stell"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 94,
-      "aceptadas": 9,
+      "leidas": 91,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 68,
+          "cantidad": 74,
           "ejemplos": [
-            "Se le acaba el tiempo a Greg Abbott: los 19 condados en Texas que todavía no se ",
-            "Champions League, EN VIVO: el minuto a minuto de los partidos",
-            "De un mosaico romano y una camisa manchada de sangre a un bagel relleno de cerdo"
+            "Gabriel Rolón, psicoanalista, explica cómo los mandatos inconscientes influyen e",
+            "Pilar Sordo, psicóloga, explica el poder (oculto) que tiene el diálogo interno p",
+            "Murió Jeanine Grasmeijer, la apneísta récord del mundo, a los 33 años"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 10,
           "ejemplos": [
-            "Comenzaron sin oficinas, con dos camionetas que debían y acaban de inaugurar una",
-            "Más allá de la inteligencia artificial: las habilidades que ganan protagonismo e",
-            "Empresas agénticas: qué son y cómo pueden transformar el funcionamiento de un ne"
+            "Histórico: la cosecha de granos tuvo un fenomenal aumentó del 21% y marcó un nue",
+            "De vender 30 entradas a superar los 2000 millones de visualizaciones por mes: la",
+            "La industria cayó en octubre y acumuló una baja de hasta 2,6% en diez meses"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 6,
+          "cantidad": 2,
           "ejemplos": [
-            "El juez retó a Chiqui Tapia y le subió el monto que debe pagar para salir del pa",
-            "Heladas, falta de sol y vuelco: las enseñanzas que dejó la campaña de trigo",
-            "Economía de la salud y de la medicina prepaga"
+            "$LIBRA: los jueces recusados pidieron que no los aparten y se hará un sorteo cla",
+            "La libertaria Lorena Villaverde presentó un amparo contra el Congreso y anunció "
           ]
         }
       }
@@ -72,12 +85,13 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "“Diego está vivo”: el conmovedor homenaje de Víctor Hugo Morales a Maradona a 6 "
+            "“Nos matan solo por existir”, el grito de la marcha del 25N",
+            "La Policía de la Ciudad, cada vez más violenta en el espacio público"
           ]
         }
       }
@@ -85,14 +99,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 10,
           "ejemplos": [
-            "El currículum que nadie quiso leer: cuando la discapacidad se convierte en una b",
-            "Estatales se movilizaron contra la suba de aportes y anunciaron un plan de lucha",
-            "“Gordon” en cifras, el despliegue de la serie que recrea la Argentina de los año"
+            "Germán Romero: En algunos mayoristas hay faltante de aceites y harinas",
+            "Las ventas en supermercados registraron una caída del 3% interanual en septiembr",
+            "Argentina recibe a Bahamas con la clasificación al Mundial en la mira"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Estados Unidos anunció nuevos aranceles contra 14 economías"
           ]
         }
       }
@@ -103,7 +123,7 @@
       "aceptadas": 36,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 36,
+          "cantidad": 33,
           "ejemplos": [
             "Declaran el Estado de Desastre en San Francisco luego de los daños del 19 de nov",
             "Actualizan el aporte fijo para el Fondo Fiduciario de Enfermedades Profesionales",
@@ -117,11 +137,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 10,
           "ejemplos": [
-            "La CABA tiene la menor carga tributaria sobre 33 ciudades del país",
-            "Fórmula 1: Colapinto terminó sexto en Las Vegas",
-            "Milei volvió a defender la gestión del oro del Banco Central"
+            "Chubut, el mejor lugar del mundo para observar el eclipse solar anular de 2027",
+            "Minor Hotels anunció sus nuevas aperturas para 2027",
+            "La Ruta de las Estrellas en el Valle de Punilla recibió distinción internacional"
           ]
         }
       }
@@ -129,20 +149,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 8,
       "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 11,
+          "ejemplos": [
+            "Epec informó una batería de cortes de luz programados para este jueves en Córdob",
+            "Se conocieron los árbitros para los cuartos del Clausura: quién estará en Instit",
+            "Femicidio de Agostina Vega: se sorteó la cámara que llevará adelante el juicio"
+          ]
+        },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
             "Provincias Unidas presentó un proyecto de rechazo a las declaraciones de Pablo Q"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 13,
-          "ejemplos": [
-            "Martín Díaz fue indagado por la golpiza en barrio Docta y por otro hecho de 2024",
-            "Con un gol de Baroni, Argentina dio vuelta un 0-2 y se clasificó en el Mundial S",
-            "Talleres va por las semifinales en Reserva: recibe a Estudiantes en La Boutique"
           ]
         }
       }
@@ -181,9 +201,9 @@
         "muy vieja": {
           "cantidad": 4,
           "ejemplos": [
+            "\"Caja negra\", basura y poder sindical: Juan Negri le reclamó a Passerini la diso",
             "Mendiolaza abre el registro de oposición para una obra de gas que beneficiará a ",
-            "La Iglesia le pidió al Senado que apruebe la ley contra la ludopatía: “No dejen ",
-            "Instituto y la ilusión del técnico Diego Flores"
+            "La Iglesia le pidió al Senado que apruebe la ley contra la ludopatía: “No dejen "
           ]
         }
       }
