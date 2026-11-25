@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T07:54:02-03:00",
+  "actualizado": "2026-11-25T12:54:12-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -9,15 +9,15 @@
         "sección no permitida": {
           "cantidad": 99,
           "ejemplos": [
-            "El gasto en I+D superó los 25.000 millones en 2025 y se sitúa en el 1,5 por cien",
-            "En libertad Mikel Otegi, condenado a 34 años por asesinar a dos ertzainas en Its",
-            "La brecha salarial se amplía al 18 % y las mujeres cobran unos 500 euros brutos "
+            "Sabah - FC Barcelona, en directo: previa y última hora del partido de Champions ",
+            "La Sonora Santanera dará concierto gratis en la GAM por el centenario de la Colo",
+            "Hombres protagonizarán nueva campaña del gobierno de México contra la violencia "
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Edgardo Kueider pidió a la Justicia de Entre Ríos que precise la acusación en su"
+            "El papa León XIV nombró a García Cuerva en un nuevo cargo del Vaticano vinculado"
           ]
         }
       }
@@ -25,36 +25,30 @@
     {
       "medio": "La Nación",
       "leidas": 92,
-      "aceptadas": 13,
+      "aceptadas": 12,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 69,
+          "cantidad": 71,
           "ejemplos": [
-            "Quién ganó el Miss Universo 2026: la candidata de 27 años que se coronó en Puert",
-            "Germán Berterame, el argentino que llegó como estrella al Inter Miami de Messi y",
-            "Qué se sabe de la búsqueda de Raúl Moyano en Tucumán, tras un mes desaparecido: "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 6,
-          "ejemplos": [
-            "Comenzaron sin oficinas, con dos camionetas que debían y acaban de inaugurar una",
-            "SUAF de Anses: el monto de las asignaciones familiares en diciembre de 2026",
-            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en diciembre 2026"
+            "Argentina vs. Dinamarca, en el Mundial Sub 17, EN VIVO: el minuto a minuto del p",
+            "Nadia Podoroska, en su vuelta al WTA 125 Argentina Open: “Llegué a verme afuera ",
+            "La lucha de Colin Farrell contra el alcoholismo: “Empecé a beber a los 13 años”"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 3,
           "ejemplos": [
-            "Fecha límite: hasta qué día me pueden pagar el aguinaldo en diciembre 2026",
-            "Aguinaldo de diciembre 2026: cuándo se paga y el cálculo para saber cuánto se co",
-            "Según una encuesta: el agro empieza a recortar planes de inversión"
+            "El riesgo país supera los 1100 puntos y el dólar quiebra su récord nominal",
+            "La cruzada por Malvinas se le volvió un bumerán al Gobierno entre las empresas q",
+            "PASO en el Senado y Presupuesto en Diputados: así quedó la agenda del Congreso d"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 6,
           "ejemplos": [
-            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
+            "Una ejecutiva reveló cuál será el verdadero diferencial en la era de la IA",
+            "15.400 personas perdieron más de US$13 millones tras copiar la cartera de un esp",
+            "La caja de la basura: el pago de millones por horas extras desató un escándalo p"
           ]
         }
       }
@@ -67,16 +61,16 @@
         "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "San Isidro-La Quintana: un conflicto inmobiliario pone en discusión el ordenamie",
-            "Córdoba: capital de la música en vivo"
+            "¿Otra vez hay que explicarlo? Un 25N para repetir lo que ya está dicho",
+            "San Isidro-La Quintana: un conflicto inmobiliario pone en discusión el ordenamie"
           ]
         },
         "muy vieja": {
           "cantidad": 8,
           "ejemplos": [
+            "Córdoba: capital de la música en vivo",
             "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
-            "La soberanía es un sueño eterno",
-            "El delito de tener la heladera vacía"
+            "La soberanía es un sueño eterno"
           ]
         }
       }
@@ -84,14 +78,13 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "No habrá homenaje a Santucho en Sociales",
-            "Brasil retira definitivamente a su embajador y se profundiza el deterioro del ví",
-            "La CIA sufrió un hackeo que expuso información no clasificada"
+            "“Diego está vivo”: el conmovedor homenaje de Víctor Hugo Morales a Maradona a 6 "
           ]
         }
       }
@@ -99,14 +92,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 9,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 16,
           "ejemplos": [
-            "El 41% de los hogares con niños o adolescentes no llega a cubrir los gastos del ",
-            "Gordon: una serie que incomoda, una historia que no termina de contar",
-            "Un policía murió en un choque durante una persecución"
+            "Belgrano e Instituto definirán la Copa Córdoba 2025: horario, entradas y todo lo",
+            "“El cuarto de Verónica” vuelve a la escena de Córdoba",
+            "Maradona: convocan a un encuentro cultural en Córdoba a seis años de su muerte"
           ]
         }
       }
@@ -117,11 +110,11 @@
       "aceptadas": 30,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 29,
+          "cantidad": 32,
           "ejemplos": [
-            "Las compras por courier superaron los US$1.000 millones y marcan un récord en 20",
-            "El litio ya genera cerca de 35.000 empleos en el norte argentino",
-            "Impulsan más herramientas para fortalecer el acceso a la justicia y la protecció"
+            "Ir al gimnasio en Córdoba cuesta en promedio $ 43.000 por mes, 16% menos que en ",
+            "Copa Airlines celebra 27 años desde su desembarco en Argentina",
+            "Black Friday: Anker lanzó descuento de 60% en su innovador parlante portátil"
           ]
         },
         "otro país": {
@@ -131,11 +124,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 20,
+          "cantidad": 17,
           "ejemplos": [
+            "La CABA tiene la menor carga tributaria sobre 33 ciudades del país",
             "Fórmula 1: Colapinto terminó sexto en Las Vegas",
-            "Milei volvió a defender la gestión del oro del Banco Central",
-            "El oficialismo apura la reforma electoral en el Congreso"
+            "Milei volvió a defender la gestión del oro del Banco Central"
           ]
         }
       }
@@ -143,14 +136,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 18,
           "ejemplos": [
-            "El tiempo: sale el sol y sube la temperatura este miércoles en Córdoba",
-            "Córdoba y Sierras Chicas, con cortes de luz programados este miércoles",
-            "Instituto se prepara para River: qué dijo Flores sobre la cancha y los lesionado"
+            "Los clubes del mundo recordaron a Diego Maradona en el aniversario de su falleci",
+            "Un fuerte temporal provocó inundaciones en el sur de Brasil: hay al menos siete ",
+            "Córdoba: vecinos de ciudad de Malvinas Argentinas reclamaron mayor seguridad"
           ]
         }
       }
@@ -170,14 +163,28 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 0,
+      "aceptadas": 22,
       "descartadas": {
-        "muy vieja": {
-          "cantidad": 50,
+        "titular sin tema de política/economía": {
+          "cantidad": 17,
           "ejemplos": [
-            "“Bendecime a mí y a mi familia”, el pedido conmovedor de un niño a León XIV en C",
-            "Operativo de seguridad por León XIV: qué establece el decreto sobre el control d",
-            "La Fiscalía General denunció a la Cámara 3a del Crimen en dos causas calientes: "
+            "Alerta por tormentas en Córdoba: Oncativo preparó un operativo de emergencia ant",
+            "Oscar Dertycia: “A Instituto lo veo muy sólido y con hambre de gloria”",
+            "Calor en Córdoba: la máxima llegará a 29° este miércoles antes de un cambio en e"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Tras la muerte de un interno, la UCR cuestiona la falta de controles en la cárce"
+          ]
+        },
+        "muy vieja": {
+          "cantidad": 10,
+          "ejemplos": [
+            "Instituto y la ilusión del técnico Diego Flores",
+            "Dos tentativas de femicidio en 48 horas: una mujer sufrió quemaduras y otra fue ",
+            "\"Lloro todos los días\": habla el acróbata cordobés detenido por ICE en Estados U"
           ]
         }
       }
