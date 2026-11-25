@@ -1,54 +1,60 @@
 {
-  "actualizado": "2026-11-24T19:53:07-03:00",
+  "actualizado": "2026-11-25T07:54:02-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 96,
+          "cantidad": 99,
           "ejemplos": [
-            "Paola Suárez se reconcilia con su mamá en La Mansión VIP 2: la influencer tenía ",
-            "Inés Gómez Mont salió de Estados Unidos de forma voluntaria, según Departamento ",
-            "EN VIVO | Seguridad, narcotráfico y crimen en México hoy 24 de noviembre: “El Ch"
+            "El gasto en I+D superó los 25.000 millones en 2025 y se sitúa en el 1,5 por cien",
+            "En libertad Mikel Otegi, condenado a 34 años por asesinar a dos ertzainas en Its",
+            "La brecha salarial se amplía al 18 % y las mujeres cobran unos 500 euros brutos "
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "La Facultad de Ciencias Sociales de la UBA suspendió el polémico homenaje al ter"
+            "Edgardo Kueider pidió a la Justicia de Entre Ríos que precise la acusación en su"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 85,
-      "aceptadas": 11,
+      "leidas": 92,
+      "aceptadas": 13,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 55,
+          "cantidad": 69,
           "ejemplos": [
-            "Antonela Roccuzzo abrió el álbum de su noviembre más movido: desde un cumple fam",
-            "Sin términos medios: la nueva película de Brad Pitt pasará de exhibirse en solo ",
-            "Un exluchador de MMA ahorcó y mató a un turista estadounidense tras una discusió"
+            "Quién ganó el Miss Universo 2026: la candidata de 27 años que se coronó en Puert",
+            "Germán Berterame, el argentino que llegó como estrella al Inter Miami de Messi y",
+            "Qué se sabe de la búsqueda de Raúl Moyano en Tucumán, tras un mes desaparecido: "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 6,
           "ejemplos": [
-            "Vacunos: comenzó la semana con subas en el Mercado Agroganadero de Cañuelas",
-            "Tras un debate interno, la Facultad de Ciencias Sociales canceló el homenaje a M",
-            "Impacto en la causa Andis: uno de los acusados reconoció haber trabajado como lo"
+            "Comenzaron sin oficinas, con dos camionetas que debían y acaban de inaugurar una",
+            "SUAF de Anses: el monto de las asignaciones familiares en diciembre de 2026",
+            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en diciembre 2026"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 7,
+          "cantidad": 3,
           "ejemplos": [
-            "Biocombustibles: venció el plazo para dictaminar y la pelea por el biodiésel sig",
-            "El fiscal Stornelli pidió frenar el homenaje a Santucho y un exjuez denunció a l",
-            "La oposición cargó contra el Gobierno por la recesión técnica de la economía: “N"
+            "Fecha límite: hasta qué día me pueden pagar el aguinaldo en diciembre 2026",
+            "Aguinaldo de diciembre 2026: cuándo se paga y el cálculo para saber cuánto se co",
+            "Según una encuesta: el agro empieza a recortar planes de inversión"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
           ]
         }
       }
@@ -78,12 +84,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 5,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Brasil retira definitivamente a su embajador y se profundiza el deterioro del ví"
+            "No habrá homenaje a Santucho en Sociales",
+            "Brasil retira definitivamente a su embajador y se profundiza el deterioro del ví",
+            "La CIA sufrió un hackeo que expuso información no clasificada"
           ]
         }
       }
@@ -91,21 +99,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 7,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 11,
           "ejemplos": [
             "El 41% de los hogares con niños o adolescentes no llega a cubrir los gastos del ",
-            "Un tribunal europeo frenó la venta de un SUV chino por copiar un diseño clásico",
-            "Solana Sierra se repuso de un inicio adverso y avanzó de ronda en Buenos Aires"
-          ]
-        },
-        "otro país": {
-          "cantidad": 2,
-          "ejemplos": [
-            "El Congreso de Brasil aprobó el ajuste fiscal impulsado por Lula",
-            "Malvinas: Santilli ratifica que el Tribunal Internacional del Mar se pronunciará"
+            "Gordon: una serie que incomoda, una historia que no termina de contar",
+            "Un policía murió en un choque durante una persecución"
           ]
         }
       }
@@ -113,14 +114,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 24,
+      "aceptadas": 30,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 29,
           "ejemplos": [
-            "Córdoba: 36% de los hogares de la provincia es pobre multidimensional",
-            "Abatieron al jefe del servicio de inteligencia interior de Hamás",
-            "El estrés frena la demanda aérea: 4 de cada 10 viajeros dejan de viajar por este"
+            "Las compras por courier superaron los US$1.000 millones y marcan un récord en 20",
+            "El litio ya genera cerca de 35.000 empleos en el norte argentino",
+            "Impulsan más herramientas para fortalecer el acceso a la justicia y la protecció"
           ]
         },
         "otro país": {
@@ -130,7 +131,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 35,
+          "cantidad": 20,
           "ejemplos": [
             "Fórmula 1: Colapinto terminó sexto en Las Vegas",
             "Milei volvió a defender la gestión del oro del Banco Central",
@@ -142,20 +143,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 13,
           "ejemplos": [
-            "Altas Cumbres: rescataron a una pareja perdida",
-            "Persecución en Córdoba: murió un policía tras el choque contra un camión",
-            "Galperin: poder concentrado y rechazo al Estado"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Exitosa edición del Festival Internacional de Jazz de Córdoba"
+            "El tiempo: sale el sol y sube la temperatura este miércoles en Córdoba",
+            "Córdoba y Sierras Chicas, con cortes de luz programados este miércoles",
+            "Instituto se prepara para River: qué dijo Flores sobre la cancha y los lesionado"
           ]
         }
       }
