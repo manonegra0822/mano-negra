@@ -1,54 +1,48 @@
 {
-  "actualizado": "2026-11-25T12:54:12-03:00",
+  "actualizado": "2026-11-25T17:23:05-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 5,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 99,
+          "cantidad": 95,
           "ejemplos": [
-            "Sabah - FC Barcelona, en directo: previa y última hora del partido de Champions ",
-            "La Sonora Santanera dará concierto gratis en la GAM por el centenario de la Colo",
-            "Hombres protagonizarán nueva campaña del gobierno de México contra la violencia "
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El papa León XIV nombró a García Cuerva en un nuevo cargo del Vaticano vinculado"
+            "EN VIVO| Bloqueos en carreteras, accidentes y manifestaciones 25 de noviembre",
+            "Lille vs. Bayern Múnich EN VIVO: GOL del Bayern, sin el colombiano Luis Díaz en ",
+            "Atlético de Madrid - Viking, el partido de Champions en directo: Sorloth adelant"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 12,
+      "leidas": 94,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 71,
+          "cantidad": 68,
           "ejemplos": [
-            "Argentina vs. Dinamarca, en el Mundial Sub 17, EN VIVO: el minuto a minuto del p",
-            "Nadia Podoroska, en su vuelta al WTA 125 Argentina Open: “Llegué a verme afuera ",
-            "La lucha de Colin Farrell contra el alcoholismo: “Empecé a beber a los 13 años”"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "El riesgo país supera los 1100 puntos y el dólar quiebra su récord nominal",
-            "La cruzada por Malvinas se le volvió un bumerán al Gobierno entre las empresas q",
-            "PASO en el Senado y Presupuesto en Diputados: así quedó la agenda del Congreso d"
+            "Se le acaba el tiempo a Greg Abbott: los 19 condados en Texas que todavía no se ",
+            "Champions League, EN VIVO: el minuto a minuto de los partidos",
+            "De un mosaico romano y una camisa manchada de sangre a un bagel relleno de cerdo"
           ]
         },
         "titular sin tema de política/economía": {
+          "cantidad": 11,
+          "ejemplos": [
+            "Comenzaron sin oficinas, con dos camionetas que debían y acaban de inaugurar una",
+            "Más allá de la inteligencia artificial: las habilidades que ganan protagonismo e",
+            "Empresas agénticas: qué son y cómo pueden transformar el funcionamiento de un ne"
+          ]
+        },
+        "sin ancla argentina": {
           "cantidad": 6,
           "ejemplos": [
-            "Una ejecutiva reveló cuál será el verdadero diferencial en la era de la IA",
-            "15.400 personas perdieron más de US$13 millones tras copiar la cartera de un esp",
-            "La caja de la basura: el pago de millones por horas extras desató un escándalo p"
+            "El juez retó a Chiqui Tapia y le subió el monto que debe pagar para salir del pa",
+            "Heladas, falta de sol y vuelco: las enseñanzas que dejó la campaña de trigo",
+            "Economía de la salud y de la medicina prepaga"
           ]
         }
       }
@@ -78,12 +72,11 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "No habrá homenaje a Santucho en Sociales",
             "“Diego está vivo”: el conmovedor homenaje de Víctor Hugo Morales a Maradona a 6 "
           ]
         }
@@ -92,14 +85,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
-            "Belgrano e Instituto definirán la Copa Córdoba 2025: horario, entradas y todo lo",
-            "“El cuarto de Verónica” vuelve a la escena de Córdoba",
-            "Maradona: convocan a un encuentro cultural en Córdoba a seis años de su muerte"
+            "El currículum que nadie quiso leer: cuando la discapacidad se convierte en una b",
+            "Estatales se movilizaron contra la suba de aportes y anunciaron un plan de lucha",
+            "“Gordon” en cifras, el despliegue de la serie que recrea la Argentina de los año"
           ]
         }
       }
@@ -107,14 +100,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 30,
+      "aceptadas": 36,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 32,
+          "cantidad": 36,
           "ejemplos": [
-            "Ir al gimnasio en Córdoba cuesta en promedio $ 43.000 por mes, 16% menos que en ",
-            "Copa Airlines celebra 27 años desde su desembarco en Argentina",
-            "Black Friday: Anker lanzó descuento de 60% en su innovador parlante portátil"
+            "Declaran el Estado de Desastre en San Francisco luego de los daños del 19 de nov",
+            "Actualizan el aporte fijo para el Fondo Fiduciario de Enfermedades Profesionales",
+            "Temporal en Córdoba: declaran el Estado de Desastre en Juárez Celman y habilitan"
           ]
         },
         "otro país": {
@@ -124,7 +117,7 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 17,
+          "cantidad": 7,
           "ejemplos": [
             "La CABA tiene la menor carga tributaria sobre 33 ciudades del país",
             "Fórmula 1: Colapinto terminó sexto en Las Vegas",
@@ -136,14 +129,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 2,
+      "aceptadas": 6,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 18,
+        "otro país": {
+          "cantidad": 1,
           "ejemplos": [
-            "Los clubes del mundo recordaron a Diego Maradona en el aniversario de su falleci",
-            "Un fuerte temporal provocó inundaciones en el sur de Brasil: hay al menos siete ",
-            "Córdoba: vecinos de ciudad de Malvinas Argentinas reclamaron mayor seguridad"
+            "Provincias Unidas presentó un proyecto de rechazo a las declaraciones de Pablo Q"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 13,
+          "ejemplos": [
+            "Martín Díaz fue indagado por la golpiza en barrio Docta y por otro hecho de 2024",
+            "Con un gol de Baroni, Argentina dio vuelta un 0-2 y se clasificó en el Mundial S",
+            "Talleres va por las semifinales en Reserva: recibe a Estudiantes en La Boutique"
           ]
         }
       }
@@ -163,14 +162,14 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 22,
+      "aceptadas": 24,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 21,
           "ejemplos": [
-            "Alerta por tormentas en Córdoba: Oncativo preparó un operativo de emergencia ant",
-            "Oscar Dertycia: “A Instituto lo veo muy sólido y con hambre de gloria”",
-            "Calor en Córdoba: la máxima llegará a 29° este miércoles antes de un cambio en e"
+            "Liberaron bajo fianza a uno de los acróbatas cordobeses detenidos en Estados Uni",
+            "Ventas de inmuebles en rojo: Las escrituras cayeron un 3,6% en Córdoba",
+            "Dos exintendentes cordobeses irán a juicio por el manejo de fondos de un festiva"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -180,11 +179,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 10,
+          "cantidad": 4,
           "ejemplos": [
-            "Instituto y la ilusión del técnico Diego Flores",
-            "Dos tentativas de femicidio en 48 horas: una mujer sufrió quemaduras y otra fue ",
-            "\"Lloro todos los días\": habla el acróbata cordobés detenido por ICE en Estados U"
+            "Mendiolaza abre el registro de oposición para una obra de gas que beneficiará a ",
+            "La Iglesia le pidió al Senado que apruebe la ley contra la ludopatía: “No dejen ",
+            "Instituto y la ilusión del técnico Diego Flores"
           ]
         }
       }
