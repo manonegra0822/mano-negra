@@ -1,54 +1,66 @@
 {
-  "actualizado": "2026-11-26T12:53:39-03:00",
+  "actualizado": "2026-11-26T16:59:37-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 2,
+      "aceptadas": 3,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 95,
           "ejemplos": [
-            "Sheinbaum acusa de injerencia a director de la DEA por abrir línea telefónica pa",
-            "Alias Antonio Medina, cabecilla de las disidencias de Iván Mordisco, se habría a",
-            "Redes sociales y ayuda humanitaria: una alianza con potencial pendiente"
+            "Última hora de las elecciones generales del 29-N y el debate a cuatro, en direct",
+            "Capturan al “Rigo”, miembro de Los Tlacos dedicado a la venta de droga y activid",
+            "Alejandra Zavala da a México plaza para Los Ángeles 2028"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 1,
           "ejemplos": [
-            "Diputados, en vivo: las últimas noticias sobre el debate del Presupuesto 2027"
+            "Diputados, en vivo: con cruces entre el oficialismo y la oposición, comenzó el d"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Uno por uno, así repartían los telegramas de despido a 110 empleados de una fábr"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 93,
-      "aceptadas": 11,
+      "leidas": 89,
+      "aceptadas": 10,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 72,
+          "cantidad": 68,
           "ejemplos": [
-            "Sacaron del temario el proyecto de falsas denuncias",
-            "Una argentina de 36 años murió ahogada en una playa de Punta del Este",
-            "TikTok, influencers y política: el video viral que desató una inesperada polémic"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Sesión crucial en el Senado: el oficialismo apuesta a aprobar la suspensión de l",
-            "Diputados: el Gobierno busca darle media sanción al presupuesto 2027 y convertir",
-            "A cuánto llega la jubilación mínima en diciembre de 2026"
+            "A uno lo trató de “argentino no practicante” y al otro le enseñó a atacar: el se",
+            "Ángel de Brito habló sobre el futuro de LAM: “La decisión está hablada y está to",
+            "Qué hacer ante un mareo o un desmayo y cuáles son las señales de alarma, según u"
           ]
         },
         "titular sin tema de política/economía": {
           "cantidad": 7,
           "ejemplos": [
-            "Investigación del INTA: desarrollaron un bioinsumo a partir de residuos de la pr",
-            "Un 20% de las empresas agropecuarias están “con problemas o en problemas”",
-            "15.400 personas perdieron más de US$13 millones tras copiar la cartera de un esp"
+            "El campo recuperó ingresos, pero las distorsiones todavía le cuestan US$4800 mil",
+            "Revés para Cristóbal López y Fabián de Sousa en el caso de Oil Combustibles",
+            "El Niño: anticipan tormentas con más de 150 milímetros, calor intenso y riesgo d"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Mauricio Macri dijo que analiza “con calma” los últimos datos negativos de la ec",
+            "Según el mercado, el Gobierno salió a bajar la brecha cambiaria para evitar que ",
+            "Minería: las exportaciones marcaron un récord y el sector ya deja un superávit d"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El dólar corta con su escalada y cede hasta los $1625"
           ]
         }
       }
@@ -78,26 +90,39 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 6,
-      "descartadas": {}
+      "aceptadas": 5,
+      "descartadas": {
+        "titular sin tema de política/economía": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Cómo les duele el negrito Román"
+          ]
+        }
+      }
     },
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 13,
           "ejemplos": [
-            "Marcos López, una historia tras otra revelada en imágenes",
-            "La FIFA confirmó un ciberataque y denunció la filtración de información personal",
-            "España: operativos especiales por migrantes en El Hierro y naufragio de un buque"
+            "Los Pumas 7s arrancan el Circuito Mundial de Seven: días, rivales y horarios",
+            "España llega a las urnas este domingo en un escenario de fuerte polarización pol",
+            "Crisis en Pauny: a horas de una audiencia clave, trabajadores sostienen la toma "
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "La UE debate un préstamo de 45.000 millones de euros para Ucrania"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Instituto confirmó los precios de las entradas para recibir a River"
+            "“Tengo la necesidad imperiosa de frenar una Ley que está fundada en una mentira”"
           ]
         }
       }
@@ -105,14 +130,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 30,
+      "aceptadas": 23,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 34,
+          "cantidad": 36,
           "ejemplos": [
-            "Viajar después de los 50: cómo los viajeros de mediana edad se replantean el tra",
-            "Punta del Este: Cipriani anunció la agenda de temporada con gastronomía, música ",
-            "Concordia será sede de la Fiesta Nacional de la Citricultura"
+            "Registro General de Córdoba: declaran día inhábil",
+            "La Justicia ordena a Chiqui Tapia pagar $50 millones cada vez que salga del país",
+            "Viajar después de los 50: cómo los viajeros de mediana edad se replantean el tra"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -122,11 +147,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 15,
+          "cantidad": 20,
           "ejemplos": [
-            "El riesgo país supera los 1.100 y sube el dólar",
-            "El estrés frena la demanda aérea: 4 de cada 10 viajeros dejan de viajar por este",
-            "Coderhouse desembarca en Estados Unidos con una meta de más de 5.000 estudiantes"
+            "Tercer trimestre: la actividad económica cayó 1,2%",
+            "Llaryora firmó el traspaso de 2.160 agentes de Salud al régimen de la Ley 7625",
+            "El Poder Judicial de Córdoba aprobó el cronograma de turnos para acciones de amp"
           ]
         }
       }
@@ -134,14 +159,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
-            "Fuerte choque en Córdoba: un camión embistió a un tractor con acoplado",
-            "Premios CIEyA, necesario incentivo a la música de Córdoba",
-            "Rifa solidaria: un estudiante sortea su celular para costear los gastos médicos "
+            "Fingieron ser empleados de una empresa telefónica para llevarse cables subterrán",
+            "Córdoba: allanamiento de la Escuela de Tránsito municipal por ventas de carnets ",
+            "Violeta tiene 13 años y busca una familia en Córdoba: cómo postularse"
           ]
         }
       }
@@ -161,14 +186,14 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 21,
+      "aceptadas": 18,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
-            "Ricardo Mazzuchi y Jorge Saieg: renuncia, sumario e imputaciones penales y un al",
-            "Luque se prepara para la Fiesta del Reencuentro con música, danzas y actividades",
-            "Dos encargados de Registros del Automotor de Córdoba fueron removidos por un per"
+            "RIU cumple un objetivo histórico con la compra de su primer hotel en Barcelona",
+            "\"Quedamos en medio de una disputa política\": el reclamo de los organizadores del",
+            "Matías Declemente: “La política se volvió una respuesta a un marketing temporal\""
           ]
         },
         "otro país": {
@@ -185,11 +210,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 9,
+          "cantidad": 12,
           "ejemplos": [
-            "Intendente de San José tras la intensa pedrea: \"Es una destrucción masiva\"",
-            "Fue entregado por su padre: cayó un segundo sospechoso por el crímen de Alta Cór",
-            "La tarde del 'Cocayo': la última victoria de Instituto ante River"
+            "Los acróbatas cordobeses detenidos por el ICE podrán recuperar la libertad bajo ",
+            "\"Sigo siendo crítico de Milei\": Agost Carreño defiende el acercamiento del PRO a",
+            "\"Para Francisco, el diablo es una persona\": un sociólogo analizó las revelacione"
           ]
         }
       }
