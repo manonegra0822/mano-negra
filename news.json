@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T19:53:19-03:00",
+  "actualizado": "2026-11-26T07:53:46-03:00",
   "notas": [
     {
       "id": "60c1105348",
@@ -23,7 +23,7 @@
           "url": "https://hoydia.com.ar/economia/actividad-economica-emae-recesion-tecnica/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.513,
         "x1": 0.7,
@@ -32,34 +32,34 @@
       }
     },
     {
-      "id": "0e02b56d06",
+      "id": "43e63b417e",
       "seccion": "cordoba",
       "rel": 45.7,
       "relevancia": 45.7,
-      "fecha": "2026-11-25T15:12:08-03:00",
-      "hora": "15:12",
-      "titulo": "Diego Santilli en el Senado: “El presidente Javier Milei trajo orden al país”",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/diego-santilli-en-el-senado---el-presidente-javier-milei-trajo-orden-al-pais-_a6b072423d1029d91e2de10ba",
+      "fecha": "2026-11-25T17:57:21-03:00",
+      "hora": "17:57",
+      "titulo": "Santilli en el Senado: “Milei hoy va por la reelección”",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/politica/santilli-en-el-senado-milei-hoy-va-por-la-reeleccion/",
       "acceso": "abierto",
-      "resumen": "El jefe de Gabinete brinda su primer informe de gestión y responde preguntas de la oposición en la Cámara alta.",
+      "resumen": "El jefe de Gabinete aseguró que el presidente cumplió con su compromiso de poner orden en el país",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6b0724dad1029d91e2de16b8/720.jpeg",
-      "imagen_credito": "Cba24n",
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/santilli.png",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [
         {
-          "fuente": "Comercio y Justicia",
-          "titulo": "Santilli en el Senado: “Milei hoy va por la reelección”",
-          "url": "https://comercioyjusticia.info/politica/santilli-en-el-senado-milei-hoy-va-por-la-reeleccion/"
-        },
-        {
-          "fuente": "Página/12",
-          "titulo": "Santilli fue al Senado a defender a Milei, relativizó la recesión y ya habla de reelección",
-          "url": "https://www.pagina12.com.ar/2026/11/25/santilli-fue-al-senado-a-defender-a-milei-relativizo-la-recesion-y-ya-habla-de-reeleccion/"
+          "fuente": "Cba24n",
+          "titulo": "Diego Santilli en el Senado: “El presidente Javier Milei trajo orden al país”",
+          "url": "https://www.cba24n.com.ar/argentina/diego-santilli-en-el-senado---el-presidente-javier-milei-trajo-orden-al-pais-_a6b072423d1029d91e2de10ba"
         }
       ],
-      "dia": 0,
-      "rostros": null
+      "dia": 1,
+      "rostros": {
+        "x0": 0.066,
+        "x1": 0.716,
+        "y0": 0.034,
+        "y1": 0.523
+      }
     },
     {
       "id": "7338fb5cc2",
@@ -83,13 +83,38 @@
           "url": "https://hoydia.com.ar/politica/santilli-presento-su-primer-informe-el-senado-y-defendio-el-rumbo-economico/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.379,
         "x1": 0.61,
         "y0": 0.32,
         "y1": 0.667
       }
+    },
+    {
+      "id": "b0c4f1d2e0",
+      "seccion": "cordoba",
+      "rel": 33.9,
+      "relevancia": 33.9,
+      "fecha": "2026-11-26T07:18:13-03:00",
+      "hora": "07:18",
+      "titulo": "El dólar en Córdoba: cuánto a cotiza este jueves 26 de noviembre",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/el-dolar-en-cordoba-cuanto-a-cotiza-este-jueves-26-de-noviembre-aHPDA4u3bqvD",
+      "acceso": "abierto",
+      "resumen": "Este jueves 26 de noviembre el dólar oficial en el Banco Nación se vende a 1.580 pesos y cotiza a 1.630 pesos para la compra. Leer más",
+      "impacto": null,
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/5494110d4943-pesos-argentinos-y-dolares-2351999.webp",
+      "imagen_credito": "Perfil",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este jueves 26 de noviembre, minuto a minuto",
+          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-jueves-26-de-noviembre-nid26112026/"
+        }
+      ],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "8f40e3fca5",
@@ -113,7 +138,7 @@
           "url": "https://www.pagina12.com.ar/2026/11/25/revocaron-el-sobreseimiento-a-los-hermanos-de-caputo-por-el-financiamiento-de-revolucion-federal/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.22,
         "x1": 0.943,
@@ -122,58 +147,27 @@
       }
     },
     {
-      "id": "9892a3f9f1",
-      "seccion": "cordoba",
-      "rel": 33.9,
-      "relevancia": 33.9,
-      "fecha": "2026-11-25T16:09:27-03:00",
-      "hora": "16:09",
-      "titulo": "El fiscal de Cámara consideró inconstitucional el decreto que frenó la ley de financiamiento universitario",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/profesionales/el-fiscal-de-camara-considero-inconstitucional-el-decreto-que-freno-la-ley-de-financiamiento-universitario/",
-      "acceso": "abierto",
-      "resumen": "El Fiscal General ante la Cámara Contencioso Administrativo Federal, Rodrigo Cuesta, dictaminó que el Decreto N° 759/2025, mediante el cual el Gobierno suspendió la aplicación de la Ley de Financiamiento Universitario, es inconstitucional. El dictamen corresponde a la causa donde se tramita la apelación del Estado Nacional contra la sentencia de primera instancia que ordenó […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/05/marcha-universitaria.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Declaran inconstitucional el decreto contra la Ley de Financiamiento Universitario",
-          "url": "https://hoydia.com.ar/politica/nacional/declaran-inconstitucional-el-decreto-contra-la-ley-de-financiamiento-universitario/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "2e3470319d",
+      "id": "4aa6096dc2",
       "seccion": "cordoba",
       "rel": 33.7,
       "relevancia": 33.7,
-      "fecha": "2026-11-25T10:55:48-03:00",
-      "hora": "10:55",
-      "titulo": "El Gobierno enfrenta una semana clave en el Congreso mientras proyecta su estrategia para 2027",
+      "fecha": "2026-11-25T20:20:32-03:00",
+      "hora": "20:20",
+      "titulo": "El Gobierno enfrenta este jueves otra jornada clave en el Congreso",
       "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/el-gobierno-enfrenta-una-semana-clave-en-el-congreso-mientras-proyecta-su-estrategia-para-2027/",
+      "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-nacional-enfrenta-este-jueves-otra-jornada-clave-en-el-congreso/",
       "acceso": "abierto",
-      "resumen": "Con la economía en recesión técnica y la actividad bajo presión, el oficialismo busca avanzar con dos iniciativas centrales. La suspensión de las PASO y el Presupuesto 2027, al mismo tiempo, crecen las negociaciones con los bloques aliados, se profundizan las internas políticas y aparecen nuevos debates en la agenda legislativa.",
+      "resumen": "El oficialismo intentará dar media sanción a la reforma electoral y al Presupuesto 2027. También se definirá la Ley de Ludopatía.",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Gemini_Generated_Image_9kja1a9kja1a9kja-optimized.jpg",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-Gobierno-nacional-enfrenta-este-jueves-otra-jornada-clave-en-el-Congreso-1024x683-optimized.png",
       "imagen_credito": "Hoy Día Córdoba",
-      "otros": [
-        {
-          "fuente": "Comercio y Justicia",
-          "titulo": "El Gobierno prepara una semana clave entre la reforma electoral y el Presupuesto 2027",
-          "url": "https://comercioyjusticia.info/lo-ultimo/el-gobierno-prepara-una-semana-clave-entre-la-reforma-electoral-y-el-presupuesto-2027/"
-        }
-      ],
-      "dia": 0,
+      "otros": [],
+      "dia": 1,
       "rostros": {
-        "x0": 0.136,
-        "x1": 0.886,
-        "y0": 0.186,
-        "y1": 0.547
+        "x0": 0.163,
+        "x1": 1.0,
+        "y0": 0.135,
+        "y1": 0.517
       }
     },
     {
@@ -198,7 +192,7 @@
           "url": "https://www.cba24n.com.ar/argentina/ludopatia--la-ucr-y-el-pro-condicionan-su-apoyo-a-que-se-trate-en-extraordinarias_a6b06db54d5a0bd85bf9819cd"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -223,88 +217,33 @@
           "url": "https://www.pagina12.com.ar/2026/11/25/hablo-caputo-y-el-riesgo-pais-volvio-a-subir/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "3536cfb397",
+      "id": "9892a3f9f1",
       "seccion": "cordoba",
-      "rel": 33.6,
-      "relevancia": 33.6,
-      "fecha": "2026-11-25T06:51:01-03:00",
-      "hora": "06:51",
-      "titulo": "El dólar en Córdoba: cuánto a cotiza este miércoles 25 de noviembre",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/el-dolar-en-cordoba-cuanto-a-cotiza-este-miercoles-25-de-noviembre-aol2n6P3luoD",
-      "acceso": "abierto",
-      "resumen": "Este miércoles 25 de noviembre el dólar oficial en el Banco Nación se vende a 1.580 pesos y cotiza a 1.630 pesos para la compra. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/d933469818b8-dolares-2350332.webp",
-      "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este miércoles 25 de noviembre, minuto a minuto",
-          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-miercoles-25-de-nid25112026/"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "4e4a2d6a53",
-      "seccion": "cordoba",
-      "rel": 33.1,
-      "relevancia": 33.1,
-      "fecha": "2026-11-25T07:53:28-03:00",
-      "hora": "07:53",
-      "titulo": "Senado: la UCR y PRO condicionan el dictamen de Ludopatía a que el oficialismo incluya el proyecto en extraordinarias",
+      "rel": 31.9,
+      "relevancia": 31.9,
+      "fecha": "2026-11-25T16:09:27-03:00",
+      "hora": "16:09",
+      "titulo": "El fiscal de Cámara consideró inconstitucional el decreto que frenó la ley de financiamiento universitario",
       "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/senado-la-ucr-y-pro-condicionan-el-dictamen-de-ludopatia-a-que-el-oficialismo-incluya-el-proyecto-en-extraordinarias/",
+      "url": "https://comercioyjusticia.info/profesionales/el-fiscal-de-camara-considero-inconstitucional-el-decreto-que-freno-la-ley-de-financiamiento-universitario/",
       "acceso": "abierto",
-      "resumen": "La UCR y el PRO condicionan el respaldo a las reformas que impulsa el oficialismo a la ley de Ludopatía, que se tratará hoy en comisión en el Senado, a que el Gobierno se comprometa públicamente a incluir este proyecto en la convocatoria a sesiones extraordinarias. Los principales bloques aliados de la Libertad Avanza señalan […]",
+      "resumen": "El Fiscal General ante la Cámara Contencioso Administrativo Federal, Rodrigo Cuesta, dictaminó que el Decreto N° 759/2025, mediante el cual el Gobierno suspendió la aplicación de la Ley de Financiamiento Universitario, es inconstitucional. El dictamen corresponde a la causa donde se tramita la apelación del Estado Nacional contra la sentencia de primera instancia que ordenó […]",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6b071838d1029d91e2ddbb5c/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Cba24n",
-          "titulo": "Apuestas online: el Senado convertirá en ley el proyecto sobre ludopatía",
-          "url": "https://www.cba24n.com.ar/argentina/apuestas-online--el-senado-convertira-en-ley-el-proyecto-sobre-ludopatia_a6b06db54d5a0bd85bf9819cd"
-        }
-      ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "c00b356318",
-      "seccion": "economia",
-      "rel": 31.8,
-      "relevancia": 31.8,
-      "fecha": "2026-11-25T18:45:10-03:00",
-      "hora": "18:45",
-      "titulo": "Revolución Federal: la Justicia revocó el sobreseimiento de los hermanos de Caputo",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/revolucion-federal--la-justicia-revoco-el-sobreseimiento-de-los-hermanos-de-caputo_a6b0754c1d1029d91e2dfea83",
-      "acceso": "abierto",
-      "resumen": "Se investigan los hechos de violencia previos al intento de atentado contra la expresidenta Cristina Fernández de Kirchner. La causa ya fue elevada a juicio oral.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6b075552d1029d91e2dfef64/720.jpeg",
-      "imagen_credito": "Cba24n",
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/05/marcha-universitaria.jpg",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [
         {
           "fuente": "Hoy Día Córdoba",
-          "titulo": "La Justicia revocó el sobreseimiento de los hermanos de Caputo en el caso Revolución Federal",
-          "url": "https://hoydia.com.ar/politica/nacional/la-justicia-revoco-el-sobreseimiento-de-los-hermanos-de-caputo-en-el-caso-revolucion-federal/"
+          "titulo": "Declaran inconstitucional el decreto contra la Ley de Financiamiento Universitario",
+          "url": "https://hoydia.com.ar/politica/nacional/declaran-inconstitucional-el-decreto-contra-la-ley-de-financiamiento-universitario/"
         }
       ],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.254,
-        "x1": 0.624,
-        "y0": 0.319,
-        "y1": 0.559
-      }
+      "dia": 1,
+      "rostros": null
     },
     {
       "id": "6d3cfe3162",
@@ -322,7 +261,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/274J2ZVB6JFRBGV4ZLHXE4MC6U.jpg?auth=fa51c08d60b51c9f748ad30b794a54d6263f28e49df1565f5da7807f347ff639&smart=true&width=2808&height=1925",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.379,
         "x1": 0.627,
@@ -346,7 +285,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/EP6AVSOC25BN5IBWVOHHZ6SVV4.jpeg?auth=f1b297fdb6a9370ef5d07267e5a819646b08dc5b5402df2e74bc52a04a04f1c9&smart=true&width=774&height=468",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.441,
         "x1": 0.594,
@@ -370,7 +309,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/Y4DQ53D3HJETPMTMO4VYFUZRCA.jpeg?auth=bf6fa9ac1fbcf10e6a1efe75c36ba618dd59bb2ff01fab6c1e325185adfa36e7&smart=true&width=1600&height=1066",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.2,
         "x1": 0.419,
@@ -394,7 +333,7 @@
       "imagen": "https://www.infobae.com/resizer/v2/IDEKSQWZ65FPHAQDTERCILNOFA.jpg?auth=ee68f2e0490c05305205d5a2c404a3368c63b3352ccd6fc0ee6cb286c01f0a75&smart=true&width=1920&height=1269",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -424,8 +363,32 @@
           "url": "https://hoydia.com.ar/politica/nacional/milei-viaja-a-paraguay-para-reunirse-con-el-nuevo-presidente-pedro-alliana/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
+    },
+    {
+      "id": "4730f4f428",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-26T07:24:11-03:00",
+      "hora": "07:24",
+      "titulo": "Javier Milei y sus medidas, EN VIVO: el Presidente apuntó contras las “operetas” de la oposición y dijo que cada día están “más patéticos”",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-apunto-contras-las-operetas-de-la-oposicion-y-dijo-nid26112026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/EP6AVSOC25BN5IBWVOHHZ6SVV4.jpeg?auth=f1b297fdb6a9370ef5d07267e5a819646b08dc5b5402df2e74bc52a04a04f1c9&smart=true&width=774&height=468",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.441,
+        "x1": 0.594,
+        "y0": 0.016,
+        "y1": 0.256
+      }
     },
     {
       "id": "45e1380286",
@@ -443,7 +406,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/OZ4O65PZL5GNNNA65X2ZXHJGLA.jpg?auth=7ae2a0e017fa15c2605f4c4f72f9c875b0b8c7b2cc7d08c21942ced076046e94&smart=true&width=3464&height=2312",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -462,7 +425,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/PC43XNIEHNHB3OKA5VN4A63KV4.JPG?auth=bff1d42d046aa3314c1e33ee4ee65199ce56bd92e927b43e147c9b88a89e028b&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -481,36 +444,12 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/656JPFZI3RBRTHCLTTQMDAOJ4U.jpeg?auth=bf4589a25102ea2d09b79c62fcd1c9a239fcc046bf2ca481350b78a847445efa&smart=true&width=1600&height=1200",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.184,
         "x1": 0.807,
         "y0": 0.159,
         "y1": 0.508
-      }
-    },
-    {
-      "id": "0877e211fb",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-25T07:32:10-03:00",
-      "hora": "07:32",
-      "titulo": "Dónde voto: publicaron el padrón provisorio para las elecciones de Argentina 2027",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
-      "acceso": "suscripcion",
-      "resumen": "El año que viene los argentinos elegirán a su próximo presidente, y es importante para los que van a votar conocer previamente el lugar en el que ejercerán el sufragio para agilizar el trámite electoral",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/K6FY2PGOZBFGZBXUIOPB5MFU24.jpg?auth=7806600ea6fa8a117b63c855234abf0afa9c626833509eadb98e8629cee69269&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.119,
-        "x1": 0.343,
-        "y0": 0.009,
-        "y1": 0.345
       }
     },
     {
@@ -529,7 +468,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/LUJ62T6KMVA7ZPAGJW6TD67GLY.jpg?auth=925dd4d76fc59f0a11764c2dcb81cfa5cafb5db9161b8bd8ef551a1c60c492a6&smart=true&width=5658&height=3920",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.264,
         "x1": 0.51,
@@ -553,7 +492,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/3QTBZS3PKRF4BASCZXNJJ3KP6A.jpg?auth=d28ac9493f0b0b19e814fecce6850c518fb91d5f3dcb506740e0a06dfffedbae&smart=true&width=6240&height=4160",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.55,
         "x1": 0.87,
@@ -577,7 +516,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/SVX4J5WRWVBHLF7FRMGQNTXOIA.JPG?auth=d833ed9068c16502b1c884a411cae85957c05a1f788603dddd593eb293272fe5&smart=true&width=1360&height=907",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -596,7 +535,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/7NCZMJ6KRNBCRAJ5QSOH2CIPJM.jpg?auth=a2169caf002f04f11b0973bcd878ba788a8f29036db9f17308104059c88263d2&smart=true&width=7690&height=5127",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.819,
         "x1": 0.949,
@@ -620,7 +559,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/La-UNC-se-suma-al-paro-nacional-universitario-con-una-jornada-de-debate-sobre-el-impacto-de-los-recortes-presupuestarios-1-optimized.png",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.059,
         "x1": 0.377,
@@ -629,45 +568,32 @@
       }
     },
     {
-      "id": "d3b7bae741",
-      "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-25T17:46:39-03:00",
-      "hora": "17:46",
-      "titulo": "Bancor activa nuevos hipotecarios: quiénes pueden acceder y cuánto pueden pedir",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/bancor-activa-nuevos-hipotecarios-quienes-pueden-acceder-y-cuanto-pueden-pedir-awyti6j7WfAX",
-      "acceso": "abierto",
-      "resumen": "El Banco de Córdoba presentó una línea de préstamos en UVA destinada a la compra o construcción de vivienda única. Ofrece hasta 72.000 UVA, financia hasta el 75% del valor de compra y el 100% de un proyecto de construcción. La gestión se realiza de manera digital. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/bc79a81e2049-whatsapp-image-2026-11-25-at-153313.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "e830c563d6",
+      "id": "b9ab5bff55",
       "seccion": "economia",
       "rel": 21.6,
       "relevancia": 21.6,
-      "fecha": "2026-11-25T17:45:07-03:00",
-      "hora": "17:45",
-      "titulo": "Luis Caputo explicó cómo espera pagar los vencimientos de deuda de enero y reiteró que pidió a China usar parte del swap",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/luis-caputo-explico-como-espera-pagar-los-vencimientos-de-deuda-de-enero-y-reitero-que-pidio-a-china-nid25112026/",
-      "acceso": "suscripcion",
-      "resumen": "El ministro de Economía se refirió a los vencimientos de deuda externa del Tesoro; sostuvo que hay US$5000 millones que ya fueron aprobado por Pekín",
+      "fecha": "2026-11-25T20:27:52-03:00",
+      "hora": "20:27",
+      "titulo": "Caputo descartó un “plan platita” y explicó cómo pagará la deuda de enero",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/caputo-plan-platita-deuda-enero/",
+      "acceso": "abierto",
+      "resumen": "El ministro precisó que el Gobierno debe afrontar compromisos por US$ 4.370 millones y enumeró las fuentes previstas para cubrirlos. También atribuyó la incertidumbre financiera al temor de que Milei no sea reelecto.",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/TWTHML62KNHU7LTGJBIELLCSHM.jpg?auth=b38e4320e896004ac5cb65d0920106988d9803a122cc40ab8736bf2d8957adf3&smart=true&width=904&height=516",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Caputo-descarto-un-plan-platita-y-explico-como-pagara-la-deuda-de-enero-optimized.jpeg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "Luis Caputo explicó cómo espera pagar los vencimientos de deuda de enero y reiteró que pidió a China usar parte del swap",
+          "url": "https://www.lanacion.com.ar/economia/luis-caputo-explico-como-espera-pagar-los-vencimientos-de-deuda-de-enero-y-reitero-que-pidio-a-china-nid25112026/"
+        }
+      ],
+      "dia": 1,
       "rostros": {
-        "x0": 0.416,
-        "x1": 0.674,
-        "y0": 0.088,
+        "x0": 0.448,
+        "x1": 0.697,
+        "y0": 0.147,
         "y1": 0.521
       }
     },
@@ -687,7 +613,7 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6b074254d1029d91e2df2a66/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.0,
         "x1": 0.989,
@@ -711,7 +637,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/6NCHUS77TZGAVDLQF3QWKVHKRE.JPG?auth=a6a53b5726a40b8e88b34aaf8c55bf12fcd1a0ab5002279f9d9490d44de63d42&smart=true&width=1998&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.319,
         "x1": 0.544,
@@ -720,47 +646,23 @@
       }
     },
     {
-      "id": "d7ec1d4301",
+      "id": "ccfa1bf686",
       "seccion": "cordoba",
-      "rel": 21.4,
-      "relevancia": 21.4,
-      "fecha": "2026-11-25T16:02:17-03:00",
-      "hora": "16:02",
-      "titulo": "\"La misma recesión técnica\": Córdoba también cayó dos trimestres seguidos, según la UNC",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/la-misma-recesion-tecnica-cordoba-tambien-cayo-dos-trimestres-seguidos-segun-la-unc-aV50T3w9rOYM",
-      "acceso": "abierto",
-      "resumen": "El Instituto de Economía y Finanzas calculó caídas de 1,9% y 1,7% entre abril y septiembre. Su coordinador, Ignacio Juncos, sostiene que la provincia comparte la recesión técnica nacional, aunque sin un dato oficial que lo confirme. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/f5c55e2d310b-0.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "a3de56c2e2",
-      "seccion": "cordoba",
-      "rel": 21.3,
-      "relevancia": 21.3,
-      "fecha": "2026-11-25T15:48:01-03:00",
-      "hora": "15:48",
-      "titulo": "Ludopatía: tras presión de la iglesia, acordaron en el Senado y mañana se aprobaría la ley",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-11-26T05:07:00-03:00",
+      "hora": "05:07",
+      "titulo": "Menos trabajo eventual y sueldos que se achican frente a la inflación en Córdoba",
       "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/justicia/547665/",
+      "url": "https://comercioyjusticia.info/rrhh/menos-trabajo-eventual-y-sueldos-que-se-achican-frente-a-la-inflacion-en-cordoba/",
       "acceso": "abierto",
-      "resumen": "También debatirá otra iniciativa que apunta a combatir el juego ilegal, según acordaron hoy la Libertad Avanza y el peronismo",
+      "resumen": "Cayó 11,5% en agosto y acumula un retroceso desde enero. Además, las empresas tardan cada vez más en cubrir puestos permanentes. Últimos datos del Observatorio del Mercado Laboral de la Universidad Blas Pascal y la Cámara de Agencias Privadas de Empleo El Observatorio del Mercado Laboral (OML), una iniciativa conjunta de la Universidad Blas Pascal […]",
       "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/10/LUDOPATIA-JOVENES.jpg",
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/12/Empleo.jpg",
       "imagen_credito": "Comercio y Justicia",
       "otros": [],
       "dia": 0,
-      "rostros": {
-        "x0": 0.557,
-        "x1": 0.703,
-        "y0": 0.743,
-        "y1": 0.961
-      }
+      "rostros": null
     },
     {
       "id": "411ef089ad",
@@ -778,112 +680,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/O4QDVYG2ZBHZFBAMIRP3GGJYSU.JPG?auth=f6b7a1c840a7e855881026dbf95a041d74a767a53fe3879851b7435c637c0690&smart=true&width=3000&height=2000",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "f377778d87",
-      "seccion": "economia",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-11-25T15:03:04-03:00",
-      "hora": "15:03",
-      "titulo": "\"El dólar va a subir\": Casas prevé volatilidad hasta las elecciones de 2027, pero no un descontrol",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/el-dolar-va-a-subir-casas-preve-volatilidad-hasta-las-elecciones-de-2027-pero-no-un-descontrol-amDiA4q6lQH2",
-      "acceso": "abierto",
-      "resumen": "El broker atribuye la presión cambiaria a la turbulencia externa, al salto del riesgo país y a la incertidumbre por el modelo de país. Descartó que el dólar se dispare en los próximos meses. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/58ee579eb258-anibal-casas-arregui-syc-inversiones.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.564,
-        "x1": 0.809,
-        "y0": 0.141,
-        "y1": 0.582
-      }
-    },
-    {
-      "id": "ca455140a6",
-      "seccion": "economia",
-      "rel": 21.0,
-      "relevancia": 21.0,
-      "fecha": "2026-11-25T13:56:15-03:00",
-      "hora": "13:56",
-      "titulo": "Más de cuatro de cada diez pesos son impuestos: la carga tributaria sobre los alimentos alcanza hasta el 43% del precio final",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/mas-de-cuatro-de-cada-diez-pesos-son-impuestos-la-carga-tributaria-sobre-los-alimentos-alcanza-hasta-el-43-del-precio-final-aNkYF8T867oo",
-      "acceso": "abierto",
-      "resumen": "Según un estudio del Instituto Argentino de Análisis Fiscal (IARAF), la presión legal en las principales ciudades del país se ubica en el 42% en comercios pequeños y sube al 43% en grandes superficies. El IVA, la seguridad social e Ingresos Brutos explican la mayor parte del costo fiscal. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/bf467dce42d4-images-5.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "6efa866c31",
-      "seccion": "cordoba",
-      "rel": 21.0,
-      "relevancia": 21.0,
-      "fecha": "2026-11-25T13:42:34-03:00",
-      "hora": "13:42",
-      "titulo": "El Gobierno amplió los medios de pago para el subsidio a la garrafa e incorporó a las billeteras virtuales",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-gobierno-amplio-los-medios-de-pago-para-el-subsidio-a-la-garrafa-e-incorporo-a-las-billeteras-virtuales/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno nacional sumó a las billeteras virtuales no bancarias como medio de pago habilitado para acceder al reintegro por la compra de garrafas de gas en todo el país. Mercado Pago, YPF y Naranja X se incorporan al esquema de Subsidios Energéticos Focalizados (SEF) como medios de pago autoirzados para cobrar el reintegro correspondiente […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/09/billeteras-virtuales.webp",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "e88865fd5b",
-      "seccion": "cordoba",
-      "rel": 20.9,
-      "relevancia": 20.9,
-      "fecha": "2026-11-25T13:33:14-03:00",
-      "hora": "13:33",
-      "titulo": "Stellantis vuelve a fabricar motores en Córdoba con una inversión de US$ 385 millones y más de 400 puestos de trabajo",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/stellantis-vuelve-a-fabricar-motores-en-cordoba-con-una-inversion-de-us-385-millones-y-mas-de-400-puestos-de-trabajo-acDzW3J3T61h",
-      "acceso": "abierto",
-      "resumen": "La nueva planta del Polo Industrial Ferreyra tendrá capacidad para producir 100 mil motores al año y destinará más del 70% de las unidades a la exportación, principalmente a Brasil y Uruguay. El proyecto también incorpora a 10 proveedores argentinos. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/fec3f52d28aa-whatsapp-image-2026-11-25-at-125403.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.004,
-        "x1": 0.99,
-        "y0": 0.191,
-        "y1": 0.466
-      }
-    },
-    {
-      "id": "26b246f092",
-      "seccion": "economia",
-      "rel": 20.9,
-      "relevancia": 20.9,
-      "fecha": "2026-11-25T13:26:39-03:00",
-      "hora": "13:26",
-      "titulo": "El dólar y riesgo país vuelven a subir: siguen en caída los bonos argentinos",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/el-dolar-y-riesgo-pais-vuelven-a-subir-siguen-en-caida-los-bonos-argentinos/",
-      "acceso": "abierto",
-      "resumen": "El dólar y el riesgo país abren este miércoles en alza y mantienen la tendencia de las últimas ruedas. El dólar oficial en el Banco Nación este miércoles subió $ 10 y cotiza a $ 1.580 para la compra y $ 1.630 para la venta. A su vez, el “blue” se inició en $ 1.705 […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/11/dolar-soja-1.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -901,6 +698,25 @@
       "impacto": null,
       "imagen": "https://srt-assets.tadevel-cdn.com/6a92f43e0d9e4cf05261e406/720.jpeg",
       "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "164c6acde6",
+      "seccion": "economia",
+      "rel": 20.7,
+      "relevancia": 20.7,
+      "fecha": "2026-11-26T00:01:00-03:00",
+      "hora": "00:01",
+      "titulo": "Caputo busca salvataje chino para evitar el default",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/26/caputo-busca-salvataje-chino-para-evitar-el-default/",
+      "acceso": "suscripcion",
+      "resumen": "El ministro de Economia admitió que solicito el fondeo de 5000 millones de dólares del swap con el país asiático, como ultimo recurso para cubrir vencimientos, por si falla la refinanciación",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/ZJGCTLWGL5EJLF77MVZMPKNEVI.jpg?auth=9ebea6dd9579246c2890744045c520113718bd84ca30ddf6d7c49bf7c8a41e99&smart=true&width=1276&height=850",
+      "imagen_credito": "Página/12",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -921,26 +737,198 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6b06fda1d1029d91e2dcfb1d/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "92414c911d",
+      "seccion": "cordoba",
+      "rel": 20.5,
+      "relevancia": 20.5,
+      "fecha": "2026-11-25T23:07:56-03:00",
+      "hora": "23:07",
+      "titulo": "Bancor lanzó una nueva línea de hipotecarios",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/bancor-lanzo-una-nueva-linea-de-hipotecarios/",
+      "acceso": "abierto",
+      "resumen": "El Banco de Córdoba presentó una nueva línea de créditos hipotecarios destinada a la compra o construcción de vivienda única, con financiamiento en UVA, plazos de hasta 20 años y una tasa fija anual en pesos desde 7,5%. El anuncio fue encabezado por el presidente de Bancor, Raúl Paolasso, acompañado por el ministro de Producción, […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/07c5d1c2-cb3d-4786-b541-3c035df14c57.jpeg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.839,
+        "x1": 0.971,
+        "y0": 0.253,
+        "y1": 0.453
+      }
+    },
+    {
+      "id": "93ecc84579",
+      "seccion": "cordoba",
+      "rel": 20.4,
+      "relevancia": 20.4,
+      "fecha": "2026-11-25T22:14:56-03:00",
+      "hora": "22:14",
+      "titulo": "Austin confrontó a Zornberg por la inversión social, el ajuste educativo y los fondos para municipios",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/austin-confronto-a-zornberg-por-la-inversion-social-el-ajuste-educativo-y-los-fondos-para-municipios-aB56e8s5KjTR",
+      "acceso": "abierto",
+      "resumen": "La radical cuestionó los números de la inversión social de LLaryora, puso bajo la lupa el financiamiento educativo y reclamó una distribución más equitativa de los recursos hacia los municipios. La funcionaria defendió los criterios de cálculo del gobierno, aseguró que se cumple el financiamiento educativo y descartó recortes en la coparticipación. Leer más",
+      "impacto": null,
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/ef66e975d50b-comision-economia-y-presupuesto47.webp",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.674,
+        "x1": 0.917,
+        "y0": 0.238,
+        "y1": 0.603
+      }
+    },
+    {
+      "id": "3aad9b4723",
+      "seccion": "economia",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-11-26T07:34:05-03:00",
+      "hora": "07:34",
+      "titulo": "Calendario de pagos: cuándo cobran los jubilados de la Anses el aguinaldo de diciembre 2026",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/calendario-de-pagos-cuando-cobran-los-jubilados-de-la-anses-el-aguinaldo-de-diciembre-2026-nid26112026/",
+      "acceso": "suscripcion",
+      "resumen": "El pago de haberes va a acompañado de la segunda cuota del aguinaldo; cuándo se acredita según el tipo de jubilación o pensión",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/UHOQAC3C2FGHLO6D2DSRUJGW6I.JPG?auth=946f05cc2de09bdbc2d8101a0fb6900bff6e1201552dc1cd2075fd869828888e&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
     {
-      "id": "7167d8cedd",
-      "seccion": "cordoba",
-      "rel": 20.2,
-      "relevancia": 20.2,
-      "fecha": "2026-11-25T09:14:51-03:00",
-      "hora": "09:14",
-      "titulo": "Escándalo municipal en el Coys: en la gestión Passerini el contrapeso del Surrbac superó a la política",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/escandalo-municipal-en-el-coys-en-la-gestion-passerini-el-contrapeso-del-surrbac-supero-a-la-politica-anxzq8n1Z4BT",
-      "acceso": "abierto",
-      "resumen": "Claves para entender la crisis. Diferencias con la gestión municipal de Llaryora. ¿Por qué los Saillén son golpeados pero no desaparecen? Leer más",
+      "id": "20a84a95a7",
+      "seccion": "argentina",
+      "rel": 19.9,
+      "relevancia": 19.9,
+      "fecha": "2026-11-26T07:30:27-03:00",
+      "hora": "07:30",
+      "titulo": "Calendario electoral 2027: cuándo se vota gobernador en Salta",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/calendario-electoral-2027-cuando-se-vota-gobernador-en-salta-nid17112026/",
+      "acceso": "suscripcion",
+      "resumen": "La provincia desdobla la votación de las elecciones nacionales del año próximo; cuándo serán los comicios locales",
       "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/8160d7926c1d-coys-cordoba-1932983.jpg",
-      "imagen_credito": "Perfil",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/62GUKPBGPZGQJH4LIGIZBDDGIY.jpeg?auth=ed383e3d05694ee2f1474d95c15f94a0002a4f9d952b27e02d35c44e3554e850&smart=true&width=2560&height=1706",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "d3b7bae741",
+      "seccion": "cordoba",
+      "rel": 19.6,
+      "relevancia": 19.6,
+      "fecha": "2026-11-25T17:46:39-03:00",
+      "hora": "17:46",
+      "titulo": "Bancor activa nuevos hipotecarios: quiénes pueden acceder y cuánto pueden pedir",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/bancor-activa-nuevos-hipotecarios-quienes-pueden-acceder-y-cuanto-pueden-pedir-awyti6j7WfAX",
+      "acceso": "abierto",
+      "resumen": "El Banco de Córdoba presentó una línea de préstamos en UVA destinada a la compra o construcción de vivienda única. Ofrece hasta 72.000 UVA, financia hasta el 75% del valor de compra y el 100% de un proyecto de construcción. La gestión se realiza de manera digital. Leer más",
+      "impacto": null,
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/bc79a81e2049-whatsapp-image-2026-11-25-at-153313.webp",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "d7ec1d4301",
+      "seccion": "cordoba",
+      "rel": 19.4,
+      "relevancia": 19.4,
+      "fecha": "2026-11-25T16:02:17-03:00",
+      "hora": "16:02",
+      "titulo": "\"La misma recesión técnica\": Córdoba también cayó dos trimestres seguidos, según la UNC",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/la-misma-recesion-tecnica-cordoba-tambien-cayo-dos-trimestres-seguidos-segun-la-unc-aV50T3w9rOYM",
+      "acceso": "abierto",
+      "resumen": "El Instituto de Economía y Finanzas calculó caídas de 1,9% y 1,7% entre abril y septiembre. Su coordinador, Ignacio Juncos, sostiene que la provincia comparte la recesión técnica nacional, aunque sin un dato oficial que lo confirme. Leer más",
+      "impacto": null,
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/f5c55e2d310b-0.webp",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "a3de56c2e2",
+      "seccion": "cordoba",
+      "rel": 19.3,
+      "relevancia": 19.3,
+      "fecha": "2026-11-25T15:48:01-03:00",
+      "hora": "15:48",
+      "titulo": "Ludopatía: tras presión de la iglesia, acordaron en el Senado y mañana se aprobaría la ley",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/547665/",
+      "acceso": "abierto",
+      "resumen": "También debatirá otra iniciativa que apunta a combatir el juego ilegal, según acordaron hoy la Libertad Avanza y el peronismo",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/10/LUDOPATIA-JOVENES.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.557,
+        "x1": 0.703,
+        "y0": 0.743,
+        "y1": 0.961
+      }
+    },
+    {
+      "id": "f377778d87",
+      "seccion": "economia",
+      "rel": 19.2,
+      "relevancia": 19.2,
+      "fecha": "2026-11-25T15:03:04-03:00",
+      "hora": "15:03",
+      "titulo": "\"El dólar va a subir\": Casas prevé volatilidad hasta las elecciones de 2027, pero no un descontrol",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/el-dolar-va-a-subir-casas-preve-volatilidad-hasta-las-elecciones-de-2027-pero-no-un-descontrol-amDiA4q6lQH2",
+      "acceso": "abierto",
+      "resumen": "El broker atribuye la presión cambiaria a la turbulencia externa, al salto del riesgo país y a la incertidumbre por el modelo de país. Descartó que el dólar se dispare en los próximos meses. Leer más",
+      "impacto": null,
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/58ee579eb258-anibal-casas-arregui-syc-inversiones.webp",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.564,
+        "x1": 0.809,
+        "y0": 0.141,
+        "y1": 0.582
+      }
+    },
+    {
+      "id": "ca455140a6",
+      "seccion": "economia",
+      "rel": 19.0,
+      "relevancia": 19.0,
+      "fecha": "2026-11-25T13:56:15-03:00",
+      "hora": "13:56",
+      "titulo": "Más de cuatro de cada diez pesos son impuestos: la carga tributaria sobre los alimentos alcanza hasta el 43% del precio final",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/mas-de-cuatro-de-cada-diez-pesos-son-impuestos-la-carga-tributaria-sobre-los-alimentos-alcanza-hasta-el-43-del-precio-final-aNkYF8T867oo",
+      "acceso": "abierto",
+      "resumen": "Según un estudio del Instituto Argentino de Análisis Fiscal (IARAF), la presión legal en las principales ciudades del país se ubica en el 42% en comercios pequeños y sube al 43% en grandes superficies. El IVA, la seguridad social e Ingresos Brutos explican la mayor parte del costo fiscal. Leer más",
+      "impacto": null,
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/bf467dce42d4-images-5.webp",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
       "rostros": null
     }
   ],

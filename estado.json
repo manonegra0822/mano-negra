@@ -1,61 +1,53 @@
 {
-  "actualizado": "2026-11-25T19:53:19-03:00",
+  "actualizado": "2026-11-26T07:53:46-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 100,
           "ejemplos": [
-            "Un juez de Nueva York avaló el congelamiento de alquileres promovido por Mamdani",
-            "EN VIVO| Bloqueos en carreteras, accidentes y manifestaciones 25 de noviembre: I",
-            "45.000 mujeres usan trapos durante la menstruación por falta de dinero: el Congr"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Matías Kulfas alertó por el estancamiento de la economía: “No veo ningún motor q",
-            "Horacio Rodríguez Larreta y el Turco García se mostraron juntos y sumaron una fo",
-            "El Senado debatirá mañana la suspensión de las PASO y la ley de ludopatía"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Después de avisar que podría cerrar sus plantas, el número uno regional de Stell"
+            "La Diputación Permanente convalida el decreto que evita que el SMI tribute en el",
+            "El detenido en Chiclana (Cádiz) por la muerte de su pareja en octubre pasa este ",
+            "El PNV emplaza a Sánchez a desclasificar los papeles del caso Zabalza antes del "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 5,
+      "leidas": 92,
+      "aceptadas": 13,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 74,
+          "cantidad": 71,
           "ejemplos": [
-            "Gabriel Rolón, psicoanalista, explica cómo los mandatos inconscientes influyen e",
-            "Pilar Sordo, psicóloga, explica el poder (oculto) que tiene el diálogo interno p",
-            "Murió Jeanine Grasmeijer, la apneísta récord del mundo, a los 33 años"
+            "Hay alerta amarilla por tormentas y vientos fuertes para este jueves 26 de novie",
+            "Resultados del Quini 6 del miércoles 25 de noviembre: cuáles fueron los números ",
+            "Un túnel de 400 metros y lugar para 150.000 personas: así es la megaobra subterr"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 10,
+          "cantidad": 5,
           "ejemplos": [
-            "Histórico: la cosecha de granos tuvo un fenomenal aumentó del 21% y marcó un nue",
-            "De vender 30 entradas a superar los 2000 millones de visualizaciones por mes: la",
-            "La industria cayó en octubre y acumuló una baja de hasta 2,6% en diez meses"
+            "SUAF de Anses: el monto de las asignaciones familiares en diciembre de 2026",
+            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en diciembre 2026",
+            "Cuándo es el Black Friday 2026 en la Argentina"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 2,
           "ejemplos": [
-            "$LIBRA: los jueces recusados pidieron que no los aparten y se hará un sorteo cla",
-            "La libertaria Lorena Villaverde presentó un amparo contra el Congreso y anunció "
+            "Fecha límite: hasta qué día me pueden pagar el aguinaldo en diciembre 2026",
+            "Aguinaldo de diciembre 2026: cuándo se paga y el cálculo para saber cuánto se co"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
           ]
         }
       }
@@ -85,13 +77,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 4,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "“Nos matan solo por existir”, el grito de la marcha del 25N",
-            "La Policía de la Ciudad, cada vez más violenta en el espacio público"
+            "Susto en el tren Mitre: evacuaron a pasajeros por chispazos y humo en las vías",
+            "La Policía de la Ciudad, cada vez más violenta en el espacio público",
+            "Y Boca va: ganó otra vez sin despeinarse y está en cuartos del Clausura"
           ]
         }
       }
@@ -99,20 +92,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 9,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 10,
+          "cantidad": 15,
           "ejemplos": [
-            "Germán Romero: En algunos mayoristas hay faltante de aceites y harinas",
-            "Las ventas en supermercados registraron una caída del 3% interanual en septiembr",
-            "Argentina recibe a Bahamas con la clasificación al Mundial en la mira"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Estados Unidos anunció nuevos aranceles contra 14 economías"
+            "La Bancaria hará un paro en Santander por despidos y cierres de sucursales",
+            "“Annemarie”, su vida y obra desde el lente de su bisnieta",
+            "Boca tachó a Independiente Rivadavia y avanzó a los cuartos de final del Clausur"
           ]
         }
       }
@@ -120,28 +107,28 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 36,
+      "aceptadas": 33,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 33,
+          "cantidad": 32,
           "ejemplos": [
-            "Declaran el Estado de Desastre en San Francisco luego de los daños del 19 de nov",
-            "Actualizan el aporte fijo para el Fondo Fiduciario de Enfermedades Profesionales",
-            "Temporal en Córdoba: declaran el Estado de Desastre en Juárez Celman y habilitan"
+            "Apps de viajes: siete empresas inscriptas y 4.600 conductores en regla, pero 75%",
+            "Stellantis Argentina inauguró su nueva fábrica de motores en Córdoba",
+            "Oralidad civil: 77% de las causas finalizó antes de los dos años"
           ]
         },
-        "otro país": {
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Ueno, viejo pecado bancario con sello digital"
+            "El Instituto Nacional de la Propiedad Industrial busca profesionales para sumar "
           ]
         },
         "muy vieja": {
-          "cantidad": 10,
+          "cantidad": 14,
           "ejemplos": [
-            "Chubut, el mejor lugar del mundo para observar el eclipse solar anular de 2027",
-            "Minor Hotels anunció sus nuevas aperturas para 2027",
-            "La Ruta de las Estrellas en el Valle de Punilla recibió distinción internacional"
+            "Paritarias: Llaryora comienza a mostrar las cartas y negocia acuerdos hasta juni",
+            "Cooperativas elaboran plan productivo provincial: el caso mendocino",
+            "¿Qué significa “hacerse responsable”?"
           ]
         }
       }
@@ -149,20 +136,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 8,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 17,
           "ejemplos": [
-            "Epec informó una batería de cortes de luz programados para este jueves en Córdob",
-            "Se conocieron los árbitros para los cuartos del Clausura: quién estará en Instit",
-            "Femicidio de Agostina Vega: se sorteó la cámara que llevará adelante el juicio"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Provincias Unidas presentó un proyecto de rechazo a las declaraciones de Pablo Q"
+            "Capturan una yarará que apareció en el patio de una casa en Córdoba",
+            "El tiempo: nubes y humedad antes de calurosas jornadas en Córdoba",
+            "Todo confirmado: así se jugarán los cuartos de final del Clausura este fin de se"
           ]
         }
       }
@@ -182,28 +163,28 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 24,
+      "aceptadas": 22,
       "descartadas": {
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Schiaretti cuestionó a Quirno por no reconocer el triunfo de Lula en Brasil"
+          ]
+        },
         "titular sin tema de política/economía": {
-          "cantidad": 21,
+          "cantidad": 20,
           "ejemplos": [
             "Liberaron bajo fianza a uno de los acróbatas cordobeses detenidos en Estados Uni",
             "Ventas de inmuebles en rojo: Las escrituras cayeron un 3,6% en Córdoba",
             "Dos exintendentes cordobeses irán a juicio por el manejo de fondos de un festiva"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Tras la muerte de un interno, la UCR cuestiona la falta de controles en la cárce"
-          ]
-        },
         "muy vieja": {
-          "cantidad": 4,
+          "cantidad": 7,
           "ejemplos": [
-            "\"Caja negra\", basura y poder sindical: Juan Negri le reclamó a Passerini la diso",
-            "Mendiolaza abre el registro de oposición para una obra de gas que beneficiará a ",
-            "La Iglesia le pidió al Senado que apruebe la ley contra la ludopatía: “No dejen "
+            "Bornoroni lanzó la fórmula Roca-Rodríguez Machado para la intendencia de Córdoba",
+            "Mendiolaza: se abre el registro de oposición para una obra de gas que beneficiar",
+            "Mujeres vs. varones: quiénes son más críticos con el Gobierno nacional, según un"
           ]
         }
       }
