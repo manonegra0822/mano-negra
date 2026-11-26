@@ -1,53 +1,54 @@
 {
-  "actualizado": "2026-11-26T07:53:46-03:00",
+  "actualizado": "2026-11-26T12:53:39-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 2,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 100,
+          "cantidad": 97,
           "ejemplos": [
-            "La Diputación Permanente convalida el decreto que evita que el SMI tribute en el",
-            "El detenido en Chiclana (Cádiz) por la muerte de su pareja en octubre pasa este ",
-            "El PNV emplaza a Sánchez a desclasificar los papeles del caso Zabalza antes del "
+            "Sheinbaum acusa de injerencia a director de la DEA por abrir línea telefónica pa",
+            "Alias Antonio Medina, cabecilla de las disidencias de Iván Mordisco, se habría a",
+            "Redes sociales y ayuda humanitaria: una alianza con potencial pendiente"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Diputados, en vivo: las últimas noticias sobre el debate del Presupuesto 2027"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 92,
-      "aceptadas": 13,
+      "leidas": 93,
+      "aceptadas": 11,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 71,
+          "cantidad": 72,
           "ejemplos": [
-            "Hay alerta amarilla por tormentas y vientos fuertes para este jueves 26 de novie",
-            "Resultados del Quini 6 del miércoles 25 de noviembre: cuáles fueron los números ",
-            "Un túnel de 400 metros y lugar para 150.000 personas: así es la megaobra subterr"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 5,
-          "ejemplos": [
-            "SUAF de Anses: el monto de las asignaciones familiares en diciembre de 2026",
-            "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en diciembre 2026",
-            "Cuándo es el Black Friday 2026 en la Argentina"
+            "Sacaron del temario el proyecto de falsas denuncias",
+            "Una argentina de 36 años murió ahogada en una playa de Punta del Este",
+            "TikTok, influencers y política: el video viral que desató una inesperada polémic"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "Fecha límite: hasta qué día me pueden pagar el aguinaldo en diciembre 2026",
-            "Aguinaldo de diciembre 2026: cuándo se paga y el cálculo para saber cuánto se co"
+            "Sesión crucial en el Senado: el oficialismo apuesta a aprobar la suspensión de l",
+            "Diputados: el Gobierno busca darle media sanción al presupuesto 2027 y convertir",
+            "A cuánto llega la jubilación mínima en diciembre de 2026"
           ]
         },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 7,
           "ejemplos": [
-            "Paritaria con aumento: cuánto gana el personal de la Policía Federal Argentina e"
+            "Investigación del INTA: desarrollaron un bioinsumo a partir de residuos de la pr",
+            "Un 20% de las empresas agropecuarias están “con problemas o en problemas”",
+            "15.400 personas perdieron más de US$13 millones tras copiar la cartera de un esp"
           ]
         }
       }
@@ -77,29 +78,26 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
-      "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Susto en el tren Mitre: evacuaron a pasajeros por chispazos y humo en las vías",
-            "La Policía de la Ciudad, cada vez más violenta en el espacio público",
-            "Y Boca va: ganó otra vez sin despeinarse y está en cuartos del Clausura"
-          ]
-        }
-      }
+      "aceptadas": 6,
+      "descartadas": {}
     },
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 15,
           "ejemplos": [
-            "La Bancaria hará un paro en Santander por despidos y cierres de sucursales",
-            "“Annemarie”, su vida y obra desde el lente de su bisnieta",
-            "Boca tachó a Independiente Rivadavia y avanzó a los cuartos de final del Clausur"
+            "Marcos López, una historia tras otra revelada en imágenes",
+            "La FIFA confirmó un ciberataque y denunció la filtración de información personal",
+            "España: operativos especiales por migrantes en El Hierro y naufragio de un buque"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Instituto confirmó los precios de las entradas para recibir a River"
           ]
         }
       }
@@ -107,14 +105,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 33,
+      "aceptadas": 30,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 32,
+          "cantidad": 34,
           "ejemplos": [
-            "Apps de viajes: siete empresas inscriptas y 4.600 conductores en regla, pero 75%",
-            "Stellantis Argentina inauguró su nueva fábrica de motores en Córdoba",
-            "Oralidad civil: 77% de las causas finalizó antes de los dos años"
+            "Viajar después de los 50: cómo los viajeros de mediana edad se replantean el tra",
+            "Punta del Este: Cipriani anunció la agenda de temporada con gastronomía, música ",
+            "Concordia será sede de la Fiesta Nacional de la Citricultura"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -124,11 +122,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 14,
+          "cantidad": 15,
           "ejemplos": [
-            "Paritarias: Llaryora comienza a mostrar las cartas y negocia acuerdos hasta juni",
-            "Cooperativas elaboran plan productivo provincial: el caso mendocino",
-            "¿Qué significa “hacerse responsable”?"
+            "El riesgo país supera los 1.100 y sube el dólar",
+            "El estrés frena la demanda aérea: 4 de cada 10 viajeros dejan de viajar por este",
+            "Coderhouse desembarca en Estados Unidos con una meta de más de 5.000 estudiantes"
           ]
         }
       }
@@ -141,9 +139,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 17,
           "ejemplos": [
-            "Capturan una yarará que apareció en el patio de una casa en Córdoba",
-            "El tiempo: nubes y humedad antes de calurosas jornadas en Córdoba",
-            "Todo confirmado: así se jugarán los cuartos de final del Clausura este fin de se"
+            "Fuerte choque en Córdoba: un camión embistió a un tractor con acoplado",
+            "Premios CIEyA, necesario incentivo a la música de Córdoba",
+            "Rifa solidaria: un estudiante sortea su celular para costear los gastos médicos "
           ]
         }
       }
@@ -163,28 +161,35 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 22,
+      "aceptadas": 21,
       "descartadas": {
-        "otro país": {
-          "cantidad": 1,
+        "titular sin tema de política/economía": {
+          "cantidad": 17,
           "ejemplos": [
+            "Ricardo Mazzuchi y Jorge Saieg: renuncia, sumario e imputaciones penales y un al",
+            "Luque se prepara para la Fiesta del Reencuentro con música, danzas y actividades",
+            "Dos encargados de Registros del Automotor de Córdoba fueron removidos por un per"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Stellantis reclama más impuestos a los autos importados: “No es suficiente” para",
             "Schiaretti cuestionó a Quirno por no reconocer el triunfo de Lula en Brasil"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 20,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "Liberaron bajo fianza a uno de los acróbatas cordobeses detenidos en Estados Uni",
-            "Ventas de inmuebles en rojo: Las escrituras cayeron un 3,6% en Córdoba",
-            "Dos exintendentes cordobeses irán a juicio por el manejo de fondos de un festiva"
+            "Suspenden el \"GP de la ciudad de Córdoba\" y apuntan al costo policial: Qué dijo "
           ]
         },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 9,
           "ejemplos": [
-            "Bornoroni lanzó la fórmula Roca-Rodríguez Machado para la intendencia de Córdoba",
-            "Mendiolaza: se abre el registro de oposición para una obra de gas que beneficiar",
-            "Mujeres vs. varones: quiénes son más críticos con el Gobierno nacional, según un"
+            "Intendente de San José tras la intensa pedrea: \"Es una destrucción masiva\"",
+            "Fue entregado por su padre: cayó un segundo sospechoso por el crímen de Alta Cór",
+            "La tarde del 'Cocayo': la última victoria de Instituto ante River"
           ]
         }
       }
