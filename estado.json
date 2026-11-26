@@ -1,66 +1,68 @@
 {
-  "actualizado": "2026-11-26T16:59:37-03:00",
+  "actualizado": "2026-11-26T19:53:33-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 95,
+          "cantidad": 93,
           "ejemplos": [
+            "Checo Pérez en problemas antes del GP de Qatar: el mexicano tendrá que declarar ",
             "Última hora de las elecciones generales del 29-N y el debate a cuatro, en direct",
-            "Capturan al “Rigo”, miembro de Los Tlacos dedicado a la venta de droga y activid",
-            "Alejandra Zavala da a México plaza para Los Ángeles 2028"
+            "Sánchez alerta en el debate electoral de la “motosierra” de Vox y las “tijeras” "
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Diputados, en vivo: con cruces entre el oficialismo y la oposición, comenzó el d"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Uno por uno, así repartían los telegramas de despido a 110 empleados de una fábr"
+            "Licitación clave: el Gobierno renovó todos los vencimientos por más de $25 billo",
+            "Diputados, en vivo: con fuertes cuestionamientos de la oposición, se debate el P",
+            "Avanza el debate del Presupuesto en Diputados: los artículos que todavía se nego"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 89,
-      "aceptadas": 10,
+      "leidas": 91,
+      "aceptadas": 17,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 68,
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
           "ejemplos": [
-            "A uno lo trató de “argentino no practicante” y al otro le enseñó a atacar: el se",
-            "Ángel de Brito habló sobre el futuro de LAM: “La decisión está hablada y está to",
-            "Qué hacer ante un mareo o un desmayo y cuáles son las señales de alarma, según u"
-          ]
-        },
-        "titular sin tema de política/economía": {
-          "cantidad": 7,
-          "ejemplos": [
-            "El campo recuperó ingresos, pero las distorsiones todavía le cuestan US$4800 mil",
-            "Revés para Cristóbal López y Fabián de Sousa en el caso de Oil Combustibles",
-            "El Niño: anticipan tormentas con más de 150 milímetros, calor intenso y riesgo d"
+            "El Niño: tres provincias pidieron $115.000 millones al Gobierno para afrontar el"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 3,
+          "cantidad": 6,
           "ejemplos": [
-            "Mauricio Macri dijo que analiza “con calma” los últimos datos negativos de la ec",
-            "Según el mercado, el Gobierno salió a bajar la brecha cambiaria para evitar que ",
-            "Minería: las exportaciones marcaron un récord y el sector ya deja un superávit d"
+            "Cuándo son las elecciones presidenciales 2027: las fechas tentativas si se suspe",
+            "El Senado dejó vigente solo el debate presidencial obligatorio en la instancia d",
+            "El artículo del financiamiento universitario, con amplias chances de caer en el "
+          ]
+        },
+        "sección no permitida": {
+          "cantidad": 54,
+          "ejemplos": [
+            "Elecciones España 2026, EN VIVO: comenzó el último debate presidencial, las últi",
+            "Investigadores aseguran que podría existir otro Monte Everest debajo del hielo a",
+            "Lula eligió a Luiz Carlos Trabuco como ministro de Economía y los mercados lo re"
+          ]
+        },
+        "titular sin tema de política/economía": {
+          "cantidad": 12,
+          "ejemplos": [
+            "El Colegio de Abogados de la Ciudad pidió que se investigue a los camaristas que",
+            "“Está causando estragos”: una plaga avanza en los campos de la Patagonia y donde",
+            "La Cámara de Casación anuló el cómputo de la pena del exinterventor del yacimien"
           ]
         },
         "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "El dólar corta con su escalada y cede hasta los $1625"
+            "Tras el envío de 1000 lingotes, el Banco Central pasó a tener un tercio de su or"
           ]
         }
       }
@@ -90,12 +92,14 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 5,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 1,
+          "cantidad": 3,
           "ejemplos": [
-            "Cómo les duele el negrito Román"
+            "El oro del Central está en Londres",
+            "“Está en nuestras manos”: Carla Antonelli antes del 29-N",
+            "Un miniacuerdo con la UE reaviva el debate sobre la identidad británica: ¿desand"
           ]
         }
       }
@@ -103,26 +107,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 9,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 11,
           "ejemplos": [
-            "Los Pumas 7s arrancan el Circuito Mundial de Seven: días, rivales y horarios",
-            "España llega a las urnas este domingo en un escenario de fuerte polarización pol",
-            "Crisis en Pauny: a horas de una audiencia clave, trabajadores sostienen la toma "
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "La UE debate un préstamo de 45.000 millones de euros para Ucrania"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "“Tengo la necesidad imperiosa de frenar una Ley que está fundada en una mentira”"
+            "El Tesoro renovó vencimientos por $25,4 billones y captó más fondos",
+            "“Luz al tiempo” y otras obras suben el telón de noviembre",
+            "Golpe de calor en mascotas: cómo detectarlo a tiempo y qué hacer"
           ]
         }
       }
@@ -130,14 +122,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 23,
+      "aceptadas": 27,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 36,
+          "cantidad": 37,
           "ejemplos": [
             "Registro General de Córdoba: declaran día inhábil",
-            "La Justicia ordena a Chiqui Tapia pagar $50 millones cada vez que salga del país",
-            "Viajar después de los 50: cómo los viajeros de mediana edad se replantean el tra"
+            "Quirno responsabilizó a Brasil por el deterioro de las relaciones diplomáticas c",
+            "La CNV abre consulta pública para hacer públicas las tenencias accionarias de di"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -147,11 +139,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 20,
+          "cantidad": 15,
           "ejemplos": [
-            "Tercer trimestre: la actividad económica cayó 1,2%",
-            "Llaryora firmó el traspaso de 2.160 agentes de Salud al régimen de la Ley 7625",
-            "El Poder Judicial de Córdoba aprobó el cronograma de turnos para acciones de amp"
+            "Córdoba: 36% de los hogares de la provincia es pobre multidimensional",
+            "Abatieron al jefe del servicio de inteligencia interior de Hamás",
+            "Tercer trimestre: la actividad económica cayó 1,2%"
           ]
         }
       }
@@ -159,14 +151,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 14,
           "ejemplos": [
-            "Fingieron ser empleados de una empresa telefónica para llevarse cables subterrán",
-            "Córdoba: allanamiento de la Escuela de Tránsito municipal por ventas de carnets ",
-            "Violeta tiene 13 años y busca una familia en Córdoba: cómo postularse"
+            "AFA le entregó a Belgrano el trofeo de campeón del Regional 1986",
+            "Córdoba fue sede de las primeras Olimpíadas Deportivas LGBTIQ+ nacionales: parti",
+            "Relevante autoridad del Opus Dei fue citada a indagatoria por una causa de presu"
           ]
         }
       }
@@ -186,10 +178,10 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 18,
+      "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 17,
+          "cantidad": 16,
           "ejemplos": [
             "RIU cumple un objetivo histórico con la compra de su primer hotel en Barcelona",
             "\"Quedamos en medio de una disputa política\": el reclamo de los organizadores del",
@@ -212,9 +204,9 @@
         "muy vieja": {
           "cantidad": 12,
           "ejemplos": [
+            "Casi 800 millones de usuarios en Spotify: el fenómeno de vivir con auriculares y",
             "Los acróbatas cordobeses detenidos por el ICE podrán recuperar la libertad bajo ",
-            "\"Sigo siendo crítico de Milei\": Agost Carreño defiende el acercamiento del PRO a",
-            "\"Para Francisco, el diablo es una persona\": un sociólogo analizó las revelacione"
+            "\"Sigo siendo crítico de Milei\": Agost Carreño defiende el acercamiento del PRO a"
           ]
         }
       }
