@@ -1,61 +1,60 @@
 {
-  "actualizado": "2026-11-27T12:53:45-03:00",
+  "actualizado": "2026-11-27T19:54:07-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 0,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 97,
           "ejemplos": [
-            "La reflexión de Héctor Bellerín que señala a las gradas de los estadios: “El fút",
-            "“Quizá ya no las necesitemos”, creador de PlayStation anticipa el fin de las con",
-            "El caudal del río Lempa cae un 70% y pone en riesgo el agua de más de dos millon"
+            "Carlos Zambrano habló sobre su posible regreso a Alianza Lima para el 2027: “Soy",
+            "Alejandra Baigorria se pronunció sobre Francho Sierralta tras ser expuesto en sh",
+            "Tras su polémica salida de La Granja VIP, Bebeshita lanza fuerte indirecta: “Soy"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Imputaron a un dirigente de izquierda por mensajes antisemitas contra un comerci",
-            "Antes del fallo del Tribunal del Mar, el Reino Unido consideró que las medidas d"
+            "Renunció el interventor de los medios públicos y lo reemplazará Fernando Subirat"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Banco Central retomó la compra de dólares y cortó una racha de cuatro ruedas "
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 86,
-      "aceptadas": 8,
+      "leidas": 85,
+      "aceptadas": 9,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 66,
+          "cantidad": 61,
           "ejemplos": [
-            "La fascinante historia detrás de las exóticas cúpulas con forma de “cebolla” de ",
-            "El casamiento de Tini y Rodrigo De Paul: los detalles que revelaron en su primer",
-            "Eduardo Joly tenía 28 años y viajaba de luna de miel cuando el avión se estrelló"
+            "Qué ver en Netflix: las mejores películas y series para disfrutar este fin de se",
+            "De City Bell a Canelones: el laboratorio de Estudiantes, entre termos, mates y u",
+            "Escándalo en Nueva York: Hochul le pidió la renuncia al jefe de sindicato de la "
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 6,
+          "cantidad": 10,
           "ejemplos": [
-            "Un caricaturista de The New Yorker descubrió que ChatGPT generaba dibujos con su",
-            "Black Friday bajo fuego: trabajadores de Amazon lanzan una huelga masiva en más ",
-            "Uber quedó a un paso de tomar el control de PedidosYa en la Argentina"
+            "“Carne dopada”: la frase de Emmanuel Macron que generó un revuelo en el Mercosur",
+            "El limón argentino ya registra tres récords y un inesperado coletazo por la guer",
+            "Murió Jorge Born: un apellido, un imperio y el final de una época del empresaria"
           ]
         },
         "sin ancla argentina": {
           "cantidad": 5,
           "ejemplos": [
-            "El dólar en perspectiva: qué distancia lo separa de los valores que alcanzó en l",
-            "Las nuevas prohibiciones que regirán para las apuestas online tras la sanción de",
-            "El fiscal Pollicita pidió investigar una transferencia de la AFA a Claudio “Chiq"
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Gobierno sale de gira por Estados Unidos para vender las privatizaciones que "
+            "El Banco Central volvió a comprar reservas: se alzó hoy con US$61 millones",
+            "Las exportaciones agroindustriales de octubre marcaron un récord: US$5717 millon",
+            "Siguió elevada la demanda privada de dólares en octubre y crecieron los envíos a"
           ]
         }
       }
@@ -86,19 +85,13 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 2,
           "ejemplos": [
-            "El oro del Central está en Londres",
-            "“Y usted calladita”: el ataque machista de Feijóo a Ada Colau en el debate en Es"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Ley de Ludopatía: cómo impactará en el fútbol y qué harán los clubes con los spo"
+            "EE.UU. y la Copa Gringa con papas fritas",
+            "Murió el empresario Jorge Born"
           ]
         }
       }
@@ -106,14 +99,20 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 5,
+      "aceptadas": 3,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 15,
+          "cantidad": 16,
           "ejemplos": [
-            "Cáritas Córdoba lanza su Colecta de Navidad para acompañar a 20.000 familias",
-            "Tala RC revivió la noche más importante de su historia con «La película del camp",
-            "River cambió su logística y llegará a Córdoba el mismo día del partido ante Inst"
+            "Qué revisar en el auto antes de salir de vacaciones por las rutas argentinas",
+            "Estudiantes va por la quinta Copa Libertadores ante Palmeiras",
+            "Colapinto tuvo una mala jornada en las prácticas libres del GP de Qatar"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El exministro de Economía de Paraguay se entregó y quedó detenido"
           ]
         }
       }
@@ -121,14 +120,14 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 25,
+      "aceptadas": 21,
       "descartadas": {
         "titular sin tema de política/economía": {
           "cantidad": 38,
           "ejemplos": [
-            "Los cócteles con café ganan terreno entre los jóvenes",
-            "Casi 6 de cada 10 argentinos eligen apps y billeteras digitales por su rapidez y",
-            "JetSMART avanza en su plan de expansión regional y cerrará 2026 con una flota de"
+            "Los argentinos compraron más de USD 3.000 millones en octubre",
+            "Córdoba designó nuevos escribanos titulares para cubrir registros notariales vac",
+            "Córdoba abrió la convocatoria 2027 para obtener la matrícula habilitante de Medi"
           ]
         },
         "otro país": {
@@ -146,11 +145,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 13,
+          "cantidad": 17,
           "ejemplos": [
-            "Ir al gimnasio en Córdoba cuesta en promedio $ 43.000 por mes, 16% menos que en ",
-            "Copa Airlines celebra 27 años desde su desembarco en Argentina",
-            "Black Friday: Anker lanzó descuento de 60% en su innovador parlante portátil"
+            "El consumo en mayoristas y shoppings repuntó en septiembre",
+            "Santilli en el Senado: “Milei hoy va por la reelección”",
+            "Declaran el Estado de Desastre en San Francisco luego de los daños del 19 de nov"
           ]
         }
       }
@@ -158,14 +157,20 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 6,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 13,
           "ejemplos": [
-            "Franco Colapinto fue 12º en la primera práctica del GP de Qatar",
-            "Instituto va por las semifinales ante River, con transmisión especial de los SRT",
-            "El día que el tenis argentino llegó a lo más alto: a una década de la hazaña en "
+            "“Retazos de la Memoria”: el cine cordobés viaja al corazón de la Amazonía",
+            "Pauny: se agrava la crisis y el gremio dice que la empresa “no tienen fondos”",
+            "Puma cerró una de sus dos fábricas en Argentina: despidió a 50 trabajadores"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "Villa María: investigan un presunto ajuste de cuentas que involucra a empresario"
           ]
         }
       }
@@ -176,7 +181,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
+      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
     },
     {
       "medio": "Cadena 3",
@@ -185,14 +190,14 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 19,
+      "aceptadas": 16,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 21,
+          "cantidad": 20,
           "ejemplos": [
-            "El Niño en Córdoba: Mendiolaza prepara un operativo especial ante posibles lluvi",
-            "\"Casi sexto\": Clausuraron 8 fiestas clandestinas en Córdoba y con unos 1.200 men",
-            "La Piemontesa 2027: confirmaron los primeros artistas para la 53° Fiesta Naciona"
+            "Detuvieron en Bell Ville a tres sospechosos por balear a un comerciante de Villa",
+            "Instituto-River en Córdoba: más de 570 personas estarán a cargo de la seguridad ",
+            "Empresario 2026: los CFO que lideran la estrategia financiera de empresas cordob"
           ]
         },
         "otro país": {
@@ -209,11 +214,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 11,
           "ejemplos": [
-            "Alerta por tormentas en Córdoba: Oncativo preparó un operativo de emergencia ant",
-            "Tras los cambios en PAMI, las clínicas privadas esperan un giro: \"El Gobierno es",
-            "\"La ludopatía mata vidas\": el desesperado pedido de una madre para que el Senado"
+            "Bancor activa nuevos hipotecarios: quiénes pueden acceder y cuánto pueden pedir",
+            "Liberaron bajo fianza a uno de los acróbatas cordobeses detenidos en Estados Uni",
+            "\"La misma recesión técnica\": Córdoba también cayó dos trimestres seguidos, según"
           ]
         }
       }
