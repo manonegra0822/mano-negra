@@ -1,68 +1,54 @@
 {
-  "actualizado": "2026-11-26T19:53:33-03:00",
+  "actualizado": "2026-11-27T07:53:48-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 93,
+          "cantidad": 99,
           "ejemplos": [
-            "Checo Pérez en problemas antes del GP de Qatar: el mexicano tendrá que declarar ",
-            "Última hora de las elecciones generales del 29-N y el debate a cuatro, en direct",
-            "Sánchez alerta en el debate electoral de la “motosierra” de Vox y las “tijeras” "
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 3,
-          "ejemplos": [
-            "Licitación clave: el Gobierno renovó todos los vencimientos por más de $25 billo",
-            "Diputados, en vivo: con fuertes cuestionamientos de la oposición, se debate el P",
-            "Avanza el debate del Presupuesto en Diputados: los artículos que todavía se nego"
+            "El misterio de la empleada doméstica paraguaya acusada de robar joyas y perros e",
+            "Illa recibe a Miquel Roca en el Palau de la Generalitat en el último día de camp",
+            "El detenido por el crimen machista de Bilbao tenía una orden de alejamiento de l"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 91,
-      "aceptadas": 17,
+      "leidas": 92,
+      "aceptadas": 5,
       "descartadas": {
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Niño: tres provincias pidieron $115.000 millones al Gobierno para afrontar el"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 6,
-          "ejemplos": [
-            "Cuándo son las elecciones presidenciales 2027: las fechas tentativas si se suspe",
-            "El Senado dejó vigente solo el debate presidencial obligatorio en la instancia d",
-            "El artículo del financiamiento universitario, con amplias chances de caer en el "
-          ]
-        },
         "sección no permitida": {
-          "cantidad": 54,
+          "cantidad": 79,
           "ejemplos": [
-            "Elecciones España 2026, EN VIVO: comenzó el último debate presidencial, las últi",
-            "Investigadores aseguran que podría existir otro Monte Everest debajo del hielo a",
-            "Lula eligió a Luiz Carlos Trabuco como ministro de Economía y los mercados lo re"
+            "Está a menos de tres horas de Mar del Plata, es la playa más desértica de Buenos",
+            "Marc Márquez anunció que se retira del MotoGP tras el Gran Premio de Valencia",
+            "El problema no es la ley contra la ludopatía, sino generar recursos en un fútbol"
           ]
         },
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 2,
           "ejemplos": [
-            "El Colegio de Abogados de la Ciudad pidió que se investigue a los camaristas que",
-            "“Está causando estragos”: una plaga avanza en los campos de la Patagonia y donde",
-            "La Cámara de Casación anuló el cómputo de la pena del exinterventor del yacimien"
+            "Fecha de cobro de Anses: el cronograma de pagos para este viernes 27 de noviembr",
+            "Tiene 47 años: Alejandra Gribaldo, la mujer detrás de una investigación clave en"
+          ]
+        },
+        "sin ancla argentina": {
+          "cantidad": 4,
+          "ejemplos": [
+            "El Gobierno logró la media sanción del presupuesto 2027, pero la oposición le de",
+            "La oposición festejó el aumento en los fondos universitarios en el Presupuesto 2",
+            "El Senado convirtió en ley al proyecto de vandalismo rural por amplia mayoría"
           ]
         },
         "otro país": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
-            "Tras el envío de 1000 lingotes, el Banco Central pasó a tener un tercio de su or"
+            "La Iglesia celebró la aprobación de la ley de Ludopatía en el Senado: “Es un tri",
+            "El Presidente se reunió con su par de Asunción y el Senado le dio media sanción "
           ]
         }
       }
@@ -92,14 +78,13 @@
     {
       "medio": "Página/12",
       "leidas": 6,
-      "aceptadas": 3,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "El oro del Central está en Londres",
-            "“Está en nuestras manos”: Carla Antonelli antes del 29-N",
-            "Un miniacuerdo con la UE reaviva el debate sobre la identidad británica: ¿desand"
+            "Arranca el juicio contra los encubridores de los vuelos de la muerte"
           ]
         }
       }
@@ -107,14 +92,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 9,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 11,
+          "cantidad": 13,
           "ejemplos": [
-            "El Tesoro renovó vencimientos por $25,4 billones y captó más fondos",
-            "“Luz al tiempo” y otras obras suben el telón de noviembre",
-            "Golpe de calor en mascotas: cómo detectarlo a tiempo y qué hacer"
+            "Imputaron al exlegislador “Cañito” Flores por el nombramiento ilegal de un aseso",
+            "Tapa 27-11-26",
+            "AFA le entregó a Belgrano el trofeo del Regional 1986 tras 40 años"
           ]
         }
       }
@@ -122,28 +107,36 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 27,
+      "aceptadas": 25,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 37,
+          "cantidad": 38,
           "ejemplos": [
-            "Registro General de Córdoba: declaran día inhábil",
-            "Quirno responsabilizó a Brasil por el deterioro de las relaciones diplomáticas c",
-            "La CNV abre consulta pública para hacer públicas las tenencias accionarias de di"
+            "Malvinas: Tribunal del Mar resolverá pedido argentino para frenar la explotación",
+            "Río Cuarto: mediante el Plan de Cooperación se conciliaron 201 causas laborales ",
+            "Black Friday, fiestas y verano impulsan empleo temporario con expectativas a que"
+          ]
+        },
+        "otro país": {
+          "cantidad": 2,
+          "ejemplos": [
+            "Las acciones de Embraer caen tras la amenaza de Trump de imponer aranceles a los",
+            "¿Exportaciones de Malvinas al Pacífico? Empresa chilena quiere hacer la ruta com"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
+          "cantidad": 2,
           "ejemplos": [
+            "Se concretó la séptima fase de la operación internacional “Aliados por la Infanc",
             "El Instituto Nacional de la Propiedad Industrial busca profesionales para sumar "
           ]
         },
         "muy vieja": {
-          "cantidad": 15,
+          "cantidad": 13,
           "ejemplos": [
-            "Córdoba: 36% de los hogares de la provincia es pobre multidimensional",
-            "Abatieron al jefe del servicio de inteligencia interior de Hamás",
-            "Tercer trimestre: la actividad económica cayó 1,2%"
+            "Senado: la UCR y PRO condicionan el dictamen de Ludopatía a que el oficialismo i",
+            "La deuda de Córdoba aumentó más de $400 mil millones por la suba del dólar",
+            "Las compras por courier superaron los US$1.000 millones y marcan un récord en 20"
           ]
         }
       }
@@ -151,14 +144,14 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 7,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 14,
+          "cantidad": 13,
           "ejemplos": [
-            "AFA le entregó a Belgrano el trofeo de campeón del Regional 1986",
-            "Córdoba fue sede de las primeras Olimpíadas Deportivas LGBTIQ+ nacionales: parti",
-            "Relevante autoridad del Opus Dei fue citada a indagatoria por una causa de presu"
+            "Córdoba: tres heridos tras fuerte accidente frontal en Villa Cabrera",
+            "Córdoba: el SEP logró un acuerdo paritario hasta agosto de 2027",
+            "Calor e inestabilidad mediante, cómo se presenta el fin de semana en Córdoba"
           ]
         }
       }
@@ -178,14 +171,14 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 19,
+      "aceptadas": 20,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 17,
           "ejemplos": [
-            "RIU cumple un objetivo histórico con la compra de su primer hotel en Barcelona",
-            "\"Quedamos en medio de una disputa política\": el reclamo de los organizadores del",
-            "Matías Declemente: “La política se volvió una respuesta a un marketing temporal\""
+            "Clima en Córdoba: cómo estará el tiempo este viernes 27 de noviembre y cuándo vu",
+            "Daños estimados en $620 millones: cómo se recuperó San Francisco tras una semana",
+            "RIU cumple un objetivo histórico con la compra de su primer hotel en Barcelona"
           ]
         },
         "otro país": {
@@ -202,11 +195,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 12,
+          "cantidad": 10,
           "ejemplos": [
-            "Casi 800 millones de usuarios en Spotify: el fenómeno de vivir con auriculares y",
-            "Los acróbatas cordobeses detenidos por el ICE podrán recuperar la libertad bajo ",
-            "\"Sigo siendo crítico de Milei\": Agost Carreño defiende el acercamiento del PRO a"
+            "UNC: nuevo paro docente en reclamo del cumplimiento de la ley de financiamiento ",
+            "Con imputación ampliada mañana miércoles indagarán a Iván Tabella por el femicid",
+            "Casi 800 millones de usuarios en Spotify: el fenómeno de vivir con auriculares y"
           ]
         }
       }

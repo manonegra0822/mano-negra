@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-26T19:53:33-03:00",
+  "actualizado": "2026-11-27T07:53:48-03:00",
   "notas": [
     {
       "id": "4ff9b42957",
@@ -31,9 +31,14 @@
           "fuente": "Hoy Día Córdoba",
           "titulo": "Con un respaldo contundente, el Senado dio media sanción a la reforma electoral",
           "url": "https://hoydia.com.ar/politica/nacional/reforma-electoral-paso-senado/"
+        },
+        {
+          "fuente": "Cba24n",
+          "titulo": "Senado: los representantes de Córdoba apoyaron la Reforma Electoral",
+          "url": "https://www.cba24n.com.ar/argentina/senado--los-representantes-de-cordoba-apoyaron-la-reforma-electoral_a6b08ac671f2b82ae59121b27"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.56,
         "x1": 0.74,
@@ -68,7 +73,7 @@
           "url": "https://hoydia.com.ar/politica/nacional/diputados-convirtio-en-ley-la-reforma-del-banco-central-y-ahora-trata-el-presupuesto-2027/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.003,
         "x1": 0.232,
@@ -77,79 +82,60 @@
       }
     },
     {
-      "id": "0363a8371d",
+      "id": "e8c38cdea3",
       "seccion": "cordoba",
-      "rel": 46.0,
-      "relevancia": 46.0,
-      "fecha": "2026-11-26T18:10:00-03:00",
-      "hora": "18:10",
-      "titulo": "El Senado aprobó la reforma política con la suspensión de las PASO 2027",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/el-senado-aprobo-la-reforma-politica-con-la-suspension-de-las-paso-2027_a6b082f351f2b82ae590d3c30",
+      "rel": 44.5,
+      "relevancia": 44.5,
+      "fecha": "2026-11-26T22:58:37-03:00",
+      "hora": "22:58",
+      "titulo": "Congreso hiperactivo: aprobó la reforma del Banco Central; media sanción para el Presupuesto y la suspensión de las PASO",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/congreso-hiperactivo-aprobo-la-reforma-del-banco-central-media-sancion-para-el-presupuesto-y-la-suspension-de-las-paso/",
       "acceso": "abierto",
-      "resumen": "El oficialismo le dio media sanción al proyecto que establece modificaciones para la próxima contienda electoral.",
+      "resumen": "Las cámaras de Diputados y de Senadores iniciaron al mediodía maratónicas sesiones en las que se sancionaron leyes claves. En tanto, obtuvieron media sanción proyectos fundamentales impulsados por el Ejecutivo, como la suspensión de las elecciones primarias y el Presupuesto 2027. Además, se debatían otras iniciativas en una jornada que se prolongará hasta entrada la […]",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6ab44e61ed240397dd1ba5f6/720.jpeg",
-      "imagen_credito": "Cba24n",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/YTKJ47SBPJGFBI5JHMLJ7QGJAY.JPG?auth=bd6ce3935360a4e75d11152cbcec492fc47314bc8d74f4131e793d312a72f93c&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
       "otros": [
         {
           "fuente": "La Nación",
-          "titulo": "Es oficial: el Senado aprobó la suspensión de las PASO para las elecciones de Argentina 2027",
-          "url": "https://www.lanacion.com.ar/politica/es-oficial-el-senado-aprobo-la-suspension-de-las-paso-para-las-elecciones-de-argentina-2027-nid26112026/"
+          "titulo": "Diputados convirtió en ley la reforma del Banco Central",
+          "url": "https://www.lanacion.com.ar/politica/diputados-el-gobierno-busca-darle-media-sancion-al-presupuesto-2027-y-convertir-en-ley-la-reforma-nid26112026/"
         },
         {
-          "fuente": "La Nación",
-          "titulo": "Test de fuego para Milei: el Senado discute la suspensión de las PASO en 2027 y se prepara para tratar la ley de ludopatía",
-          "url": "https://www.lanacion.com.ar/politica/sesion-crucial-en-el-senado-el-oficialismo-pretende-aprobar-la-suspension-de-las-paso-y-se-debate-la-nid26112026/"
+          "fuente": "Cba24n",
+          "titulo": "El Senado aprobó la reforma política con la suspensión de las PASO 2027",
+          "url": "https://www.cba24n.com.ar/argentina/el-senado-aprobo-la-reforma-politica-con-la-suspension-de-las-paso-2027_a6b082f351f2b82ae590d3c30"
         }
       ],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "4aa6096dc2",
-      "seccion": "cordoba",
-      "rel": 33.7,
-      "relevancia": 33.7,
-      "fecha": "2026-11-25T20:20:32-03:00",
-      "hora": "20:20",
-      "titulo": "El Gobierno enfrenta este jueves otra jornada clave en el Congreso",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-nacional-enfrenta-este-jueves-otra-jornada-clave-en-el-congreso/",
-      "acceso": "abierto",
-      "resumen": "El oficialismo intentará dar media sanción a la reforma electoral y al Presupuesto 2027. También se definirá la Ley de Ludopatía.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/El-Gobierno-nacional-enfrenta-este-jueves-otra-jornada-clave-en-el-Congreso-1024x683-optimized.png",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
       "dia": 1,
       "rostros": {
-        "x0": 0.163,
-        "x1": 1.0,
-        "y0": 0.135,
-        "y1": 0.517
+        "x0": 0.304,
+        "x1": 0.444,
+        "y0": 0.685,
+        "y1": 0.895
       }
     },
     {
-      "id": "b0c4f1d2e0",
+      "id": "6c6b43571b",
       "seccion": "cordoba",
-      "rel": 33.6,
-      "relevancia": 33.6,
-      "fecha": "2026-11-26T07:18:13-03:00",
-      "hora": "07:18",
-      "titulo": "El dólar en Córdoba: cuánto a cotiza este jueves 26 de noviembre",
+      "rel": 34.0,
+      "relevancia": 34.0,
+      "fecha": "2026-11-27T07:14:21-03:00",
+      "hora": "07:14",
+      "titulo": "El dólar en Córdoba: cuánto a cotiza este viernes 27 de noviembre",
       "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/el-dolar-en-cordoba-cuanto-a-cotiza-este-jueves-26-de-noviembre-aHPDA4u3bqvD",
+      "url": "https://www.perfil.com/cordoba/el-dolar-en-cordoba-cuanto-a-cotiza-este-viernes-27-de-noviembre-aD6Lf2u1c6hU",
       "acceso": "abierto",
-      "resumen": "Este jueves 26 de noviembre el dólar oficial en el Banco Nación se vende a 1.625 pesos y cotiza a 1.575 pesos para la compra. Leer más",
+      "resumen": "Este viernes 27 de noviembre el dólar oficial en el Banco Nación se vende a 1.625 pesos y cotiza a 1.575 pesos para la compra. Leer más",
       "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/5494110d4943-pesos-argentinos-y-dolares-2351999.webp",
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/193bd4a96fc4-dolares-2350363.webp",
       "imagen_credito": "Perfil",
       "otros": [
         {
           "fuente": "La Nación",
-          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este jueves 26 de noviembre, minuto a minuto",
-          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-jueves-26-de-noviembre-nid26112026/"
+          "titulo": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este viernes 27 de noviembre",
+          "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid27112026/"
         }
       ],
       "dia": 0,
@@ -177,7 +163,7 @@
           "url": "https://www.lanacion.com.ar/politica/tras-el-escandalo-de-ueno-bank-javier-milei-se-reune-con-pedro-alliana-nuevo-presidente-de-paraguay-nid26112026/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.259,
         "x1": 0.596,
@@ -186,29 +172,71 @@
       }
     },
     {
-      "id": "92414c911d",
+      "id": "b0665a6486",
       "seccion": "cordoba",
-      "rel": 30.5,
-      "relevancia": 30.5,
-      "fecha": "2026-11-25T23:07:56-03:00",
-      "hora": "23:07",
-      "titulo": "Bancor lanzó una nueva línea de hipotecarios",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-11-27T07:48:52-03:00",
+      "hora": "07:48",
+      "titulo": "El oficialismo aprobó el Presupuesto en Diputados y perdió un artículo clave vinculado a las universidades",
       "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/bancor-lanzo-una-nueva-linea-de-hipotecarios/",
+      "url": "https://comercioyjusticia.info/informacion-general/el-oficialismo-aprobo-el-presupuesto-en-diputados-y-perdio-un-articulo-clave-vinculado-a-las-universidades/",
       "acceso": "abierto",
-      "resumen": "El Banco de Córdoba presentó una nueva línea de créditos hipotecarios destinada a la compra o construcción de vivienda única, con financiamiento en UVA, plazos de hasta 20 años y una tasa fija anual en pesos desde 7,5%. El anuncio fue encabezado por el presidente de Bancor, Raúl Paolasso, acompañado por el ministro de Producción, […]",
+      "resumen": "En una jornada con balance positivo para el Gobierno en el Congreso nacional, y tras más de 15 horas de sesión en la Cámara de Diputados, el oficialismo logró hoy ansiada la media sanción del proyecto de Presupuesto 2027, aunque quedó un sabor agridulce en el epílogo porque la oposición le torció la mano en […]",
       "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/3e55c0c4ff3a-lucas-salim-presentando-oficialmente-las-obras-en-duo-1929643.jpg",
-      "imagen_credito": "Perfil",
-      "otros": [
-        {
-          "fuente": "Perfil",
-          "titulo": "\"El 80% de los compradores mira propiedades usadas\": qué espera un desarrollista de la nueva línea de Bancor",
-          "url": "https://www.perfil.com/cordoba/el-80-de-los-compradores-mira-propiedades-usadas-que-espera-un-desarrollista-de-la-nueva-linea-de-bancor-auShs7h0YYUv"
-        }
-      ],
-      "dia": 1,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2025/08/diputados-discapacidad.jpg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
       "rostros": null
+    },
+    {
+      "id": "c1f3593aa4",
+      "seccion": "cordoba",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-11-27T07:47:41-03:00",
+      "hora": "07:47",
+      "titulo": "En Córdoba, Massa anticipó que el peronismo incluirá un capítulo sobre IA, empleo y producción en su propuesta electoral",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/politica/2026/11/27/en-cordoba-massa-anticipo-que-el-peronismo-incluira-un-capitulo-sobre-ia-empleo-y-produccion-en-su-propuesta-electoral/",
+      "acceso": "abierto",
+      "resumen": "El ex candidato presidencial y líder del Frente Renovador participó de un foro en la Universidad Nacional de Córdoba, donde planteó la necesidad de aprovechar las nuevas tecnologías para mejorar la productividad y proteger las fuentes de trabajo. También se reunió con investigadores y autoridades universitarias, quienes le transmitieron su preocupación por el desfinanciamiento del sistema científico",
+      "impacto": null,
+      "imagen": "https://www.infobae.com/resizer/v2/BLRA6EJKK5DD5GSC3TLPQCGHAA.jpeg?auth=67f9b4975d10d7118a83394540da9fc6e13d873d08967ed02685757eb5eee89b&smart=true&width=1440&height=1080",
+      "imagen_credito": "Infobae",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.0,
+        "x1": 0.46,
+        "y0": 0.151,
+        "y1": 0.37
+      }
+    },
+    {
+      "id": "c5dfa70ad2",
+      "seccion": "argentina",
+      "rel": 22.0,
+      "relevancia": 22.0,
+      "fecha": "2026-11-27T07:45:46-03:00",
+      "hora": "07:45",
+      "titulo": "Javier Milei y sus medidas, en vivo: el Gobierno logró la media sanción del Presupuesto 2027 y la suspensión de las PASO",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-gobierno-logro-la-media-sancion-del-presupuesto-2027-y-la-nid27112026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/BIRX2TY7XVCX5IV3SA7LDIMOHE.jpg?auth=8c1f5792b592d0b6714232d963115d8ece51e4b329106905a26fdaa4395aea41&smart=true&width=4160&height=2772",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.36,
+        "x1": 0.524,
+        "y0": 0.185,
+        "y1": 0.431
+      }
     },
     {
       "id": "543c310e5b",
@@ -226,7 +254,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/UTR47BMJXFFEXCXPABRZ2BP6ZQ.png?auth=6589afddc44f0012bc2318e81e986b31f827ef507660a1180b99df860c7244bc&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.084,
         "x1": 0.467,
@@ -250,32 +278,8 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/G6IAAFXLMVDPFGDFUWHPMNTOPA.jpeg?auth=a13bfb2329cdc83b5032bc227ab3efac370312c6f0e91119ff70e3be54d4706d&smart=true&width=1280&height=960",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "f6f621de8d",
-      "seccion": "cordoba",
-      "rel": 22.0,
-      "relevancia": 22.0,
-      "fecha": "2026-11-26T19:35:38-03:00",
-      "hora": "19:35",
-      "titulo": "Massa en Córdoba: “Necesitamos ciencia y pensamiento autónomo para que también la IA sea argentina”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/politica/massa-en-cordoba-necesitamos-ciencia-y-pensamiento-autonomo-para-que-tambien-la-ia-sea-argentina-aoW3o4d2wz8j",
-      "acceso": "abierto",
-      "resumen": "El ex candidato a presidente asistió al foro sobre inteligencia artificial y políticas públicas en la Facultad de Matemática, Astronomía, Física y Computación (FAMAF) y anunció que sumará propuestas de esta índole a la plataforma de su espacio. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/232376c6cbc7-massa.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.294,
-        "x1": 0.434,
-        "y0": 0.3,
-        "y1": 0.527
-      }
     },
     {
       "id": "d5653f8eda",
@@ -293,7 +297,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/45GIRAXFYNFYLBVMMYA6N6UL64.jpg?auth=2197a09f8160b7a19bcda60879b06014b9afef5b534182634a6c9f42c29b6619&smart=true&width=4160&height=2773",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -312,12 +316,79 @@
       "imagen": "https://www.infobae.com/resizer/v2/NQ53HPPAAJEO3BKE6CPZAXKJRI.jpg?auth=181fdcf496c1ff3f0d85ec7f548da58fc5b9631fb1a88b875a554f15bc1c686a&smart=true&width=3000&height=2000",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.143,
         "x1": 0.289,
         "y0": 0.028,
         "y1": 0.247
+      }
+    },
+    {
+      "id": "814d0dfc56",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-27T07:22:39-03:00",
+      "hora": "07:22",
+      "titulo": "Diputados aprobó el Presupuesto 2027 en medio de fuertes cruces",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/presupuesto-diputados-cruces/",
+      "acceso": "abierto",
+      "resumen": "El oficialismo busca aprobar la ley de gastos e ingresos durante la madrugada, mientras negocia los apoyos para la votación en particular. La oposición cuestionó las proyecciones económicas y las partidas para universidades y discapacidad. En la misma sesión, se aprobó una modificación a la Ley PyME.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Diputados-debate-el-Presupuesto-2027-en-medio-de-fuertes-cruces-optimized.jpeg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
+    },
+    {
+      "id": "ac19f9f677",
+      "seccion": "argentina",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-27T07:20:24-03:00",
+      "hora": "07:20",
+      "titulo": "El Gobierno se llevó su Presupuesto pero la oposición logró incluir el financiamiento universitario",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/27/el-gobierno-se-llevo-su-presupuesto-pero-la-oposicion-logro-incluir-el-financiamiento-universitario/",
+      "acceso": "suscripcion",
+      "resumen": "La Casa Rosada pudo festejar la aprobación de su proyecto pero tuvo que aceptar cambios en el artículo vinculado a los fondos para universidades nacionales. Se dispusieron partidas por 11 billones de pesos, tal como reclamaban los rectores.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/IZI6CP44QRH2VIVOPQAHIG2MBQ.JPG?auth=2f083e636ab86c5507e21ec9d73bb2e38c4eebfd9c5b75ed09d24106e002d0d6&smart=true&width=2500&height=1667",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.246,
+        "x1": 0.384,
+        "y0": 0.296,
+        "y1": 0.504
+      }
+    },
+    {
+      "id": "5a4ff491aa",
+      "seccion": "cordoba",
+      "rel": 21.9,
+      "relevancia": 21.9,
+      "fecha": "2026-11-27T07:15:45-03:00",
+      "hora": "07:15",
+      "titulo": "El Senado sancionó la Ley contra la Ludopatía",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/senado-ley-ludopatia-bullrich/",
+      "acceso": "abierto",
+      "resumen": "El peronismo y La Libertad Avanza (LLA) acordaron avanzar con la sanción de la iniciativa, que permanecía frenada desde hacía dos años y estaba a punto de perder estado parlamentario.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/tty_1795716574-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.301,
+        "x1": 0.597,
+        "y0": 0.147,
+        "y1": 0.679
       }
     },
     {
@@ -342,7 +413,7 @@
           "url": "https://hoydia.com.ar/politica/nacional/bullrich-aseguro-que-el-oficialismo-tiene-37-votos-para-suspender-las-paso/"
         }
       ],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.104,
         "x1": 0.923,
@@ -366,36 +437,12 @@
       "imagen": "https://www.infobae.com/resizer/v2/CDH7QQ7UQFHXZMVM2NL4OZT44Y.jpg?auth=1e36eb7267f19060867adb024ba3eaed36bd41d2a7734e28a5470dd782f5e379&smart=true&width=8073&height=5382",
       "imagen_credito": "Infobae",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.503,
         "x1": 0.723,
         "y0": 0.425,
         "y1": 0.755
-      }
-    },
-    {
-      "id": "4730f4f428",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-26T19:27:13-03:00",
-      "hora": "19:27",
-      "titulo": "Javier Milei y sus medidas, EN VIVO: el Presidente se reunió con su par de Asunción y el Senado le dio media sanción a la suspensión de las PASO",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-apunto-contras-las-operetas-de-la-oposicion-y-dijo-nid26112026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/FHUHORQQQFFZDNYU7EALXSNJXI.jpg?auth=542842591d2c58cb0983f958a0b4a46e1d4a30967b0dd5ab784b0db606fa8bcc&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.259,
-        "x1": 0.596,
-        "y0": 0.047,
-        "y1": 0.425
       }
     },
     {
@@ -414,26 +461,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/3EQXWMFWFFHNNE3HGXLOSVEJT4.jpg?auth=192c87b445ce2012b297d1de8b7d29148d5afa59c7c17f0eabec234e8ff341be&smart=true&width=2500&height=1667",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "1e8950b94f",
-      "seccion": "argentina",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-26T19:24:00-03:00",
-      "hora": "19:24",
-      "titulo": "Sesión en el Congreso por Reforma Electoral y Presupuesto, EN VIVO: suspensión de las PASO y los proyectos de Milei, voto a voto",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/sesion-en-la-camara-de-diputados-y-de-senadores-hoy-en-vivo-presupuesto-2027-reforma-electoral-y-ley-nid26112026/",
-      "acceso": "suscripcion",
-      "resumen": "El minuto a minuto de las votaciones en la Cámara de Diputados y en el Senado, los discursos de los legisladores y todas las repercusiones",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/7RDD7XTSIVHSVGC4OEHLXTH3VY.jpeg?auth=0c2cd9e4fde55acce56a5d0aa5737aeea6840e3ee9839535ce1bd4e8d35845b5&smart=true&width=1040&height=694",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -452,32 +480,8 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/3RQPLFWIAFAWRMZGQBIKBMFVCY.jpg?auth=97b49ae56d19f79908408c28b3f6eee1eeb72683efe17a14232f6a8d6d975a26&smart=true&width=900&height=667",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
-    },
-    {
-      "id": "8bfb6680e3",
-      "seccion": "cordoba",
-      "rel": 21.9,
-      "relevancia": 21.9,
-      "fecha": "2026-11-26T19:00:15-03:00",
-      "hora": "19:00",
-      "titulo": "Una encuesta asegura que tanto Kicillof como Massa ganarían un ballotage con Milei",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/una-encuesta-asegura-que-tanto-kicillof-como-massa-ganarian-un-ballotage-con-milei/",
-      "acceso": "abierto",
-      "resumen": "El sondeo de Analogías reveló que el 53,7% de los consultados rechaza la reelección del jefe de Estado.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Una-encuesta-asegura-que-tanto-Kicillof-como-Massa-ganarian-un-ballotage-con-Milei-optimized.png",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.028,
-        "x1": 0.892,
-        "y0": 0.126,
-        "y1": 0.733
-      }
     },
     {
       "id": "6560083c04",
@@ -495,7 +499,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/QKTFXMJBP5FXVJVB33H2G7TPKE.jpg?auth=5b5af16f1dc4284fd7a2d40a55d62e89d36b17763195a9d828f0af19ae49f15a&smart=true&width=740&height=493",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.573,
         "x1": 0.797,
@@ -519,7 +523,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/RWYZD5JMO5EAJEKFATBZS5LW5E.jpg?auth=07556c7bb991b64aa8de4d076e129f2eaeabe5c520311d826d007e8b92e39322&smart=true&width=4549&height=3032",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -538,7 +542,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/BZAU4675PRDKDBVSRJJO24F7DI.jpg?auth=1cc707b06118977b71835ffced96a2d354a25bd5e2b71b33b74ef9b0153529d1&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.23,
         "x1": 0.466,
@@ -562,6 +566,25 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/KM57BS3POVBYPFJVA5YNMVCD5I.jpg?auth=4dc3e8d83a0178e6efb745b242bc5462a935cfd75b5e5a90b301adf3a91fc84f&smart=true&width=2825&height=1800",
       "imagen_credito": "La Nación",
       "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "c4bc736c2f",
+      "seccion": "cordoba",
+      "rel": 21.7,
+      "relevancia": 21.7,
+      "fecha": "2026-11-27T06:00:00-03:00",
+      "hora": "06:00",
+      "titulo": "Paritarias: Llaryora oficializó combo de más de $300 mil millones de mejoras a estatales",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/paritarias-llaryora-oficializo-combo-de-mas-de-300-mil-millones-de-mejoras-a-estatales/",
+      "acceso": "abierto",
+      "resumen": "La propuesta incluye una baja de un punto de la alícuota máxima de aporte extraordinario a la Caja. En paralelo, sube el tope para la aplicación del diferimiento. Al mismo tiempo, habrá un bono de $100 mil en diciembre que percibirán unos 60 mil pasivos. En cuanto al aumento paritario, incluirá una suba mensual de […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/12/Centro-Civico-Casa-de-Gobierno-jpg.webp",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
       "dia": 0,
       "rostros": null
     },
@@ -581,7 +604,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/BSRUU62XWJERJI46PQG6WW2TZ4.jpg?auth=c64c5d018dfeb230e4be9e3f6f81f163983260845cae71245197e8012f755864&smart=true&width=3069&height=2088",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.436,
         "x1": 0.679,
@@ -605,7 +628,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/QS4VXBWPG5AHPLMDSPJR3CDMKU.jpg?auth=188f368ab54aea3a299cd7b2211fd5384c6cb7bc27438d843122711f8b7188da&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -624,7 +647,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/SBXLN3BSXZDNBIDNOFWRMDFOHM.jpg?auth=15ce2cc56c8c468559bcb2c4325dc2e238702b21f6c66c3a48dc85e3e3299951&smart=true&width=2000&height=1333",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.097,
         "x1": 0.894,
@@ -648,7 +671,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Milei-celebro-la-aprobacion-de-la-ley-de-reforma-de-la-Carta-Organica-del-BCRA-optimized.webp",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.003,
         "x1": 0.213,
@@ -672,7 +695,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/LVCPIEIFURHKXKABISCEHJ6J3I.JPG?auth=dba154e6db0d8cd829bff683b26666bb1566fea9c334b035d0749cd267b9f220&smart=true&width=2000&height=1333",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -691,7 +714,7 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Caputo-atribuyo-la-aceleracion-de-octubre-a-los-cambios-en-el-regimen-de-Zona-Fria-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.409,
         "x1": 0.713,
@@ -700,34 +723,23 @@
       }
     },
     {
-      "id": "b9ab5bff55",
+      "id": "f45ff4e50c",
       "seccion": "economia",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-25T20:27:52-03:00",
-      "hora": "20:27",
-      "titulo": "Caputo descartó un “plan platita” y explicó cómo pagará la deuda de enero",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/caputo-plan-platita-deuda-enero/",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-11-27T05:08:00-03:00",
+      "hora": "05:08",
+      "titulo": "La Argentina batió un récord de exportaciones mineras y el litio creció 162%",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/negocios/la-argentina-batio-un-record-de-exportaciones-mineras-y-el-litio-crecio-162/",
       "acceso": "abierto",
-      "resumen": "El ministro precisó que el Gobierno debe afrontar compromisos por US$ 4.370 millones y enumeró las fuentes previstas para cubrirlos. También atribuyó la incertidumbre financiera al temor de que Milei no sea reelecto.",
+      "resumen": "Las exportaciones mineras argentinas alcanzaron un récord histórico de US$7.455 millones durante los primeros diez meses de 2026, un 52,5% más que en el mismo período del año pasado. A falta de contabilizar noviembre y diciembre, el sector ya superó en un 23% los US$6.074 millones exportados durante todo 2025, según el informe de la […]",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Caputo-descarto-un-plan-platita-y-explico-como-pagara-la-deuda-de-enero-optimized.jpeg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [
-        {
-          "fuente": "La Nación",
-          "titulo": "Luis Caputo explicó cómo espera pagar los vencimientos de deuda de enero y reiteró que pidió a China usar parte del swap",
-          "url": "https://www.lanacion.com.ar/economia/luis-caputo-explico-como-espera-pagar-los-vencimientos-de-deuda-de-enero-y-reitero-que-pidio-a-china-nid25112026/"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.448,
-        "x1": 0.697,
-        "y0": 0.147,
-        "y1": 0.521
-      }
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/10/mineria2.png",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 0,
+      "rostros": null
     },
     {
       "id": "70a6c4fb88",
@@ -745,26 +757,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/VZFNDFTCT5EPLIZWA5JTCVXGYE.jpg?auth=bcdfec45f2eae460ea04d0d7dc6816ab0d5d8dc16e900de38dada547c9b1fe3c&smart=true&width=1833&height=1222",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "d12d172f43",
-      "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-11-26T16:54:46-03:00",
-      "hora": "16:54",
-      "titulo": "Córdoba regula por ley el ejercicio profesional de los licenciados en Producción de Bio-Imágenes",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/cordoba-regula-por-ley-el-ejercicio-profesional-de-los-licenciados-en-produccion-de-bio-imagenes/",
-      "acceso": "abierto",
-      "resumen": "La norma incorpora la actividad a la Ley de Profesiones de la Salud y define sus campos de actuación, desde radiología y tomografía hasta radioterapia y medicina nuclear. Los licenciados podrán realizar procedimientos para diagnóstico o terapia a pedido del profesional solicitante, pero no podrán prescribir medicamentos ni modificar indicaciones médicas La Legislatura de la […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/bioimagenes.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -783,24 +776,24 @@
       "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Caputo-anuncio-creditos-de-Fonplata-por-US_347-millones-para-obras-en-cuatro-provincias-optimized.jpeg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
-      "id": "8eca148203",
-      "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-11-26T16:40:00-03:00",
-      "hora": "16:40",
-      "titulo": "Salud pública: el Gobierno de Córdoba aprobó el traspaso de agentes al régimen sanitario desde diciembre",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/leyes-y-comentarios/salud-publica-el-gobierno-de-cordoba-aprobo-el-traspaso-de-agentes-al-regimen-sanitario-desde-diciembre/",
-      "acceso": "abierto",
-      "resumen": "La resolución da inicio formal a la incorporación progresiva de 2.160 agentes al Régimen del Personal que integra el Equipo de Salud Humana (Ley N° 7625), en el marco de la unificación definitiva del régimen laboral de los equipos de salud de Córdoba. La primera etapa dispone el pase voluntario de 1.500 agentes de planta […]",
+      "id": "1e8950b94f",
+      "seccion": "argentina",
+      "rel": 21.4,
+      "relevancia": 21.4,
+      "fecha": "2026-11-27T04:16:33-03:00",
+      "hora": "04:16",
+      "titulo": "Sesión en el Congreso por Reforma Electoral y Presupuesto, EN VIVO: presupuesto 2027 y los proyectos de Milei, voto a voto",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/sesion-en-la-camara-de-diputados-y-de-senadores-hoy-en-vivo-presupuesto-2027-reforma-electoral-y-ley-nid26112026/",
+      "acceso": "suscripcion",
+      "resumen": "El minuto a minuto de las votaciones en la Cámara de Diputados y en el Senado, los discursos de los legisladores y todas las repercusiones",
       "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/08/Medicos-jpg.webp",
-      "imagen_credito": "Comercio y Justicia",
+      "imagen": "https://resizer.glanacion.com/resizer/v2/7WHS4Z6PYVGE7ALHZLWR3BOU6U.jpeg?auth=440031bba9a7655362213ccd628aa72ed3e2e8e45952744f9299dc0d86457ea0&smart=true&width=1280&height=853",
+      "imagen_credito": "La Nación",
       "otros": [],
       "dia": 0,
       "rostros": null
@@ -821,7 +814,7 @@
       "imagen": "https://resizer.glanacion.com/resizer/v2/W2GSMUIUJ5BLJAJU57LH3ZVFQY.jpeg?auth=9a1bda16b5a1335387afaf5c11a594050573faf1d33ee2cc09be1071e57f0bd4&smart=true&width=1193&height=663",
       "imagen_credito": "La Nación",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -840,36 +833,12 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/BFB3HHZSW5FVFDYMABVF6X6SGU.jpg?auth=70bec8e080e7f034cdc7626fce81bedf6291aa8cd5bd3ad387723dd59269aee1&smart=true&width=1440&height=960",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.009,
         "x1": 0.143,
         "y0": 0.485,
         "y1": 0.687
-      }
-    },
-    {
-      "id": "567a46ce5e",
-      "seccion": "cordoba",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-11-26T14:54:09-03:00",
-      "hora": "14:54",
-      "titulo": "La deuda como campo de batalla: Llaryora defiende su modelo y la oposición apunta a la caja provincial",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/la-deuda-como-campo-de-batalla-llaryora-defiende-su-modelo-y-la-oposicion-apunta-a-la-caja-provincial-aLHOC0R7Ms0m",
-      "acceso": "abierto",
-      "resumen": "La deuda en dólares y el compromiso de recursos futuros tensaron el inicio del debate presupuestario. Mientras el oficialismo reivindica el equilibrio fiscal, Agost Carreño puso en discusión la sostenibilidad del endeudamiento ante un eventual deterioro de las variables económicas. El juecismo anticipó su rechazo y reclama recortar el gasto público. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/7e98cd4539f9-comision-economia-y-presupuesto65.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 0,
-      "rostros": {
-        "x0": 0.656,
-        "x1": 0.874,
-        "y0": 0.495,
-        "y1": 0.816
       }
     },
     {
@@ -888,26 +857,7 @@
       "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GVSTIOLCG5RDOYRWGZRGKNLGHE.jpg?auth=40a1fd2f37a85ce6956c900a5f59d5fd2711eac1d06729cf5cba9c1f9965729a&smart=true&width=960&height=640",
       "imagen_credito": "Página/12",
       "otros": [],
-      "dia": 0,
-      "rostros": null
-    },
-    {
-      "id": "111d5803a6",
-      "seccion": "cordoba",
-      "rel": 20.9,
-      "relevancia": 20.9,
-      "fecha": "2026-11-26T13:32:22-03:00",
-      "hora": "13:32",
-      "titulo": "En una jornada maratónica, Diputados sesiona con el Presupuesto como eje central",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/en-una-jornada-maratonica-diputados-sesiona-con-el-presupuesto-como-eje-central/",
-      "acceso": "abierto",
-      "resumen": "El oficialismo consiguió reunir el quórum reglamentario para dar inicio a una extensa sesión especial en la Cámara de Diputados enfocada principalmente en el tratamiento del proyecto de Presupuesto 2027 y en la reforma de la Carta Orgánica del Banco Central de la República Argentina (BCRA). Poco después del mediodía, 130 legisladores ocuparon sus bancas […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/03/Camara-de-diputados.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": null
     },
     {
@@ -926,12 +876,60 @@
       "imagen": "https://srt-assets.tadevel-cdn.com/6b084e0d1f2b82ae590ecd4a/720.jpeg",
       "imagen_credito": "Cba24n",
       "otros": [],
-      "dia": 0,
+      "dia": 1,
       "rostros": {
         "x0": 0.01,
         "x1": 0.143,
         "y0": 0.487,
         "y1": 0.687
+      }
+    },
+    {
+      "id": "a294ad65b0",
+      "seccion": "cordoba",
+      "rel": 20.5,
+      "relevancia": 20.5,
+      "fecha": "2026-11-26T22:53:20-03:00",
+      "hora": "22:53",
+      "titulo": "Massa desembarcó en Córdoba para debatir sobre inteligencia artificial y reclamó por el presupuesto universitario",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/massa-desembarco-en-cordoba-para-debatir-sobre-inteligencia-artificial-y-reclamo-por-el-presupuesto-universitario-aOC4f0V85Qml",
+      "acceso": "abierto",
+      "resumen": "Invitado por el decano de la FAMAF, el referente del Frente Renovador evitó la discusión electoral rumbo a 2027, pero exigió el cumplimiento de la Ley de Financiamiento Educativo. Leer más",
+      "impacto": null,
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/b4506f682fc1-massa-cba.webp",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.223,
+        "x1": 0.369,
+        "y0": 0.359,
+        "y1": 0.567
+      }
+    },
+    {
+      "id": "960aa40245",
+      "seccion": "cordoba",
+      "rel": 20.2,
+      "relevancia": 20.2,
+      "fecha": "2026-11-26T21:02:33-03:00",
+      "hora": "21:02",
+      "titulo": "La Ley Fede se tratará en la Legislatura de Córdoba el 9 de diciembre",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/cordoba/la-ley-fede-se-tratara-en-la-legislatura-de-cordoba-el-9-de-diciembre_a6b08c4381f2b82ae591328b0",
+      "acceso": "abierto",
+      "resumen": "El proyecto estipula un abordaje integral del trastorno del espectro autista.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6b08c4501f2b82ae5913299c/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.484,
+        "x1": 0.749,
+        "y0": 0.135,
+        "y1": 0.609
       }
     }
   ],
