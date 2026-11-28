@@ -1,6 +1,71 @@
 {
-  "actualizado": "2026-11-28T07:53:28-03:00",
+  "actualizado": "2026-11-28T12:53:42-03:00",
   "notas": [
+    {
+      "id": "ebb3a1205e",
+      "seccion": "cordoba",
+      "rel": 45.8,
+      "relevancia": 45.8,
+      "fecha": "2026-11-28T11:39:26-03:00",
+      "hora": "11:39",
+      "titulo": "Malvinas: la respuesta del Gobierno al fallo del Tribunal del Mar",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/malvinas--la-respuesta-del-gobierno-al-fallo-del-tribunal-del-mar_a6b0ae63b811884993c35c654",
+      "acceso": "abierto",
+      "resumen": "La Casa Rosada advirtió que la resolución de Hamburgo \"no es la última palabra\" y aclaró que no pidió un fallo sobre soberanía, sino protección ante la explotación unilateral. Javier Milei reclamó a Diputados que sancione la próxima semana la Ley de Defensa de la Soberanía Nacional.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6b0ae781811884993c35d0fc/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Página/12",
+          "titulo": "Tras el fallo del Tribunal del Mar, el Gobierno destacó el reconocimiento de la disputa de soberanía de Malvinas",
+          "url": "https://www.pagina12.com.ar/2026/11/28/tras-el-fallo-del-tribunal-del-mar-el-gobierno-destaco-el-reconocimiento-de-la-disputa-de-soberania-de-malvinas/"
+        },
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "El Gobierno cuestionó el fallo del Tribunal del Mar y anticipó un arbitraje",
+          "url": "https://hoydia.com.ar/politica/el-gobierno-cuestiono-el-fallo-del-tribunal-del-mar-y-anticipo-un-arbitraje/"
+        }
+      ],
+      "dia": 0,
+      "rostros": {
+        "x0": 0.323,
+        "x1": 0.69,
+        "y0": 0.236,
+        "y1": 0.787
+      }
+    },
+    {
+      "id": "890ac48fab",
+      "seccion": "cordoba",
+      "rel": 45.7,
+      "relevancia": 45.7,
+      "fecha": "2026-11-27T14:25:00-03:00",
+      "hora": "14:25",
+      "titulo": "Sesiones extraordinarias: el Gobierno priorizó Malvinas, Super RIGI y suspensión de las PASO",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/sesiones-extraordinarias-el-gobierno-priorizo-malvinas-super-rigi-y-suspension-de-las-paso/",
+      "acceso": "abierto",
+      "resumen": "El Gobierno convocará en las próximas horas a sesiones extraordinarias durante diciembre para darle continuidad a la actividad legislativa y definió una hoja de ruta que tiene al proyecto de Defensa de la Soberanía Nacional entre las principales iniciativas que buscará aprobar antes de fin de año. Tras los triunfos en el Congreso de las […]",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/7WHS4Z6PYVGE7ALHZLWR3BOU6U.jpeg?auth=440031bba9a7655362213ccd628aa72ed3e2e8e45952744f9299dc0d86457ea0&smart=true&width=1280&height=853",
+      "imagen_credito": "La Nación",
+      "otros": [
+        {
+          "fuente": "La Nación",
+          "titulo": "El Gobierno confirmó el temario de sesiones extraordinarias en el Congreso: incluyó la ley Malvinas",
+          "url": "https://www.lanacion.com.ar/politica/el-gobierno-confirmo-el-temario-de-sesiones-extraordinarias-en-el-congreso-incluyo-la-ley-malvinas-nid28112026/"
+        },
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "El Gobierno definió las prioridades de las sesiones extraordinarias de diciembre",
+          "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-definio-las-prioridades-de-las-sesiones-extraordinarias-de-diciembre/"
+        }
+      ],
+      "dia": 1,
+      "rostros": null
+    },
     {
       "id": "a9c268dc6f",
       "seccion": "argentina",
@@ -32,160 +97,50 @@
       }
     },
     {
-      "id": "aec1215436",
+      "id": "88c0d8edd3",
       "seccion": "cordoba",
-      "rel": 33.8,
-      "relevancia": 33.8,
-      "fecha": "2026-11-27T11:49:16-03:00",
-      "hora": "11:49",
-      "titulo": "La Iglesia celebró la sanción de la ley de Ludopatía: “Es un triunfo colectivo de toda la sociedad argentina”",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/la-iglesia-celebro-la-sancion-de-la-ley-de-ludopatia---es-un-triunfo-colectivo-de-toda-la-sociedad-argentina-_a6b09940eac9a07069d0815fc",
+      "rel": 33.7,
+      "relevancia": 33.7,
+      "fecha": "2026-11-28T09:29:58-03:00",
+      "hora": "09:29",
+      "titulo": "Paritaria docente en Córdoba: bono navideño de $270 mil y subas de hasta el 58%",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/paritaria-docente-en-cordoba-bono-navideno-de-270-mil-y-subas-de-hasta-el-58-aYBg08s1dund",
       "acceso": "abierto",
-      "resumen": "A través de un comunicado, la Comisión Episcopal de Pastoral Social destacó el apoyo unánime de los 72 senadores, a pocos días de que el proyecto pierda estado parlamentario.",
+      "resumen": "En línea con el acuerdo alcanzado esta semana por el SEP, el Gobierno provincial presentó una propuesta salarial para los docentes hasta septiembre de 2027. La oferta incluye aumentos mensuales garantizados, sumas extras para activos y jubilados y mejoras en el incentivo docente en febrero y agosto. Leer más",
       "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6b0997d1ac9a07069d08440c/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "La Iglesia celebró la sanción de la Ley contra la Ludopatía",
-          "url": "https://hoydia.com.ar/hoypais/la-iglesia-celebro-la-sancion-de-la-ley-contra-la-ludopatia/"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "890ac48fab",
-      "seccion": "cordoba",
-      "rel": 31.9,
-      "relevancia": 31.9,
-      "fecha": "2026-11-27T14:25:00-03:00",
-      "hora": "14:25",
-      "titulo": "Sesiones extraordinarias: el Gobierno priorizó Malvinas, Super RIGI y suspensión de las PASO",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/sesiones-extraordinarias-el-gobierno-priorizo-malvinas-super-rigi-y-suspension-de-las-paso/",
-      "acceso": "abierto",
-      "resumen": "El Gobierno convocará en las próximas horas a sesiones extraordinarias durante diciembre para darle continuidad a la actividad legislativa y definió una hoja de ruta que tiene al proyecto de Defensa de la Soberanía Nacional entre las principales iniciativas que buscará aprobar antes de fin de año. Tras los triunfos en el Congreso de las […]",
-      "impacto": null,
-      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2024/03/Casa-Rosada.jpg",
-      "imagen_credito": "Comercio y Justicia",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "El Gobierno definió las prioridades de las sesiones extraordinarias de diciembre",
-          "url": "https://hoydia.com.ar/politica/nacional/el-gobierno-definio-las-prioridades-de-las-sesiones-extraordinarias-de-diciembre/"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "01a828f70b",
-      "seccion": "cordoba",
-      "rel": 31.4,
-      "relevancia": 31.4,
-      "fecha": "2026-11-27T15:20:50-03:00",
-      "hora": "15:20",
-      "titulo": "Córdoba eliminará el impuesto de Sellos para la compra de maquinaria fabricada en Córdoba",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/economia/cordoba-eliminara-del-impuesto-de-sellos-para-la-compra-de-maquinaria-fabricada-en-cordoba/",
-      "acceso": "abierto",
-      "resumen": "El gobernador Martín Llaryora anunció en Bell Ville que quienes adquieran bienes industriales fabricados en Córdoba estarán exentos del pago del impuesto de Sellos, una medida destinada a incentivar la demanda de productos locales, fortalecer la actividad industrial y sostener el empleo privado. El anuncio se realizó durante un encuentro con representantes de la Comisión […]",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6b09d56758cc08cf5f682b55/720.jpeg",
-      "imagen_credito": "Cba24n",
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/e5bd7bf4cc7f-uepc-2193874.webp",
+      "imagen_credito": "Perfil",
       "otros": [
         {
           "fuente": "Cba24n",
-          "titulo": "Llaryora anunció la eliminación del impuesto de Sellos para la compra de maquinaria fabricada en Córdoba",
-          "url": "https://www.cba24n.com.ar/cordoba/llaryora-anuncio-la-eliminacion-del-impuesto-de-sellos-para-la-compra-de-maquinaria-fabricada-en-cordoba_a6b09cda858cc08cf5f67de6a"
+          "titulo": "Paritaria docente en Córdoba: los detalles de la propuesta salarial del Gobierno a la UEPC",
+          "url": "https://www.cba24n.com.ar/cordoba/paritaria-docente-en-cordoba--los-detalles-de-la-propuesta-salarial-del-gobierno-a-la-uepc_a6b0adadc811884993c3529e2"
         }
       ],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.0,
-        "x1": 0.557,
-        "y0": 0.0,
-        "y1": 0.483
-      }
+      "dia": 0,
+      "rostros": null
     },
     {
-      "id": "c16f5fba1b",
+      "id": "cb53376cf4",
       "seccion": "economia",
-      "rel": 30.9,
-      "relevancia": 30.9,
-      "fecha": "2026-11-27T12:45:54-03:00",
-      "hora": "12:45",
-      "titulo": "Alivio en los mercados: suben acciones y bonos argentinos, y el riesgo país perfora los 950 puntos",
-      "fuente": "Comercio y Justicia",
-      "url": "https://comercioyjusticia.info/lo-ultimo/alivio-en-los-mercados-suben-acciones-y-bonos-argentinos-y-el-riesgo-pais-perfora-los-950-puntos/",
-      "acceso": "abierto",
-      "resumen": "Los activos argentinos revierten la tendencia negativa de las últimas ruedas y en consecuencia bajan el dólar y el riesgo país, al tiempo que suben acciones y bonos. Con mejora de los títulos de hasta 2,4%, el indicador soberano cae a 946 puntos, que implica una baja de 121 unidades con relación al cierre previo. […]",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6a1edea50dd9a767e4437b51/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Cba24n",
-          "titulo": "Alivio en los mercados: cayó el riesgo país y el dólar volvió a bajar",
-          "url": "https://www.cba24n.com.ar/cordoba/alivio-en-los-mercados--cayo-el-riesgo-pais-y-el-dolar-volvio-a-bajar_a6b09ac1358cc08cf5f66dadb"
-        }
-      ],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "07212d7307",
-      "seccion": "cordoba",
       "rel": 29.7,
       "relevancia": 29.7,
-      "fecha": "2026-11-27T15:36:45-03:00",
-      "hora": "15:36",
-      "titulo": "Presupuesto 2027: el gobierno apunta a modificar el artículo sobre universidades",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/argentina/presupuesto-2027--el-gobierno-apunta-a-modificar-el-articulo-sobre-universidades_a6b09cccd58cc08cf5f67d30d",
-      "acceso": "abierto",
-      "resumen": "La mesa política de la administración libertaria se reunirá el próximo martes para evaluar las estrategias parlamentarias sobre el proyecto que cuenta con media sanción de Diputados.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6b09cda058cc08cf5f67de2b/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [
-        {
-          "fuente": "Hoy Día Córdoba",
-          "titulo": "Presupuesto 2027: el Gobierno evalúa modificar el artículo sobre universidades",
-          "url": "https://hoydia.com.ar/politica/nacional/presupuesto-2027-el-gobierno-evalua-modificar-el-articulo-sobre-universidades/"
-        }
-      ],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.477,
-        "x1": 0.695,
-        "y0": 0.225,
-        "y1": 0.95
-      }
-    },
-    {
-      "id": "fda673e379",
-      "seccion": "cordoba",
-      "rel": 23.7,
-      "relevancia": 23.7,
-      "fecha": "2026-11-27T10:34:39-03:00",
-      "hora": "10:34",
-      "titulo": "El Senado aprobó por unanimidad crear un registro nacional de deudores alimentarios",
+      "fecha": "2026-11-27T17:58:38-03:00",
+      "hora": "17:58",
+      "titulo": "Presupuesto 2027: el Gobierno evalúa modificar el artículo sobre universidades",
       "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/politica/nacional/el-senado-aprobo-por-unanimidad-crear-un-registro-nacional-de-deudores-alimentarios/",
+      "url": "https://hoydia.com.ar/politica/nacional/presupuesto-2027-el-gobierno-evalua-modificar-el-articulo-sobre-universidades/",
       "acceso": "abierto",
-      "resumen": "La iniciativa busca crear un registro en todo el país y establece prohibiciones para los deudores.",
+      "resumen": "En Casa Rosada aseguran que el cambio instrumentado atenta contra el equilibrio fiscal, pero la mesa política ya trabaja en alternativas.",
       "impacto": null,
-      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GM2TSY3EMU3DQYJVMVSGGMJZGY.jpg?auth=36cb6330c158de208b35a7915426ccedb5fbe24bc9eb6f904c844083238b21d8&smart=true&width=1200&height=799",
-      "imagen_credito": "Página/12",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Presupuesto-2027-el-Gobierno-evalua-modificar-el-articulo-sobre-universidades-optimized.webp",
+      "imagen_credito": "Hoy Día Córdoba",
       "otros": [
         {
-          "fuente": "Página/12",
-          "titulo": "El Senado aprobó por unanimidad la Ley de Ludopatía: qué cambia",
-          "url": "https://www.pagina12.com.ar/2026/11/26/que-cambia-con-la-ley-de-prevencion-de-la-ludopatia/"
+          "fuente": "Cba24n",
+          "titulo": "Presupuesto 2027: el gobierno apunta a modificar el artículo sobre universidades",
+          "url": "https://www.cba24n.com.ar/argentina/presupuesto-2027--el-gobierno-apunta-a-modificar-el-articulo-sobre-universidades_a6b09cccd58cc08cf5f67d30d"
         }
       ],
       "dia": 1,
@@ -240,22 +195,22 @@
       }
     },
     {
-      "id": "937c8a6004",
-      "seccion": "economia",
+      "id": "7ee0ca5a6b",
+      "seccion": "cordoba",
       "rel": 21.8,
       "relevancia": 21.8,
-      "fecha": "2026-11-27T11:34:57-03:00",
-      "hora": "11:34",
-      "titulo": "El plan de Caputo para pagar el vencimiento de deuda de enero de US$4370 millones: ingresos externos, venta de AySA y préstamos garantizados",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/el-plan-de-caputo-para-pagar-el-vencimiento-de-deuda-de-enero-de-us4370-millones-ingresos-externos-nid27112026/",
-      "acceso": "suscripcion",
-      "resumen": "El ministro de Economía sostuvo que hay US$5000 millones que ya fueron aprobados por Pekín",
+      "fecha": "2026-11-28T11:51:47-03:00",
+      "hora": "11:51",
+      "titulo": "El Tribunal del Mar rechazó por 18 votos contra 3 el pedido argentino para frenar la explotación petrolera en Malvinas",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/justicia/el-tribunal-del-mar-rechazo-por-18-votos-contra-3-el-pedido-argentino-para-frenar-la-explotacion-petrolera-en-malvinas/",
+      "acceso": "abierto",
+      "resumen": "El Tribunal Internacional del Derecho del Mar (TIDM) rechazó hoy por 18 votos contra 3 la solicitud de medidas provisionales presentada por la Argentina para suspender la explotación petrolera del proyecto Sea Lion en las Islas Malvinas. La resolución fue difundida durante una audiencia pública que comenzó a las 8 de la Argentina en la […]",
       "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/YCZXPMEJAZAGRD6JG6F34LXA3A.jpg?auth=c7e146bba7a1f2ff2d15cb4f3b94e857bf19820dec5e167daf7f90595370e47f&smart=true&width=4235&height=2823",
-      "imagen_credito": "La Nación",
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/10/empresa-islas-malvinasjpg.jpg",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": null
     },
     {
@@ -283,46 +238,22 @@
       }
     },
     {
-      "id": "fca83d0a32",
-      "seccion": "argentina",
-      "rel": 21.7,
-      "relevancia": 21.7,
-      "fecha": "2026-11-27T10:52:14-03:00",
-      "hora": "10:52",
-      "titulo": "Bullrich defendió la suspensión de las PASO, volvió a hablar de un “proyecto que reelija” y pidió más alivio económico",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/politica/bullrich-defendio-la-suspension-de-las-paso-volvio-a-hablar-de-un-proyecto-que-reelija-y-pidio-mas-nid27112026/",
-      "acceso": "suscripcion",
-      "resumen": "La jefa del bloque oficialista en el Senado evitó referirse a un Milei candidato y aseguró que Karina no puede pedirle “que se baje de algo a lo que nunca se subió”",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/CLGPVFKUOJAFFDDNPB24X37WOM.jpg?auth=cc2fca5edd3d38dbfe00eae4181f0226deb61d77f1f9348506b8858d0fb41b1f&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.287,
-        "x1": 0.566,
-        "y0": 0.122,
-        "y1": 0.541
-      }
-    },
-    {
-      "id": "3b7ac643ac",
+      "id": "5dbc6d20a0",
       "seccion": "cordoba",
-      "rel": 21.6,
-      "relevancia": 21.6,
-      "fecha": "2026-11-27T10:12:58-03:00",
-      "hora": "10:12",
-      "titulo": "Un proyecto de IA para educación inclusiva ganó el certamen Solve for Tomorrow",
+      "rel": 21.5,
+      "relevancia": 21.5,
+      "fecha": "2026-11-28T09:50:15-03:00",
+      "hora": "09:50",
+      "titulo": "Llaryora anunció una baja del 30% en el Inmobiliario Urbano",
       "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/tecnologia/un-proyecto-de-inteligencia-artificial-para-educacion-inclusiva-gano-solve-for-tomorrow/",
+      "url": "https://hoydia.com.ar/hoy-cordoba/llaryora-anuncio-rebaja-30-por-ciento-inmobiliario-urbano/",
       "acceso": "abierto",
-      "resumen": "La 13.ª edición del programa educativo de Samsung Argentina, coronó a estudiantes de San Luis con una plataforma de IA para adaptar contenidos a chicos con discapacidad. Un proyecto cordobés sobre bienestar escolar también llegó a la final.",
+      "resumen": "El beneficio impositivo del Presupuesto 2027 alcanzará al 97% de los inmuebles y también prevé una baja de la alícuota general de Ingresos Brutos del 4,75% al 3,50%. También se impulsará una nueva ley de promoción del comercio. La política de reducción tributaria permitirá que $1,5 billones permanezcan en manos de los cordobeses.",
       "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/289-1795788740773-SFT_2026_Adelanto_dia_II-42-1000x665-1-optimized.jpg",
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Presupuesto2027-Principal-optimized.jpg",
       "imagen_credito": "Hoy Día Córdoba",
       "otros": [],
-      "dia": 1,
+      "dia": 0,
       "rostros": null
     },
     {
@@ -369,25 +300,6 @@
       }
     },
     {
-      "id": "d638a8ba66",
-      "seccion": "cordoba",
-      "rel": 21.5,
-      "relevancia": 21.5,
-      "fecha": "2026-11-27T10:00:15-03:00",
-      "hora": "10:00",
-      "titulo": "La Provincia de Córdoba baja un 30% el impuesto Inmobiliario Urbano",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/hoy-cordoba/llaryora-anuncio-una-baja-del-30-en-el-inmobiliario-urbano/",
-      "acceso": "abierto",
-      "resumen": "El gobernador Llaryora anunció que el beneficio impositivo del Presupuesto 2027 alcanzará al 97% de los inmuebles y también prevé una baja de la alícuota general de Ingresos Brutos del 4,75% al 3,50%. También se impulsará una nueva ley de promoción del comercio. La política de reducción tributaria permitirá que $1,5 billones permanezcan en manos de los cordobeses.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/Presupuesto2027-Principal-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "2cfa1d5f51",
       "seccion": "economia",
       "rel": 21.4,
@@ -428,30 +340,6 @@
         "x1": 0.614,
         "y0": 0.12,
         "y1": 0.566
-      }
-    },
-    {
-      "id": "a622d83bbb",
-      "seccion": "economia",
-      "rel": 21.2,
-      "relevancia": 21.2,
-      "fecha": "2026-11-27T08:18:16-03:00",
-      "hora": "08:18",
-      "titulo": "Economía que no crece e inflación que no baja: el combo que pone en jaque a Javier Milei",
-      "fuente": "Cba24n",
-      "url": "https://www.cba24n.com.ar/opinion/economia-que-no-crece-e-inflacion-que-no-baja--el-combo-que-pone-en-jaque-a-javier-milei_a6b0964d7e9c19b75fe26f05d",
-      "acceso": "abierto",
-      "resumen": "El principal desafío para el oficialismo es lograr una estabilización macroeconómica compatible con crecimiento, alivio para los hogares y recuperación de la confianza.",
-      "impacto": null,
-      "imagen": "https://srt-assets.tadevel-cdn.com/6b0966a1e9c19b75fe2702a1/720.jpeg",
-      "imagen_credito": "Cba24n",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.43,
-        "x1": 0.697,
-        "y0": 0.189,
-        "y1": 0.59
       }
     },
     {
@@ -503,25 +391,6 @@
       }
     },
     {
-      "id": "ad0f3e526a",
-      "seccion": "economia",
-      "rel": 19.9,
-      "relevancia": 19.9,
-      "fecha": "2026-11-27T19:00:35-03:00",
-      "hora": "19:00",
-      "titulo": "La suba del dólar mayorista duplicó a la inflación en noviembre",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://hoydia.com.ar/economia/la-suba-del-dolar-mayorista-duplico-a-la-inflacion-en-noviembre/",
-      "acceso": "abierto",
-      "resumen": "Esta dinámica cambiaria se produce en un contexto de mayor demanda de cobertura, incertidumbre sobre la capacidad del Gobierno para afrontar los compromisos de deuda de 2027 y un escenario internacional adverso para las monedas emergentes.",
-      "impacto": null,
-      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/La-suba-del-dolar-mayorista-duplico-a-la-inflacion-en-noviembre-optimized.jpg",
-      "imagen_credito": "Hoy Día Córdoba",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
       "id": "16f635f7bf",
       "seccion": "argentina",
       "rel": 19.8,
@@ -546,30 +415,6 @@
       }
     },
     {
-      "id": "a18bd8f02f",
-      "seccion": "economia",
-      "rel": 19.7,
-      "relevancia": 19.7,
-      "fecha": "2026-11-27T10:50:46-03:00",
-      "hora": "10:50",
-      "titulo": "Las billeteras digitales se consolidan y la IA todavía genera reservas",
-      "fuente": "La Nación",
-      "url": "https://www.lanacion.com.ar/economia/negocios/las-billeteras-digitales-se-consolidan-y-la-ia-todavia-genera-reservas-nid27112026/",
-      "acceso": "suscripcion",
-      "resumen": "Un índice muestra que las billeteras son las preferidas por amplio margen entre los argentinos; en cambio, persisten las dudas sobre las criptomonedas, los pagos internacionales y la posibilidad de delegar decisiones financieras a agentes de inteligencia artificial",
-      "impacto": null,
-      "imagen": "https://resizer.glanacion.com/resizer/v2/LP53E5AA6NBBHG4JX5AWYHH7WE.jpg?auth=af2ba38c520f2220a0b71ecfe7f9e5a880a5f5d4575fc72c213ebaea4bf54753&smart=true&width=2000&height=1333",
-      "imagen_credito": "La Nación",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.223,
-        "x1": 0.476,
-        "y0": 0.099,
-        "y1": 0.478
-      }
-    },
-    {
       "id": "8718d069e1",
       "seccion": "cordoba",
       "rel": 19.6,
@@ -589,10 +434,53 @@
       "rostros": null
     },
     {
+      "id": "5f824f39a3",
+      "seccion": "argentina",
+      "rel": 19.5,
+      "relevancia": 19.5,
+      "fecha": "2026-11-27T22:03:06-03:00",
+      "hora": "22:03",
+      "titulo": "Milei dispuesto a no avalar recursos para las universidades y discapacidad",
+      "fuente": "Página/12",
+      "url": "https://www.pagina12.com.ar/2026/11/28/milei-dispuesto-a-no-avalar-recursos-para-las-universidades-y-discapacidad/",
+      "acceso": "suscripcion",
+      "resumen": "El gobierno buscará revertir el aumento de partidas para las casas de estudio. Presión sobre la UCR y gobernadores. Busca que la nueva ley de discapacidad quede sin recursos.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/A3ZKHPTPCRAYHL2Z3TKCI66UUE.jpg?auth=5524d6f04e0427f88c6363b9781b28f9f3c4b154eaaf6b664d8f0224d986b611&smart=true&width=2500&height=1667",
+      "imagen_credito": "Página/12",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.744,
+        "x1": 0.914,
+        "y0": 0.485,
+        "y1": 0.74
+      }
+    },
+    {
+      "id": "ad0f3e526a",
+      "seccion": "economia",
+      "rel": 19.0,
+      "relevancia": 19.0,
+      "fecha": "2026-11-27T19:00:35-03:00",
+      "hora": "19:00",
+      "titulo": "La suba del dólar mayorista duplicó a la inflación en noviembre",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/economia/la-suba-del-dolar-mayorista-duplico-a-la-inflacion-en-noviembre/",
+      "acceso": "abierto",
+      "resumen": "Esta dinámica cambiaria se produce en un contexto de mayor demanda de cobertura, incertidumbre sobre la capacidad del Gobierno para afrontar los compromisos de deuda de 2027 y un escenario internacional adverso para las monedas emergentes.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/La-suba-del-dolar-mayorista-duplico-a-la-inflacion-en-noviembre-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
       "id": "a5e0dee20c",
       "seccion": "economia",
-      "rel": 19.3,
-      "relevancia": 19.3,
+      "rel": 18.5,
+      "relevancia": 18.5,
       "fecha": "2026-11-27T15:41:19-03:00",
       "hora": "15:41",
       "titulo": "Cómo organizan el mes los hogares argentinos: capacidad de ahorro, uso del crédito y expectativas económicas",
@@ -613,10 +501,34 @@
       }
     },
     {
+      "id": "01a828f70b",
+      "seccion": "cordoba",
+      "rel": 18.4,
+      "relevancia": 18.4,
+      "fecha": "2026-11-27T15:20:50-03:00",
+      "hora": "15:20",
+      "titulo": "Córdoba eliminará el impuesto de Sellos para la compra de maquinaria fabricada en Córdoba",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/economia/cordoba-eliminara-del-impuesto-de-sellos-para-la-compra-de-maquinaria-fabricada-en-cordoba/",
+      "acceso": "abierto",
+      "resumen": "El gobernador Martín Llaryora anunció en Bell Ville que quienes adquieran bienes industriales fabricados en Córdoba estarán exentos del pago del impuesto de Sellos, una medida destinada a incentivar la demanda de productos locales, fortalecer la actividad industrial y sostener el empleo privado. El anuncio se realizó durante un encuentro con representantes de la Comisión […]",
+      "impacto": null,
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-27-at-13.40.43.jpeg",
+      "imagen_credito": "Comercio y Justicia",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.101,
+        "x1": 0.311,
+        "y0": 0.127,
+        "y1": 0.462
+      }
+    },
+    {
       "id": "d7395f8cab",
       "seccion": "economia",
-      "rel": 18.9,
-      "relevancia": 18.9,
+      "rel": 18.1,
+      "relevancia": 18.1,
       "fecha": "2026-11-27T13:23:00-03:00",
       "hora": "13:23",
       "titulo": "El Gobierno oficializó la emisión y ampliación de siete títulos de deuda en pesos y dólares",
@@ -627,68 +539,6 @@
       "impacto": null,
       "imagen": "https://comercioyjusticia.info/wp-content/uploads/2023/11/ministerio-de-economia-de-la-nacion-jpg.webp",
       "imagen_credito": "Comercio y Justicia",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "e78ab5f186",
-      "seccion": "cordoba",
-      "rel": 18.6,
-      "relevancia": 18.6,
-      "fecha": "2026-11-27T11:35:37-03:00",
-      "hora": "11:35",
-      "titulo": "La Iglesia de Córdoba celebra la ley de ludopatía y advierte que “sin reglamentación, es como que la ley no existiera”",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/la-iglesia-de-cordoba-celebra-la-ley-de-ludopatia-y-advierte-que-sin-reglamentacion-es-como-que-la-ley-no-existiera-aGUGX3W7A4hP",
-      "acceso": "abierto",
-      "resumen": "Munir Bracco, vocero de la Arquidiócesis, valoró la sanción unánime del Senado como “un clamor social” atendido. Pidió seguimiento al Ejecutivo, que tiene 120 días para reglamentar la norma. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/6203c8fb034b-ley-ludopatia.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": null
-    },
-    {
-      "id": "7650d9f079",
-      "seccion": "cordoba",
-      "rel": 18.2,
-      "relevancia": 18.2,
-      "fecha": "2026-11-27T09:23:08-03:00",
-      "hora": "09:23",
-      "titulo": "Entre Kicillof y Massa, solo uno le ganaría con claridad a Milei en un balotaje: qué dice una encuesta cordobesa",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/entre-kicillof-y-massa-solo-uno-le-ganaria-con-claridad-a-milei-en-un-balotaje-que-dice-una-encuesta-cordobesa-aOgPf1m9k75G",
-      "acceso": "abierto",
-      "resumen": "La consultora Delfos midió al gobernador bonaerense y al exministro de Economía. Qué pasa en primera vuelta y en una supuesta segunda vuelta. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/7030ecdca6da-mixcollage-23-nov-2026-09-26-am-5202.webp",
-      "imagen_credito": "Perfil",
-      "otros": [],
-      "dia": 1,
-      "rostros": {
-        "x0": 0.003,
-        "x1": 0.963,
-        "y0": 0.098,
-        "y1": 0.736
-      }
-    },
-    {
-      "id": "e347d4a7b5",
-      "seccion": "economia",
-      "rel": 17.5,
-      "relevancia": 17.5,
-      "fecha": "2026-11-27T16:51:40-03:00",
-      "hora": "16:51",
-      "titulo": "Tras la imputación de “Cañito” Flores, la UCR reclama a Prunotto anular los contratos y recuperar los sueldos",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/tras-la-imputacion-de-canito-flores-la-ucr-reclama-a-prunotto-anular-los-contratos-y-recuperar-los-sueldos-ajLUI7P2qqXa",
-      "acceso": "abierto",
-      "resumen": "La imputación del exlegislador Ramón Flores (PJ) reactivó la ofensiva radical. Austin exige a Prunotto anular los contratos de los exasesores, recuperar los sueldos abonados y esclarecer las responsabilidades políticas. Leer más",
-      "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/948134978762-ramon-flores-en-sesion.webp",
-      "imagen_credito": "Perfil",
       "otros": [],
       "dia": 1,
       "rostros": null
@@ -718,10 +568,29 @@
       }
     },
     {
+      "id": "e347d4a7b5",
+      "seccion": "economia",
+      "rel": 16.7,
+      "relevancia": 16.7,
+      "fecha": "2026-11-27T16:51:40-03:00",
+      "hora": "16:51",
+      "titulo": "Tras la imputación de “Cañito” Flores, la UCR reclama a Prunotto anular los contratos y recuperar los sueldos",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/cordoba/tras-la-imputacion-de-canito-flores-la-ucr-reclama-a-prunotto-anular-los-contratos-y-recuperar-los-sueldos-ajLUI7P2qqXa",
+      "acceso": "abierto",
+      "resumen": "La imputación del exlegislador Ramón Flores (PJ) reactivó la ofensiva radical. Austin exige a Prunotto anular los contratos de los exasesores, recuperar los sueldos abonados y esclarecer las responsabilidades políticas. Leer más",
+      "impacto": null,
+      "imagen": "https://media.perfil.com/prod/images/gm_preview/948134978762-ramon-flores-en-sesion.webp",
+      "imagen_credito": "Perfil",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
       "id": "9224aa9de0",
       "seccion": "economia",
-      "rel": 14.2,
-      "relevancia": 14.2,
+      "rel": 13.4,
+      "relevancia": 13.4,
       "fecha": "2026-11-27T21:20:49-03:00",
       "hora": "21:20",
       "titulo": "Paritarias: oferta a UEPC incluye 22% de suba garantizada, bono de $270 mil y sorprende con baja a 6% de la alícuota máxima a la Caja",
@@ -737,29 +606,34 @@
       "rostros": null
     },
     {
-      "id": "3a74425fc2",
+      "id": "0c55ddf37a",
       "seccion": "cordoba",
-      "rel": 14.1,
-      "relevancia": 14.1,
-      "fecha": "2026-11-27T08:22:02-03:00",
-      "hora": "08:22",
-      "titulo": "El Senado sancionó la ley contra la ludopatía: prohíben la publicidad de apuestas online",
-      "fuente": "Perfil",
-      "url": "https://www.perfil.com/cordoba/el-senado-sanciono-la-ley-contra-la-ludopatia-prohiben-la-publicidad-de-apuestas-online-a9jqr0v0OGwA",
+      "rel": 9.8,
+      "relevancia": 9.8,
+      "fecha": "2026-11-28T11:42:29-03:00",
+      "hora": "11:42",
+      "titulo": "Fin de semana largo de diciembre 2026: cómo se pagan el lunes 7 y el martes 8 según la ley",
+      "fuente": "Comercio y Justicia",
+      "url": "https://comercioyjusticia.info/lo-ultimo/fin-de-semana-largo-de-diciembre-2026-como-se-pagan-el-lunes-7-y-el-martes-8-segun-la-ley/",
       "acceso": "abierto",
-      "resumen": "Tras casi dos años de debate, la Cámara alta convirtió en ley el proyecto para prevenir la ludopatía. La normativa restringe el acceso de menores, elimina la publicidad de las plataformas de apuestas, crea un registro de autoexclusión y establece penas de hasta ocho años de prisión para operadores ilegales. Leer más",
+      "resumen": "El esquema laboral del próximo fin de semana extra largo de diciembre de 2026 presenta diferencias legales sustanciales entre el lunes 7 y el martes 8, impactando directamente en la liquidación de haberes y en la apertura de los comercios. Mientras que el martes rige el descanso obligatorio con remuneración doble para quienes trabajen, la […]",
       "impacto": null,
-      "imagen": "https://media.perfil.com/prod/images/gm_preview/7aa215404622-inkqoowb2bfwbptpqf4y6xz2tq.webp",
-      "imagen_credito": "Perfil",
+      "imagen": "https://comercioyjusticia.info/wp-content/uploads/2026/11/feriados.webp",
+      "imagen_credito": "Comercio y Justicia",
       "otros": [],
-      "dia": 1,
-      "rostros": null
+      "dia": 0,
+      "rostros": {
+        "x0": 0.287,
+        "x1": 0.486,
+        "y0": 0.001,
+        "y1": 0.279
+      }
     },
     {
       "id": "5dcf896cdb",
       "seccion": "economia",
-      "rel": 8.0,
-      "relevancia": 8.0,
+      "rel": 7.2,
+      "relevancia": 7.2,
       "fecha": "2026-11-27T19:52:57-03:00",
       "hora": "19:52",
       "titulo": "El mes pasado hubo récord histórico de exportaciones agroindustriales",
@@ -775,10 +649,35 @@
       "rostros": null
     },
     {
+      "id": "aec1215436",
+      "seccion": "cordoba",
+      "rel": 33.8,
+      "relevancia": -466.2,
+      "fecha": "2026-11-27T11:49:16-03:00",
+      "hora": "11:49",
+      "titulo": "La Iglesia celebró la sanción de la ley de Ludopatía: “Es un triunfo colectivo de toda la sociedad argentina”",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/argentina/la-iglesia-celebro-la-sancion-de-la-ley-de-ludopatia---es-un-triunfo-colectivo-de-toda-la-sociedad-argentina-_a6b09940eac9a07069d0815fc",
+      "acceso": "abierto",
+      "resumen": "A través de un comunicado, la Comisión Episcopal de Pastoral Social destacó el apoyo unánime de los 72 senadores, a pocos días de que el proyecto pierda estado parlamentario.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6b0997d1ac9a07069d08440c/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [
+        {
+          "fuente": "Hoy Día Córdoba",
+          "titulo": "La Iglesia celebró la sanción de la Ley contra la Ludopatía",
+          "url": "https://hoydia.com.ar/hoypais/la-iglesia-celebro-la-sancion-de-la-ley-contra-la-ludopatia/"
+        }
+      ],
+      "dia": 1,
+      "rostros": null
+    },
+    {
       "id": "6c6b43571b",
       "seccion": "cordoba",
-      "rel": 33.9,
-      "relevancia": -466.1,
+      "rel": 33.1,
+      "relevancia": -466.9,
       "fecha": "2026-11-27T07:14:21-03:00",
       "hora": "07:14",
       "titulo": "El dólar en Córdoba: cuánto a cotiza este viernes 27 de noviembre",
@@ -794,6 +693,31 @@
           "fuente": "La Nación",
           "titulo": "Dólar hoy y dólar blue hoy: a cuánto cotiza este sábado 28 de noviembre",
           "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-sabado-28-de-noviembre-nid28112026/"
+        }
+      ],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "fda673e379",
+      "seccion": "cordoba",
+      "rel": 23.7,
+      "relevancia": -476.3,
+      "fecha": "2026-11-27T10:34:39-03:00",
+      "hora": "10:34",
+      "titulo": "El Senado aprobó por unanimidad crear un registro nacional de deudores alimentarios",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/politica/nacional/el-senado-aprobo-por-unanimidad-crear-un-registro-nacional-de-deudores-alimentarios/",
+      "acceso": "abierto",
+      "resumen": "La iniciativa busca crear un registro en todo el país y establece prohibiciones para los deudores.",
+      "impacto": null,
+      "imagen": "https://grupooctubre-pagina12-prod.web.arc-cdn.net/resizer/v2/GM2TSY3EMU3DQYJVMVSGGMJZGY.jpg?auth=36cb6330c158de208b35a7915426ccedb5fbe24bc9eb6f904c844083238b21d8&smart=true&width=1200&height=799",
+      "imagen_credito": "Página/12",
+      "otros": [
+        {
+          "fuente": "Página/12",
+          "titulo": "El Senado aprobó por unanimidad la Ley de Ludopatía: qué cambia",
+          "url": "https://www.pagina12.com.ar/2026/11/26/que-cambia-con-la-ley-de-prevencion-de-la-ludopatia/"
         }
       ],
       "dia": 1,
@@ -843,6 +767,68 @@
       "rostros": null
     },
     {
+      "id": "937c8a6004",
+      "seccion": "economia",
+      "rel": 21.8,
+      "relevancia": -478.2,
+      "fecha": "2026-11-27T11:34:57-03:00",
+      "hora": "11:34",
+      "titulo": "El plan de Caputo para pagar el vencimiento de deuda de enero de US$4370 millones: ingresos externos, venta de AySA y préstamos garantizados",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/economia/el-plan-de-caputo-para-pagar-el-vencimiento-de-deuda-de-enero-de-us4370-millones-ingresos-externos-nid27112026/",
+      "acceso": "suscripcion",
+      "resumen": "El ministro de Economía sostuvo que hay US$5000 millones que ya fueron aprobados por Pekín",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/YCZXPMEJAZAGRD6JG6F34LXA3A.jpg?auth=c7e146bba7a1f2ff2d15cb4f3b94e857bf19820dec5e167daf7f90595370e47f&smart=true&width=4235&height=2823",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
+      "id": "fca83d0a32",
+      "seccion": "argentina",
+      "rel": 21.7,
+      "relevancia": -478.3,
+      "fecha": "2026-11-27T10:52:14-03:00",
+      "hora": "10:52",
+      "titulo": "Bullrich defendió la suspensión de las PASO, volvió a hablar de un “proyecto que reelija” y pidió más alivio económico",
+      "fuente": "La Nación",
+      "url": "https://www.lanacion.com.ar/politica/bullrich-defendio-la-suspension-de-las-paso-volvio-a-hablar-de-un-proyecto-que-reelija-y-pidio-mas-nid27112026/",
+      "acceso": "suscripcion",
+      "resumen": "La jefa del bloque oficialista en el Senado evitó referirse a un Milei candidato y aseguró que Karina no puede pedirle “que se baje de algo a lo que nunca se subió”",
+      "impacto": null,
+      "imagen": "https://resizer.glanacion.com/resizer/v2/CLGPVFKUOJAFFDDNPB24X37WOM.jpg?auth=cc2fca5edd3d38dbfe00eae4181f0226deb61d77f1f9348506b8858d0fb41b1f&smart=true&width=2000&height=1333",
+      "imagen_credito": "La Nación",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.287,
+        "x1": 0.566,
+        "y0": 0.122,
+        "y1": 0.541
+      }
+    },
+    {
+      "id": "3b7ac643ac",
+      "seccion": "cordoba",
+      "rel": 21.6,
+      "relevancia": -478.4,
+      "fecha": "2026-11-27T10:12:58-03:00",
+      "hora": "10:12",
+      "titulo": "Un proyecto de IA para educación inclusiva ganó el certamen Solve for Tomorrow",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://hoydia.com.ar/tecnologia/un-proyecto-de-inteligencia-artificial-para-educacion-inclusiva-gano-solve-for-tomorrow/",
+      "acceso": "abierto",
+      "resumen": "La 13.ª edición del programa educativo de Samsung Argentina, coronó a estudiantes de San Luis con una plataforma de IA para adaptar contenidos a chicos con discapacidad. Un proyecto cordobés sobre bienestar escolar también llegó a la final.",
+      "impacto": null,
+      "imagen": "https://hoydia.com.ar/wp-content/uploads/2026/11/289-1795788740773-SFT_2026_Adelanto_dia_II-42-1000x665-1-optimized.jpg",
+      "imagen_credito": "Hoy Día Córdoba",
+      "otros": [],
+      "dia": 1,
+      "rostros": null
+    },
+    {
       "id": "1e8950b94f",
       "seccion": "argentina",
       "rel": 21.4,
@@ -860,6 +846,30 @@
       "otros": [],
       "dia": 1,
       "rostros": null
+    },
+    {
+      "id": "a622d83bbb",
+      "seccion": "economia",
+      "rel": 21.2,
+      "relevancia": -478.8,
+      "fecha": "2026-11-27T08:18:16-03:00",
+      "hora": "08:18",
+      "titulo": "Economía que no crece e inflación que no baja: el combo que pone en jaque a Javier Milei",
+      "fuente": "Cba24n",
+      "url": "https://www.cba24n.com.ar/opinion/economia-que-no-crece-e-inflacion-que-no-baja--el-combo-que-pone-en-jaque-a-javier-milei_a6b0964d7e9c19b75fe26f05d",
+      "acceso": "abierto",
+      "resumen": "El principal desafío para el oficialismo es lograr una estabilización macroeconómica compatible con crecimiento, alivio para los hogares y recuperación de la confianza.",
+      "impacto": null,
+      "imagen": "https://srt-assets.tadevel-cdn.com/6b0966a1e9c19b75fe2702a1/720.jpeg",
+      "imagen_credito": "Cba24n",
+      "otros": [],
+      "dia": 1,
+      "rostros": {
+        "x0": 0.43,
+        "x1": 0.697,
+        "y0": 0.189,
+        "y1": 0.59
+      }
     },
     {
       "id": "ac19f9f677",

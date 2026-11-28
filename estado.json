@@ -1,46 +1,52 @@
 {
-  "actualizado": "2026-11-28T07:53:28-03:00",
+  "actualizado": "2026-11-28T12:53:42-03:00",
   "medios": [
     {
       "medio": "Infobae",
       "leidas": 100,
-      "aceptadas": 1,
+      "aceptadas": 0,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 98,
+          "cantidad": 99,
           "ejemplos": [
-            "Un vecino de Cabanillas del Campo (Guadalajara) gana 10 millones de euros en el ",
-            "La jornada de reflexión de las elecciones generales, en directo: Feijóo acudirá ",
-            "Perico Delgado, sobre la bici eléctrica: Con ella, a los 80 vuelven a disfrutar "
+            "Llegará el Gran Festival de The Beatles a la GAM con jornada de conciertos gratu",
+            "Perdió más de 100 kilos, se operó para retirar la piel sobrante y ahora podría s",
+            "Deporte, paseos en familia y un viaje a Ceuta: así pasan los candidatos la jorna"
           ]
         },
-        "otro país": {
+        "titular sin tema de política/economía": {
           "cantidad": 1,
           "ejemplos": [
-            "Cuenta regresiva para el fallo del Tribunal del Mar sobre el petróleo de Malvina"
+            "Los errores diplomáticos de Quirno facilitaron la victoria del Reino Unido en el"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 83,
-      "aceptadas": 3,
+      "leidas": 80,
+      "aceptadas": 2,
       "descartadas": {
-        "titular sin tema de política/economía": {
-          "cantidad": 11,
+        "sección no permitida": {
+          "cantidad": 62,
           "ejemplos": [
-            "El limón argentino ya registra tres récords y un inesperado coletazo por la guer",
-            "El Tribunal del Mar define si acepta el reclamo argentino para frenar la explota",
-            "Identifican una proteína que conecta el reloj biológico con la inmunidad vegetal"
+            "Se retiró Ryduan Palermo, el hijo de Martín: “Hoy elijo otro camino y será con e",
+            "Franco Colapinto quedó 16° en la práctica 3 del Gran Premio de Qatar de Fórmula ",
+            "De qué murió Javier Lozano, periodista de TN y eltrece, a los 66 años"
           ]
         },
-        "sección no permitida": {
-          "cantidad": 68,
+        "titular sin tema de política/economía": {
+          "cantidad": 14,
           "ejemplos": [
-            "Efemérides del 28 de noviembre: ¿qué pasó un día como hoy?",
-            "Seguros para el hogar: qué cubren los servicios de reparación de emergencia y cu",
-            "Entre Milei y Lula, Sánchez internacionalizó una campaña que mira toda Europa"
+            "La reacción de un exsecretario de Malvinas por el impacto que podría tener el fa",
+            "El Tribunal del Mar rechazó el reclamo argentino para frenar provisoriamente la ",
+            "Los 4 argumentos de la Argentina sobre el reclamo por Malvinas y las razones del"
+          ]
+        },
+        "otro país": {
+          "cantidad": 1,
+          "ejemplos": [
+            "El Gobierno lamenta que siga la explotación petrolera en Malvinas, pero celebra "
           ]
         },
         "sin ancla argentina": {
@@ -57,7 +63,7 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 4,
+          "cantidad": 3,
           "ejemplos": [
             "Desobedecer la sangre",
             "Lo que se ve no se pregunta: aquel escándalo llamado Federico Klemm",
@@ -65,26 +71,26 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 6,
+          "cantidad": 7,
           "ejemplos": [
+            "San Isidro-La Quintana: un conflicto inmobiliario pone en discusión el ordenamie",
             "Córdoba: capital de la música en vivo",
-            "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
-            "La soberanía es un sueño eterno"
+            "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa"
           ]
         }
       }
     },
     {
       "medio": "Página/12",
-      "leidas": 4,
-      "aceptadas": 1,
+      "leidas": 6,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
-            "Una piedra en el zapato llamada universidades públicas",
-            "Exitos y más éxitos",
-            "Mariana Enriquez: “El terror es un género que siempre habla con su época”"
+            "El Tribunal del Mar rechazó el pedido argentino para frenar la explotación petro",
+            "Fallo del Tribunal del Mar: Londres celebró la decisión",
+            "Exitos y más éxitos"
           ]
         }
       }
@@ -92,14 +98,14 @@
     {
       "medio": "Hoy Día Córdoba",
       "leidas": 20,
-      "aceptadas": 3,
+      "aceptadas": 5,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 16,
+          "cantidad": 14,
           "ejemplos": [
-            "Gorillaz en la cima: crónica de un debut inolvidable en Córdoba",
-            "Qué revisar en el auto antes de salir de vacaciones por las rutas argentinas",
-            "Estudiantes va por la quinta Copa Libertadores ante Palmeiras"
+            "Córdoba tendrá un fin de semana caluroso: las máximas llegarán a 35°C",
+            "Estudiantes movilizó a 40.000 hinchas a Montevideo para la final",
+            "Incendio en una vivienda de Córdoba: rescataron a un perro y un gato"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -116,11 +122,11 @@
       "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 27,
+          "cantidad": 24,
           "ejemplos": [
+            "Cronograma de pagos en Córdoba: cuándo cobran jubilados y estatales los haberes ",
             "Los argentinos compraron más de USD 3.000 millones en octubre",
-            "Córdoba designó nuevos escribanos titulares para cubrir registros notariales vac",
-            "Córdoba abrió la convocatoria 2027 para obtener la matrícula habilitante de Medi"
+            "Córdoba designó nuevos escribanos titulares para cubrir registros notariales vac"
           ]
         },
         "otro país": {
@@ -137,11 +143,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 31,
+          "cantidad": 34,
           "ejemplos": [
-            "Apps de viajes: siete empresas inscriptas y 4.600 conductores en regla, pero 75%",
-            "Stellantis Argentina inauguró su nueva fábrica de motores en Córdoba",
-            "Oralidad civil: 77% de las causas finalizó antes de los dos años"
+            "Diego Santilli desmintió los “30.000 terroristas” de Javier Milei y aclaró que e",
+            "La CGT confirmó una nueva medida de fuerza contra el Gobierno y evalúa realizar ",
+            "Punta del Este: Cipriani anunció la agenda de temporada con gastronomía, música "
           ]
         }
       }
@@ -149,22 +155,21 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 4,
+      "aceptadas": 2,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 12,
+          "cantidad": 15,
           "ejemplos": [
-            "Nuevo Volkswagen Tera MY27: el SUV suma confort y nueva tecnología en Argentina",
-            "Cacique Medina, listo para hacer historia: \"Tenemos claro cómo jugarle a Palmeir",
-            "Nicolás Kreplak en Córdoba: “La discusión del derecho a la salud está muy vulner"
+            "Estudiantes y Palmeiras van por la Copa Libertadores: hora y dónde ver la final",
+            "Ford Ranger Tremor: cómo será la nueva pick-up que se fabricará en Argentina y l",
+            "Malvinas: el Tribunal del Mar rechazó el pedido argentino para frenar la explota"
           ]
         },
         "otro país": {
-          "cantidad": 3,
+          "cantidad": 2,
           "ejemplos": [
             "Lobo Medina: filtran audio con pedido de 15 mil dólares",
-            "España: se esperan unas elecciones muy reñidas",
-            "Villa María: investigan un presunto ajuste de cuentas que involucra a empresario"
+            "España: se esperan unas elecciones muy reñidas"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -181,7 +186,7 @@
     },
     {
       "medio": "Punto a Punto",
-      "error": "no se pudo leer el feed (not well-formed (invalid token): line 1, column 2513)"
+      "error": "no se pudo leer el feed (HTTP Error 415: Unsupported Media Type)"
     },
     {
       "medio": "Cadena 3",
@@ -193,31 +198,19 @@
       "aceptadas": 14,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 21,
+          "cantidad": 18,
           "ejemplos": [
+            "Instituto, a todo o nada contra River por un lugar en la semifinal",
             "Curaçao: la isla que conquista con sus colores, su cultura y sus sonrisas",
-            "Detuvieron en Bell Ville a tres sospechosos por balear a un comerciante de Villa",
-            "Instituto-River en Córdoba: más de 570 personas estarán a cargo de la seguridad "
-          ]
-        },
-        "otro país": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Stellantis reclama más impuestos a los autos importados: “No es suficiente” para"
-          ]
-        },
-        "deportes/policiales/clima/espectáculos": {
-          "cantidad": 1,
-          "ejemplos": [
-            "Suspenden el \"GP de la ciudad de Córdoba\" y apuntan al costo policial: Qué dijo "
+            "Detuvieron en Bell Ville a tres sospechosos por balear a un comerciante de Villa"
           ]
         },
         "muy vieja": {
-          "cantidad": 13,
+          "cantidad": 18,
           "ejemplos": [
-            "Schiaretti cuestionó a Quirno por no reconocer el triunfo de Lula en Brasil",
-            "Milénica: tres proyectos de Grupo Dinosaurio con unidades desde US$ 85.000",
-            "Austin confrontó a Zornberg por la inversión social, el ajuste educativo y los f"
+            "Ricardo Mazzuchi y Jorge Saieg: renuncia, sumario e imputaciones penales y un al",
+            "Stellantis reclama más impuestos a los autos importados: “No es suficiente” para",
+            "Luque se prepara para la Fiesta del Reencuentro con música, danzas y actividades"
           ]
         }
       }
