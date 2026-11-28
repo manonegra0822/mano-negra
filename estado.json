@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-27T19:54:07-03:00",
+  "actualizado": "2026-11-28T07:53:28-03:00",
   "medios": [
     {
       "medio": "Infobae",
@@ -7,54 +7,46 @@
       "aceptadas": 1,
       "descartadas": {
         "sección no permitida": {
-          "cantidad": 97,
+          "cantidad": 98,
           "ejemplos": [
-            "Carlos Zambrano habló sobre su posible regreso a Alianza Lima para el 2027: “Soy",
-            "Alejandra Baigorria se pronunció sobre Francho Sierralta tras ser expuesto en sh",
-            "Tras su polémica salida de La Granja VIP, Bebeshita lanza fuerte indirecta: “Soy"
+            "Un vecino de Cabanillas del Campo (Guadalajara) gana 10 millones de euros en el ",
+            "La jornada de reflexión de las elecciones generales, en directo: Feijóo acudirá ",
+            "Perico Delgado, sobre la bici eléctrica: Con ella, a los 80 vuelven a disfrutar "
           ]
         },
-        "titular sin tema de política/economía": {
+        "otro país": {
           "cantidad": 1,
           "ejemplos": [
-            "Renunció el interventor de los medios públicos y lo reemplazará Fernando Subirat"
-          ]
-        },
-        "sin ancla argentina": {
-          "cantidad": 1,
-          "ejemplos": [
-            "El Banco Central retomó la compra de dólares y cortó una racha de cuatro ruedas "
+            "Cuenta regresiva para el fallo del Tribunal del Mar sobre el petróleo de Malvina"
           ]
         }
       }
     },
     {
       "medio": "La Nación",
-      "leidas": 85,
-      "aceptadas": 9,
+      "leidas": 83,
+      "aceptadas": 3,
       "descartadas": {
-        "sección no permitida": {
-          "cantidad": 61,
+        "titular sin tema de política/economía": {
+          "cantidad": 11,
           "ejemplos": [
-            "Qué ver en Netflix: las mejores películas y series para disfrutar este fin de se",
-            "De City Bell a Canelones: el laboratorio de Estudiantes, entre termos, mates y u",
-            "Escándalo en Nueva York: Hochul le pidió la renuncia al jefe de sindicato de la "
+            "El limón argentino ya registra tres récords y un inesperado coletazo por la guer",
+            "El Tribunal del Mar define si acepta el reclamo argentino para frenar la explota",
+            "Identifican una proteína que conecta el reloj biológico con la inmunidad vegetal"
           ]
         },
-        "titular sin tema de política/economía": {
-          "cantidad": 10,
+        "sección no permitida": {
+          "cantidad": 68,
           "ejemplos": [
-            "“Carne dopada”: la frase de Emmanuel Macron que generó un revuelo en el Mercosur",
-            "El limón argentino ya registra tres récords y un inesperado coletazo por la guer",
-            "Murió Jorge Born: un apellido, un imperio y el final de una época del empresaria"
+            "Efemérides del 28 de noviembre: ¿qué pasó un día como hoy?",
+            "Seguros para el hogar: qué cubren los servicios de reparación de emergencia y cu",
+            "Entre Milei y Lula, Sánchez internacionalizó una campaña que mira toda Europa"
           ]
         },
         "sin ancla argentina": {
-          "cantidad": 5,
+          "cantidad": 1,
           "ejemplos": [
-            "El Banco Central volvió a comprar reservas: se alzó hoy con US$61 millones",
-            "Las exportaciones agroindustriales de octubre marcaron un récord: US$5717 millon",
-            "Siguió elevada la demanda privada de dólares en octubre y crecieron los envíos a"
+            "Las jubilaciones docentes subirán en diciembre entre 3% y 5,44% y los nuevos mon"
           ]
         }
       }
@@ -65,15 +57,15 @@
       "aceptadas": 0,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 3,
+          "cantidad": 4,
           "ejemplos": [
+            "Desobedecer la sangre",
             "Lo que se ve no se pregunta: aquel escándalo llamado Federico Klemm",
-            "¿Otra vez hay que explicarlo? Un 25N para repetir lo que ya está dicho",
-            "San Isidro-La Quintana: un conflicto inmobiliario pone en discusión el ordenamie"
+            "¿Otra vez hay que explicarlo? Un 25N para repetir lo que ya está dicho"
           ]
         },
         "muy vieja": {
-          "cantidad": 7,
+          "cantidad": 6,
           "ejemplos": [
             "Córdoba: capital de la música en vivo",
             "“¿Por qué marchan?”: el orgullo como resistencia, memoria y disputa",
@@ -84,14 +76,15 @@
     },
     {
       "medio": "Página/12",
-      "leidas": 6,
-      "aceptadas": 4,
+      "leidas": 4,
+      "aceptadas": 1,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 2,
+          "cantidad": 3,
           "ejemplos": [
-            "EE.UU. y la Copa Gringa con papas fritas",
-            "Murió el empresario Jorge Born"
+            "Una piedra en el zapato llamada universidades públicas",
+            "Exitos y más éxitos",
+            "Mariana Enriquez: “El terror es un género que siempre habla con su época”"
           ]
         }
       }
@@ -104,9 +97,9 @@
         "titular sin tema de política/economía": {
           "cantidad": 16,
           "ejemplos": [
+            "Gorillaz en la cima: crónica de un debut inolvidable en Córdoba",
             "Qué revisar en el auto antes de salir de vacaciones por las rutas argentinas",
-            "Estudiantes va por la quinta Copa Libertadores ante Palmeiras",
-            "Colapinto tuvo una mala jornada en las prácticas libres del GP de Qatar"
+            "Estudiantes va por la quinta Copa Libertadores ante Palmeiras"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -120,10 +113,10 @@
     {
       "medio": "Comercio y Justicia",
       "leidas": 80,
-      "aceptadas": 21,
+      "aceptadas": 19,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 38,
+          "cantidad": 27,
           "ejemplos": [
             "Los argentinos compraron más de USD 3.000 millones en octubre",
             "Córdoba designó nuevos escribanos titulares para cubrir registros notariales vac",
@@ -138,18 +131,17 @@
           ]
         },
         "deportes/policiales/clima/espectáculos": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Se concretó la séptima fase de la operación internacional “Aliados por la Infanc",
-            "El Instituto Nacional de la Propiedad Industrial busca profesionales para sumar "
+            "Se concretó la séptima fase de la operación internacional “Aliados por la Infanc"
           ]
         },
         "muy vieja": {
-          "cantidad": 17,
+          "cantidad": 31,
           "ejemplos": [
-            "El consumo en mayoristas y shoppings repuntó en septiembre",
-            "Santilli en el Senado: “Milei hoy va por la reelección”",
-            "Declaran el Estado de Desastre en San Francisco luego de los daños del 19 de nov"
+            "Apps de viajes: siete empresas inscriptas y 4.600 conductores en regla, pero 75%",
+            "Stellantis Argentina inauguró su nueva fábrica de motores en Córdoba",
+            "Oralidad civil: 77% de las causas finalizó antes de los dos años"
           ]
         }
       }
@@ -157,20 +149,28 @@
     {
       "medio": "Cba24n",
       "leidas": 20,
-      "aceptadas": 6,
+      "aceptadas": 4,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 13,
+          "cantidad": 12,
           "ejemplos": [
-            "“Retazos de la Memoria”: el cine cordobés viaja al corazón de la Amazonía",
-            "Pauny: se agrava la crisis y el gremio dice que la empresa “no tienen fondos”",
-            "Puma cerró una de sus dos fábricas en Argentina: despidió a 50 trabajadores"
+            "Nuevo Volkswagen Tera MY27: el SUV suma confort y nueva tecnología en Argentina",
+            "Cacique Medina, listo para hacer historia: \"Tenemos claro cómo jugarle a Palmeir",
+            "Nicolás Kreplak en Córdoba: “La discusión del derecho a la salud está muy vulner"
           ]
         },
         "otro país": {
+          "cantidad": 3,
+          "ejemplos": [
+            "Lobo Medina: filtran audio con pedido de 15 mil dólares",
+            "España: se esperan unas elecciones muy reñidas",
+            "Villa María: investigan un presunto ajuste de cuentas que involucra a empresario"
+          ]
+        },
+        "deportes/policiales/clima/espectáculos": {
           "cantidad": 1,
           "ejemplos": [
-            "Villa María: investigan un presunto ajuste de cuentas que involucra a empresario"
+            "La nueva ley de ludopatía obliga a 10 clubes de la Liga Profesional a revisar su"
           ]
         }
       }
@@ -190,21 +190,20 @@
     {
       "medio": "Perfil",
       "leidas": 50,
-      "aceptadas": 16,
+      "aceptadas": 14,
       "descartadas": {
         "titular sin tema de política/economía": {
-          "cantidad": 20,
+          "cantidad": 21,
           "ejemplos": [
+            "Curaçao: la isla que conquista con sus colores, su cultura y sus sonrisas",
             "Detuvieron en Bell Ville a tres sospechosos por balear a un comerciante de Villa",
-            "Instituto-River en Córdoba: más de 570 personas estarán a cargo de la seguridad ",
-            "Empresario 2026: los CFO que lideran la estrategia financiera de empresas cordob"
+            "Instituto-River en Córdoba: más de 570 personas estarán a cargo de la seguridad "
           ]
         },
         "otro país": {
-          "cantidad": 2,
+          "cantidad": 1,
           "ejemplos": [
-            "Stellantis reclama más impuestos a los autos importados: “No es suficiente” para",
-            "Schiaretti cuestionó a Quirno por no reconocer el triunfo de Lula en Brasil"
+            "Stellantis reclama más impuestos a los autos importados: “No es suficiente” para"
           ]
         },
         "deportes/policiales/clima/espectáculos": {
@@ -214,11 +213,11 @@
           ]
         },
         "muy vieja": {
-          "cantidad": 11,
+          "cantidad": 13,
           "ejemplos": [
-            "Bancor activa nuevos hipotecarios: quiénes pueden acceder y cuánto pueden pedir",
-            "Liberaron bajo fianza a uno de los acróbatas cordobeses detenidos en Estados Uni",
-            "\"La misma recesión técnica\": Córdoba también cayó dos trimestres seguidos, según"
+            "Schiaretti cuestionó a Quirno por no reconocer el triunfo de Lula en Brasil",
+            "Milénica: tres proyectos de Grupo Dinosaurio con unidades desde US$ 85.000",
+            "Austin confrontó a Zornberg por la inversión social, el ajuste educativo y los f"
           ]
         }
       }
